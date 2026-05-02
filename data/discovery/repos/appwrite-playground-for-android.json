@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-android",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-android",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-android",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:29:40.294374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple examples that help you get started with Appwrite + Android (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-android",
+    "html_url": "https://github.com/appwrite/playground-for-android",
+    "language": "Kotlin",
+    "pushed_at": "2024-09-05T13:18:22Z",
+    "stargazers_count": 71,
+    "topics": [
+      "appwrite",
+      "baas",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-02-25T04:27:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

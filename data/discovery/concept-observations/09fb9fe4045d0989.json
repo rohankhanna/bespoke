@@ -84,7 +84,7 @@
   "normalized_form": "ci-failure-doctor",
   "observation_id": "09fb9fe4045d0989",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "CI Failure Doctor",
   "source_context_snippet": "\"CI Failure Doctor\"",
   "source_file": ".github/workflows/ci-doctor.lock.yml",

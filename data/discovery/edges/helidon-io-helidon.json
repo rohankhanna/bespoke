@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "helidon-io/helidon",
+      "target": "heldon-io/helidon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helidon-io/helidon",
       "target": "oracle/helidon",
       "target_type": "repository"
     },
@@ -148,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "helidon-io/helidon"
 }

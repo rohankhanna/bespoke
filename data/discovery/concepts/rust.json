@@ -7384,6 +7384,126 @@
       "source_repo": "zhihu/rucene",
       "status": "candidate-context",
       "text": "Rucene - Rust implementation of Lucene"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "a debugger for async rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate-context",
+      "text": "Rust crates for XetHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate-context",
+      "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Splode/pomotroid",
+      "status": "candidate-context",
+      "text": ":tomato: Simple and visually-pleasing Pomodoro timer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Splode/pomotroid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate-context",
+      "text": "A low-level library for OpenGL context creation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate-context",
+      "text": "A low-level library for OpenGL context creation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "status": "candidate-context",
+      "text": "Example web app with login session using warp, diesel and ructe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "Secure and fast microVMs for serverless computing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate-context",
+      "text": "Lakekeeper is an Apache-Licensed, secure, fast and easy to use Apache Iceberg REST Catalog written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate-context",
+      "text": "[![Website](https://img.shields.io/badge/https-lakekeeper.io-blue?color=3d4db3&logo=firefox&style=for-the-badge&logoColor=white)](https://lakekeeper.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -11172,6 +11292,66 @@
       "source_repo": "zhihu/rucene",
       "status": "candidate",
       "text": "Rucene - Rust implementation of Lucene"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate",
+      "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Splode/pomotroid",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate",
+      "text": "A low-level library for OpenGL context creation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate",
+      "text": "[![Website](https://img.shields.io/badge/https-lakekeeper.io-blue?color=3d4db3&logo=firefox&style=for-the-badge&logoColor=white)](https://lakekeeper.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [
@@ -17269,11 +17449,221 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xetdata/xet-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Splode/pomotroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/glutin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kaj/warp-diesel-ructe-sample"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "getzola/zola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lakekeeper/lakekeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "supabase/etl"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

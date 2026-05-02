@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build APK"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayNG",
+      "status": "candidate-context",
+      "text": "A V2Ray client for Android, support Xray core and v2fly core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayNG",
+      "status": "candidate-context",
+      "text": "Build APK"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayNG",
+      "status": "candidate",
+      "text": "Build APK"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build APK",
+  "concept_id": "build-apk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayNG"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build APK",
+      "sense_id": "build-apk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

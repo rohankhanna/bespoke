@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Proposal to add partial application to ECMAScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Spec to gh-pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Spec to gh-pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10776,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10776,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "already"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "bid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "bless"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Spec to gh-pages",
+      "sense_id": "publish-spec-to-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-spec-to-gh-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-spec-to-gh-pages",
+  "observation_id": "c5d9382274d3a21b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Publish Spec to gh-pages",
+  "source_context_snippet": "Publish Spec to gh-pages",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "tc39/proposal-partial-application",
+  "source_repo_description": "Proposal to add partial application to ECMAScript"
+}

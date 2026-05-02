@@ -48,7 +48,7 @@
   "normalized_form": "clang-tidy",
   "observation_id": "71b50622e8c981d9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Clang-Tidy",
   "source_context_snippet": "Clang-Tidy",
   "source_file": ".github/workflows/clang-tidy.yml",

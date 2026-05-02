@@ -127,6 +127,72 @@
       "source_repo": "caro401/royal-velvet",
       "status": "candidate-context",
       "text": "A theme for [Obsidian](https://obsidian.md/), inspired by the beautiful colours of [Royal Velvet Obsidian](https://duckduckgo.com/?t=ffab&q=Mexican+Royal+Velvet+Obsidian&iax=images&ia=images) and the distinct colours used in programming syntax highlighting themes. Now supports b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "A data index and query language over Markdown files, for https://obsidian.md/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "BRAT - Beta Reviewer's Auto-update Tool for Obsidian. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "![](media/brat.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tillahoffmann/obsidian-file-include",
+      "status": "candidate-context",
+      "text": "![](demo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfarragher/obsidiantools-demo",
+      "status": "candidate-context",
+      "text": "Demo of obsidiantools Python package (for Binder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools-demo",
+      "status": "candidate-context",
+      "text": "This is a public repo for exploring the functionality of `obsidiantools` as a Binder project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "A beautiful minimalism theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "A distraction-free and highly customizable theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "![](/cover.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +255,42 @@
       "source_repo": "caro401/royal-velvet",
       "status": "candidate",
       "text": "A theme for [Obsidian](https://obsidian.md/), inspired by the beautiful colours of [Royal Velvet Obsidian](https://duckduckgo.com/?t=ffab&q=Mexican+Royal+Velvet+Obsidian&iax=images&ia=images) and the distinct colours used in programming syntax highlighting themes. Now supports b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate",
+      "text": "![](media/brat.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tillahoffmann/obsidian-file-include",
+      "status": "candidate",
+      "text": "![](demo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools-demo",
+      "status": "candidate",
+      "text": "This is a public repo for exploring the functionality of `obsidiantools` as a Binder project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate",
+      "text": "![](/cover.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +358,53 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "caro401/royal-velvet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "blacksmithgu/obsidian-dataview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "TfTHacker/obsidian42-brat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tillahoffmann/obsidian-file-include"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

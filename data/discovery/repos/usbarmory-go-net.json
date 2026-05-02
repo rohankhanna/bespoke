@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/go-net",
+      "target": "usbarmory/tamago-sev-example",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:35:47.642098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3144
+    },
+    {
+      "path": "go.mod",
+      "size": 241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bare metal Go TCP/IP connectivity",
+    "fork": false,
+    "full_name": "usbarmory/go-net",
+    "html_url": "https://github.com/usbarmory/go-net",
+    "language": "Go",
+    "pushed_at": "2026-04-16T16:36:30Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-16T16:36:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/tamago-sev-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

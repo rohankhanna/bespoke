@@ -19,6 +19,18 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "aliyun/aliyun-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

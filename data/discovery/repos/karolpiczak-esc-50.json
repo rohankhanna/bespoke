@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "anuragkr90/weak_feature_extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "bkasvenkatesh/classifying-environmental-sounds-with-image-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "audeep/audeep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "corticph/mstmodel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karolpiczak/ESC-50",
+      "target": "environmental-sounds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:28.597354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30479
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ESC-50: Dataset for Environmental Sound Classification",
+    "fork": false,
+    "full_name": "karolpiczak/ESC-50",
+    "html_url": "https://github.com/karolpiczak/ESC-50",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:07:26Z",
+    "stargazers_count": 1805,
+    "topics": [
+      "audio",
+      "dataset",
+      "environmental-sounds"
+    ],
+    "updated_at": "2026-05-02T09:14:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anuragkr90/weak_feature_extractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audeep/audeep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bkasvenkatesh/classifying-environmental-sounds-with-image-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corticph/mstmodel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> ###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Download](#download) | [Results](#results) | [Repository content](#repository-content) | [License](#license) | [Citing](#citing) | [Caveats](#caveats) | [Changelog](#changelog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "> ###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Download](#download) | [Results](#results) | [Repository content](#repository-content) | [License](#license) | [Citing](#citing) | [Caveats](#caveats) | [Changelog](#changelog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "> ###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Download](#download) | [Results](#results) | [Repository content](#repository-content) | [License](#license) | [Citing](#citing) | [Caveats](#caveats) | [Changelog](#changelog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environmental-sounds"
+    }
+  ]
+}

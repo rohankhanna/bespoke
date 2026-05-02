@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "matlab"
+    "matlab",
+    "Matlab"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "filipradenovic/cnnimageretrieval",
       "status": "candidate-context",
       "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "A toolkit for making real world machine learning and data analysis applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "Matlab"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "filipradenovic/cnnimageretrieval",
       "status": "candidate",
       "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate",
+      "text": "Matlab"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +169,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "filipradenovic/cnnimageretrieval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "source_repo": "davisking/dlib"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

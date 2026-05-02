@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:43:40.871873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "pulumi/halloumi",
+    "html_url": "https://github.com/pulumi/halloumi",
+    "language": "Go",
+    "pushed_at": "2023-12-18T21:49:03Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2024-05-21T04:55:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

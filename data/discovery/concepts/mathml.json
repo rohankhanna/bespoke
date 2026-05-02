@@ -19,6 +19,18 @@
       "source_repo": "cure53/DOMPurify",
       "status": "candidate-context",
       "text": "[![npm](https://img.shields.io/npm/v/dompurify.svg)](https://www.npmjs.com/package/dompurify) [![License](https://img.shields.io/badge/license-MPL--2.0%20OR%20Apache--2.0-blue.svg)](https://github.com/cure53/DOMPurify/blob/main/LICENSE) ![Tests](https://github.com/cure53/DOMPuri\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "MathJax source code for version 3 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cure53/DOMPurify",
       "status": "candidate",
       "text": "[![npm](https://img.shields.io/npm/v/dompurify.svg)](https://www.npmjs.com/package/dompurify) [![License](https://img.shields.io/badge/license-MPL--2.0%20OR%20Apache--2.0-blue.svg)](https://github.com/cure53/DOMPurify/blob/main/LICENSE) ![Tests](https://github.com/cure53/DOMPuri\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cure53/DOMPurify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax-src"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

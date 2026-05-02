@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":herb: Fast streaming XML parser written in C99 with >90% test coverage; moved from SourceForge to GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enforce clang-format clean code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enforce clang-format clean code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18737,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18693,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18693,
+      "status": "candidate",
+      "text": "sanction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18693,
+      "status": "candidate",
+      "text": "sanctioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18693,
+      "status": "candidate",
+      "text": "sanctioning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce clang-format clean code",
+      "sense_id": "enforce-clang-format-clean-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-clang-format-clean-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-clang-format-clean-code",
+  "observation_id": "695e36642dca3564",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Enforce clang-format clean code",
+  "source_context_snippet": "Enforce clang-format clean code",
+  "source_file": ".github/workflows/clang-format.yml",
+  "source_repo": "libexpat/libexpat",
+  "source_repo_description": ":herb: Fast streaming XML parser written in C99 with >90% test coverage; moved from SourceForge to GitHub"
+}

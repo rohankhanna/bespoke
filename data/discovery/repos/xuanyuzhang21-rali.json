@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:48:00.266535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026 Oral] Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment",
+    "fork": false,
+    "full_name": "xuanyuzhang21/RALI",
+    "html_url": "https://github.com/xuanyuzhang21/RALI",
+    "language": "Python",
+    "pushed_at": "2026-02-14T09:14:15Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-30T02:39:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

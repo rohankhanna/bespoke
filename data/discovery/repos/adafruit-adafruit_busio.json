@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:07.329228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 525
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arduino library for I2C & SPI abstractions",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_BusIO",
+    "html_url": "https://github.com/adafruit/Adafruit_BusIO",
+    "language": "C++",
+    "pushed_at": "2025-09-22T20:18:37Z",
+    "stargazers_count": 377,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2026-04-28T00:45:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

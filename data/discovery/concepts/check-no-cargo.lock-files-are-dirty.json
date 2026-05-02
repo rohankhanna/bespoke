@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check no Cargo.lock files are dirty"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "Secure and fast microVMs for serverless computing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "Check no Cargo.lock files are dirty"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate",
+      "text": "Check no Cargo.lock files are dirty"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34180,
+      "status": "candidate",
+      "text": "checksum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33479,
+      "status": "candidate",
+      "text": "mate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949,
+      "status": "candidate",
+      "text": "unusable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29893,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29775,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check no Cargo.lock files are dirty",
+  "concept_id": "check-no-cargo.lock-files-are-dirty",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/deny_dirty_cargo_locks.yml",
+      "source_repo": "firecracker-microvm/firecracker"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check no Cargo.lock files are dirty",
+      "sense_id": "check-no-cargo.lock-files-are-dirty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

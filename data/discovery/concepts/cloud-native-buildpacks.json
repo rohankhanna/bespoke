@@ -79,6 +79,18 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate-context",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "Recipes for building Heroku's Cloud Native Buildpacks builder images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "heroku/buildpacks-jvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/cnb-builder-images"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

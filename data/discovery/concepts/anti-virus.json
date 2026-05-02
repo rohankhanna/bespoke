@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "anti-virus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879667,
+      "status": "candidate",
+      "text": "antivirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19700655,
+      "status": "candidate",
+      "text": "anti-viral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19683780,
+      "status": "candidate",
+      "text": "antiviral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19680343,
+      "status": "candidate",
+      "text": "virus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19639202,
+      "status": "candidate",
+      "text": "antiretroviral"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "anti-virus",
+  "concept_id": "anti-virus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "StevenBlack/hosts"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anti-virus",
+      "sense_id": "anti-virus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

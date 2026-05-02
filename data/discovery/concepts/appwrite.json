@@ -55,6 +55,66 @@
       "source_repo": "appwrite/sdk-for-deno",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-android",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Android (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-android",
+      "status": "candidate-context",
+      "text": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f) as an Appwrite server-side integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Flutter SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Deno (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate-context",
+      "text": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Node.js SDK \ud83d\udfe2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-node.svg?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "appwrite/sdk-for-deno",
       "status": "candidate",
       "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-android",
+      "status": "candidate",
+      "text": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate",
+      "text": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-node.svg?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +202,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "appwrite/sdk-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-node"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

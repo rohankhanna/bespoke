@@ -283,6 +283,30 @@
       "source_repo": "apache/logging-log4net",
       "status": "candidate-context",
       "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate-context",
+      "text": "Apache Iceberg C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "Apache Iceberg - Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "apache/logging-log4net",
       "status": "candidate",
       "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -688,11 +724,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "apache/logging-log4net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/iceberg-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/iceberg-go"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

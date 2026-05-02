@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A beautiful minimalism theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dark-mode",
+      "sense_id": "dark-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dark-mode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dark-mode",
+  "observation_id": "2d5017d0fc57f08d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "dark-mode",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+  "source_repo_description": "A beautiful minimalism theme for Obsidian."
+}

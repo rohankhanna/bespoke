@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859853,
+      "status": "candidate",
+      "text": "heart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859852,
+      "status": "candidate",
+      "text": "heart of hearts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859851,
+      "status": "candidate",
+      "text": "heart and soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859850,
+      "status": "candidate",
+      "text": "heartstrings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859849,
+      "status": "candidate",
+      "text": "soulbond"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kokoro",
+      "sense_id": "kokoro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kokoro",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kokoro",
+  "observation_id": "c2fd2774edcea7d6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "kokoro",
+  "source_context_snippet": "<div align=\"center\" id = \"top\">",
+  "source_file": null,
+  "source_repo": "Mobile-Artificial-Intelligence/maise",
+  "source_repo_description": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Enterprise Distribution for Flux CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vulnerability scan - Distroless Previous Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vulnerability scan - Distroless Previous Versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43516,
+      "status": "candidate",
+      "text": "below"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33296,
+      "status": "candidate",
+      "text": "earlier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28234,
+      "status": "candidate",
+      "text": "pickup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28220,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28220,
+      "status": "candidate",
+      "text": "shed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vulnerability scan - Distroless Previous Versions",
+      "sense_id": "vulnerability-scan---distroless-previous-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulnerability-scan---distroless-previous-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulnerability-scan---distroless-previous-versions",
+  "observation_id": "d2c1ab36c6cc1835",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Vulnerability scan - Distroless Previous Versions",
+  "source_context_snippet": "Vulnerability scan - Distroless Previous Versions",
+  "source_file": ".github/workflows/scan-distroless-prev.yaml",
+  "source_repo": "controlplaneio-fluxcd/distribution",
+  "source_repo_description": "Enterprise Distribution for Flux CD"
+}

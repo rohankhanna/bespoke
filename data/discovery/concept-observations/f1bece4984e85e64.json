@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NPM Modules for Sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eyeglass-modules",
+      "sense_id": "eyeglass-modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eyeglass-modules",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eyeglass-modules",
+  "observation_id": "f1bece4984e85e64",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "eyeglass-modules",
+  "source_context_snippet": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026",
+  "source_file": null,
+  "source_repo": "linkedin/eyeglass",
+  "source_repo_description": "NPM Modules for Sass"
+}

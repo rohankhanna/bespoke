@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@v3.0.1",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -527,6 +527,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "speechbrain/benchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "godotengine/godot-docs"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spatial-awareness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] SPA: 3D Spatial-Awareness Enables Effective Embodied Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spatial-awareness",
+  "concept_id": "spatial-awareness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spatial-awareness",
+      "sense_id": "spatial-awareness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "appwrite/sdk-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-node"
     }
   ],
   "term": "appwrite"

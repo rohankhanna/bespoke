@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "dependabot/goproxy",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "dependabot/goproxy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:31:51.590863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6530
+    },
+    {
+      "path": "go.mod",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An HTTP proxy library for Go. Dependabot uses this in our internal credential proxy: https://github.com/dependabot/dependabot-core/?tab=readme-ov-file#private-registry-credential-management We maintain a fork in case the original goes down or if we need to run additional patches on top.",
+    "fork": true,
+    "full_name": "dependabot/goproxy",
+    "html_url": "https://github.com/dependabot/goproxy",
+    "language": "Go",
+    "pushed_at": "2025-03-13T00:56:33Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-04T10:43:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -103,6 +103,18 @@
       "source_repo": "PingoLH/Pytorch-HarDNet",
       "status": "candidate-context",
       "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate-context",
+      "text": "This repository contains the code for the paper \"PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate-context",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "PingoLH/Pytorch-HarDNet",
       "status": "candidate",
       "text": "* Fully utilize your cuda cores!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "PingoLH/Pytorch-HarDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "shunsukesaito/PIFu"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

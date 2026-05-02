@@ -91,6 +91,18 @@
       "source_repo": "argoproj-labs/argocd-rbac-operator",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "argoproj-labs/argocd-rbac-operator",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "argoproj-labs/argocd-rbac-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jkroepke/helm-secrets"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

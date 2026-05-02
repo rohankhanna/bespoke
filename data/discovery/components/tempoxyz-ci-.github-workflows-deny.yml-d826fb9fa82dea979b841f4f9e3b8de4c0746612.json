@@ -1,0 +1,12 @@
+{
+  "component": "tempoxyz/ci/.github/workflows/deny.yml@d826fb9fa82dea979b841f4f9e3b8de4c0746612",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    }
+  ]
+}

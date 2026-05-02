@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qiuqiangkong/audioset_tagging_cnn",
+      "target": "qiuqiangkong/panns_inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qiuqiangkong/audioset_tagging_cnn",
+      "target": "qiuqiangkong/panns_transfer_to_gtzan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qiuqiangkong/audioset_tagging_cnn",
+      "target": "jordipons/sklearn-audio-transfer-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qiuqiangkong/audioset_tagging_cnn",
+      "target": "keunwoochoi/transfer_learning_music",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:29.626893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12054
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "qiuqiangkong/audioset_tagging_cnn",
+    "html_url": "https://github.com/qiuqiangkong/audioset_tagging_cnn",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:16:02Z",
+    "stargazers_count": 1725,
+    "topics": [],
+    "updated_at": "2026-04-30T23:03:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jordipons/sklearn-audio-transfer-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keunwoochoi/transfer_learning_music",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuqiangkong/panns_inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuqiangkong/panns_transfer_to_gtzan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

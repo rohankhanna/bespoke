@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kripken/ammo.js",
+      "target": "kripken/emscripten",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kripken/ammo.js",
+      "target": "http-party/http-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kripken/ammo.js",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kripken/ammo.js",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "kripken/ammo.js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "kripken/ammo.js",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "kripken/ammo.js",
+      "target": "mymindstorm/setup-emsdk@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "kripken/ammo.js",
+      "target": "continuous",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:02.453374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8941
+    },
+    {
+      "path": "Dockerfile",
+      "size": 247
+    },
+    {
+      "path": "package.json",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/continuous.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Direct port of the Bullet physics engine to JavaScript using Emscripten",
+    "fork": false,
+    "full_name": "kripken/ammo.js",
+    "html_url": "https://github.com/kripken/ammo.js",
+    "language": "C++",
+    "pushed_at": "2024-01-16T16:57:49Z",
+    "stargazers_count": 4507,
+    "topics": [],
+    "updated_at": "2026-05-02T02:51:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "http-party/http-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kripken/emscripten",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "continuous",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "term": "continuous"
+    }
+  ]
+}

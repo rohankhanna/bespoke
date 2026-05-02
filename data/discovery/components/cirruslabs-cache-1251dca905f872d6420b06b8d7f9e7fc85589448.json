@@ -1,0 +1,12 @@
+{
+  "component": "cirruslabs/cache@1251dca905f872d6420b06b8d7f9e7fc85589448",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gpu-ci.yml",
+      "source_repo": "scipy/scipy"
+    }
+  ]
+}

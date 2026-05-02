@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/claude-code-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml"
     },
@@ -67,13 +67,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "erigontech/erigon",
-      "target": "mathmakesart/erigon-on-rpi-4",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backups-dashboards.yml",
@@ -169,7 +162,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "erigontech/erigon",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -190,7 +183,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "erigontech/erigon",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -222,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:30:40.068523+00:00",
+  "fetched_at": "2026-05-02T19:34:32.338039+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -234,7 +227,7 @@
     },
     {
       "path": "go.mod",
-      "size": 23139
+      "size": 23178
     },
     {
       "path": ".github/workflows/backups-dashboards.yml",
@@ -246,7 +239,7 @@
     },
     {
       "path": ".github/workflows/check-large-files.yml",
-      "size": 381
+      "size": 794
     },
     {
       "path": ".github/workflows/ci-cd-main-branch-docker-images.yml",
@@ -254,7 +247,7 @@
     },
     {
       "path": ".github/workflows/ci-gate.yml",
-      "size": 2714
+      "size": 2953
     },
     {
       "path": ".github/workflows/claude-code-review.yml",
@@ -274,21 +267,15 @@
     "full_name": "erigontech/erigon",
     "html_url": "https://github.com/erigontech/erigon",
     "language": "Go",
-    "pushed_at": "2026-04-23T05:11:04Z",
-    "stargazers_count": 3555,
+    "pushed_at": "2026-05-02T17:04:00Z",
+    "stargazers_count": 3561,
     "topics": [
       "blockchain",
       "ethereum"
     ],
-    "updated_at": "2026-04-23T04:28:23Z"
+    "updated_at": "2026-05-02T17:23:18Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mathmakesart/erigon-on-rpi-4",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Dashboards backup",

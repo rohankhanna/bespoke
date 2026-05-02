@@ -79,6 +79,30 @@
       "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
       "status": "candidate-context",
       "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate-context",
+      "text": "Auto import APIs on-demand for Vite, Webpack and Rollup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate-context",
+      "text": "Lightweight CSS extraction plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
       "status": "candidate",
       "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "NMFR/optimize-css-assets-webpack-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-auto-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "webpack/mini-css-extract-plugin"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

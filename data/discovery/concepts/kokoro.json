@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kokoro"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859853,
+      "status": "candidate",
+      "text": "heart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859852,
+      "status": "candidate",
+      "text": "heart of hearts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859851,
+      "status": "candidate",
+      "text": "heart and soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859850,
+      "status": "candidate",
+      "text": "heartstrings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17859849,
+      "status": "candidate",
+      "text": "soulbond"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kokoro",
+  "concept_id": "kokoro",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maise"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kokoro",
+      "sense_id": "kokoro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

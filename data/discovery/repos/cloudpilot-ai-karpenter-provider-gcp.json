@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml"
+    },
+    {
+      "component": "unfor19/install-aws-cli-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@v0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "unfor19/install-aws-cli-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@v0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "unfor19/install-aws-cli-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "ko-build/setup-ko@v0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "Latest image build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "Pre-submit check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "unfor19/install-aws-cli-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "ko-build/setup-ko@v0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "Release image build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "autoscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "clusterautoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "finops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "googlecloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "karpenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:27:12.055820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3481
+    },
+    {
+      "path": "go.mod",
+      "size": 5097
+    },
+    {
+      "path": ".github/workflows/cloudpilot-latest-build.yaml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/presubmit.yaml",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/release-build.yaml",
+      "size": 4527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Cloud Karpenter Provider",
+    "fork": false,
+    "full_name": "cloudpilot-ai/karpenter-provider-gcp",
+    "html_url": "https://github.com/cloudpilot-ai/karpenter-provider-gcp",
+    "language": "Go",
+    "pushed_at": "2026-04-29T18:05:08Z",
+    "stargazers_count": 303,
+    "topics": [
+      "autoscaling",
+      "clusterautoscaler",
+      "finops",
+      "gcp",
+      "gke",
+      "google",
+      "googlecloud",
+      "karpenter",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-30T08:20:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Latest image build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloudpilot-latest-build.yaml",
+      "term": "Latest image build"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Pre-submit check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "term": "Pre-submit check"
+    },
+    {
+      "context_snippet": "Release image build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yaml",
+      "term": "Release image build"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoscaling"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clusterautoscaler"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finops"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "googlecloud"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karpenter"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

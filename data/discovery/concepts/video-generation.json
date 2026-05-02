@@ -583,6 +583,42 @@
       "source_repo": "Tencent/MimicMotion",
       "status": "candidate-context",
       "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "Official code for \"AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation\" (CVPR2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate-context",
+      "text": "[ICLR2026] SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +909,24 @@
       "source_repo": "Tencent/MimicMotion",
       "status": "candidate",
       "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_related_terms": [],
@@ -1270,11 +1324,65 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Tencent/MimicMotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

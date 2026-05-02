@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Testing Queue Runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "Testing Queue Runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate",
+      "text": "Testing Queue Runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18381,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18311,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18275,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18227,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18191,
+      "status": "candidate",
+      "text": "libero"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Testing Queue Runner",
+  "concept_id": "testing-queue-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Testing Queue Runner",
+      "sense_id": "testing-queue-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/canu",
+      "target": "chhylp123/hifiasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/canu",
+      "target": "marbl/verkko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/canu",
+      "target": "dear-github/dear-github",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:45:57.641892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A single molecule sequence assembler for genomes large and small.",
+    "fork": false,
+    "full_name": "marbl/canu",
+    "html_url": "https://github.com/marbl/canu",
+    "language": "C++",
+    "pushed_at": "2026-02-24T14:49:14Z",
+    "stargazers_count": 700,
+    "topics": [],
+    "updated_at": "2026-04-15T06:45:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chhylp123/hifiasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dear-github/dear-github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marbl/verkko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

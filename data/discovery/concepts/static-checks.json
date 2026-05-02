@@ -75,6 +75,18 @@
       "source_repo": "godotengine/godot",
       "status": "candidate-context",
       "text": "\ud83d\udcca Static Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-demo-projects",
+      "status": "candidate-context",
+      "text": "Demonstration and Template Projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-demo-projects",
+      "status": "candidate-context",
+      "text": "Static Checks"
     }
   ],
   "candidate_glosses": [
@@ -113,6 +125,12 @@
       "source_repo": "godotengine/godot",
       "status": "candidate",
       "text": "\ud83d\udcca Static Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-demo-projects",
+      "status": "candidate",
+      "text": "Static Checks"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/static_checks.yml",
       "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/godot-demo-projects"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

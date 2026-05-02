@@ -115,6 +115,78 @@
       "source_repo": "rameshvarun/netplayjs",
       "status": "candidate-context",
       "text": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative real-time P2P virtual music instrument."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paullouisageneau/libjuice",
+      "status": "candidate-context",
+      "text": "JUICE is a UDP Interactive Connectivity Establishment library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libjuice",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/awesome-pion",
+      "status": "candidate-context",
+      "text": "A curated list of awesome things related to Pion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/awesome-pion",
+      "status": "candidate-context",
+      "text": "> A curated list of awesome things related to Pion"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/ice",
+      "status": "candidate-context",
+      "text": "A Go implementation of ICE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/ice",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "Pure Go implementation of the WebRTC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate-context",
+      "text": "Server for PeerJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "rameshvarun/netplayjs",
       "status": "candidate",
       "text": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libjuice",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/awesome-pion",
+      "status": "candidate",
+      "text": "> A curated list of awesome things related to Pion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/ice",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +376,47 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "rameshvarun/netplayjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "arslanastral/jambox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pion/awesome-pion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pion/ice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pion/webrtc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "peers/peerjs-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

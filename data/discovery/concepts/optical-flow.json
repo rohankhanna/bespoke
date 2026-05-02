@@ -79,6 +79,30 @@
       "source_repo": "twhui/LiteFlowNet",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "Official code for \"AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation\" (CVPR2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "Depth and Flow for Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "twhui/LiteFlowNet",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +202,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "twhui/LiteFlowNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Huangying-Zhan/DF-VO"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

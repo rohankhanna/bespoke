@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The home of the ICU project source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Retain Specific Caches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Retain Specific Caches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23172,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23172,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23172,
+      "status": "candidate",
+      "text": "tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22907,
+      "status": "candidate",
+      "text": "army"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22885,
+      "status": "candidate",
+      "text": "conservation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Retain Specific Caches",
+      "sense_id": "retain-specific-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "retain-specific-caches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retain-specific-caches",
+  "observation_id": "b0de8a1de70c8f84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Retain Specific Caches",
+  "source_context_snippet": "Retain Specific Caches",
+  "source_file": ".github/workflows/cache_retain.yml",
+  "source_repo": "unicode-org/icu",
+  "source_repo_description": "The home of the ICU project source code."
+}

@@ -31,6 +31,42 @@
       "source_repo": "godotengine/godot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "A curated list of free/libre plugins, scripts and add-ons for Godot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Godot Engine official documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "godotengine/godot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot-docs"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

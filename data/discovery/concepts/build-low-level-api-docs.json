@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build low-level API docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h5py/h5py",
+      "status": "candidate-context",
+      "text": "HDF5 for Python -- The h5py package is a Pythonic interface to the HDF5 binary data format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5py/h5py",
+      "status": "candidate-context",
+      "text": "Build low-level API docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5py/h5py",
+      "status": "candidate",
+      "text": "Build low-level API docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22712,
+      "status": "candidate",
+      "text": "documentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13894,
+      "status": "candidate",
+      "text": "cio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13894,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12876,
+      "status": "candidate",
+      "text": "beeswax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12876,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build low-level API docs",
+  "concept_id": "build-low-level-api-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/lowlevel-api-docs.yml",
+      "source_repo": "h5py/h5py"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build low-level API docs",
+      "sense_id": "build-low-level-api-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

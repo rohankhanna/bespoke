@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "facebookresearch/eai-vc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "haoyizhu/pointcloudmatters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "farama-foundation/metaworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "facebookresearch/r3m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "Formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "embodied-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "spatial-awareness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA",
+      "target": "spatial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:06.320025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20093
+    },
+    {
+      "path": "requirements.txt",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/formatter.yaml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] SPA: 3D Spatial-Awareness Enables Effective Embodied Representation",
+    "fork": false,
+    "full_name": "HaoyiZhu/SPA",
+    "html_url": "https://github.com/HaoyiZhu/SPA",
+    "language": "Python",
+    "pushed_at": "2025-06-19T08:07:59Z",
+    "stargazers_count": 175,
+    "topics": [
+      "embodied-ai",
+      "representation-learning",
+      "robot-learning",
+      "spatial-awareness",
+      "spatial-intelligence"
+    ],
+    "updated_at": "2026-04-17T06:11:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/eai-vc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/r3m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/metaworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoyizhu/pointcloudmatters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Formatter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "term": "Formatter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embodied-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-awareness"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-intelligence"
+    }
+  ]
+}

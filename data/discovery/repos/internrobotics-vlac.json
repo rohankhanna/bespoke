@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "InternRobotics/VLAC",
+      "target": "7-z-7/vlac",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:37:16.885037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7846
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VLAC: A Vision-Language-Action-Critic Model for Robotic Real-World Reinforcement Learning",
+    "fork": false,
+    "full_name": "InternRobotics/VLAC",
+    "html_url": "https://github.com/InternRobotics/VLAC",
+    "language": "Python",
+    "pushed_at": "2026-01-23T09:58:19Z",
+    "stargazers_count": 296,
+    "topics": [],
+    "updated_at": "2026-05-01T11:31:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "7-z-7/vlac",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

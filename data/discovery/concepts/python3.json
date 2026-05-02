@@ -769,6 +769,30 @@
       "source_repo": "neo4j/neo4j-python-driver",
       "status": "candidate-context",
       "text": "****************************"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "Keras implementation of \"Image Inpainting via Generative Multi-column Convolutional Neural Networks\" paper published at NIPS 2018 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate-context",
+      "text": "StandAlone Async cross-platform Minifier for the Web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate-context",
+      "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1149,6 +1173,18 @@
       "source_repo": "neo4j/neo4j-python-driver",
       "status": "candidate",
       "text": "****************************"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate",
+      "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1804,11 +1840,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "neo4j/neo4j-python-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "juancarlospaco/css-html-js-minify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

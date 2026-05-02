@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/MousetrapMakie.jl",
+      "target": "makieorg/makie.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/MousetrapMakie.jl",
+      "target": "juliagtk/gtk4makie.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/MousetrapMakie.jl",
+      "target": "clemapfel/mousetrap_jll",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:43:32.612005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Allows for integrating Makie Plots into Mousetrap.jl Applications",
+    "fork": false,
+    "full_name": "Clemapfel/MousetrapMakie.jl",
+    "html_url": "https://github.com/Clemapfel/MousetrapMakie.jl",
+    "language": "Julia",
+    "pushed_at": "2024-07-18T12:12:42Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-01-20T07:58:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clemapfel/mousetrap_jll",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagtk/gtk4makie.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "makieorg/makie.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

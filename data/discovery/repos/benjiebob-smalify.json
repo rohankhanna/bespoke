@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjiebob/SMALify",
+      "target": "benjiebob/stanfordextra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjiebob/SMALify",
+      "target": "silviazuffi/smalst",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:33:05.211316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11453
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains an implementation for performing 3D animal (quadruped) reconstruction from a monocular image or video. The system adapts the pose (limb positions) and shape (animal type/height/weight) parameters for the SMAL deformable quadruped model, as well as camera parameters until the projected SMAL model aligns with 2D keypoints and silhouette segmentations extracted from the input frame(s).",
+    "fork": false,
+    "full_name": "benjiebob/SMALify",
+    "html_url": "https://github.com/benjiebob/SMALify",
+    "language": "Python",
+    "pushed_at": "2024-11-02T19:35:02Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-04-15T12:08:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjiebob/stanfordextra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "silviazuffi/smalst",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

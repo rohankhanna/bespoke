@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "spring-rest-docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ePages-de/restdocs-api-spec",
+      "status": "candidate-context",
+      "text": "Adds API specification support to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ePages-de/restdocs-api-spec",
+      "status": "candidate-context",
+      "text": "[![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-maintenance-yellow.svg)](https://github.com/ePages-de/restdocs-api-spec/issues/204)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Spring Auto REST Docs is an extension to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ePages-de/restdocs-api-spec",
+      "status": "candidate",
+      "text": "[![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-maintenance-yellow.svg)](https://github.com/ePages-de/restdocs-api-spec/issues/204)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spring-rest-docs",
+  "concept_id": "spring-rest-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ePages-de/restdocs-api-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spring-rest-docs",
+      "sense_id": "spring-rest-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

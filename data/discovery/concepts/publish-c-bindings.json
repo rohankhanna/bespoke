@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish C bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AccessKit/accesskit-c",
+      "status": "candidate-context",
+      "text": "AccessKit C bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AccessKit/accesskit-c",
+      "status": "candidate-context",
+      "text": "Publish C bindings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AccessKit/accesskit-c",
+      "status": "candidate",
+      "text": "Publish C bindings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "pallet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11510,
+      "status": "candidate",
+      "text": "releasable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "black and white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11310,
+      "status": "candidate",
+      "text": "carabiner"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish C bindings",
+  "concept_id": "publish-c-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AccessKit/accesskit-c"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish C bindings",
+      "sense_id": "publish-c-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

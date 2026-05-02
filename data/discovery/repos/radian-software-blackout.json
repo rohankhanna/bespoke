@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/blackout",
+      "target": "alezost/dim.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/blackout",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:50.097408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udca1 The easy way to clean up your Emacs mode lighters.",
+    "fork": false,
+    "full_name": "radian-software/blackout",
+    "html_url": "https://github.com/radian-software/blackout",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-05-09T23:50:10Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-01-25T21:49:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alezost/dim.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

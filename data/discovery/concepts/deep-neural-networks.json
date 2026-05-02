@@ -403,6 +403,30 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate-context",
+      "text": "DeepFill v1/v2 with Contextual Attention and Gated Convolution, CVPR 2018, and ICCV 2019 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate-context",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "Keras implementation of \"Image Inpainting via Generative Multi-column Convolutional Neural Networks\" paper published at NIPS 2018 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -976,11 +1012,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

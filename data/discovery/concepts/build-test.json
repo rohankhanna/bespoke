@@ -585,6 +585,30 @@
       "source_repo": "vale-cli/Microsoft",
       "status": "candidate-context",
       "text": "Build + Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "Azure Native Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -881,6 +905,18 @@
       "source_repo": "vale-cli/Microsoft",
       "status": "candidate",
       "text": "Build + Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate",
+      "text": "Build & Test"
     }
   ],
   "candidate_related_terms": [
@@ -1584,11 +1620,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "getzola/zola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

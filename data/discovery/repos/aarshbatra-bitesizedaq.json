@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:38:54.932424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Making air quality data and related resources openly available and accessible to all in biteSized chunks",
+    "fork": false,
+    "full_name": "AarshBatra/biteSizedAQ",
+    "html_url": "https://github.com/AarshBatra/biteSizedAQ",
+    "language": "R",
+    "pushed_at": "2026-04-30T14:42:52Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-30T14:43:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

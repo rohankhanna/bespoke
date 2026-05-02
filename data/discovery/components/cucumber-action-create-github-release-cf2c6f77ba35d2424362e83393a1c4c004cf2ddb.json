@@ -1,0 +1,12 @@
+{
+  "component": "cucumber/action-create-github-release@cf2c6f77ba35d2424362e83393a1c4c004cf2ddb",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-github.yml",
+      "source_repo": "cucumber/aruba"
+    }
+  ]
+}

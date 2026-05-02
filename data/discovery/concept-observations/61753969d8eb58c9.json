@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051150,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051013,
+      "status": "candidate",
+      "text": "jew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051157,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050743,
+      "status": "candidate",
+      "text": "judaism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050634,
+      "status": "candidate",
+      "text": "israeli"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hebrew",
+      "sense_id": "hebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jew"
+    }
+  ],
+  "concept_id": "hebrew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hebrew",
+  "observation_id": "61753969d8eb58c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "hebrew",
+  "source_context_snippet": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+  "source_repo_description": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+}

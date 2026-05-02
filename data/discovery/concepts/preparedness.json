@@ -55,6 +55,18 @@
       "source_repo": "danielrosehill/Israel-Preparedness-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "status": "candidate-context",
+      "text": "A consolidated series of readiness checklists, SOPs, and peacetime prep guides. Intended for civilian use in Israel. Non-official, but based on gov resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "status": "candidate-context",
+      "text": "A comprehensive field guide and checklist system for civilian preparedness during wartime in Israel."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "danielrosehill/Israel-Preparedness-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "status": "candidate",
+      "text": "A comprehensive field guide and checklist system for civilian preparedness during wartime in Israel."
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Israel-Preparedness-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

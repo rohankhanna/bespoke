@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:08.397373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5305
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unified driver for the ADXL345 Accelerometer",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_ADXL345",
+    "html_url": "https://github.com/adafruit/Adafruit_ADXL345",
+    "language": "C++",
+    "pushed_at": "2024-04-06T14:45:00Z",
+    "stargazers_count": 139,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2026-04-09T07:03:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "This driver is for the Adafruit ADXL345 Breakout (http://www.adafruit.com/products/1231), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

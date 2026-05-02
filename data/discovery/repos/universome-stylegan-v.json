@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universome/stylegan-v",
+      "target": "sergeytulyakov/mocogan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universome/stylegan-v",
+      "target": "sihyun-yu/digan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universome/stylegan-v",
+      "target": "ondyari/faceforensics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universome/stylegan-v",
+      "target": "pfnet-research/tgan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v",
+      "target": "generative-adversarial-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v",
+      "target": "stylegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:30:39.050117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2022] StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2",
+    "fork": false,
+    "full_name": "universome/stylegan-v",
+    "html_url": "https://github.com/universome/stylegan-v",
+    "language": "Python",
+    "pushed_at": "2023-04-19T12:28:11Z",
+    "stargazers_count": 392,
+    "topics": [
+      "gans",
+      "generative-adversarial-networks",
+      "pytorch",
+      "stylegan",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-16T08:04:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ondyari/faceforensics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfnet-research/tgan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergeytulyakov/mocogan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sihyun-yu/digan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[Project website]](https://universome.github.io/stylegan-v)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "[[Project website]](https://universome.github.io/stylegan-v)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-networks"
+    },
+    {
+      "context_snippet": "[[Project website]](https://universome.github.io/stylegan-v)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[[Project website]](https://universome.github.io/stylegan-v)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    },
+    {
+      "context_snippet": "[[Project website]](https://universome.github.io/stylegan-v)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

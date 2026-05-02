@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyxguo/Obsidian-Obsidianite",
+      "target": "tridiamond/obsidian-obsidianite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:14.231097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa8 Obsidian.md custom theme, it's dark and simple but yet still stays sparkles! ",
+    "fork": false,
+    "full_name": "bennyxguo/Obsidian-Obsidianite",
+    "html_url": "https://github.com/bennyxguo/Obsidian-Obsidianite",
+    "language": "CSS",
+    "pushed_at": "2024-02-26T17:42:12Z",
+    "stargazers_count": 369,
+    "topics": [],
+    "updated_at": "2026-04-22T01:42:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tridiamond/obsidian-obsidianite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

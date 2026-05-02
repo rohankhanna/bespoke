@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "ruby-gem"
+    "ruby-gem",
+    "Ruby Gem"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +82,18 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate-context",
+      "text": "Ruby client APIs to access the Cloud Foundry User Account and Authentication service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate-context",
+      "text": "Ruby Gem"
     }
   ],
   "candidate_glosses": [
@@ -117,9 +132,51 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate",
+      "text": "Ruby Gem"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48580,
+      "status": "candidate",
+      "text": "spinel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28082,
+      "status": "candidate",
+      "text": "oriental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11780,
+      "status": "candidate",
+      "text": "balas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11780,
+      "status": "candidate",
+      "text": "carbuncle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11780,
+      "status": "candidate",
+      "text": "emerald"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "ruby-gem",
   "concept_id": "ruby-gem",
@@ -160,11 +217,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "activerecord-hackery/ransack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

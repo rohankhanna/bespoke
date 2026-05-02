@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Secure and fast microVMs for serverless computing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Send notification on release created"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Send notification on release created"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34937,
+      "status": "candidate",
+      "text": "remise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33197,
+      "status": "candidate",
+      "text": "launch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28668,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28564,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28468,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Send notification on release created",
+      "sense_id": "send-notification-on-release-created#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "send-notification-on-release-created",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "send-notification-on-release-created",
+  "observation_id": "d617e3f7a4aad18d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Send notification on release created",
+  "source_context_snippet": "Send notification on release created",
+  "source_file": ".github/workflows/send_release_notification.yml",
+  "source_repo": "firecracker-microvm/firecracker",
+  "source_repo_description": "Secure and fast microVMs for serverless computing."
+}

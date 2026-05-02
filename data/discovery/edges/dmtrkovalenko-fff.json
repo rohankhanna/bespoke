@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "saghm/frizbee",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "dmtrKovalenko/fff",
@@ -228,6 +235,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "dmtrKovalenko/fff",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dmtrKovalenko/fff",
       "target": "dtolnay/rust-toolchain@master",
       "target_type": "component"
     },
@@ -288,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "dmtrKovalenko/fff"
 }

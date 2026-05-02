@@ -63,34 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/numpy.rb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pandas.rb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pycall.rb.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "juliapy/pycall.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "red-data-tools/pycall.rb",
@@ -189,7 +161,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:29:32.208210+00:00",
+  "fetched_at": "2026-05-02T18:28:18.181559+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,28 +197,7 @@
     ],
     "updated_at": "2026-04-28T05:42:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliapy/pycall.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "red-data-tools/numpy.rb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "red-data-tools/pandas.rb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "red-data-tools/pycall.rb.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Windows",

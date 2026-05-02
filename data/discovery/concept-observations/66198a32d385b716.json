@@ -84,7 +84,7 @@
   "normalized_form": "release-binary-assets",
   "observation_id": "66198a32d385b716",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Release Binary Assets",
   "source_context_snippet": "Release Binary Assets",
   "source_file": ".github/workflows/release-binary-assets.yml",

@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools-demo",
+      "target": "obsidian-md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:19.090456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1205
+    },
+    {
+      "path": "requirements.txt",
+      "size": 111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demo of obsidiantools Python package (for Binder)",
+    "fork": false,
+    "full_name": "mfarragher/obsidiantools-demo",
+    "html_url": "https://github.com/mfarragher/obsidiantools-demo",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-08T19:45:13Z",
+    "stargazers_count": 13,
+    "topics": [
+      "obsidian-md"
+    ],
+    "updated_at": "2025-07-08T19:45:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a public repo for exploring the functionality of `obsidiantools` as a Binder project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    }
+  ]
+}

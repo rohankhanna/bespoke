@@ -2350,6 +2350,102 @@
       "source_repo": "NVIDIA/k8s-device-plugin",
       "status": "candidate-context",
       "text": "[![End-to-end Tests](https://github.com/NVIDIA/k8s-device-plugin/actions/workflows/e2e.yaml/badge.svg)](https://github.com/NVIDIA/k8s-device-plugin/actions/workflows/e2e.yaml) [![Go Report Card](https://goreportcard.com/badge/github.com/NVIDIA/k8s-device-plugin)](https://gorepor\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "Google Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitnami/charts",
+      "status": "candidate-context",
+      "text": "Bitnami Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/charts",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istio/istio",
+      "status": "candidate-context",
+      "text": "Connect, secure, control, and observe services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/istio",
+      "status": "candidate-context",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate-context",
+      "text": "Manage multi-tenant clusters with Flux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/fluxcd/flux2-multi-tenancy/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-multi-tenancy/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate-context",
+      "text": "Node feature discovery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/node-feature-discovery)](https://goreportcard.com/report/sigs.k8s.io/node-feature-discovery)"
     }
   ],
   "candidate_glosses": [
@@ -3522,6 +3618,54 @@
       "source_repo": "NVIDIA/k8s-device-plugin",
       "status": "candidate",
       "text": "[![End-to-end Tests](https://github.com/NVIDIA/k8s-device-plugin/actions/workflows/e2e.yaml/badge.svg)](https://github.com/NVIDIA/k8s-device-plugin/actions/workflows/e2e.yaml) [![Go Report Card](https://goreportcard.com/badge/github.com/NVIDIA/k8s-device-plugin)](https://gorepor\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/charts",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/istio",
+      "status": "candidate",
+      "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate",
+      "text": "[![test](https://github.com/fluxcd/flux2-multi-tenancy/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-multi-tenancy/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/node-feature-discovery)](https://goreportcard.com/report/sigs.k8s.io/node-feature-discovery)"
     }
   ],
   "candidate_related_terms": [
@@ -5251,11 +5395,107 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jkroepke/helm-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "istio/istio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-multi-tenancy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/node-feature-discovery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

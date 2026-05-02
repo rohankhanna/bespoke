@@ -19,12 +19,66 @@
       "source_repo": "FluxML/Zygote.jl",
       "status": "candidate-context",
       "text": "Downgrade"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "Downgrade"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Downgrade"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "AD-backend agnostic system defining custom forward and reverse mode rules. This is the light weight core to allow you to define rules for your functions in your packages, without depending on any particular AD system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "Downgrade"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "FluxML/Zygote.jl",
+      "status": "candidate",
+      "text": "Downgrade"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate",
+      "text": "Downgrade"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate",
+      "text": "Downgrade"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
       "status": "candidate",
       "text": "Downgrade"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/Downgrade.yml",
       "source_repo": "FluxML/Zygote.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/ModelingToolkit.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "JuliaArrays/ArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

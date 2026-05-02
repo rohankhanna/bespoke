@@ -268,6 +268,18 @@
       "source_repo": "appwrite/sdk-for-deno",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Deno (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate-context",
+      "text": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +420,12 @@
       "source_repo": "appwrite/sdk-for-deno",
       "status": "candidate",
       "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-deno",
+      "status": "candidate",
+      "text": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)"
     }
   ],
   "candidate_related_terms": [
@@ -595,11 +613,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "appwrite/sdk-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "mozillazg/python-pinyin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/pypinyin-g2pW",
+      "target": "pypinyin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:20.821546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2193
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 105
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1769
+    },
+    {
+      "path": ".github/workflows/cron.yml",
+      "size": 1427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u57fa\u4e8e g2pW \u63d0\u5347 pypinyin \u7684\u51c6\u786e\u6027",
+    "fork": false,
+    "full_name": "mozillazg/pypinyin-g2pW",
+    "html_url": "https://github.com/mozillazg/pypinyin-g2pW",
+    "language": "Python",
+    "pushed_at": "2023-06-24T08:09:41Z",
+    "stargazers_count": 104,
+    "topics": [
+      "pypinyin"
+    ],
+    "updated_at": "2026-04-29T02:34:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/python-pinyin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "term": "cron"
+    },
+    {
+      "context_snippet": "\u57fa\u4e8e [g2pW](https://github.com/GitYCC/g2pW/) \u63d0\u5347 [pypinyin](https://github.com/mozillazg/python-pinyin) \u7684\u51c6\u786e\u6027\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypinyin"
+    }
+  ]
+}

@@ -189,6 +189,18 @@
       "source_repo": "dart-lang/pub",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "Dart packages related to FFI and native assets bundling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/pub",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
       "status": "candidate",
       "text": "No Response"
     }
@@ -420,11 +438,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "dart-lang/pub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/native"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

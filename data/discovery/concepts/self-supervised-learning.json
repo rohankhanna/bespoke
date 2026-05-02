@@ -223,6 +223,54 @@
       "source_repo": "jackroos/VL-BERT",
       "status": "candidate-context",
       "text": "By"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgorSusmelj/barlowtwins",
+      "status": "candidate-context",
+      "text": "Implementation of Barlow Twins paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/barlowtwins",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of Barlow Twins paper: [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/pdf/2103.03230.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "Resources for the paper titled \"Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability\". Accepted at ML4H Symposium 2021 with an oral spotlight!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of Barlow Twins (https://arxiv.org/abs/2103.03230)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "Depth and Flow for Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +381,30 @@
       "source_repo": "jackroos/VL-BERT",
       "status": "candidate",
       "text": "By"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/barlowtwins",
+      "status": "candidate",
+      "text": "PyTorch Implementation of Barlow Twins paper: [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/pdf/2103.03230.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +592,41 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/barlowtwins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Huangying-Zhan/DF-VO"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -272,6 +272,18 @@
       "source_repo": "kdn36/arrow-rs-object-store",
       "status": "candidate-context",
       "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Dev"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +418,12 @@
       "source_repo": "kdn36/arrow-rs-object-store",
       "status": "candidate",
       "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate",
+      "text": "Dev"
     }
   ],
   "candidate_related_terms": [
@@ -755,11 +773,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

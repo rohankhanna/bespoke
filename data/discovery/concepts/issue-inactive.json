@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Inactive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "Issue Inactive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "Issue Inactive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11835,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11609,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11609,
+      "status": "candidate",
+      "text": "rested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11552,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10722,
+      "status": "candidate",
+      "text": "afield"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Inactive",
+  "concept_id": "issue-inactive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/issue-inactive.yml",
+      "source_repo": "element-plus/element-plus"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Inactive",
+      "sense_id": "issue-inactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

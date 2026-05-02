@@ -44,6 +44,18 @@
       "source_repo": "kriszyp/lmdb-js",
       "status": "candidate-context",
       "text": "Test Install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "test-install"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "kriszyp/lmdb-js",
       "status": "candidate",
       "text": "Test Install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "test-install"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/test-install.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reusable-test-install.yml",
+      "source_repo": "hypnoglow/helm-s3"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

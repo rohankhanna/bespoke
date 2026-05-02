@@ -260,20 +260,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "remotion-dev/github-unwrapped",
-      "target": "remotion-dev/github-unwrapped-2022",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "remotion-dev/github-unwrapped",
-      "target": "remotion-dev/github-unwrapped-2021",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "remotion-dev/github-unwrapped",
@@ -659,7 +645,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T00:39:03.556841+00:00",
+  "fetched_at": "2026-05-02T19:34:02.013802+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -691,16 +677,6 @@
     "updated_at": "2026-04-29T03:01:13Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "remotion-dev/github-unwrapped-2021",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "remotion-dev/github-unwrapped-2022",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "remotion-dev/github-unwrapped-2023",

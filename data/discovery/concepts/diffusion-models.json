@@ -883,6 +883,30 @@
       "source_repo": "SUDO-AI-3D/zero123plus",
       "status": "candidate-context",
       "text": "![Teaser](resources/teaser-low.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Extend BoxDiff to SDXL (SDXL-based layout-to-image generation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Customize spatial layouts for conditional image synthesis models, e.g., ControlNet, using GPT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate-context",
+      "text": "[//]: # (<div align=center>)"
     }
   ],
   "candidate_glosses": [
@@ -1323,6 +1347,18 @@
       "source_repo": "SUDO-AI-3D/zero123plus",
       "status": "candidate",
       "text": "![Teaser](resources/teaser-low.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate",
+      "text": "[//]: # (<div align=center>)"
     }
   ],
   "candidate_related_terms": [],
@@ -1996,11 +2032,89 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

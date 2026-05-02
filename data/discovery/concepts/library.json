@@ -1162,6 +1162,42 @@
       "source_repo": "apache/logging-log4net",
       "status": "candidate-context",
       "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "Vue I18n for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libexpat/libexpat",
+      "status": "candidate-context",
+      "text": ":herb: Fast streaming XML parser written in C99 with >90% test coverage; moved from SourceForge to GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libexpat/libexpat",
+      "status": "candidate-context",
+      "text": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -1740,6 +1776,24 @@
       "source_repo": "apache/logging-log4net",
       "status": "candidate",
       "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libexpat/libexpat",
+      "status": "candidate",
+      "text": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -2482,11 +2536,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "apache/logging-log4net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/stdlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

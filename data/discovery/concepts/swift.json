@@ -1084,6 +1084,42 @@
       "source_repo": "bow-swift/nef-plugin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate-context",
+      "text": "voicevox_core swift wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate-context",
+      "text": "Unofficial Swift wrapper for voicevox_core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Generating SDKs for multiple programming languages and platforms \u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate-context",
+      "text": "Application based on the web airelib.re.com, made with UIKIT in Swift applying the MVVM architecture. / Aplicaci\u00f3n iOS basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -1632,6 +1668,24 @@
       "source_repo": "bow-swift/nef-plugin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate",
+      "text": "Unofficial Swift wrapper for voicevox_core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [
@@ -2569,11 +2623,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-iOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

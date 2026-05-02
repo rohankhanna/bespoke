@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -526,6 +526,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sniklaus/pytorch-unflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX"
     }
   ],
   "term": "cuda"

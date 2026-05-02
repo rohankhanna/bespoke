@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "Deploy MkDocs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "preparedness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Civilian-Readiness-Guide",
+      "target": "red-alert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:29.428736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3064
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A consolidated series of readiness checklists, SOPs, and peacetime prep guides. Intended for civilian use in Israel. Non-official, but based on gov resources.",
+    "fork": false,
+    "full_name": "danielrosehill/Israel-Civilian-Readiness-Guide",
+    "html_url": "https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide",
+    "language": "Typst",
+    "pushed_at": "2026-03-26T01:02:35Z",
+    "stargazers_count": 0,
+    "topics": [
+      "preparedness",
+      "red-alert"
+    ],
+    "updated_at": "2026-03-26T01:02:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy MkDocs to GitHub Pages"
+    },
+    {
+      "context_snippet": "A comprehensive field guide and checklist system for civilian preparedness during wartime in Israel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preparedness"
+    },
+    {
+      "context_snippet": "A comprehensive field guide and checklist system for civilian preparedness during wartime in Israel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-alert"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dark-light-mode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate-context",
+      "text": "A plugin that make tmux's theme follow macOS dark/light mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate-context",
+      "text": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate",
+      "text": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dark-light-mode",
+  "concept_id": "dark-light-mode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dark-light-mode",
+      "sense_id": "dark-light-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

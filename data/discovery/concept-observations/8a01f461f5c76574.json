@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Decompressors for hyparquet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018645,
+      "status": "candidate",
+      "text": "unbend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013796,
+      "status": "candidate",
+      "text": "unwind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013152,
+      "status": "candidate",
+      "text": "unlax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013060,
+      "status": "candidate",
+      "text": "loosen up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008610,
+      "status": "candidate",
+      "text": "slow down"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decompress",
+      "sense_id": "decompress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "unwind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "relax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8015,
+      "status": "candidate",
+      "text": "unlax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5021,
+      "status": "candidate",
+      "text": "slow down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5020,
+      "status": "candidate",
+      "text": "loosen up"
+    }
+  ],
+  "concept_id": "decompress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decompress",
+  "observation_id": "8a01f461f5c76574",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "decompress",
+  "source_context_snippet": "![hyparquet parakeets](hyparquet-compressors.jpg)",
+  "source_file": null,
+  "source_repo": "hyparam/hyparquet-compressors",
+  "source_repo_description": "Decompressors for hyparquet"
+}

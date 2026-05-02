@@ -1342,6 +1342,54 @@
       "source_repo": "mapbox/concaveman",
       "status": "candidate-context",
       "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JavaScript. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fridays/next-routes",
+      "status": "candidate-context",
+      "text": "Universal dynamic routes for Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fridays/next-routes",
+      "status": "candidate-context",
+      "text": "[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.4.2&x2=0)](https://www.npmjs.com/package/next-routes) [![Coverage Status](https://coveralls.io/repos/github/fridays/next-routes/badge.svg)](https://coveralls.io/github/fridays/next-routes) [![Build S\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate-context",
+      "text": "An npm beholder that deceives you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate-context",
+      "text": "Notice: some commands might require `--max-old-space-size=2000` or above."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -2010,6 +2058,30 @@
       "source_repo": "mapbox/concaveman",
       "status": "candidate",
       "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fridays/next-routes",
+      "status": "candidate",
+      "text": "[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.4.2&x2=0)](https://www.npmjs.com/package/next-routes) [![Coverage Status](https://coveralls.io/repos/github/fridays/next-routes/badge.svg)](https://coveralls.io/github/fridays/next-routes) [![Build S\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate",
+      "text": "Notice: some commands might require `--max-old-space-size=2000` or above."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -3439,11 +3511,77 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fridays/next-routes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Gzemnid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/stdlib"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "jphall663/automl_resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "jphall663/basic_data_viz_rules_and_links",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "jphall663/ds_interview_qs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "jphall663/bellarmine_py_intro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "image-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining",
+      "target": "text-mining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:19.149118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17008
+    },
+    {
+      "path": "requirements.txt",
+      "size": 292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Materials for GWU DNSC 6279 and DNSC 6290.",
+    "fork": false,
+    "full_name": "jphall663/GWU_data_mining",
+    "html_url": "https://github.com/jphall663/GWU_data_mining",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-27T20:05:07Z",
+    "stargazers_count": 241,
+    "topics": [
+      "data-mining",
+      "data-science",
+      "data-visualization",
+      "h2o",
+      "image-processing",
+      "image-recognition",
+      "machine-learning",
+      "python",
+      "r",
+      "sas",
+      "text-mining"
+    ],
+    "updated_at": "2026-03-23T03:36:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jphall663/automl_resources",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jphall663/basic_data_viz_rules_and_links",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jphall663/bellarmine_py_intro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jphall663/ds_interview_qs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-recognition"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-mining"
+    }
+  ]
+}

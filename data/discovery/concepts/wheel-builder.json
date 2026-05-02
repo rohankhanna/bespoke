@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Wheel-Builder"
+    "Wheel-Builder",
+    "Wheel builder"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "hajimes/mmh3",
       "status": "candidate-context",
       "text": "Wheel-Builder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trezor/cython-hidapi",
+      "status": "candidate-context",
+      "text": ":snake: Python wrapper for the HIDAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trezor/cython-hidapi",
+      "status": "candidate-context",
+      "text": "Wheel builder"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "hajimes/mmh3",
       "status": "candidate",
       "text": "Wheel-Builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trezor/cython-hidapi",
+      "status": "candidate",
+      "text": "Wheel builder"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11592,
+      "status": "candidate",
+      "text": "bob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11592,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11531,
+      "status": "candidate",
+      "text": "ani"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11531,
+      "status": "candidate",
+      "text": "ceramist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10783,
+      "status": "candidate",
+      "text": "aaron"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Wheel-Builder",
   "concept_id": "wheel-builder",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "hajimes/mmh3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "trezor/cython-hidapi"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

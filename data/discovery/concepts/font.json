@@ -427,6 +427,54 @@
       "source_repo": "Des-Magmeta/PlanKai",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate-context",
+      "text": "\u94c1\u84ba\u85dc\u4f53\uff0c\u57fa\u4e8e Reggae One \u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002An open-source font that extends Fontworks\u2019 Reggae One to Chinese."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate-context",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u601d\u6e90\u9ed1\u4f53\uff0c\u5e76\u4ee5\u4e2d\u56fd\u5927\u9646\u5b57\u5f62\u4e3a\u6807\u51c6\u7684\u5bf9\u4e2d\u65e5\u97e9\u8d8a\u7edf\u4e00\u8868\u610f\u6587\u5b57\u6269\u5c55\u533a\u8fdb\u884c\u5b57\u5f62\u8865\u5145\u7684\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "status": "candidate-context",
+      "text": "Moon Stars Kai \u6708\u661f\u6977"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "status": "candidate-context",
+      "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ItMarki/jyunsaikaai",
+      "status": "candidate-context",
+      "text": "\u57fa\u65bc Klee One \u88fd\u4f5c\u7684\u9999\u6e2f\u7e41\u9ad4\u5b57\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItMarki/jyunsaikaai",
+      "status": "candidate-context",
+      "text": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +687,30 @@
       "source_repo": "Des-Magmeta/PlanKai",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "status": "candidate",
+      "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ItMarki/jyunsaikaai",
+      "status": "candidate",
+      "text": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -970,11 +1042,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Des-Magmeta/PlanKai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Buernia/Tiejili"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "GuiWonder/MoonStarsKai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ItMarki/jyunsaikaai"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

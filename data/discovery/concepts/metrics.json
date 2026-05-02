@@ -544,6 +544,30 @@
       "source_repo": "tushartushar/DesigniteJava",
       "status": "candidate-context",
       "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": ":bar_chart: Benchmark multiple object trackers (MOT) in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate-context",
+      "text": "Python package for the evaluation of odometry and SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate-context",
+      "text": "***Python package for the evaluation of odometry and SLAM***"
     }
   ],
   "candidate_glosses": [
@@ -816,6 +840,18 @@
       "source_repo": "tushartushar/DesigniteJava",
       "status": "candidate",
       "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate",
+      "text": "***Python package for the evaluation of odometry and SLAM***"
     }
   ],
   "candidate_related_terms": [
@@ -1345,11 +1381,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

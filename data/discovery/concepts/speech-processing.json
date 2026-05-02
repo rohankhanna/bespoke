@@ -79,6 +79,18 @@
       "source_repo": "speechbrain/speechbrain",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate-context",
+      "text": "Library to build speech synthesis systems designed for easy and fast prototyping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate-context",
+      "text": "![alt text](assets/logo_wide.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "speechbrain/speechbrain",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate",
+      "text": "![alt text](assets/logo_wide.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "speechbrain/speechbrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/nnmnkwii"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

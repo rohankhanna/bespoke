@@ -129,6 +129,18 @@
       "source_repo": "apache/pulsar-client-node",
       "status": "candidate-context",
       "text": "PR validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-git/go-git",
+      "status": "candidate-context",
+      "text": "A highly extensible Git implementation in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-git/go-git",
+      "status": "candidate-context",
+      "text": "PR Validation"
     }
   ],
   "candidate_glosses": [
@@ -197,6 +209,12 @@
       "source_repo": "apache/pulsar-client-node",
       "status": "candidate",
       "text": "PR validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-git/go-git",
+      "status": "candidate",
+      "text": "PR Validation"
     }
   ],
   "candidate_related_terms": [
@@ -342,11 +360,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/PR_validation.yml",
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "go-git/go-git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

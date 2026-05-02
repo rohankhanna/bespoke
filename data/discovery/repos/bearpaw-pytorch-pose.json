@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "anewell/pose-hg-train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "hourglass-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:36:00.442659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch toolkit for 2D Human Pose Estimation.",
+    "fork": false,
+    "full_name": "bearpaw/pytorch-pose",
+    "html_url": "https://github.com/bearpaw/pytorch-pose",
+    "language": "Python",
+    "pushed_at": "2021-12-20T20:15:47Z",
+    "stargazers_count": 1120,
+    "topics": [
+      "hourglass-network",
+      "human-pose-estimation",
+      "mpii-dataset",
+      "mscoco-keypoint",
+      "pose",
+      "pose-estimation",
+      "pytorch"
+    ],
+    "updated_at": "2026-01-28T09:11:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anewell/pose-hg-train",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hourglass-network"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii-dataset"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-keypoint"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "![screenshot](./docs/screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

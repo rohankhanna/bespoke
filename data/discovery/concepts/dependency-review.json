@@ -1102,6 +1102,42 @@
       "source_repo": "nodejs/node-addon-api",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "CSS Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate-context",
+      "text": "Lightweight CSS extraction plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -1648,6 +1684,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nodejs/node-addon-api",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/mini-css-extract-plugin",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
       "status": "candidate",
       "text": "'Dependency Review'"
     }
@@ -2359,11 +2413,35 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/css-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/mini-css-extract-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "StevenBlack/hosts"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -355,6 +355,18 @@
       "source_repo": "GitYCC/g2pW",
       "status": "candidate-context",
       "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate-context",
+      "text": "\u94c1\u84ba\u85dc\u4f53\uff0c\u57fa\u4e8e Reggae One \u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002An open-source font that extends Fontworks\u2019 Reggae One to Chinese."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate-context",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "GitYCC/g2pW",
       "status": "candidate",
       "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buernia/Tiejili",
+      "status": "candidate",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -769,11 +787,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "GitYCC/g2pW"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Buernia/Tiejili"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

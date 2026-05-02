@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-templates.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-templates.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "sveltejs/sapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "rich-harris/degit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "sveltejs/sapper-template-rollup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "lukeed/sirv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "sveltejs/sapper-template",
+      "target": "Create templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:10.612472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7891
+    },
+    {
+      "path": ".github/workflows/build-templates.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Starter template for Sapper apps",
+    "fork": false,
+    "full_name": "sveltejs/sapper-template",
+    "html_url": "https://github.com/sveltejs/sapper-template",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-18T01:06:55Z",
+    "stargazers_count": 693,
+    "topics": [],
+    "updated_at": "2026-04-13T09:00:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukeed/sirv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rich-harris/degit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/sapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/sapper-template-rollup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-templates.yml",
+      "term": "Create templates"
+    }
+  ]
+}

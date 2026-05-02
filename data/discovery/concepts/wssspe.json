@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "wssspe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml?query=branch%3Amain)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "wssspe",
+  "concept_id": "wssspe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/citation-file-format"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wssspe",
+      "sense_id": "wssspe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

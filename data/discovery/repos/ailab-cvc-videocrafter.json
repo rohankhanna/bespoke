@@ -9,6 +9,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "AILab-CVC/VideoCrafter",
@@ -30,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:22:33.784854+00:00",
+  "fetched_at": "2026-05-02T19:48:39.744330+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -60,6 +67,11 @@
     "updated_at": "2026-05-01T19:13:06Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "videocrafter/videocrafter",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DeepFill v1/v2 with Contextual Attention and Gated Convolution, CVPR 2018, and ICCV 2019 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-inpainting",
+      "sense_id": "image-inpainting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-inpainting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-inpainting",
+  "observation_id": "350758c25fdf271f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "image-inpainting",
+  "source_context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+  "source_file": null,
+  "source_repo": "JiahuiYu/generative_inpainting",
+  "source_repo_description": "DeepFill v1/v2 with Contextual Attention and Gated Convolution, CVPR 2018, and ICCV 2019 Oral"
+}

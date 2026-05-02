@@ -19,6 +19,18 @@
       "source_repo": "DiffPoseTalk/DiffPoseTalk",
       "status": "candidate-context",
       "text": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] FaceFormer: Speech-Driven 3D Facial Animation with Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for the paper:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DiffPoseTalk/DiffPoseTalk",
       "status": "candidate",
       "text": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate",
+      "text": "PyTorch implementation for the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "DiffPoseTalk/DiffPoseTalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EvelynFan/FaceFormer"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

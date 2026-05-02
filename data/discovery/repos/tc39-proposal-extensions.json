@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-extensions",
+      "target": "tc39/proposal-bind-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-extensions",
+      "target": "ecmarkup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:37:53.530221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3069
+    },
+    {
+      "path": "package.json",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extensions proposal for ECMAScript",
+    "fork": false,
+    "full_name": "tc39/proposal-extensions",
+    "html_url": "https://github.com/tc39/proposal-extensions",
+    "language": "HTML",
+    "pushed_at": "2023-01-18T06:45:39Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-04-17T20:46:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-bind-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

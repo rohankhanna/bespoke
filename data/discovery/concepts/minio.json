@@ -55,6 +55,18 @@
       "source_repo": "minio/directpv",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "minio/directpv",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hypnoglow/helm-s3"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

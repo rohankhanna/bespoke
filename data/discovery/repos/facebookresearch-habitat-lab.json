@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "facebookresearch/habitat-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "ericchen321/ros_x_habitat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "conda-incubator/setup-miniconda@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "mxschmitt/action-tmate@v3.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "Deploy PYPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "actions/setup-python@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "conda-incubator/setup-miniconda@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "mxschmitt/action-tmate@v3.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "Install and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "sim2real",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab",
+      "target": "simulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:07.732439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13769
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1702
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/deploy_pypi.yml",
+      "size": 1889
+    },
+    {
+      "path": ".github/workflows/install_and_test.yml",
+      "size": 10419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modular high-level library to train embodied AI agents across a variety of tasks and environments.",
+    "fork": false,
+    "full_name": "facebookresearch/habitat-lab",
+    "html_url": "https://github.com/facebookresearch/habitat-lab",
+    "language": "Python",
+    "pushed_at": "2026-02-21T02:11:09Z",
+    "stargazers_count": 2962,
+    "topics": [
+      "ai",
+      "computer-vision",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "python",
+      "reinforcement-learning",
+      "research",
+      "robotics",
+      "sim2real",
+      "simulator"
+    ],
+    "updated_at": "2026-05-01T19:40:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericchen321/ros_x_habitat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/habitat-challenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy PYPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_pypi.yml",
+      "term": "Deploy PYPI"
+    },
+    {
+      "context_snippet": "Install and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "term": "Install and test"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sim2real"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yaml",
+      "source_repo": "haskell/ghcup-www",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yaml",
+      "source_repo": "haskell/ghcup-www",
+      "target": "MkDocs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:32:10.991681+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/mkdocs.yaml",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haskell/ghcup-www",
+    "html_url": "https://github.com/haskell/ghcup-www",
+    "language": null,
+    "pushed_at": "2026-05-02T13:45:46Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-31T10:20:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yaml",
+      "term": "MkDocs"
+    }
+  ]
+}

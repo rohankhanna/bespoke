@@ -31,6 +31,30 @@
       "source_repo": "logseq/nbb-logseq",
       "status": "candidate-context",
       "text": "`nbb-logseq` provides [easy CLJS scripting on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate-context",
+      "text": "A github action and CLI to publish logseq graphs as a SPA app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate-context",
+      "text": "This is a [github action](https://github.com/features/actions) to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cldwalker/logseq-clis",
+      "status": "candidate-context",
+      "text": "CLIs for logseq using nbb-logseq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cldwalker/logseq-clis",
+      "status": "candidate-context",
+      "text": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "logseq/nbb-logseq",
       "status": "candidate",
       "text": "`nbb-logseq` provides [easy CLJS scripting on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate",
+      "text": "This is a [github action](https://github.com/features/actions) to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cldwalker/logseq-clis",
+      "status": "candidate",
+      "text": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "logseq/nbb-logseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "logseq/publish-spa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cldwalker/logseq-clis"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

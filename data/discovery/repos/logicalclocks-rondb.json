@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_rondb.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_rondb.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_rondb.yml",
+      "source_repo": "logicalclocks/rondb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_rondb.yml",
+      "source_repo": "logicalclocks/rondb",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_rondb.yml",
+      "source_repo": "logicalclocks/rondb",
+      "target": "Publish RonDB Tarball",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:28:20.214140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2651
+    },
+    {
+      "path": ".github/workflows/publish_rondb.yml",
+      "size": 4472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "25.10-main",
+    "description": "This is RonDB, a distribution of NDB Cluster developed and used by Hopsworks AB. It also contains development branches of RonDB.",
+    "fork": false,
+    "full_name": "logicalclocks/rondb",
+    "html_url": "https://github.com/logicalclocks/rondb",
+    "language": "C++",
+    "pushed_at": "2026-04-29T09:10:55Z",
+    "stargazers_count": 708,
+    "topics": [],
+    "updated_at": "2026-04-29T09:02:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish RonDB Tarball",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_rondb.yml",
+      "term": "Publish RonDB Tarball"
+    }
+  ]
+}

@@ -475,6 +475,18 @@
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
       "status": "candidate-context",
       "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Databend</h1>"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +723,12 @@
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
       "status": "candidate",
       "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Databend</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1042,11 +1060,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

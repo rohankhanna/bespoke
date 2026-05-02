@@ -55,6 +55,18 @@
       "source_repo": "folke/neoconf.nvim",
       "status": "candidate-context",
       "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate-context",
+      "text": "Neovim custom configuration, oriented for full stack developers (Ruby on Rails, ruby, php, html, css, SCSS, javascript)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "folke/neoconf.nvim",
       "status": "candidate",
       "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "folke/neoconf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "crivotz/nv-ide"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate-context",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/go",
+      "status": "candidate-context",
+      "text": "Go with Cloudflare experimental patches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/go",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 This fork is offered as-is, and without guarantees. It is expected that"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +81,12 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/go",
+      "status": "candidate",
+      "text": "\ud83d\udea8 This fork is offered as-is, and without guarantees. It is expected that"
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +124,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "cloudflare/circl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/go"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

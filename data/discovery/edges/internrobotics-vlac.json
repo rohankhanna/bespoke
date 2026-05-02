@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "InternRobotics/VLAC",
+      "target": "7-z-7/vlac",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "InternRobotics/VLAC"
+}

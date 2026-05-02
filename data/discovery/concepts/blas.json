@@ -175,6 +175,18 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "status": "candidate-context",
+      "text": "BLAS extension to xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "status": "candidate-context",
+      "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "status": "candidate",
+      "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

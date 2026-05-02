@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/MOTR",
+      "target": "megvii-model/motr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/MOTR",
+      "target": "dancetrack/dancetrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR",
+      "target": "end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR",
+      "target": "multi-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:52.791137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8824
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV2022] MOTR: End-to-End Multiple-Object Tracking with TRansformer",
+    "fork": false,
+    "full_name": "megvii-research/MOTR",
+    "html_url": "https://github.com/megvii-research/MOTR",
+    "language": "Python",
+    "pushed_at": "2024-01-15T07:10:16Z",
+    "stargazers_count": 796,
+    "topics": [
+      "end-to-end",
+      "multi-object-tracking",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T12:17:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dancetrack/dancetrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-model/motr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-tracking"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

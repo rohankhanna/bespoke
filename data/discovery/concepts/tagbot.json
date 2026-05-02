@@ -950,6 +950,210 @@
       "source_repo": "JuliaGizmos/Blink.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "Plotting for Julia based on matplotlib.pyplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/SymPy.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to SymPy via PyCall"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/SymPy.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "Conda managing Julia binary dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/FFTViews.jl",
+      "status": "candidate-context",
+      "text": "Julia package for fast fourier transforms and periodic views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/FFTViews.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate-context",
+      "text": "Fortran-like arrays with arbitrary, zero or negative starting indices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "AD-backend agnostic system defining custom forward and reverse mode rules. This is the light weight core to allow you to define rules for your functions in your packages, without depending on any particular AD system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "Relax! Flux is the ML library that doesn't make you tensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate-context",
+      "text": "forward and reverse mode automatic differentiation primitives for Julia Base + StdLibs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/Cthulhu.jl",
+      "status": "candidate-context",
+      "text": "The slow descent into madness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Cthulhu.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate-context",
+      "text": "Project Preferences Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/StaticArraysCore.jl",
+      "status": "candidate-context",
+      "text": "Interface package for StaticArrays.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArraysCore.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate-context",
+      "text": "import code from IJulia Jupyter notebooks into Julia programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the Voyager data exploration tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "An Electron.jl based figure and table display."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -1448,6 +1652,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaGizmos/Blink.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/SymPy.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/FFTViews.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Cthulhu.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArraysCore.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -1985,11 +2291,131 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPy/PyPlot.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPy/SymPy.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/ModelingToolkit.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/ArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/FFTViews.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/OffsetArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDiff/ChainRules.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/Cthulhu.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPackaging/Preferences.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/StaticArraysCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

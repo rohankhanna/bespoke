@@ -19,6 +19,30 @@
       "source_repo": "cdcseacave/openMVS",
       "status": "candidate-context",
       "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "status": "candidate-context",
+      "text": "Hierarchical Deep Stereo Matching on High Resolution Images, CVPR 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "status": "candidate-context",
+      "text": "<img src=\"./architecture.png\" width=\"800\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JiaRenChang/PSMNet",
+      "status": "candidate-context",
+      "text": "Pyramid Stereo Matching Network (CVPR2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiaRenChang/PSMNet",
+      "status": "candidate-context",
+      "text": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "cdcseacave/openMVS",
       "status": "candidate",
       "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "status": "candidate",
+      "text": "<img src=\"./architecture.png\" width=\"800\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiaRenChang/PSMNet",
+      "status": "candidate",
+      "text": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "cdcseacave/openMVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gengshan-y/high-res-stereo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JiaRenChang/PSMNet"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

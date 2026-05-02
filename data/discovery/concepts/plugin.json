@@ -1216,6 +1216,54 @@
       "source_repo": "lumen-oss/lz.n",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "Vue I18n for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate-context",
+      "text": "The simple directory tree viewer for Neovim written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate-context",
+      "text": "Carbon.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source plugin and ftdetect directories on the Neovim runtimepath."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
     }
   ],
   "candidate_glosses": [
@@ -1824,6 +1872,30 @@
       "source_repo": "lumen-oss/lz.n",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate",
+      "text": "Carbon.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate",
+      "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
     }
   ],
   "candidate_related_terms": [
@@ -2701,11 +2773,59 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "SidOfc/carbon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

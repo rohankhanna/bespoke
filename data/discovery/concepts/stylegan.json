@@ -55,6 +55,18 @@
       "source_repo": "omertov/encoder4editing",
       "status": "candidate-context",
       "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "omertov/encoder4editing",
       "status": "candidate",
       "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "omertov/encoder4editing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

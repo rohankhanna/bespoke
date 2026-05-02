@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "target": "lxgw/lxgwwenkaitc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "target": "lxgw/lxgwwenkaigb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "target": "chinese-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuiWonder/MoonStarsKai",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:19.298692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Moon Stars Kai \u6708\u661f\u6977",
+    "fork": false,
+    "full_name": "GuiWonder/MoonStarsKai",
+    "html_url": "https://github.com/GuiWonder/MoonStarsKai",
+    "language": null,
+    "pushed_at": "2026-02-06T12:48:34Z",
+    "stargazers_count": 118,
+    "topics": [
+      "chinese-fonts",
+      "font"
+    ],
+    "updated_at": "2026-04-14T07:16:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkaigb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkaitc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-fonts"
+    },
+    {
+      "context_snippet": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    }
+  ]
+}

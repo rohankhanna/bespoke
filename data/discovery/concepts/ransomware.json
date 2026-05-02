@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ransomware"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023862,
+      "status": "candidate",
+      "text": "cryptolocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023861,
+      "status": "candidate",
+      "text": "cryptovirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023860,
+      "status": "candidate",
+      "text": "cryptoworm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023859,
+      "status": "candidate",
+      "text": "badware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023858,
+      "status": "candidate",
+      "text": "riskware"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ransomware",
+  "concept_id": "ransomware",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "StevenBlack/hosts"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ransomware",
+      "sense_id": "ransomware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

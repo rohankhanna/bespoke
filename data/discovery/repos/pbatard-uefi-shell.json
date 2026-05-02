@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "pbatard/mosby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "tianocore/edk2.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "Linux, gcc, EDK2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "aa64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "edk2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "riscv64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "uefi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "uefi-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "x86-32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/UEFI-Shell",
+      "target": "x86-64",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:35:44.537969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8141
+    },
+    {
+      "path": ".github/workflows/linux_gcc_edk2.yml",
+      "size": 10199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UEFI Shell binary images, generated from EDK2 stable",
+    "fork": false,
+    "full_name": "pbatard/UEFI-Shell",
+    "html_url": "https://github.com/pbatard/UEFI-Shell",
+    "language": null,
+    "pushed_at": "2026-02-27T12:41:21Z",
+    "stargazers_count": 611,
+    "topics": [
+      "aa64",
+      "aarch64",
+      "amd64",
+      "arm",
+      "arm64",
+      "edk2",
+      "riscv64",
+      "uefi",
+      "uefi-shell",
+      "x86",
+      "x86-32",
+      "x86-64"
+    ],
+    "updated_at": "2026-04-30T22:06:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pbatard/mosby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianocore/edk2.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux, gcc, EDK2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "term": "Linux, gcc, EDK2"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aa64"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aarch64"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd64"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edk2"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riscv64"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi-shell"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-32"
+    },
+    {
+      "context_snippet": "UEFI-Shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-64"
+    }
+  ]
+}

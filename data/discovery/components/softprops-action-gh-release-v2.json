@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1672,6 +1672,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/precompile.yml",
       "source_repo": "elixir-makeup/makeup_syntect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "netdur/llama_cpp_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "netdur/llama_cpp_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Splode/pomotroid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell"
     }
   ]
 }

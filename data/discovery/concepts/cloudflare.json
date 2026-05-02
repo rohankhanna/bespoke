@@ -115,6 +115,18 @@
       "source_repo": "frandiox/vitedge",
       "status": "candidate-context",
       "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/miniflare",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Fully-local simulator for Cloudflare Workers. For the latest version, see https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/miniflare",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "frandiox/vitedge",
       "status": "candidate",
       "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/miniflare",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "frandiox/vitedge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/miniflare"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

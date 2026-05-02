@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "denoland",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-deno",
+      "target": "mbaas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:29:50.784474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2589
+    },
+    {
+      "path": "Dockerfile",
+      "size": 107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple examples that help you get started with Appwrite + Deno (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-deno",
+    "html_url": "https://github.com/appwrite/playground-for-deno",
+    "language": "TypeScript",
+    "pushed_at": "2024-09-19T13:24:43Z",
+    "stargazers_count": 34,
+    "topics": [
+      "appwrite",
+      "baas",
+      "deno",
+      "denoland",
+      "hacktoberfest",
+      "mbaas"
+    ],
+    "updated_at": "2025-04-04T03:49:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoland"
+    },
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Simple examples that help you to get started with Appwrite + Deno (=\u2764\ufe0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mbaas"
+    }
+  ]
+}

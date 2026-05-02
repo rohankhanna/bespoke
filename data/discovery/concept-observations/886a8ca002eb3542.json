@@ -84,7 +84,7 @@
   "normalized_form": "package-manager-builds",
   "observation_id": "886a8ca002eb3542",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Package Manager Builds",
   "source_context_snippet": "Package Manager Builds",
   "source_file": ".github/workflows/package-manager-builds.yaml",

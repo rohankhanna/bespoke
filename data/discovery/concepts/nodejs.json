@@ -3427,6 +3427,102 @@
       "source_repo": "sindresorhus/globby",
       "status": "candidate-context",
       "text": "globby \u2014 User-friendly glob matching"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Generating SDKs for multiple programming languages and platforms \u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Node.js SDK \ud83d\udfe2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-node.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate-context",
+      "text": "Server for PeerJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChromeLabs/ndb",
+      "status": "candidate-context",
+      "text": "ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ndb",
+      "status": "candidate-context",
+      "text": "<!-- [START badges] -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate-context",
+      "text": "Turn a path string such as `/user/:name` into a regular expression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate-context",
+      "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate-context",
+      "text": "An npm beholder that deceives you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate-context",
+      "text": "Notice: some commands might require `--max-old-space-size=2000` or above."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -5139,6 +5235,54 @@
       "source_repo": "sindresorhus/globby",
       "status": "candidate",
       "text": "globby \u2014 User-friendly glob matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-node.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs-server",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChromeLabs/ndb",
+      "status": "candidate",
+      "text": "<!-- [START badges] -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate",
+      "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Gzemnid",
+      "status": "candidate",
+      "text": "Notice: some commands might require `--max-old-space-size=2000` or above."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -7966,11 +8110,125 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "peers/peerjs-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/ndb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/path-to-regexp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb-features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Gzemnid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/stdlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

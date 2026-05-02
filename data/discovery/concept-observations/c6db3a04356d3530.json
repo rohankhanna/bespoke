@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "composibility",
+      "sense_id": "composibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "composibility",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "composibility",
+  "observation_id": "c6db3a04356d3530",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "composibility",
+  "source_context_snippet": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)",
+  "source_file": null,
+  "source_repo": "JuliaArrays/ArrayInterface.jl",
+  "source_repo_description": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -552,6 +552,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "google/oss-rebuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ButTaiwan/taigivs"
     }
   ]
 }

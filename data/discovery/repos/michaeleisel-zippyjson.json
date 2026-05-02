@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaeleisel/ZippyJSON",
+      "target": "lemire/simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaeleisel/ZippyJSON",
+      "target": "apple/swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:28:22.539725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A much faster version of JSONDecoder",
+    "fork": false,
+    "full_name": "michaeleisel/ZippyJSON",
+    "html_url": "https://github.com/michaeleisel/ZippyJSON",
+    "language": "Swift",
+    "pushed_at": "2025-09-07T22:16:28Z",
+    "stargazers_count": 958,
+    "topics": [],
+    "updated_at": "2026-04-16T17:05:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/simdjson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

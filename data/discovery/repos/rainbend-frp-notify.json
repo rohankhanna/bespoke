@@ -60,13 +60,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rainbend/frp-notify",
-      "target": "gotify/server",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "rainbend/frp-notify",
@@ -165,7 +158,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T06:55:53.058797+00:00",
+  "fetched_at": "2026-05-02T19:38:19.705543+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -215,11 +208,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "arugal/frp-notify",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gotify/server",
       "source_file": "README.md"
     }
   ],

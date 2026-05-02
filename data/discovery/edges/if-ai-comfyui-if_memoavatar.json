@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "if-ai/ComfyUI-IF_MemoAvatar"
+}

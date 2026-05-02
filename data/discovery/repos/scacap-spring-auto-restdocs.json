@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "rokroskar/workflow-run-cleanup-action@v0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "scacap/action-surefire-report@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "rokroskar/workflow-run-cleanup-action@v0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "scacap/action-surefire-report@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "asciidoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "dokka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "restdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "spring-auto-restdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "target": "spring-rest-docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:32.154873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5098
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 3515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Spring Auto REST Docs is an extension to Spring REST Docs",
+    "fork": false,
+    "full_name": "ScaCap/spring-auto-restdocs",
+    "html_url": "https://github.com/ScaCap/spring-auto-restdocs",
+    "language": "Java",
+    "pushed_at": "2023-12-19T14:18:15Z",
+    "stargazers_count": 312,
+    "topics": [
+      "asciidoc",
+      "documentation",
+      "dokka",
+      "java",
+      "kotlin",
+      "restdocs",
+      "spring-auto-restdocs",
+      "spring-boot",
+      "spring-rest-docs"
+    ],
+    "updated_at": "2026-02-28T03:57:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asciidoc"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dokka"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restdocs"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-auto-restdocs"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "This project is officially end-of-life. Users are welcome to maintain it in a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-rest-docs"
+    }
+  ]
+}

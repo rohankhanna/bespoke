@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:38:29.684992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1954
+    },
+    {
+      "path": "go.mod",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An ordered collection implemented in Golang with O(log(N)) time complexity on adding / searching / removing",
+    "fork": false,
+    "full_name": "wangjia184/sortedset",
+    "html_url": "https://github.com/wangjia184/sortedset",
+    "language": "Go",
+    "pushed_at": "2023-03-24T08:10:21Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2025-11-14T09:03:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

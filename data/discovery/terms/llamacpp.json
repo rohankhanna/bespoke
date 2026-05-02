@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mostlygeek/llama-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ngxson/wllama"
     }
   ],
   "term": "llamacpp"

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gradsim/gradsim",
+      "target": "filipeabperes/py3ode",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:20.783165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Differentiable simulation for system identification and visuomotor control",
+    "fork": false,
+    "full_name": "gradsim/gradsim",
+    "html_url": "https://github.com/gradsim/gradsim",
+    "language": "Python",
+    "pushed_at": "2023-10-28T06:33:41Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-04-01T14:01:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filipeabperes/py3ode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

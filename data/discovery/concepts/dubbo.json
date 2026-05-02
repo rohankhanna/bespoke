@@ -115,6 +115,30 @@
       "source_repo": "apache/dubbo-go-hessian2",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "Apache Dubbo documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "The python Implementation For Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "apache/dubbo-go-hessian2",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/apache/dubbo-go-hessian2.png?branch=master)](https://travis-ci.org/apache/dubbo-go-hessian2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +310,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -153,6 +153,60 @@
       "source_repo": "suzuki-shunsuke/pinact-action",
       "status": "candidate-context",
       "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "lintnet module for ghalint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "szksh-lab/.github",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to fix code securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to release JavaScript Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "Azure Native Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "actionlint"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +279,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "szksh-lab/.github",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
       "status": "candidate",
       "text": "actionlint"
     }
@@ -306,11 +390,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/actionlint.yaml",
       "source_repo": "suzuki-shunsuke/pinact-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "lintnet-modules/ghalint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "szksh-lab/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "csm-actions/securefix-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/release-js-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "pulumi/pulumi-azure-native"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

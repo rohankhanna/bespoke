@@ -331,6 +331,42 @@
       "source_repo": "kirill-grouchnikov/ephemeral",
       "status": "candidate-context",
       "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Flutter SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "Windows Forms is a .NET UI framework for building Windows desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast desktop Compose applications "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +531,24 @@
       "source_repo": "kirill-grouchnikov/ephemeral",
       "status": "candidate",
       "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
     }
   ],
   "candidate_related_terms": [
@@ -949,11 +1003,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/winforms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/aurora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -79,6 +79,18 @@
       "source_repo": "stisa/jupyternim",
       "status": "candidate-context",
       "text": "![logo.svg](logo.svg) Jupyter Nim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-xeus/xeus-cling",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for the C++ programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-xeus/xeus-cling",
+      "status": "candidate-context",
+      "text": "[![Azure Pipelines](https://dev.azure.com/jupyter-xeus/jupyter-xeus/_apis/build/status/jupyter-xeus.xeus-cling?branchName=master)](https://dev.azure.com/jupyter-xeus/jupyter-xeus/_build/latest?definitionId=4&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "stisa/jupyternim",
       "status": "candidate",
       "text": "![logo.svg](logo.svg) Jupyter Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-xeus/xeus-cling",
+      "status": "candidate",
+      "text": "[![Azure Pipelines](https://dev.azure.com/jupyter-xeus/jupyter-xeus/_apis/build/status/jupyter-xeus.xeus-cling?branchName=master)](https://dev.azure.com/jupyter-xeus/jupyter-xeus/_build/latest?definitionId=4&branchName=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "stisa/jupyternim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus-cling"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

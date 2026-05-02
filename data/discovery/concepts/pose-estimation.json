@@ -343,6 +343,18 @@
       "source_repo": "Hzzone/pytorch-openpose",
       "status": "candidate-context",
       "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bearpaw/pytorch-pose",
+      "status": "candidate-context",
+      "text": "A PyTorch toolkit for 2D Human Pose Estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bearpaw/pytorch-pose",
+      "status": "candidate-context",
+      "text": "![screenshot](./docs/screenshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "Hzzone/pytorch-openpose",
       "status": "candidate",
       "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bearpaw/pytorch-pose",
+      "status": "candidate",
+      "text": "![screenshot](./docs/screenshot.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -724,11 +742,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Hzzone/pytorch-openpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bearpaw/pytorch-pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

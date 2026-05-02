@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Tatortreiniger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "BRAT - Beta Reviewer's Auto-update Tool for Obsidian. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "Tatortreiniger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate",
+      "text": "Tatortreiniger"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Tatortreiniger",
+  "concept_id": "tatortreiniger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/tatortreiniger.yaml",
+      "source_repo": "TfTHacker/obsidian42-brat"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tatortreiniger",
+      "sense_id": "tatortreiniger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

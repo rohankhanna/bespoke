@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antoinelame/GazeTracking",
+      "target": "eye-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antoinelame/GazeTracking",
+      "target": "gaze-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antoinelame/GazeTracking",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:52.981073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4331
+    },
+    {
+      "path": "Dockerfile",
+      "size": 536
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc40 Eye Tracking library easily implementable to your projects",
+    "fork": false,
+    "full_name": "antoinelame/GazeTracking",
+    "html_url": "https://github.com/antoinelame/GazeTracking",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:37:23Z",
+    "stargazers_count": 2559,
+    "topics": [
+      "eye-tracking",
+      "gaze-tracking",
+      "opencv",
+      "python"
+    ],
+    "updated_at": "2026-05-02T03:59:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eye-tracking"
+    },
+    {
+      "context_snippet": "![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaze-tracking"
+    },
+    {
+      "context_snippet": "![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    }
+  ]
+}

@@ -19,12 +19,24 @@
       "source_repo": "amiable-dev/llm-council",
       "status": "candidate-context",
       "text": "Security Scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netplex/json-smart-v2",
+      "status": "candidate-context",
+      "text": "Security Scanning"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "Security Scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netplex/json-smart-v2",
       "status": "candidate",
       "text": "Security Scanning"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "netplex/json-smart-v2"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

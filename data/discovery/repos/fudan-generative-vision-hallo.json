@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "sdbds/hallo-for-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "aifsh/comfyui-hallo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "ashleykleynhans/hallo-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "daswer123/hallo-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-check.yaml",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-check.yaml",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-check.yaml",
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "face-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fudan-generative-vision/hallo",
+      "target": "video-animation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:43.590691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19957
+    },
+    {
+      "path": "requirements.txt",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/static-check.yaml",
+      "size": 747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation",
+    "fork": false,
+    "full_name": "fudan-generative-vision/hallo",
+    "html_url": "https://github.com/fudan-generative-vision/hallo",
+    "language": "Python",
+    "pushed_at": "2024-09-14T13:23:02Z",
+    "stargazers_count": 8647,
+    "topics": [
+      "face-animation",
+      "image-animation",
+      "video-animation"
+    ],
+    "updated_at": "2026-04-30T02:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aifsh/comfyui-hallo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleykleynhans/hallo-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daswer123/hallo-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdbds/hallo-for-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-check.yaml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-animation"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-animation"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "pr-commits",
   "observation_id": "46f04e71759a8fc1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "PR Commits",
   "source_context_snippet": "PR Commits",
   "source_file": ".github/workflows/check_pr_commits.yml",

@@ -311,6 +311,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse",
+      "target": "antfu/vite-plugin-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu-collective/vitesse",
       "target": "antfu/unocss",
       "target_type": "repository"
     },
@@ -326,13 +333,6 @@
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse",
       "target": "antfu/unplugin-vue-components",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/vitesse",
-      "target": "antfu/eslint-config",
       "target_type": "repository"
     },
     {
@@ -721,7 +721,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T15:06:08.413339+00:00",
+  "fetched_at": "2026-05-02T18:29:02.586531+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -750,20 +750,15 @@
     "html_url": "https://github.com/antfu-collective/vitesse",
     "language": "TypeScript",
     "pushed_at": "2026-02-25T14:39:25Z",
-    "stargazers_count": 9425,
+    "stargazers_count": 9426,
     "topics": [
       "vite",
       "vite-starter",
       "vite-template"
     ],
-    "updated_at": "2026-04-30T03:17:34Z"
+    "updated_at": "2026-05-01T17:29:16Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "antfu/eslint-config",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "antfu/unocss",
@@ -777,6 +772,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "antfu/unplugin-vue-components",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vite-plugin-pwa",
       "source_file": "README.md"
     }
   ],

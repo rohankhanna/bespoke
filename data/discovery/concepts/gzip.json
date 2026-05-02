@@ -151,6 +151,18 @@
       "source_repo": "rest-sh/restish",
       "status": "candidate-context",
       "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "Decompressors for hyparquet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "rest-sh/restish",
       "status": "candidate",
       "text": "![Restish Logo](https://user-images.githubusercontent.com/106826/82109918-ec5b2300-96ee-11ea-9af0-8515329d5965.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet-compressors"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

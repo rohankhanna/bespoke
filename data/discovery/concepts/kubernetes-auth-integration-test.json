@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Kubernetes auth integration test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate-context",
+      "text": "Lakekeeper is an Apache-Licensed, secure, fast and easy to use Apache Iceberg REST Catalog written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate-context",
+      "text": "Kubernetes auth integration test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper",
+      "status": "candidate",
+      "text": "Kubernetes auth integration test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26132,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26038,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21731,
+      "status": "candidate",
+      "text": "visa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21422,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21422,
+      "status": "candidate",
+      "text": "qualifying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Kubernetes auth integration test",
+  "concept_id": "kubernetes-auth-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/kube-auth.yml",
+      "source_repo": "lakekeeper/lakekeeper"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kubernetes auth integration test",
+      "sense_id": "kubernetes-auth-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

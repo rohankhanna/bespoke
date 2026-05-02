@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firmware for the default sensor kit for the Linka project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "platformio",
+      "sense_id": "platformio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "platformio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "platformio",
+  "observation_id": "ee7a0ad0fe34af4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "platformio",
+  "source_context_snippet": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)",
+  "source_file": null,
+  "source_repo": "garyservin/linka-firmware",
+  "source_repo_description": "Firmware for the default sensor kit for the Linka project"
+}

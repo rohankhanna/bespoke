@@ -229,6 +229,66 @@
       "source_repo": "vuejs/devtools",
       "status": "candidate-context",
       "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "lintnet module for ghalint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "szksh-lab/.github",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to fix code securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to release JavaScript Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-plugin-import-lite",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "autofix.ci"
     }
   ],
   "candidate_glosses": [
@@ -343,6 +403,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vuejs/devtools",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "szksh-lab/.github",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-plugin-import-lite",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
       "status": "candidate",
       "text": "autofix.ci"
     }
@@ -496,11 +592,59 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "vuejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "lintnet-modules/ghalint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "szksh-lab/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/securefix-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/release-js-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "9romise/eslint-plugin-import-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "vuejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "mitmproxy/mitmproxy"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

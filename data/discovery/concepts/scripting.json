@@ -139,6 +139,18 @@
       "source_repo": "starlight-go/starlight",
       "status": "candidate-context",
       "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "starlight-go/starlight",
       "status": "candidate",
       "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb-features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -36,21 +36,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "famiu/feline.nvim",
-      "target": "crivotz/nv-ide",
+      "target": "kyazdani42/nvim-web-devicons",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "famiu/feline.nvim",
-      "target": "6cdh/dotfiles",
+      "target": "ibhagwan/nvim-lua",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "famiu/feline.nvim",
-      "target": "edeneast/nyx",
+      "target": "hitesh-aggarwal/feline_one_monokai.nvim",
       "target_type": "repository"
     },
     {
@@ -138,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:06:08.944396+00:00",
+  "fetched_at": "2026-05-02T19:31:22.482228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -176,22 +176,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "6cdh/dotfiles",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "crivotz/nv-ide",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "edeneast/nyx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "feline-nvim/feline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hitesh-aggarwal/feline_one_monokai.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibhagwan/nvim-lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-web-devicons",
       "source_file": "README.md"
     }
   ],

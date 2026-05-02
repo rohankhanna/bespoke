@@ -55,6 +55,66 @@
       "source_repo": "adafruit/Adafruit_Sensor",
       "status": "candidate-context",
       "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate-context",
+      "text": "Arduino library for I2C & SPI abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate-context",
+      "text": "Unified driver for the ADXL345 Accelerometer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate-context",
+      "text": "Unified sensor driver for Adafruit's BMP085 & BMP180 breakouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate-context",
+      "text": "Arduino library for the BMP183 sensors in the Adafruit shop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "status": "candidate-context",
+      "text": "Unified sensor driver for the Adafruit BNO055 orientation sensor breakout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +139,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BNO055",
       "status": "candidate",
       "text": "Arduino Library CI"
     }
@@ -148,11 +238,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/githubci.yml",
       "source_repo": "adafruit/Adafruit_Sensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BusIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_ADXL345"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BNO055"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

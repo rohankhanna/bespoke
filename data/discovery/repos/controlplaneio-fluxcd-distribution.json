@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "mhausenblas/mkdocs-deploy-gh-pages@a31c6b13a80e4a4fbb525eeb7a2a78253bb15fa5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-alpine-prev.yaml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-alpine-prev.yaml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-alpine.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-distroless-prev.yaml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-distroless-prev.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "mhausenblas/mkdocs-deploy-gh-pages@a31c6b13a80e4a4fbb525eeb7a2a78253bb15fa5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fips.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-fips.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "FIPS conformance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "Conformance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "workflow release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-alpine-prev.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-alpine-prev.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "Vulnerability scan - Alpine Previous Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-alpine.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-alpine.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "Vulnerability scan - Alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "workflow scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-distroless-prev.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-distroless-prev.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "Vulnerability scan - Distroless Previous Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fips-140-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "fluxcd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "target": "gitops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:41:14.719602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3123
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 646
+    },
+    {
+      "path": ".github/workflows/e2e-fips.yaml",
+      "size": 4037
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 4403
+    },
+    {
+      "path": ".github/workflows/export-images.sh",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 5801
+    },
+    {
+      "path": ".github/workflows/scan-alpine-prev.yaml",
+      "size": 2469
+    },
+    {
+      "path": ".github/workflows/scan-alpine.yaml",
+      "size": 1233
+    },
+    {
+      "path": ".github/workflows/scan-controllers.yaml",
+      "size": 9570
+    },
+    {
+      "path": ".github/workflows/scan-distroless-prev.yaml",
+      "size": 2489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enterprise Distribution for Flux CD",
+    "fork": false,
+    "full_name": "controlplaneio-fluxcd/distribution",
+    "html_url": "https://github.com/controlplaneio-fluxcd/distribution",
+    "language": "CUE",
+    "pushed_at": "2026-04-30T08:40:07Z",
+    "stargazers_count": 89,
+    "topics": [
+      "continuous-delivery",
+      "fips-140-3",
+      "fluxcd",
+      "gitops"
+    ],
+    "updated_at": "2026-04-30T08:40:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "FIPS conformance tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-fips.yaml",
+      "term": "FIPS conformance tests"
+    },
+    {
+      "context_snippet": "Conformance tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "Conformance tests"
+    },
+    {
+      "context_snippet": "workflow release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "workflow release"
+    },
+    {
+      "context_snippet": "Vulnerability scan - Alpine Previous Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-alpine-prev.yaml",
+      "term": "Vulnerability scan - Alpine Previous Versions"
+    },
+    {
+      "context_snippet": "Vulnerability scan - Alpine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-alpine.yaml",
+      "term": "Vulnerability scan - Alpine"
+    },
+    {
+      "context_snippet": "workflow scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "term": "workflow scan"
+    },
+    {
+      "context_snippet": "Vulnerability scan - Distroless Previous Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-distroless-prev.yaml",
+      "term": "Vulnerability scan - Distroless Previous Versions"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/distribution/all.svg)](https://github.com/controlplaneio-fluxcd/distribution/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-delivery"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/distribution/all.svg)](https://github.com/controlplaneio-fluxcd/distribution/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fips-140-3"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/distribution/all.svg)](https://github.com/controlplaneio-fluxcd/distribution/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluxcd"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/distribution/all.svg)](https://github.com/controlplaneio-fluxcd/distribution/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    }
+  ]
+}

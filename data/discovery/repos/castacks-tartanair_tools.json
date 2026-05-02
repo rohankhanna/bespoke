@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castacks/tartanair_tools",
+      "target": "microsoft/airsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castacks/tartanair_tools",
+      "target": "castacks/tartanvo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:26.199423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TartanAir dataset tools and samples",
+    "fork": false,
+    "full_name": "castacks/tartanair_tools",
+    "html_url": "https://github.com/castacks/tartanair_tools",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T18:59:22Z",
+    "stargazers_count": 408,
+    "topics": [],
+    "updated_at": "2026-05-01T08:22:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castacks/tartanvo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/airsim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

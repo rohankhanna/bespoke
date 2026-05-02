@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Compile polished helper functions at build time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compile away [polished](https://polished.js.org/) helpers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compile away [polished](https://polished.js.org/) helpers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946962,
+      "status": "candidate",
+      "text": "burnished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931732,
+      "status": "candidate",
+      "text": "milled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928268,
+      "status": "candidate",
+      "text": "dressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927455,
+      "status": "candidate",
+      "text": "shining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927046,
+      "status": "candidate",
+      "text": "lustrous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polished",
+      "sense_id": "polished#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55033,
+      "status": "candidate",
+      "text": "lustrous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54035,
+      "status": "candidate",
+      "text": "refined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43054,
+      "status": "candidate",
+      "text": "bright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40029,
+      "status": "candidate",
+      "text": "svelte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32033,
+      "status": "candidate",
+      "text": "sophisticated"
+    }
+  ],
+  "concept_id": "polished",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polished",
+  "observation_id": "31887446d6e170cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "polished",
+  "source_context_snippet": "Compile away [polished](https://polished.js.org/) helpers.",
+  "source_file": null,
+  "source_repo": "styled-components/babel-plugin-polished",
+  "source_repo_description": "Compile polished helper functions at build time"
+}

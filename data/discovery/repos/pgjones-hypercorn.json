@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "pgjones/actions/tox@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pgjones/actions/zizmor@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pgjones/actions/build@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pgjones/hypercorn",
+      "target": "python-hyper/h11",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pgjones/hypercorn",
+      "target": "python-hyper/hyper-h2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pgjones/hypercorn",
+      "target": "python-hyper/wsproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pgjones/hypercorn",
+      "target": "pgjones/quart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "pgjones/actions/tox@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "pgjones/actions/zizmor@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "pgjones/actions/build@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pgjones/hypercorn",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "asgi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn",
+      "target": "wsgi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:34.754162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3541
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2946
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3338
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn.",
+    "fork": false,
+    "full_name": "pgjones/hypercorn",
+    "html_url": "https://github.com/pgjones/hypercorn",
+    "language": "Python",
+    "pushed_at": "2025-11-08T13:49:26Z",
+    "stargazers_count": 1563,
+    "topics": [
+      "asgi",
+      "asyncio",
+      "http-server",
+      "http2",
+      "http3",
+      "python",
+      "wsgi"
+    ],
+    "updated_at": "2026-04-30T20:08:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pgjones/quart",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-hyper/h11",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-hyper/hyper-h2",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-hyper/wsproto",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asgi"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    },
+    {
+      "context_snippet": "Hypercorn",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsgi"
+    }
+  ]
+}

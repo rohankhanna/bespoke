@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:45.124109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4025
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1151
+    },
+    {
+      "path": "requirements.txt",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/publish_to_registry.yml",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Memory-Guided Diffusion for Expressive Talking Video Generation",
+    "fork": false,
+    "full_name": "if-ai/ComfyUI-IF_MemoAvatar",
+    "html_url": "https://github.com/if-ai/ComfyUI-IF_MemoAvatar",
+    "language": "Python",
+    "pushed_at": "2025-03-09T09:28:07Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-03-25T04:40:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

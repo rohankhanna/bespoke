@@ -270,7 +270,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:51:27.206522+00:00",
+  "fetched_at": "2026-05-02T18:42:54.271873+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -306,8 +306,8 @@
     "full_name": "clj-kondo/clj-kondo",
     "html_url": "https://github.com/clj-kondo/clj-kondo",
     "language": "Clojure",
-    "pushed_at": "2026-04-30T18:14:03Z",
-    "stargazers_count": 1832,
+    "pushed_at": "2026-05-01T21:43:13Z",
+    "stargazers_count": 1833,
     "topics": [
       "clojure",
       "clojurescript",
@@ -316,7 +316,7 @@
       "linter",
       "static-analysis"
     ],
-    "updated_at": "2026-04-30T18:14:04Z"
+    "updated_at": "2026-05-02T15:40:54Z"
   },
   "repo_links": [
     {

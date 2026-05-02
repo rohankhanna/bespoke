@@ -96,28 +96,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "jupyter-xeus/xeus-cling",
+      "target": "xtensor-stack/xtensor-python",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-julia",
+      "target": "xtensor-stack/xtensor.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-blas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-io",
+      "target": "xtensor-stack/xtensor-r",
       "target_type": "repository"
     },
     {
@@ -324,7 +317,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:16:29.398929+00:00",
+  "fetched_at": "2026-05-02T19:46:35.167798+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -369,34 +362,29 @@
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
     "pushed_at": "2026-04-30T09:36:57Z",
-    "stargazers_count": 3729,
+    "stargazers_count": 3731,
     "topics": [
       "c-plus-plus-14",
       "multidimensional-arrays",
       "numpy",
       "tensors"
     ],
-    "updated_at": "2026-04-30T09:36:29Z"
+    "updated_at": "2026-05-02T16:10:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jupyter-xeus/xeus-cling",
+      "full_name": "xtensor-stack/xtensor-python",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor-blas",
+      "full_name": "xtensor-stack/xtensor-r",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor-io",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor-julia",
+      "full_name": "xtensor-stack/xtensor.jl",
       "source_file": "README.md"
     }
   ],

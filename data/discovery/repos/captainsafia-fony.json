@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "chance",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "captainsafia/fony",
+      "target": "chance",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "captainsafia/fony",
+      "target": "commander",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:34:23.850098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1575
+    },
+    {
+      "path": "package.json",
+      "size": 653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple command line tool for generating fake data from a template string",
+    "fork": false,
+    "full_name": "captainsafia/fony",
+    "html_url": "https://github.com/captainsafia/fony",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-07T15:53:54Z",
+    "stargazers_count": 517,
+    "topics": [],
+    "updated_at": "2026-04-20T13:20:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

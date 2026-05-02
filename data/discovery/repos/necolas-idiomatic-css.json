@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "necolas/idiomatic-css",
+      "target": "vestimir/idiomatic-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "necolas/idiomatic-css",
+      "target": "rwldrn/idiomatic.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:42:02.192725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Principles of writing consistent, idiomatic CSS.",
+    "fork": false,
+    "full_name": "necolas/idiomatic-css",
+    "html_url": "https://github.com/necolas/idiomatic-css",
+    "language": null,
+    "pushed_at": "2022-12-21T12:01:30Z",
+    "stargazers_count": 6653,
+    "topics": [],
+    "updated_at": "2026-05-01T04:00:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwldrn/idiomatic.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vestimir/idiomatic-css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse",
+      "target": "antfu/vite-plugin-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu-collective/vitesse",
       "target": "antfu/unocss",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse",
       "target": "antfu/unplugin-vue-components",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/vitesse",
-      "target": "antfu/eslint-config",
       "target_type": "repository"
     },
     {
@@ -414,6 +414,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "antfu-collective/vitesse"
 }

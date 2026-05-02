@@ -153,6 +153,18 @@
       "source_repo": "reasonml/reason-react",
       "status": "candidate-context",
       "text": "\"Nix Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source plugin and ftdetect directories on the Neovim runtimepath."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "\"Nix build\""
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "reasonml/reason-react",
       "status": "candidate",
       "text": "\"Nix Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate",
+      "text": "\"Nix build\""
     }
   ],
   "candidate_related_terms": [
@@ -486,11 +504,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "reasonml/reason-react"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -113,7 +113,7 @@
   "normalized_form": "authorization",
   "observation_id": "2afe40ec7b6d1d81",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "authorization",
   "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)",
   "source_file": null,

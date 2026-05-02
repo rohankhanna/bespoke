@@ -123,6 +123,18 @@
       "source_repo": "InternScience/SciReason",
       "status": "candidate-context",
       "text": "'Link check'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "Apache Dubbo documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "Link Check"
     }
   ],
   "candidate_glosses": [
@@ -185,6 +197,12 @@
       "source_repo": "InternScience/SciReason",
       "status": "candidate",
       "text": "'Link check'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate",
+      "text": "Link Check"
     }
   ],
   "candidate_related_terms": [
@@ -486,11 +504,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/link-check.yml.disabled",
       "source_repo": "InternScience/SciReason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0x7432/asm-ru"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

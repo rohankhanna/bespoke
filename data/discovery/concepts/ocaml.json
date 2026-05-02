@@ -381,6 +381,18 @@
       "source_repo": "ocaml-ppx/ocamlformat",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate-context",
+      "text": "Parser combinators built for speed and memory efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate-context",
+      "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
     }
   ],
   "candidate_glosses": [
@@ -569,6 +581,12 @@
       "source_repo": "ocaml-ppx/ocamlformat",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate",
+      "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
     }
   ],
   "candidate_related_terms": [
@@ -1038,11 +1056,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "inhabitedtype/angstrom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

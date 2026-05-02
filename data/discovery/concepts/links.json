@@ -154,6 +154,30 @@
       "source_repo": "microsoft/generative-ai-with-javascript",
       "status": "candidate-context",
       "text": "Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Links"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +250,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate",
+      "text": "Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
       "status": "candidate",
       "text": "Links"
     }
@@ -358,11 +394,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "microsoft/generative-ai-with-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "citation-file-format/citation-file-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

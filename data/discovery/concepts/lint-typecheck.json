@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83e\uddf9 Lint & Typecheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf9 Lint & Typecheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "\ud83e\uddf9 Lint & Typecheck"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "dynamic typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "type inference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "untypecheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "bellybutton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "brush"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83e\uddf9 Lint & Typecheck",
+  "concept_id": "lint-typecheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/lint-typecheck.yml",
+      "source_repo": "element-plus/element-plus"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83e\uddf9 Lint & Typecheck",
+      "sense_id": "lint-typecheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

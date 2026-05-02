@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WapaMario63/GPTQ-for-LLaMa-ROCm",
+      "target": "turboderp/exllamav2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WapaMario63/GPTQ-for-LLaMa-ROCm",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WapaMario63/GPTQ-for-LLaMa-ROCm",
+      "target": "fminference/flexgen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:35:02.548628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11294
+    },
+    {
+      "path": "requirements.txt",
+      "size": 117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "rocm",
+    "description": "4 bits quantization of LLaMA using GPTQ, ported to HIP for use in AMD GPUs.",
+    "fork": true,
+    "full_name": "WapaMario63/GPTQ-for-LLaMa-ROCm",
+    "html_url": "https://github.com/WapaMario63/GPTQ-for-LLaMa-ROCm",
+    "language": "Python",
+    "pushed_at": "2023-10-04T01:31:16Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-05-20T12:39:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fminference/flexgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp/exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

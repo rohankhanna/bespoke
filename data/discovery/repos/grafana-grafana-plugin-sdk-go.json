@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-incompatibility.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-incompatibility.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "magefile/mage-action@a662bd8c29d8106879588cfff83b2faf6e6f59db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml"
+    },
+    {
+      "component": "bufbuild/buf-breaking-action@c57b3d842a5c3f3b454756ef65305a50a587c5ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "Detect breaking change with Grafana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-incompatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-incompatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-incompatibility.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "Detect incompatible changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "magefile/mage-action@a662bd8c29d8106879588cfff83b2faf6e6f59db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-protos.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "bufbuild/buf-breaking-action@c57b3d842a5c3f3b454756ef65305a50a587c5ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-protos.yml",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "Validate protobuf files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "grafana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "grafana-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "grafana-plugin-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "keep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "target": "plugins-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:31:58.534102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2687
+    },
+    {
+      "path": "go.mod",
+      "size": 6790
+    },
+    {
+      "path": ".github/workflows/check-grafana-compatibility.yml",
+      "size": 1578
+    },
+    {
+      "path": ".github/workflows/check-incompatibility.yml",
+      "size": 1012
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1480
+    },
+    {
+      "path": ".github/workflows/validate-protos.yml",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Go SDK for building backend plugins for Grafana",
+    "fork": false,
+    "full_name": "grafana/grafana-plugin-sdk-go",
+    "html_url": "https://github.com/grafana/grafana-plugin-sdk-go",
+    "language": "Go",
+    "pushed_at": "2026-05-01T13:43:43Z",
+    "stargazers_count": 249,
+    "topics": [
+      "grafana",
+      "grafana-plugin",
+      "grafana-plugin-sdk",
+      "keep",
+      "plugins-platform",
+      "sdk"
+    ],
+    "updated_at": "2026-04-30T16:42:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Detect breaking change with Grafana",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-grafana-compatibility.yml",
+      "term": "Detect breaking change with Grafana"
+    },
+    {
+      "context_snippet": "Detect incompatible changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-incompatibility.yml",
+      "term": "Detect incompatible changes"
+    },
+    {
+      "context_snippet": "CI Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Pipeline"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Validate protobuf files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-protos.yml",
+      "term": "Validate protobuf files"
+    },
+    {
+      "context_snippet": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana"
+    },
+    {
+      "context_snippet": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana-plugin"
+    },
+    {
+      "context_snippet": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana-plugin-sdk"
+    },
+    {
+      "context_snippet": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keep"
+    },
+    {
+      "context_snippet": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins-platform"
+    }
+  ]
+}

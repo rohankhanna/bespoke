@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "one-step-diffusion-model"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "status": "candidate-context",
+      "text": "Repo for SeedVR2 (ICLR2026) & SeedVR (CVPR2025 Highlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "status": "candidate-context",
+      "text": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate-context",
+      "text": "[ICLR2026] SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "status": "candidate",
+      "text": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/SeedVR2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "one-step-diffusion-model",
+  "concept_id": "one-step-diffusion-model",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ByteDance-Seed/SeedVR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "one-step-diffusion-model",
+      "sense_id": "one-step-diffusion-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

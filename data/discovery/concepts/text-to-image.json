@@ -223,6 +223,30 @@
       "source_repo": "yuval-alaluf/Attend-and-Excite",
       "status": "candidate-context",
       "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Extend BoxDiff to SDXL (SDXL-based layout-to-image generation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "yuval-alaluf/Attend-and-Excite",
       "status": "candidate",
       "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +484,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

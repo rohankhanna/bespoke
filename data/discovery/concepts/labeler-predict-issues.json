@@ -73,6 +73,18 @@
       "source_repo": "dotnet/msbuild",
       "status": "candidate-context",
       "text": "\"Labeler: Predict (Issues)\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "Windows Forms is a .NET UI framework for building Windows desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "\"Labeler: Predict (Issues)\""
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "\"Labeler: Predict (Issues)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
       "status": "candidate",
       "text": "\"Labeler: Predict (Issues)\""
     }
@@ -244,11 +262,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/labeler-predict-issues.yml",
       "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/winforms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

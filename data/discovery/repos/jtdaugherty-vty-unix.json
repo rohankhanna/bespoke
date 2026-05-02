@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:32:12.857461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unix backend for Vty",
+    "fork": false,
+    "full_name": "jtdaugherty/vty-unix",
+    "html_url": "https://github.com/jtdaugherty/vty-unix",
+    "language": "Haskell",
+    "pushed_at": "2024-09-19T16:32:08Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-08T14:36:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "@tailwindcss/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gost-dom/project-harmony",
+      "target": "@tailwindcss/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gost-dom/project-harmony",
+      "target": "tailwindcss",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:07.039927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5990
+    },
+    {
+      "path": "go.mod",
+      "size": 3102
+    },
+    {
+      "path": "package.json",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "gost-dom/project-harmony",
+    "html_url": "https://github.com/gost-dom/project-harmony",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-19T17:31:42Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-10-31T20:09:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

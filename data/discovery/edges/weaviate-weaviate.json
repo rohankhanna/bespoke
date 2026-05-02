@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/agent-skills",
+      "target": "weaviate/verba",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/elysia",
+      "target": "weaviate/recipes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/healthsearch-demo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/weaviate",
-      "target": "weaviate-tutorials/awesome-moviate",
+      "target": "weaviate/recipes-ts",
       "target_type": "repository"
     },
     {
@@ -295,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "weaviate/weaviate"
 }

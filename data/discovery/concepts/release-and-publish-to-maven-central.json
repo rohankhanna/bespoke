@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Release and Publish to Maven Central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netplex/json-smart-v2",
+      "status": "candidate-context",
+      "text": "Release and Publish to Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netplex/json-smart-v2",
+      "status": "candidate",
+      "text": "Release and Publish to Maven Central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33026,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31827,
+      "status": "candidate",
+      "text": "apparition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27930,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22144,
+      "status": "candidate",
+      "text": "helena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22144,
+      "status": "candidate",
+      "text": "yan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release and Publish to Maven Central",
+  "concept_id": "release-and-publish-to-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "netplex/json-smart-v2"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release and Publish to Maven Central",
+      "sense_id": "release-and-publish-to-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

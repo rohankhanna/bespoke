@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Spec to gh-pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-partial-application",
+      "status": "candidate-context",
+      "text": "Proposal to add partial application to ECMAScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-partial-application",
+      "status": "candidate-context",
+      "text": "Publish Spec to gh-pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-partial-application",
+      "status": "candidate",
+      "text": "Publish Spec to gh-pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10776,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10776,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "already"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "bid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "bless"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Spec to gh-pages",
+  "concept_id": "publish-spec-to-gh-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/proposal-partial-application"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Spec to gh-pages",
+      "sense_id": "publish-spec-to-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

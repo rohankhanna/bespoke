@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ffont/pysha",
+      "target": "pyusb/pyusb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ffont/pysha",
+      "target": "pygobject/pycairo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:42:21.039993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10486
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python app to use Push2 as a standalone MIDI controller",
+    "fork": false,
+    "full_name": "ffont/pysha",
+    "html_url": "https://github.com/ffont/pysha",
+    "language": "Python",
+    "pushed_at": "2021-06-21T08:22:10Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-03-17T15:06:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pygobject/pycairo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyusb/pyusb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

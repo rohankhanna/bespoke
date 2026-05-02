@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/license_check.yml",
       "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-go"
     }
   ],
   "term": "Run License Check"

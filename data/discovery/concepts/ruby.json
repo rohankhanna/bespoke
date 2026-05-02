@@ -1822,6 +1822,66 @@
       "source_repo": "heartcombo/responders",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Generating SDKs for multiple programming languages and platforms \u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate-context",
+      "text": "Ruby client APIs to access the Cloud Foundry User Account and Authentication service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excon/excon",
+      "status": "candidate-context",
+      "text": "Usable, fast, simple HTTP 1.1 for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excon/excon",
+      "status": "candidate-context",
+      "text": "Usable, fast, simple Ruby HTTP 1.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "[![Gem Version][gem-image]][gem-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/aruba",
+      "status": "candidate-context",
+      "text": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/aruba",
+      "status": "candidate-context",
+      "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -2748,6 +2808,36 @@
       "source_repo": "heartcombo/responders",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excon/excon",
+      "status": "candidate",
+      "text": "Usable, fast, simple Ruby HTTP 1.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate",
+      "text": "[![Gem Version][gem-image]][gem-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/aruba",
+      "status": "candidate",
+      "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -3901,11 +3991,65 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "excon/excon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "httprb/http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cucumber/aruba"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

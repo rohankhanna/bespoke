@@ -1,0 +1,12 @@
+{
+  "component": "jkroepke/setup-sops@133e9cea5ca84d436eb7fcb3a043dfc7d7ccef65",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jkroepke/helm-secrets"
+    }
+  ]
+}

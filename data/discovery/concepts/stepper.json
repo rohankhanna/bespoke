@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "stepper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate-context",
+      "text": "Material Design Extensions is based on Material Design in XAML Toolkit to provide additional controls and features for WPF apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985077,
+      "status": "candidate",
+      "text": "stepdancer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985076,
+      "status": "candidate",
+      "text": "overstepper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985075,
+      "status": "candidate",
+      "text": "strider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985074,
+      "status": "candidate",
+      "text": "sidestepper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985073,
+      "status": "candidate",
+      "text": "steerer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "stepper",
+  "concept_id": "stepper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stepper",
+      "sense_id": "stepper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

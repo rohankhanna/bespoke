@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -556,6 +556,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rust-db/barrel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tidwall/buntdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "term": "database"

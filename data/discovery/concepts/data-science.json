@@ -799,6 +799,42 @@
       "source_repo": "datajuicer/data-juicer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "Relax! Flux is the ML library that doesn't make you tensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "Tutorials and training material for the H2O Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate-context",
+      "text": "Materials for GWU DNSC 6279 and DNSC 6290."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate-context",
+      "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1233,24 @@
       "source_repo": "datajuicer/data-juicer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate",
+      "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1816,11 +1870,65 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "vscode-node.js-ci",
   "observation_id": "fed85b9dd9fcbb4f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "VSCode + Node.js CI",
   "source_context_snippet": "VSCode + Node.js CI",
   "source_file": ".github/workflows/nodejs.yml",

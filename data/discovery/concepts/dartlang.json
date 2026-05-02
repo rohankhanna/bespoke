@@ -43,6 +43,30 @@
       "source_repo": "dart-archive/wasm",
       "status": "candidate-context",
       "text": "These packages provide utilities for loading and running WASM modules."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f) as an Appwrite server-side integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Flutter SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "dart-archive/wasm",
       "status": "candidate",
       "text": "These packages provide utilities for loading and running WASM modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-dart",
+      "status": "candidate",
+      "text": "Simple examples that help you get started with Appwrite + Dart (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate",
+      "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

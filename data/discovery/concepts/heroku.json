@@ -175,6 +175,90 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate-context",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "Recipes for building Heroku's Cloud Native Buildpacks builder images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for .NET applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate-context",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-go",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Go applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-go",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/heroku/heroku-buildpack-go/actions/workflows/ci.yml/badge.svg)](https://github.com/heroku/heroku-buildpack-go/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-clojure",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Clojure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-clojure",
+      "status": "candidate-context",
+      "text": "![clojure](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-clojure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Gradle applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate-context",
+      "text": "![gradle](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-gradle.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-java",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Java applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-java",
+      "status": "candidate-context",
+      "text": "![java](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-java.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-jvm-common",
+      "status": "candidate-context",
+      "text": "Heroku's OpenJDK classic buildpack. A component of the Java, Scala, and Clojure classic buildpacks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-jvm-common",
+      "status": "candidate-context",
+      "text": "This is the official [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) for [OpenJDK](http://openjdk.java.net/). It only installs the JDK, and does not build an application."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +345,48 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/heroku/cnb-builder-images/actions/workflows/build-test-publish.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-go",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/heroku/heroku-buildpack-go/actions/workflows/ci.yml/badge.svg)](https://github.com/heroku/heroku-buildpack-go/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-clojure",
+      "status": "candidate",
+      "text": "![clojure](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-clojure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate",
+      "text": "![gradle](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-gradle.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-java",
+      "status": "candidate",
+      "text": "![java](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-java.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-jvm-common",
+      "status": "candidate",
+      "text": "This is the official [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) for [OpenJDK](http://openjdk.java.net/). It only installs the JDK, and does not build an application."
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +514,53 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "heroku/buildpacks-jvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/cnb-builder-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-jvm-common"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

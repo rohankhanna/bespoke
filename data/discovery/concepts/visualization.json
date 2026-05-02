@@ -595,6 +595,42 @@
       "source_repo": "PAIR-code/lit",
       "status": "candidate-context",
       "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "Plotting for Julia based on matplotlib.pyplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "status": "candidate-context",
+      "text": "Visualization tool for point cloud and feature extracted from deep learning network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "status": "candidate-context",
+      "text": "Point cloud and feature visualization using the visualization tool of [[PointNet++]](https://github.com/charlesq34/pointnet2/) and [[open3d]](https://github.com/intel-isl/Open3D)."
     }
   ],
   "candidate_glosses": [
@@ -891,6 +927,24 @@
       "source_repo": "PAIR-code/lit",
       "status": "candidate",
       "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "status": "candidate",
+      "text": "Point cloud and feature visualization using the visualization tool of [[PointNet++]](https://github.com/charlesq34/pointnet2/) and [[open3d]](https://github.com/intel-isl/Open3D)."
     }
   ],
   "candidate_related_terms": [
@@ -1309,11 +1363,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "PAIR-code/lit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyPlot.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dogyoonlee/pointcloud_visualizer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

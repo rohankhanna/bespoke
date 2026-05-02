@@ -599,6 +599,30 @@
       "source_repo": "haskell/cabal",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/vale",
+      "status": "candidate-context",
+      "text": ":pencil: A markup-aware linter for prose built with speed and extensibility in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/vale",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -901,6 +925,18 @@
       "source_repo": "haskell/cabal",
       "status": "candidate",
       "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/vale",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1471,11 +1507,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "citation-file-format/citation-file-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/vale"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

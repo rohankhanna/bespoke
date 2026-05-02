@@ -443,6 +443,30 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate-context",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "A JSON tree view component that is easy to use and also supports data selection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -661,6 +685,18 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1255,11 +1291,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/citation-file-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "leezng/vue-json-pretty"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

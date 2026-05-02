@@ -181,6 +181,18 @@
       "source_repo": "RapidAI/RapidLaTeXOCR",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "MathJax source code for version 3 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +285,12 @@
       "source_repo": "RapidAI/RapidLaTeXOCR",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +445,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax-src"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for SeedVR2 (ICLR2026) & SeedVR (CVPR2025 Highlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-transformer",
+      "sense_id": "diffusion-transformer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diffusion-transformer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diffusion-transformer",
+  "observation_id": "5fdee661169ea2cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "diffusion-transformer",
+  "source_context_snippet": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026",
+  "source_file": null,
+  "source_repo": "ByteDance-Seed/SeedVR",
+  "source_repo_description": "Repo for SeedVR2 (ICLR2026) & SeedVR (CVPR2025 Highlight)"
+}

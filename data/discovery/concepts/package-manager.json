@@ -787,6 +787,18 @@
       "source_repo": "nim-lang/nimble",
       "status": "candidate-context",
       "text": "on: push: tags: - \"v*\" # \"v1.2.3\" branches: - master paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] pull_request: paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] workflow_dispatch: jobs: build: strategy: fail-fast: false matrix: target: - os: linux triple: x86_64-linux-musl name: lin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "Conda managing Julia binary dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
       "source_repo": "nim-lang/nimble",
       "status": "candidate",
       "text": "on: push: tags: - \"v*\" # \"v1.2.3\" branches: - master paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] pull_request: paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] workflow_dispatch: jobs: build: strategy: fail-fast: false matrix: target: - os: linux triple: x86_64-linux-musl name: lin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -1648,11 +1666,23 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "nim-lang/nimble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

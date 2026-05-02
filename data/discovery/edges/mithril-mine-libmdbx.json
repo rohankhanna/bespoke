@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "vorot93/libmdbx-rs",
+      "target": "torquem-ch/mdbx-go",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "torquem-ch/mdbx-go",
+      "target": "wangjia184/mdbx.net",
       "target_type": "repository"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T00:37:06.324499+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "Mithril-mine/libmdbx"
 }

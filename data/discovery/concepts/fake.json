@@ -19,6 +19,18 @@
       "source_repo": "Belval/TextRecognitionDataGenerator",
       "status": "candidate-context",
       "text": "A synthetic data generator for text recognition"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate-context",
+      "text": "A simplified way to generate masive mock data based on a schema, you can use the awesome fake/random data generators like (FakerJs, ChanceJs, CasualJs and RandExpJs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/mocker-data-generator.svg?style=flat-square)][npm-home-module][![GitHub license](https://img.shields.io/npm/dt/mocker-data-generator.svg?style=flat-square)][npm-home-module]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Belval/TextRecognitionDataGenerator",
       "status": "candidate",
       "text": "A synthetic data generator for text recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/mocker-data-generator.svg?style=flat-square)][npm-home-module][![GitHub license](https://img.shields.io/npm/dt/mocker-data-generator.svg?style=flat-square)][npm-home-module]"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Belval/TextRecognitionDataGenerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danibram/mocker-data-generator"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expenses/mateversum",
+      "target": "expenses/webxr-pbr-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expenses/mateversum",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expenses/mateversum",
+      "target": "embarkstudios/rust-gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expenses/mateversum",
+      "target": "expenses/trystero",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:38:44.684644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3689
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3983
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mateversum is a peer-to-peer WebXR metaverse project. Binary: https://github.com/expenses/mateversum-web",
+    "fork": false,
+    "full_name": "expenses/mateversum",
+    "html_url": "https://github.com/expenses/mateversum",
+    "language": "Rust",
+    "pushed_at": "2022-06-29T15:05:06Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2025-02-05T01:04:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/rust-gpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expenses/trystero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expenses/webxr-pbr-wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-bindgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

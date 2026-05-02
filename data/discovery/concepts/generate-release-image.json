@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Release Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lit/lit",
+      "status": "candidate-context",
+      "text": "Lit is a simple library for building fast, lightweight web components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lit/lit",
+      "status": "candidate-context",
+      "text": "Generate Release Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lit/lit",
+      "status": "candidate",
+      "text": "Generate Release Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18728,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "conceive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "conceiving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18724,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18705,
+      "status": "candidate",
+      "text": "maser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Release Image",
+  "concept_id": "generate-release-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-image.yaml",
+      "source_repo": "lit/lit"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Release Image",
+      "sense_id": "generate-release-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

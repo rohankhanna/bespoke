@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/biggraph-wikidata-search-with-weaviate",
-      "target": "facebookresearch/pytorch-biggraph",
+      "target": "semi-technologies/weaviate",
       "target_type": "repository"
     },
     {
@@ -18,17 +18,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/biggraph-wikidata-search-with-weaviate",
-      "target": "obsei/obsei",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/biggraph-wikidata-search-with-weaviate",
       "target": "semi-technologies/biggraph-wikidata-search-with-weaviate",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "weaviate/biggraph-wikidata-search-with-weaviate"
 }

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/genebody-benchmarks",
+      "target": "ssrsgjyd/neuraltexture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/genebody-benchmarks",
+      "target": "lemonatsu/a-nerf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:24.055574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarks of GeneBody Dataset",
+    "fork": false,
+    "full_name": "generalizable-neural-performer/genebody-benchmarks",
+    "html_url": "https://github.com/generalizable-neural-performer/genebody-benchmarks",
+    "language": null,
+    "pushed_at": "2022-05-11T08:42:48Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-04-26T01:35:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemonatsu/a-nerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ssrsgjyd/neuraltexture",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

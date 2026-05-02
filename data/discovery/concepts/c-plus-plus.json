@@ -883,6 +883,30 @@
       "source_repo": "mapbox/mapbox-gl-native",
       "status": "candidate-context",
       "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "The home of the ICU project source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "A toolkit for making real world machine learning and data analysis applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
     }
   ],
   "candidate_glosses": [
@@ -1323,6 +1347,18 @@
       "source_repo": "mapbox/mapbox-gl-native",
       "status": "candidate",
       "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate",
+      "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
     }
   ],
   "candidate_related_terms": [],
@@ -2038,11 +2074,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "mapbox/mapbox-gl-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "davisking/dlib"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

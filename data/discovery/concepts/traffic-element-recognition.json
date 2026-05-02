@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "traffic-element-recognition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023 Track Datasets and Benchmarks] OpenLane-V2: The First Perception and Reasoning Benchmark for Road Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/TopoNet",
+      "status": "candidate-context",
+      "text": "[Accepted at SCIENCE CHINA Information Sciences 2026] Graph-based Topology Reasoning for Driving Scenes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/TopoNet",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/TopoNet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "traffic-element-recognition",
+  "concept_id": "traffic-element-recognition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane-V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/TopoNet"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "traffic-element-recognition",
+      "sense_id": "traffic-element-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

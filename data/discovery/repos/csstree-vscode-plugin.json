@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "csstree-validator",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageclient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "csstree-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "vscode-languageclient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "vscode-languageserver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csstree/vscode-plugin",
+      "target": "vscode",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:02.311067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1555
+    },
+    {
+      "path": "package.json",
+      "size": 1540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CSSTree validation plugin for VS Code",
+    "fork": false,
+    "full_name": "csstree/vscode-plugin",
+    "html_url": "https://github.com/csstree/vscode-plugin",
+    "language": "TypeScript",
+    "pushed_at": "2024-10-13T22:45:05Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-10-17T19:45:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

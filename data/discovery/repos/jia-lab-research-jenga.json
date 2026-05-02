@@ -7,30 +7,9 @@
       "source_repo": "JIA-Lab-research/Jenga",
       "target": "tencent/hunyuanvideo",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "tencent-hunyuan/hunyuanvideo-i2v",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "aejion/accvideo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "jakubcerveny/gilbert",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T10:27:16.266261+00:00",
+  "fetched_at": "2026-05-02T18:25:25.005041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,21 +31,6 @@
     "updated_at": "2026-04-22T14:54:23Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aejion/accvideo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jakubcerveny/gilbert",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tencent-hunyuan/hunyuanvideo-i2v",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuanvideo",

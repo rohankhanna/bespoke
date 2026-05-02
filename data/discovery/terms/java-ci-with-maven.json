@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -86,6 +86,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "jboss-javassist/javassist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "stleary/JSON-java"
     }
   ],
   "term": "Java CI with Maven"

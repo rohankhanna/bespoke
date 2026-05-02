@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "audiogeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "texttospeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "target": "wsl2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:27:41.688609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lightweight Gradio based WebUI for orpheusTTS - WSL / Linux [CUDA]",
+    "fork": true,
+    "full_name": "Saganaki22/OrpheusTTS-WebUI",
+    "html_url": "https://github.com/Saganaki22/OrpheusTTS-WebUI",
+    "language": "Python",
+    "pushed_at": "2025-11-19T11:32:00Z",
+    "stargazers_count": 107,
+    "topics": [
+      "audiogeneration",
+      "cuda",
+      "gradio",
+      "python",
+      "texttospeech",
+      "torch",
+      "tts",
+      "webui",
+      "wsl",
+      "wsl2"
+    ],
+    "updated_at": "2026-04-13T12:23:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audiogeneration"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texttospeech"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webui"
+    },
+    {
+      "context_snippet": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsl2"
+    }
+  ]
+}

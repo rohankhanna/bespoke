@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/nncf",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/openvino_tokenizers",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/model_server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "vllm-project/vllm-openvino",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "openvinotoolkit/openvino",
@@ -337,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "openvinotoolkit/openvino"
 }

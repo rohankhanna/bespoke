@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "app-bar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "side-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "stepper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:31:28.972071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Material Design Extensions is based on Material Design in XAML Toolkit to provide additional controls and features for WPF apps",
+    "fork": false,
+    "full_name": "spiegelp/MaterialDesignExtensions",
+    "html_url": "https://github.com/spiegelp/MaterialDesignExtensions",
+    "language": "C#",
+    "pushed_at": "2024-03-07T18:12:58Z",
+    "stargazers_count": 802,
+    "topics": [
+      "app-bar",
+      "autocomplete",
+      "material",
+      "material-design",
+      "side-navigation",
+      "stepper",
+      "wpf",
+      "xaml"
+    ],
+    "updated_at": "2026-04-26T06:56:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-bar"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "side-navigation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stepper"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

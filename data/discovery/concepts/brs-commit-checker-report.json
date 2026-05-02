@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "BRS Commit Checker Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "The home of the ICU project source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "BRS Commit Checker Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate",
+      "text": "BRS Commit Checker Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21302,
+      "status": "candidate",
+      "text": "brother"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17221,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17157,
+      "status": "candidate",
+      "text": "auditor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16988,
+      "status": "candidate",
+      "text": "city editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16988,
+      "status": "candidate",
+      "text": "continue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "BRS Commit Checker Report",
+  "concept_id": "brs-commit-checker-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/brs-commit-checker.yml",
+      "source_repo": "unicode-org/icu"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BRS Commit Checker Report",
+      "sense_id": "brs-commit-checker-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

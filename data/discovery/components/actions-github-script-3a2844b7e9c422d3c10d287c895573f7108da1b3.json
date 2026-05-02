@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -717,6 +717,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-build.yml",
       "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml",
+      "source_repo": "bitnami/charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/index-monitor.yml",
+      "source_repo": "bitnami/charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scan-controllers.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution"
     }
   ]
 }

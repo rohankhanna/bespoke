@@ -19,6 +19,18 @@
       "source_repo": "Bekaboo/dropbar.nvim",
       "status": "candidate-context",
       "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate-context",
+      "text": "Add typed-links to your Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Bekaboo/dropbar.nvim",
       "status": "candidate",
       "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "SkepticMystic/breadcrumbs"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

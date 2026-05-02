@@ -1051,6 +1051,42 @@
       "source_repo": "calcom/cal.diy",
       "status": "candidate-context",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Godot Engine official documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "Secure and fast microVMs for serverless computing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate-context",
+      "text": "Open Vtuber project containing all sub projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate-context",
+      "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
     }
   ],
   "candidate_glosses": [
@@ -1563,6 +1599,24 @@
       "source_repo": "calcom/cal.diy",
       "status": "candidate",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firecracker",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate",
+      "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
     }
   ],
   "candidate_related_terms": [
@@ -2518,11 +2572,77 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/OpenVTuberProject"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

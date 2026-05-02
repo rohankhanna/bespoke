@@ -235,6 +235,54 @@
       "source_repo": "coollabsio/coolify",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "Next generation utility-first CSS framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative real-time P2P virtual music instrument."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-svelte",
+      "status": "candidate-context",
+      "text": "Learning Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-svelte",
+      "status": "candidate-context",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning> and <https://github.com/hchiam/learning-frameworks>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Splode/pomotroid",
+      "status": "candidate-context",
+      "text": ":tomato: Simple and visually-pleasing Pomodoro timer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Splode/pomotroid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -349,6 +397,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coollabsio/coolify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-svelte",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning> and <https://github.com/hchiam/learning-frameworks>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Splode/pomotroid",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -550,11 +622,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "arslanastral/jambox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Splode/pomotroid"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

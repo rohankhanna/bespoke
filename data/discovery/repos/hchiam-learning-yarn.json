@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:39:11.938106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning yarn",
+    "fork": false,
+    "full_name": "hchiam/learning-yarn",
+    "html_url": "https://github.com/hchiam/learning-yarn",
+    "language": null,
+    "pushed_at": "2024-11-03T22:16:22Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-03T22:16:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

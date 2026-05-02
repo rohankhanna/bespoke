@@ -713,6 +713,30 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate-context",
       "text": "Static Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "_Validate and visualise dependencies. With your rules._ JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "status": "candidate-context",
+      "text": "BLAS extension to xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "status": "candidate-context",
+      "text": "Static Analysis"
     }
   ],
   "candidate_glosses": [
@@ -1061,6 +1085,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate",
+      "text": "Static Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate",
+      "text": "_Validate and visualise dependencies. With your rules._ JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate",
       "text": "Static Analysis"
     }
@@ -1610,11 +1646,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/static-analysis.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "sverweij/dependency-cruiser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor-blas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "stdlib-js/metadata-action@3ccf68f24c51ae23470319e8e5619d539df8212b",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_commit_metadata.yml",
+      "source_repo": "stdlib-js/stdlib"
+    }
+  ]
+}

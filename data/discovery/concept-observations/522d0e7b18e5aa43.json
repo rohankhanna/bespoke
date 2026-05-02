@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitHub Action to release JavaScript Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check if all commits are signed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check if all commits are signed"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 59304,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45135,
+      "status": "candidate",
+      "text": "dall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45135,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45135,
+      "status": "candidate",
+      "text": "falls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44904,
+      "status": "candidate",
+      "text": "sealed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check if all commits are signed",
+      "sense_id": "check-if-all-commits-are-signed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-if-all-commits-are-signed",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-if-all-commits-are-signed",
+  "observation_id": "522d0e7b18e5aa43",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Check if all commits are signed",
+  "source_context_snippet": "Check if all commits are signed",
+  "source_file": ".github/workflows/check-commit-signing.yaml",
+  "source_repo": "suzuki-shunsuke/release-js-action",
+  "source_repo_description": "GitHub Action to release JavaScript Actions"
+}

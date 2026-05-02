@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:31:38.058129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cozy and warm colorscheme for btop++",
+    "fork": false,
+    "full_name": "Biscuit-Theme/btop",
+    "html_url": "https://github.com/Biscuit-Theme/btop",
+    "language": null,
+    "pushed_at": "2023-10-07T20:43:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-10-07T20:21:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

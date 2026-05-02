@@ -127,6 +127,30 @@
       "source_repo": "JuliaPlots/Plots.jl",
       "status": "candidate-context",
       "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "Plotting for Julia based on matplotlib.pyplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "JuliaPlots/Plots.jl",
       "status": "candidate",
       "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +328,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyPlot.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

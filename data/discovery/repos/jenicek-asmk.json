@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:46:48.005817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python implementation of ASMK",
+    "fork": false,
+    "full_name": "jenicek/asmk",
+    "html_url": "https://github.com/jenicek/asmk",
+    "language": "Python",
+    "pushed_at": "2023-01-15T18:55:14Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-03-02T13:53:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

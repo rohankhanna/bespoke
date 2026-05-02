@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-nock-files.yml",
       "source_repo": "nodejs/corepack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size-data.yml",
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size-report.yml",
+      "source_repo": "intlify/vue-i18n"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:35:47.131727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4619
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "efibootmgr development tree",
+    "fork": false,
+    "full_name": "rhboot/efibootmgr",
+    "html_url": "https://github.com/rhboot/efibootmgr",
+    "language": "C",
+    "pushed_at": "2024-08-18T22:13:52Z",
+    "stargazers_count": 581,
+    "topics": [],
+    "updated_at": "2026-05-01T13:15:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:46:47.598606+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hessian Affine detector with SIFT descriptor, CMP implementation",
+    "fork": false,
+    "full_name": "perdoch/hesaff",
+    "html_url": "https://github.com/perdoch/hesaff",
+    "language": "C++",
+    "pushed_at": "2023-04-22T19:13:58Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-02-02T09:47:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

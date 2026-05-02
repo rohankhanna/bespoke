@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple CO2 meter using Arduino UNO-Mega board and popular CO2 sensors (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or 19 and Cubic CM1106). Operation modes: Normal, Calibration 400ppm, Alarm adjust and Altitud compensation adjust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "co2-monitor",
+      "sense_id": "co2-monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "co2-monitor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "co2-monitor",
+  "observation_id": "340e7373f9f7e41b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "co2-monitor",
+  "source_context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+  "source_file": null,
+  "source_repo": "danielbernalb/LibreCO2",
+  "source_repo_description": "Simple CO2 meter using Arduino UNO-Mega board and popular CO2 sensors (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or 19 and Cubic CM1106). Operation modes: Normal, Calibration 400ppm, Alarm adjust and Altitud compensation adjust"
+}

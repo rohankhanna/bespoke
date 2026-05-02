@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hypercorn"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hypercorn"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021925,
+      "status": "candidate",
+      "text": "osgi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021924,
+      "status": "candidate",
+      "text": "ietf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021923,
+      "status": "candidate",
+      "text": "wais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021922,
+      "status": "candidate",
+      "text": "iesg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021921,
+      "status": "candidate",
+      "text": "wsdl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wsgi",
+      "sense_id": "wsgi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wsgi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wsgi",
+  "observation_id": "0cd7ec6f8f9c6c00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "wsgi",
+  "source_context_snippet": "Hypercorn",
+  "source_file": null,
+  "source_repo": "pgjones/hypercorn",
+  "source_repo_description": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn."
+}

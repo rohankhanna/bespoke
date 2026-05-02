@@ -1147,6 +1147,90 @@
       "source_repo": "roboterax/humanoid-gym",
       "status": "candidate-context",
       "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "status": "candidate-context",
+      "text": "High-performance Text-to-Speech server with OpenAI-compatible API, 8 voices, emotion tags, and modern web UI. Optimized for RTX GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "status": "candidate-context",
+      "text": "![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsei/obsei",
+      "status": "candidate-context",
+      "text": "Obsei is a low code AI powered automation tool. It can be used in various business flows like social listening, AI based alerting, brand image analysis, comparative study and more ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/obsei",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "Benchmarking the Spectrum of Agent Capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "Mastering Atari with Discrete World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "Mastering Diverse Domains through World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch - a 3D ConvNet-based local geometric descriptor for aligning 3D meshes and point clouds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1803,48 @@
       "source_repo": "roboterax/humanoid-gym",
       "status": "candidate",
       "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "status": "candidate",
+      "text": "![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/obsei",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2938,11 +3064,107 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Lex-au/Orpheus-FastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "obsei/obsei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/crafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/3dmatch-toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

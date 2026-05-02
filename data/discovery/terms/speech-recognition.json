@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -191,6 +191,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "julius-speech/julius"
     }
   ],
   "term": "speech-recognition"

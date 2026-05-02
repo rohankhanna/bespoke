@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "arduino/setup-arduino-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "arduino/setup-arduino-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "target": "google-sheets-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:27.174856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17929
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3788
+    },
+    {
+      "path": ".github/workflows/greetings.yml",
+      "size": 418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library for seamless data logging, communication and control for Internet of Things",
+    "fork": false,
+    "full_name": "electronicsguy/HTTPSRedirect",
+    "html_url": "https://github.com/electronicsguy/HTTPSRedirect",
+    "language": "C++",
+    "pushed_at": "2023-01-06T11:43:14Z",
+    "stargazers_count": 70,
+    "topics": [
+      "esp8266",
+      "google-sheets-api",
+      "iot"
+    ],
+    "updated_at": "2026-01-03T02:58:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml/badge.svg)](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml/badge.svg)](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-sheets-api"
+    }
+  ]
+}

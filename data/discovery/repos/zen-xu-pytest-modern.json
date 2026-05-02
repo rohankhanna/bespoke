@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "nicoddemus/pytest-rich",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sample.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sample.yaml",
+      "source_repo": "zen-xu/pytest-modern",
+      "target": "Test Sample",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:43:09.430264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 888
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2304
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 568
+    },
+    {
+      "path": ".github/workflows/test-sample.yaml",
+      "size": 775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A more modern pytest",
+    "fork": false,
+    "full_name": "zen-xu/pytest-modern",
+    "html_url": "https://github.com/zen-xu/pytest-modern",
+    "language": "Python",
+    "pushed_at": "2026-04-27T20:04:45Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-24T07:52:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicoddemus/pytest-rich",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test Sample",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sample.yaml",
+      "term": "Test Sample"
+    }
+  ]
+}

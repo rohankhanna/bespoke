@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:35:48.139102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7804
+    },
+    {
+      "path": "go.mod",
+      "size": 1653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AMD SEV-SNP Go unikernel example",
+    "fork": false,
+    "full_name": "usbarmory/tamago-sev-example",
+    "html_url": "https://github.com/usbarmory/tamago-sev-example",
+    "language": "Go",
+    "pushed_at": "2026-04-30T13:19:25Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-30T13:21:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

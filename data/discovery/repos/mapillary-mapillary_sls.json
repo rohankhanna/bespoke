@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls",
+      "target": "appearance-invariance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls",
+      "target": "street-level",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:37:15.240901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3900
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mapillary Street-level Sequences Dataset ",
+    "fork": false,
+    "full_name": "mapillary/mapillary_sls",
+    "html_url": "https://github.com/mapillary/mapillary_sls",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-13T13:19:37Z",
+    "stargazers_count": 131,
+    "topics": [
+      "appearance-invariance",
+      "computer-vision",
+      "dataset",
+      "street-level"
+    ],
+    "updated_at": "2026-04-13T13:19:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- *2026-04-13* - Sample and test set now available at main download site",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appearance-invariance"
+    },
+    {
+      "context_snippet": "- *2026-04-13* - Sample and test set now available at main download site",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "- *2026-04-13* - Sample and test set now available at main download site",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "- *2026-04-13* - Sample and test set now available at main download site",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "street-level"
+    }
+  ]
+}

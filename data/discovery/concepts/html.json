@@ -679,6 +679,18 @@
       "source_repo": "kaj/ructe",
       "status": "candidate-context",
       "text": "This is my attempt at writing a HTML template system for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate-context",
+      "text": "StandAlone Async cross-platform Minifier for the Web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate-context",
+      "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1029,12 @@
       "source_repo": "kaj/ructe",
       "status": "candidate",
       "text": "This is my attempt at writing a HTML template system for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juancarlospaco/css-html-js-minify",
+      "status": "candidate",
+      "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1554,11 +1572,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "juancarlospaco/css-html-js-minify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

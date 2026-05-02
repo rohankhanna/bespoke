@@ -1,0 +1,12 @@
+{
+  "component": "suzuki-shunsuke/autofixci-action@989fe99ca39af1980b3515837570511eea7c6285",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "szksh-lab/.github"
+    }
+  ]
+}

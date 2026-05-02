@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/SeedVR2",
+      "target": "numz/comfyui-seedvr2_videoupscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2",
+      "target": "one-step-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/SeedVR2",
+      "target": "video-restoration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:40.079126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2026] SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+    "fork": false,
+    "full_name": "IceClear/SeedVR2",
+    "html_url": "https://github.com/IceClear/SeedVR2",
+    "language": null,
+    "pushed_at": "2026-01-27T06:18:41Z",
+    "stargazers_count": 746,
+    "topics": [
+      "diffusion-transformer",
+      "image-restoration",
+      "one-step-diffusion-model",
+      "video-generation",
+      "video-restoration"
+    ],
+    "updated_at": "2026-05-01T19:18:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numz/comfyui-seedvr2_videoupscaler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-step-diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-restoration"
+    }
+  ]
+}

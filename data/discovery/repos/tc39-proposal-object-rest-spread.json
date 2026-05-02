@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-object-rest-spread",
+      "target": "rich-harris/buble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-object-rest-spread",
+      "target": "facebook/jstransform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-object-rest-spread",
+      "target": "ecmarkup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:41:59.305812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1740
+    },
+    {
+      "path": "package.json",
+      "size": 57
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Rest/Spread Properties for ECMAScript",
+    "fork": false,
+    "full_name": "tc39/proposal-object-rest-spread",
+    "html_url": "https://github.com/tc39/proposal-object-rest-spread",
+    "language": "HTML",
+    "pushed_at": "2022-01-24T19:18:52Z",
+    "stargazers_count": 1488,
+    "topics": [],
+    "updated_at": "2026-04-27T04:25:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/jstransform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rich-harris/buble",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "janestreet/async",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "cakeplus/mparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "pyrocat101/opal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "bos/attoparsec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "parser-combinators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inhabitedtype/angstrom",
+      "target": "parsing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:07.652559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5972
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parser combinators built for speed and memory efficiency",
+    "fork": false,
+    "full_name": "inhabitedtype/angstrom",
+    "html_url": "https://github.com/inhabitedtype/angstrom",
+    "language": "OCaml",
+    "pushed_at": "2024-09-12T21:27:32Z",
+    "stargazers_count": 706,
+    "topics": [
+      "ocaml",
+      "parser-combinators",
+      "parsing"
+    ],
+    "updated_at": "2026-04-24T10:47:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bos/attoparsec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cakeplus/mparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janestreet/async",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyrocat101/opal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Angstrom is a parser-combinator library that makes it easy to write efficient,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "Angstrom is a parser-combinator library that makes it easy to write efficient,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-combinators"
+    },
+    {
+      "context_snippet": "Angstrom is a parser-combinator library that makes it easy to write efficient,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    }
+  ]
+}

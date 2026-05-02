@@ -27,20 +27,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "radian-software/apheleia",
-      "target": "prettier/prettier-emacs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "radian-software/apheleia",
-      "target": "radian-software/contributor-guide",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatters.yml",
       "source_repo": "radian-software/apheleia",
@@ -69,7 +55,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:43:01.654519+00:00",
+  "fetched_at": "2026-05-02T18:39:48.997001+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -98,16 +84,11 @@
     "html_url": "https://github.com/radian-software/apheleia",
     "language": "Emacs Lisp",
     "pushed_at": "2026-04-27T22:40:39Z",
-    "stargazers_count": 753,
+    "stargazers_count": 755,
     "topics": [],
-    "updated_at": "2026-04-28T17:44:41Z"
+    "updated_at": "2026-05-02T02:21:05Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prettier/prettier-emacs",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "proofit404/blacken",
@@ -116,11 +97,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "python/black",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "radian-software/contributor-guide",
       "source_file": "README.md"
     }
   ],

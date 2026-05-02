@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:48:21.219781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Deformable Tetrahedral Meshes for 3D Reconstruction (NeurIPS 2020)",
+    "fork": false,
+    "full_name": "nv-tlabs/DefTet",
+    "html_url": "https://github.com/nv-tlabs/DefTet",
+    "language": "Cuda",
+    "pushed_at": "2023-10-23T16:54:15Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-05-01T05:00:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

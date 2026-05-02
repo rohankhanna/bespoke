@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:30:31.547332+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spring REST Docs extension to document APIs using Jersey client.",
+    "fork": false,
+    "full_name": "RESTDocsEXT/restdocsext-jersey",
+    "html_url": "https://github.com/RESTDocsEXT/restdocsext-jersey",
+    "language": "Java",
+    "pushed_at": "2021-12-07T11:41:58Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2024-11-19T02:12:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

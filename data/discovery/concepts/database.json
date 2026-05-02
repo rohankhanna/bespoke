@@ -1303,6 +1303,30 @@
       "source_repo": "rust-db/barrel",
       "status": "candidate-context",
       "text": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/buntdb",
+      "status": "candidate-context",
+      "text": "BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/buntdb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  \u2014 rebuilt from scratch. Unified architecture on your S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Databend</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1953,6 +1977,18 @@
       "source_repo": "rust-db/barrel",
       "status": "candidate",
       "text": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/buntdb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Databend</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -2902,11 +2938,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/buntdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

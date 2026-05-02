@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MichaelGrupp/evo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MichaelGrupp/evo",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MichaelGrupp/evo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "euroc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "trajectory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "trajectory-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo",
+      "target": "trajectory-evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:26.862208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12684
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2996
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python package for the evaluation of odometry and SLAM",
+    "fork": false,
+    "full_name": "MichaelGrupp/evo",
+    "html_url": "https://github.com/MichaelGrupp/evo",
+    "language": "Python",
+    "pushed_at": "2026-04-18T11:16:56Z",
+    "stargazers_count": 4205,
+    "topics": [
+      "benchmark",
+      "euroc",
+      "evaluation",
+      "kitti",
+      "mapping",
+      "metrics",
+      "odometry",
+      "robotics",
+      "ros",
+      "ros2",
+      "slam",
+      "trajectory",
+      "trajectory-analysis",
+      "trajectory-evaluation",
+      "tum"
+    ],
+    "updated_at": "2026-05-01T13:28:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "euroc"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-analysis"
+    },
+    {
+      "context_snippet": "***Python package for the evaluation of odometry and SLAM***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-evaluation"
+    }
+  ]
+}

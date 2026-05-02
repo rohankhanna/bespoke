@@ -67,6 +67,18 @@
       "source_repo": "ChenFengYe/motion-latent-diffusion",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/executing-your-commands-via-motion-diffusion/motion-synthesis-on-humanml3d)](https://paperswithcode.com/sota/motion-synthesis-on-humanml3d?p=executing-your-commands-via-motion-diffusion)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "Official code for \"AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation\" (CVPR2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the following paper:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ChenFengYe/motion-latent-diffusion",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/executing-your-commands-via-motion-diffusion/motion-synthesis-on-humanml3d)](https://paperswithcode.com/sota/motion-synthesis-on-humanml3d?p=executing-your-commands-via-motion-diffusion)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NKU/AMT",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the following paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "ChenFengYe/motion-latent-diffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

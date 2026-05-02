@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nat/openplayground",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:26:27.557742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4776
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An LLM playground you can run on your laptop",
+    "fork": false,
+    "full_name": "nat/openplayground",
+    "html_url": "https://github.com/nat/openplayground",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-06T04:56:49Z",
+    "stargazers_count": 6359,
+    "topics": [],
+    "updated_at": "2026-05-02T14:55:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

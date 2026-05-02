@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:39:21.974399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "xtensa-1.22.x",
+    "description": "crosstool-NG with support for Xtensa",
+    "fork": false,
+    "full_name": "jcmvbkbc/crosstool-NG",
+    "html_url": "https://github.com/jcmvbkbc/crosstool-NG",
+    "language": "Shell",
+    "pushed_at": "2024-06-03T17:19:14Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-02-23T02:10:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

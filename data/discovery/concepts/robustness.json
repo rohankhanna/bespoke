@@ -55,6 +55,18 @@
       "source_repo": "ldkong1205/PointCloud-C",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "Repo for \"Benchmarking Robustness of 3D Point Cloud Recognition against Common Corruptions\"  https://arxiv.org/abs/2201.12296"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ldkong1205/PointCloud-C",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "ldkong1205/PointCloud-C"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jiachens/ModelNet40-C"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

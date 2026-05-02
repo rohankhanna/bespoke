@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release and Publish to Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release and Publish to Maven Central"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33026,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31827,
+      "status": "candidate",
+      "text": "apparition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27930,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22144,
+      "status": "candidate",
+      "text": "helena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22144,
+      "status": "candidate",
+      "text": "yan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release and Publish to Maven Central",
+      "sense_id": "release-and-publish-to-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-and-publish-to-maven-central",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-and-publish-to-maven-central",
+  "observation_id": "75395a3e514ac728",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Release and Publish to Maven Central",
+  "source_context_snippet": "Release and Publish to Maven Central",
+  "source_file": ".github/workflows/release-publish.yml",
+  "source_repo": "netplex/json-smart-v2",
+  "source_repo_description": null
+}

@@ -48,7 +48,7 @@
   "normalized_form": "pami-2020",
   "observation_id": "077cee9eecd70cc4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "pami-2020",
   "source_context_snippet": "This is the implementation of our paper [**PFENet: Prior Guided Feature Enrichment Network for Few-shot Segmentation**](http://arxiv.org/abs/2008.01449) that has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).",
   "source_file": null,

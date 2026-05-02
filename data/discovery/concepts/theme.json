@@ -649,6 +649,42 @@
       "source_repo": "Biscuit-Theme/biscuit",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate-context",
+      "text": "A plugin that make tmux's theme follow macOS dark/light mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate-context",
+      "text": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "A beautiful minimalism theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "A distraction-free and highly customizable theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "![](/cover.png)"
     }
   ],
   "candidate_glosses": [
@@ -969,6 +1005,24 @@
       "source_repo": "Biscuit-Theme/biscuit",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-dark-notify",
+      "status": "candidate",
+      "text": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate",
+      "text": "![](/cover.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1600,11 +1654,59 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

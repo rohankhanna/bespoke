@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "lucasginard/airelibre-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "kotlin/kotlinx.coroutines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "coil-kt/coil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "Android Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "Release (Beta)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaseProd.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaseProd.yml",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "Release (Production)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "fastlane-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "livedata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "target": "mvvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:50.964202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1938
+    },
+    {
+      "path": ".github/workflows/androidBuild.yml",
+      "size": 1451
+    },
+    {
+      "path": ".github/workflows/releaseBeta.yml",
+      "size": 2492
+    },
+    {
+      "path": ".github/workflows/releaseProd.yml",
+      "size": 2338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Application based on the web airelib.re.com, made with Kotlin and Compose 60%  applying the MVVM architecture. / Aplicaci\u00f3n Android basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre",
+    "fork": false,
+    "full_name": "LucasGinard/AireLibre-Android",
+    "html_url": "https://github.com/LucasGinard/AireLibre-Android",
+    "language": "Kotlin",
+    "pushed_at": "2025-09-14T22:18:33Z",
+    "stargazers_count": 9,
+    "topics": [
+      "android",
+      "compose",
+      "fastlane-android",
+      "kotlin",
+      "livedata",
+      "mvvm"
+    ],
+    "updated_at": "2025-09-14T22:18:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coil-kt/coil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kotlin/kotlinx.coroutines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasginard/airelibre-ios",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "term": "Android Build"
+    },
+    {
+      "context_snippet": "Release (Beta)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "term": "Release (Beta)"
+    },
+    {
+      "context_snippet": "Release (Production)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaseProd.yml",
+      "term": "Release (Production)"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastlane-android"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livedata"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    }
+  ]
+}

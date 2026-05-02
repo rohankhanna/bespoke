@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyTorch toolkit for 2D Human Pose Estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![screenshot](./docs/screenshot.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![screenshot](./docs/screenshot.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hourglass-network",
+      "sense_id": "hourglass-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hourglass-network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hourglass-network",
+  "observation_id": "eb72a36d01e8994b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "hourglass-network",
+  "source_context_snippet": "![screenshot](./docs/screenshot.png)",
+  "source_file": null,
+  "source_repo": "bearpaw/pytorch-pose",
+  "source_repo_description": "A PyTorch toolkit for 2D Human Pose Estimation."
+}

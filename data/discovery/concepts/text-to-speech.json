@@ -433,6 +433,54 @@
       "source_repo": "yl4579/StyleTTS2",
       "status": "candidate-context",
       "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate-context",
+      "text": "Library to build speech synthesis systems designed for easy and fast prototyping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate-context",
+      "text": "![alt text](assets/logo_wide.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaiahbjork/orpheus-tts-local",
+      "status": "candidate-context",
+      "text": "Run Orpheus 3B Locally With LM Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaiahbjork/orpheus-tts-local",
+      "status": "candidate-context",
+      "text": "A lightweight client for running [Orpheus TTS](https://huggingface.co/canopylabs/orpheus-3b-0.1-ft) locally using LM Studio API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate-context",
+      "text": "Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate-context",
+      "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
     }
   ],
   "candidate_glosses": [
@@ -651,6 +699,30 @@
       "source_repo": "yl4579/StyleTTS2",
       "status": "candidate",
       "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/nnmnkwii",
+      "status": "candidate",
+      "text": "![alt text](assets/logo_wide.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaiahbjork/orpheus-tts-local",
+      "status": "candidate",
+      "text": "A lightweight client for running [Orpheus TTS](https://huggingface.co/canopylabs/orpheus-3b-0.1-ft) locally using LM Studio API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate",
+      "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -880,11 +952,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "yl4579/StyleTTS2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/nnmnkwii"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "isaiahbjork/orpheus-tts-local"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/PL-BERT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

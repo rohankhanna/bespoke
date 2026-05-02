@@ -2890,6 +2890,78 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate-context",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "prettier, as a daemon, for improved formatting speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate-context",
+      "text": "Neovim custom configuration, oriented for full stack developers (Ruby on Rails, ruby, php, html, css, SCSS, javascript)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdenEast/nyx",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0fNix[OS] Configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nyx",
+      "status": "candidate-context",
+      "text": "build-nix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate-context",
+      "text": "The simple directory tree viewer for Neovim written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate-context",
+      "text": "Carbon.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source plugin and ftdetect directories on the Neovim runtimepath."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
+      "status": "candidate-context",
+      "text": "A clean, delightful and highly customizable Neovim colorscheme written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
+      "status": "candidate-context",
+      "text": "A clean, delightful and highly customizable Neovim colorscheme written in Lua that"
     }
   ],
   "candidate_glosses": [
@@ -4356,6 +4428,42 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crivotz/nv-ide",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nyx",
+      "status": "candidate",
+      "text": "build-nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SidOfc/carbon.nvim",
+      "status": "candidate",
+      "text": "Carbon.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate",
+      "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
+      "status": "candidate",
+      "text": "A clean, delightful and highly customizable Neovim colorscheme written in Lua that"
     }
   ],
   "candidate_related_terms": [],
@@ -6997,11 +7105,209 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/prettierd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "crivotz/nv-ide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "SidOfc/carbon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "NTBBloodbath/sweetie.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

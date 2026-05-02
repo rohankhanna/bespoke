@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -322,6 +322,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-to-pages.yaml",
       "source_repo": "NVIDIA/k8s-device-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp"
     }
   ]
 }

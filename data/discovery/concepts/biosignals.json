@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "biosignals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "Resources for the paper titled \"Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability\". Accepted at ML4H Symposium 2021 with an oral spotlight!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "<!-- # eeg-self-supervision"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate",
+      "text": "<!-- # eeg-self-supervision"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "abiosignals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "inorganic signals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "non-biosignals"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "biosignals",
+  "concept_id": "biosignals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "biosignals",
+      "sense_id": "biosignals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

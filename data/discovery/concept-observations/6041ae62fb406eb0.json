@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knowledge-management",
+      "sense_id": "knowledge-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "knowledge-management",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knowledge-management",
+  "observation_id": "6041ae62fb406eb0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "knowledge-management",
+  "source_context_snippet": "Some links are provided below for posterity.",
+  "source_file": null,
+  "source_repo": "athensresearch/athens",
+  "source_repo_description": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+}

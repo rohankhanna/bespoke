@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xavysp/UDED",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xavysp/UDED",
+      "target": "edge-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xavysp/UDED",
+      "target": "image-edge-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:36.105590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UDED: Edge detection dataset",
+    "fork": false,
+    "full_name": "xavysp/UDED",
+    "html_url": "https://github.com/xavysp/UDED",
+    "language": null,
+    "pushed_at": "2025-05-01T13:34:03Z",
+    "stargazers_count": 22,
+    "topics": [
+      "dataset",
+      "edge-detection",
+      "image-edge-detection"
+    ],
+    "updated_at": "2026-03-14T14:37:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This dataset is a collection of 1, 2, or 3 images from:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This dataset is a collection of 1, 2, or 3 images from:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-detection"
+    },
+    {
+      "context_snippet": "This dataset is a collection of 1, 2, or 3 images from:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-edge-detection"
+    }
+  ]
+}

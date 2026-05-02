@@ -280,6 +280,18 @@
       "source_repo": "smithy-lang/awesome-smithy",
       "status": "candidate-context",
       "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "[![Gem Version][gem-image]][gem-link]"
     }
   ],
   "candidate_glosses": [
@@ -420,6 +432,12 @@
       "source_repo": "smithy-lang/awesome-smithy",
       "status": "candidate",
       "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate",
+      "text": "[![Gem Version][gem-image]][gem-link]"
     }
   ],
   "candidate_related_terms": [
@@ -701,11 +719,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/dotnet.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "httprb/http"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

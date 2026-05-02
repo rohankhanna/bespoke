@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collaborative real-time P2P virtual music instrument."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sveltekit",
+      "sense_id": "sveltekit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sveltekit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sveltekit",
+  "observation_id": "8e78ecd043cab4e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "sveltekit",
+  "source_context_snippet": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023",
+  "source_file": null,
+  "source_repo": "arslanastral/jambox",
+  "source_repo_description": "A collaborative real-time P2P virtual music instrument."
+}

@@ -1243,6 +1243,30 @@
       "source_repo": "sniklaus/pytorch-unflow",
       "status": "candidate-context",
       "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "status": "candidate-context",
+      "text": "Lightweight Gradio based WebUI for orpheusTTS - WSL / Linux [CUDA]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "status": "candidate-context",
+      "text": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate-context",
+      "text": "Deep Learning tools and applications for NVIDIA AGX platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate-context",
+      "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
     }
   ],
   "candidate_glosses": [
@@ -1863,6 +1887,18 @@
       "source_repo": "sniklaus/pytorch-unflow",
       "status": "candidate",
       "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI",
+      "status": "candidate",
+      "text": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate",
+      "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
     }
   ],
   "candidate_related_terms": [
@@ -2806,11 +2842,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Saganaki22/OrpheusTTS-WebUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

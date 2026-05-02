@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UEFI Shell binary images, generated from EDK2 stable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "UEFI-Shell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "UEFI-Shell"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023802,
+      "status": "candidate",
+      "text": "bios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023801,
+      "status": "candidate",
+      "text": "ulsi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023800,
+      "status": "candidate",
+      "text": "igpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023799,
+      "status": "candidate",
+      "text": "firmware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023798,
+      "status": "candidate",
+      "text": "front end"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uefi",
+      "sense_id": "uefi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "uefi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "uefi",
+  "observation_id": "5836745b591e8f68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "uefi",
+  "source_context_snippet": "UEFI-Shell",
+  "source_file": null,
+  "source_repo": "pbatard/UEFI-Shell",
+  "source_repo_description": "UEFI Shell binary images, generated from EDK2 stable"
+}

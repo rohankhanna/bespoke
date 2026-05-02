@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "target": "procedures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "target": "sops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:30.440647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures",
+    "fork": false,
+    "full_name": "danielrosehill/Israel-First-Aid",
+    "html_url": "https://github.com/danielrosehill/Israel-First-Aid",
+    "language": "Typst",
+    "pushed_at": "2026-03-16T18:24:56Z",
+    "stargazers_count": 0,
+    "topics": [
+      "docs",
+      "procedures",
+      "sops"
+    ],
+    "updated_at": "2026-03-16T18:25:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procedures"
+    },
+    {
+      "context_snippet": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sops"
+    }
+  ]
+}

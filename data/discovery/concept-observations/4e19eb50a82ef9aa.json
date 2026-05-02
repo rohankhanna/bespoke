@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39717188,
+      "status": "candidate",
+      "text": "golf course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29717190,
+      "status": "candidate",
+      "text": "golf links"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29715842,
+      "status": "candidate",
+      "text": "lanes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29662793,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29579339,
+      "status": "candidate",
+      "text": "crosswalk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "links",
+      "sense_id": "links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "golf course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "golf links"
+    }
+  ],
+  "concept_id": "links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "links",
+  "observation_id": "4e19eb50a82ef9aa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "links",
+  "source_context_snippet": "links",
+  "source_file": ".github/workflows/check-links.yml",
+  "source_repo": "citation-file-format/citation-file-format",
+  "source_repo_description": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+}

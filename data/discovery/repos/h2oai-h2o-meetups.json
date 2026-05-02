@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-meetups",
+      "target": "h2oai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-meetups",
+      "target": "meetups",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-meetups",
+      "target": "presentations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:16.957115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Presentations from H2O meetups & conferences by the H2O.ai team",
+    "fork": false,
+    "full_name": "h2oai/h2o-meetups",
+    "html_url": "https://github.com/h2oai/h2o-meetups",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-10-29T01:24:20Z",
+    "stargazers_count": 406,
+    "topics": [
+      "h2o",
+      "h2oai",
+      "meetups",
+      "presentations"
+    ],
+    "updated_at": "2026-04-06T12:05:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The meetup presentations are also hosted on [SlideShare](http://www.slideshare.net/0xdata/presentations).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "h2oai"
+    },
+    {
+      "context_snippet": "The meetup presentations are also hosted on [SlideShare](http://www.slideshare.net/0xdata/presentations).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meetups"
+    },
+    {
+      "context_snippet": "The meetup presentations are also hosted on [SlideShare](http://www.slideshare.net/0xdata/presentations).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentations"
+    }
+  ]
+}

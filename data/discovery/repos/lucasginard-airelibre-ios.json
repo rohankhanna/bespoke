@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iOSBuild.yml"
+    },
+    {
+      "component": "sersoft-gmbh/xcodebuild-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iOSBuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iOSBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iOSBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "target": "sersoft-gmbh/xcodebuild-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iOSBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "target": "Install pods and build iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "target": "uikit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:53.322804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/iOSBuild.yml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Application based on the web airelib.re.com, made with UIKIT in Swift applying the MVVM architecture. / Aplicaci\u00f3n iOS basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre",
+    "fork": false,
+    "full_name": "LucasGinard/AireLibre-iOS",
+    "html_url": "https://github.com/LucasGinard/AireLibre-iOS",
+    "language": "Swift",
+    "pushed_at": "2025-11-22T03:07:49Z",
+    "stargazers_count": 6,
+    "topics": [
+      "ios",
+      "swift",
+      "uikit"
+    ],
+    "updated_at": "2025-11-22T03:07:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Install pods and build iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iOSBuild.yml",
+      "term": "Install pods and build iOS"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uikit"
+    }
+  ]
+}

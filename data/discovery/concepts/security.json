@@ -1630,6 +1630,42 @@
       "source_repo": "haskell/security-advisories",
       "status": "candidate-context",
       "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to fix code securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/securefix-action)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate-context",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -2436,6 +2472,24 @@
       "source_repo": "haskell/security-advisories",
       "status": "candidate",
       "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/securefix-action)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StevenBlack/hosts",
+      "status": "candidate",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -3625,11 +3679,77 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/securefix-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "StevenBlack/hosts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mitmproxy/mitmproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

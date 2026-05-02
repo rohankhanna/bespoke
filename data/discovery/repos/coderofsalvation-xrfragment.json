@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "mkdir",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/upload-pages-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "mkdir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "aframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "embeds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "hyperlinks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "hypermedia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "nometaverse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "threejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment",
+      "target": "usdz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:38:41.212021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2421
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/website.yml",
+      "size": 3645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili",
+    "fork": false,
+    "full_name": "coderofsalvation/xrfragment",
+    "html_url": "https://github.com/coderofsalvation/xrfragment",
+    "language": "HTML",
+    "pushed_at": "2024-07-31T11:57:19Z",
+    "stargazers_count": 12,
+    "topics": [
+      "aframe",
+      "blender",
+      "browser",
+      "embeds",
+      "fbx",
+      "glb",
+      "gltf",
+      "hyperlinks",
+      "hypermedia",
+      "navigation",
+      "nometaverse",
+      "protocol",
+      "specification",
+      "standards",
+      "threejs",
+      "uri",
+      "usdz"
+    ],
+    "updated_at": "2025-11-13T10:33:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aframe"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeds"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperlinks"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypermedia"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navigation"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nometaverse"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standards"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threejs"
+    },
+    {
+      "context_snippet": "> this repo is outdated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usdz"
+    }
+  ]
+}

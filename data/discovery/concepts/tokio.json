@@ -103,6 +103,18 @@
       "source_repo": "snapview/tokio-tungstenite",
       "status": "candidate-context",
       "text": "Asynchronous WebSockets for Tokio stack."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "a debugger for async rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +159,12 @@
       "source_repo": "snapview/tokio-tungstenite",
       "status": "candidate",
       "text": "Asynchronous WebSockets for Tokio stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +292,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "snapview/tokio-tungstenite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/console"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

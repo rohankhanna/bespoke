@@ -31,6 +31,18 @@
       "source_repo": "agencyenterprise/PromptInject",
       "status": "candidate-context",
       "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "Repo for \"Benchmarking Robustness of 3D Point Cloud Recognition against Common Corruptions\"  https://arxiv.org/abs/2201.12296"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "agencyenterprise/PromptInject",
       "status": "candidate",
       "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "agencyenterprise/PromptInject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jiachens/ModelNet40-C"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

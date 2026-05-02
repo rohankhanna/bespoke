@@ -222,6 +222,18 @@
       "source_repo": "mdn/fred",
       "status": "candidate-context",
       "text": "NPM Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nitrojs/nitro",
+      "status": "candidate-context",
+      "text": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitrojs/nitro",
+      "status": "candidate-context",
+      "text": "npm-publish"
     }
   ],
   "candidate_glosses": [
@@ -332,6 +344,12 @@
       "source_repo": "mdn/fred",
       "status": "candidate",
       "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitrojs/nitro",
+      "status": "candidate",
+      "text": "npm-publish"
     }
   ],
   "candidate_related_terms": [
@@ -495,11 +513,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "mdn/fred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "nitrojs/nitro"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

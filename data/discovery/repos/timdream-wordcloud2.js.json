@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "@arkweid/lefthook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-connect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-shell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "timdream/wordcloud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "@arkweid/lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "grunt-contrib-connect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "grunt-shell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "tag-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "word-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "wordcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "wordcloud2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js",
+      "target": "wordle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:05.086107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1722
+    },
+    {
+      "path": "package.json",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Tag cloud/Wordle presentation on 2D canvas or HTML",
+    "fork": false,
+    "full_name": "timdream/wordcloud2.js",
+    "html_url": "https://github.com/timdream/wordcloud2.js",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-14T17:42:23Z",
+    "stargazers_count": 2493,
+    "topics": [
+      "canvas",
+      "javascript",
+      "tag-cloud",
+      "word-cloud",
+      "wordcloud",
+      "wordcloud2",
+      "wordle"
+    ],
+    "updated_at": "2026-04-30T06:06:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdream/wordcloud",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvas"
+    },
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag-cloud"
+    },
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word-cloud"
+    },
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordcloud"
+    },
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordcloud2"
+    },
+    {
+      "context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordle"
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "aliases": [
     "Build Android",
     "build-android",
-    "Build-Android"
+    "Build-Android",
+    "\ud83e\udd16 Build Android"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,30 @@
       "source_repo": "logseq/logseq",
       "status": "candidate-context",
       "text": "Build-Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netdur/llama_cpp_dart",
+      "status": "candidate-context",
+      "text": "dart binding for llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/llama_cpp_dart",
+      "status": "candidate-context",
+      "text": "build-android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Build Android"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +144,18 @@
       "source_repo": "logseq/logseq",
       "status": "candidate",
       "text": "Build-Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/llama_cpp_dart",
+      "status": "candidate",
+      "text": "build-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Build Android"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +235,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "logseq/logseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "netdur/llama_cpp_dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "j20001970/GDMP"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

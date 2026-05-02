@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "target": "meta-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "target": "reduce",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:44.670461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Meta-package for Reduce.jl and External Packages",
+    "fork": false,
+    "full_name": "JuliaReducePkg/ReduceAlgebra.jl",
+    "html_url": "https://github.com/JuliaReducePkg/ReduceAlgebra.jl",
+    "language": "Julia",
+    "pushed_at": "2024-02-16T11:46:00Z",
+    "stargazers_count": 11,
+    "topics": [
+      "julia",
+      "julia-language",
+      "meta-package",
+      "reduce"
+    ],
+    "updated_at": "2024-08-01T23:39:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-package"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reduce"
+    }
+  ]
+}

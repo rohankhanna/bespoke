@@ -1,0 +1,311 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny_dirty_cargo_locks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_modification_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor_libseccomp_releases.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_ab_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "liquidmetal-dev/flintlock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny_dirty_cargo_locks.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny_dirty_cargo_locks.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "Check no Cargo.lock files are dirty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_modification_check.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_modification_check.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "Check no dependencies were modified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor_libseccomp_releases.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor_libseccomp_releases.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "Monitor libseccomp Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send_pr_notification.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "Send notification on PR opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send_release_notification.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "Send notification on release created",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_ab_tests.yml",
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "minimalist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "oversubscription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "sandbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firecracker",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:35:41.060562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8769
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1178
+    },
+    {
+      "path": ".github/workflows/deny_dirty_cargo_locks.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/dependency_modification_check.yml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/monitor_libseccomp_releases.yml",
+      "size": 2779
+    },
+    {
+      "path": ".github/workflows/send_pr_notification.yml",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/send_release_notification.yml",
+      "size": 497
+    },
+    {
+      "path": ".github/workflows/trigger_ab_tests.yml",
+      "size": 1950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Secure and fast microVMs for serverless computing.",
+    "fork": false,
+    "full_name": "firecracker-microvm/firecracker",
+    "html_url": "https://github.com/firecracker-microvm/firecracker",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T15:30:25Z",
+    "stargazers_count": 34094,
+    "topics": [
+      "containers",
+      "minimalist",
+      "open-source",
+      "oversubscription",
+      "rust",
+      "sandbox",
+      "serverless",
+      "virtual-machine",
+      "virtualization"
+    ],
+    "updated_at": "2026-05-02T18:14:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liquidmetal-dev/flintlock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check no Cargo.lock files are dirty",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny_dirty_cargo_locks.yml",
+      "term": "Check no Cargo.lock files are dirty"
+    },
+    {
+      "context_snippet": "Check no dependencies were modified",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_modification_check.yml",
+      "term": "Check no dependencies were modified"
+    },
+    {
+      "context_snippet": "Monitor libseccomp Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor_libseccomp_releases.yml",
+      "term": "Monitor libseccomp Releases"
+    },
+    {
+      "context_snippet": "Send notification on PR opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send_pr_notification.yml",
+      "term": "Send notification on PR opened"
+    },
+    {
+      "context_snippet": "Send notification on release created",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/send_release_notification.yml",
+      "term": "Send notification on release created"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimalist"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oversubscription"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sandbox"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    }
+  ]
+}

@@ -55,6 +55,30 @@
       "source_repo": "danielrosehill/Deployments-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast desktop Compose applications "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": " Application based on the web airelib.re.com, made with Kotlin and Compose 60%  applying the MVVM architecture. / Aplicaci\u00f3n Android basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "danielrosehill/Deployments-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Deployments-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/aurora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

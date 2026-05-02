@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buernia/Tiejili",
+      "target": "fontworks-fonts/reggae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buernia/Tiejili",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buernia/Tiejili",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buernia/Tiejili",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:12.714834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u94c1\u84ba\u85dc\u4f53\uff0c\u57fa\u4e8e Reggae One \u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002An open-source font that extends Fontworks\u2019 Reggae One to Chinese.",
+    "fork": false,
+    "full_name": "Buernia/Tiejili",
+    "html_url": "https://github.com/Buernia/Tiejili",
+    "language": null,
+    "pushed_at": "2023-01-31T18:42:56Z",
+    "stargazers_count": 726,
+    "topics": [
+      "chinese",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-04-19T01:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fontworks-fonts/reggae",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

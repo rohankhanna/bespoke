@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mark and Close Stale PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mooncake-Labs/moonlink",
+      "status": "candidate-context",
+      "text": "Fully Managed, Streaming Ingestion (CDC) into your Lakehouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/moonlink",
+      "status": "candidate-context",
+      "text": "\"Mark and Close Stale PRs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/moonlink",
+      "status": "candidate",
+      "text": "\"Mark and Close Stale PRs\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36128,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36128,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26040,
+      "status": "candidate",
+      "text": "marker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25970,
+      "status": "candidate",
+      "text": "james"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21511,
+      "status": "candidate",
+      "text": "accent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark and Close Stale PRs",
+  "concept_id": "mark-and-close-stale-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Mooncake-Labs/moonlink"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark and Close Stale PRs",
+      "sense_id": "mark-and-close-stale-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,30 @@
       "source_repo": "espnet/espnet",
       "status": "candidate-context",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate-context",
+      "text": "[ECCV2022] MOTR: End-to-End Multiple-Object Tracking with TRansformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate-context",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate-context",
+      "text": "[CVPR2023] MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2211.09791-COLOR.svg)](https://arxiv.org/abs/2211.09791)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "espnet/espnet",
       "status": "candidate",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2211.09791-COLOR.svg)](https://arxiv.org/abs/2211.09791)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTRv2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

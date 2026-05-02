@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "drenches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "ipos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "kickbacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "mfn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "nca"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sops",
+      "sense_id": "sops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "sop"
+    }
+  ],
+  "concept_id": "sops",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sops",
+  "observation_id": "33ad17a366134abe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "sops",
+  "source_context_snippet": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)",
+  "source_file": null,
+  "source_repo": "jkroepke/helm-secrets",
+  "source_repo_description": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+}

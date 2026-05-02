@@ -115,6 +115,18 @@
       "source_repo": "Project-MONAI/research-contributions",
       "status": "candidate-context",
       "text": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate-context",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate-context",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "Project-MONAI/research-contributions",
       "status": "candidate",
       "text": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Project-MONAI/research-contributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

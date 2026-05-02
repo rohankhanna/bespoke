@@ -67,6 +67,18 @@
       "source_repo": "iver56/audiomentations",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "iver56/audiomentations",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "iver56/audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "albumentations-team/albumentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

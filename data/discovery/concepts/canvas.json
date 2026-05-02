@@ -139,6 +139,18 @@
       "source_repo": "ecomfe/zrender",
       "status": "candidate-context",
       "text": "ZRender"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timdream/wordcloud2.js",
+      "status": "candidate-context",
+      "text": "Tag cloud/Wordle presentation on 2D canvas or HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdream/wordcloud2.js",
+      "status": "candidate-context",
+      "text": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ecomfe/zrender",
       "status": "candidate",
       "text": "ZRender"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdream/wordcloud2.js",
+      "status": "candidate",
+      "text": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML."
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +388,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "ecomfe/zrender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "timdream/wordcloud2.js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "icu4c"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "The home of the ICU project source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "icu4c",
+  "concept_id": "icu4c",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icu4c",
+      "sense_id": "icu4c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

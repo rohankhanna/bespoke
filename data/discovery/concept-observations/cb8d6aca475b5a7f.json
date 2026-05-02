@@ -84,7 +84,7 @@
   "normalized_form": "create-cross-functional-issues",
   "observation_id": "cb8d6aca475b5a7f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Create Cross-Functional Issues",
   "source_context_snippet": "Create Cross-Functional Issues",
   "source_file": ".github/workflows/create-cross-functional-issues.yml",

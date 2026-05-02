@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "alefalefalef/gveret-levin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "arielagor/jetbrains-mono-hebrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "bdenckla/taamey_d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "culmus/hebrew-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "hebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "target": "typography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:31.321844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of Hebrew fonts, installer for Google Font distributed versions, and some resources",
+    "fork": false,
+    "full_name": "danielrosehill/Awesome-Hebrew-Fonts",
+    "html_url": "https://github.com/danielrosehill/Awesome-Hebrew-Fonts",
+    "language": "Shell",
+    "pushed_at": "2026-04-27T08:54:47Z",
+    "stargazers_count": 0,
+    "topics": [
+      "fonts",
+      "hebrew",
+      "typography"
+    ],
+    "updated_at": "2026-04-27T08:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alefalefalef/gveret-levin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arielagor/jetbrains-mono-hebrew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdenckla/taamey_d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "culmus/hebrew-fonts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![banner](banner.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "![banner](banner.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew"
+    },
+    {
+      "context_snippet": "![banner](banner.webp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    }
+  ]
+}

@@ -891,6 +891,42 @@
       "source_repo": "vuejs/vue-router",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "CLI tool to print CPU and GPU temperature of macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "A JSON tree view component that is easy to use and also supports data selection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1335,6 +1371,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vuejs/vue-router",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -2118,11 +2172,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jkroepke/helm-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "narugit/smctemp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "leezng/vue-json-pretty"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

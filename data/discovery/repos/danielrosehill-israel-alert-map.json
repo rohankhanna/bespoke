@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "@anuradev/capacitor-background-mode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@capacitor/android",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@capacitor/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@capacitor/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@capacitor/preferences",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Israel-Alert-Map",
+      "target": "@anuradev/capacitor-background-mode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Israel-Alert-Map",
+      "target": "@capacitor/android",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Israel-Alert-Map",
+      "target": "@capacitor/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Israel-Alert-Map",
+      "target": "@capacitor/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Israel-Alert-Map",
+      "target": "@capacitor/preferences",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:28.670655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1401
+    },
+    {
+      "path": "package.json",
+      "size": 860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time Israel alert map - Pikud HaOref geo-visualization Android app",
+    "fork": false,
+    "full_name": "danielrosehill/Israel-Alert-Map",
+    "html_url": "https://github.com/danielrosehill/Israel-Alert-Map",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-27T18:29:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-27T18:29:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

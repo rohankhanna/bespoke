@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:31:24.789918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple popup display that provides breadcrumbs feature using LSP server",
+    "fork": true,
+    "full_name": "hasansujon786/nvim-navbuddy",
+    "html_url": "https://github.com/hasansujon786/nvim-navbuddy",
+    "language": "Lua",
+    "pushed_at": "2025-05-11T11:20:03Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-05-01T23:19:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

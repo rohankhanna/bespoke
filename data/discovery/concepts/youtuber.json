@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "youtuber"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate-context",
+      "text": "Open Vtuber project containing all sub projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate-context",
+      "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "status": "candidate",
+      "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002711,
+      "status": "candidate",
+      "text": "vtuber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002710,
+      "status": "candidate",
+      "text": "booktuber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002709,
+      "status": "candidate",
+      "text": "videoblogger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002708,
+      "status": "candidate",
+      "text": "twitterer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002707,
+      "status": "candidate",
+      "text": "tiktoker"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "youtuber",
+  "concept_id": "youtuber",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/OpenVTuberProject"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "youtuber",
+      "sense_id": "youtuber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

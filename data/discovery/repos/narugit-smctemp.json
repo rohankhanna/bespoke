@@ -1,0 +1,321 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "narugit/smctemp",
+      "target": "exelban/stats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "actions/create-release@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "reviewdog/action-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "narugit/smctemp",
+      "target": "Reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "cpu-temperature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "m1-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "m2-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "m3-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "m4-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "m5-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "sensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "temperature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "temperature-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "narugit/smctemp",
+      "target": "temperature-sensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:27:57.941358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1963
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1430
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLI tool to print CPU and GPU temperature of macOS",
+    "fork": false,
+    "full_name": "narugit/smctemp",
+    "html_url": "https://github.com/narugit/smctemp",
+    "language": "C++",
+    "pushed_at": "2026-04-22T23:12:00Z",
+    "stargazers_count": 98,
+    "topics": [
+      "cli",
+      "cpu-temperature",
+      "m1-mac",
+      "m2-mac",
+      "m3-mac",
+      "m4-mac",
+      "m5-mac",
+      "macos",
+      "osx",
+      "sensors",
+      "temperature",
+      "temperature-monitoring",
+      "temperature-sensor"
+    ],
+    "updated_at": "2026-04-23T23:58:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exelban/stats",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "Reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "Reviewdog"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpu-temperature"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "m1-mac"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "m2-mac"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "m3-mac"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "m4-mac"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "m5-mac"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensors"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature-monitoring"
+    },
+    {
+      "context_snippet": "Print CPU and GPU temperatures on macOS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature-sensor"
+    }
+  ]
+}

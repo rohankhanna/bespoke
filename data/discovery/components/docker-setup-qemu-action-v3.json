@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1177,6 +1177,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_wheels.yml",
       "source_repo": "apache/datasketches-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "trezor/cython-hidapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gotify/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tunnel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sdk_docker_publish.yml",
+      "source_repo": "obsei/obsei"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ui_docker_publish.yml",
+      "source_repo": "obsei/obsei"
     }
   ]
 }

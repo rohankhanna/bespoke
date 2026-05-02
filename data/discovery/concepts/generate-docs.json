@@ -237,6 +237,18 @@
       "source_repo": "jackielii/qmk_firmware",
       "status": "candidate-context",
       "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Source plugin and ftdetect directories on the Neovim runtimepath."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate-context",
+      "text": "Generate docs"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +365,12 @@
       "source_repo": "jackielii/qmk_firmware",
       "status": "candidate",
       "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate",
+      "text": "Generate docs"
     }
   ],
   "candidate_related_terms": [
@@ -552,11 +570,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/docgen.yaml",
       "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/neotest"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

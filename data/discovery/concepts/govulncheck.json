@@ -176,6 +176,18 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate-context",
       "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exoscale/karpenter-provider-exoscale",
+      "status": "candidate-context",
+      "text": "A Karpenter implementation for the Exoscale platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/karpenter-provider-exoscale",
+      "status": "candidate-context",
+      "text": "govulncheck"
     }
   ],
   "candidate_glosses": [
@@ -254,6 +266,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/karpenter-provider-exoscale",
       "status": "candidate",
       "text": "govulncheck"
     }
@@ -353,11 +371,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/govulncheck.yml",
       "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "exoscale/karpenter-provider-exoscale"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

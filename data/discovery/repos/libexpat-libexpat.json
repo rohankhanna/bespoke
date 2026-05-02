@@ -1,0 +1,441 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-static-analyzer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-static-analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-required-version.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@2068473c7bdf8c2fb984a6a40ae76ee7facd7a85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-cmake.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Enforce clang-format clean code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-static-analyzer.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-static-analyzer.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Enforce clang-tidy clean code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-required-version.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-required-version.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Ensure realistic minimum CMake version requirement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Enforce codespell-clean spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Collect test coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "vapier/coverity-scan-action@2068473c7bdf8c2fb984a6a40ae76ee7facd7a85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Upload build to Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "libexpat/libexpat",
+      "target": "Run Cppcheck (from macOS Homebrew)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "expat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "expat-xml-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "siphash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "streaming-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "xml-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "xml-parser-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libexpat/libexpat",
+      "target": "xml-parsing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:33:16.040700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9765
+    },
+    {
+      "path": ".github/workflows/autotools-cmake.yml",
+      "size": 8333
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 2683
+    },
+    {
+      "path": ".github/workflows/clang-static-analyzer.yml",
+      "size": 3692
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 2525
+    },
+    {
+      "path": ".github/workflows/cmake-required-version.yml",
+      "size": 3095
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 2229
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 3246
+    },
+    {
+      "path": ".github/workflows/coverity-scan.yml",
+      "size": 4999
+    },
+    {
+      "path": ".github/workflows/cppcheck.yml",
+      "size": 2185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":herb: Fast streaming XML parser written in C99 with >90% test coverage; moved from SourceForge to GitHub",
+    "fork": false,
+    "full_name": "libexpat/libexpat",
+    "html_url": "https://github.com/libexpat/libexpat",
+    "language": "C",
+    "pushed_at": "2026-04-30T21:22:34Z",
+    "stargazers_count": 1324,
+    "topics": [
+      "c",
+      "c99",
+      "expat",
+      "expat-xml-parser",
+      "library",
+      "siphash",
+      "streaming-parser",
+      "xml",
+      "xml-parser",
+      "xml-parser-library",
+      "xml-parsing"
+    ],
+    "updated_at": "2026-05-02T14:52:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Enforce clang-format clean code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "Enforce clang-format clean code"
+    },
+    {
+      "context_snippet": "Enforce clang-tidy clean code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "Enforce clang-tidy clean code"
+    },
+    {
+      "context_snippet": "Ensure realistic minimum CMake version requirement",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-required-version.yml",
+      "term": "Ensure realistic minimum CMake version requirement"
+    },
+    {
+      "context_snippet": "Enforce codespell-clean spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Enforce codespell-clean spelling"
+    },
+    {
+      "context_snippet": "Collect test coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Collect test coverage"
+    },
+    {
+      "context_snippet": "Upload build to Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "term": "Upload build to Coverity Scan"
+    },
+    {
+      "context_snippet": "Run Cppcheck (from macOS Homebrew)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "term": "Run Cppcheck (from macOS Homebrew)"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expat"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expat-xml-parser"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siphash"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-parser"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xml-parser"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xml-parser-library"
+    },
+    {
+      "context_snippet": "[![Run Linux CI tasks](https://github.com/libexpat/libexpat/actions/workflows/linux.yml/badge.svg)](https://github.com/libexpat/libexpat/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xml-parsing"
+    }
+  ]
+}

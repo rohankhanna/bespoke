@@ -127,6 +127,42 @@
       "source_repo": "vuejs/babel-plugin-jsx",
       "status": "candidate-context",
       "text": "[![npm package](https://img.shields.io/npm/v/@vue/babel-plugin-jsx.svg?style=flat-square)](https://www.npmjs.com/package/@vue/babel-plugin-jsx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "Next generation utility-first CSS framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "Vue I18n for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "vuejs/babel-plugin-jsx",
       "status": "candidate",
       "text": "[![npm package](https://img.shields.io/npm/v/@vue/babel-plugin-jsx.svg?style=flat-square)](https://www.npmjs.com/package/@vue/babel-plugin-jsx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +370,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "vuejs/babel-plugin-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "element-plus/element-plus"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

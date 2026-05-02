@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml"
+    },
+    {
+      "component": "davidanthoff/julia-pkgbutler@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-codeformat@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "queryverse/iterabletables.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "queryverse/csvfiles.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "queryverse/query.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "fredo-dedup/vegalite.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "davidanthoff/julia-pkgbutler@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Run the Julia Package Butler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Run CI on main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Run CI on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-codeformat@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Code Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Run CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia-actions/julia-docdeploy@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "queryverse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/DataVoyager.jl",
+      "target": "voyage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:43:37.758725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3387
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "size": 476
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia wrapper for the Voyager data exploration tool",
+    "fork": false,
+    "full_name": "queryverse/DataVoyager.jl",
+    "html_url": "https://github.com/queryverse/DataVoyager.jl",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-29T03:33:32Z",
+    "stargazers_count": 129,
+    "topics": [
+      "julia",
+      "queryverse",
+      "voyage"
+    ],
+    "updated_at": "2026-02-24T12:38:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fredo-dedup/vegalite.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "queryverse/csvfiles.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "queryverse/iterabletables.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "queryverse/query.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run the Julia Package Butler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "term": "Run the Julia Package Butler"
+    },
+    {
+      "context_snippet": "Run CI on main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "term": "Run CI on main"
+    },
+    {
+      "context_snippet": "Run CI on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "term": "Run CI on PR"
+    },
+    {
+      "context_snippet": "Code Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "term": "Code Formatting"
+    },
+    {
+      "context_snippet": "Run CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "term": "Run CompatHelper"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "term": "Deploy documentation"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queryverse"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voyage"
+    }
+  ]
+}

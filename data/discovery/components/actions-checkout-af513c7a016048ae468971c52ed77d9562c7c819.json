@@ -1,0 +1,12 @@
+{
+  "component": "actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata"
+    }
+  ]
+}

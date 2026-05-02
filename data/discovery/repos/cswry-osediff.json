@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/OSEDiff",
+      "target": "cswry/vosr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/OSEDiff",
+      "target": "csslc/pisa-sr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/OSEDiff",
+      "target": "guaishou74851/adcsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/OSEDiff",
+      "target": "csslc/ccsr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:01.104718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10673
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurlPS2024] One-Step Effective Diffusion Network for Real-World Image Super-Resolution",
+    "fork": false,
+    "full_name": "cswry/OSEDiff",
+    "html_url": "https://github.com/cswry/OSEDiff",
+    "language": "Python",
+    "pushed_at": "2026-04-09T19:03:47Z",
+    "stargazers_count": 627,
+    "topics": [],
+    "updated_at": "2026-05-02T02:30:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csslc/ccsr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csslc/pisa-sr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cswry/vosr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guaishou74851/adcsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

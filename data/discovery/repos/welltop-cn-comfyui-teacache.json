@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "welltop-cn/ComfyUI-TeaCache",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "welltop-cn/ComfyUI-TeaCache",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "welltop-cn/ComfyUI-TeaCache",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:31.626248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11238
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 404
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "welltop-cn/ComfyUI-TeaCache",
+    "html_url": "https://github.com/welltop-cn/ComfyUI-TeaCache",
+    "language": "Python",
+    "pushed_at": "2025-07-12T04:05:29Z",
+    "stargazers_count": 1082,
+    "topics": [],
+    "updated_at": "2026-04-23T18:11:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

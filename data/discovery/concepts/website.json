@@ -376,6 +376,30 @@
       "source_repo": "ThreeTen/threetenbp",
       "status": "candidate-context",
       "text": "Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "Apache Dubbo documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "Apache Iceberg - Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "Website"
     }
   ],
   "candidate_glosses": [
@@ -562,6 +586,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ThreeTen/threetenbp",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
       "status": "candidate",
       "text": "Website"
     }
@@ -997,11 +1033,41 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/go-release-docs.yml",
+      "source_repo": "apache/iceberg-go"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

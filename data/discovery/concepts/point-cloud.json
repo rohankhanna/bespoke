@@ -307,6 +307,42 @@
       "source_repo": "Colin97/OpenShape_code",
       "status": "candidate-context",
       "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "our code for paper 'PointCutMix: Regularization Strategy for Point Cloud Classification', Neurocomputing, 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate-context",
+      "text": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate-context",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch - a 3D ConvNet-based local geometric descriptor for aligning 3D meshes and point clouds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +495,24 @@
       "source_repo": "Colin97/OpenShape_code",
       "status": "candidate",
       "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +712,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Colin97/OpenShape_code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuge1995/PointCutMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "blakechen97/SASA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/3dmatch-toolbox"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

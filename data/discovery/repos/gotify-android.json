@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gotify/android",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gotify/android",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gotify/android",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gotify/android",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "fdroid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "gotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "playstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/android",
+      "target": "push-notifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:21.407139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3216
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An app for creating push notifications for new messages posted to gotify/server.",
+    "fork": false,
+    "full_name": "gotify/android",
+    "html_url": "https://github.com/gotify/android",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-26T17:21:42Z",
+    "stargazers_count": 1349,
+    "topics": [
+      "android",
+      "fdroid",
+      "gotify",
+      "java",
+      "playstore",
+      "push-notifications"
+    ],
+    "updated_at": "2026-05-02T19:24:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fdroid"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gotify"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playstore"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"app.gif\" width=\"250\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "push-notifications"
+    }
+  ]
+}

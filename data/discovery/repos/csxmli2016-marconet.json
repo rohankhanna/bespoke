@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csxmli2016/MARCONet",
+      "target": "csxmli2016/marconetplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csxmli2016/MARCONet",
+      "target": "csxmli2016/textbsr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:02.027132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6793
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning Generative Structure Prior for Blind Text Image Super-resolution [CVPR 2023]",
+    "fork": false,
+    "full_name": "csxmli2016/MARCONet",
+    "html_url": "https://github.com/csxmli2016/MARCONet",
+    "language": "Python",
+    "pushed_at": "2025-08-18T09:43:05Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-28T03:23:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csxmli2016/marconetplusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csxmli2016/textbsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

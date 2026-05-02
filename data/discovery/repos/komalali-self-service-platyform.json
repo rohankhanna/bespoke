@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:43:40.460146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2580
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build your own IaC platform with Pulumi's Automation API. ",
+    "fork": false,
+    "full_name": "komalali/self-service-platyform",
+    "html_url": "https://github.com/komalali/self-service-platyform",
+    "language": "Python",
+    "pushed_at": "2022-11-15T00:49:20Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-03-18T01:54:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build, Test, Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "Recipes for building Heroku's Cloud Native Buildpacks builder images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate-context",
+      "text": "Build, Test, Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cnb-builder-images",
+      "status": "candidate",
+      "text": "Build, Test, Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18383,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "republish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18274,
+      "status": "candidate",
+      "text": "republishing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build, Test, Publish",
+  "concept_id": "build-test-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-test-publish.yml",
+      "source_repo": "heroku/cnb-builder-images"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build, Test, Publish",
+      "sense_id": "build-test-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

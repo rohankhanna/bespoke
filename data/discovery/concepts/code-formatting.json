@@ -92,6 +92,30 @@
       "source_repo": "davidanthoff/Electron.jl",
       "status": "candidate-context",
       "text": "Code Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the Voyager data exploration tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Code Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "An Electron.jl based figure and table display."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "Code Formatting"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +158,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "davidanthoff/Electron.jl",
+      "status": "candidate",
+      "text": "Code Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate",
+      "text": "Code Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate",
       "text": "Code Formatting"
     }
@@ -221,11 +257,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
       "source_repo": "davidanthoff/Electron.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1147,6 +1147,66 @@
       "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate-context",
       "text": "![gallery of_environments](docs/images/gallery.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edwhu/dreamer4-jax",
+      "status": "candidate-context",
+      "text": "Dreamer 4 jax implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edwhu/dreamer4-jax",
+      "status": "candidate-context",
+      "text": "This repo is an unofficial implementation of the **[Dreamer 4](https://danijar.com/project/dreamer4/)** world model and RL agent from *\u201cTraining Agents Inside of Scalable World Models\u201d* in pure JAX. This repo is designed to be educational and serve as a starting point for those \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "Benchmarking the Spectrum of Agent Capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "Mastering Atari with Discrete World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "Mastering Diverse Domains through World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "A modular high-level library to train embodied AI agents across a variety of tasks and environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1779,36 @@
       "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate",
       "text": "![gallery of_environments](docs/images/gallery.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edwhu/dreamer4-jax",
+      "status": "candidate",
+      "text": "This repo is an unofficial implementation of the **[Dreamer 4](https://danijar.com/project/dreamer4/)** world model and RL agent from *\u201cTraining Agents Inside of Scalable World Models\u201d* in pure JAX. This repo is designed to be educational and serve as a starting point for those \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_related_terms": [],
@@ -2536,11 +2626,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "edwhu/dreamer4-jax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/crafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

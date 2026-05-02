@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JUICE is a UDP Interactive Connectivity Establishment library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961014,
+      "status": "candidate",
+      "text": "stupefy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960384,
+      "status": "candidate",
+      "text": "stupify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960141,
+      "status": "candidate",
+      "text": "bedaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958762,
+      "status": "candidate",
+      "text": "shock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958718,
+      "status": "candidate",
+      "text": "take aback"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stun",
+      "sense_id": "stun#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38034,
+      "status": "candidate",
+      "text": "daze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20068,
+      "status": "candidate",
+      "text": "shock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8079,
+      "status": "candidate",
+      "text": "floor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8030,
+      "status": "candidate",
+      "text": "stupefy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6012,
+      "status": "candidate",
+      "text": "take aback"
+    }
+  ],
+  "concept_id": "stun",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stun",
+  "observation_id": "2a19534d08d744ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "stun",
+  "source_context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+  "source_file": null,
+  "source_repo": "paullouisageneau/libjuice",
+  "source_repo_description": "JUICE is a UDP Interactive Connectivity Establishment library"
+}

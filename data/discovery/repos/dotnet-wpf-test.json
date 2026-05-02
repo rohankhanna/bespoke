@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backporting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backporting.yml",
+      "source_repo": "dotnet/wpf-test",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backporting.yml",
+      "source_repo": "dotnet/wpf-test",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml",
+      "source_repo": "dotnet/wpf-test",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:31:34.748783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3508
+    },
+    {
+      "path": ".github/workflows/backporting.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/locker.yml",
+      "size": 1002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WPF is a .NET Core UI framework for building Windows desktop applications.  wpf-test contains test infrastructure and test collateral for the WPF framework. ",
+    "fork": false,
+    "full_name": "dotnet/wpf-test",
+    "html_url": "https://github.com/dotnet/wpf-test",
+    "language": "C#",
+    "pushed_at": "2026-04-27T05:01:51Z",
+    "stargazers_count": 71,
+    "topics": [
+      "wpf"
+    ],
+    "updated_at": "2026-01-25T09:18:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backporting.yml",
+      "term": "Backport PR to branch"
+    }
+  ]
+}

@@ -211,6 +211,18 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate-context",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "> this repo is outdated"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate",
+      "text": "> this repo is outdated"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +499,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "lefou/LambdaTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

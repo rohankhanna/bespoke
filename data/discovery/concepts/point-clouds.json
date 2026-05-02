@@ -43,6 +43,18 @@
       "source_repo": "MIT-SPARK/TEASER-plusplus",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate-context",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate-context",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MIT-SPARK/TEASER-plusplus",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hansen7/OcCo",
+      "status": "candidate",
+      "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MIT-SPARK/TEASER-plusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

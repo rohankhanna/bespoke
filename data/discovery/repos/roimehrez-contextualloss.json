@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roimehrez/contextualLoss",
+      "target": "roimehrez/ddis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:33:13.989284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Contextual Loss",
+    "fork": false,
+    "full_name": "roimehrez/contextualLoss",
+    "html_url": "https://github.com/roimehrez/contextualLoss",
+    "language": "Python",
+    "pushed_at": "2021-07-08T15:48:35Z",
+    "stargazers_count": 495,
+    "topics": [],
+    "updated_at": "2026-03-07T13:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roimehrez/ddis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

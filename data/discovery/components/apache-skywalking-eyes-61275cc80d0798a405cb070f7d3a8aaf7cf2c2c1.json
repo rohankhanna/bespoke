@@ -1,0 +1,12 @@
+{
+  "component": "apache/skywalking-eyes@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-cpp"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "grwlf/xkb-switch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "jwlawson/actions-setup-cmake@v2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch",
+      "target": "Build and Package",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "sergei-mironov/xkb-switch"
+}

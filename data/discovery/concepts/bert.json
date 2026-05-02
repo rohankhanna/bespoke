@@ -511,6 +511,18 @@
       "source_repo": "GitYCC/g2pW",
       "status": "candidate-context",
       "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate-context",
+      "text": "Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate-context",
+      "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +777,12 @@
       "source_repo": "GitYCC/g2pW",
       "status": "candidate",
       "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PL-BERT",
+      "status": "candidate",
+      "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1132,11 +1150,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/PL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

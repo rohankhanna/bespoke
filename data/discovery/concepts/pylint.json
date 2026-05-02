@@ -227,6 +227,18 @@
       "source_repo": "alibaba/ChatLearn",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fudan-generative-vision/hallo",
+      "status": "candidate-context",
+      "text": "Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fudan-generative-vision/hallo",
+      "status": "candidate-context",
+      "text": "Pylint"
     }
   ],
   "candidate_glosses": [
@@ -335,6 +347,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/ChatLearn",
+      "status": "candidate",
+      "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fudan-generative-vision/hallo",
       "status": "candidate",
       "text": "Pylint"
     }
@@ -644,11 +662,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "alibaba/ChatLearn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/static-check.yaml",
+      "source_repo": "fudan-generative-vision/hallo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

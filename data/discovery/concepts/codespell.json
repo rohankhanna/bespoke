@@ -458,6 +458,42 @@
       "source_repo": "proper-testing/proper",
       "status": "candidate-context",
       "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate-context",
+      "text": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -682,6 +718,24 @@
       "source_repo": "proper-testing/proper",
       "status": "candidate",
       "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/citation-file-format",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "Codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -935,11 +989,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "proper-testing/proper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "qdrant/qdrant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "citation-file-format/citation-file-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/_codespell.yml",
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -163,6 +163,18 @@
       "source_repo": "takuseno/d4rl-atari",
       "status": "candidate-context",
       "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "A modular high-level library to train embodied AI agents across a variety of tasks and environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "takuseno/d4rl-atari",
       "status": "candidate",
       "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "takuseno/d4rl-atari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

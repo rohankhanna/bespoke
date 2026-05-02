@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "plugins-platform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "status": "candidate-context",
+      "text": "A Go SDK for building backend plugins for Grafana"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "status": "candidate-context",
+      "text": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana-plugin-sdk-go",
+      "status": "candidate",
+      "text": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "plugins-platform",
+  "concept_id": "plugins-platform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "grafana/grafana-plugin-sdk-go"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugins-platform",
+      "sense_id": "plugins-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

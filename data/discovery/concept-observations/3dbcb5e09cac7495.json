@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Decompressors for hyparquet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperparam",
+      "sense_id": "hyperparam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyperparam",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyperparam",
+  "observation_id": "3dbcb5e09cac7495",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "hyperparam",
+  "source_context_snippet": "![hyparquet parakeets](hyparquet-compressors.jpg)",
+  "source_file": null,
+  "source_repo": "hyparam/hyparquet-compressors",
+  "source_repo_description": "Decompressors for hyparquet"
+}

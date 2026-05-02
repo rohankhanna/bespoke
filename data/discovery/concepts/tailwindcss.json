@@ -217,6 +217,30 @@
       "source_repo": "calcom/cal.diy",
       "status": "candidate-context",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "Next generation utility-first CSS framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative real-time P2P virtual music instrument."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate-context",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +345,18 @@
       "source_repo": "calcom/cal.diy",
       "status": "candidate",
       "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arslanastral/jambox",
+      "status": "candidate",
+      "text": "A collaborative realtime P2P virtual music instrument. #SvelteHack2023"
     }
   ],
   "candidate_related_terms": [],
@@ -508,11 +544,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "arslanastral/jambox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

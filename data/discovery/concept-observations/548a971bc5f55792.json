@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029233,
+      "status": "candidate",
+      "text": "natural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027197,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012966,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983115,
+      "status": "candidate",
+      "text": "simple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9953298,
+      "status": "candidate",
+      "text": "crude"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "primitives",
+      "sense_id": "primitives#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "primitives",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "primitives",
+  "observation_id": "548a971bc5f55792",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "primitives",
+  "source_context_snippet": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)",
+  "source_file": null,
+  "source_repo": "JuliaArrays/ArrayInterface.jl",
+  "source_repo_description": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+}

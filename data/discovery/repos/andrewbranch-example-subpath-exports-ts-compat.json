@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewbranch/example-subpath-exports-ts-compat",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewbranch/example-subpath-exports-ts-compat",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:34:21.798378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3974
+    },
+    {
+      "path": "package.json",
+      "size": 347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TypeScript-friendly strategies for package.json subpath exports compatibility",
+    "fork": false,
+    "full_name": "andrewbranch/example-subpath-exports-ts-compat",
+    "html_url": "https://github.com/andrewbranch/example-subpath-exports-ts-compat",
+    "language": null,
+    "pushed_at": "2023-01-17T16:39:04Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-14T17:05:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

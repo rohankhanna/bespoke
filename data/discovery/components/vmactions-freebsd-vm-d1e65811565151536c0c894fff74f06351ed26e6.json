@@ -1,7 +1,7 @@
 {
   "component": "vmactions/freebsd-vm@d1e65811565151536c0c894fff74f06351ed26e6",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "rust-lang/libc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "libfuse/libfuse"
     }
   ]
 }

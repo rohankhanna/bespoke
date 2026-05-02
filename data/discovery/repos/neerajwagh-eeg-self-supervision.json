@@ -1,0 +1,301 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "biosignals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "domain-driven-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "eeg-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "eeg-signals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "electroencephalogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "electrophysiological-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "ml4h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "multi-task-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "neurips-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "neuroscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "self-supervision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "transfer-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:23.057309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5633
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resources for the paper titled \"Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability\". Accepted at ML4H Symposium 2021 with an oral spotlight!",
+    "fork": false,
+    "full_name": "neerajwagh/eeg-self-supervision",
+    "html_url": "https://github.com/neerajwagh/eeg-self-supervision",
+    "language": "Python",
+    "pushed_at": "2023-07-12T16:01:34Z",
+    "stargazers_count": 23,
+    "topics": [
+      "biosignals",
+      "convolutional-neural-networks",
+      "deep-learning",
+      "domain-driven-design",
+      "eeg",
+      "eeg-classification",
+      "eeg-signals",
+      "electroencephalogram",
+      "electrophysiological-data",
+      "machine-learning",
+      "ml4h",
+      "multi-task-learning",
+      "neural-network",
+      "neurips-2021",
+      "neuroscience",
+      "representation-learning",
+      "self-supervised-learning",
+      "self-supervision",
+      "transfer-learning",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-01-06T09:34:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biosignals"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-driven-design"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eeg-classification"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eeg-signals"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electroencephalogram"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrophysiological-data"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml4h"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2021"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroscience"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervision"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    },
+    {
+      "context_snippet": "<!-- # eeg-self-supervision",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

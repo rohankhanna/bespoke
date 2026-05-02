@@ -175,6 +175,30 @@
       "source_repo": "weaveworks/weave-gitops",
       "status": "candidate-context",
       "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "Relax! Flux is the ML library that doesn't make you tensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "Flux Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "weaveworks/weave-gitops",
       "status": "candidate",
       "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -531,11 +567,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

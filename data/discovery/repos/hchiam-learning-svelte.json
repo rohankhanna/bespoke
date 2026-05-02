@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-svelte",
+      "target": "hchiam/learning-frameworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-svelte",
+      "target": "hchiam/code-inspiration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-svelte",
+      "target": "hchiam/random-group-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-svelte",
+      "target": "emiltholin/svelte-routing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-svelte",
+      "target": "svelte",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:09.828737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Svelte",
+    "fork": false,
+    "full_name": "hchiam/learning-svelte",
+    "html_url": "https://github.com/hchiam/learning-svelte",
+    "language": "Svelte",
+    "pushed_at": "2024-10-24T23:12:00Z",
+    "stargazers_count": 1,
+    "topics": [
+      "svelte"
+    ],
+    "updated_at": "2024-10-24T23:12:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emiltholin/svelte-routing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/code-inspiration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-frameworks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/random-group-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning> and <https://github.com/hchiam/learning-frameworks>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    }
+  ]
+}

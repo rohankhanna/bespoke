@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 A GitHub Action easily helps you automatically manage issues. Welcome to try."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Preview Start"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Preview Start"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14919,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14372,
+      "status": "candidate",
+      "text": "teaser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "introductory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "overview"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Preview Start",
+      "sense_id": "preview-start#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preview-start",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preview-start",
+  "observation_id": "c9a0c43f3a5a26cc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "Preview Start",
+  "source_context_snippet": "Preview Start",
+  "source_file": ".github/workflows/preview-start.yml",
+  "source_repo": "actions-cool/issues-helper",
+  "source_repo_description": "\ud83e\udd16 A GitHub Action easily helps you automatically manage issues. Welcome to try."
+}

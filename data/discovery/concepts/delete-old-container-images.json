@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Delete old container images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate-context",
+      "text": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate-context",
+      "text": "Delete old container images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/qdrant",
+      "status": "candidate",
+      "text": "Delete old container images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32401,
+      "status": "candidate",
+      "text": "grave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32323,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32323,
+      "status": "candidate",
+      "text": "fogged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32034,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31529,
+      "status": "candidate",
+      "text": "magazine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Delete old container images",
+  "concept_id": "delete-old-container-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/dev-docker-image-prune.yml",
+      "source_repo": "qdrant/qdrant"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete old container images",
+      "sense_id": "delete-old-container-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

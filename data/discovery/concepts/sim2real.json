@@ -19,6 +19,18 @@
       "source_repo": "facebookresearch/habitat-sim",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "A modular high-level library to train embodied AI agents across a variety of tasks and environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "facebookresearch/habitat-sim",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/habitat-sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

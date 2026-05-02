@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:31:35.761762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Warm and cozy colorscheme for Alacritty.",
+    "fork": false,
+    "full_name": "Biscuit-Theme/alacritty",
+    "html_url": "https://github.com/Biscuit-Theme/alacritty",
+    "language": null,
+    "pushed_at": "2024-06-05T18:24:42Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-11-03T09:42:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

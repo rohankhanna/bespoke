@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "garyservin/linka-firmware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "garyservin/linka-firmware",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "garyservin/linka-firmware",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "garyservin/linka-firmware",
+      "target": "Build Linka Firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "garyservin/linka-firmware",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "garyservin/linka-firmware",
+      "target": "arduino-ide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "garyservin/linka-firmware",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "garyservin/linka-firmware",
+      "target": "platformio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:49.190633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2482
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Firmware for the default sensor kit for the Linka project",
+    "fork": false,
+    "full_name": "garyservin/linka-firmware",
+    "html_url": "https://github.com/garyservin/linka-firmware",
+    "language": "C++",
+    "pushed_at": "2024-12-11T15:48:59Z",
+    "stargazers_count": 12,
+    "topics": [
+      "arduino",
+      "arduino-ide",
+      "esp8266",
+      "platformio"
+    ],
+    "updated_at": "2025-03-07T22:25:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Linka Firmware",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build Linka Firmware"
+    },
+    {
+      "context_snippet": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino"
+    },
+    {
+      "context_snippet": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-ide"
+    },
+    {
+      "context_snippet": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "platformio"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1732,6 +1732,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gcp-pr-rereview.lock.yml",
       "source_repo": "pulumi/pulumi-gcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-native-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-native-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lakekeeper/lakekeeper"
     }
   ]
 }

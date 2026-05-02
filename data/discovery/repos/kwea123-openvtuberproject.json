@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "kwea123/autosub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "kwea123/unity_live_caption",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "hecomi/udesktopduplication",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "vtuber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/OpenVTuberProject",
+      "target": "youtuber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:56.163270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open Vtuber project containing all sub projects",
+    "fork": false,
+    "full_name": "kwea123/OpenVTuberProject",
+    "html_url": "https://github.com/kwea123/OpenVTuberProject",
+    "language": null,
+    "pushed_at": "2022-10-30T10:21:20Z",
+    "stargazers_count": 244,
+    "topics": [
+      "open-source",
+      "vtuber",
+      "youtuber"
+    ],
+    "updated_at": "2026-04-16T08:09:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hecomi/udesktopduplication",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/autosub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/unity_live_caption",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtuber"
+    },
+    {
+      "context_snippet": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtuber"
+    }
+  ]
+}

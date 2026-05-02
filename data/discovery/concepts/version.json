@@ -213,6 +213,18 @@
       "source_repo": "clearml/clearml-server",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your project versions and its upgrades according to the Semantic Versioning specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_glosses": [
@@ -317,6 +329,12 @@
       "source_repo": "clearml/clearml-server",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_related_terms": [
@@ -702,11 +720,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

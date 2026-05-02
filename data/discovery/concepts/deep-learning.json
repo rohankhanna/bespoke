@@ -6355,6 +6355,210 @@
       "source_repo": "drivendataorg/zamba",
       "status": "candidate-context",
       "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] FaceFormer: Speech-Driven 3D Facial Animation with Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "Keras implementation of \"Image Inpainting via Generative Multi-column Convolutional Neural Networks\" paper published at NIPS 2018 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "Resources for the paper titled \"Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability\". Accepted at ML4H Symposium 2021 with an oral spotlight!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "Relax! Flux is the ML library that doesn't make you tensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "Flux Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "Tutorials and training material for the H2O Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/Clair3",
+      "status": "candidate-context",
+      "text": "Clair3 - Symphonizing pileup and full-alignment for deep learning-based long-read variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair3",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "Benchmarking the Spectrum of Agent Capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "Mastering Atari with Discrete World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "A toolkit for making real world machine learning and data analysis applications in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate-context",
+      "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yinguobing/head-pose-estimation",
+      "status": "candidate-context",
+      "text": "Realtime human head pose estimation with ONNXRuntime and OpenCV."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yinguobing/head-pose-estimation",
+      "status": "candidate-context",
+      "text": "Realtime human head pose estimation with ONNX Runtime and OpenCV."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "Repo for \"Benchmarking Robustness of 3D Point Cloud Recognition against Common Corruptions\"  https://arxiv.org/abs/2201.12296"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "our code for paper 'PointCutMix: Regularization Strategy for Point Cloud Classification', Neurocomputing, 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch - a 3D ConvNet-based local geometric descriptor for aligning 3D meshes and point clouds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate-context",
+      "text": "Deep Learning tools and applications for NVIDIA AGX platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate-context",
+      "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "A modular high-level library to train embodied AI agents across a variety of tasks and environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_glosses": [
@@ -9537,6 +9741,108 @@
       "source_repo": "drivendataorg/zamba",
       "status": "candidate",
       "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair3",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv2",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davisking/dlib",
+      "status": "candidate",
+      "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yinguobing/head-pose-estimation",
+      "status": "candidate",
+      "text": "Realtime human head pose estimation with ONNX Runtime and OpenCV."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DL4AGX",
+      "status": "candidate",
+      "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-lab",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
     }
   ],
   "candidate_related_terms": [],
@@ -14452,11 +14758,275 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "albumentations-team/albumentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EvelynFan/FaceFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/crafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "davisking/dlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jiachens/ModelNet40-C"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuge1995/PointCutMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/3dmatch-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-lab"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

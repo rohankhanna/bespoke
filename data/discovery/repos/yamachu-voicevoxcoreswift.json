@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "target": "swiftpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "target": "voicevox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:26:53.934838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "voicevox_core swift wrapper",
+    "fork": false,
+    "full_name": "yamachu/VoicevoxCoreSwift",
+    "html_url": "https://github.com/yamachu/VoicevoxCoreSwift",
+    "language": "C++",
+    "pushed_at": "2026-02-21T08:14:17Z",
+    "stargazers_count": 7,
+    "topics": [
+      "swift",
+      "swiftpm",
+      "voicevox"
+    ],
+    "updated_at": "2026-02-21T08:13:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unofficial Swift wrapper for voicevox_core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "Unofficial Swift wrapper for voicevox_core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftpm"
+    },
+    {
+      "context_snippet": "Unofficial Swift wrapper for voicevox_core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicevox"
+    }
+  ]
+}

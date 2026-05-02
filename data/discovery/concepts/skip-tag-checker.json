@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Skip tag checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": "SciPy library main repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": "Skip tag checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate",
+      "text": "Skip tag checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17899,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17783,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17721,
+      "status": "candidate",
+      "text": "stay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17649,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17649,
+      "status": "candidate",
+      "text": "cuts"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Skip tag checker",
+  "concept_id": "skip-tag-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/commit_message.yml",
+      "source_repo": "scipy/scipy"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Skip tag checker",
+      "sense_id": "skip-tag-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

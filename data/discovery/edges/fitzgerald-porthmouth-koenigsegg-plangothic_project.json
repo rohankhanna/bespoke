@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "chiron-fonts/chiron-hei-hk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "mercury13/unicodia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "guiwonder/shanggu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "fitzgerald-porthmouth-koenigsegg/planschrift_project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "Build Fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "Build Fonts and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-packaging.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-packaging.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-packaging.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-packaging.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "Release Packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "cjk-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "source-han-sans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+}

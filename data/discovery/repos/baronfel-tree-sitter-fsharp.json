@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "nan",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baronfel/tree-sitter-fsharp",
+      "target": "nsidorenco/tree-sitter-fsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "baronfel/tree-sitter-fsharp",
+      "target": "nan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baronfel/tree-sitter-fsharp",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:32:24.359194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1592
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 532
+    },
+    {
+      "path": "package.json",
+      "size": 499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A tree-sitter grammar for F#, derived from the [spec](https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf)",
+    "fork": false,
+    "full_name": "baronfel/tree-sitter-fsharp",
+    "html_url": "https://github.com/baronfel/tree-sitter-fsharp",
+    "language": "C",
+    "pushed_at": "2023-02-13T17:42:51Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2024-11-01T19:40:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nsidorenco/tree-sitter-fsharp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

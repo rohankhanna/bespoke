@@ -1,0 +1,250 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "danielbernalb/aireciudadano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "miguelangelcasanova/codos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "anaireorg/anaire-devices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "arduino-mega",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "arduino-nano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "arduino-uno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "co2-measurements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "co2-meter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "co2-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "co2-sensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "cubic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "senseair",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "senseair-s8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "sensirion-scd30",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "winsen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2",
+      "target": "xloader",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:55.723057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple CO2 meter using Arduino UNO-Mega board and popular CO2 sensors (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or 19 and Cubic CM1106). Operation modes: Normal, Calibration 400ppm, Alarm adjust and Altitud compensation adjust",
+    "fork": false,
+    "full_name": "danielbernalb/LibreCO2",
+    "html_url": "https://github.com/danielbernalb/LibreCO2",
+    "language": "C++",
+    "pushed_at": "2024-02-16T02:25:01Z",
+    "stargazers_count": 51,
+    "topics": [
+      "arduino-mega",
+      "arduino-nano",
+      "arduino-uno",
+      "co2",
+      "co2-measurements",
+      "co2-meter",
+      "co2-monitor",
+      "co2-sensor",
+      "cubic",
+      "senseair",
+      "senseair-s8",
+      "sensirion-scd30",
+      "winsen",
+      "xloader"
+    ],
+    "updated_at": "2026-04-02T13:52:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anaireorg/anaire-devices",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielbernalb/aireciudadano",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miguelangelcasanova/codos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-mega"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-nano"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-uno"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co2-measurements"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co2-meter"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co2-monitor"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co2-sensor"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cubic"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "senseair"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "senseair-s8"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensirion-scd30"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winsen"
+    },
+    {
+      "context_snippet": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xloader"
+    }
+  ]
+}

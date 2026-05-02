@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Draft"
+    "Release Draft",
+    "release draft"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
       "status": "candidate-context",
       "text": "Release Draft"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsei/obsei",
+      "status": "candidate-context",
+      "text": "Obsei is a low code AI powered automation tool. It can be used in various business flows like social listening, AI based alerting, brand image analysis, comparative study and more ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/obsei",
+      "status": "candidate-context",
+      "text": "release draft"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
       "status": "candidate",
       "text": "Release Draft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/obsei",
+      "status": "candidate",
+      "text": "release draft"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/release-draft.yml",
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "obsei/obsei"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

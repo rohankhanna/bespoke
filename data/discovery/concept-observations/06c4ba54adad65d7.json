@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u65bc Klee One \u88fd\u4f5c\u7684\u9999\u6e2f\u7e41\u9ad4\u5b57\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942166,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881193,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29806174,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044909,
+      "status": "candidate",
+      "text": "lettering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043315,
+      "status": "candidate",
+      "text": "print"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typeface",
+      "sense_id": "typeface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "font"
+    }
+  ],
+  "concept_id": "typeface",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typeface",
+  "observation_id": "06c4ba54adad65d7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "typeface",
+  "source_context_snippet": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002",
+  "source_file": null,
+  "source_repo": "ItMarki/jyunsaikaai",
+  "source_repo_description": "\u57fa\u65bc Klee One \u88fd\u4f5c\u7684\u9999\u6e2f\u7e41\u9ad4\u5b57\u578b"
+}

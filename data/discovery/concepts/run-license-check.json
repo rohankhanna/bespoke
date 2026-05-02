@@ -19,12 +19,48 @@
       "source_repo": "apache/iceberg-python",
       "status": "candidate-context",
       "text": "\"Run License Check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate-context",
+      "text": "Apache Iceberg C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate-context",
+      "text": "\"Run License Check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "Apache Iceberg - Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
+      "status": "candidate-context",
+      "text": "\"Run License Check\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/iceberg-python",
+      "status": "candidate",
+      "text": "\"Run License Check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-cpp",
+      "status": "candidate",
+      "text": "\"Run License Check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg-go",
       "status": "candidate",
       "text": "\"Run License Check\""
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/license_check.yml",
       "source_repo": "apache/iceberg-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/iceberg-go"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

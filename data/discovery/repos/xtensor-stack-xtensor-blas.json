@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "egor-tensin/setup-gcc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "michael-lehn/flens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "xtensor-stack/xeus-cling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "egor-tensin/setup-gcc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "OSX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "c-plus-plus-14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "lapack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-blas",
+      "target": "xtensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:29.882602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3933
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3193
+    },
+    {
+      "path": ".github/workflows/osx.yml",
+      "size": 1177
+    },
+    {
+      "path": ".github/workflows/static-analysis.yml",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BLAS extension to xtensor",
+    "fork": false,
+    "full_name": "xtensor-stack/xtensor-blas",
+    "html_url": "https://github.com/xtensor-stack/xtensor-blas",
+    "language": "C++",
+    "pushed_at": "2025-07-16T08:35:59Z",
+    "stargazers_count": 172,
+    "topics": [
+      "blas",
+      "c-plus-plus-14",
+      "lapack",
+      "linear-algebra",
+      "xtensor"
+    ],
+    "updated_at": "2026-04-22T02:51:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michael-lehn/flens",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtensor-stack/xeus-cling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "OSX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osx.yml",
+      "term": "OSX"
+    },
+    {
+      "context_snippet": "Static Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "term": "Static Analysis"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-14"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapack"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtensor"
+    }
+  ]
+}

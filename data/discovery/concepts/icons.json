@@ -247,6 +247,30 @@
       "source_repo": "file-icons/atom",
       "status": "candidate-context",
       "text": "File Icons"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "file-icons/icons",
+      "status": "candidate-context",
+      "text": "Source files for the custom icon-font used by the File-Icons package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/icons",
+      "status": "candidate-context",
+      "text": "File Icons"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate-context",
+      "text": "Optimised version of the MFizz icon font."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate-context",
+      "text": "MFixx: Fixed MFizz icons"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "file-icons/atom",
       "status": "candidate",
       "text": "File Icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/icons",
+      "status": "candidate",
+      "text": "File Icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate",
+      "text": "MFixx: Fixed MFizz icons"
     }
   ],
   "candidate_related_terms": [
@@ -556,11 +592,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "file-icons/icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "file-icons/MFixx"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

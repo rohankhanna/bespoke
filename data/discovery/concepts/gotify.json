@@ -19,6 +19,42 @@
       "source_repo": "gotify/server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotify/android",
+      "status": "candidate-context",
+      "text": "An app for creating push notifications for new messages posted to gotify/server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/android",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"app.gif\" width=\"250\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotify/cli",
+      "status": "candidate-context",
+      "text": "A command line interface for pushing messages to gotify/server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/cli",
+      "status": "candidate-context",
+      "text": "Gotify-CLI is a command line client for pushing messages to [gotify/server][gotify/server]. It is **not** required to push messages. See [alternatives](#alternatives)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotify/logo",
+      "status": "candidate-context",
+      "text": "The Gotify logo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/logo",
+      "status": "candidate-context",
+      "text": "The Gotify logo is licensed under the"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "gotify/server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/android",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"app.gif\" width=\"250\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/cli",
+      "status": "candidate",
+      "text": "Gotify-CLI is a command line client for pushing messages to [gotify/server][gotify/server]. It is **not** required to push messages. See [alternatives](#alternatives)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/logo",
+      "status": "candidate",
+      "text": "The Gotify logo is licensed under the"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "gotify/server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gotify/android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gotify/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gotify/logo"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

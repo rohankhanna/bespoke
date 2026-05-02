@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish to npmjs"
+    "Publish to npmjs",
+    "publish to npmjs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "8hobbies/vite-plugin-year",
       "status": "candidate-context",
       "text": "Publish to npmjs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "publish to npmjs"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "8hobbies/vite-plugin-year",
       "status": "candidate",
       "text": "Publish to npmjs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate",
+      "text": "publish to npmjs"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "8hobbies/vite-plugin-year"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sverweij/dependency-cruiser"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

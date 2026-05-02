@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "igrr/mkspiffs",
+      "target": "pellepl/spiffs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:16.221473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool to build and unpack SPIFFS images",
+    "fork": false,
+    "full_name": "igrr/mkspiffs",
+    "html_url": "https://github.com/igrr/mkspiffs",
+    "language": "C++",
+    "pushed_at": "2024-08-01T07:01:40Z",
+    "stargazers_count": 211,
+    "topics": [],
+    "updated_at": "2026-03-30T05:23:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pellepl/spiffs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

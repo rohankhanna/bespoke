@@ -1,0 +1,12 @@
+{
+  "component": "buildpacks/github-actions/setup-pack@b4faaabcd9dbc5fa332451ae33bce8b583f3ec1b",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish.yml",
+      "source_repo": "heroku/cnb-builder-images"
+    }
+  ]
+}

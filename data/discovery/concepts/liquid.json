@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "liquid"
+    "liquid",
+    "Liquid"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,18 @@
       "source_repo": "cobalt-org/liquid-rust",
       "status": "candidate-context",
       "text": "liquid-rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/liquid",
+      "status": "candidate-context",
+      "text": "Liquid markup language. Safe, customer facing template language for flexible web apps. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/liquid",
+      "status": "candidate-context",
+      "text": "Liquid"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +114,12 @@
       "source_repo": "cobalt-org/liquid-rust",
       "status": "candidate",
       "text": "liquid-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/liquid",
+      "status": "candidate",
+      "text": "Liquid"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +241,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "cobalt-org/liquid-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/liquid.yml",
+      "source_repo": "Shopify/liquid"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

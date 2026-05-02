@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u94c1\u84ba\u85dc\u4f53\uff0c\u57fa\u4e8e Reggae One \u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002An open-source font that extends Fontworks\u2019 Reggae One to Chinese."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022350,
+      "status": "candidate",
+      "text": "taiwanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021077,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026072,
+      "status": "candidate",
+      "text": "renminbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024341,
+      "status": "candidate",
+      "text": "cantonese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023750,
+      "status": "candidate",
+      "text": "mandarin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese",
+      "sense_id": "chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "taiwanese"
+    }
+  ],
+  "concept_id": "chinese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese",
+  "observation_id": "e92ab35ec61d7fb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "chinese",
+  "source_context_snippet": "\u94c1\u84ba\u85dc\u4f53\u662f\u4e00\u6b3e\u9020\u578b\u5c16\u9510\u7684\u7f8e\u672f\u5b57\u4f53\uff0c\u57fa\u4e8e Fontworks \u51fa\u54c1\u7684\u65e5\u6587\u5b57\u4f53[\u30ec\u30b2\u30a8 One](https://github.com/fontworks-fonts/Reggae) \u6269\u5145\u3001\u8c03\u6574\u5b57\u5f62\uff0c\u5e76\u6dfb\u52a0 OpenType \u7279\u6027\uff0c\u4ee5\u6ee1\u8db3\u7b80\u4f53\u4e2d\u6587\u7684\u4f7f\u7528\u9700\u6c42\u3002",
+  "source_file": null,
+  "source_repo": "Buernia/Tiejili",
+  "source_repo_description": "\u94c1\u84ba\u85dc\u4f53\uff0c\u57fa\u4e8e Reggae One \u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002An open-source font that extends Fontworks\u2019 Reggae One to Chinese."
+}

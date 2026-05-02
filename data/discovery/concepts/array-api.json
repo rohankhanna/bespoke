@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "array-api"
+    "array-api",
+    "Array API"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "data-apis/array-api-compat",
       "status": "candidate-context",
       "text": "This is a small wrapper around common array libraries that is compatible with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": "SciPy library main repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": "Array API"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "data-apis/array-api-compat",
       "status": "candidate",
       "text": "This is a small wrapper around common array libraries that is compatible with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate",
+      "text": "Array API"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12434,
+      "status": "candidate",
+      "text": "apis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12193,
+      "status": "candidate",
+      "text": "cio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12193,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11889,
+      "status": "candidate",
+      "text": "apus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11889,
+      "status": "candidate",
+      "text": "shiv"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "array-api",
   "concept_id": "array-api",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "data-apis/array-api-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/array_api.yml",
+      "source_repo": "scipy/scipy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

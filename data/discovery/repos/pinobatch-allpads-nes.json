@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:39:03.050023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Test for multiple controllers that plug into an NES or Famicom",
+    "fork": false,
+    "full_name": "pinobatch/allpads-nes",
+    "html_url": "https://github.com/pinobatch/allpads-nes",
+    "language": "Assembly",
+    "pushed_at": "2021-05-31T02:55:59Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-09T15:00:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

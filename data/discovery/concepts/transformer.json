@@ -1165,6 +1165,30 @@
       "source_repo": "bradyz/cross_view_transformers",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate-context",
+      "text": "[ECCV2022] MOTR: End-to-End Multiple-Object Tracking with TRansformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate-context",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate-context",
+      "text": "[CVPR2023] MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2211.09791-COLOR.svg)](https://arxiv.org/abs/2211.09791)"
     }
   ],
   "candidate_glosses": [
@@ -1749,6 +1773,18 @@
       "source_repo": "bradyz/cross_view_transformers",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTR",
+      "status": "candidate",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/MOTRv2",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2211.09791-COLOR.svg)](https://arxiv.org/abs/2211.09791)"
     }
   ],
   "candidate_related_terms": [
@@ -2734,11 +2770,65 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTRv2"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

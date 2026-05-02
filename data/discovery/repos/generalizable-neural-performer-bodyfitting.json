@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:48:23.679274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4059
+    },
+    {
+      "path": "requirements.txt",
+      "size": 223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Multi-view SMPL Optimization Framework of GNR and GeneBody",
+    "fork": false,
+    "full_name": "generalizable-neural-performer/bodyfitting",
+    "html_url": "https://github.com/generalizable-neural-performer/bodyfitting",
+    "language": "Python",
+    "pushed_at": "2022-04-30T03:09:07Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2025-11-28T09:13:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

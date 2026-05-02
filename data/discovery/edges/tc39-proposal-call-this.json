@@ -11,21 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-call-this",
-      "target": "tc39/proposal-extensions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-call-this",
-      "target": "nodejs/gzemnid",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-call-this",
-      "target": "tc39/proposal-partial-application",
+      "target": "js-choi/proposal-call-this",
       "target_type": "repository"
     },
     {
@@ -106,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "tc39/proposal-call-this"
 }

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "drenches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "ipos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "kickbacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "mfn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969756,
+      "status": "candidate",
+      "text": "nca"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sops",
+      "sense_id": "sops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "sop"
+    }
+  ],
+  "concept_id": "sops",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sops",
+  "observation_id": "2f8fd609e3be7ed4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "sops",
+  "source_context_snippet": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Israel-First-Aid",
+  "source_repo_description": "First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures"
+}

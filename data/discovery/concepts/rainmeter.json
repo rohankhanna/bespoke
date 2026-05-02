@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rainmeter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "it's like Rainmeter, but for CLI!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006295,
+      "status": "candidate",
+      "text": "pluviometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006294,
+      "status": "candidate",
+      "text": "pluvioscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006293,
+      "status": "candidate",
+      "text": "pluviograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006292,
+      "status": "candidate",
+      "text": "udometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006291,
+      "status": "candidate",
+      "text": "rain gauge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rainmeter",
+  "concept_id": "rainmeter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rainmeter",
+      "sense_id": "rainmeter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

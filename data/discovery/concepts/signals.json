@@ -19,6 +19,18 @@
       "source_repo": "pallets-eco/blinker",
       "status": "candidate-context",
       "text": "Blinker provides a fast dispatching system that allows any number of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "SolidStart, the Solid app framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pallets-eco/blinker",
       "status": "candidate",
       "text": "Blinker provides a fast dispatching system that allows any number of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "pallets-eco/blinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "solidjs/solid-start"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

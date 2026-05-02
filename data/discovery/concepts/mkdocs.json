@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "mkdocs"
+    "mkdocs",
+    "MkDocs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -153,6 +154,12 @@
       "source_repo": "readthedocs/readthedocs.org",
       "status": "candidate-context",
       "text": "Welcome to Read the Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-www",
+      "status": "candidate-context",
+      "text": "MkDocs"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +234,12 @@
       "source_repo": "readthedocs/readthedocs.org",
       "status": "candidate",
       "text": "Welcome to Read the Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-www",
+      "status": "candidate",
+      "text": "MkDocs"
     }
   ],
   "candidate_related_terms": [],
@@ -306,11 +319,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "readthedocs/readthedocs.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/mkdocs.yaml",
+      "source_repo": "haskell/ghcup-www"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -86,28 +86,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/agent-skills",
+      "target": "weaviate/verba",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/elysia",
+      "target": "weaviate/recipes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "weaviate/weaviate",
-      "target": "weaviate/healthsearch-demo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/weaviate",
-      "target": "weaviate-tutorials/awesome-moviate",
+      "target": "weaviate/recipes-ts",
       "target_type": "repository"
     },
     {
@@ -377,7 +370,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:59:43.552710+00:00",
+  "fetched_at": "2026-05-02T19:39:46.347901+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -429,8 +422,8 @@
     "full_name": "weaviate/weaviate",
     "html_url": "https://github.com/weaviate/weaviate",
     "language": "Go",
-    "pushed_at": "2026-04-30T19:19:37Z",
-    "stargazers_count": 16105,
+    "pushed_at": "2026-05-01T11:34:38Z",
+    "stargazers_count": 16119,
     "topics": [
       "approximate-nearest-neighbor-search",
       "generative-search",
@@ -453,27 +446,22 @@
       "vectors",
       "weaviate"
     ],
-    "updated_at": "2026-04-30T19:58:24Z"
+    "updated_at": "2026-05-02T11:19:04Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "weaviate-tutorials/awesome-moviate",
+      "full_name": "weaviate/recipes",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "weaviate/agent-skills",
+      "full_name": "weaviate/recipes-ts",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "weaviate/elysia",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "weaviate/healthsearch-demo",
+      "full_name": "weaviate/verba",
       "source_file": "README.md"
     }
   ],

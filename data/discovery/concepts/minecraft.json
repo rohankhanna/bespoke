@@ -43,6 +43,30 @@
       "source_repo": "CraftJarvis/MC-Planner",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "Benchmarking the Spectrum of Agent Capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "Mastering Diverse Domains through World Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate-context",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "CraftJarvis/MC-Planner",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/dreamerv3",
+      "status": "candidate",
+      "text": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/crafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

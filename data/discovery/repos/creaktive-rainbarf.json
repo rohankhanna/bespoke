@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creaktive/rainbarf",
+      "target": "goles/battery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "battery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "rainmeter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf",
+      "target": "widget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:44:18.719000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "it's like Rainmeter, but for CLI!",
+    "fork": false,
+    "full_name": "creaktive/rainbarf",
+    "html_url": "https://github.com/creaktive/rainbarf",
+    "language": "Perl",
+    "pushed_at": "2022-06-03T18:10:40Z",
+    "stargazers_count": 1206,
+    "topics": [
+      "battery",
+      "chart",
+      "cpu",
+      "graph",
+      "memory",
+      "monitoring",
+      "powerline",
+      "rainmeter",
+      "tmux",
+      "widget"
+    ],
+    "updated_at": "2026-04-26T23:56:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goles/battery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "battery"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rainmeter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widget"
+    }
+  ]
+}

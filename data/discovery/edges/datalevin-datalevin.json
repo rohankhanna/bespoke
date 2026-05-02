@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalevin/datalevin",
-      "target": "tonsky/datascript",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.binaries.yml",
       "source_repo": "datalevin/datalevin",
@@ -281,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "datalevin/datalevin"
 }

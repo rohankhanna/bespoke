@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check and Test"
+    "Check and Test",
+    "Check and test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "apache/kafka",
       "status": "candidate-context",
       "text": "Check and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "The python Implementation For Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "Check and test"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "apache/kafka",
       "status": "candidate",
       "text": "Check and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate",
+      "text": "Check and test"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/kafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/test-suite.yaml",
+      "source_repo": "apache/dubbo-python"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

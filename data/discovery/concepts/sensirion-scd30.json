@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sensirion-scd30"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielbernalb/LibreCO2",
+      "status": "candidate-context",
+      "text": "Simple CO2 meter using Arduino UNO-Mega board and popular CO2 sensors (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or 19 and Cubic CM1106). Operation modes: Normal, Calibration 400ppm, Alarm adjust and Altitud compensation adjust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielbernalb/LibreCO2",
+      "status": "candidate-context",
+      "text": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielbernalb/LibreCO2",
+      "status": "candidate",
+      "text": "LibreCO2: CO2 meter using Arduino UNO and a commercial CO2 sensor (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 or MHZ-19 or Cubic CM1106)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sensirion-scd30",
+  "concept_id": "sensirion-scd30",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielbernalb/LibreCO2"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sensirion-scd30",
+      "sense_id": "sensirion-scd30#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

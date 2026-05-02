@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLIs for logseq using nbb-logseq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logseq",
+      "sense_id": "logseq#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "logseq",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "logseq",
+  "observation_id": "de8a8cd551249604",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "logseq",
+  "source_context_snippet": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using",
+  "source_file": null,
+  "source_repo": "cldwalker/logseq-clis",
+  "source_repo_description": "CLIs for logseq using nbb-logseq"
+}

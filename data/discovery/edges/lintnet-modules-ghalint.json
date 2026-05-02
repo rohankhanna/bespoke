@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "aquaproj/aqua-installer@11dd79b4e498d471a9385aa9fb7f62bb5f52a73c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "Check if all commits are signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watch-star.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "suzuki-shunsuke/watch-star-action@2b3d259ce2ea06d53270dfe33a66d5642c8010ca",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watch-star.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "watch-star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wc-renovate-config-validator.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "renovate-config-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wc-test.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wc-test.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "aquaproj/aqua-installer@11dd79b4e498d471a9385aa9fb7f62bb5f52a73c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wc-test.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "wc-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lintnet-modules/ghalint",
+      "target": "lintnet-module",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "lintnet-modules/ghalint"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> this repo is outdated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> this repo is outdated"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006321,
+      "status": "candidate",
+      "text": "imbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9972979,
+      "status": "candidate",
+      "text": "implant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9892004,
+      "status": "candidate",
+      "text": "engraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9839268,
+      "status": "candidate",
+      "text": "plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "adds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embeds",
+      "sense_id": "embeds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embeds",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embeds",
+  "observation_id": "568297bdae7f4973",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "embeds",
+  "source_context_snippet": "> this repo is outdated",
+  "source_file": null,
+  "source_repo": "coderofsalvation/xrfragment",
+  "source_repo_description": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili"
+}

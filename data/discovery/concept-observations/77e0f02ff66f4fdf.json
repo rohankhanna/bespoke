@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udcee Lint Commit Message Post"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udcee Lint Commit Message Post"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33266,
+      "status": "candidate",
+      "text": "memo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32979,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32808,
+      "status": "candidate",
+      "text": "flame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32808,
+      "status": "candidate",
+      "text": "forum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30350,
+      "status": "candidate",
+      "text": "acton"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udcee Lint Commit Message Post",
+      "sense_id": "lint-commit-message-post#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-commit-message-post",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-commit-message-post",
+  "observation_id": "77e0f02ff66f4fdf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "\ud83d\udcee Lint Commit Message Post",
+  "source_context_snippet": "\ud83d\udcee Lint Commit Message Post",
+  "source_file": ".github/workflows/lint-commit-message-post.yml",
+  "source_repo": "element-plus/element-plus",
+  "source_repo_description": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+}

@@ -121,7 +121,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "vhyrro/luarocks.nvim",
+      "target": "topics/rocks-nvim",
       "target_type": "repository"
     },
     {
@@ -370,7 +370,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:07:07.298013+00:00",
+  "fetched_at": "2026-05-02T19:31:44.740776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -436,7 +436,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vhyrro/luarocks.nvim",
+      "full_name": "topics/rocks-nvim",
       "source_file": "README.md"
     }
   ],

@@ -175,6 +175,30 @@
       "source_repo": "Clemapfel/Mousetrap.jl",
       "status": "candidate-context",
       "text": "![](docs/src/assets/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate-context",
+      "text": "Meta-package for Reduce.jl and External Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "Clemapfel/Mousetrap.jl",
       "status": "candidate",
       "text": "![](docs/src/assets/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +406,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Clemapfel/Mousetrap.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

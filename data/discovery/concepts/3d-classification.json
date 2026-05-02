@@ -19,6 +19,18 @@
       "source_repo": "Colin97/OpenShape_code",
       "status": "candidate-context",
       "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25[IEEE TPAMI 2020] Deep Learning for 3D Point Clouds: A Survey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Colin97/OpenShape_code",
       "status": "candidate",
       "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Colin97/OpenShape_code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

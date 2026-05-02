@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023862,
+      "status": "candidate",
+      "text": "cryptolocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023861,
+      "status": "candidate",
+      "text": "cryptovirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023860,
+      "status": "candidate",
+      "text": "cryptoworm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023859,
+      "status": "candidate",
+      "text": "badware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023858,
+      "status": "candidate",
+      "text": "riskware"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ransomware",
+      "sense_id": "ransomware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ransomware",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ransomware",
+  "observation_id": "01c8429060091e13",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "ransomware",
+  "source_context_snippet": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts",
+  "source_file": null,
+  "source_repo": "StevenBlack/hosts",
+  "source_repo_description": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+}

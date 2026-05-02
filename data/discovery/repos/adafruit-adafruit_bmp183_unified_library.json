@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:10.264116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3032
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arduino library for the BMP183 sensors in the Adafruit shop",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_BMP183_Unified_Library",
+    "html_url": "https://github.com/adafruit/Adafruit_BMP183_Unified_Library",
+    "language": "C++",
+    "pushed_at": "2023-10-03T20:26:35Z",
+    "stargazers_count": 5,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2022-11-04T18:41:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "This is a library for our Adafruit BMP183 SPI Barometric Pressure & Altitude Sensor and it's based on [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

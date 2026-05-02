@@ -463,6 +463,18 @@
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate-context",
+      "text": "Open-Source Large Vocabulary Continuous Speech Recognition Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate-context",
+      "text": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +705,12 @@
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate",
+      "text": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine"
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1078,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "julius-speech/julius"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

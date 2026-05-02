@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bowang-lab/MedSAM2",
+      "target": "bowang-lab/medsamslicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bowang-lab/MedSAM2",
+      "target": "yformer/efficienttam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:56.388771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8753
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MedSAM2: Segment Anything in 3D Medical Images and Videos",
+    "fork": false,
+    "full_name": "bowang-lab/MedSAM2",
+    "html_url": "https://github.com/bowang-lab/MedSAM2",
+    "language": "Python",
+    "pushed_at": "2025-07-11T22:49:02Z",
+    "stargazers_count": 630,
+    "topics": [],
+    "updated_at": "2026-05-02T13:12:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bowang-lab/medsamslicer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yformer/efficienttam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

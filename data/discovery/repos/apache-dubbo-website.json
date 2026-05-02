@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/dubbo-website",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/dubbo-website",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/dubbo-website",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "Website Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "Website History Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/dubbo-website",
+      "target": "Link Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website",
+      "target": "dubbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:11.987899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1851
+    },
+    {
+      "path": "go.mod",
+      "size": 163
+    },
+    {
+      "path": "package.json",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/build_and_deploy.yml",
+      "size": 2747
+    },
+    {
+      "path": ".github/workflows/build_and_deploy_history.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/link_check.yml",
+      "size": 1795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Dubbo documents",
+    "fork": false,
+    "full_name": "apache/dubbo-website",
+    "html_url": "https://github.com/apache/dubbo-website",
+    "language": "CSS",
+    "pushed_at": "2026-04-27T03:35:45Z",
+    "stargazers_count": 493,
+    "topics": [
+      "dubbo",
+      "hugo",
+      "website"
+    ],
+    "updated_at": "2026-04-28T15:13:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Website Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "term": "Website Deploy"
+    },
+    {
+      "context_snippet": "Website History Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy_history.yml",
+      "term": "Website History Deploy"
+    },
+    {
+      "context_snippet": "Link Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_check.yml",
+      "term": "Link Check"
+    },
+    {
+      "context_snippet": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    },
+    {
+      "context_snippet": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

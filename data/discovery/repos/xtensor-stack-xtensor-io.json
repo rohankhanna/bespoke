@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "openimageio/oiio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "erikd/libsndfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "bluebrain/highfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "blosc/c-blosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "audio-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "compressed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "hdf5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "image-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io",
+      "target": "xtensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:32.102824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3678
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "xtensor plugin to read and write images, audio files, numpy (compressed) npz and HDF5",
+    "fork": false,
+    "full_name": "xtensor-stack/xtensor-io",
+    "html_url": "https://github.com/xtensor-stack/xtensor-io",
+    "language": "C++",
+    "pushed_at": "2024-04-02T04:05:57Z",
+    "stargazers_count": 93,
+    "topics": [
+      "audio-files",
+      "compressed",
+      "cpp",
+      "hdf5",
+      "image-files",
+      "io",
+      "npz",
+      "numpy",
+      "xtensor"
+    ],
+    "updated_at": "2026-04-14T12:22:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/c-blosc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluebrain/highfive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erikd/libsndfile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openimageio/oiio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-files"
+    },
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressed"
+    },
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hdf5"
+    },
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-files"
+    },
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtensor"
+    }
+  ]
+}

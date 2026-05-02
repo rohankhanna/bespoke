@@ -139,6 +139,18 @@
       "source_repo": "mongodb-js/zstd",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/mongodb-js/zstd/actions/workflows/test.yml/badge.svg)](https://github.com/mongodb-js/zstd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "Decompressors for hyparquet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "mongodb-js/zstd",
       "status": "candidate",
       "text": "[![CI](https://github.com/mongodb-js/zstd/actions/workflows/test.yml/badge.svg)](https://github.com/mongodb-js/zstd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet-compressors"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

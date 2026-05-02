@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-object-detection",
+      "sense_id": "3d-object-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-object-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-object-detection",
+  "observation_id": "396696c4e3208af8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "3d-object-detection",
+  "source_context_snippet": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao",
+  "source_file": null,
+  "source_repo": "blakechen97/SASA",
+  "source_repo_description": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection"
+}

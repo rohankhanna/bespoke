@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@releases/v4",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/export_web.yml",
+      "source_repo": "godotengine/godot-demo-projects"
     }
   ]
 }

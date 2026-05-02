@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "edenhill/kcat",
-      "target": "confluentinc/libserdes",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "edenhill/kcat",
@@ -60,7 +53,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:43:57.783511+00:00",
+  "fetched_at": "2026-05-02T19:35:56.254373+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,11 +83,6 @@
     "updated_at": "2026-04-29T16:39:00Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "confluentinc/libserdes",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "edenhill/librdkafka",

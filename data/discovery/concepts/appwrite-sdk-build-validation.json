@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Appwrite SDK Build Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Generating SDKs for multiple programming languages and platforms \u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Appwrite SDK Build Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate",
+      "text": "Appwrite SDK Build Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11130,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11110,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "approval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Appwrite SDK Build Validation",
+  "concept_id": "appwrite-sdk-build-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/sdk-build-validation.yml",
+      "source_repo": "appwrite/sdk-generator"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Appwrite SDK Build Validation",
+      "sense_id": "appwrite-sdk-build-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

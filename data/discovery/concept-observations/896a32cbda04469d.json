@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A data index and query language over Markdown files, for https://obsidian.md/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-md",
+      "sense_id": "obsidian-md#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-md",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-md",
+  "observation_id": "896a32cbda04469d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "obsidian-md",
+  "source_context_snippet": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and",
+  "source_file": null,
+  "source_repo": "blacksmithgu/obsidian-dataview",
+  "source_repo_description": "A data index and query language over Markdown files, for https://obsidian.md/."
+}

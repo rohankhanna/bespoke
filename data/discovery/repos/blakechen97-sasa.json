@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blakechen97/SASA",
+      "target": "3d-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blakechen97/SASA",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blakechen97/SASA",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:22.269992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5548
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection",
+    "fork": false,
+    "full_name": "blakechen97/SASA",
+    "html_url": "https://github.com/blakechen97/SASA",
+    "language": "Python",
+    "pushed_at": "2022-02-18T14:17:52Z",
+    "stargazers_count": 94,
+    "topics": [
+      "3d-object-detection",
+      "point-cloud",
+      "pytorch-implementation"
+    ],
+    "updated_at": "2026-04-18T15:12:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-object-detection"
+    },
+    {
+      "context_snippet": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    }
+  ]
+}

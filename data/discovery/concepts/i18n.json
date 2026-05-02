@@ -255,6 +255,30 @@
       "source_repo": "kazupon/vue-i18n",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "Vue I18n for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate-context",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "The home of the ICU project source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate-context",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
     }
   ],
   "candidate_glosses": [
@@ -383,6 +407,18 @@
       "source_repo": "kazupon/vue-i18n",
       "status": "candidate",
       "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-missing-label-refs -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu",
+      "status": "candidate",
+      "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
     }
   ],
   "candidate_related_terms": [
@@ -726,11 +762,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

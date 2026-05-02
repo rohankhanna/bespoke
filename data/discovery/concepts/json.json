@@ -1219,6 +1219,30 @@
       "source_repo": "mongodb/bson-rust",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "A JSON tree view component that is easy to use and also supports data selection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate-context",
+      "text": "A reference implementation of a JSON package in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate-context",
+      "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -1827,6 +1851,18 @@
       "source_repo": "mongodb/bson-rust",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate",
+      "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -2685,11 +2721,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stleary/JSON-java"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

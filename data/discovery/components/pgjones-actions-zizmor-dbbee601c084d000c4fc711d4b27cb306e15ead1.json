@@ -1,0 +1,12 @@
+{
+  "component": "pgjones/actions/zizmor@dbbee601c084d000c4fc711d4b27cb306e15ead1",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgjones/hypercorn"
+    }
+  ]
+}

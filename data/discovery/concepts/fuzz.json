@@ -236,6 +236,30 @@
       "source_repo": "pion/turn",
       "status": "candidate-context",
       "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/ice",
+      "status": "candidate-context",
+      "text": "A Go implementation of ICE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/ice",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "Pure Go implementation of the WebRTC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -350,6 +374,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pion/turn",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/ice",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
       "status": "candidate",
       "text": "Fuzz"
     }
@@ -683,11 +719,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/ice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/webrtc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "rust-lang/rust-analyzer"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

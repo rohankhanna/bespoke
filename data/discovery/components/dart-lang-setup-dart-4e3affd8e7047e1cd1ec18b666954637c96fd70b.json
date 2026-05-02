@@ -1,0 +1,12 @@
+{
+  "component": "dart-lang/setup-dart@4e3affd8e7047e1cd1ec18b666954637c96fd70b",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-diplomat/diplomat"
+    }
+  ]
+}

@@ -131,6 +131,18 @@
       "source_repo": "robotology-legacy/gym-ignition",
       "status": "candidate-context",
       "text": "Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "docker-images"
     }
   ],
   "candidate_glosses": [
@@ -193,6 +205,12 @@
       "source_repo": "robotology-legacy/gym-ignition",
       "status": "candidate",
       "text": "Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "docker-images"
     }
   ],
   "candidate_related_terms": [
@@ -302,11 +320,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reusable-docker-images.yml",
+      "source_repo": "hypnoglow/helm-s3"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

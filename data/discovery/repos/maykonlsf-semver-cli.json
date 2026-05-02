@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "devops-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "semantic-versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:27:54.096664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3116
+    },
+    {
+      "path": "Dockerfile",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An easy to use CLI tool to manage your project versions and its upgrades according to the Semantic Versioning specification",
+    "fork": false,
+    "full_name": "maykonlsf/semver-cli",
+    "html_url": "https://github.com/maykonlsf/semver-cli",
+    "language": "Go",
+    "pushed_at": "2026-02-21T15:17:38Z",
+    "stargazers_count": 100,
+    "topics": [
+      "ci-cd",
+      "cli",
+      "devops-pipeline",
+      "go",
+      "golang",
+      "semantic-versioning",
+      "version",
+      "version-control",
+      "versioning"
+    ],
+    "updated_at": "2026-04-02T13:49:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops-pipeline"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-versioning"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-control"
+    },
+    {
+      "context_snippet": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

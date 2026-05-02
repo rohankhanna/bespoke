@@ -91,6 +91,18 @@
       "source_repo": "j9t/compressorjs-next",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terser/terser",
+      "status": "candidate-context",
+      "text": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/terser",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "j9t/compressorjs-next",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/terser",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "j9t/compressorjs-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "terser/terser"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

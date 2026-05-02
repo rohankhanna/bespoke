@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:25:41.294341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 738
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/memo-jupyter",
+    "html_url": "https://github.com/camenduru/memo-jupyter",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-06T15:16:45Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-04-27T09:56:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -325,6 +325,30 @@
       "source_repo": "DL3DV-10K/Dataset",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] FaceFormer: Speech-Driven 3D Facial Animation with Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate-context",
+      "text": "This repository contains the code for the paper \"PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate-context",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
     }
   ],
   "candidate_glosses": [
@@ -489,6 +513,18 @@
       "source_repo": "DL3DV-10K/Dataset",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shunsukesaito/PIFu",
+      "status": "candidate",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
     }
   ],
   "candidate_related_terms": [],
@@ -688,11 +724,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EvelynFan/FaceFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "shunsukesaito/PIFu"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

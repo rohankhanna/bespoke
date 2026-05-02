@@ -43,6 +43,18 @@
       "source_repo": "haofanwang/ControlNet-for-Diffusers",
       "status": "candidate-context",
       "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Customize spatial layouts for conditional image synthesis models, e.g., ControlNet, using GPT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate-context",
+      "text": "[//]: # (<div align=center>)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "haofanwang/ControlNet-for-Diffusers",
       "status": "candidate",
       "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/VisorGPT",
+      "status": "candidate",
+      "text": "[//]: # (<div align=center>)"
     }
   ],
   "candidate_related_terms": [
@@ -117,11 +135,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "haofanwang/ControlNet-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

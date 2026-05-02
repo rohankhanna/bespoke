@@ -43,6 +43,18 @@
       "source_repo": "tdewolff/canvas",
       "status": "candidate-context",
       "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pygobject/pycairo",
+      "status": "candidate-context",
+      "text": "Python bindings for cairo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pygobject/pycairo",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/pygobject/pycairo/main/docs/images/pycairo.svg"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "tdewolff/canvas",
       "status": "candidate",
       "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pygobject/pycairo",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/pygobject/pycairo/main/docs/images/pycairo.svg"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "tdewolff/canvas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pygobject/pycairo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

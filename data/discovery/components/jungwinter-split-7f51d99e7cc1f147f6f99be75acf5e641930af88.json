@@ -1,0 +1,12 @@
+{
+  "component": "jungwinter/split@7f51d99e7cc1f147f6f99be75acf5e641930af88",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intlify/vue-i18n"
+    }
+  ]
+}

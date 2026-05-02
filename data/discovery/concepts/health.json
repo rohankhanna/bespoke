@@ -154,6 +154,18 @@
       "source_repo": "kowainik/.github",
       "status": "candidate-context",
       "text": "Default files to be used in all Kowainik projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "Dart packages related to FFI and native assets bundling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "Health"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "kowainik/.github",
       "status": "candidate",
       "text": "Default files to be used in all Kowainik projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
+      "status": "candidate",
+      "text": "Health"
     }
   ],
   "candidate_related_terms": [
@@ -397,11 +415,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "kowainik/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "dart-lang/native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

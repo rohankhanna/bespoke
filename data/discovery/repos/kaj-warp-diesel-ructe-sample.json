@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "target": "rust-lang-nursery/wg-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kaj/warp-diesel-ructe-sample",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:40:53.843245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2347
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 542
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example web app with login session using warp, diesel and ructe",
+    "fork": false,
+    "full_name": "kaj/warp-diesel-ructe-sample",
+    "html_url": "https://github.com/kaj/warp-diesel-ructe-sample",
+    "language": "Rust",
+    "pushed_at": "2022-06-12T17:11:51Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2025-02-13T19:41:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/wg-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

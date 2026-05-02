@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "edit directory in $EDITOR (better than vim . with netrw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "vidir - edit directory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "vidir - edit directory"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lscolors",
+      "sense_id": "lscolors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lscolors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lscolors",
+  "observation_id": "7eb8ecd6a7aaa1b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "lscolors",
+  "source_context_snippet": "vidir - edit directory",
+  "source_file": null,
+  "source_repo": "trapd00r/vidir",
+  "source_repo_description": "edit directory in $EDITOR (better than vim . with netrw)"
+}

@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexmaols/elucd",
+      "target": "aliborji/gfw",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexiajm/score_sde_fast_sampling",
+      "target": "aliasgharkhani/slime",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexiajm/adversarialconsistentscorematching",
+      "target": "algolzw/image-restoration-sde",
       "target_type": "repository"
     },
     {
@@ -71,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "diff-usion/Awesome-Diffusion-Models"
 }

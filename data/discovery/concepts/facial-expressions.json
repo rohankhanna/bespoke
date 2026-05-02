@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "facial-expressions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] FaceFormer: Speech-Driven 3D Facial Animation with Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for the paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate",
+      "text": "PyTorch implementation for the paper:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "facial-expressions",
+  "concept_id": "facial-expressions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EvelynFan/FaceFormer"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facial-expressions",
+      "sense_id": "facial-expressions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stable-diffusion-xl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Extend BoxDiff to SDXL (SDXL-based layout-to-image generation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate-context",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "status": "candidate",
+      "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stable-diffusion-xl",
+  "concept_id": "stable-diffusion-xl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stable-diffusion-xl",
+      "sense_id": "stable-diffusion-xl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

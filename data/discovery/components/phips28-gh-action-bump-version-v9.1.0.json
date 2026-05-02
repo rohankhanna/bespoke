@@ -1,0 +1,17 @@
+{
+  "component": "phips28/gh-action-bump-version@v9.1.0",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-version-v1.yml",
+      "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "leezng/vue-json-pretty"
+    }
+  ]
+}

@@ -547,6 +547,18 @@
       "source_repo": "mapbox/mapbox-gl-native",
       "status": "candidate-context",
       "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate-context",
+      "text": "A low-level library for OpenGL context creation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate-context",
+      "text": "A low-level library for OpenGL context creation."
     }
   ],
   "candidate_glosses": [
@@ -819,6 +831,12 @@
       "source_repo": "mapbox/mapbox-gl-native",
       "status": "candidate",
       "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/glutin",
+      "status": "candidate",
+      "text": "A low-level library for OpenGL context creation."
     }
   ],
   "candidate_related_terms": [
@@ -1234,11 +1252,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/glutin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

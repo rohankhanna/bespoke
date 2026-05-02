@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-update-reserved.yml",
       "source_repo": "melange-re/melange"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "embroider-build/embroider"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync_class_ref.yml",
+      "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/holonix-update.yaml",
+      "source_repo": "holochain/holonix"
     }
   ]
 }

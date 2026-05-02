@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "gh-pages"
+    "gh-pages",
+    "Gh Pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -111,6 +112,30 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate-context",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate-context",
+      "text": "Node feature discovery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate-context",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "A JSON tree view component that is easy to use and also supports data selection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate-context",
+      "text": "Gh Pages"
     }
   ],
   "candidate_glosses": [
@@ -167,9 +192,57 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/node-feature-discovery",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate",
+      "text": "Gh Pages"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15258,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14384,
+      "status": "candidate",
+      "text": "shallow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10928,
+      "status": "candidate",
+      "text": "abscissa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10928,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9248,
+      "status": "candidate",
+      "text": "digraph"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "gh-pages",
   "concept_id": "gh-pages",
@@ -228,11 +301,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "kubernetes-sigs/node-feature-discovery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/node-feature-discovery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

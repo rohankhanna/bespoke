@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "cachix/cachix-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-todo.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-todo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "cachix/cachix-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "build-nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "cachix/cachix-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "build-nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nix.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "check-nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-todo.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-todo.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-todo.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "check-upstream-todos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-inputs.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "DeterminateSystems/update-flake-lock@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-inputs.yml",
+      "source_repo": "EdenEast/nyx",
+      "target": "update-inputs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "home-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "nix-flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "nixos-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nyx",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:31:19.376542+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-nix.yml",
+      "size": 2439
+    },
+    {
+      "path": ".github/workflows/build-nixos.yml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/check-nix.yml",
+      "size": 862
+    },
+    {
+      "path": ".github/workflows/check-upstream-todo.yml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/update-inputs.yml",
+      "size": 1117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2699\ufe0fNix[OS] Configuration",
+    "fork": false,
+    "full_name": "EdenEast/nyx",
+    "html_url": "https://github.com/EdenEast/nyx",
+    "language": "Nix",
+    "pushed_at": "2026-05-02T05:29:08Z",
+    "stargazers_count": 167,
+    "topics": [
+      "dotfiles",
+      "git",
+      "home-manager",
+      "neovim",
+      "nix",
+      "nix-flake",
+      "nixos",
+      "nixos-configuration",
+      "tmux"
+    ],
+    "updated_at": "2026-05-02T05:29:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nix.yml",
+      "term": "build-nix"
+    },
+    {
+      "context_snippet": "build-nixos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nixos.yml",
+      "term": "build-nixos"
+    },
+    {
+      "context_snippet": "check-nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nix.yml",
+      "term": "check-nix"
+    },
+    {
+      "context_snippet": "check-upstream-todos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-todo.yml",
+      "term": "check-upstream-todos"
+    },
+    {
+      "context_snippet": "update-inputs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-inputs.yml",
+      "term": "update-inputs"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-manager"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-flake"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos-configuration"
+    },
+    {
+      "context_snippet": "build-nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

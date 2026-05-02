@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "LemonATsu/A-NeRF",
+      "target": "lemonatsu/pytorch-msssim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:24.536487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5046
+    },
+    {
+      "path": "requirements.txt",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch implementation for A-NeRF: Articulated Neural Radiance Fields for Learning Human Shape, Appearance, and Pose",
+    "fork": false,
+    "full_name": "LemonATsu/A-NeRF",
+    "html_url": "https://github.com/LemonATsu/A-NeRF",
+    "language": "Python",
+    "pushed_at": "2022-09-06T16:55:14Z",
+    "stargazers_count": 202,
+    "topics": [],
+    "updated_at": "2025-10-19T08:53:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemonatsu/pytorch-msssim",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

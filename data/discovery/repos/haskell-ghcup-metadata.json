@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "docker://arm64v8/ubuntu:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "docker://hasufell/arm32v7-ubuntu-haskell:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "docker://hasufell/arm64v8-alpine-haskell:3.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "stable-haskell/haskell-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "stable-haskell/cabal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "stable-haskell/stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "docker://arm64v8/ubuntu:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "docker://hasufell/arm32v7-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "docker://hasufell/arm64v8-alpine-haskell:3.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindists.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "Bindist installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "haskell/ghcup-metadata",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:32:08.853790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4967
+    },
+    {
+      "path": ".github/workflows/bindists.yaml",
+      "size": 10730
+    },
+    {
+      "path": ".github/workflows/common.sh",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/install-bindist.sh",
+      "size": 3704
+    },
+    {
+      "path": ".github/workflows/sigs",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/test-sigs.sh",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 2602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "GHCup metadata repository",
+    "fork": false,
+    "full_name": "haskell/ghcup-metadata",
+    "html_url": "https://github.com/haskell/ghcup-metadata",
+    "language": "Haskell",
+    "pushed_at": "2026-05-02T15:53:04Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-05-02T14:50:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stable-haskell/cabal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stable-haskell/haskell-language-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stable-haskell/stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bindist installation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bindists.yaml",
+      "term": "Bindist installation"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Tests"
+    }
+  ]
+}

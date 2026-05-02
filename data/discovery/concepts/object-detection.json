@@ -1303,6 +1303,18 @@
       "source_repo": "PetervanLunteren/AddaxAI",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": ":bar_chart: Benchmark multiple object trackers (MOT) in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1953,6 +1965,12 @@
       "source_repo": "PetervanLunteren/AddaxAI",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2908,11 +2926,71 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "PetervanLunteren/AddaxAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "albumentations-team/albumentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

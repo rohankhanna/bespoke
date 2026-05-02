@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:39:32.171644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "syntax highlighting for browserslist config files",
+    "fork": false,
+    "full_name": "browserslist/vim-browserslist",
+    "html_url": "https://github.com/browserslist/vim-browserslist",
+    "language": "Vim Script",
+    "pushed_at": "2025-01-08T17:51:28Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-11-12T02:01:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

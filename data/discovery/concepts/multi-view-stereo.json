@@ -67,6 +67,18 @@
       "source_repo": "kwea123/MVSNet_pl",
       "status": "candidate-context",
       "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate-context",
+      "text": "[CVPR'25] DepthSplat: Connecting Gaussian Splatting and Depth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "kwea123/MVSNet_pl",
       "status": "candidate",
       "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "kwea123/MVSNet_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

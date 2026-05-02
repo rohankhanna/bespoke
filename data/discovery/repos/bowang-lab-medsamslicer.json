@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bowang-lab/MedSAMSlicer",
+      "target": "3d-slicer-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:56.769905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "3D Slicer Plugin for Segment anything in medical images",
+    "fork": false,
+    "full_name": "bowang-lab/MedSAMSlicer",
+    "html_url": "https://github.com/bowang-lab/MedSAMSlicer",
+    "language": "Python",
+    "pushed_at": "2025-04-07T14:45:20Z",
+    "stargazers_count": 291,
+    "topics": [
+      "3d-slicer-extension"
+    ],
+    "updated_at": "2026-04-19T15:26:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-slicer-extension"
+    }
+  ]
+}

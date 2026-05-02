@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuge1995/PointCutMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/3dmatch-toolbox"
+    }
+  ],
+  "term": "3d-deep-learning"
+}

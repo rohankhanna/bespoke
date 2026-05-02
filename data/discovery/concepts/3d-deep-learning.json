@@ -19,6 +19,42 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "our code for paper 'PointCutMix: Regularization Strategy for Point Cloud Classification', Neurocomputing, 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25[IEEE TPAMI 2020] Deep Learning for 3D Point Clouds: A Survey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch - a 3D ConvNet-based local geometric descriptor for aligning 3D meshes and point clouds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate-context",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/3dmatch-toolbox",
+      "status": "candidate",
+      "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuge1995/PointCutMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/3dmatch-toolbox"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

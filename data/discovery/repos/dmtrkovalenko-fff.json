@@ -211,6 +211,26 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
+      "component": "goto-bus-stop/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1.15.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
       "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
@@ -247,6 +267,13 @@
       "source_file": "README.md",
       "source_repo": "dmtrKovalenko/fff",
       "target": "dmtrkovalenko/fff.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "saghm/frizbee",
       "target_type": "repository"
     },
     {
@@ -470,6 +497,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "dmtrKovalenko/fff",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dmtrKovalenko/fff",
       "target": "dtolnay/rust-toolchain@master",
       "target_type": "component"
     },
@@ -530,7 +564,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:10:07.299720+00:00",
+  "fetched_at": "2026-05-02T19:32:35.153776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -538,7 +572,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 1632
+      "size": 1799
     },
     {
       "path": "package.json",
@@ -566,7 +600,7 @@
     },
     {
       "path": ".github/workflows/rust.yml",
-      "size": 1744
+      "size": 3526
     },
     {
       "path": ".github/workflows/spelling.yaml",
@@ -582,8 +616,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-01T17:23:40Z",
-    "stargazers_count": 5689,
+    "pushed_at": "2026-05-02T16:36:19Z",
+    "stargazers_count": 5732,
     "topics": [
       "filesearch",
       "lua",
@@ -591,12 +625,17 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-01T19:08:54Z"
+    "updated_at": "2026-05-02T17:48:00Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dmtrkovalenko/fff.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saghm/frizbee",
       "source_file": "README.md"
     }
   ],

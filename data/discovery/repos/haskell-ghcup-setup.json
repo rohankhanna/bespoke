@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ghcup.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ghcup.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ghcup.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ghcup.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ghcup.yaml",
+      "source_repo": "haskell/ghcup-setup",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ghcup.yaml",
+      "source_repo": "haskell/ghcup-setup",
+      "target": "Test ghcup action",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:32:09.987255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2963
+    },
+    {
+      "path": ".github/workflows/test-ghcup.yaml",
+      "size": 4301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official ghcup github action",
+    "fork": false,
+    "full_name": "haskell/ghcup-setup",
+    "html_url": "https://github.com/haskell/ghcup-setup",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-07T09:24:11Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-16T03:13:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test ghcup action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ghcup.yaml",
+      "term": "Test ghcup action"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "@logseq/nbb-logseq",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "echarts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pako",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "dom8509/hugo-papermod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "sawhney17/logseq-schrodinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "@logseq/nbb-logseq",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dom8509/logseq-to-markdown",
+      "target": "pako",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:03.470943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3639
+    },
+    {
+      "path": "package.json",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Export Logseq to Markdown",
+    "fork": false,
+    "full_name": "dom8509/logseq-to-markdown",
+    "html_url": "https://github.com/dom8509/logseq-to-markdown",
+    "language": "Clojure",
+    "pushed_at": "2024-06-10T05:01:01Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-28T14:17:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dom8509/hugo-papermod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sawhney17/logseq-schrodinger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

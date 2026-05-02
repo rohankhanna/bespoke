@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-quality speech analysis, manipulation and synthesis system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WORLD is free software for high-quality speech analysis, manipulation and synthesis."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WORLD is free software for high-quality speech analysis, manipulation and synthesis."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922995,
+      "status": "candidate",
+      "text": "formant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19946878,
+      "status": "candidate",
+      "text": "voice synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19946877,
+      "status": "candidate",
+      "text": "voice synth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19946876,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19946875,
+      "status": "candidate",
+      "text": "compander"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vocoder",
+      "sense_id": "vocoder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vocoder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vocoder",
+  "observation_id": "d4b514c2d874b9b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "vocoder",
+  "source_context_snippet": "WORLD is free software for high-quality speech analysis, manipulation and synthesis.",
+  "source_file": null,
+  "source_repo": "mmorise/World",
+  "source_repo_description": "A high-quality speech analysis, manipulation and synthesis system"
+}

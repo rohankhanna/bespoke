@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "target": "evaluations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "target": "hebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:34.707308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)",
+    "fork": false,
+    "full_name": "danielrosehill/Hebrew-Image-Generation-Eval",
+    "html_url": "https://github.com/danielrosehill/Hebrew-Image-Generation-Eval",
+    "language": "Python",
+    "pushed_at": "2025-12-12T00:21:42Z",
+    "stargazers_count": 0,
+    "topics": [
+      "evaluations",
+      "generative-ai",
+      "hebrew",
+      "text-to-image"
+    ],
+    "updated_at": "2025-12-12T00:21:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluations"
+    },
+    {
+      "context_snippet": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew"
+    },
+    {
+      "context_snippet": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

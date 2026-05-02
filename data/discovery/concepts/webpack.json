@@ -610,6 +610,30 @@
       "source_repo": "peerigon/extract-loader",
       "status": "candidate-context",
       "text": "extract-loader"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate-context",
+      "text": "Compiling Ember apps into spec-compliant, modern Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions CI][github-actions-badge]][github-actions-ci-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "CSS Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -912,6 +936,18 @@
       "source_repo": "peerigon/extract-loader",
       "status": "candidate",
       "text": "extract-loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate",
+      "text": "[![GitHub Actions CI][github-actions-badge]][github-actions-ci-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1327,11 +1363,53 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/embroider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "webpack/css-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

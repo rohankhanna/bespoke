@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/githubci.yml",
       "source_repo": "adafruit/Adafruit_Sensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BusIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_ADXL345"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BNO055"
     }
   ],
   "term": "Arduino Library CI"

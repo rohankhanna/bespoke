@@ -42,7 +42,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "requirements.txt",
       "source_repo": "intel-staging/text-generation-webui",
-      "target": "jllllll/gptq-for-llama-cuda",
+      "target": "oobabooga/llama-cpp-python-cublas-wheels",
       "target_type": "repository"
     },
     {
@@ -81,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T15:14:18.303712+00:00",
+  "fetched_at": "2026-05-02T18:34:59.425209+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,7 +132,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jllllll/gptq-for-llama-cuda",
+      "full_name": "oobabooga/llama-cpp-python-cublas-wheels",
       "source_file": "requirements.txt"
     }
   ],

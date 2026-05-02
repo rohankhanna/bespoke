@@ -871,6 +871,18 @@
       "source_repo": "rust-bakery/nom",
       "status": "candidate-context",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terser/terser",
+      "status": "candidate-context",
+      "text": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/terser",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1317,12 @@
       "source_repo": "rust-bakery/nom",
       "status": "candidate",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/terser",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1828,11 +1846,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "terser/terser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/genebody-benchmarks",
+      "target": "ssrsgjyd/neuraltexture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/genebody-benchmarks",
+      "target": "lemonatsu/a-nerf",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "generalizable-neural-performer/genebody-benchmarks"
+}

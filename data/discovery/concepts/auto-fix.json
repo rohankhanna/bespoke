@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto-fix"
+    "Auto-fix",
+    "Auto Fix"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "mkdocs/mkdocs",
       "status": "candidate-context",
       "text": "Auto-fix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "\u26a1 High-performance Vue language tooling based-on Volar.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "Auto Fix"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "mkdocs/mkdocs",
       "status": "candidate",
       "text": "Auto-fix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate",
+      "text": "Auto Fix"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11699,
+      "status": "candidate",
+      "text": "garage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11699,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11699,
+      "status": "candidate",
+      "text": "plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11699,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11699,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Auto-fix",
   "concept_id": "auto-fix",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "mkdocs/mkdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/auto-fix.yml",
+      "source_repo": "vuejs/language-tools"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

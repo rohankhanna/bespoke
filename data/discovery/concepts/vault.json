@@ -103,6 +103,18 @@
       "source_repo": "dynaconf/dynaconf",
       "status": "candidate-context",
       "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "dynaconf/dynaconf",
       "status": "candidate",
       "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_related_terms": [
@@ -273,11 +291,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "dynaconf/dynaconf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jkroepke/helm-secrets"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litepcie",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litepcie",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:33:49.475381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4396
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small footprint and configurable PCIe core",
+    "fork": false,
+    "full_name": "enjoy-digital/litepcie",
+    "html_url": "https://github.com/enjoy-digital/litepcie",
+    "language": "Python",
+    "pushed_at": "2026-04-30T09:15:00Z",
+    "stargazers_count": 687,
+    "topics": [],
+    "updated_at": "2026-05-02T19:31:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

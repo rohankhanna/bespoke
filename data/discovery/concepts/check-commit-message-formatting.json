@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check commit message formatting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micropython/micropython",
+      "status": "candidate-context",
+      "text": "MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micropython/micropython",
+      "status": "candidate-context",
+      "text": "Check commit message formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micropython/micropython",
+      "status": "candidate",
+      "text": "Check commit message formatting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33812,
+      "status": "candidate",
+      "text": "ping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33412,
+      "status": "candidate",
+      "text": "pinging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32313,
+      "status": "candidate",
+      "text": "documented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31799,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31662,
+      "status": "candidate",
+      "text": "radio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check commit message formatting",
+  "concept_id": "check-commit-message-formatting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/commit_formatting.yml",
+      "source_repo": "micropython/micropython"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check commit message formatting",
+      "sense_id": "check-commit-message-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

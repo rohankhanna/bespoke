@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Julie-tang00/Point-BERT",
+      "target": "unlimblue/knn_cuda",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:17.645961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8754
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2022] Pre-Training 3D Point Cloud Transformers with Masked Point Modeling",
+    "fork": false,
+    "full_name": "Julie-tang00/Point-BERT",
+    "html_url": "https://github.com/Julie-tang00/Point-BERT",
+    "language": "Python",
+    "pushed_at": "2025-03-22T03:52:32Z",
+    "stargazers_count": 683,
+    "topics": [],
+    "updated_at": "2026-04-28T13:24:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unlimblue/knn_cuda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

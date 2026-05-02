@@ -286,6 +286,18 @@
       "source_repo": "welldone-software/why-did-you-render",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate-context",
+      "text": "Manage multi-tenant clusters with Flux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate-context",
+      "text": "update"
     }
   ],
   "candidate_glosses": [
@@ -432,6 +444,12 @@
       "source_repo": "welldone-software/why-did-you-render",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-multi-tenancy",
+      "status": "candidate",
+      "text": "update"
     }
   ],
   "candidate_related_terms": [
@@ -709,11 +727,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "fluxcd/flux2-multi-tenancy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -571,6 +571,66 @@
       "source_repo": "cyb3rko/pazzword",
       "status": "candidate-context",
       "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "Maise is an open-source android speech engine designed to provide a powerful and flexible platform for speech sythesis on the edge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "Generating SDKs for multiple programming languages and platforms \u2699\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast desktop Compose applications "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate-context",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Spring Auto REST Docs is an extension to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": " Application based on the web airelib.re.com, made with Kotlin and Compose 60%  applying the MVVM architecture. / Aplicaci\u00f3n Android basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +915,36 @@
       "source_repo": "cyb3rko/pazzword",
       "status": "candidate",
       "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maise",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-generator",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/564160730845151244?label=discord&style=flat-square)](https://appwrite.io/discord)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/aurora",
+      "status": "candidate",
+      "text": "**Aurora** is a collection of libraries for writing modern, elegant and fast [desktop Compose](https://github.com/JetBrains/compose-multiplatform) applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1258,11 +1348,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "cyb3rko/pazzword"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/aurora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "LucasGinard/AireLibre-Android"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

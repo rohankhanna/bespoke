@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dokka"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Spring Auto REST Docs is an extension to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970201,
+      "status": "candidate",
+      "text": "duqqa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970200,
+      "status": "candidate",
+      "text": "dukkah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970199,
+      "status": "candidate",
+      "text": "dokha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970198,
+      "status": "candidate",
+      "text": "darabukka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970197,
+      "status": "candidate",
+      "text": "darbukah"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dokka",
+  "concept_id": "dokka",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dokka",
+      "sense_id": "dokka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

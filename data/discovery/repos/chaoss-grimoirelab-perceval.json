@@ -56,28 +56,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-puppet",
+      "target": "chaoss/grimoirelab-perceval-weblate",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-opnfv",
+      "target": "grimoirelab-gitee/grimoirelab-perceval-gitee",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-mozilla",
+      "target": "perceval-backends/grimoirelab-perceval-airtable",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "bitergia/grimoirelab-perceval-finos",
+      "target": "perceval-backends/grimoirelab-perceval-bitbucket",
       "target_type": "repository"
     },
     {
@@ -221,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:53:26.973171+00:00",
+  "fetched_at": "2026-05-02T18:37:48.108772+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -270,22 +270,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bitergia/grimoirelab-perceval-finos",
+      "full_name": "chaoss/grimoirelab-perceval-weblate",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chaoss/grimoirelab-perceval-mozilla",
+      "full_name": "grimoirelab-gitee/grimoirelab-perceval-gitee",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chaoss/grimoirelab-perceval-opnfv",
+      "full_name": "perceval-backends/grimoirelab-perceval-airtable",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chaoss/grimoirelab-perceval-puppet",
+      "full_name": "perceval-backends/grimoirelab-perceval-bitbucket",
       "source_file": "README.md"
     }
   ],

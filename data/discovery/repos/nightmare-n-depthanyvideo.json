@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:25:09.098885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3293
+    },
+    {
+      "path": "requirements.txt",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Depth Any Video with Scalable Synthetic Data (ICLR 2025)",
+    "fork": false,
+    "full_name": "Nightmare-n/DepthAnyVideo",
+    "html_url": "https://github.com/Nightmare-n/DepthAnyVideo",
+    "language": "Python",
+    "pushed_at": "2024-12-04T04:06:14Z",
+    "stargazers_count": 514,
+    "topics": [],
+    "updated_at": "2026-04-24T01:26:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

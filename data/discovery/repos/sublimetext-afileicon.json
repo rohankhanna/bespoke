@@ -16,13 +16,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SublimeText/AFileIcon",
-      "target": "file-icons/atom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SublimeText/AFileIcon",
       "target": "deathaxe/sublime-a-file-icon",
       "target_type": "repository"
     },
@@ -69,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:58:04.044324+00:00",
+  "fetched_at": "2026-05-02T19:28:29.001664+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,11 +100,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "deathaxe/sublime-a-file-icon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "file-icons/atom",
       "source_file": "README.md"
     }
   ],

@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "jupyter-xeus/xeus-cling",
+      "target": "xtensor-stack/xtensor-python",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-julia",
+      "target": "xtensor-stack/xtensor.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-blas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-io",
+      "target": "xtensor-stack/xtensor-r",
       "target_type": "repository"
     },
     {
@@ -232,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "xtensor-stack/xtensor"
 }

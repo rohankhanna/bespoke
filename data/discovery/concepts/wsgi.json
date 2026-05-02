@@ -67,6 +67,18 @@
       "source_repo": "Pylons/pyramid",
       "status": "candidate-context",
       "text": "Pyramid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Pylons/pyramid",
       "status": "candidate",
       "text": "Pyramid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate",
+      "text": "Hypercorn"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Pylons/pyramid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

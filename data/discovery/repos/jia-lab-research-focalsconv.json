@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/FocalsConv",
-      "target": "yifanzhang713/ia-ssd",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "JIA-Lab-research/FocalsConv",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:18:52.961004+00:00",
+  "fetched_at": "2026-05-02T19:47:18.153925+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,11 +99,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/spconv-plus",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yifanzhang713/ia-ssd",
       "source_file": "README.md"
     }
   ],

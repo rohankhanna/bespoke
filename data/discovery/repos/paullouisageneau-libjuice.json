@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "vollmondt/juice-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "libnice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "nat-hole-punching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "nat-traversal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "peer-to-peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "rfc-5389",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "rfc-5766",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "rfc-8445",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "rfc-8489",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "rfc-8656",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "stun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "stun-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "turn-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libjuice",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:38:45.338859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5207
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JUICE is a UDP Interactive Connectivity Establishment library",
+    "fork": false,
+    "full_name": "paullouisageneau/libjuice",
+    "html_url": "https://github.com/paullouisageneau/libjuice",
+    "language": "C",
+    "pushed_at": "2026-04-17T12:24:42Z",
+    "stargazers_count": 589,
+    "topics": [
+      "c",
+      "ice",
+      "libnice",
+      "nat-hole-punching",
+      "nat-traversal",
+      "p2p",
+      "peer-to-peer",
+      "rfc-5389",
+      "rfc-5766",
+      "rfc-8445",
+      "rfc-8489",
+      "rfc-8656",
+      "sdp",
+      "sip",
+      "stun",
+      "stun-client",
+      "turn-client",
+      "udp",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-30T16:05:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vollmondt/juice-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libnice"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nat-hole-punching"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nat-traversal"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer-to-peer"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-5389"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-5766"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-8445"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-8489"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-8656"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stun"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stun-client"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-client"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

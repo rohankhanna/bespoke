@@ -19,6 +19,18 @@
       "source_repo": "borkdude/nbb-action-example",
       "status": "candidate-context",
       "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate-context",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "borkdude/nbb-action-example",
       "status": "candidate",
       "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb-features",
+      "status": "candidate",
+      "text": "A collection of premade features for [nbb](https://github.com/babashka/nbb)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "borkdude/nbb-action-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb-features"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -415,6 +415,30 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate-context",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial on Julia DataFrames package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "Tutorials and training material for the H2O Machine Learning Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate-context",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
     }
   ],
   "candidate_glosses": [
@@ -621,6 +645,18 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-tutorials",
+      "status": "candidate",
+      "text": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository."
     }
   ],
   "candidate_related_terms": [
@@ -946,11 +982,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

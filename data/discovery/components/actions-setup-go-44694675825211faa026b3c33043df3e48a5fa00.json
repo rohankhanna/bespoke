@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/upgrade-flux.yaml",
       "source_repo": "weaveworks/weave-gitops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git.yml",
+      "source_repo": "go-git/go-git"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "go-git/go-git"
     }
   ]
 }

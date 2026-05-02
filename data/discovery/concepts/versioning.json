@@ -262,6 +262,18 @@
       "source_repo": "ehmicky/get-node-cli",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your project versions and its upgrades according to the Semantic Versioning specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +402,12 @@
       "source_repo": "ehmicky/get-node-cli",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_related_terms": [
@@ -667,11 +685,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

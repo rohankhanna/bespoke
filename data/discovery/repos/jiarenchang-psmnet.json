@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "jiarenchang/realtimestereo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "jzbontar/mc-cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "psmnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "stereo-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/PSMNet",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:32.696390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pyramid Stereo Matching Network (CVPR2018)",
+    "fork": false,
+    "full_name": "JiaRenChang/PSMNet",
+    "html_url": "https://github.com/JiaRenChang/PSMNet",
+    "language": "Python",
+    "pushed_at": "2021-09-22T09:09:08Z",
+    "stargazers_count": 1543,
+    "topics": [
+      "psmnet",
+      "pytorch",
+      "stereo-matching",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-04-26T13:23:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiarenchang/realtimestereo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jzbontar/mc-cnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psmnet"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-matching"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Pyramid Stereo Matching Network](https://arxiv.org/abs/1803.08669)\" paper (CVPR 2018) by [Jia-Ren Chang](https://jiarenchang.github.io/) and [Yong-Sheng Chen](https://people.cs.nctu.edu.tw/~yschen/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

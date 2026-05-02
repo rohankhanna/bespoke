@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hyperlinks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "> this repo is outdated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate",
+      "text": "> this repo is outdated"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029073,
+      "status": "candidate",
+      "text": "bindings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029073,
+      "status": "candidate",
+      "text": "clickable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029073,
+      "status": "candidate",
+      "text": "linkages"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029073,
+      "status": "candidate",
+      "text": "links"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029073,
+      "status": "candidate",
+      "text": "ties"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hyperlinks",
+  "concept_id": "hyperlinks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "coderofsalvation/xrfragment"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperlinks",
+      "sense_id": "hyperlinks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

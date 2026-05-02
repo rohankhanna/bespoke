@@ -55,13 +55,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "ucb-bar/libgloss-htif",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
@@ -132,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T06:49:11.432133+00:00",
+  "fetched_at": "2026-05-02T19:35:39.276690+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,11 +162,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "riscv/riscv-gnu-toolchain",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ucb-bar/libgloss-htif",
       "source_file": "README.md"
     }
   ],

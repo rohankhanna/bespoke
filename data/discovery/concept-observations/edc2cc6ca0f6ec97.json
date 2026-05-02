@@ -84,7 +84,7 @@
   "normalized_form": "build-native-module-prebuilds",
   "observation_id": "edc2cc6ca0f6ec97",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Build Native Module Prebuilds",
   "source_context_snippet": "Build Native Module Prebuilds",
   "source_file": ".github/workflows/build-prebuilds.yml",

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex_hw_ci",
+      "target": "yepkit/ykush",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:33:50.457104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LiteX Hardware CI tests.",
+    "fork": false,
+    "full_name": "enjoy-digital/litex_hw_ci",
+    "html_url": "https://github.com/enjoy-digital/litex_hw_ci",
+    "language": "Python",
+    "pushed_at": "2026-02-15T23:44:47Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-22T08:20:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yepkit/ykush",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

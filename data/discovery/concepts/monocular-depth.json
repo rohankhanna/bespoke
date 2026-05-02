@@ -19,6 +19,18 @@
       "source_repo": "YvanYin/Metric3D",
       "status": "candidate-context",
       "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate-context",
+      "text": "[CVPR'25] DepthSplat: Connecting Gaussian Splatting and Depth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "YvanYin/Metric3D",
       "status": "candidate",
       "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/depthsplat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "YvanYin/Metric3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

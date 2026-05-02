@@ -163,6 +163,18 @@
       "source_repo": "ajbrock/BigGAN-PyTorch",
       "status": "candidate-context",
       "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate-context",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "ajbrock/BigGAN-PyTorch",
       "status": "candidate",
       "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universome/stylegan-v",
+      "status": "candidate",
+      "text": "[[Project website]](https://universome.github.io/stylegan-v)"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "ajbrock/BigGAN-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "universome/stylegan-v"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

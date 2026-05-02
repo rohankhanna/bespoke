@@ -55,6 +55,18 @@
       "source_repo": "streamich/memfs",
       "status": "candidate-context",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate-context",
+      "text": "edit directory in $EDITOR (better than vim . with netrw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate-context",
+      "text": "vidir - edit directory"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "streamich/memfs",
       "status": "candidate",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate",
+      "text": "vidir - edit directory"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

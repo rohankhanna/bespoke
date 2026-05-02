@@ -107,6 +107,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "all-contributors/app",
+      "target": "apps/allcontributors",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/app",
@@ -317,7 +324,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T06:52:06.781456+00:00",
+  "fetched_at": "2026-05-02T19:36:43.605347+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -373,6 +380,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors-bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apps/allcontributors",
       "source_file": "README.md"
     }
   ],

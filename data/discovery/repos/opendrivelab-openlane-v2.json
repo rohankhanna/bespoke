@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "opendrivelab/driveagi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "opendrivelab/lanesegnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "opendrivelab/drivelm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "opendrivelab/bevperception-survey-recipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "3d-lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "topology-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane-V2",
+      "target": "traffic-element-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:56.333048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13727
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2023 Track Datasets and Benchmarks] OpenLane-V2: The First Perception and Reasoning Benchmark for Road Driving",
+    "fork": false,
+    "full_name": "OpenDriveLab/OpenLane-V2",
+    "html_url": "https://github.com/OpenDriveLab/OpenLane-V2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-02T05:24:27Z",
+    "stargazers_count": 662,
+    "topics": [
+      "3d-lane-detection",
+      "topology-reasoning",
+      "traffic-element-recognition"
+    ],
+    "updated_at": "2026-04-15T07:11:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/bevperception-survey-recipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/driveagi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/drivelm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/lanesegnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-lane-detection"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topology-reasoning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-element-recognition"
+    }
+  ]
+}

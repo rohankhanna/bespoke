@@ -178,6 +178,18 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate-context",
       "text": "Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate-context",
+      "text": "_Validate and visualise dependencies. With your rules._ JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD."
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate",
       "text": "Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sverweij/dependency-cruiser",
+      "status": "candidate",
+      "text": "_Validate and visualise dependencies. With your rules._ JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD."
     }
   ],
   "candidate_related_terms": [
@@ -541,11 +559,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "sverweij/dependency-cruiser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensed"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "astro",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-astro",
+      "target": "hchiam/learning-frameworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-astro",
+      "target": "snowpackjs/astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-astro",
+      "target": "hchiam/astro-calendar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-astro",
+      "target": "astro",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:11.506848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2857
+    },
+    {
+      "path": "package.json",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning Astro",
+    "fork": false,
+    "full_name": "hchiam/learning-astro",
+    "html_url": "https://github.com/hchiam/learning-astro",
+    "language": "Astro",
+    "pushed_at": "2021-09-19T22:22:40Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-09-19T22:22:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/astro-calendar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-frameworks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snowpackjs/astro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

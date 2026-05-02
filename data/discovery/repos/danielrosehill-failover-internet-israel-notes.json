@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Failover-Internet-Israel-Notes",
+      "target": "documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:32.240499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notes (Jan 2026) on setting up failover internet in Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Failover-Internet-Israel-Notes",
+    "html_url": "https://github.com/danielrosehill/Failover-Internet-Israel-Notes",
+    "language": "Typst",
+    "pushed_at": "2026-01-25T15:46:49Z",
+    "stargazers_count": 0,
+    "topics": [
+      "documentation"
+    ],
+    "updated_at": "2026-01-25T15:46:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A guide to setting up highly available multi-WAN internet in Israel with dual fiber + cellular configuration using OPNsense for automatic failover.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    }
+  ]
+}

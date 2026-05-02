@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release Drafter",
-    "Release drafter"
+    "Release drafter",
+    "release-drafter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -614,6 +615,18 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "A simple, zero-configuration, command-line http server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "release-drafter"
     }
   ],
   "candidate_glosses": [
@@ -922,6 +935,12 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate",
+      "text": "release-drafter"
     }
   ],
   "candidate_related_terms": [
@@ -1613,11 +1632,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

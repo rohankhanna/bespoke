@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "drive-agx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/DL4AGX",
+      "target": "embedded",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:53.816775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep Learning tools and applications for NVIDIA AGX platforms.",
+    "fork": false,
+    "full_name": "NVIDIA/DL4AGX",
+    "html_url": "https://github.com/NVIDIA/DL4AGX",
+    "language": "Shell",
+    "pushed_at": "2026-03-13T18:07:42Z",
+    "stargazers_count": 278,
+    "topics": [
+      "autonomous-driving",
+      "computer-vision",
+      "cuda",
+      "deep-learning",
+      "drive-agx",
+      "embedded"
+    ],
+    "updated_at": "2026-04-27T15:33:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drive-agx"
+    },
+    {
+      "context_snippet": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    }
+  ]
+}

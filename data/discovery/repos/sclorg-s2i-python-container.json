@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "sclorg/build-and-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/distgen-check.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "containers/libpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "sclorg/build-and-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "sclorg/ci-actions/.github/workflows/distgen-check.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "rhel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-python-container",
+      "target": "source-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:44:15.302670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7303
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 7168
+    },
+    {
+      "path": ".github/workflows/container-tests.yml",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Python applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.",
+    "fork": false,
+    "full_name": "sclorg/s2i-python-container",
+    "html_url": "https://github.com/sclorg/s2i-python-container",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T08:32:11Z",
+    "stargazers_count": 270,
+    "topics": [
+      "centos",
+      "container",
+      "docker",
+      "dockerfile",
+      "fedora",
+      "openshift",
+      "python",
+      "rhel",
+      "s2i",
+      "source-to-image"
+    ],
+    "updated_at": "2026-04-30T08:16:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/libpod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    },
+    {
+      "context_snippet": "Python container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-to-image"
+    }
+  ]
+}

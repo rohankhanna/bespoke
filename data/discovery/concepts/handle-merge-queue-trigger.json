@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Handle Merge Queue Trigger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "Handle Merge Queue Trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate",
+      "text": "Handle Merge Queue Trigger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28875,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28682,
+      "status": "candidate",
+      "text": "next"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28401,
+      "status": "candidate",
+      "text": "trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28187,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27973,
+      "status": "candidate",
+      "text": "lead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Handle Merge Queue Trigger",
+  "concept_id": "handle-merge-queue-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle Merge Queue Trigger",
+      "sense_id": "handle-merge-queue-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/PyTorch-BigGraph",
+      "target": "facebookresearch/kbc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:38.264617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Generate embeddings from large-scale graph-structured data.",
+    "fork": false,
+    "full_name": "facebookresearch/PyTorch-BigGraph",
+    "html_url": "https://github.com/facebookresearch/PyTorch-BigGraph",
+    "language": "Python",
+    "pushed_at": "2024-03-03T01:42:05Z",
+    "stargazers_count": 3458,
+    "topics": [],
+    "updated_at": "2026-04-18T15:29:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/kbc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

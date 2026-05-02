@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/numpy.rb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pandas.rb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pycall.rb.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "juliapy/pycall.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "red-data-tools/pycall.rb",
@@ -127,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "red-data-tools/pycall.rb"
 }

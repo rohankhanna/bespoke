@@ -67,6 +67,54 @@
       "source_repo": "obsidian-community/obsidian-style-settings",
       "status": "candidate-context",
       "text": "This plugin allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane. Style Settings allows both toggling classes on and off the `body` element, as well as setting numeric, s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "A data index and query language over Markdown files, for https://obsidian.md/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate-context",
+      "text": "Add typed-links to your Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate-context",
+      "text": "Adds admonition block-styled content to Obsidian.md "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate-context",
+      "text": "The Admonition plugin for Obsidian is a tool that allows you to create attention-grabbing callouts, tips, warnings and other informative blocks within your notes. The plugin provides a range of pre-defined icons to pick from, as well as the ability to create your own custom styl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "BRAT - Beta Reviewer's Auto-update Tool for Obsidian. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate-context",
+      "text": "![](media/brat.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "obsidian-community/obsidian-style-settings",
       "status": "candidate",
       "text": "This plugin allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane. Style Settings allows both toggling classes on and off the `body` element, as well as setting numeric, s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate",
+      "text": "Treat your [Obsidian Vault](https://obsidian.md/) as a database which you can query from. Provides a JavaScript API and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkepticMystic/breadcrumbs",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebullient/obsidian-admonition",
+      "status": "candidate",
+      "text": "The Admonition plugin for Obsidian is a tool that allows you to create attention-grabbing callouts, tips, warnings and other informative blocks within your notes. The plugin provides a range of pre-defined icons to pick from, as well as the ability to create your own custom styl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate",
+      "text": "![](media/brat.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +208,41 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "blacksmithgu/obsidian-dataview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "SkepticMystic/breadcrumbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "TfTHacker/obsidian42-brat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

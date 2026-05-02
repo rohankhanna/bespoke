@@ -19,6 +19,18 @@
       "source_repo": "Pal3love/dream-han-cjk",
       "status": "candidate-context",
       "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u601d\u6e90\u9ed1\u4f53\uff0c\u5e76\u4ee5\u4e2d\u56fd\u5927\u9646\u5b57\u5f62\u4e3a\u6807\u51c6\u7684\u5bf9\u4e2d\u65e5\u97e9\u8d8a\u7edf\u4e00\u8868\u610f\u6587\u5b57\u6269\u5c55\u533a\u8fdb\u884c\u5b57\u5f62\u8865\u5145\u7684\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Pal3love/dream-han-cjk",
       "status": "candidate",
       "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Pal3love/dream-han-cjk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

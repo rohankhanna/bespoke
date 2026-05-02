@@ -79,6 +79,18 @@
       "source_repo": "dotnet/wpf",
       "status": "candidate-context",
       "text": "\ufeff# Windows Presentation Foundation (WPF)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "Windows Forms is a .NET UI framework for building Windows desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "dotnet/wpf",
       "status": "candidate",
       "text": "\ufeff# Windows Presentation Foundation (WPF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/winforms",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dotnet/winforms/blob/main/LICENSE.TXT)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/winforms"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

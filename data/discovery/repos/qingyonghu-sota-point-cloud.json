@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "daerduocarey/partnet_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "hkust-vgd/scanobjectnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "i2rdl2/astar-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "qingyonghu/sensaturban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "3d-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "3d-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "3d-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "3d-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "3d-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "pointclouds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SoTA-Point-Cloud",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:24.690581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd25[IEEE TPAMI 2020] Deep Learning for 3D Point Clouds: A Survey",
+    "fork": false,
+    "full_name": "QingyongHu/SoTA-Point-Cloud",
+    "html_url": "https://github.com/QingyongHu/SoTA-Point-Cloud",
+    "language": null,
+    "pushed_at": "2021-06-08T07:29:25Z",
+    "stargazers_count": 1630,
+    "topics": [
+      "3d-classification",
+      "3d-deep-learning",
+      "3d-detection",
+      "3d-segmentation",
+      "3d-tracking",
+      "instance-segmentation",
+      "pointclouds",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-19T12:51:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daerduocarey/partnet_dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-vgd/scanobjectnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "i2rdl2/astar-3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qingyonghu/sensaturban",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-classification"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-deep-learning"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-detection"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-segmentation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-tracking"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointclouds"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

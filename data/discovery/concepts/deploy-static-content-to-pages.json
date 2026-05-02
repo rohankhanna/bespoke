@@ -205,6 +205,30 @@
       "source_repo": "BasedHardware/omi",
       "status": "candidate-context",
       "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "A tiny specification for hyperlinking & deeplinking any 3D filetype, fostering linkable AR/VR websites. Address and Control anything inside a 3D model. Simply SURF a 3D file-verse and design for a Spatial Open Internet with the highest degree of interoperabili"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ButTaiwan/taigivs",
+      "status": "candidate-context",
+      "text": "the Taiwanese version of bpmfvs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/taigivs",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
     }
   ],
   "candidate_glosses": [
@@ -307,6 +331,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderofsalvation/xrfragment",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/taigivs",
       "status": "candidate",
       "text": "Deploy static content to Pages"
     }
@@ -454,11 +490,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/deploy_docs.yml",
       "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "coderofsalvation/xrfragment"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "ButTaiwan/taigivs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

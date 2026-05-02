@@ -403,6 +403,18 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate-context",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "Relax! Flux is the ML library that doesn't make you tensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +615,12 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1030,11 +1048,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

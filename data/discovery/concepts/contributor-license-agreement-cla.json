@@ -37,6 +37,18 @@
       "source_repo": "Shopify/svg2vd",
       "status": "candidate-context",
       "text": "Contributor License Agreement (CLA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/liquid",
+      "status": "candidate-context",
+      "text": "Liquid markup language. Safe, customer facing template language for flexible web apps. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/liquid",
+      "status": "candidate-context",
+      "text": "Contributor License Agreement (CLA)"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Shopify/svg2vd",
+      "status": "candidate",
+      "text": "Contributor License Agreement (CLA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/liquid",
       "status": "candidate",
       "text": "Contributor License Agreement (CLA)"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "Shopify/svg2vd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/liquid"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

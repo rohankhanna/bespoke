@@ -121,6 +121,18 @@
       "source_repo": "EclipseFdn/iot.eclipse.org",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "Apache Dubbo documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate-context",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +189,12 @@
       "source_repo": "EclipseFdn/iot.eclipse.org",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-website",
+      "status": "candidate",
+      "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "EclipseFdn/iot.eclipse.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-website"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

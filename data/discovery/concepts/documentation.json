@@ -1942,6 +1942,90 @@
       "source_repo": "terrier-org/pyterrier",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Designs for new Base array interface primitives, used widely through scientific machine learning (SciML) and other organizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate-context",
+      "text": "Fortran-like arrays with arbitrary, zero or negative starting indices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate-context",
+      "text": "Project Preferences Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Godot Engine official documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Spring Auto REST Docs is an extension to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Failover-Internet-Israel-Notes",
+      "status": "candidate-context",
+      "text": "Notes (Jan 2026) on setting up failover internet in Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Failover-Internet-Israel-Notes",
+      "status": "candidate-context",
+      "text": "A guide to setting up highly available multi-WAN internet in Israel with dual fiber + cellular configuration using OPNsense for automatic failover."
     }
   ],
   "candidate_glosses": [
@@ -2940,6 +3024,48 @@
       "source_repo": "terrier-org/pyterrier",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/ArrayInterface.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Preferences.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate",
+      "text": "This project is officially end-of-life. Users are welcome to maintain it in a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Failover-Internet-Israel-Notes",
+      "status": "candidate",
+      "text": "A guide to setting up highly available multi-WAN internet in Israel with dual fiber + cellular configuration using OPNsense for automatic failover."
     }
   ],
   "candidate_related_terms": [
@@ -4410,11 +4536,101 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/ModelingToolkit.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/ArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaArrays/OffsetArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/Preferences.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ScaCap/spring-auto-restdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Failover-Internet-Israel-Notes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verify generated worker code is up-to-date"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate-context",
+      "text": "WebAssembly binding for llama.cpp - Enabling on-browser LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate-context",
+      "text": "Verify generated worker code is up-to-date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate",
+      "text": "Verify generated worker code is up-to-date"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27418,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27389,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27389,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27389,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27389,
+      "status": "candidate",
+      "text": "confirmed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify generated worker code is up-to-date",
+  "concept_id": "verify-generated-worker-code-is-up-to-date",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/verify-generated-code.yml",
+      "source_repo": "ngxson/wllama"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify generated worker code is up-to-date",
+      "sense_id": "verify-generated-worker-code-is-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

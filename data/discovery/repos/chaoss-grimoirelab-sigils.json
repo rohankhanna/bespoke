@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "bitergia/release-tools-check-changelog@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/build@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/release@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/publish@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "bitergia/release-tools-check-changelog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "Check changelog file included",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "chaoss/grimoirelab-github-actions/build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "chaoss/grimoirelab-github-actions/release@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "chaoss/grimoirelab-github-actions/publish@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:37:52.765805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1139
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Panels from GrimoireLab dashboards",
+    "fork": false,
+    "full_name": "chaoss/grimoirelab-sigils",
+    "html_url": "https://github.com/chaoss/grimoirelab-sigils",
+    "language": "Python",
+    "pushed_at": "2025-09-23T08:40:27Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-14T23:13:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check changelog file included",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Check changelog file included"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "camenduru/memo-tost",
+      "target": "camenduru/memo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:42.080524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 540
+    },
+    {
+      "path": "Dockerfile",
+      "size": 8798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/memo-tost",
+    "html_url": "https://github.com/camenduru/memo-tost",
+    "language": "Python",
+    "pushed_at": "2024-12-06T18:03:12Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-01-14T18:04:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/memo",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

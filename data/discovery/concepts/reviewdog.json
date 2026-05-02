@@ -484,6 +484,30 @@
       "source_repo": "nutsdb/nutsdb",
       "status": "candidate-context",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "CLI tool to print CPU and GPU temperature of macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/vimux",
+      "status": "candidate-context",
+      "text": "easily interact with tmux from vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/vimux",
+      "status": "candidate-context",
+      "text": "Reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -750,6 +774,18 @@
       "source_repo": "nutsdb/nutsdb",
       "status": "candidate",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate",
+      "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/vimux",
+      "status": "candidate",
+      "text": "Reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -1351,11 +1387,53 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "narugit/smctemp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/vimux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

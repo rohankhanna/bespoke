@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
+      "target": "nv-tlabs/dib-r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
+      "target": "autonomousvision/differentiable_volumetric_rendering.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:21.612934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
+    "html_url": "https://github.com/nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
+    "language": "Python",
+    "pushed_at": "2022-03-23T02:05:40Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-01-30T04:52:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/differentiable_volumetric_rendering.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nv-tlabs/dib-r",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

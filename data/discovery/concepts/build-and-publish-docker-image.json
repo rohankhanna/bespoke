@@ -109,6 +109,12 @@
       "source_repo": "Myriad-Dreamin/typst",
       "status": "candidate-context",
       "text": "Build and Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc",
+      "status": "candidate-context",
+      "text": "Build and Publish Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -163,6 +169,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate",
+      "text": "Build and Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc",
       "status": "candidate",
       "text": "Build and Publish Docker Image"
     }
@@ -364,11 +376,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "bnb-chain/reth-bsc"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

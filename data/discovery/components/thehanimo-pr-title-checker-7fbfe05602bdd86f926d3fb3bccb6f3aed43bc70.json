@@ -1,0 +1,12 @@
+{
+  "component": "thehanimo/pr-title-checker@7fbfe05602bdd86f926d3fb3bccb6f3aed43bc70",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "lakekeeper/lakekeeper"
+    }
+  ]
+}

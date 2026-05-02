@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push_gem.yml"
     },
@@ -63,34 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simplecov-ruby/simplecov",
-      "target": "simplecov-ruby/simplecov-html",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simplecov-ruby/simplecov",
-      "target": "test-unit/test-unit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simplecov-ruby/simplecov",
-      "target": "codeclimate-community/simplecov_json_formatter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simplecov-ruby/simplecov",
-      "target": "danmayer/coverband",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "simplecov-ruby/simplecov",
@@ -115,7 +87,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push_gem.yml",
       "source_repo": "simplecov-ruby/simplecov",
-      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -259,7 +231,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:37:22.898837+00:00",
+  "fetched_at": "2026-05-02T19:32:27.295255+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -295,8 +267,8 @@
     "full_name": "simplecov-ruby/simplecov",
     "html_url": "https://github.com/simplecov-ruby/simplecov",
     "language": "Ruby",
-    "pushed_at": "2026-04-28T14:37:14Z",
-    "stargazers_count": 4886,
+    "pushed_at": "2026-05-01T21:47:40Z",
+    "stargazers_count": 4887,
     "topics": [
       "code-quality",
       "coverage",
@@ -306,30 +278,9 @@
       "ruby",
       "test-coverage"
     ],
-    "updated_at": "2026-04-29T23:14:17Z"
+    "updated_at": "2026-05-02T14:07:59Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codeclimate-community/simplecov_json_formatter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danmayer/coverband",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "simplecov-ruby/simplecov-html",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "test-unit/test-unit",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "lint",

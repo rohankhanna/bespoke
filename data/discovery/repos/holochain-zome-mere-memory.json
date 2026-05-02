@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "@spartan-hc/app-interface-client",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@spartan-hc/holo-hash",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@spartan-hc/holochain-backdrop",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@spartan-hc/mere-memory-zomelets",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@whi/json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@whi/weblogger",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fflate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-tests.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@spartan-hc/app-interface-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@spartan-hc/holo-hash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@spartan-hc/holochain-backdrop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@spartan-hc/mere-memory-zomelets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@whi/json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "@whi/weblogger",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "fflate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-tests.yml",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-tests.yml",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-tests.yml",
+      "source_repo": "holochain/zome-mere-memory",
+      "target": "All Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:33:43.352339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3147
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 379
+    },
+    {
+      "path": "package.json",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/all-tests.yml",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Holochain Zome for storing large or small byte values",
+    "fork": false,
+    "full_name": "holochain/zome-mere-memory",
+    "html_url": "https://github.com/holochain/zome-mere-memory",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-31T23:54:34Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-02-17T19:04:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "All Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-tests.yml",
+      "term": "All Tests"
+    }
+  ]
+}

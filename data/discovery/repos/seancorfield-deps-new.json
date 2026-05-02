@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seancorfield/deps-new",
+      "target": "acme/cool-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seancorfield/deps-new",
+      "target": "acme/templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seancorfield/deps-new",
+      "target": "adamfrey/clojure-html-server-live-reload-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seancorfield/deps-new",
+      "target": "babashka/cli",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:23.159675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Create new projects for the Clojure CLI / deps.edn",
+    "fork": false,
+    "full_name": "seancorfield/deps-new",
+    "html_url": "https://github.com/seancorfield/deps-new",
+    "language": "Clojure",
+    "pushed_at": "2026-03-09T17:31:06Z",
+    "stargazers_count": 439,
+    "topics": [],
+    "updated_at": "2026-04-26T04:31:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acme/cool-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acme/templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamfrey/clojure-html-server-live-reload-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

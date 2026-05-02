@@ -19,6 +19,18 @@
       "source_repo": "lavoiesl/osx-cpu-temp",
       "status": "candidate-context",
       "text": "Outputs current CPU temperature for OSX."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "CLI tool to print CPU and GPU temperature of macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate-context",
+      "text": "Print CPU and GPU temperatures on macOS."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lavoiesl/osx-cpu-temp",
       "status": "candidate",
       "text": "Outputs current CPU temperature for OSX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "narugit/smctemp",
+      "status": "candidate",
+      "text": "Print CPU and GPU temperatures on macOS."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lavoiesl/osx-cpu-temp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "narugit/smctemp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

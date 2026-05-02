@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-epfl/segmentation-driven-pose",
+      "target": "cvlab-epfl/wide-depth-range-pose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:36:00.040024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Segmentation-driven 6D Object Pose Estimation. CVPR 2019.",
+    "fork": false,
+    "full_name": "cvlab-epfl/segmentation-driven-pose",
+    "html_url": "https://github.com/cvlab-epfl/segmentation-driven-pose",
+    "language": "Python",
+    "pushed_at": "2021-08-17T12:25:27Z",
+    "stargazers_count": 199,
+    "topics": [],
+    "updated_at": "2026-04-20T09:35:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvlab-epfl/wide-depth-range-pose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

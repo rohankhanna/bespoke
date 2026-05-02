@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:38:18.490452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 808
+    },
+    {
+      "path": "go.mod",
+      "size": 4694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "GPU plugin to the node feature discovery for Kubernetes",
+    "fork": false,
+    "full_name": "NVIDIA/gpu-feature-discovery",
+    "html_url": "https://github.com/NVIDIA/gpu-feature-discovery",
+    "language": "Go",
+    "pushed_at": "2024-05-27T14:44:48Z",
+    "stargazers_count": 308,
+    "topics": [],
+    "updated_at": "2026-04-26T04:36:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

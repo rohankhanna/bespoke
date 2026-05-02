@@ -607,6 +607,18 @@
       "source_repo": "pburtchaell/redux-promise-middleware",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "a debugger for async rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +921,12 @@
       "source_repo": "pburtchaell/redux-promise-middleware",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate",
+      "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
     }
   ],
   "candidate_related_terms": [
@@ -1354,11 +1372,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "pburtchaell/redux-promise-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

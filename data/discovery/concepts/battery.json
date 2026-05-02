@@ -19,6 +19,18 @@
       "source_repo": "distatus/battery",
       "status": "candidate-context",
       "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "it's like Rainmeter, but for CLI!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "distatus/battery",
       "status": "candidate",
       "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "distatus/battery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

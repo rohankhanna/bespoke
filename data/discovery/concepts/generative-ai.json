@@ -421,6 +421,18 @@
       "source_repo": "Eyeline-Labs/CineScale",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_glosses": [
@@ -633,6 +645,12 @@
       "source_repo": "Eyeline-Labs/CineScale",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1132,11 +1150,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

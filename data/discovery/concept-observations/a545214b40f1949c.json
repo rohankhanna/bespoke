@@ -48,7 +48,7 @@
   "normalized_form": "pkg-pr-new",
   "observation_id": "a545214b40f1949c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "\ud83d\ude80 pkg-pr-new",
   "source_context_snippet": "\ud83d\ude80 pkg-pr-new",
   "source_file": ".github/workflows/publish-commit.yaml",

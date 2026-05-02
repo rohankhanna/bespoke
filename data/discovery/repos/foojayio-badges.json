@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:29:22.695356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Badges that can be used in readme's, projects, slides etc.",
+    "fork": false,
+    "full_name": "foojayio/badges",
+    "html_url": "https://github.com/foojayio/badges",
+    "language": "HTML",
+    "pushed_at": "2021-11-29T09:00:26Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-10-19T07:00:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "codespaces/new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "cormacrelf/dark-notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "hallazzang/tmux-reset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "dark-light-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-dark-notify",
+      "target": "tmux-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:44:20.849208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A plugin that make tmux's theme follow macOS dark/light mode.",
+    "fork": false,
+    "full_name": "erikw/tmux-dark-notify",
+    "html_url": "https://github.com/erikw/tmux-dark-notify",
+    "language": "Shell",
+    "pushed_at": "2026-02-08T18:31:19Z",
+    "stargazers_count": 92,
+    "topics": [
+      "dark-light-mode",
+      "macos",
+      "theme",
+      "tmux",
+      "tmux-plugin",
+      "tpm"
+    ],
+    "updated_at": "2026-04-30T19:59:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/new",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cormacrelf/dark-notify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hallazzang/tmux-reset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-light-mode"
+    },
+    {
+      "context_snippet": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "[![Top programming languages used](https://img.shields.io/github/languages/top/erikw/tmux-dark-notify)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugin"
+    }
+  ]
+}

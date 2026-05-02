@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified sensor driver for the Adafruit BNO055 orientation sensor breakout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arduino-library",
+      "sense_id": "arduino-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arduino-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arduino-library",
+  "observation_id": "b7ea3dd812a6188d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "arduino-library",
+  "source_context_snippet": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026",
+  "source_file": null,
+  "source_repo": "adafruit/Adafruit_BNO055",
+  "source_repo_description": "Unified sensor driver for the Adafruit BNO055 orientation sensor breakout"
+}

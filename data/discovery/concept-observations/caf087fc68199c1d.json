@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arduino library for I2C & SPI abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arduino-library",
+      "sense_id": "arduino-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arduino-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arduino-library",
+  "observation_id": "caf087fc68199c1d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "arduino-library",
+  "source_context_snippet": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers",
+  "source_file": null,
+  "source_repo": "adafruit/Adafruit_BusIO",
+  "source_repo_description": "Arduino library for I2C & SPI abstractions"
+}

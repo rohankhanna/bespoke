@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinyu1205/recognize-anything",
+      "target": "positive666/prompt-can-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinyu1205/recognize-anything",
+      "target": "recognize-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinyu1205/recognize-anything",
+      "target": "tag2text-iclr2024",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:37.439067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23726
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source and strong foundation image recognition models.",
+    "fork": false,
+    "full_name": "xinyu1205/recognize-anything",
+    "html_url": "https://github.com/xinyu1205/recognize-anything",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-18T02:35:59Z",
+    "stargazers_count": 3631,
+    "topics": [
+      "recognize-anything",
+      "tag2text-iclr2024"
+    ],
+    "updated_at": "2026-05-01T03:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "positive666/prompt-can-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project aims to develop a series of open-source and strong fundamental image recognition models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognize-anything"
+    },
+    {
+      "context_snippet": "This project aims to develop a series of open-source and strong fundamental image recognition models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag2text-iclr2024"
+    }
+  ]
+}

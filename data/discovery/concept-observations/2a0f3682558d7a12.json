@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV2022] MOTR: End-to-End Multiple-Object Tracking with TRansformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "</div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "</div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-object-tracking",
+      "sense_id": "multi-object-tracking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multi-object-tracking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multi-object-tracking",
+  "observation_id": "2a0f3682558d7a12",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "multi-object-tracking",
+  "source_context_snippet": "</div>",
+  "source_file": null,
+  "source_repo": "megvii-research/MOTR",
+  "source_repo_description": "[ECCV2022] MOTR: End-to-End Multiple-Object Tracking with TRansformer"
+}

@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "target": "caryll/otfcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_font.yml",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_font.yml",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "target": "Build Fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:13.963123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2321
+    },
+    {
+      "path": ".github/workflows/build_font.yml",
+      "size": 3049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u6ce8\u97f3IVS\u5b57\u578b\u898f\u683c Bopomofo IVS Font Specification",
+    "fork": false,
+    "full_name": "ButTaiwan/bpmfvs",
+    "html_url": "https://github.com/ButTaiwan/bpmfvs",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-27T01:46:45Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-05-02T01:16:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caryll/otfcc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_font.yml",
+      "term": "Build Fonts"
+    }
+  ]
+}

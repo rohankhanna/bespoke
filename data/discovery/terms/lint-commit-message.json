@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/commit-msg.yml",
       "source_repo": "apache/incubator-devlake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint-commit-message.yml",
+      "source_repo": "element-plus/element-plus"
     }
   ],
   "term": "lint-commit-message"

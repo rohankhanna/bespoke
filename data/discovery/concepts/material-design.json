@@ -103,6 +103,18 @@
       "source_repo": "mui/material-ui",
       "status": "candidate-context",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate-context",
+      "text": "Material Design Extensions is based on Material Design in XAML Toolkit to provide additional controls and features for WPF apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "mui/material-ui",
       "status": "candidate",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiegelp/MaterialDesignExtensions",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "spiegelp/MaterialDesignExtensions"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

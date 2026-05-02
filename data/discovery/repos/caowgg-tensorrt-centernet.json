@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "star-clouds/centerface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "caowgg/mobilenetv2-centernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "lewes6369/tensorrt-yolov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "weisslj/cpp-optparse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:26.287246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tensorrt5 , centernet  , centerface, deform conv, int8",
+    "fork": false,
+    "full_name": "CaoWGG/TensorRT-CenterNet",
+    "html_url": "https://github.com/CaoWGG/TensorRT-CenterNet",
+    "language": "C++",
+    "pushed_at": "2022-10-26T01:03:46Z",
+    "stargazers_count": 770,
+    "topics": [],
+    "updated_at": "2026-03-20T11:44:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caowgg/mobilenetv2-centernet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewes6369/tensorrt-yolov3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "star-clouds/centerface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weisslj/cpp-optparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

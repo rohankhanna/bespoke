@@ -108,13 +108,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "obsidian-community/obsidian-style-settings",
-      "target": "nothingislost/pickr",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "obsidian-community/obsidian-style-settings",
@@ -290,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:52:30.425960+00:00",
+  "fetched_at": "2026-05-02T19:31:33.362209+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -315,21 +308,15 @@
     "html_url": "https://github.com/obsidian-community/obsidian-style-settings",
     "language": "TypeScript",
     "pushed_at": "2026-03-06T17:39:30Z",
-    "stargazers_count": 2174,
+    "stargazers_count": 2179,
     "topics": [
       "obsidian",
       "obsidian-md",
       "obsidian-plugin"
     ],
-    "updated_at": "2026-05-01T15:06:47Z"
+    "updated_at": "2026-05-02T12:43:29Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nothingislost/pickr",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release Obsidian plugin",

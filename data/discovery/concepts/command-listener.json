@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "command-listener"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holonix",
+      "status": "candidate-context",
+      "text": "Holochain app development environment based on Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holonix",
+      "status": "candidate-context",
+      "text": "command-listener"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holonix",
+      "status": "candidate",
+      "text": "command-listener"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "command-listener",
+  "concept_id": "command-listener",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/command-listener.yaml",
+      "source_repo": "holochain/holonix"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "command-listener",
+      "sense_id": "command-listener#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -253,13 +253,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "boxlite-ai/boxlite",
-      "target": "boxlite-labs/boxlite",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "boxlite-ai/boxlite",
@@ -582,7 +575,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:01:13.729438+00:00",
+  "fetched_at": "2026-05-02T19:29:38.590161+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -590,11 +583,11 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 969
+      "size": 951
     },
     {
       "path": "package.json",
-      "size": 1281
+      "size": 1267
     },
     {
       "path": ".github/workflows/README.md",
@@ -633,9 +626,9 @@
     "fork": false,
     "full_name": "boxlite-ai/boxlite",
     "html_url": "https://github.com/boxlite-ai/boxlite",
-    "language": "Rust",
-    "pushed_at": "2026-05-01T15:48:23Z",
-    "stargazers_count": 1880,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-02T14:30:23Z",
+    "stargazers_count": 1883,
     "topics": [
       "ai-agents",
       "containers",
@@ -644,15 +637,9 @@
       "serverless",
       "virtualization"
     ],
-    "updated_at": "2026-05-01T14:20:40Z"
+    "updated_at": "2026-05-02T13:56:18Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "boxlite-labs/boxlite",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build C SDK",

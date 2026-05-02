@@ -84,7 +84,7 @@
   "normalized_form": "continuous-integration",
   "observation_id": "1ace30e50a53320d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Continuous integration",
   "source_context_snippet": "Continuous integration",
   "source_file": ".github/workflows/ci.yml",

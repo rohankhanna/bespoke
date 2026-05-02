@@ -55,6 +55,30 @@
       "source_repo": "appwrite/sdk-for-deno",
       "status": "candidate-context",
       "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Flutter SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Node.js SDK \ud83d\udfe2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-flutter",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-node",
       "status": "candidate",
       "text": "Auto-close External Pull Requests"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/autoclose.yml",
       "source_repo": "appwrite/sdk-for-deno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-node"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

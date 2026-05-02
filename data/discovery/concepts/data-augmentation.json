@@ -115,6 +115,42 @@
       "source_repo": "dogyoonlee/RSMix",
       "status": "candidate-context",
       "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "Repo for \"Benchmarking Robustness of 3D Point Cloud Recognition against Common Corruptions\"  https://arxiv.org/abs/2201.12296"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "our code for paper 'PointCutMix: Regularization Strategy for Point Cloud Classification', Neurocomputing, 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate-context",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "dogyoonlee/RSMix",
       "status": "candidate",
       "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuge1995/PointCutMix",
+      "status": "candidate",
+      "text": "Created by [Zhang, Jinlai](https://github.com/cuge1995) and Chen, Lyujie and Ouyang, Bo and Liu, Binbin and Zhu, Jihong and Chen, Yujing and Meng, Yanmei and Wu, Danfeng."
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +370,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "dogyoonlee/RSMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jiachens/ModelNet40-C"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cuge1995/PointCutMix"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

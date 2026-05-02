@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml",
+      "source_repo": "davisking/dlib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cpp.yml",
+      "source_repo": "davisking/dlib",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cpp.yml",
+      "source_repo": "davisking/dlib",
+      "target": "C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "source_repo": "davisking/dlib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "source_repo": "davisking/dlib",
+      "target": "matlab-actions/setup-matlab@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "source_repo": "davisking/dlib",
+      "target": "matlab-actions/run-command@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "source_repo": "davisking/dlib",
+      "target": "Matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml",
+      "source_repo": "davisking/dlib",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml",
+      "source_repo": "davisking/dlib",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "dlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davisking/dlib",
+      "target": "machine-learning-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:54.293922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3535
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 113
+    },
+    {
+      "path": ".github/workflows/build_cpp.yml",
+      "size": 7533
+    },
+    {
+      "path": ".github/workflows/build_matlab.yml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/build_python.yml",
+      "size": 1666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toolkit for making real world machine learning and data analysis applications in C++",
+    "fork": false,
+    "full_name": "davisking/dlib",
+    "html_url": "https://github.com/davisking/dlib",
+    "language": "C++",
+    "pushed_at": "2026-04-25T16:13:49Z",
+    "stargazers_count": 14372,
+    "topics": [
+      "c-plus-plus",
+      "computer-vision",
+      "deep-learning",
+      "dlib",
+      "machine-learning",
+      "machine-learning-library",
+      "python"
+    ],
+    "updated_at": "2026-05-01T22:39:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cpp.yml",
+      "term": "C++"
+    },
+    {
+      "context_snippet": "Matlab",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_matlab.yml",
+      "term": "Matlab"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlib"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-library"
+    }
+  ]
+}

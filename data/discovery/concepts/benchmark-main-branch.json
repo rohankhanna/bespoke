@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark Main Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "The modern, community-first TypeScript toolkit with all of the fast, readable, and minimal utility functions you need. Type-safe, dependency-free, tree-shakeable, fully tested."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "Benchmark Main Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate",
+      "text": "Benchmark Main Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35517,
+      "status": "candidate",
+      "text": "feeder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35140,
+      "status": "candidate",
+      "text": "limb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35122,
+      "status": "candidate",
+      "text": "sessile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35117,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34740,
+      "status": "candidate",
+      "text": "log"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark Main Branch",
+  "concept_id": "benchmark-main-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/bench-main.yml",
+      "source_repo": "radashi-org/radashi"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Main Branch",
+      "sense_id": "benchmark-main-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "yinguobing/cnn-facial-landmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "tadasbaltrusaitis/openface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "facial-landmarks-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yinguobing/head-pose-estimation",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:57.304590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3034
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Realtime human head pose estimation with ONNXRuntime and OpenCV.",
+    "fork": false,
+    "full_name": "yinguobing/head-pose-estimation",
+    "html_url": "https://github.com/yinguobing/head-pose-estimation",
+    "language": "Python",
+    "pushed_at": "2024-09-02T09:14:02Z",
+    "stargazers_count": 1348,
+    "topics": [
+      "convolutional-neural-networks",
+      "deep-learning",
+      "facial-landmarks-detection",
+      "onnxruntime",
+      "opencv",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-02T12:39:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tadasbaltrusaitis/openface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yinguobing/cnn-facial-landmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-landmarks-detection"
+    },
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "Realtime human head pose estimation with ONNX Runtime and OpenCV.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

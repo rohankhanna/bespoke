@@ -199,6 +199,18 @@
       "source_repo": "ranisalt/node-argon2",
       "status": "candidate-context",
       "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "ranisalt/node-argon2",
       "status": "candidate",
       "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
     }
   ],
   "candidate_related_terms": [
@@ -474,11 +492,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jkroepke/helm-secrets"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

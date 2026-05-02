@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "deep-symmetry/java-beat-control-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "brunchboy/carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "DeLaGuardo/setup-clojure@13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "Deep-Symmetry/github-version-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "Create the executable \u00fcberjar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "dj-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "maxmsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "pioneer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/open-beat-control",
+      "target": "puredata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:42:25.949135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11462
+    },
+    {
+      "path": "package.json",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/uberjar.yml",
+      "size": 3219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provides a subset of beat-link features over Open Sound Control.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/open-beat-control",
+    "html_url": "https://github.com/Deep-Symmetry/open-beat-control",
+    "language": "Clojure",
+    "pushed_at": "2025-03-24T04:19:48Z",
+    "stargazers_count": 52,
+    "topics": [
+      "ableton-link",
+      "dj-link",
+      "maxmsp",
+      "osc",
+      "pioneer",
+      "puredata"
+    ],
+    "updated_at": "2026-04-09T03:27:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/carabiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/java-beat-control-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create the executable \u00fcberjar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "term": "Create the executable \u00fcberjar"
+    },
+    {
+      "context_snippet": "<img align=\"right\" alt=\"Open Beat Control logo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ableton-link"
+    },
+    {
+      "context_snippet": "<img align=\"right\" alt=\"Open Beat Control logo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dj-link"
+    },
+    {
+      "context_snippet": "<img align=\"right\" alt=\"Open Beat Control logo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxmsp"
+    },
+    {
+      "context_snippet": "<img align=\"right\" alt=\"Open Beat Control logo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pioneer"
+    },
+    {
+      "context_snippet": "<img align=\"right\" alt=\"Open Beat Control logo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puredata"
+    }
+  ]
+}

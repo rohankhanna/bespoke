@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Issue Close Require"
+    "Issue Close Require",
+    "\u23f1\ufe0f Issue Close Require"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -103,6 +104,18 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate-context",
       "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "SolidStart, the Solid app framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "\u23f1\ufe0f Issue Close Require"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +166,12 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate",
       "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate",
+      "text": "\u23f1\ufe0f Issue Close Require"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +407,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "solidjs/solid-start"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

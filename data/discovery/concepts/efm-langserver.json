@@ -19,6 +19,18 @@
       "source_repo": "creativenull/efmls-configs-nvim",
       "status": "candidate-context",
       "text": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "prettier, as a daemon, for improved formatting speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "creativenull/efmls-configs-nvim",
       "status": "candidate",
       "text": "<a href=\"https://dotfyle.com/plugins/creativenull/efmls-configs-nvim\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "creativenull/efmls-configs-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/prettierd"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

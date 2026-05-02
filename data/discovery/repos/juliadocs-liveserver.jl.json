@@ -58,13 +58,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/LiveServer.jl",
-      "target": "julialogging/loggingextras.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaDocs/LiveServer.jl",
@@ -184,7 +177,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:35:04.246377+00:00",
+  "fetched_at": "2026-05-02T18:40:01.534068+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,13 +215,7 @@
     ],
     "updated_at": "2025-12-07T18:23:38Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "julialogging/loggingextras.jl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "TagBot",

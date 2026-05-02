@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:43:57.066944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2849
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Application that works as a proxy between Native Messaging browser extension and KeePassXC",
+    "fork": false,
+    "full_name": "varjolintu/keepassxc-proxy-rust",
+    "html_url": "https://github.com/varjolintu/keepassxc-proxy-rust",
+    "language": "Rust",
+    "pushed_at": "2025-05-30T07:10:19Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-15T15:04:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

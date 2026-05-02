@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deepfill"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate-context",
+      "text": "DeepFill v1/v2 with Contextual Attention and Gated Convolution, CVPR 2018, and ICCV 2019 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate-context",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deepfill",
+  "concept_id": "deepfill",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepfill",
+      "sense_id": "deepfill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "taiki-e/install-action@83961fc0a2afe7f045535b5741d9a6418d7e1168",
+      "component": "taiki-e/install-action@787505cde8a44ea468a00478fe52baf23b15bccd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "component": "extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -96,12 +96,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/zizmor.yml"
     },
     {
-      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml"
     }
@@ -150,7 +150,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "taiki-e/install-action@83961fc0a2afe7f045535b5741d9a6418d7e1168",
+      "target": "taiki-e/install-action@787505cde8a44ea468a00478fe52baf23b15bccd",
       "target_type": "component"
     },
     {
@@ -164,7 +164,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
       "target_type": "component"
     },
     {
@@ -192,14 +192,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "target": "extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -220,14 +220,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/init@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/analyze@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -276,11 +276,11 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T13:38:14.886209+00:00",
+  "fetched_at": "2026-05-02T19:32:56.414140+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,7 +292,7 @@
     },
     {
       "path": ".github/workflows/audit.yml",
-      "size": 2249
+      "size": 2250
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -324,10 +324,10 @@
     "full_name": "GitoxideLabs/cargo-smart-release",
     "html_url": "https://github.com/GitoxideLabs/cargo-smart-release",
     "language": "Rust",
-    "pushed_at": "2026-04-24T15:07:11Z",
+    "pushed_at": "2026-05-01T23:24:57Z",
     "stargazers_count": 118,
     "topics": [],
-    "updated_at": "2026-04-24T15:07:15Z"
+    "updated_at": "2026-05-01T23:24:59Z"
   },
   "repo_links": [
     {

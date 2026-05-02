@@ -733,6 +733,150 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "Plotting for Julia based on matplotlib.pyplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "Conda managing Julia binary dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "AD-backend agnostic system defining custom forward and reverse mode rules. This is the light weight core to allow you to define rules for your functions in your packages, without depending on any particular AD system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"https://rawcdn.githack.com/JuliaDiff/ChainRulesCore.jl/b0b8dbf26807f8f6bc1a3c073b6720b8d90a8cd4/docs/src/assets/logo.svg\" width=\"256\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate-context",
+      "text": "forward and reverse mode automatic differentiation primitives for Julia Base + StdLibs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"https://rawcdn.githack.com/JuliaDiff/ChainRulesCore.jl/b0b8dbf26807f8f6bc1a3c073b6720b8d90a8cd4/docs/src/assets/logo.svg\" width=\"256\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate-context",
+      "text": "Meta-package for Reduce.jl and External Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate-context",
+      "text": "import code from IJulia Jupyter notebooks into Julia programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaInterop/NBInclude.jl/workflows/CI/badge.svg)](https://github.com/JuliaInterop/NBInclude.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial on Julia DataFrames package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "Flux Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the Voyager data exploration tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "An Electron.jl based figure and table display."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
     }
   ],
   "candidate_glosses": [
@@ -1101,6 +1245,78 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyPlot.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaPy/PyPlot.jl/workflows/CI/badge.svg)](https://github.com/JuliaPy/PyPlot.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Conda.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/ModelingToolkit.jl",
+      "status": "candidate",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRulesCore.jl",
+      "status": "candidate",
+      "text": "<img src=\"https://rawcdn.githack.com/JuliaDiff/ChainRulesCore.jl/b0b8dbf26807f8f6bc1a3c073b6720b8d90a8cd4/docs/src/assets/logo.svg\" width=\"256\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate",
+      "text": "<img src=\"https://rawcdn.githack.com/JuliaDiff/ChainRulesCore.jl/b0b8dbf26807f8f6bc1a3c073b6720b8d90a8cd4/docs/src/assets/logo.svg\" width=\"256\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/NBInclude.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaInterop/NBInclude.jl/workflows/CI/badge.svg)](https://github.com/JuliaInterop/NBInclude.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
     }
   ],
   "candidate_related_terms": [
@@ -1558,11 +1774,101 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "JuliaImGui/CImGui.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyPlot.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "SciML/ModelingToolkit.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ChainRulesCore.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ChainRules.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceAlgebra.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/DataVoyager.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/ElectronDisplay.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

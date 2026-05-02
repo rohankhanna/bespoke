@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "decompressor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "Decompressors for hyparquet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate-context",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-compressors",
+      "status": "candidate",
+      "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958207,
+      "status": "candidate",
+      "text": "decompression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958206,
+      "status": "candidate",
+      "text": "desaturator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958205,
+      "status": "candidate",
+      "text": "decolorizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958204,
+      "status": "candidate",
+      "text": "depolymerizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958203,
+      "status": "candidate",
+      "text": "diluent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "decompressor",
+  "concept_id": "decompressor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet-compressors"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decompressor",
+      "sense_id": "decompressor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

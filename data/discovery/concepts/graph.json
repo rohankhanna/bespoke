@@ -259,6 +259,18 @@
       "source_repo": "logseq/logseq",
       "status": "candidate-context",
       "text": "<!-- logo -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "it's like Rainmeter, but for CLI!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "logseq/logseq",
       "status": "candidate",
       "text": "<!-- logo -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creaktive/rainbarf",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
     }
   ],
   "candidate_related_terms": [
@@ -594,11 +612,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "creaktive/rainbarf"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

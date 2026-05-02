@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "intellabs/intelneuromorphicdnschallenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "microsoft/dns-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "michaeljurado42/spandex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "necotis/intelneuromorphicdnschallenge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:21.803281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35342
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "THIS REPOSITORY IS A FORK OF THE ORIGINAL REPOSITORY AT: https://github.com/IntelLabs/IntelNeuromorphicDNSChallenge You might want to check out the official Intel test dataset; here is a backup: https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge/releases/tag/dataset-v1.0",
+    "fork": false,
+    "full_name": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+    "html_url": "https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-28T04:17:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-28T04:17:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intellabs/intelneuromorphicdnschallenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaeljurado42/spandex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/dns-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "necotis/intelneuromorphicdnschallenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

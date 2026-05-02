@@ -19,6 +19,42 @@
       "source_repo": "sh1ma/voicevoxcore.go",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate-context",
+      "text": "voicevox_core swift wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate-context",
+      "text": "Unofficial Swift wrapper for voicevox_core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate-context",
+      "text": "voicevox_engine\u306eC#\u5b9f\u88c5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate-context",
+      "text": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "sh1ma/voicevoxcore.go",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate",
+      "text": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSwift",
+      "status": "candidate",
+      "text": "Unofficial Swift wrapper for voicevox_core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate",
+      "text": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "sh1ma/voicevoxcore.go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxEngineSharp"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

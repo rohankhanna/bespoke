@@ -67,6 +67,18 @@
       "source_repo": "peerigon/extract-loader",
       "status": "candidate-context",
       "text": "extract-loader"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "CSS Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "peerigon/extract-loader",
       "status": "candidate",
       "text": "extract-loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/css-loader",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "peerigon/extract-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "webpack/css-loader"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

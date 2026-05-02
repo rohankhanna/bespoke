@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snippets_checks.yml",
+      "source_repo": "ARMmbed/mbed-os-5-docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snippets_checks.yml",
+      "source_repo": "ARMmbed/mbed-os-5-docs",
+      "target": "Snippets Checks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "ARMmbed/mbed-os-5-docs"
+}

@@ -9,6 +9,27 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "camel-ai/social-simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "camel-ai/social-simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "zhangzaibin/camel-llama3",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube",
@@ -65,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:00:47.242367+00:00",
+  "fetched_at": "2026-05-02T19:40:05.142502+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -104,8 +125,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
+      "full_name": "camel-ai/social-simulation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "yiyiyi0817/cube",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camel-ai/social-simulation",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangzaibin/camel-llama3",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

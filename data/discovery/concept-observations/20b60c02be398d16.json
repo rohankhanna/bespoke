@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "forward and reverse mode automatic differentiation primitives for Julia Base + StdLibs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "IntegrationTest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "IntegrationTest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "IntegrationTest",
+      "sense_id": "integrationtest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integrationtest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integrationtest",
+  "observation_id": "20b60c02be398d16",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "IntegrationTest",
+  "source_context_snippet": "IntegrationTest",
+  "source_file": ".github/workflows/IntegrationTest.yml",
+  "source_repo": "JuliaDiff/ChainRules.jl",
+  "source_repo_description": "forward and reverse mode automatic differentiation primitives for Julia Base + StdLibs"
+}

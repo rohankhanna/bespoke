@@ -115,6 +115,18 @@
       "source_repo": "HumanSignal/labelImg",
       "status": "candidate-context",
       "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate-context",
+      "text": "Open-Source Large Vocabulary Continuous Speech Recognition Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate-context",
+      "text": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "HumanSignal/labelImg",
       "status": "candidate",
       "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julius-speech/julius",
+      "status": "candidate",
+      "text": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "julius-speech/julius"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

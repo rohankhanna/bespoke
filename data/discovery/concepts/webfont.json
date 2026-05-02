@@ -19,6 +19,18 @@
       "source_repo": "FortAwesome/Font-Awesome",
       "status": "candidate-context",
       "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate-context",
+      "text": "Optimised version of the MFizz icon font."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate-context",
+      "text": "MFixx: Fixed MFizz icons"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FortAwesome/Font-Awesome",
       "status": "candidate",
       "text": "<h1><img src=\"https://img.fortawesome.com/349cfdf6/fa-free-logo.svg\" alt=\"Font Awesome Free\" width=\"50%\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/MFixx",
+      "status": "candidate",
+      "text": "MFixx: Fixed MFizz icons"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "FortAwesome/Font-Awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "file-icons/MFixx"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

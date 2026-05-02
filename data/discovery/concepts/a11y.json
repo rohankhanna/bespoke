@@ -55,6 +55,30 @@
       "source_repo": "blindpandas/chessmart",
       "status": "candidate-context",
       "text": "Build add-on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JavaScript. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "MathJax source code for version 3 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "blindpandas/chessmart",
       "status": "candidate",
       "text": "Build add-on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate",
+      "text": "![GitHub release version](https://img.shields.io/github/v/release/mathjax/MathJax-src.svg?sort=semver)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "blindpandas/chessmart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax-src"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

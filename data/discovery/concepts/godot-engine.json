@@ -19,6 +19,18 @@
       "source_repo": "virtual-puppet-project/vpuppr",
       "status": "candidate-context",
       "text": "VTuber software made with Godot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "A curated list of free/libre plugins, scripts and add-ons for Godot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "virtual-puppet-project/vpuppr",
       "status": "candidate",
       "text": "VTuber software made with Godot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "virtual-puppet-project/vpuppr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

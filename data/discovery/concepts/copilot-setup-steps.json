@@ -752,6 +752,30 @@
       "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "\u26a1 High-performance Vue language tooling based-on Volar.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nitrojs/nitro",
+      "status": "candidate-context",
+      "text": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitrojs/nitro",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -1124,6 +1148,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitrojs/nitro",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
     }
@@ -1565,11 +1601,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "nitrojs/nitro"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

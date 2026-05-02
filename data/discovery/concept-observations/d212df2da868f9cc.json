@@ -84,7 +84,7 @@
   "normalized_form": "browser-tests",
   "observation_id": "d212df2da868f9cc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Browser Tests",
   "source_context_snippet": "Browser Tests",
   "source_file": ".github/workflows/browser-test.yml",

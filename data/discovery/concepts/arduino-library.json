@@ -91,6 +91,66 @@
       "source_repo": "adafruit/Adafruit_Sensor",
       "status": "candidate-context",
       "text": "Many small embedded systems exist to collect data from sensors, analyse the data, and either take an appropriate action or send that sensor data to another system for processing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate-context",
+      "text": "Arduino library for I2C & SPI abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate-context",
+      "text": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate-context",
+      "text": "Unified driver for the ADXL345 Accelerometer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate-context",
+      "text": "This driver is for the Adafruit ADXL345 Breakout (http://www.adafruit.com/products/1231), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate-context",
+      "text": "Unified sensor driver for Adafruit's BMP085 & BMP180 breakouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate-context",
+      "text": "This driver is for the Adafruit BMP085 Breakout (http://www.adafruit.com/products/391) or BMP180 breakout (http://www.adafruit.com/products/1603), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate-context",
+      "text": "Arduino library for the BMP183 sensors in the Adafruit shop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate-context",
+      "text": "This is a library for our Adafruit BMP183 SPI Barometric Pressure & Altitude Sensor and it's based on [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "status": "candidate-context",
+      "text": "Unified sensor driver for the Adafruit BNO055 orientation sensor breakout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "status": "candidate-context",
+      "text": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "adafruit/Adafruit_Sensor",
       "status": "candidate",
       "text": "Many small embedded systems exist to collect data from sensors, analyse the data, and either take an appropriate action or send that sensor data to another system for processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BusIO",
+      "status": "candidate",
+      "text": "This is a helper library to abstract away I2C, SPI, and 'generic transport' (e.g. UART) transactions and registers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_ADXL345",
+      "status": "candidate",
+      "text": "This driver is for the Adafruit ADXL345 Breakout (http://www.adafruit.com/products/1231), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP085_Unified",
+      "status": "candidate",
+      "text": "This driver is for the Adafruit BMP085 Breakout (http://www.adafruit.com/products/391) or BMP180 breakout (http://www.adafruit.com/products/1603), and is based on Adafruit's Unified Sensor Library (Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library",
+      "status": "candidate",
+      "text": "This is a library for our Adafruit BMP183 SPI Barometric Pressure & Altitude Sensor and it's based on [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "status": "candidate",
+      "text": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +274,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "adafruit/Adafruit_Sensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BusIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_ADXL345"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BMP085_Unified"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BMP183_Unified_Library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BNO055"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

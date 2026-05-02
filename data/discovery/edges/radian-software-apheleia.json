@@ -15,20 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "radian-software/apheleia",
-      "target": "prettier/prettier-emacs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "radian-software/apheleia",
-      "target": "radian-software/contributor-guide",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatters.yml",
       "source_repo": "radian-software/apheleia",
@@ -57,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "radian-software/apheleia"
 }

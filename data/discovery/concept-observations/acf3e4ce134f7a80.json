@@ -48,7 +48,7 @@
   "normalized_form": "coverage-report",
   "observation_id": "acf3e4ce134f7a80",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "coverage-report",
   "source_context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
   "source_file": null,

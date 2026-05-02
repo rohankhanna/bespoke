@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adds admonition block-styled content to Obsidian.md "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Admonition plugin for Obsidian is a tool that allows you to create attention-grabbing callouts, tips, warnings and other informative blocks within your notes. The plugin provides a range of pre-defined icons to pick from, as well as the ability to create your own custom styl\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Admonition plugin for Obsidian is a tool that allows you to create attention-grabbing callouts, tips, warnings and other informative blocks within your notes. The plugin provides a range of pre-defined icons to pick from, as well as the ability to create your own custom styl\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-plugin",
+      "sense_id": "obsidian-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-plugin",
+  "observation_id": "1aa0fc664f7bf822",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "obsidian-plugin",
+  "source_context_snippet": "The Admonition plugin for Obsidian is a tool that allows you to create attention-grabbing callouts, tips, warnings and other informative blocks within your notes. The plugin provides a range of pre-defined icons to pick from, as well as the ability to create your own custom styl\u2026",
+  "source_file": null,
+  "source_repo": "ebullient/obsidian-admonition",
+  "source_repo_description": "Adds admonition block-styled content to Obsidian.md "
+}

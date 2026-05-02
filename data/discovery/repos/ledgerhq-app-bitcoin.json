@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_guidelines_enforcer.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines_enforcer.yml"
+    },
+    {
+      "component": "LedgerHQ/app-exchange/.github/workflows/reusable_swap_functional_tests.yml@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swap-ci-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "ledgerhq/app-bitcoin-new.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_guidelines_enforcer.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "Ensure compliance with Ledger guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/app-exchange/.github/workflows/reusable_swap_functional_tests.yml@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "Swap functional tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:56.006851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5451
+    },
+    {
+      "path": ".github/workflows/build_and_functional_tests.yml",
+      "size": 1638
+    },
+    {
+      "path": ".github/workflows/guidelines_enforcer.yml",
+      "size": 708
+    },
+    {
+      "path": ".github/workflows/swap-ci-workflow.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Legacy Bitcoin wallet application for Ledger devices",
+    "fork": false,
+    "full_name": "LedgerHQ/app-bitcoin",
+    "html_url": "https://github.com/LedgerHQ/app-bitcoin",
+    "language": "Python",
+    "pushed_at": "2026-04-22T14:12:12Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-04-20T13:17:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/app-bitcoin-new.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ensure compliance with Ledger guidelines",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "term": "Ensure compliance with Ledger guidelines"
+    },
+    {
+      "context_snippet": "Swap functional tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "term": "Swap functional tests"
+    }
+  ]
+}

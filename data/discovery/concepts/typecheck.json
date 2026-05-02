@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Typecheck",
-    "typecheck"
+    "typecheck",
+    "\ud83e\uddea Typecheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -82,6 +83,18 @@
       "source_repo": "simplecov-ruby/simplecov-html",
       "status": "candidate-context",
       "text": "typecheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "SolidStart, the Solid app framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Typecheck"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +133,12 @@
       "source_repo": "simplecov-ruby/simplecov-html",
       "status": "candidate",
       "text": "typecheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-start",
+      "status": "candidate",
+      "text": "\ud83e\uddea Typecheck"
     }
   ],
   "candidate_related_terms": [
@@ -157,6 +176,27 @@
       "score": 24997,
       "status": "candidate",
       "text": "lint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "dynamic typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "type inference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "untypecheck"
     }
   ],
   "candidate_synonyms": [],
@@ -199,11 +239,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/typecheck.yml",
       "source_repo": "simplecov-ruby/simplecov-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "solidjs/solid-start"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "simplecov-ruby/simplecov"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

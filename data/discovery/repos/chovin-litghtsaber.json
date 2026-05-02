@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "osc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chovin/Litghtsaber",
+      "target": "osc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chovin/Litghtsaber",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Chovin/Litghtsaber",
+      "target": "ws",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:38:40.467928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6014
+    },
+    {
+      "path": "package.json",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "little PICO-8 game made for a couple events",
+    "fork": false,
+    "full_name": "Chovin/Litghtsaber",
+    "html_url": "https://github.com/Chovin/Litghtsaber",
+    "language": "Lua",
+    "pushed_at": "2025-04-18T06:55:06Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-04T22:29:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

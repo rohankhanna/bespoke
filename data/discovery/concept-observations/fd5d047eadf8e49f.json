@@ -48,7 +48,7 @@
   "normalized_form": "openai-whisper",
   "observation_id": "fd5d047eadf8e49f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "openai-whisper",
   "source_context_snippet": "Python bindings for [whisper.cpp](https://github.com/ggerganov/whisper.cpp) with a simple Pythonic API on top of it.",
   "source_file": null,

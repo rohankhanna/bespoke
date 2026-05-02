@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
-      "target": "deep-symmetry/ola-clojure",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/afterglow",
-      "target": "derekcook/coremidi4j",
+      "target": "aamedina/tools.usb",
       "target_type": "repository"
     },
     {
@@ -19,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
       "target": "d0kt0r0/espgrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "flatland/lein-protobuf",
       "target_type": "repository"
     },
     {
@@ -148,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "Deep-Symmetry/afterglow"
 }

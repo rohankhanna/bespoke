@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-mcp-command-generator",
+      "target": "danielrosehill/claude-code-linux-notes",
       "target_type": "repository"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-plugin",
+      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T06:57:47.411241+00:00",
+  "fetched_at": "2026-05-02T19:39:00.983217+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-04-30T21:46:51Z",
-    "stargazers_count": 434,
+    "stargazers_count": 437,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-01T23:18:54Z"
+    "updated_at": "2026-05-02T15:17:38Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-mcp-command-generator",
+      "full_name": "danielrosehill/claude-code-linux-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-marketplace",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-code-mcp-list",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-plugin",
       "source_file": "README.md"
     }
   ],

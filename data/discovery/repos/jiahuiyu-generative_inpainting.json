@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "jiahuiyu/neuralgym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "attention-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "deepfill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "image-inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiahuiYu/generative_inpainting",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:33:12.457520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DeepFill v1/v2 with Contextual Attention and Gated Convolution, CVPR 2018, and ICCV 2019 Oral",
+    "fork": false,
+    "full_name": "JiahuiYu/generative_inpainting",
+    "html_url": "https://github.com/JiahuiYu/generative_inpainting",
+    "language": "Python",
+    "pushed_at": "2024-06-27T08:18:38Z",
+    "stargazers_count": 3458,
+    "topics": [
+      "attention-model",
+      "deep-neural-networks",
+      "deepfill",
+      "generative-adversarial-network",
+      "image-inpainting",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-14T06:51:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiahuiyu/neuralgym",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-model"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepfill"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-inpainting"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

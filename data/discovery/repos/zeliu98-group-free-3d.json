@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeliu98/Group-Free-3D",
+      "target": "jgwak/gsdn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeliu98/Group-Free-3D",
+      "target": "francisengelmann/3d-mpa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeliu98/Group-Free-3D",
+      "target": "nuaaxq/mlcvnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeliu98/Group-Free-3D",
+      "target": "facebookresearch/imvotenet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:51.586698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Group-Free 3D Object Detection via Transformers",
+    "fork": false,
+    "full_name": "zeliu98/Group-Free-3D",
+    "html_url": "https://github.com/zeliu98/Group-Free-3D",
+    "language": "Python",
+    "pushed_at": "2021-06-02T06:17:45Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-04-18T15:22:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/imvotenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "francisengelmann/3d-mpa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgwak/gsdn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuaaxq/mlcvnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

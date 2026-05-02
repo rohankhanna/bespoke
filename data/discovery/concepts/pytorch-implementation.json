@@ -127,6 +127,30 @@
       "source_repo": "EricGuo5513/text-to-motion",
       "status": "candidate-context",
       "text": "![teaser_image](https://github.com/EricGuo5513/text-to-motion/blob/main/docs/teaser_image.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] FaceFormer: Speech-Driven 3D Facial Animation with Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate-context",
+      "text": "SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate-context",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "EricGuo5513/text-to-motion",
       "status": "candidate",
       "text": "![teaser_image](https://github.com/EricGuo5513/text-to-motion/blob/main/docs/teaser_image.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EvelynFan/FaceFormer",
+      "status": "candidate",
+      "text": "PyTorch implementation for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blakechen97/SASA",
+      "status": "candidate",
+      "text": "By Chen Chen, Zhe Chen, Jing Zhang, and Dacheng Tao"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "EricGuo5513/text-to-motion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "EvelynFan/FaceFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "blakechen97/SASA"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

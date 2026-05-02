@@ -961,6 +961,18 @@
       "source_repo": "CITGuru/PyInquirer",
       "status": "candidate-context",
       "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "A simple, zero-configuration, command-line http server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
     }
   ],
   "candidate_glosses": [
@@ -1437,6 +1449,12 @@
       "source_repo": "CITGuru/PyInquirer",
       "status": "candidate",
       "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -2058,11 +2076,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem/dat"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

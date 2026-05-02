@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:46:48.739419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Implementation of MVSNet",
+    "fork": false,
+    "full_name": "xy-guo/MVSNet_pytorch",
+    "html_url": "https://github.com/xy-guo/MVSNet_pytorch",
+    "language": "Python",
+    "pushed_at": "2022-05-11T17:16:07Z",
+    "stargazers_count": 680,
+    "topics": [],
+    "updated_at": "2026-04-23T09:28:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

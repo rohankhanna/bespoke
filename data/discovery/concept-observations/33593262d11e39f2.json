@@ -84,7 +84,7 @@
   "normalized_form": "main-ci",
   "observation_id": "33593262d11e39f2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Main CI",
   "source_context_snippet": "Main CI",
   "source_file": ".github/workflows/CI.yml",

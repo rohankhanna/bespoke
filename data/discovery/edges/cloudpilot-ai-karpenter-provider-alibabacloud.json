@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "ko-build/setup-ko@v0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "Latest image build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "Pre-submit check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "Publish Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "ko-build/setup-ko@v0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "Release image build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "alibabacloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "alicloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "aliyun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "autoscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "clusterautoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "finops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "karpenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/dotfiles",
+      "target": "antfu/vscode-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/dotfiles",
+      "target": "antfu/ts-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/dotfiles",
+      "target": "antfu/vitesse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:29:20.600461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My dotfiles",
+    "fork": false,
+    "full_name": "antfu/dotfiles",
+    "html_url": "https://github.com/antfu/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2022-04-04T20:47:25Z",
+    "stargazers_count": 287,
+    "topics": [],
+    "updated_at": "2026-03-19T15:26:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/ts-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vitesse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vscode-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

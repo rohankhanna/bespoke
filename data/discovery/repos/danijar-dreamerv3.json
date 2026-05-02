@@ -1,0 +1,134 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danijar/dreamerv3",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "danijar/dreamerv3",
+      "target": "danijar/minerl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3",
+      "target": "general",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danijar/dreamerv3",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:02.811671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4590
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1656
+    },
+    {
+      "path": "requirements.txt",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mastering Diverse Domains through World Models",
+    "fork": false,
+    "full_name": "danijar/dreamerv3",
+    "html_url": "https://github.com/danijar/dreamerv3",
+    "language": "Python",
+    "pushed_at": "2025-09-23T18:25:06Z",
+    "stargazers_count": 3165,
+    "topics": [
+      "artificial-intelligence",
+      "general",
+      "jax",
+      "minecraft",
+      "reinforcement-learning",
+      "world-models"
+    ],
+    "updated_at": "2026-05-02T16:13:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danijar/minerl",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "general"
+    },
+    {
+      "context_snippet": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    },
+    {
+      "context_snippet": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "A reimplementation of [DreamerV3][paper], a scalable and general reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "Comfy-Org/publish-node-action@main",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "WASasquatch/FreeU_Advanced"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_registry.yml",
+      "source_repo": "if-ai/ComfyUI-IF_MemoAvatar"
     }
   ]
 }

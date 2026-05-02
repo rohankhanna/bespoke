@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/HA-Shabbat-Dashboard-0125",
+      "target": "idodov/redalert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:34.332455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple designed Home Assistant dashboard for Shabbat / Yom Tov times",
+    "fork": false,
+    "full_name": "danielrosehill/HA-Shabbat-Dashboard-0125",
+    "html_url": "https://github.com/danielrosehill/HA-Shabbat-Dashboard-0125",
+    "language": null,
+    "pushed_at": "2025-01-31T15:37:33Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-08T10:57:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idodov/redalert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

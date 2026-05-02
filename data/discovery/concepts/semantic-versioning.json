@@ -43,6 +43,18 @@
       "source_repo": "uael/sv",
       "status": "candidate-context",
       "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your project versions and its upgrades according to the Semantic Versioning specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate-context",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "uael/sv",
       "status": "candidate",
       "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maykonlsf/semver-cli",
+      "status": "candidate",
+      "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "uael/sv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "maykonlsf/semver-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

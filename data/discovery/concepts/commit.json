@@ -226,6 +226,18 @@
       "source_repo": "pisa-engine/pisa",
       "status": "candidate-context",
       "text": "Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate-context",
+      "text": "Rust crates for XetHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate-context",
+      "text": "commit"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "pisa-engine/pisa",
       "status": "candidate",
       "text": "Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xetdata/xet-core",
+      "status": "candidate",
+      "text": "commit"
     }
   ],
   "candidate_related_terms": [
@@ -655,11 +673,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/commit.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "xetdata/xet-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "TrigenSoftware/simple-release"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

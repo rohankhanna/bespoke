@@ -674,6 +674,30 @@
       "source_repo": "nim-lang/nimble",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oss-rebuild",
+      "status": "candidate-context",
+      "text": "Securing open-source package ecosystems by originating, validating, and augmenting build attestations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-rebuild",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-cool/issues-helper",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A GitHub Action easily helps you automatically manage issues. Welcome to try."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/issues-helper",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -1004,6 +1028,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nim-lang/nimble",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oss-rebuild",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/issues-helper",
       "status": "candidate",
       "text": "GitHub Pages"
     }
@@ -1535,11 +1571,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "google/oss-rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "actions-cool/issues-helper"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

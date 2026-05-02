@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build documentation for offline usage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Godot Engine official documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Build documentation for offline usage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate",
+      "text": "Build documentation for offline usage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32166,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32087,
+      "status": "candidate",
+      "text": "aiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32087,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32087,
+      "status": "candidate",
+      "text": "screw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32087,
+      "status": "candidate",
+      "text": "screwed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build documentation for offline usage",
+  "concept_id": "build-documentation-for-offline-usage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build_offline_docs.yml",
+      "source_repo": "godotengine/godot-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build documentation for offline usage",
+      "sense_id": "build-documentation-for-offline-usage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

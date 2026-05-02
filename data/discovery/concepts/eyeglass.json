@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "eyeglass"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate-context",
+      "text": "NPM Modules for Sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate-context",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034307,
+      "status": "candidate",
+      "text": "monocle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034711,
+      "status": "candidate",
+      "text": "pair of eyeglasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034710,
+      "status": "candidate",
+      "text": "pair of glasses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034709,
+      "status": "candidate",
+      "text": "pair of spectacles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034708,
+      "status": "candidate",
+      "text": "spectacles"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "monocle"
+    }
+  ],
+  "canonical_name": "eyeglass",
+  "concept_id": "eyeglass",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "linkedin/eyeglass"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eyeglass",
+      "sense_id": "eyeglass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

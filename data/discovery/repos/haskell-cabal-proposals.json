@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:32:06.817708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cabal proposals",
+    "fork": false,
+    "full_name": "haskell/cabal-proposals",
+    "html_url": "https://github.com/haskell/cabal-proposals",
+    "language": null,
+    "pushed_at": "2025-11-10T10:17:18Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-11-10T10:17:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

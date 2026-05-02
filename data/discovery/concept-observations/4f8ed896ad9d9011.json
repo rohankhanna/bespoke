@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sound-processing",
+      "sense_id": "sound-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sound-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sound-processing",
+  "observation_id": "4f8ed896ad9d9011",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "sound-processing",
+  "source_context_snippet": "![torch-audiomentations](images/torch_audiomentations_logo.png)",
+  "source_file": null,
+  "source_repo": "iver56/torch-audiomentations",
+  "source_repo_description": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+}

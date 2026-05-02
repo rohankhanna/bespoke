@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "mpeggroup/mpeg-pcc-tmc13",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "fatpeter/mini-splatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "salmanali96/trimming-the-fat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "fab-jul/torchac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "3dgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YihangChen-ee/FCGS",
+      "target": "optimization-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:30.698357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":rocket:  [ICLR 2025] Pytorch implementation of 'Fast Feedforward 3D Gaussian Splatting Compression'",
+    "fork": false,
+    "full_name": "YihangChen-ee/FCGS",
+    "html_url": "https://github.com/YihangChen-ee/FCGS",
+    "language": "Python",
+    "pushed_at": "2025-11-09T01:55:33Z",
+    "stargazers_count": 233,
+    "topics": [
+      "3dgs",
+      "compression",
+      "fast",
+      "optimization-free"
+    ],
+    "updated_at": "2026-05-01T02:48:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fab-jul/torchac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatpeter/mini-splatting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpeggroup/mpeg-pcc-tmc13",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salmanali96/trimming-the-fat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dgs"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization-free"
+    }
+  ]
+}

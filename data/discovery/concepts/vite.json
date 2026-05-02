@@ -439,6 +439,30 @@
       "source_repo": "unplugin/unplugin-icons",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown with Vue for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown for Vite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate-context",
+      "text": "Compiling Ember apps into spec-compliant, modern Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions CI][github-actions-badge]][github-actions-ci-url]"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "unplugin/unplugin-icons",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate",
+      "text": "Markdown for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/embroider",
+      "status": "candidate",
+      "text": "[![GitHub Actions CI][github-actions-badge]][github-actions-ci-url]"
     }
   ],
   "candidate_related_terms": [
@@ -964,11 +1000,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vite-plugin-md"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/embroider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

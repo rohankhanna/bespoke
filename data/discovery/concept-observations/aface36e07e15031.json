@@ -84,7 +84,7 @@
   "normalized_form": "deploy-to-cloud-run",
   "observation_id": "aface36e07e15031",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Deploy to Cloud Run",
   "source_context_snippet": "Deploy to Cloud Run",
   "source_file": ".github/workflows/deploy-to-cloudrun.yml",

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "renovate-config-validator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "lintnet module for ghalint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate-context",
+      "text": "renovate-config-validator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to fix code securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "renovate-config-validator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lintnet-modules/ghalint",
+      "status": "candidate",
+      "text": "renovate-config-validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate",
+      "text": "renovate-config-validator"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "renovate-config-validator",
+  "concept_id": "renovate-config-validator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/wc-renovate-config-validator.yaml",
+      "source_repo": "lintnet-modules/ghalint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/renovate-config-validator.yaml",
+      "source_repo": "csm-actions/securefix-action"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "renovate-config-validator",
+      "sense_id": "renovate-config-validator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

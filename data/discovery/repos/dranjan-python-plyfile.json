@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-doc-preview.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-doc-preview.yml",
+      "source_repo": "dranjan/python-plyfile",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-doc-preview.yml",
+      "source_repo": "dranjan/python-plyfile",
+      "target": "Documentation Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "dranjan/python-plyfile",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "dranjan/python-plyfile",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "dranjan/python-plyfile",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dranjan/python-plyfile",
+      "target": "numeric-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dranjan/python-plyfile",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dranjan/python-plyfile",
+      "target": "ply-files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:37.168488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1144
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1575
+    },
+    {
+      "path": ".github/workflows/pull-request-doc-preview.yml",
+      "size": 314
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NumPy-based text/binary PLY file reader/writer for Python",
+    "fork": false,
+    "full_name": "dranjan/python-plyfile",
+    "html_url": "https://github.com/dranjan/python-plyfile",
+    "language": "Python",
+    "pushed_at": "2025-10-22T01:58:49Z",
+    "stargazers_count": 514,
+    "topics": [
+      "numeric-data",
+      "numpy",
+      "ply-files",
+      "python"
+    ],
+    "updated_at": "2026-04-03T01:20:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-doc-preview.yml",
+      "term": "Documentation Preview"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numeric-data"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ply-files"
+    }
+  ]
+}

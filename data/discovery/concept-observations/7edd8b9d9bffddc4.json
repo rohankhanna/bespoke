@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voicevox",
+      "sense_id": "voicevox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "voicevox",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "voicevox",
+  "observation_id": "7edd8b9d9bffddc4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "voicevox",
+  "source_context_snippet": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002",
+  "source_file": null,
+  "source_repo": "yamachu/VoicevoxCoreSharp",
+  "source_repo_description": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+}

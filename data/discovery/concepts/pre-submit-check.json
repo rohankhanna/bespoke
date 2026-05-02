@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Pre-submit check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Pre-submit check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "Google Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "Pre-submit check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate",
+      "text": "Pre-submit check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate",
+      "text": "Pre-submit check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pre-submit check",
+  "concept_id": "pre-submit-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pre-submit check",
+      "sense_id": "pre-submit-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

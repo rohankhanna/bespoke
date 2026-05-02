@@ -139,6 +139,30 @@
       "source_repo": "http-kit/http-kit",
       "status": "candidate-context",
       "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "A simple, zero-configuration, command-line http server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "http-kit/http-kit",
       "status": "candidate",
       "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate",
+      "text": "Hypercorn"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "http-kit/http-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

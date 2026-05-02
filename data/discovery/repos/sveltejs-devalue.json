@@ -90,7 +90,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sveltejs/devalue",
-      "target": "marcello3d/node-tosource",
+      "target": "mathiasbynens/jsesc",
       "target_type": "repository"
     },
     {
@@ -206,7 +206,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:46:28.947563+00:00",
+  "fetched_at": "2026-05-02T18:41:20.523138+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,7 +257,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "marcello3d/node-tosource",
+      "full_name": "mathiasbynens/jsesc",
       "source_file": "README.md"
     }
   ],

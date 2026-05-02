@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929459,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919079,
+      "status": "candidate",
+      "text": "clamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29875131,
+      "status": "candidate",
+      "text": "compression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865066,
+      "status": "candidate",
+      "text": "compressional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29864389,
+      "status": "candidate",
+      "text": "compressive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compressor",
+      "sense_id": "compressor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compressor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compressor",
+  "observation_id": "9b731f41ef03b036",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "compressor",
+  "source_context_snippet": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>",
+  "source_file": null,
+  "source_repo": "terser/terser",
+  "source_repo_description": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+}

@@ -238,7 +238,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:39:15.881517+00:00",
+  "fetched_at": "2026-05-02T18:42:31.225712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -291,7 +291,7 @@
     "html_url": "https://github.com/catchorg/Catch2",
     "language": "C++",
     "pushed_at": "2026-04-27T18:51:08Z",
-    "stargazers_count": 20348,
+    "stargazers_count": 20352,
     "topics": [
       "bdd",
       "cpp",
@@ -302,7 +302,7 @@
       "test-framework",
       "testing"
     ],
-    "updated_at": "2026-05-01T06:32:32Z"
+    "updated_at": "2026-05-02T15:55:07Z"
   },
   "repo_links": [],
   "terms": [

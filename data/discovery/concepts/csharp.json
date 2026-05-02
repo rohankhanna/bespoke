@@ -919,6 +919,42 @@
       "source_repo": "reactiveui/ReactiveUI",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate-context",
+      "text": "voicevox_engine\u306eC#\u5b9f\u88c5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate-context",
+      "text": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpbruyere/vk.net",
+      "status": "candidate-context",
+      "text": "Vulkan binding for .net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/vk.net",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for .NET applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate-context",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
     }
   ],
   "candidate_glosses": [
@@ -1377,6 +1413,24 @@
       "source_repo": "reactiveui/ReactiveUI",
       "status": "candidate",
       "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "status": "candidate",
+      "text": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/vk.net",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-dotnet",
+      "status": "candidate",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1870,11 +1924,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "reactiveui/ReactiveUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxEngineSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jpbruyere/vk.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-dotnet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

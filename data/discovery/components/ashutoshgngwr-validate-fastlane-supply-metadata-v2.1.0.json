@@ -1,0 +1,12 @@
+{
+  "component": "ashutoshgngwr/validate-fastlane-supply-metadata@v2.1.0",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "2dust/v2rayNG"
+    }
+  ]
+}

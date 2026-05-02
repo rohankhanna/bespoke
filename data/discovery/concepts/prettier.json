@@ -148,6 +148,30 @@
       "source_repo": "prettier/prettier-emacs",
       "status": "candidate-context",
       "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JavaScript. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "prettier, as a daemon, for improved formatting speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +246,18 @@
       "source_repo": "prettier/prettier-emacs",
       "status": "candidate",
       "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate",
+      "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_related_terms": [
@@ -337,11 +373,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier-emacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/prettierd"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

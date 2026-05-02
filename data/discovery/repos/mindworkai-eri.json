@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:26:03.351595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(E)xternal (R)etrieval (I)nterface",
+    "fork": false,
+    "full_name": "MindWorkAI/ERI",
+    "html_url": "https://github.com/MindWorkAI/ERI",
+    "language": "C#",
+    "pushed_at": "2025-10-07T06:41:18Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-02-01T19:43:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

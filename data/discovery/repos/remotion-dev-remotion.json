@@ -340,20 +340,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "remotion-dev/remotion",
-      "target": "wcandillon/remotion-fireship",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "remotion-dev/remotion",
-      "target": "remotion-dev/github-unwrapped",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "remotion-dev/remotion",
@@ -648,7 +634,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:40:23.219972+00:00",
+  "fetched_at": "2026-05-02T19:34:04.217012+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -692,29 +678,19 @@
     "full_name": "remotion-dev/remotion",
     "html_url": "https://github.com/remotion-dev/remotion",
     "language": "TypeScript",
-    "pushed_at": "2026-05-01T12:28:37Z",
-    "stargazers_count": 45374,
+    "pushed_at": "2026-05-02T08:46:17Z",
+    "stargazers_count": 45487,
     "topics": [
       "javascript",
       "react",
       "video"
     ],
-    "updated_at": "2026-05-01T13:37:59Z"
+    "updated_at": "2026-05-02T18:41:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "remotion-dev/github-unwrapped",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "remotion-dev/logo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wcandillon/remotion-fireship",
       "source_file": "README.md"
     }
   ],

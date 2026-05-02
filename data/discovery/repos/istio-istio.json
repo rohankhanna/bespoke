@@ -1,0 +1,307 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/istio",
+      "target": "istio/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/istio",
+      "target": "istio/api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/istio",
+      "target": "istio/ztunnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/istio",
+      "target": "istio/client-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "api-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "circuit-breaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "consul",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "enforce-policies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "fault-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "lyft-envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "nomad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "polyglot-microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "proxies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "request-routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "resiliency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio",
+      "target": "service-mesh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:27:36.734261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7373
+    },
+    {
+      "path": "go.mod",
+      "size": 11251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Connect, secure, control, and observe services.",
+    "fork": false,
+    "full_name": "istio/istio",
+    "html_url": "https://github.com/istio/istio",
+    "language": "Go",
+    "pushed_at": "2026-05-02T08:19:06Z",
+    "stargazers_count": 38161,
+    "topics": [
+      "api-management",
+      "circuit-breaker",
+      "consul",
+      "enforce-policies",
+      "envoy",
+      "fault-injection",
+      "kubernetes",
+      "lyft-envoy",
+      "microservice",
+      "microservices",
+      "nomad",
+      "polyglot-microservices",
+      "proxies",
+      "request-routing",
+      "resiliency",
+      "service-mesh"
+    ],
+    "updated_at": "2026-05-02T14:09:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/client-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/ztunnel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-management"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circuit-breaker"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consul"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enforce-policies"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fault-injection"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyft-envoy"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nomad"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyglot-microservices"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxies"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "request-routing"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resiliency"
+    },
+    {
+      "context_snippet": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-mesh"
+    }
+  ]
+}

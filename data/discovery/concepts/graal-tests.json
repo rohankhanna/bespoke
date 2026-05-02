@@ -19,12 +19,30 @@
       "source_repo": "http-kit/http-kit",
       "status": "candidate-context",
       "text": "Graal tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/timbre",
+      "status": "candidate-context",
+      "text": "Pure Clojure/Script logging library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/timbre",
+      "status": "candidate-context",
+      "text": "Graal tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "http-kit/http-kit",
+      "status": "candidate",
+      "text": "Graal tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/timbre",
       "status": "candidate",
       "text": "Graal tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/graal-tests.yml",
       "source_repo": "http-kit/http-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "taoensso/timbre"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

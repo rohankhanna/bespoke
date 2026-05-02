@@ -1912,6 +1912,54 @@
       "source_repo": "ldkong1205/PointCloud-C",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "Repo for \"Benchmarking Robustness of 3D Point Cloud Recognition against Common Corruptions\"  https://arxiv.org/abs/2201.12296"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": ":bar_chart: Benchmark multiple object trackers (MOT) in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate-context",
+      "text": "Python package for the evaluation of odometry and SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate-context",
+      "text": "***Python package for the evaluation of odometry and SLAM***"
     }
   ],
   "candidate_glosses": [
@@ -2868,6 +2916,30 @@
       "source_repo": "ldkong1205/PointCloud-C",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiachens/ModelNet40-C",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/benchmarking-robustness-of-3d-point-cloud/3d-point-cloud-classification-on-modelnet40-c)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40-c?p=benchmarking-robustness-of-3\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheind/py-motmetrics",
+      "status": "candidate",
+      "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelGrupp/evo",
+      "status": "candidate",
+      "text": "***Python package for the evaluation of odometry and SLAM***"
     }
   ],
   "candidate_related_terms": [
@@ -4425,11 +4497,83 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jiachens/ModelNet40-C"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "MichaelGrupp/evo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

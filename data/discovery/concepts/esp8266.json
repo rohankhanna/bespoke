@@ -79,6 +79,30 @@
       "source_repo": "electronicsguy/ESP8266",
       "status": "candidate-context",
       "text": "Stuff I do with this tiny wireless wonder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garyservin/linka-firmware",
+      "status": "candidate-context",
+      "text": "Firmware for the default sensor kit for the Linka project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyservin/linka-firmware",
+      "status": "candidate-context",
+      "text": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "status": "candidate-context",
+      "text": "A library for seamless data logging, communication and control for Internet of Things"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml/badge.svg)](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "electronicsguy/ESP8266",
       "status": "candidate",
       "text": "Stuff I do with this tiny wireless wonder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyservin/linka-firmware",
+      "status": "candidate",
+      "text": "ESP8266 firmware for [AireLibre](https://github.com/melizeche/AireLibre)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/HTTPSRedirect",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml/badge.svg)](https://github.com/electronicsguy/HTTPSRedirect/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "electronicsguy/ESP8266"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "garyservin/linka-firmware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "electronicsguy/HTTPSRedirect"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

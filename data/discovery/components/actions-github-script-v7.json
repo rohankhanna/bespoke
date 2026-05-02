@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2172,6 +2172,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "microsoft/promptflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "webpack/mini-css-extract-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fix-nuget-config-release-pr.yml",
+      "source_repo": "dotnet/winforms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cloud.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "databendlabs/databend"
     }
   ]
 }

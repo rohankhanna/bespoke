@@ -127,6 +127,30 @@
       "source_repo": "Applelo/vite-plugin-inject-preload",
       "status": "candidate-context",
       "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate-context",
+      "text": "Auto import APIs on-demand for Vite, Webpack and Rollup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown with Vue for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown for Vite"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "Applelo/vite-plugin-inject-preload",
       "status": "candidate",
       "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-auto-import",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate",
+      "text": "Markdown for Vite"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +298,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Applelo/vite-plugin-inject-preload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-auto-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vite-plugin-md"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

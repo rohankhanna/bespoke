@@ -225,6 +225,30 @@
       "source_repo": "reasonml/reasonml.github.io",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "Flux Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "status": "candidate-context",
+      "text": "https://juliacon.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "reasonml/reasonml.github.io",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCon/www.juliacon.org",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -546,11 +582,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "reasonml/reasonml.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

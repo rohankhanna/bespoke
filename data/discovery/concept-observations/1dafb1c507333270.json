@@ -84,7 +84,7 @@
   "normalized_form": "auth",
   "observation_id": "1dafb1c507333270",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "auth",
   "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
   "source_file": null,

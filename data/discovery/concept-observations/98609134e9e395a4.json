@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019212,
+      "status": "candidate",
+      "text": "guided notes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019211,
+      "status": "candidate",
+      "text": "cornell notes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019210,
+      "status": "candidate",
+      "text": "notetaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019209,
+      "status": "candidate",
+      "text": "notebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019208,
+      "status": "candidate",
+      "text": "copytaking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notetaking",
+      "sense_id": "notetaking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notetaking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notetaking",
+  "observation_id": "98609134e9e395a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "notetaking",
+  "source_context_snippet": "Some links are provided below for posterity.",
+  "source_file": null,
+  "source_repo": "athensresearch/athens",
+  "source_repo_description": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+}

@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "polished",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-tester",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flow-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "polished",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "babel-plugin-tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "flow-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "babel-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "polished",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "styled-components/babel-plugin-polished",
+      "target": "styled-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:41:58.098717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 634
+    },
+    {
+      "path": "package.json",
+      "size": 542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compile polished helper functions at build time",
+    "fork": false,
+    "full_name": "styled-components/babel-plugin-polished",
+    "html_url": "https://github.com/styled-components/babel-plugin-polished",
+    "language": "JavaScript",
+    "pushed_at": "2021-05-08T10:06:36Z",
+    "stargazers_count": 138,
+    "topics": [
+      "babel",
+      "babel-plugin",
+      "polished",
+      "styled-components"
+    ],
+    "updated_at": "2024-02-13T14:56:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile away [polished](https://polished.js.org/) helpers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "Compile away [polished](https://polished.js.org/) helpers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-plugin"
+    },
+    {
+      "context_snippet": "Compile away [polished](https://polished.js.org/) helpers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polished"
+    },
+    {
+      "context_snippet": "Compile away [polished](https://polished.js.org/) helpers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yaohungt/Barlow-Twins-HSIC",
+      "target": "leftthomas/simclr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:27.976150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yaohungt/Barlow-Twins-HSIC",
+    "html_url": "https://github.com/yaohungt/Barlow-Twins-HSIC",
+    "language": "Python",
+    "pushed_at": "2021-12-20T22:55:23Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2025-08-04T00:45:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leftthomas/simclr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

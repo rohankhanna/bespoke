@@ -91,6 +91,18 @@
       "source_repo": "rebassjs/rebass",
       "status": "candidate-context",
       "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate-context",
+      "text": "Collection of Hebrew fonts, installer for Google Font distributed versions, and some resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate-context",
+      "text": "![banner](banner.webp)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "rebassjs/rebass",
       "status": "candidate",
       "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate",
+      "text": "![banner](banner.webp)"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +294,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
       "status": "candidate-context",
       "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
       "status": "candidate",
       "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Experiments-And-Evaluations-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

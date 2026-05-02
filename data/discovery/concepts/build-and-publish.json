@@ -122,6 +122,18 @@
       "source_repo": "ServiceNow/WorkArena",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Spring Auto REST Docs is an extension to Spring REST Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
+      "status": "candidate-context",
+      "text": "Build and Publish"
     }
   ],
   "candidate_glosses": [
@@ -182,6 +194,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ServiceNow/WorkArena",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScaCap/spring-auto-restdocs",
       "status": "candidate",
       "text": "Build and Publish"
     }
@@ -305,11 +323,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ScaCap/spring-auto-restdocs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "gokyeongryeol/diffusers",
       "status": "candidate-context",
       "text": "Notify Slack about a release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TMElyralab/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TMElyralab/diffusers",
+      "status": "candidate-context",
+      "text": "Notify Slack about a release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "gokyeongryeol/diffusers",
+      "status": "candidate",
+      "text": "Notify Slack about a release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TMElyralab/diffusers",
       "status": "candidate",
       "text": "Notify Slack about a release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/notify_slack_about_release.yml",
       "source_repo": "gokyeongryeol/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/notify_slack_about_release.yml",
+      "source_repo": "TMElyralab/diffusers"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

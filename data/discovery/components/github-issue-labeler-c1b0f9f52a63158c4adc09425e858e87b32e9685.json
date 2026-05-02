@@ -1,7 +1,7 @@
 {
   "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-regex-labeler.yml",
       "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "source_repo": "scipy/scipy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr-on-close.yml",
+      "source_repo": "scipy/scipy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pr-on-open.yml",
+      "source_repo": "scipy/scipy"
     }
   ]
 }

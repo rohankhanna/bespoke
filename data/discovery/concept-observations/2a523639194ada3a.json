@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e\u601d\u6e90\u9ed1\u4f53\uff0c\u5e76\u4ee5\u4e2d\u56fd\u5927\u9646\u5b57\u5f62\u4e3a\u6807\u51c6\u7684\u5bf9\u4e2d\u65e5\u97e9\u8d8a\u7edf\u4e00\u8868\u610f\u6587\u5b57\u6269\u5c55\u533a\u8fdb\u884c\u5b57\u5f62\u8865\u5145\u7684\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031422,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031408,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030832,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9928683,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9800679,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fonts",
+      "sense_id": "fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fonts",
+  "observation_id": "2a523639194ada3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "fonts",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+  "source_repo_description": "\u57fa\u4e8e\u601d\u6e90\u9ed1\u4f53\uff0c\u5e76\u4ee5\u4e2d\u56fd\u5927\u9646\u5b57\u5f62\u4e3a\u6807\u51c6\u7684\u5bf9\u4e2d\u65e5\u97e9\u8d8a\u7edf\u4e00\u8868\u610f\u6587\u5b57\u6269\u5c55\u533a\u8fdb\u884c\u5b57\u5f62\u8865\u5145\u7684\u9879\u76ee\u3002"
+}

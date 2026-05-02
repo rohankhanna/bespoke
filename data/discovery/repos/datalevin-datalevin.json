@@ -160,13 +160,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalevin/datalevin",
-      "target": "tonsky/datascript",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.binaries.yml",
       "source_repo": "datalevin/datalevin",
@@ -433,7 +426,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:51:35.253554+00:00",
+  "fetched_at": "2026-05-02T18:42:57.556755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -465,7 +458,7 @@
     "full_name": "datalevin/datalevin",
     "html_url": "https://github.com/datalevin/datalevin",
     "language": "Clojure",
-    "pushed_at": "2026-04-30T22:45:57Z",
+    "pushed_at": "2026-05-01T21:41:08Z",
     "stargazers_count": 1413,
     "topics": [
       "ai-native",
@@ -477,17 +470,12 @@
       "key-value-store",
       "vector-database"
     ],
-    "updated_at": "2026-04-30T12:35:05Z"
+    "updated_at": "2026-05-02T05:56:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "huahaiy/dlmdb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tonsky/datascript",
       "source_file": "README.md"
     }
   ],

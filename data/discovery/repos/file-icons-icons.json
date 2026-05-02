@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "file-icons/icons",
+      "target": "icons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:28:30.982610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source files for the custom icon-font used by the File-Icons package.",
+    "fork": false,
+    "full_name": "file-icons/icons",
+    "html_url": "https://github.com/file-icons/icons",
+    "language": "Perl",
+    "pushed_at": "2024-01-20T19:27:00Z",
+    "stargazers_count": 275,
+    "topics": [
+      "icons"
+    ],
+    "updated_at": "2026-03-26T07:21:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "File Icons",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    }
+  ]
+}

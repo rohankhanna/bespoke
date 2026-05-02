@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Awesome Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/awesome-logseq",
+      "status": "candidate-context",
+      "text": "Awesome Logseq resources created by the community <3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/awesome-logseq",
+      "status": "candidate-context",
+      "text": "Awesome Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/awesome-logseq",
+      "status": "candidate",
+      "text": "Awesome Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10653,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "polyhedron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "top-shaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10526,
+      "status": "candidate",
+      "text": "adorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10526,
+      "status": "candidate",
+      "text": "aged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Awesome Bot",
+  "concept_id": "awesome-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "logseq/awesome-logseq"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Awesome Bot",
+      "sense_id": "awesome-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

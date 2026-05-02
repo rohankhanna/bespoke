@@ -84,7 +84,7 @@
   "normalized_form": "bump-to--dev-version",
   "observation_id": "ca414588e63ac92a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Bump to -dev version",
   "source_context_snippet": "Bump to -dev version",
   "source_file": ".github/workflows/dev-bump.yml",

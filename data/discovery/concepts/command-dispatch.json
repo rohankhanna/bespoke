@@ -43,6 +43,18 @@
       "source_repo": "pulumi/pulumi-gcp",
       "status": "candidate-context",
       "text": "command-dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "Azure Native Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate-context",
+      "text": "command-dispatch"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "command-dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure-native",
       "status": "candidate",
       "text": "command-dispatch"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/command-dispatch.yml",
       "source_repo": "pulumi/pulumi-gcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure-native"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

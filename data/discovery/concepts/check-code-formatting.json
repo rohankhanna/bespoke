@@ -31,6 +31,30 @@
       "source_repo": "intel/llvm",
       "status": "candidate-context",
       "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tunnel",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable tun2socks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tunnel",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micropython/micropython",
+      "status": "candidate-context",
+      "text": "MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micropython/micropython",
+      "status": "candidate-context",
+      "text": "Check code formatting"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "intel/llvm",
       "status": "candidate",
       "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tunnel",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micropython/micropython",
+      "status": "candidate",
+      "text": "Check code formatting"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pr-code-format.yml",
       "source_repo": "intel/llvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-tunnel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/code_formatting.yml",
+      "source_repo": "micropython/micropython"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

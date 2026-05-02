@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HugoDaniel/cuid-c",
+      "target": "ericelliott/cuid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:43:11.887045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cuids are \"Collision-resistant ids optimized for horizontal scaling and binary search lookup performance.\"",
+    "fork": false,
+    "full_name": "HugoDaniel/cuid-c",
+    "html_url": "https://github.com/HugoDaniel/cuid-c",
+    "language": "C",
+    "pushed_at": "2021-08-18T10:17:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-01-28T07:31:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericelliott/cuid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:37:04.008995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Colab version of DenseDiffusion",
+    "fork": false,
+    "full_name": "XanDrchris/DenseDiffusionColab",
+    "html_url": "https://github.com/XanDrchris/DenseDiffusionColab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-02T08:44:08Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-03-30T13:56:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

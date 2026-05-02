@@ -1,0 +1,12 @@
+{
+  "component": "yamachu/merge-queue-action/pretesting@main",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp"
+    }
+  ]
+}

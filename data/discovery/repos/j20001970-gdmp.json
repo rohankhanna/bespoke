@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-web.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-web.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j20001970/GDMP",
+      "target": "j20001970/gdmp-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83e\udd16 Build Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83c\udf4f Build iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83d\udc27 Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83c\udf4e Build macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-web.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-web.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-web.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83c\udf10 Build Web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "\ud83c\udfc1 Build Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "j20001970/GDMP",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP",
+      "target": "gdextension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP",
+      "target": "gdnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP",
+      "target": "mediapipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:35:28.979474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/build-ios.yml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 1808
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 1105
+    },
+    {
+      "path": ".github/workflows/build-web.yml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 1140
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2471
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Godot plugin for MediaPipe framework and solutions",
+    "fork": false,
+    "full_name": "j20001970/GDMP",
+    "html_url": "https://github.com/j20001970/GDMP",
+    "language": "C++",
+    "pushed_at": "2026-05-01T03:49:38Z",
+    "stargazers_count": 120,
+    "topics": [
+      "gdextension",
+      "gdnative",
+      "godot",
+      "mediapipe",
+      "plugin"
+    ],
+    "updated_at": "2026-04-29T14:20:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j20001970/gdmp-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd16 Build Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "\ud83e\udd16 Build Android"
+    },
+    {
+      "context_snippet": "\ud83c\udf4f Build iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "term": "\ud83c\udf4f Build iOS"
+    },
+    {
+      "context_snippet": "\ud83d\udc27 Build Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "\ud83d\udc27 Build Linux"
+    },
+    {
+      "context_snippet": "\ud83c\udf4e Build macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "\ud83c\udf4e Build macOS"
+    },
+    {
+      "context_snippet": "\ud83c\udf10 Build Web",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-web.yml",
+      "term": "\ud83c\udf10 Build Web"
+    },
+    {
+      "context_snippet": "\ud83c\udfc1 Build Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "\ud83c\udfc1 Build Windows"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdextension"
+    },
+    {
+      "context_snippet": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdnative"
+    },
+    {
+      "context_snippet": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mediapipe"
+    },
+    {
+      "context_snippet": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

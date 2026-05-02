@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/playground-for-swift",
+      "target": "appwrite/playground-for-apple-swiftui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:29:45.152007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2654
+    },
+    {
+      "path": "Dockerfile",
+      "size": 151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple examples that help you get started with Appwrite + Swift for Server (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-swift",
+    "html_url": "https://github.com/appwrite/playground-for-swift",
+    "language": "Swift",
+    "pushed_at": "2024-10-15T11:30:45Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-04-04T03:49:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/playground-for-apple-swiftui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

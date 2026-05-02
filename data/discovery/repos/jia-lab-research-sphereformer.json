@@ -19,6 +19,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/SphereFormer",
+      "target": "dvlab-research/sparsetransformer.git.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/SphereFormer",
       "target": "dvlab-research/stratified-transformer",
       "target_type": "repository"
     },
@@ -79,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:19:26.171686+00:00",
+  "fetched_at": "2026-05-02T19:47:32.643391+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,6 +124,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/sparsetransformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/sparsetransformer.git.",
       "source_file": "README.md"
     },
     {

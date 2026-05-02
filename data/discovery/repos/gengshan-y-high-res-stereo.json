@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "roboception/cvkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "jiarenchang/psmnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "meetshah1995/pytorch-semseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "sorcererx/high-res-stereo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "stereo-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gengshan-y/high-res-stereo",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:31.675097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hierarchical Deep Stereo Matching on High Resolution Images, CVPR 2019.",
+    "fork": false,
+    "full_name": "gengshan-y/high-res-stereo",
+    "html_url": "https://github.com/gengshan-y/high-res-stereo",
+    "language": "Python",
+    "pushed_at": "2023-07-21T04:37:15Z",
+    "stargazers_count": 425,
+    "topics": [
+      "cvpr2019",
+      "pytorch",
+      "stereo-matching",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-03-15T03:51:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiarenchang/psmnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meetshah1995/pytorch-semseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboception/cvkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sorcererx/high-res-stereo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./architecture.png\" width=\"800\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "<img src=\"./architecture.png\" width=\"800\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\"./architecture.png\" width=\"800\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-matching"
+    },
+    {
+      "context_snippet": "<img src=\"./architecture.png\" width=\"800\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

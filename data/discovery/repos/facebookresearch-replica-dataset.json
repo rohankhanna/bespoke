@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/Replica-Dataset",
+      "target": "eigenteam/eigen-git-mirror",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:10.566711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Replica Dataset v1 as published in https://arxiv.org/abs/1906.05797 .",
+    "fork": false,
+    "full_name": "facebookresearch/Replica-Dataset",
+    "html_url": "https://github.com/facebookresearch/Replica-Dataset",
+    "language": "C++",
+    "pushed_at": "2024-07-22T12:41:43Z",
+    "stargazers_count": 1252,
+    "topics": [],
+    "updated_at": "2026-04-29T13:24:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigenteam/eigen-git-mirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

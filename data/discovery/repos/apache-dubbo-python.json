@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "License Template Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yaml",
+      "source_repo": "apache/dubbo-python",
+      "target": "Check and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python",
+      "target": "dubbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python",
+      "target": "http2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:14.330933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4961
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4487
+    },
+    {
+      "path": ".github/workflows/license-check.yaml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/test-suite.yaml",
+      "size": 675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The python Implementation For Apache Dubbo.",
+    "fork": false,
+    "full_name": "apache/dubbo-python",
+    "html_url": "https://github.com/apache/dubbo-python",
+    "language": "Python",
+    "pushed_at": "2025-04-08T10:31:17Z",
+    "stargazers_count": 302,
+    "topics": [
+      "dubbo",
+      "framework",
+      "grpc",
+      "h2",
+      "http2",
+      "python",
+      "rpc"
+    ],
+    "updated_at": "2026-03-30T13:11:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "License Template Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yaml",
+      "term": "License Template Check"
+    },
+    {
+      "context_snippet": "Check and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yaml",
+      "term": "Check and test"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    }
+  ]
+}

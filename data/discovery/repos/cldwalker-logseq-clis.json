@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "@logseq/nbb-logseq",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mldoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "logseq/mldoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "@logseq/nbb-logseq",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "mldoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "actions/setup-java@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "DeLaGuardo/setup-clojure@3.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cldwalker/logseq-clis",
+      "target": "logseq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:43:02.050199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2216
+    },
+    {
+      "path": "package.json",
+      "size": 400
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLIs for logseq using nbb-logseq",
+    "fork": false,
+    "full_name": "cldwalker/logseq-clis",
+    "html_url": "https://github.com/cldwalker/logseq-clis",
+    "language": "Clojure",
+    "pushed_at": "2023-09-08T19:17:21Z",
+    "stargazers_count": 5,
+    "topics": [
+      "logseq",
+      "nbb"
+    ],
+    "updated_at": "2025-06-03T01:27:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logseq/mldoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An assortment of handy [logseq](https://github.com/logseq/logseq) CLIs using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logseq"
+    }
+  ]
+}

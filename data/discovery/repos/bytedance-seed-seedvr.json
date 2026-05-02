@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "target": "one-step-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ByteDance-Seed/SeedVR",
+      "target": "video-restoration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:38.893372+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for SeedVR2 (ICLR2026) & SeedVR (CVPR2025 Highlight)",
+    "fork": false,
+    "full_name": "ByteDance-Seed/SeedVR",
+    "html_url": "https://github.com/ByteDance-Seed/SeedVR",
+    "language": "Python",
+    "pushed_at": "2026-01-27T06:02:24Z",
+    "stargazers_count": 1161,
+    "topics": [
+      "diffusion-transformer",
+      "image-restoration",
+      "one-step-diffusion-model",
+      "video-restoration"
+    ],
+    "updated_at": "2026-04-28T10:17:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-step-diffusion-model"
+    },
+    {
+      "context_snippet": "# Common einops==0.7.0 # Tensor operations # Training torch==2.3.0 # Torch omegaconf==2.3.0 # Configuration system. # Dataloading opencv-python==4.9.0.80 # OpenCV # Modeling diffusers==0.29.1 # Diffusers rotary-embedding-torch==0.5.3 # Rotary positional embedding transformers==4\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-restoration"
+    }
+  ]
+}

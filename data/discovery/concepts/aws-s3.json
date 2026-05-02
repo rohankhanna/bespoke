@@ -31,6 +31,18 @@
       "source_repo": "unum-bio/USearchMolecules",
       "status": "candidate-context",
       "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "unum-bio/USearchMolecules",
       "status": "candidate",
       "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

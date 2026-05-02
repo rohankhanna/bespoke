@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "target": "ai-text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "target": "ai-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lex-au/Orpheus-FastAPI",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:27:40.746112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18223
+    },
+    {
+      "path": "requirements.txt",
+      "size": 737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance Text-to-Speech server with OpenAI-compatible API, 8 voices, emotion tags, and modern web UI. Optimized for RTX GPUs.",
+    "fork": false,
+    "full_name": "Lex-au/Orpheus-FastAPI",
+    "html_url": "https://github.com/Lex-au/Orpheus-FastAPI",
+    "language": "Python",
+    "pushed_at": "2025-07-05T01:05:05Z",
+    "stargazers_count": 687,
+    "topics": [
+      "ai-text-to-speech",
+      "ai-voice",
+      "artificial-intelligence"
+    ],
+    "updated_at": "2026-04-26T17:53:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-text-to-speech"
+    },
+    {
+      "context_snippet": "![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-voice"
+    },
+    {
+      "context_snippet": "![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    }
+  ]
+}

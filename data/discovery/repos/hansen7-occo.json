@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo",
+      "target": "occlusion-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hansen7/OcCo",
+      "target": "point-clouds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:15.150143+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\"",
+    "fork": false,
+    "full_name": "hansen7/OcCo",
+    "html_url": "https://github.com/hansen7/OcCo",
+    "language": "Python",
+    "pushed_at": "2024-06-24T15:53:12Z",
+    "stargazers_count": 239,
+    "topics": [
+      "docker",
+      "occlusion-completion",
+      "paper",
+      "point-clouds"
+    ],
+    "updated_at": "2026-04-18T15:14:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occlusion-completion"
+    },
+    {
+      "context_snippet": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-clouds"
+    }
+  ]
+}

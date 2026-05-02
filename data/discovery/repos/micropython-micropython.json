@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml"
+    },
+    {
+      "component": "biomejs/setup-biome@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_formatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size_comment.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_formatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome.yml",
+      "source_repo": "micropython/micropython",
+      "target": "biomejs/setup-biome@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Check code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_size.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Check code size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_size_comment.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_size_comment.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Code size comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Check spelling with codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_formatting.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Check commit message formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "micropython/micropython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "micropython/micropython",
+      "target": "Check examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micropython/micropython",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micropython/micropython",
+      "target": "microcontroller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micropython/micropython",
+      "target": "micropython",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:24.036117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13933
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3036
+    },
+    {
+      "path": ".github/workflows/biome.yml",
+      "size": 386
+    },
+    {
+      "path": ".github/workflows/code_formatting.yml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/code_size.yml",
+      "size": 1567
+    },
+    {
+      "path": ".github/workflows/code_size_comment.yml",
+      "size": 3283
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/commit_formatting.yml",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems",
+    "fork": false,
+    "full_name": "micropython/micropython",
+    "html_url": "https://github.com/micropython/micropython",
+    "language": "C",
+    "pushed_at": "2026-05-01T12:38:24Z",
+    "stargazers_count": 21672,
+    "topics": [
+      "embedded",
+      "microcontroller",
+      "micropython",
+      "python"
+    ],
+    "updated_at": "2026-05-02T17:58:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check code formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_formatting.yml",
+      "term": "Check code formatting"
+    },
+    {
+      "context_snippet": "Check code size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_size.yml",
+      "term": "Check code size"
+    },
+    {
+      "context_snippet": "Code size comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_size_comment.yml",
+      "term": "Code size comment"
+    },
+    {
+      "context_snippet": "Check spelling with codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Check spelling with codespell"
+    },
+    {
+      "context_snippet": "Check commit message formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_formatting.yml",
+      "term": "Check commit message formatting"
+    },
+    {
+      "context_snippet": "Build docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build docs"
+    },
+    {
+      "context_snippet": "Check examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "Check examples"
+    },
+    {
+      "context_snippet": "[![Unix CI badge](https://github.com/micropython/micropython/actions/workflows/ports_unix.yml/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![STM32 CI badge](https://github.com/micropython/micropython/actions/workflows/ports_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Unix CI badge](https://github.com/micropython/micropython/actions/workflows/ports_unix.yml/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![STM32 CI badge](https://github.com/micropython/micropython/actions/workflows/ports_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontroller"
+    },
+    {
+      "context_snippet": "[![Unix CI badge](https://github.com/micropython/micropython/actions/workflows/ports_unix.yml/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![STM32 CI badge](https://github.com/micropython/micropython/actions/workflows/ports_\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micropython"
+    }
+  ]
+}

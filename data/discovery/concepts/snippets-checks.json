@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snippets Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARMmbed/mbed-os-5-docs",
+      "status": "candidate-context",
+      "text": "Full documentation for Mbed OS 5 and 6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os-5-docs",
+      "status": "candidate-context",
+      "text": "Snippets Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os-5-docs",
+      "status": "candidate",
+      "text": "Snippets Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11590,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11590,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11590,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11590,
+      "status": "candidate",
+      "text": "stems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11580,
+      "status": "candidate",
+      "text": "subeditor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snippets Checks",
+  "concept_id": "snippets-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/snippets_checks.yml",
+      "source_repo": "ARMmbed/mbed-os-5-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snippets Checks",
+      "sense_id": "snippets-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

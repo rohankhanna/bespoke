@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple examples that help you get started with Appwrite + Android (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "3bdfae0dcd106acf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "Appwrite playground for Android is a simple way to explore the Appwrite API & Appwrite Android SDK. Use the source code of this page to learn how to use the different Appwrite Android SDK features.",
+  "source_file": null,
+  "source_repo": "appwrite/playground-for-android",
+  "source_repo_description": "Simple examples that help you get started with Appwrite + Android (=\u2764\ufe0f)"
+}

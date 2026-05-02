@@ -1,0 +1,146 @@
+{
+  "aliases": [
+    "hebrew"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate-context",
+      "text": "Collection of Hebrew fonts, installer for Google Font distributed versions, and some resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate-context",
+      "text": "![banner](banner.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate-context",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
+      "status": "candidate",
+      "text": "![banner](banner.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
+      "status": "candidate",
+      "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051150,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051013,
+      "status": "candidate",
+      "text": "jew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051157,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050743,
+      "status": "candidate",
+      "text": "judaism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050634,
+      "status": "candidate",
+      "text": "israeli"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jew"
+    }
+  ],
+  "canonical_name": "hebrew",
+  "concept_id": "hebrew",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Hebrew-Fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hebrew",
+      "sense_id": "hebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -113,7 +113,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:56:59.060937+00:00",
+  "fetched_at": "2026-05-02T19:28:01.690790+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,7 +134,7 @@
     "html_url": "https://github.com/vim-fall/fall.vim",
     "language": "TypeScript",
     "pushed_at": "2025-10-18T07:42:17Z",
-    "stargazers_count": 94,
+    "stargazers_count": 95,
     "topics": [
       "denops",
       "fuzzy-finder",
@@ -142,7 +142,7 @@
       "vim",
       "vim-fall"
     ],
-    "updated_at": "2026-03-20T15:00:56Z"
+    "updated_at": "2026-05-02T11:53:05Z"
   },
   "repo_links": [],
   "terms": [

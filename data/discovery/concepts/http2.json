@@ -271,6 +271,42 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate-context",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "The python Implementation For Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate-context",
+      "text": "Hypercorn"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +441,24 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-python",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/apache/dubbo-python?logo=apache&logoColor=red&label=LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/hypercorn",
+      "status": "candidate",
+      "text": "Hypercorn"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +652,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mitmproxy/mitmproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pgjones/hypercorn"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

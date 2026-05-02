@@ -84,7 +84,7 @@
   "normalized_form": "docker-pre-release-build",
   "observation_id": "6d4604d009083575",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Docker Pre-release Build",
   "source_context_snippet": "Docker Pre-release Build",
   "source_file": ".github/workflows/docker-prerelease.yml",

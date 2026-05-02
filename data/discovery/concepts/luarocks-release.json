@@ -45,6 +45,18 @@
       "source_repo": "MagicDuck/grug-far.nvim",
       "status": "candidate-context",
       "text": "LuaRocks release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
+      "status": "candidate-context",
+      "text": "A clean, delightful and highly customizable Neovim colorscheme written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
+      "status": "candidate-context",
+      "text": "LuaRocks release"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MagicDuck/grug-far.nvim",
+      "status": "candidate",
+      "text": "LuaRocks release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTBBloodbath/sweetie.nvim",
       "status": "candidate",
       "text": "LuaRocks release"
     }
@@ -138,11 +156,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/luarocks-release.yml",
       "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/luarocks-release.yml",
+      "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NTBBloodbath/sweetie.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "generate-release"
+    "generate-release",
+    "Generate release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "zylon-ai/private-gpt",
       "status": "candidate-context",
       "text": "generate-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "status": "candidate-context",
+      "text": "A tracker for vpuppr that uses the mouse instead of face tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "status": "candidate-context",
+      "text": "Generate release"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "zylon-ai/private-gpt",
       "status": "candidate",
       "text": "generate-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "status": "candidate",
+      "text": "Generate release"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12001,
+      "status": "candidate",
+      "text": "emit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12001,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12001,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12001,
+      "status": "candidate",
+      "text": "ovulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12001,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "generate-release",
   "concept_id": "generate-release",
@@ -46,11 +101,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/generate-release.yml",
       "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/generate-release.yaml",
+      "source_repo": "virtual-puppet-project/mouse-tracker"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

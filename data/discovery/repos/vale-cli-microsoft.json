@@ -49,13 +49,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vale-cli/Microsoft",
-      "target": "cucumber/aruba",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "vale-cli/Microsoft",
@@ -112,7 +105,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:16:16.208512+00:00",
+  "fetched_at": "2026-05-02T19:46:22.641602+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -142,11 +135,6 @@
     "updated_at": "2026-04-28T19:52:58Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cucumber/aruba",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "errata-ai/microsoft",

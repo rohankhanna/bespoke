@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check main branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "The modern, community-first TypeScript toolkit with all of the fast, readable, and minimal utility functions you need. Type-safe, dependency-free, tree-shakeable, fully tested."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "Check main branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate",
+      "text": "Check main branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35436,
+      "status": "candidate",
+      "text": "offshoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35052,
+      "status": "candidate",
+      "text": "stem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35052,
+      "status": "candidate",
+      "text": "stemmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35052,
+      "status": "candidate",
+      "text": "stemming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35052,
+      "status": "candidate",
+      "text": "tap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check main branch",
+  "concept_id": "check-main-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/check-main.yml",
+      "source_repo": "radashi-org/radashi"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check main branch",
+      "sense_id": "check-main-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "jwlawson/actions-setup-cmake@v2.0.2",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deb-build.yml",
+      "source_repo": "sergei-mironov/xkb-switch"
+    }
+  ]
+}

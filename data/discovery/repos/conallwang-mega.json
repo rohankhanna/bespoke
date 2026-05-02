@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conallwang/MeGA",
+      "target": "shenhanqian/gaussianavatars",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:33:06.505029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official implementation of \"MeGA: Hybrid Mesh-Gaussian Head Avatar for High-Fidelity Rendering and Head Editing\".",
+    "fork": false,
+    "full_name": "conallwang/MeGA",
+    "html_url": "https://github.com/conallwang/MeGA",
+    "language": "Python",
+    "pushed_at": "2025-05-10T01:27:26Z",
+    "stargazers_count": 220,
+    "topics": [],
+    "updated_at": "2026-04-27T09:46:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenhanqian/gaussianavatars",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

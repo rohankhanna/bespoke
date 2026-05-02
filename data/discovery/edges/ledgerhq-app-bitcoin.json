@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "ledgerhq/app-bitcoin-new.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_guidelines_enforcer.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "Ensure compliance with Ledger guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "LedgerHQ/app-exchange/.github/workflows/reusable_swap_functional_tests.yml@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "source_repo": "LedgerHQ/app-bitcoin",
+      "target": "Swap functional tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "LedgerHQ/app-bitcoin"
+}

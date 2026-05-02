@@ -211,6 +211,42 @@
       "source_repo": "jackroos/VL-BERT",
       "status": "candidate-context",
       "text": "By"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] SPA: 3D Spatial-Awareness Enables Effective Embodied Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "Resources for the paper titled \"Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability\". Accepted at ML4H Symposium 2021 with an oral spotlight!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate-context",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of Barlow Twins (https://arxiv.org/abs/2103.03230)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "jackroos/VL-BERT",
       "status": "candidate",
       "text": "By"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neerajwagh/eeg-self-supervision",
+      "status": "candidate",
+      "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +478,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jackroos/VL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/SPA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "neerajwagh/eeg-self-supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-puppet",
+      "target": "chaoss/grimoirelab-perceval-weblate",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-opnfv",
+      "target": "grimoirelab-gitee/grimoirelab-perceval-gitee",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "chaoss/grimoirelab-perceval-mozilla",
+      "target": "perceval-backends/grimoirelab-perceval-airtable",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chaoss/grimoirelab-perceval",
-      "target": "bitergia/grimoirelab-perceval-finos",
+      "target": "perceval-backends/grimoirelab-perceval-bitbucket",
       "target_type": "repository"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "chaoss/grimoirelab-perceval"
 }

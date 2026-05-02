@@ -84,7 +84,7 @@
   "normalized_form": "common-functional-tests---benchmark",
   "observation_id": "d8a6882db8cc52a0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Common Functional Tests - Benchmark",
   "source_context_snippet": "Common Functional Tests - Benchmark",
   "source_file": ".github/workflows/functional_tests_benchmark.yml",

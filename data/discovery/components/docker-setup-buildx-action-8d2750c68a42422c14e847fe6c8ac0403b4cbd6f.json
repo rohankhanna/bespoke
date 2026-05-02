@@ -2,7 +2,7 @@
   "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -344,6 +344,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-pr-validation.yml",
       "source_repo": "apache/pulsar-client-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-docker-images.yml",
+      "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mitmproxy/mitmproxy"
     }
   ]
 }

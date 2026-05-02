@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tapjs/tap-parser",
+      "target": "tapjs/tapjs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:09.568894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "parse the test anything protocol",
+    "fork": false,
+    "full_name": "tapjs/tap-parser",
+    "html_url": "https://github.com/tapjs/tap-parser",
+    "language": null,
+    "pushed_at": "2023-09-15T20:26:39Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-04-27T03:46:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tapjs/tapjs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

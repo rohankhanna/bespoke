@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -917,6 +917,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jmh-benchmarks.yml",
       "source_repo": "apache/iceberg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jnigen.yaml",
+      "source_repo": "dart-lang/native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache_retain.yml",
+      "source_repo": "unicode-org/icu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/icu4j.yml",
+      "source_repo": "unicode-org/icu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/icu_common.yml",
+      "source_repo": "unicode-org/icu"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000916,
+      "status": "candidate",
+      "text": "mishandler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000915,
+      "status": "candidate",
+      "text": "miscaller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000914,
+      "status": "candidate",
+      "text": "misapplier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000913,
+      "status": "candidate",
+      "text": "misnamer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000912,
+      "status": "candidate",
+      "text": "misplacer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mangler",
+      "sense_id": "mangler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mangler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mangler",
+  "observation_id": "6008065ba3875239",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "mangler",
+  "source_context_snippet": "<h1><img src=\"https://terser.org/img/terser-banner-logo.png\" alt=\"Terser\" width=\"400\"></h1>",
+  "source_file": null,
+  "source_repo": "terser/terser",
+  "source_repo_description": "\ud83d\udddc JavaScript parser, mangler and compressor toolkit for ES6+"
+}

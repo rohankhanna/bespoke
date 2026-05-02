@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NKU/AMT",
+      "target": "ltkong218/ifrnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NKU/AMT",
+      "target": "megvii-research/eccv2022-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NKU/AMT",
+      "target": "feinanshan/m2m_vfi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NKU/AMT",
+      "target": "haofeixu/gmflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "backward-warp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "slomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NKU/AMT",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:35.609101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation\" (CVPR2023)",
+    "fork": false,
+    "full_name": "MCG-NKU/AMT",
+    "html_url": "https://github.com/MCG-NKU/AMT",
+    "language": "Python",
+    "pushed_at": "2023-04-26T07:56:17Z",
+    "stargazers_count": 266,
+    "topics": [
+      "backward-warp",
+      "cvpr2023",
+      "frame-interpolation",
+      "optical-flow",
+      "slomo",
+      "video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-06T12:45:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feinanshan/m2m_vfi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofeixu/gmflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltkong218/ifrnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/eccv2022-rife",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backward-warp"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frame-interpolation"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slomo"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

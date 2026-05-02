@@ -229,6 +229,18 @@
       "source_repo": "clojurephant/clojurephant-tooling",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Gradle applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate-context",
+      "text": "![gradle](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-gradle.png)"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
       "source_repo": "clojurephant/clojurephant-tooling",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-gradle",
+      "status": "candidate",
+      "text": "![gradle](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-gradle.png)"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +532,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "smithy-lang/smithy-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-gradle"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

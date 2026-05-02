@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "3D Slicer Plugin for Segment anything in medical images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-slicer-extension",
+      "sense_id": "3d-slicer-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-slicer-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-slicer-extension",
+  "observation_id": "f373eb024852a79e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "3d-slicer-extension",
+  "source_context_snippet": "This is the official repository for 3D Slicer Plugin for MedSAM: Segment Anything in Medical Images.",
+  "source_file": null,
+  "source_repo": "bowang-lab/MedSAMSlicer",
+  "source_repo_description": "3D Slicer Plugin for Segment anything in medical images"
+}

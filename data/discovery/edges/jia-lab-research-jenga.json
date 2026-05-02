@@ -6,29 +6,8 @@
       "source_repo": "JIA-Lab-research/Jenga",
       "target": "tencent/hunyuanvideo",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "tencent-hunyuan/hunyuanvideo-i2v",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "aejion/accvideo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/Jenga",
-      "target": "jakubcerveny/gilbert",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "JIA-Lab-research/Jenga"
 }

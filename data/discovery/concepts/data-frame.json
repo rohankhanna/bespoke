@@ -31,6 +31,18 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate-context",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial on Julia DataFrames package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate-context",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "status": "candidate",
+      "text": "[Bogumi\u0142 Kami\u0144ski](http://bogumilkaminski.pl/about/), February 13, 2023"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaData/DataFrames.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

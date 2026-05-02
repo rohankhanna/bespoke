@@ -175,6 +175,30 @@
       "source_repo": "ruby-numo/numo-gsl",
       "status": "candidate-context",
       "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": "SciPy library main repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/scipy/scipy/main/doc/source/_static/logo.svg"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "ruby-numo/numo-gsl",
       "status": "candidate",
       "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/stdlib",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/scipy/scipy/main/doc/source/_static/logo.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +424,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ruby-numo/numo-narray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/stdlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "scipy/scipy"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

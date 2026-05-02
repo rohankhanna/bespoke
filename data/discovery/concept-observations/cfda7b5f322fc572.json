@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Some links are provided below for posterity."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012118,
+      "status": "candidate",
+      "text": "memcomputing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012117,
+      "status": "candidate",
+      "text": "memcomputer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012116,
+      "status": "candidate",
+      "text": "minicomputing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012115,
+      "status": "candidate",
+      "text": "memory typewriter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012114,
+      "status": "candidate",
+      "text": "maxicomputer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memex",
+      "sense_id": "memex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "memex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "memex",
+  "observation_id": "cfda7b5f322fc572",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "memex",
+  "source_context_snippet": "Some links are provided below for posterity.",
+  "source_file": null,
+  "source_repo": "athensresearch/athens",
+  "source_repo_description": "Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21"
+}

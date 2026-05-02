@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XPixelGroup/DepictQA",
+      "target": "opengvlab/lamm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:59.921412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13237
+    },
+    {
+      "path": "requirements.txt",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DepictQA: Depicted Image Quality Assessment with Vision Language Models",
+    "fork": false,
+    "full_name": "XPixelGroup/DepictQA",
+    "html_url": "https://github.com/XPixelGroup/DepictQA",
+    "language": "Python",
+    "pushed_at": "2025-11-28T05:54:06Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-05-02T14:31:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/lamm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

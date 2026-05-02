@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/SecureDNSClient",
+      "target": "msasanmh/msmhagnosticserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/SecureDNSClient",
+      "target": "ameshkov/dnslookup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/SecureDNSClient",
+      "target": "valdikss/goodbyedpi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/SecureDNSClient",
+      "target": "msasanmh/dnsveil",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:31.389340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A DNS Client Supporting DNSCrypt, Anonymized DNSCrypt, DoH, DoT, UDP And TCP.  Moved to https://github.com/msasanmh/DNSveil",
+    "fork": false,
+    "full_name": "msasanmh/SecureDNSClient",
+    "html_url": "https://github.com/msasanmh/SecureDNSClient",
+    "language": "HTML",
+    "pushed_at": "2025-10-22T12:55:36Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ameshkov/dnslookup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msasanmh/dnsveil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msasanmh/msmhagnosticserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valdikss/goodbyedpi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

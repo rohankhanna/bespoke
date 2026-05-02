@@ -19,6 +19,18 @@
       "source_repo": "rust-bakery/nom",
       "status": "candidate-context",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate-context",
+      "text": "Parser combinators built for speed and memory efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate-context",
+      "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rust-bakery/nom",
       "status": "candidate",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inhabitedtype/angstrom",
+      "status": "candidate",
+      "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "inhabitedtype/angstrom"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

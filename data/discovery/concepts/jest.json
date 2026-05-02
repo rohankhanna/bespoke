@@ -127,6 +127,18 @@
       "source_repo": "folke/esbuild-runner",
       "status": "candidate-context",
       "text": "Super-fast on-the-fly transpilation of modern JS, TypeScript and JSX using [esbuild](https://github.com/evanw/esbuild)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JavaScript. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate-context",
+      "text": "Miscellaneous practice code in JS."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "folke/esbuild-runner",
       "status": "candidate",
       "text": "Super-fast on-the-fly transpilation of modern JS, TypeScript and JSX using [esbuild](https://github.com/evanw/esbuild)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-js",
+      "status": "candidate",
+      "text": "Miscellaneous practice code in JS."
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

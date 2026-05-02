@@ -787,6 +787,18 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate-context",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "A curated list of free/libre plugins, scripts and add-ons for Godot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate-context",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
     }
   ],
   "candidate_glosses": [
@@ -1173,6 +1185,12 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/awesome-godot",
+      "status": "candidate",
+      "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
     }
   ],
   "candidate_related_terms": [
@@ -1678,11 +1696,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "h2oai/awesome-h2o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

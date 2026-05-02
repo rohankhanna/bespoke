@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "hiroshiba/voicevox_engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "Deploy Web Sample to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxEngineSharp",
+      "target": "voicevox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:26:55.415381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1389
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 2774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "voicevox_engine\u306eC#\u5b9f\u88c5",
+    "fork": false,
+    "full_name": "yamachu/VoicevoxEngineSharp",
+    "html_url": "https://github.com/yamachu/VoicevoxEngineSharp",
+    "language": "C#",
+    "pushed_at": "2026-01-11T07:44:09Z",
+    "stargazers_count": 45,
+    "topics": [
+      "csharp",
+      "voicevox"
+    ],
+    "updated_at": "2026-01-11T07:44:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroshiba/voicevox_engine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Web Sample to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Web Sample to GitHub Pages"
+    },
+    {
+      "context_snippet": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[VOICEVOX ENGINE](https://github.com/Hiroshiba/voicevox_engine) \u306e C# \u5b9f\u88c5\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicevox"
+    }
+  ]
+}

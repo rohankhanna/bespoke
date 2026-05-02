@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:46:26.358576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Public contribution for Microsoft Style Guide",
+    "fork": false,
+    "full_name": "MicrosoftDocs/microsoft-style-guide",
+    "html_url": "https://github.com/MicrosoftDocs/microsoft-style-guide",
+    "language": null,
+    "pushed_at": "2024-11-13T15:13:53Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-28T20:00:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

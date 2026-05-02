@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmorise/World",
+      "target": "gloomyghost-mosquitoseal/world.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmorise/World",
+      "target": "aqtq314/world.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmorise/World",
+      "target": "fuziki/worldinapple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmorise/World",
+      "target": "sp-nitech/diffsptk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmorise/World",
+      "target": "speech-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmorise/World",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmorise/World",
+      "target": "vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:30:52.335374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-quality speech analysis, manipulation and synthesis system",
+    "fork": false,
+    "full_name": "mmorise/World",
+    "html_url": "https://github.com/mmorise/World",
+    "language": "C++",
+    "pushed_at": "2026-02-18T02:27:12Z",
+    "stargazers_count": 1313,
+    "topics": [
+      "speech-analysis",
+      "speech-synthesis",
+      "vocoder"
+    ],
+    "updated_at": "2026-05-01T20:01:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aqtq314/world.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuziki/worldinapple",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gloomyghost-mosquitoseal/world.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sp-nitech/diffsptk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WORLD is free software for high-quality speech analysis, manipulation and synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-analysis"
+    },
+    {
+      "context_snippet": "WORLD is free software for high-quality speech analysis, manipulation and synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "WORLD is free software for high-quality speech analysis, manipulation and synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubik/hydroconf",
+      "target": "mehcode/config-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubik/hydroconf",
+      "target": "rochacbruno/dynaconf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubik/hydroconf",
+      "target": "hjson/hjson-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubik/hydroconf",
+      "target": "zonyitoo/rust-ini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/hydroconf",
+      "target": "12-factor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/hydroconf",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/hydroconf",
+      "target": "configuration-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:51.474175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4331
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Effortless configuration management for Rust, inspired by Dynaconf.",
+    "fork": false,
+    "full_name": "rubik/hydroconf",
+    "html_url": "https://github.com/rubik/hydroconf",
+    "language": "Rust",
+    "pushed_at": "2023-10-12T06:10:18Z",
+    "stargazers_count": 52,
+    "topics": [
+      "12-factor",
+      "configuration",
+      "configuration-management"
+    ],
+    "updated_at": "2026-03-26T19:12:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hjson/hjson-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mehcode/config-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rochacbruno/dynaconf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zonyitoo/rust-ini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "12-factor"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-management"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "layout-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "sdxl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "stable-diffusion-xl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cominclip/BoxDiff-XL",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:37:04.415954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extend BoxDiff to SDXL (SDXL-based layout-to-image generation)",
+    "fork": false,
+    "full_name": "Cominclip/BoxDiff-XL",
+    "html_url": "https://github.com/Cominclip/BoxDiff-XL",
+    "language": "Python",
+    "pushed_at": "2024-05-23T12:37:25Z",
+    "stargazers_count": 27,
+    "topics": [
+      "diffusion-models",
+      "layout-to-image",
+      "sdxl",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "text-to-image"
+    ],
+    "updated_at": "2026-03-12T11:34:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout-to-image"
+    },
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdxl"
+    },
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-xl"
+    },
+    {
+      "context_snippet": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "kubeflow/spark-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-docker-images.yml",
+      "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mitmproxy/mitmproxy"
     }
   ]
 }

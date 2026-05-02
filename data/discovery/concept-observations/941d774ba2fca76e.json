@@ -84,7 +84,7 @@
   "normalized_form": "jira-issue-transfer",
   "observation_id": "941d774ba2fca76e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Jira Issue Transfer",
   "source_context_snippet": "Jira Issue Transfer",
   "source_file": ".github/workflows/jira-issue-transfer.yml",

@@ -331,6 +331,18 @@
       "source_repo": "babel/preset-modules",
       "status": "candidate-context",
       "text": "> \u2139\ufe0f Starting from `@babel/preset-env` 7.9.0, you can enable the [`bugfixes: true` option](https://babeljs.io/docs/en/babel-preset-env#bugfixes) to get the same behavior as using `@babel/preset-modules`, but with support for custom `targets`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "status": "candidate-context",
+      "text": "Compile polished helper functions at build time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "status": "candidate-context",
+      "text": "Compile away [polished](https://polished.js.org/) helpers."
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "babel/preset-modules",
       "status": "candidate",
       "text": "> \u2139\ufe0f Starting from `@babel/preset-env` 7.9.0, you can enable the [`bugfixes: true` option](https://babeljs.io/docs/en/babel-preset-env#bugfixes) to get the same behavior as using `@babel/preset-modules`, but with support for custom `targets`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/babel-plugin-polished",
+      "status": "candidate",
+      "text": "Compile away [polished](https://polished.js.org/) helpers."
     }
   ],
   "candidate_related_terms": [
@@ -804,11 +822,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "jamiebuilds/babel-handbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/babel-plugin-polished"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

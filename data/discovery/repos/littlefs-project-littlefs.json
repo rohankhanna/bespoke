@@ -183,21 +183,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "littlefs-project/littlefs",
-      "target": "earlephilhower/mklittlefs",
+      "target": "geky/littlefs-js",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "littlefs-project/littlefs",
-      "target": "armmbed/mbed-os",
+      "target": "geky/ramcrc32bd",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "littlefs-project/littlefs",
-      "target": "dlbeer/dhara",
+      "target": "geky/ramrsbd",
       "target_type": "repository"
     },
     {
@@ -292,7 +292,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:48:56.556485+00:00",
+  "fetched_at": "2026-05-02T19:39:17.190306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -325,33 +325,33 @@
     "html_url": "https://github.com/littlefs-project/littlefs",
     "language": "C",
     "pushed_at": "2026-03-25T02:26:59Z",
-    "stargazers_count": 6623,
+    "stargazers_count": 6626,
     "topics": [
       "embedded",
       "filesystem",
       "microcontroller"
     ],
-    "updated_at": "2026-05-01T08:42:38Z"
+    "updated_at": "2026-05-02T17:45:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "armmbed/mbed-os",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dlbeer/dhara",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "earlephilhower/mklittlefs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "geky/littlefs-fuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geky/littlefs-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geky/ramcrc32bd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geky/ramrsbd",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "rubygems/release-gem@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "rubygems/release-gem@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "Ruby Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaa-lib",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:27.773233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8137
+    },
+    {
+      "path": ".github/workflows/gem-push.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby client APIs to access the Cloud Foundry User Account and Authentication service",
+    "fork": false,
+    "full_name": "cloudfoundry/cf-uaa-lib",
+    "html_url": "https://github.com/cloudfoundry/cf-uaa-lib",
+    "language": "Ruby",
+    "pushed_at": "2025-12-03T22:28:24Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-12-03T22:28:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "term": "Ruby Gem"
+    },
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    }
+  ]
+}

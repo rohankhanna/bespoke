@@ -79,6 +79,18 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate-context",
       "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "Issue Labeled"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ant-design/ant-design",
+      "status": "candidate",
+      "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
       "status": "candidate",
       "text": "Issue Labeled"
     }
@@ -238,11 +256,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "element-plus/element-plus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-urls.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-urls.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "2shady4u/godot-sqlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "4d49/scene-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "3ddelano/discord.gd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "31/godotonready",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-urls.yml",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-urls.yml",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "lycheeverse/lychee-action@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-urls.yml",
+      "source_repo": "godotengine/awesome-godot",
+      "target": "\ud83c\udf10 Check URLs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/awesome-godot",
+      "target": "godot-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:28:55.177345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48681
+    },
+    {
+      "path": ".github/workflows/check-urls.yml",
+      "size": 1058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
+    "fork": false,
+    "full_name": "godotengine/awesome-godot",
+    "html_url": "https://github.com/godotengine/awesome-godot",
+    "language": null,
+    "pushed_at": "2026-04-20T21:01:20Z",
+    "stargazers_count": 9864,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "game-development",
+      "godot",
+      "godot-engine"
+    ],
+    "updated_at": "2026-05-02T17:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2shady4u/godot-sqlite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "31/godotonready",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3ddelano/discord.gd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "4d49/scene-library",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udf10 Check URLs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-urls.yml",
+      "term": "\ud83c\udf10 Check URLs"
+    },
+    {
+      "context_snippet": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    }
+  ]
+}

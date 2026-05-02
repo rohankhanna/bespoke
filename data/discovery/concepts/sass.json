@@ -265,6 +265,18 @@
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
       "status": "candidate-context",
       "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate-context",
+      "text": "NPM Modules for Sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate-context",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +411,12 @@
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
       "status": "candidate",
       "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/eyeglass",
+      "status": "candidate",
+      "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -603,11 +621,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "linkedin/eyeglass"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

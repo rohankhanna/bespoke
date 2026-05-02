@@ -127,6 +127,42 @@
       "source_repo": "Akifyss/obsidian-border",
       "status": "candidate-context",
       "text": "A clean and highly customisable theme for obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "A beautiful minimalism theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "A distraction-free and highly customizable theme for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate-context",
+      "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subframe7536/obsidian-theme-maple",
+      "status": "candidate-context",
+      "text": "A sleek and modern Obsidian theme for desktop and mobile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/obsidian-theme-maple",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/subframe7536/obsidian-theme-maple?style=social)](https://github.com/subframe7536/obsidian-theme-maple) ![GitHub License](https://img.shields.io/github/license/subframe7536/obsidian-theme-maple) [![Static Badge](https://img.shi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "Akifyss/obsidian-border",
       "status": "candidate",
       "text": "A clean and highly customisable theme for obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal",
+      "status": "candidate",
+      "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/obsidian-theme-maple",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/subframe7536/obsidian-theme-maple?style=social)](https://github.com/subframe7536/obsidian-theme-maple) ![GitHub License](https://img.shields.io/github/license/subframe7536/obsidian-theme-maple) [![Static Badge](https://img.shi\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +346,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "Akifyss/obsidian-border"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-Miniflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "subframe7536/obsidian-theme-maple"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

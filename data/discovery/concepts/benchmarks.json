@@ -575,6 +575,18 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate-context",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lit/lit",
+      "status": "candidate-context",
+      "text": "Lit is a simple library for building fast, lightweight web components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lit/lit",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -859,6 +871,12 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lit/lit",
+      "status": "candidate",
+      "text": "Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -1363,11 +1381,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "lit/lit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

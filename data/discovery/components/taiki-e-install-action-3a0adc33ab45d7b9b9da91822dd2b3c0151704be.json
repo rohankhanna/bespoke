@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@3a0adc33ab45d7b9b9da91822dd2b3c0151704be",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "qdrant/qdrant"
+    }
+  ]
+}

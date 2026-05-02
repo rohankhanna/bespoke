@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fontworks-fonts/Klee",
+      "target": "adobe-type-tools/adobe-japan1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:15.566153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "fontworks-fonts/Klee",
+    "html_url": "https://github.com/fontworks-fonts/Klee",
+    "language": "Python",
+    "pushed_at": "2022-10-07T01:05:42Z",
+    "stargazers_count": 1066,
+    "topics": [],
+    "updated_at": "2026-05-02T12:11:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-type-tools/adobe-japan1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

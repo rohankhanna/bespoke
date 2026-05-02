@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/TopoNet",
+      "target": "opendrivelab/uniad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/TopoNet",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/TopoNet",
+      "target": "centerline-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/TopoNet",
+      "target": "road-topology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/TopoNet",
+      "target": "traffic-element-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:57.390251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9316
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[Accepted at SCIENCE CHINA Information Sciences 2026] Graph-based Topology Reasoning for Driving Scenes",
+    "fork": false,
+    "full_name": "OpenDriveLab/TopoNet",
+    "html_url": "https://github.com/OpenDriveLab/TopoNet",
+    "language": "Python",
+    "pushed_at": "2025-07-02T05:28:02Z",
+    "stargazers_count": 334,
+    "topics": [
+      "autonomous-driving",
+      "centerline-detection",
+      "road-topology",
+      "traffic-element-recognition"
+    ],
+    "updated_at": "2026-04-25T02:31:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/uniad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centerline-detection"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "road-topology"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-element-recognition"
+    }
+  ]
+}

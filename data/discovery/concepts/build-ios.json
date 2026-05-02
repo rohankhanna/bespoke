@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build iOS",
-    "Build-iOS"
+    "Build-iOS",
+    "\ud83c\udf4f Build iOS"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "logseq/logseq",
       "status": "candidate-context",
       "text": "Build-iOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "\ud83c\udf4f Build iOS"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "logseq/logseq",
       "status": "candidate",
       "text": "Build-iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "\ud83c\udf4f Build iOS"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +168,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/build-ios-release.yml",
       "source_repo": "logseq/logseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "j20001970/GDMP"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

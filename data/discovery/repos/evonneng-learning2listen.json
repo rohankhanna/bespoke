@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evonneng/learning2listen",
+      "target": "andrewowens/multisensory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evonneng/learning2listen",
+      "target": "yadiraf/deca",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:33:09.283742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official pytorch implementation for Learning to Listen: Modeling Non-Deterministic Dyadic Facial Motion (CVPR 2022)",
+    "fork": false,
+    "full_name": "evonneng/learning2listen",
+    "html_url": "https://github.com/evonneng/learning2listen",
+    "language": "Python",
+    "pushed_at": "2024-08-18T15:39:27Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-28T10:59:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewowens/multisensory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yadiraf/deca",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

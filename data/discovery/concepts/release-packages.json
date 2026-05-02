@@ -44,6 +44,18 @@
       "source_repo": "celo-org/developer-tooling",
       "status": "candidate-context",
       "text": "Release Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate-context",
+      "text": "Release packages"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "celo-org/developer-tooling",
       "status": "candidate",
       "text": "Release Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "status": "candidate",
+      "text": "Release packages"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "celo-org/developer-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

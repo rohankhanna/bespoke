@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/real-time-lip-sync-gd",
+      "target": "hecomi/ulipsync",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/real-time-lip-sync-gd",
+      "target": "godot-rust/godot-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "virtual-puppet-project/real-time-lip-sync-gd",
+      "target": "godot-rust/gdext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:35:33.692718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 724
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "virtual-puppet-project/real-time-lip-sync-gd",
+    "html_url": "https://github.com/virtual-puppet-project/real-time-lip-sync-gd",
+    "language": "Rust",
+    "pushed_at": "2023-12-07T02:49:42Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-11-04T00:05:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godot-rust/godot-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hecomi/ulipsync",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godot-rust/gdext",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

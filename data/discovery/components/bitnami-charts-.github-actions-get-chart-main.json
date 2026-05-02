@@ -1,0 +1,17 @@
+{
+  "component": "bitnami/charts/.github/actions/get-chart@main",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-update.yml",
+      "source_repo": "bitnami/charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-verify.yml",
+      "source_repo": "bitnami/charts"
+    }
+  ]
+}

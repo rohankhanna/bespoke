@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux, gcc, EDK2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pbatard/UEFI-Shell",
+      "status": "candidate-context",
+      "text": "UEFI Shell binary images, generated from EDK2 stable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pbatard/UEFI-Shell",
+      "status": "candidate-context",
+      "text": "Linux, gcc, EDK2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pbatard/UEFI-Shell",
+      "status": "candidate",
+      "text": "Linux, gcc, EDK2"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10647,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10584,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10584,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10584,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "beaumont"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux, gcc, EDK2",
+  "concept_id": "linux-gcc-edk2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux, gcc, EDK2",
+      "sense_id": "linux-gcc-edk2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

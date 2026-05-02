@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:31:38.577247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Warm and cozy colorscheme for Cava.",
+    "fork": false,
+    "full_name": "Biscuit-Theme/cava",
+    "html_url": "https://github.com/Biscuit-Theme/cava",
+    "language": null,
+    "pushed_at": "2023-10-07T18:16:21Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-10-07T18:14:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

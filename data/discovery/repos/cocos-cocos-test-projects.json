@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:37:41.448365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14
+    },
+    {
+      "path": "package.json",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v3.8.7",
+    "description": null,
+    "fork": false,
+    "full_name": "cocos/cocos-test-projects",
+    "html_url": "https://github.com/cocos/cocos-test-projects",
+    "language": "TypeScript",
+    "pushed_at": "2026-01-19T07:25:24Z",
+    "stargazers_count": 317,
+    "topics": [],
+    "updated_at": "2026-04-29T03:46:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

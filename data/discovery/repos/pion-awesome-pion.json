@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/awesome-pion",
+      "target": "1mb-dev/natcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/awesome-pion",
+      "target": "ahamlinman/hypcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/awesome-pion",
+      "target": "adalkiran/distributed-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/awesome-pion",
+      "target": "ailabstw/webrtc-socket-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "pion/awesome-pion",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "pion/awesome-pion",
+      "target": "Check Awesome Pion Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/awesome-pion",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/awesome-pion",
+      "target": "pion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/awesome-pion",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:38:48.675314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17179
+    },
+    {
+      "path": ".github/workflows/checklinks.yml",
+      "size": 230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome things related to Pion",
+    "fork": false,
+    "full_name": "pion/awesome-pion",
+    "html_url": "https://github.com/pion/awesome-pion",
+    "language": "Shell",
+    "pushed_at": "2026-04-26T01:09:44Z",
+    "stargazers_count": 915,
+    "topics": [
+      "go",
+      "golang",
+      "pion",
+      "rtc",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-26T01:09:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1mb-dev/natcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adalkiran/distributed-inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahamlinman/hypcast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailabstw/webrtc-socket-proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Check Awesome Pion Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checklinks.yml",
+      "term": "Check Awesome Pion Links"
+    },
+    {
+      "context_snippet": "> A curated list of awesome things related to Pion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "> A curated list of awesome things related to Pion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pion"
+    },
+    {
+      "context_snippet": "> A curated list of awesome things related to Pion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

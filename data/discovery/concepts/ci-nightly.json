@@ -32,6 +32,18 @@
       "source_repo": "jverzani/Mustache.jl",
       "status": "candidate-context",
       "text": "CI-nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/SymPy.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to SymPy via PyCall"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/SymPy.jl",
+      "status": "candidate-context",
+      "text": "CI-nightly"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate",
+      "text": "CI-nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/SymPy.jl",
       "status": "candidate",
       "text": "CI-nightly"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci-nightly.yml",
       "source_repo": "jverzani/Mustache.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/ci-nightly.yml",
+      "source_repo": "JuliaPy/SymPy.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -959,6 +959,42 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate-context",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to fix code securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/securefix-action)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to release JavaScript Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/release-js-action) [action.yaml](action.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate-context",
+      "text": "A github action and CLI to publish logseq graphs as a SPA app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate-context",
+      "text": "This is a [github action](https://github.com/features/actions) to publish a"
     }
   ],
   "candidate_glosses": [
@@ -1441,6 +1477,24 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/securefix-action",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/securefix-action)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/release-js-action",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/release-js-action) [action.yaml](action.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/publish-spa",
+      "status": "candidate",
+      "text": "This is a [github action](https://github.com/features/actions) to publish a"
     }
   ],
   "candidate_related_terms": [
@@ -2090,11 +2144,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/securefix-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/release-js-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "logseq/publish-spa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

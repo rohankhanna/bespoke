@@ -1,0 +1,12 @@
+{
+  "component": "fmulero/labeler@d3ef0aadb212cd1656bd6d5ce1e772787bf1682b",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml",
+      "source_repo": "bitnami/charts"
+    }
+  ]
+}

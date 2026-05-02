@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:39:36.011969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Point in time snapshot of TTS providers with Modern Hebrew support",
+    "fork": false,
+    "full_name": "danielrosehill/Hebrew-TTS-Providers",
+    "html_url": "https://github.com/danielrosehill/Hebrew-TTS-Providers",
+    "language": null,
+    "pushed_at": "2026-03-22T11:48:18Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-02T16:10:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:39:02.262159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for managing Claude Code configuration, slash commands, agents, and plugin development workflow.",
+    "fork": false,
+    "full_name": "danielrosehill/claude-code-plugin",
+    "html_url": "https://github.com/danielrosehill/claude-code-plugin",
+    "language": null,
+    "pushed_at": "2025-11-15T19:37:35Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-12-16T21:02:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

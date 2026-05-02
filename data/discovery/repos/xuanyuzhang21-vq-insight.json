@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuanyuzhang21/VQ-Insight",
+      "target": "zczhang-sjtu/ugvq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuanyuzhang21/VQ-Insight",
+      "target": "tulerfeng/video-r1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:00.632756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[AAAI 2026 Oral] VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning",
+    "fork": false,
+    "full_name": "xuanyuzhang21/VQ-Insight",
+    "html_url": "https://github.com/xuanyuzhang21/VQ-Insight",
+    "language": "Python",
+    "pushed_at": "2026-03-06T09:35:02Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-30T07:45:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tulerfeng/video-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zczhang-sjtu/ugvq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

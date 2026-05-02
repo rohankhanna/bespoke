@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cheind/py-motmetrics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "cheind/py-motmetrics",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "clear-mot-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "mot-challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheind/py-motmetrics",
+      "target": "tracker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:29.020552+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 928
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": ":bar_chart: Benchmark multiple object trackers (MOT) in Python",
+    "fork": false,
+    "full_name": "cheind/py-motmetrics",
+    "html_url": "https://github.com/cheind/py-motmetrics",
+    "language": "Python",
+    "pushed_at": "2025-06-17T05:44:04Z",
+    "stargazers_count": 1482,
+    "topics": [
+      "benchmark",
+      "clear-mot-metrics",
+      "metrics",
+      "mot",
+      "mot-challenge",
+      "object-detection",
+      "object-tracking",
+      "tracker"
+    ],
+    "updated_at": "2026-04-20T13:10:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clear-mot-metrics"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mot-challenge"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-tracking"
+    },
+    {
+      "context_snippet": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracker"
+    }
+  ]
+}

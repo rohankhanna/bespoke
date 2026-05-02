@@ -1,7 +1,7 @@
 {
   "component": "open-policy-agent/setup-opa@950f159a49aa91f9323f36f1de81c7f6b5de9576",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yaml",
       "source_repo": "DataDog/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/authz.yml",
+      "source_repo": "lakekeeper/lakekeeper"
     }
   ]
 }

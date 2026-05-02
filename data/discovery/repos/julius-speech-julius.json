@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julius-speech/julius",
+      "target": "julius-speech/dictation-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julius-speech/julius",
+      "target": "julius-speech/grammar-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julius-speech/julius",
+      "target": "julius-speech/segmentation-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julius-speech/julius",
+      "target": "julius-speech/prompter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julius-speech/julius",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julius-speech/julius",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julius-speech/julius",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julius-speech/julius",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:26:57.976084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-Source Large Vocabulary Continuous Speech Recognition Engine",
+    "fork": false,
+    "full_name": "julius-speech/julius",
+    "html_url": "https://github.com/julius-speech/julius",
+    "language": "C",
+    "pushed_at": "2025-06-16T07:10:03Z",
+    "stargazers_count": 1927,
+    "topics": [
+      "audio-processing",
+      "recognition",
+      "speech",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-04-27T16:36:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julius-speech/dictation-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julius-speech/grammar-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julius-speech/prompter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julius-speech/segmentation-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

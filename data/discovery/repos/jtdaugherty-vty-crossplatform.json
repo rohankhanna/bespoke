@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtdaugherty/vty-crossplatform",
+      "target": "jtdaugherty/vty-unix",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:32:12.448026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build-time cross-platform package for Vty",
+    "fork": false,
+    "full_name": "jtdaugherty/vty-crossplatform",
+    "html_url": "https://github.com/jtdaugherty/vty-crossplatform",
+    "language": "Haskell",
+    "pushed_at": "2025-11-22T23:42:43Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-08T14:36:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtdaugherty/vty-unix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

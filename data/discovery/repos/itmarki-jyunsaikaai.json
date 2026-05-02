@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ItMarki/jyunsaikaai",
+      "target": "lxgw/lxgwwenkaigb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ItMarki/jyunsaikaai",
+      "target": "lxgw/lxgwwenkaitc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ItMarki/jyunsaikaai",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ItMarki/jyunsaikaai",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:20.082738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u65bc Klee One \u88fd\u4f5c\u7684\u9999\u6e2f\u7e41\u9ad4\u5b57\u578b",
+    "fork": false,
+    "full_name": "ItMarki/jyunsaikaai",
+    "html_url": "https://github.com/ItMarki/jyunsaikaai",
+    "language": null,
+    "pushed_at": "2024-04-07T11:37:10Z",
+    "stargazers_count": 96,
+    "topics": [
+      "cjk",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-02T12:25:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkaigb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkaitc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "\u57fa\u65bc Fontworks \u7684 [Klee One](https://github.com/fontworks-fonts/Klee) \u884d\u751f\u7684\u958b\u653e\u7e41\u9ad4\u4e2d\u6587\u5b57\u578b\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

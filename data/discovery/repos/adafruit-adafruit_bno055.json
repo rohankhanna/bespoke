@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BNO055",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:11.280467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2618
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unified sensor driver for the Adafruit BNO055 orientation sensor breakout",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_BNO055",
+    "html_url": "https://github.com/adafruit/Adafruit_BNO055",
+    "language": "C++",
+    "pushed_at": "2024-12-03T22:11:28Z",
+    "stargazers_count": 406,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2026-04-21T14:58:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "Adafruit Unified BNO055 Driver (AHRS/Orientation) [![Build Status](https://github.com/adafruit/Adafruit_BNO055/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BNO055/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/as\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

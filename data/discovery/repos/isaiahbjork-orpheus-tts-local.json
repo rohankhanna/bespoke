@@ -1,0 +1,51 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaiahbjork/orpheus-tts-local",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:27:40.131417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1715
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run Orpheus 3B Locally With LM Studio",
+    "fork": false,
+    "full_name": "isaiahbjork/orpheus-tts-local",
+    "html_url": "https://github.com/isaiahbjork/orpheus-tts-local",
+    "language": "Python",
+    "pushed_at": "2025-03-20T14:18:45Z",
+    "stargazers_count": 536,
+    "topics": [
+      "ai",
+      "python",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-05-01T10:08:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A lightweight client for running [Orpheus TTS](https://huggingface.co/canopylabs/orpheus-3b-0.1-ft) locally using LM Studio API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

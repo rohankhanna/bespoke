@@ -408,34 +408,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/nncf",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/openvino_tokenizers",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "openvinotoolkit/model_server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/openvino",
-      "target": "vllm-project/vllm-openvino",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "openvinotoolkit/openvino",
@@ -744,7 +716,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:58:12.621938+00:00",
+  "fetched_at": "2026-05-02T18:36:03.191306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -756,7 +728,7 @@
     },
     {
       "path": ".github/workflows/android.yml",
-      "size": 23210
+      "size": 23200
     },
     {
       "path": ".github/workflows/assign_issue.yml",
@@ -776,11 +748,11 @@
     },
     {
       "path": ".github/workflows/ci-doctor.md",
-      "size": 12324
+      "size": 15859
     },
     {
       "path": ".github/workflows/clang_tidy.yml",
-      "size": 13269
+      "size": 13306
     },
     {
       "path": ".github/workflows/cleanup_caches.yml",
@@ -796,8 +768,8 @@
     "full_name": "openvinotoolkit/openvino",
     "html_url": "https://github.com/openvinotoolkit/openvino",
     "language": "C++",
-    "pushed_at": "2026-04-24T00:48:56Z",
-    "stargazers_count": 10134,
+    "pushed_at": "2026-05-01T15:15:41Z",
+    "stargazers_count": 10168,
     "topics": [
       "ai",
       "computer-vision",
@@ -819,30 +791,9 @@
       "transformers",
       "yolo"
     ],
-    "updated_at": "2026-04-23T18:43:37Z"
+    "updated_at": "2026-05-02T17:57:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openvinotoolkit/model_server",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openvinotoolkit/nncf",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openvinotoolkit/openvino_tokenizers",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vllm-project/vllm-openvino",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Android",

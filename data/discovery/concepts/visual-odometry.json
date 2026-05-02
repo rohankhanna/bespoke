@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "visual-odometry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "Depth and Flow for Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate-context",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Huangying-Zhan/DF-VO",
+      "status": "candidate",
+      "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "visual-odometry",
+  "concept_id": "visual-odometry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "Huangying-Zhan/DF-VO"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-odometry",
+      "sense_id": "visual-odometry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

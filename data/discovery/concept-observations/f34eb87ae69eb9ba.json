@@ -84,7 +84,7 @@
   "normalized_form": "deployments",
   "observation_id": "f34eb87ae69eb9ba",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Deployments",
   "source_context_snippet": "Deployments",
   "source_file": ".github/workflows/deploy.yml",

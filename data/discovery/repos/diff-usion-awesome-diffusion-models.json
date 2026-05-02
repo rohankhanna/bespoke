@@ -5,21 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexmaols/elucd",
+      "target": "aliborji/gfw",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexiajm/score_sde_fast_sampling",
+      "target": "aliasgharkhani/slime",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "alexiajm/adversarialconsistentscorematching",
+      "target": "algolzw/image-restoration-sde",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:07:08.274391+00:00",
+  "fetched_at": "2026-05-02T18:37:00.226738+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/diff-usion/Awesome-Diffusion-Models",
     "language": "HTML",
     "pushed_at": "2024-08-01T07:11:20Z",
-    "stargazers_count": 12325,
+    "stargazers_count": 12326,
     "topics": [
       "artificial-intelligence",
       "diffusion-models",
@@ -98,27 +98,27 @@
       "score-based",
       "score-matching"
     ],
-    "updated_at": "2026-04-30T07:11:08Z"
+    "updated_at": "2026-05-01T13:04:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alexiajm/adversarialconsistentscorematching",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alexiajm/score_sde_fast_sampling",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alexmaols/elucd",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "alexwangntl/erdiff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "algolzw/image-restoration-sde",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliasgharkhani/slime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliborji/gfw",
       "source_file": "README.md"
     }
   ],

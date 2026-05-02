@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck_prev_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck_prev_release.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck_prev_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@d1e65811565151536c0c894fff74f06351ed26e6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpatch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@34950e1b113b30df4edee1a6d3a605242df0c40b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@34950e1b113b30df4edee1a6d3a605242df0c40b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@34950e1b113b30df4edee1a6d3a605242df0c40b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abicheck.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "libfuse ABI check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck_prev_release.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abicheck_prev_release.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "libfuse/libfuse",
+      "target": "vmactions/freebsd-vm@d1e65811565151536c0c894fff74f06351ed26e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "libfuse/libfuse",
+      "target": "Build (FreeBSD)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpatch.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkpatch.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "Checkpatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "github/codeql-action/upload-sarif@34950e1b113b30df4edee1a6d3a605242df0c40b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codechecker.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codechecker.yml",
+      "source_repo": "libfuse/libfuse",
+      "target": "CodeChecker Analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:20.573222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 175
+    },
+    {
+      "path": ".github/workflows/abicheck.sh",
+      "size": 3382
+    },
+    {
+      "path": ".github/workflows/abicheck.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/abicheck_prev_release.yml",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/abidiff_suppressions.abignore",
+      "size": 5642
+    },
+    {
+      "path": ".github/workflows/bsd.yaml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/checkpatch.yml",
+      "size": 1395
+    },
+    {
+      "path": ".github/workflows/codechecker.sh",
+      "size": 13521
+    },
+    {
+      "path": ".github/workflows/codechecker.yml",
+      "size": 3909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace) interface",
+    "fork": false,
+    "full_name": "libfuse/libfuse",
+    "html_url": "https://github.com/libfuse/libfuse",
+    "language": "C",
+    "pushed_at": "2026-05-02T13:45:40Z",
+    "stargazers_count": 6021,
+    "topics": [],
+    "updated_at": "2026-05-02T13:45:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'libfuse ABI check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abicheck.yml",
+      "term": "libfuse ABI check"
+    },
+    {
+      "context_snippet": "'Build (FreeBSD)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "term": "Build (FreeBSD)"
+    },
+    {
+      "context_snippet": "Checkpatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkpatch.yml",
+      "term": "Checkpatch"
+    },
+    {
+      "context_snippet": "CodeChecker Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codechecker.yml",
+      "term": "CodeChecker Analysis"
+    }
+  ]
+}

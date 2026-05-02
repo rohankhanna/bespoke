@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linxuewu/Sparse4D",
+      "target": "swc-17/sparsedrive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linxuewu/Sparse4D",
+      "target": "horizonrobotics/sparse4d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:52.334721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sparse4D v1 & v2",
+    "fork": false,
+    "full_name": "linxuewu/Sparse4D",
+    "html_url": "https://github.com/linxuewu/Sparse4D",
+    "language": "Python",
+    "pushed_at": "2024-06-25T06:18:55Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-04-24T14:57:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horizonrobotics/sparse4d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swc-17/sparsedrive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "nordtheme/dircolors",
       "status": "candidate-context",
       "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate-context",
+      "text": "edit directory in $EDITOR (better than vim . with netrw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate-context",
+      "text": "vidir - edit directory"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nordtheme/dircolors",
       "status": "candidate",
       "text": "@nordtheme/dircolors \u2014 An arctic, north-bluish clean and elegant dircolors theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vidir",
+      "status": "candidate",
+      "text": "vidir - edit directory"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "nordtheme/dircolors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

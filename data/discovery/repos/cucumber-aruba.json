@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-github.yml"
+    },
+    {
+      "component": "cucumber/action-create-github-release@cf2c6f77ba35d2424362e83393a1c4c004cf2ddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-github.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rubygem.yml"
+    },
+    {
+      "component": "cucumber/action-publish-rubygem@d8918cbdee789cfc78f346a96a59596b87795be1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rubygem.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-github.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-github.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "cucumber/action-create-github-release@cf2c6f77ba35d2424362e83393a1c4c004cf2ddb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-github.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "Release on github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rubygem.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rubygem.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "cucumber/action-publish-rubygem@d8918cbdee789cfc78f346a96a59596b87795be1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-rubygem.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "Release to RubyGems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ruby.yml",
+      "source_repo": "cucumber/aruba",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/aruba",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/aruba",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/aruba",
+      "target": "GitHub Actions Security Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/aruba",
+      "target": "cucumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/aruba",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/aruba",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/aruba",
+      "target": "tidelift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:46:20.390556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3233
+    },
+    {
+      "path": "Dockerfile",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/release-github.yml",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/release-rubygem.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/test-ruby.yml",
+      "size": 5121
+    },
+    {
+      "path": ".github/workflows/zizmor-analysis.yaml",
+      "size": 601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
+    "fork": false,
+    "full_name": "cucumber/aruba",
+    "html_url": "https://github.com/cucumber/aruba",
+    "language": "Ruby",
+    "pushed_at": "2026-05-02T09:24:48Z",
+    "stargazers_count": 963,
+    "topics": [
+      "bdd",
+      "cucumber",
+      "ruby",
+      "shell",
+      "tdd",
+      "tidelift"
+    ],
+    "updated_at": "2026-05-02T09:24:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release on github",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-github.yml",
+      "term": "Release on github"
+    },
+    {
+      "context_snippet": "Release to RubyGems",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-rubygem.yml",
+      "term": "Release to RubyGems"
+    },
+    {
+      "context_snippet": "GitHub Actions Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "term": "GitHub Actions Security Analysis"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cucumber"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tidelift"
+    }
+  ]
+}

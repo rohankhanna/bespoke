@@ -43,6 +43,18 @@
       "source_repo": "APIDevTools/swagger-express-middleware",
       "status": "candidate-context",
       "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate-context",
+      "text": "Turn a path string such as `/user/:name` into a regular expression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate-context",
+      "text": "path-to-regexp \u2014 Express style path to RegExp utility"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "APIDevTools/swagger-express-middleware",
       "status": "candidate",
       "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/path-to-regexp",
+      "status": "candidate",
+      "text": "path-to-regexp \u2014 Express style path to RegExp utility"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "APIDevTools/swagger-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/path-to-regexp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

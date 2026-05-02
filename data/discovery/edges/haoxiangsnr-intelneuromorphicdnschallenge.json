@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "intellabs/intelneuromorphicdnschallenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "microsoft/dns-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "michaeljurado42/spandex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+      "target": "necotis/intelneuromorphicdnschallenge",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "haoxiangsnr/IntelNeuromorphicDNSChallenge"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "nodejs/node-addon-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "StevenBlack/hosts"
     }
   ]
 }

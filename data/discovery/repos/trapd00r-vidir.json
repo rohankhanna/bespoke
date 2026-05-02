@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trapd00r/vidir",
+      "target": "trapd00r/vim-syntax-vidir-ls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir",
+      "target": "dircolors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir",
+      "target": "filemanager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir",
+      "target": "lscolors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vidir",
+      "target": "vidir-ls",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:31:28.479024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "edit directory in $EDITOR (better than vim . with netrw)",
+    "fork": false,
+    "full_name": "trapd00r/vidir",
+    "html_url": "https://github.com/trapd00r/vidir",
+    "language": "Perl",
+    "pushed_at": "2024-06-08T08:07:10Z",
+    "stargazers_count": 226,
+    "topics": [
+      "cli",
+      "dircolors",
+      "file",
+      "filemanager",
+      "lscolors",
+      "vidir-ls",
+      "vim"
+    ],
+    "updated_at": "2026-04-30T11:30:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trapd00r/vim-syntax-vidir-ls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vidir - edit directory",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dircolors"
+    },
+    {
+      "context_snippet": "vidir - edit directory",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file"
+    },
+    {
+      "context_snippet": "vidir - edit directory",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filemanager"
+    },
+    {
+      "context_snippet": "vidir - edit directory",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lscolors"
+    },
+    {
+      "context_snippet": "vidir - edit directory",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vidir-ls"
+    }
+  ]
+}

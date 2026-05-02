@@ -79,6 +79,18 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate-context",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate-context",
+      "text": "Materials for GWU DNSC 6279 and DNSC 6290."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate-context",
+      "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jphall663/GWU_data_mining",
+      "status": "candidate",
+      "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jphall663/GWU_data_mining"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

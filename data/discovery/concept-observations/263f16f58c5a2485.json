@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tag cloud/Wordle presentation on 2D canvas or HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "word-cloud",
+      "sense_id": "word-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "word-cloud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "word-cloud",
+  "observation_id": "263f16f58c5a2485",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "word-cloud",
+  "source_context_snippet": "Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.",
+  "source_file": null,
+  "source_repo": "timdream/wordcloud2.js",
+  "source_repo_description": "Tag cloud/Wordle presentation on 2D canvas or HTML"
+}

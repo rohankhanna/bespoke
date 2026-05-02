@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/diary-manager",
+      "target": "jrblevin/markdown-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/diary-manager",
+      "target": "quelpa/quelpa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/diary-manager",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:48.051682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8264
+    },
+    {
+      "path": "Dockerfile",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcd4 Simple command-line tool and Emacs package for managing diary entries.",
+    "fork": false,
+    "full_name": "radian-software/diary-manager",
+    "html_url": "https://github.com/radian-software/diary-manager",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-04-24T01:18:22Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-12-20T00:14:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrblevin/markdown-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quelpa/quelpa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

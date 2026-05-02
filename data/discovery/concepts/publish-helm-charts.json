@@ -31,6 +31,18 @@
       "source_repo": "kubeflow/trainer",
       "status": "candidate-context",
       "text": "Publish Helm Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "status": "candidate-context",
+      "text": "Publish Helm Charts"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubeflow/trainer",
+      "status": "candidate",
+      "text": "Publish Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud",
       "status": "candidate",
       "text": "Publish Helm Charts"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/publish-helm-charts.yaml",
       "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish-charts.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-alibabacloud"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

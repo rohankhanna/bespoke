@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "differentiable-data-augmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "Fast audio data augmentation in PyTorch. Inspired by audiomentations. Useful for deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate-context",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/torch-audiomentations",
+      "status": "candidate",
+      "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "differentiable-data-augmentation",
+  "concept_id": "differentiable-data-augmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "differentiable-data-augmentation",
+      "sense_id": "differentiable-data-augmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

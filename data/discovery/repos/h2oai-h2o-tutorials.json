@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "ledell/sldm4-h2o",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "ledell/latinr-2019-h2o-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:30:18.019383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3663
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tutorials and training material for the H2O Machine Learning Platform",
+    "fork": false,
+    "full_name": "h2oai/h2o-tutorials",
+    "html_url": "https://github.com/h2oai/h2o-tutorials",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-24T17:25:46Z",
+    "stargazers_count": 1503,
+    "topics": [
+      "data-science",
+      "deep-learning",
+      "h2o",
+      "machine-learning",
+      "python",
+      "r",
+      "tutorial"
+    ],
+    "updated_at": "2026-04-27T08:06:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledell/latinr-2019-h2o-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledell/sldm4-h2o",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This document contains tutorials and training materials for H2O-3. If you find any problems with the tutorial code, please open an issue in this repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "target": "information-bottleneck-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/Barlow-Twins-TF",
+      "target": "tensorflow2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:26.761145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TensorFlow implementation of Barlow Twins (https://arxiv.org/abs/2103.03230).",
+    "fork": false,
+    "full_name": "sayakpaul/Barlow-Twins-TF",
+    "html_url": "https://github.com/sayakpaul/Barlow-Twins-TF",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-06-11T10:21:44Z",
+    "stargazers_count": 41,
+    "topics": [
+      "computer-vision",
+      "information-bottleneck-theory",
+      "representation-learning",
+      "self-supervised-learning",
+      "tensorflow2"
+    ],
+    "updated_at": "2024-02-02T14:01:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-bottleneck-theory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "star-clouds/centerface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "caowgg/mobilenetv2-centernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "lewes6369/tensorrt-yolov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CaoWGG/TensorRT-CenterNet",
+      "target": "weisslj/cpp-optparse",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "CaoWGG/TensorRT-CenterNet"
+}

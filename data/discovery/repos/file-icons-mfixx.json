@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "file-icons/MFixx",
+      "target": "fizzed/font-mfizz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "file-icons/MFixx",
+      "target": "file-icons/devopicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "file-icons/MFixx",
+      "target": "icon-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "file-icons/MFixx",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "file-icons/MFixx",
+      "target": "webfont",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:28:31.514047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optimised version of the MFizz icon font.",
+    "fork": false,
+    "full_name": "file-icons/MFixx",
+    "html_url": "https://github.com/file-icons/MFixx",
+    "language": "Makefile",
+    "pushed_at": "2025-10-11T08:28:03Z",
+    "stargazers_count": 58,
+    "topics": [
+      "icon-font",
+      "icons",
+      "webfont"
+    ],
+    "updated_at": "2025-11-13T05:01:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "file-icons/devopicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzed/font-mfizz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MFixx: Fixed MFizz icons",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-font"
+    },
+    {
+      "context_snippet": "MFixx: Fixed MFizz icons",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "MFixx: Fixed MFizz icons",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webfont"
+    }
+  ]
+}

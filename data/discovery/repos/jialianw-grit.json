@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JialianW/GRiT",
+      "target": "jcjohnson/densecap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JialianW/GRiT",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JialianW/GRiT",
+      "target": "xingyizhou/centernet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JialianW/GRiT",
+      "target": "microsoft/generativeimage2text",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:34.472162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GRiT: A Generative Region-to-text Transformer for Object Understanding (ECCV2024)",
+    "fork": false,
+    "full_name": "JialianW/GRiT",
+    "html_url": "https://github.com/JialianW/GRiT",
+    "language": "Python",
+    "pushed_at": "2024-01-08T17:34:53Z",
+    "stargazers_count": 341,
+    "topics": [],
+    "updated_at": "2026-03-28T02:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcjohnson/densecap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generativeimage2text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingyizhou/centernet2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

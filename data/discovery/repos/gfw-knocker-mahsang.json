@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/MahsaNG",
+      "target": "gfw-knocker/segaro_dream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/MahsaNG",
+      "target": "gfw-knocker/xray-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/MahsaNG",
+      "target": "mahsanet/nikang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/MahsaNG",
+      "target": "gfw-knocker/androidlibxraylite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:30.626280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a V2RayNG with Fragment , DoH , Rotating Configs , & free VPN servers",
+    "fork": true,
+    "full_name": "GFW-knocker/MahsaNG",
+    "html_url": "https://github.com/GFW-knocker/MahsaNG",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-12T00:09:40Z",
+    "stargazers_count": 2657,
+    "topics": [],
+    "updated_at": "2026-05-02T14:22:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/androidlibxraylite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/segaro_dream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/xray-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahsanet/nikang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

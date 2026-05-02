@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/VisorGPT",
+      "target": "sierkinhane/visorgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT",
+      "target": "controlnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT",
+      "target": "image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:37:06.021695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6884
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023] Customize spatial layouts for conditional image synthesis models, e.g., ControlNet, using GPT",
+    "fork": false,
+    "full_name": "showlab/VisorGPT",
+    "html_url": "https://github.com/showlab/VisorGPT",
+    "language": "Python",
+    "pushed_at": "2024-05-04T01:51:17Z",
+    "stargazers_count": 138,
+    "topics": [
+      "controlnet",
+      "diffusion-models",
+      "gpt",
+      "image-generation"
+    ],
+    "updated_at": "2026-04-17T06:53:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sierkinhane/visorgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[//]: # (<div align=center>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlnet"
+    },
+    {
+      "context_snippet": "[//]: # (<div align=center>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[//]: # (<div align=center>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    }
+  ]
+}

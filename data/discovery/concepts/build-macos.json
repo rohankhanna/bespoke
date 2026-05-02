@@ -3,7 +3,8 @@
     "Build macOS",
     "Build MacOS",
     "build-macos",
-    "Build (macos)"
+    "Build (macos)",
+    "\ud83c\udf4e Build macOS"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -154,6 +155,18 @@
       "source_repo": "SAP/SapMachine",
       "status": "candidate-context",
       "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "\ud83c\udf4e Build macOS"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +241,12 @@
       "source_repo": "SAP/SapMachine",
       "status": "candidate",
       "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "\ud83c\udf4e Build macOS"
     }
   ],
   "candidate_related_terms": [
@@ -552,11 +571,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "j20001970/GDMP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "@alloc/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aleclarson/vite-multi-spa",
+      "target": "@alloc/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aleclarson/vite-multi-spa",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aleclarson/vite-multi-spa",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aleclarson/vite-multi-spa",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aleclarson/vite-multi-spa",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:34:15.923941+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vite plugin for multi-SPA builds from src/pages/*.html",
+    "fork": false,
+    "full_name": "aleclarson/vite-multi-spa",
+    "html_url": "https://github.com/aleclarson/vite-multi-spa",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-12T21:31:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-12T21:31:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

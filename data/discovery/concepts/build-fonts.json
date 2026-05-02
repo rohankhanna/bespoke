@@ -32,6 +32,30 @@
       "source_repo": "JetBrains/JetBrainsMono",
       "status": "candidate-context",
       "text": "Build Fonts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "status": "candidate-context",
+      "text": "\u6ce8\u97f3IVS\u5b57\u578b\u898f\u683c Bopomofo IVS Font Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "status": "candidate-context",
+      "text": "Build Fonts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u601d\u6e90\u9ed1\u4f53\uff0c\u5e76\u4ee5\u4e2d\u56fd\u5927\u9646\u5b57\u5f62\u4e3a\u6807\u51c6\u7684\u5bf9\u4e2d\u65e5\u97e9\u8d8a\u7edf\u4e00\u8868\u610f\u6587\u5b57\u6269\u5c55\u533a\u8fdb\u884c\u5b57\u5f62\u8865\u5145\u7684\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+      "status": "candidate-context",
+      "text": "Build Fonts"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JetBrains/JetBrainsMono",
+      "status": "candidate",
+      "text": "Build Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/bpmfvs",
+      "status": "candidate",
+      "text": "Build Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
       "status": "candidate",
       "text": "Build Fonts"
     }
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build-fonts.yml",
       "source_repo": "JetBrains/JetBrainsMono"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build_font.yml",
+      "source_repo": "ButTaiwan/bpmfvs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

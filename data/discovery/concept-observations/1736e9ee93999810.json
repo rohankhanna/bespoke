@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003902,
+      "status": "candidate",
+      "text": "shelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998700,
+      "status": "candidate",
+      "text": "auspices"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990451,
+      "status": "candidate",
+      "text": "tribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963744,
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39843532,
+      "status": "candidate",
+      "text": "aegis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protection",
+      "sense_id": "protection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26039,
+      "status": "candidate",
+      "text": "tribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17027,
+      "status": "candidate",
+      "text": "auspices"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16077,
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16041,
+      "status": "candidate",
+      "text": "shelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7022,
+      "status": "candidate",
+      "text": "guarding"
+    }
+  ],
+  "concept_id": "protection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protection",
+  "observation_id": "1736e9ee93999810",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "protection",
+  "source_context_snippet": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts",
+  "source_file": null,
+  "source_repo": "StevenBlack/hosts",
+  "source_repo_description": "\ud83d\udd12 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+}

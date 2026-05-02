@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "tlienart/franklin.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "JuliaCon/www.juliacon.org",
+      "target": "Preview Cleanup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:40:07.315334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/Deploy.yml",
+      "size": 3686
+    },
+    {
+      "path": ".github/workflows/cleanup.yml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "franklin",
+    "description": "https://juliacon.org/",
+    "fork": false,
+    "full_name": "JuliaCon/www.juliacon.org",
+    "html_url": "https://github.com/JuliaCon/www.juliacon.org",
+    "language": "HTML",
+    "pushed_at": "2026-05-01T21:36:38Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-05-01T21:35:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlienart/franklin.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yml",
+      "term": "Preview Cleanup"
+    }
+  ]
+}

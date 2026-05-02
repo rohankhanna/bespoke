@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "basho/bitcask",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "basho/bitcask",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "basho/bitcask",
+      "target": "Erlang CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:27.453095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 386
+    },
+    {
+      "path": ".github/workflows/erlang.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "because you need another a key/value storage engine",
+    "fork": false,
+    "full_name": "basho/bitcask",
+    "html_url": "https://github.com/basho/bitcask",
+    "language": "Erlang",
+    "pushed_at": "2024-05-21T18:18:26Z",
+    "stargazers_count": 1394,
+    "topics": [],
+    "updated_at": "2026-04-29T07:48:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Erlang CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "term": "Erlang CI"
+    }
+  ]
+}

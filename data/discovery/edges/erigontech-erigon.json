@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "erigontech/erigon",
-      "target": "mathmakesart/erigon-on-rpi-4",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backups-dashboards.yml",
       "source_repo": "erigontech/erigon",
@@ -102,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "erigontech/erigon",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -123,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "erigontech/erigon",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -155,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
   "source_repo": "erigontech/erigon"
 }

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -176,6 +176,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-tutorials"
     }
   ],
   "term": "tutorial"

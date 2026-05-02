@@ -343,6 +343,18 @@
       "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
       "status": "candidate-context",
       "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "Benchmarking the Spectrum of Agent Capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate-context",
+      "text": "**Status:** Stable release"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
       "status": "candidate",
       "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danijar/crafter",
+      "status": "candidate",
+      "text": "**Status:** Stable release"
     }
   ],
   "candidate_related_terms": [
@@ -832,11 +850,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danijar/crafter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

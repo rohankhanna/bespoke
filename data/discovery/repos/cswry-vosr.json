@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/VOSR",
+      "target": "hustvl/lightningdit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/VOSR",
+      "target": "lins-lab/rcgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/VOSR",
+      "target": "kvfrans/shortcut-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:01.556017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11197
+    },
+    {
+      "path": "requirements.txt",
+      "size": 492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2026] VOSR: A Vision-Only Generative Model for Image Super-Resolution",
+    "fork": false,
+    "full_name": "cswry/VOSR",
+    "html_url": "https://github.com/cswry/VOSR",
+    "language": "Python",
+    "pushed_at": "2026-04-12T04:17:33Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-05-02T03:57:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/lightningdit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvfrans/shortcut-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lins-lab/rcgm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -2099,6 +2099,114 @@
       "source_repo": "elixir-makeup/makeup_syntect",
       "status": "candidate-context",
       "text": "\"Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "Google Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "A data index and query language over Markdown files, for https://obsidian.md/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "MathJax source code for version 3 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "status": "candidate-context",
+      "text": "Enterprise Distribution for Flux CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "Godot Engine official documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate-context",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "status": "candidate-context",
+      "text": "First aid procedures and decision-making flowchart based on MDA/Hatzalah procedures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "status": "candidate-context",
+      "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Interactive data visualizations and plotting in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -3151,6 +3259,60 @@
       "source_repo": "elixir-makeup/makeup_syntect",
       "status": "candidate",
       "text": "\"Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacksmithgu/obsidian-dataview",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax-src",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/distribution",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot-docs",
+      "status": "candidate",
+      "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-First-Aid",
+      "status": "candidate",
+      "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/etl",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "Docs"
     }
   ],
   "candidate_related_terms": [
@@ -4902,11 +5064,107 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "cloudpilot-ai/karpenter-provider-gcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "blacksmithgu/obsidian-dataview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mathjax/MathJax-src"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "controlplaneio-fluxcd/distribution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "httprb/http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-First-Aid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/_docs.yml",
+      "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

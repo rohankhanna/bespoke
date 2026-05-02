@@ -355,6 +355,30 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate-context",
       "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "status": "candidate-context",
+      "text": "xtensor plugin to read and write images, audio files, numpy (compressed) npz and HDF5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "status": "candidate-context",
+      "text": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dranjan/python-plyfile",
+      "status": "candidate-context",
+      "text": "NumPy-based text/binary PLY file reader/writer for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dranjan/python-plyfile",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate",
       "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-io",
+      "status": "candidate",
+      "text": "[![Azure Pipelines](https://dev.azure.com/xtensor-stack/xtensor-stack/_apis/build/status/xtensor-stack.xtensor-io?branchName=master)](https://dev.azure.com/xtensor-stack/xtensor-stack/_build/latest?definitionId=8&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dranjan/python-plyfile",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/dranjan/python-plyfile/actions/workflows/python-package.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -850,11 +886,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "dranjan/python-plyfile"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

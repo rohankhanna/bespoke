@@ -783,6 +783,42 @@
       "source_repo": "imfing/ava_downloader",
       "status": "candidate-context",
       "text": "**A Large-Scale Database for Aesthetic Visual Analysis**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karolpiczak/ESC-50",
+      "status": "candidate-context",
+      "text": "ESC-50: Dataset for Environmental Sound Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karolpiczak/ESC-50",
+      "status": "candidate-context",
+      "text": "> ###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Download](#download) | [Results](#results) | [Repository content](#repository-content) | [License](#license) | [Citing](#citing) | [Caveats](#caveats) | [Changelog](#changelog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate-context",
+      "text": "Mapillary Street-level Sequences Dataset "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate-context",
+      "text": "- *2026-04-13* - Sample and test set now available at main download site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavysp/UDED",
+      "status": "candidate-context",
+      "text": "UDED: Edge detection dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/UDED",
+      "status": "candidate-context",
+      "text": "This dataset is a collection of 1, 2, or 3 images from:"
     }
   ],
   "candidate_glosses": [
@@ -1175,6 +1211,24 @@
       "source_repo": "imfing/ava_downloader",
       "status": "candidate",
       "text": "**A Large-Scale Database for Aesthetic Visual Analysis**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karolpiczak/ESC-50",
+      "status": "candidate",
+      "text": "> ###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Download](#download) | [Results](#results) | [Repository content](#repository-content) | [License](#license) | [Citing](#citing) | [Caveats](#caveats) | [Changelog](#changelog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate",
+      "text": "- *2026-04-13* - Sample and test set now available at main download site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/UDED",
+      "status": "candidate",
+      "text": "This dataset is a collection of 1, 2, or 3 images from:"
     }
   ],
   "candidate_related_terms": [
@@ -1632,11 +1686,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "imfing/ava_downloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "karolpiczak/ESC-50"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "imfing/ava_downloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "xavysp/UDED"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tox.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyusb/pyusb",
+      "target": "libusb/libusb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pyusb/pyusb",
+      "target": "pyocd/libusb-package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tox.yml",
+      "source_repo": "pyusb/pyusb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tox.yml",
+      "source_repo": "pyusb/pyusb",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tox.yml",
+      "source_repo": "pyusb/pyusb",
+      "target": "pyusb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyusb/pyusb",
+      "target": "hardware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:42:23.301643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3884
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/run_tox.yml",
+      "size": 1311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy USB access for Python",
+    "fork": false,
+    "full_name": "pyusb/pyusb",
+    "html_url": "https://github.com/pyusb/pyusb",
+    "language": "Python",
+    "pushed_at": "2026-02-12T15:10:52Z",
+    "stargazers_count": 2299,
+    "topics": [
+      "hardware",
+      "python",
+      "usb"
+    ],
+    "updated_at": "2026-04-30T09:26:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libusb/libusb",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyocd/libusb-package",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pyusb",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tox.yml",
+      "term": "pyusb"
+    },
+    {
+      "context_snippet": "==================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/HFC-Guidance-Flip-Book",
+      "target": "danielrosehill/israel-wartime-prep-guide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:39:28.197803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pikud HaOref guidance in a visual presentation for younger audiences",
+    "fork": false,
+    "full_name": "danielrosehill/HFC-Guidance-Flip-Book",
+    "html_url": "https://github.com/danielrosehill/HFC-Guidance-Flip-Book",
+    "language": "Typst",
+    "pushed_at": "2026-03-26T01:31:11Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-26T01:31:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/israel-wartime-prep-guide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

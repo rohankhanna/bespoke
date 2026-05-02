@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux_gcc_edk2.yml",
+      "source_repo": "pbatard/UEFI-Shell"
+    }
+  ],
+  "term": "Linux, gcc, EDK2"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "sgpublic/delete-release-action@v1.2",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tatortreiniger.yaml",
+      "source_repo": "TfTHacker/obsidian42-brat"
+    }
+  ]
+}

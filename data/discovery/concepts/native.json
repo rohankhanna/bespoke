@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +117,18 @@
       "source_repo": "DioxusLabs/dioxus",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "Dart packages related to FFI and native assets bundling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
+      "status": "candidate-context",
+      "text": "native"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +185,12 @@
       "source_repo": "DioxusLabs/dioxus",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/native",
+      "status": "candidate",
+      "text": "native"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +360,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/native.yaml",
+      "source_repo": "dart-lang/native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

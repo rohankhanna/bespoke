@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-s3",
+      "sense_id": "aws-s3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-s3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-s3",
+  "observation_id": "d7ebac81b8f9b558",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_text": "aws-s3",
+  "source_context_snippet": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>",
+  "source_file": null,
+  "source_repo": "hypnoglow/helm-s3",
+  "source_repo_description": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+}

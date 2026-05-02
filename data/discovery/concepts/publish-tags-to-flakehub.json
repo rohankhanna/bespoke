@@ -31,6 +31,18 @@
       "source_repo": "a-h/templ",
       "status": "candidate-context",
       "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "a debugger for async rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
+      "status": "candidate-context",
+      "text": "\"Publish tags to FlakeHub\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "a-h/templ",
+      "status": "candidate",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/console",
       "status": "candidate",
       "text": "\"Publish tags to FlakeHub\""
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/flakehub-publish-tagged.yml",
       "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yml",
+      "source_repo": "tokio-rs/console"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/stylegan-v",
+      "target": "sergeytulyakov/mocogan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/stylegan-v",
+      "target": "sihyun-yu/digan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/stylegan-v",
+      "target": "ondyari/faceforensics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/stylegan-v",
+      "target": "pfnet-research/tgan2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:30:38.636863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HReynaud/stylegan-v",
+    "html_url": "https://github.com/HReynaud/stylegan-v",
+    "language": "Python",
+    "pushed_at": "2024-03-20T18:36:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-03-20T18:35:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ondyari/faceforensics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfnet-research/tgan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergeytulyakov/mocogan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sihyun-yu/digan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "source_repo": "cheald/manticore",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "source_repo": "cheald/manticore",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "source_repo": "cheald/manticore",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "source_repo": "cheald/manticore",
+      "target": "JRuby CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:34:46.637105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13040
+    },
+    {
+      "path": ".github/workflows/jruby-ci.yml",
+      "size": 1583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manticore is a JRuby HTTP client built on the Apache HttpClient 4.x components",
+    "fork": false,
+    "full_name": "cheald/manticore",
+    "html_url": "https://github.com/cheald/manticore",
+    "language": "Ruby",
+    "pushed_at": "2025-10-20T12:17:52Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2025-10-20T12:17:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JRuby CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "term": "JRuby CI"
+    }
+  ]
+}

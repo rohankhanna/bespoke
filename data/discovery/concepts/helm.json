@@ -370,6 +370,42 @@
       "source_repo": "NVIDIA/k8s-device-plugin",
       "status": "candidate-context",
       "text": "Helm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "\u2388 Helm plugin that adds support for AWS S3 as a chart repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate-context",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "A helm plugin that help manage secrets with Git workflow and store them anywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitnami/charts",
+      "status": "candidate-context",
+      "text": "Bitnami Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/charts",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +588,24 @@
       "source_repo": "NVIDIA/k8s-device-plugin",
       "status": "candidate",
       "text": "Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hypnoglow/helm-s3",
+      "status": "candidate",
+      "text": "<p align=\"left\"><img src=\".github/assets/icon_with_name.png\" width=\"500\" alt=\"helm-s3 Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkroepke/helm-secrets",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/charts",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -793,11 +847,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/helm.yaml",
       "source_repo": "NVIDIA/k8s-device-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "jkroepke/helm-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/charts"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

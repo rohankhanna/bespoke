@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:37:41.950729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 245
+    },
+    {
+      "path": "package.json",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cocos Creator learning tutorial",
+    "fork": false,
+    "full_name": "cocos/cocos-tutorial-mind-your-step",
+    "html_url": "https://github.com/cocos/cocos-tutorial-mind-your-step",
+    "language": "TypeScript",
+    "pushed_at": "2023-09-19T08:53:44Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-03-17T06:52:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Install pods and build iOS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate-context",
+      "text": "Application based on the web airelib.re.com, made with UIKIT in Swift applying the MVVM architecture. / Aplicaci\u00f3n iOS basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate-context",
+      "text": "Install pods and build iOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-iOS",
+      "status": "candidate",
+      "text": "Install pods and build iOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17229,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17199,
+      "status": "candidate",
+      "text": "joiner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17138,
+      "status": "candidate",
+      "text": "fitted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Install pods and build iOS",
+  "concept_id": "install-pods-and-build-ios",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/iOSBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-iOS"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Install pods and build iOS",
+      "sense_id": "install-pods-and-build-ios#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

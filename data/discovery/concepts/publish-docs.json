@@ -328,6 +328,30 @@
       "source_repo": "KWARC/rust-libxml",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JolifantoBambla/vk",
+      "status": "candidate-context",
+      "text": "Common Lisp/CFFI bindings for the Vulkan API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/vk",
+      "status": "candidate-context",
+      "text": "publish-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "The modern, community-first TypeScript toolkit with all of the fast, readable, and minimal utility functions you need. Type-safe, dependency-free, tree-shakeable, fully tested."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -490,6 +514,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KWARC/rust-libxml",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/vk",
+      "status": "candidate",
+      "text": "publish-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radashi-org/radashi",
       "status": "candidate",
       "text": "Publish Docs"
     }
@@ -811,11 +847,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/publish-docs.yml",
       "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "JolifantoBambla/vk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "radashi-org/radashi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

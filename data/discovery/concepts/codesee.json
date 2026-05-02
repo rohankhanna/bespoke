@@ -19,12 +19,30 @@
       "source_repo": "fullstorydev/grpcurl",
       "status": "candidate-context",
       "text": "CodeSee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate-context",
+      "text": "A simplified way to generate masive mock data based on a schema, you can use the awesome fake/random data generators like (FakerJs, ChanceJs, CasualJs and RandExpJs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danibram/mocker-data-generator",
+      "status": "candidate-context",
+      "text": "CodeSee"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "fullstorydev/grpcurl",
+      "status": "candidate",
+      "text": "CodeSee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danibram/mocker-data-generator",
       "status": "candidate",
       "text": "CodeSee"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/codesee-arch-diagram.yml",
       "source_repo": "fullstorydev/grpcurl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/codesee-arch-diagram.yml",
+      "source_repo": "danibram/mocker-data-generator"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

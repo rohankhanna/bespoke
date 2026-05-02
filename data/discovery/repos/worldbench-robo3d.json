@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worldbench/Robo3D",
+      "target": "bichenwuucb/squeezeseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worldbench/Robo3D",
+      "target": "edwardzhou130/polarseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worldbench/Robo3D",
+      "target": "dvlab-research/sphereformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "worldbench/Robo3D",
+      "target": "edwardzhou130/panoptic-polarnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D",
+      "target": "3d-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D",
+      "target": "lidar-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D",
+      "target": "ood-robustness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:16.379865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Robo3D: Towards Robust and Reliable 3D Perception against Corruptions ",
+    "fork": false,
+    "full_name": "worldbench/Robo3D",
+    "html_url": "https://github.com/worldbench/Robo3D",
+    "language": "Python",
+    "pushed_at": "2025-12-06T11:05:24Z",
+    "stargazers_count": 372,
+    "topics": [
+      "3d-object-detection",
+      "autonomous-driving",
+      "lidar-segmentation",
+      "ood-robustness"
+    ],
+    "updated_at": "2026-04-29T06:57:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bichenwuucb/squeezeseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/sphereformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edwardzhou130/panoptic-polarnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edwardzhou130/polarseg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"right\">English | <a href=\"./README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-object-detection"
+    },
+    {
+      "context_snippet": "<p align=\"right\">English | <a href=\"./README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<p align=\"right\">English | <a href=\"./README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"right\">English | <a href=\"./README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ood-robustness"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-firestore",
+      "target": "hchiam/vuejsfirebase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-firestore",
+      "target": "hchiam/learning-firebase-local-emulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-firestore",
+      "target": "hchiam/learning-firebase-hosting",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:23.871040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Firestore",
+    "fork": false,
+    "full_name": "hchiam/learning-firestore",
+    "html_url": "https://github.com/hchiam/learning-firestore",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-04T03:35:06Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-04T03:35:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-firebase-hosting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-firebase-local-emulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/vuejsfirebase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

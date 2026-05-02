@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/logo",
+      "target": "gopher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/logo",
+      "target": "gotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotify/logo",
+      "target": "logo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:38:24.963997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Gotify logo.",
+    "fork": false,
+    "full_name": "gotify/logo",
+    "html_url": "https://github.com/gotify/logo",
+    "language": null,
+    "pushed_at": "2024-02-01T16:30:39Z",
+    "stargazers_count": 7,
+    "topics": [
+      "gopher",
+      "gotify",
+      "logo"
+    ],
+    "updated_at": "2025-12-30T15:57:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Gotify logo is licensed under the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gopher"
+    },
+    {
+      "context_snippet": "The Gotify logo is licensed under the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gotify"
+    },
+    {
+      "context_snippet": "The Gotify logo is licensed under the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logo"
+    }
+  ]
+}

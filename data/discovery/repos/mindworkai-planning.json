@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:26:03.945849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is used to plan the further development of AI Studio.",
+    "fork": false,
+    "full_name": "MindWorkAI/Planning",
+    "html_url": "https://github.com/MindWorkAI/Planning",
+    "language": null,
+    "pushed_at": "2025-03-02T19:20:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-12T11:14:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

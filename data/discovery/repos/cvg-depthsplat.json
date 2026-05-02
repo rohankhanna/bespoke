@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/depthsplat",
+      "target": "autonomousvision/unimatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/depthsplat",
+      "target": "dcharatan/pixelsplat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/depthsplat",
+      "target": "donydchen/mvsplat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/depthsplat",
+      "target": "donydchen/mvsplat360",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat",
+      "target": "feed-forward-gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat",
+      "target": "monocular-depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/depthsplat",
+      "target": "view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:48:29.677767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15053
+    },
+    {
+      "path": "requirements.txt",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'25] DepthSplat: Connecting Gaussian Splatting and Depth",
+    "fork": false,
+    "full_name": "cvg/depthsplat",
+    "html_url": "https://github.com/cvg/depthsplat",
+    "language": "Python",
+    "pushed_at": "2026-04-01T12:53:56Z",
+    "stargazers_count": 1191,
+    "topics": [
+      "feed-forward-gaussian-splatting",
+      "monocular-depth",
+      "multi-view-stereo",
+      "view-synthesis"
+    ],
+    "updated_at": "2026-04-29T07:50:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/unimatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/pixelsplat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donydchen/mvsplat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donydchen/mvsplat360",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feed-forward-gaussian-splatting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "view-synthesis"
+    }
+  ]
+}

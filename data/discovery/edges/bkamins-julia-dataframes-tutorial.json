@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "juliadata/categoricalarrays.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "nalimilan/freqtables.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "juliastats/dataframesmeta.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "juliaplots/statsplots.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "data-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkamins/Julia-DataFrames-Tutorial",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "source_repo": "bkamins/Julia-DataFrames-Tutorial"
+}

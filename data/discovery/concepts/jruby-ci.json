@@ -19,12 +19,30 @@
       "source_repo": "jruby/jruby",
       "status": "candidate-context",
       "text": "JRuby CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheald/manticore",
+      "status": "candidate-context",
+      "text": "Manticore is a JRuby HTTP client built on the Apache HttpClient 4.x components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheald/manticore",
+      "status": "candidate-context",
+      "text": "JRuby CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "jruby/jruby",
+      "status": "candidate",
+      "text": "JRuby CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheald/manticore",
       "status": "candidate",
       "text": "JRuby CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jruby-ci.yml",
+      "source_repo": "cheald/manticore"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

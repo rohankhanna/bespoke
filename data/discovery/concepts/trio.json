@@ -43,6 +43,18 @@
       "source_repo": "python-trio/trio",
       "status": "candidate-context",
       "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rthalley/dnspython",
+      "status": "candidate-context",
+      "text": "a powerful DNS toolkit for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rthalley/dnspython",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "python-trio/trio",
       "status": "candidate",
       "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rthalley/dnspython",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "python-trio/trio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "rthalley/dnspython"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

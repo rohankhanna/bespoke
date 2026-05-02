@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/chat-app-fcc-react-redux",
+      "target": "beaucarnes/fcc-project-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/chat-app-fcc-react-redux",
+      "target": "hchiam/learning-redux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:22.763600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning to build a chat app with React and Redux, using a FCC tutorial.",
+    "fork": false,
+    "full_name": "hchiam/chat-app-fcc-react-redux",
+    "html_url": "https://github.com/hchiam/chat-app-fcc-react-redux",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-13T18:08:23Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2020-01-21T00:06:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beaucarnes/fcc-project-tutorials",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-redux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

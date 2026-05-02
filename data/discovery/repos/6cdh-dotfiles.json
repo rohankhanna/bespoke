@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:31:17.338735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "6cdh's dotfiles",
+    "fork": false,
+    "full_name": "6cdh/dotfiles",
+    "html_url": "https://github.com/6cdh/dotfiles",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-17T05:43:52Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-17T05:43:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

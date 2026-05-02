@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "target": "intel-isl/open3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "target": "feature-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/pointcloud_visualizer",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:47:11.058764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Visualization tool for point cloud and feature extracted from deep learning network",
+    "fork": false,
+    "full_name": "dogyoonlee/pointcloud_visualizer",
+    "html_url": "https://github.com/dogyoonlee/pointcloud_visualizer",
+    "language": "Python",
+    "pushed_at": "2021-11-08T11:15:42Z",
+    "stargazers_count": 22,
+    "topics": [
+      "feature-visualization",
+      "pointcloud",
+      "visualization"
+    ],
+    "updated_at": "2026-01-22T17:36:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-isl/open3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Point cloud and feature visualization using the visualization tool of [[PointNet++]](https://github.com/charlesq34/pointnet2/) and [[open3d]](https://github.com/intel-isl/Open3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-visualization"
+    },
+    {
+      "context_snippet": "Point cloud and feature visualization using the visualization tool of [[PointNet++]](https://github.com/charlesq34/pointnet2/) and [[open3d]](https://github.com/intel-isl/Open3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "Point cloud and feature visualization using the visualization tool of [[PointNet++]](https://github.com/charlesq34/pointnet2/) and [[open3d]](https://github.com/intel-isl/Open3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

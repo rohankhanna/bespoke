@@ -670,6 +670,30 @@
       "source_repo": "ruby-formatter/rufo",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/ruby-formatter/rufo/workflows/CI/badge.svg)](https://github.com/ruby-formatter/rufo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] SPA: 3D Spatial-Awareness Enables Effective Embodied Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate-context",
+      "text": "Formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "prettier, as a daemon, for improved formatting speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_glosses": [
@@ -1002,6 +1026,18 @@
       "source_repo": "ruby-formatter/rufo",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/ruby-formatter/rufo/workflows/CI/badge.svg)](https://github.com/ruby-formatter/rufo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/SPA",
+      "status": "candidate",
+      "text": "Formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsouza/prettierd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
     }
   ],
   "candidate_related_terms": [
@@ -1597,11 +1633,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/SPA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "fsouza/prettierd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

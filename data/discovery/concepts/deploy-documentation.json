@@ -470,6 +470,30 @@
       "source_repo": "astral-sh/pubgrub",
       "status": "candidate-context",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the Voyager data exploration tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "An Electron.jl based figure and table display."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_glosses": [
@@ -704,6 +728,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "astral-sh/pubgrub",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/DataVoyager.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate",
       "text": "Deploy documentation"
     }
@@ -1145,11 +1181,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/DataVoyager.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

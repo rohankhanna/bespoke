@@ -1,0 +1,12 @@
+{
+  "component": "suzuki-shunsuke/actionlint-workflow/.github/workflows/actionlint.yaml@dbe6151b36d408b24ca5c41a34291b2b6d1bff76",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "szksh-lab/.github"
+    }
+  ]
+}

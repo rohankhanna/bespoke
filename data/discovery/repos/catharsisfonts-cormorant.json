@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:48:16.087059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5541
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cormorant open-source display font family",
+    "fork": false,
+    "full_name": "CatharsisFonts/Cormorant",
+    "html_url": "https://github.com/CatharsisFonts/Cormorant",
+    "language": "Python",
+    "pushed_at": "2026-04-21T10:14:15Z",
+    "stargazers_count": 620,
+    "topics": [],
+    "updated_at": "2026-04-21T10:14:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

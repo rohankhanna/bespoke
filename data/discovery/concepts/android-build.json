@@ -93,6 +93,18 @@
       "source_repo": "xtensor-stack/xsimd",
       "status": "candidate-context",
       "text": "Android build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": " Application based on the web airelib.re.com, made with Kotlin and Compose 60%  applying the MVVM architecture. / Aplicaci\u00f3n Android basado en la web https://airelib.re del proyecto: https://github.com/melizeche/AireLibre"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate-context",
+      "text": "Android Build"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "xtensor-stack/xsimd",
       "status": "candidate",
       "text": "Android build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LucasGinard/AireLibre-Android",
+      "status": "candidate",
+      "text": "Android Build"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +240,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "xtensor-stack/xsimd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

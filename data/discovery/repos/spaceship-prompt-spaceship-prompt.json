@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:43:45.519269+00:00",
+  "fetched_at": "2026-05-02T18:40:21.829515+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -294,7 +294,7 @@
     "html_url": "https://github.com/spaceship-prompt/spaceship-prompt",
     "language": "Shell",
     "pushed_at": "2026-04-28T12:53:45Z",
-    "stargazers_count": 20484,
+    "stargazers_count": 20487,
     "topics": [
       "oh-my-zsh",
       "prompt",
@@ -307,7 +307,7 @@
       "zsh-theme",
       "zsh-users"
     ],
-    "updated_at": "2026-04-30T20:44:43Z"
+    "updated_at": "2026-05-02T18:35:21Z"
   },
   "repo_links": [],
   "terms": [

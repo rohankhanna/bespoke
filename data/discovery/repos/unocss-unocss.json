@@ -1223,7 +1223,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:00:45.612554+00:00",
+  "fetched_at": "2026-05-02T18:28:43.354358+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1260,7 +1260,7 @@
     "html_url": "https://github.com/unocss/unocss",
     "language": "TypeScript",
     "pushed_at": "2026-04-29T13:10:15Z",
-    "stargazers_count": 18769,
+    "stargazers_count": 18774,
     "topics": [
       "atomic-css",
       "engine",
@@ -1268,7 +1268,7 @@
       "vite-plugin",
       "windicss"
     ],
-    "updated_at": "2026-04-29T18:02:25Z"
+    "updated_at": "2026-05-02T12:47:38Z"
   },
   "repo_links": [],
   "terms": [

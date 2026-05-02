@@ -84,7 +84,7 @@
   "normalized_form": "check-changelog-file-included",
   "observation_id": "e4aae21aec301d4e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "Check changelog file included",
   "source_context_snippet": "Check changelog file included",
   "source_file": ".github/workflows/changelog.yml",

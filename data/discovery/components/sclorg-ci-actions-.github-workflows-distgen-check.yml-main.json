@@ -1,12 +1,17 @@
 {
   "component": "sclorg/ci-actions/.github/workflows/distgen-check.yml@main",
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/container-tests.yml",
       "source_repo": "sclorg/postgresql-container"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-python-container"
     }
   ]
 }

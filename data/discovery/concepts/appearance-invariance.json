@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "appearance-invariance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate-context",
+      "text": "Mapillary Street-level Sequences Dataset "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate-context",
+      "text": "- *2026-04-13* - Sample and test set now available at main download site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/mapillary_sls",
+      "status": "candidate",
+      "text": "- *2026-04-13* - Sample and test set now available at main download site"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "appearance-invariance",
+  "concept_id": "appearance-invariance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mapillary/mapillary_sls"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "appearance-invariance",
+      "sense_id": "appearance-invariance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

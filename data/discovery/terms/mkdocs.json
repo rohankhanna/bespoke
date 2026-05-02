@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "readthedocs/readthedocs.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yaml",
+      "source_repo": "haskell/ghcup-www"
     }
   ],
   "term": "mkdocs"

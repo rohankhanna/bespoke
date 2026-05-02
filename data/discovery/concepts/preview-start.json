@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Preview Start"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-cool/issues-helper",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A GitHub Action easily helps you automatically manage issues. Welcome to try."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/issues-helper",
+      "status": "candidate-context",
+      "text": "Preview Start"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/issues-helper",
+      "status": "candidate",
+      "text": "Preview Start"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14919,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14372,
+      "status": "candidate",
+      "text": "teaser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "introductory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13949,
+      "status": "candidate",
+      "text": "overview"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Preview Start",
+  "concept_id": "preview-start",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/preview-start.yml",
+      "source_repo": "actions-cool/issues-helper"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Preview Start",
+      "sense_id": "preview-start#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

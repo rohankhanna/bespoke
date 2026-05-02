@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update HTML Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "\u26a1 High-performance Vue language tooling based-on Volar.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "Update HTML Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate",
+      "text": "Update HTML Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24214,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24203,
+      "status": "candidate",
+      "text": "xml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24192,
+      "status": "candidate",
+      "text": "browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23236,
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23214,
+      "status": "candidate",
+      "text": "index"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update HTML Data",
+  "concept_id": "update-html-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/update-html-data.yml",
+      "source_repo": "vuejs/language-tools"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update HTML Data",
+      "sense_id": "update-html-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

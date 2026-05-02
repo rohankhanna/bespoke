@@ -248,34 +248,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TanStack/form",
-      "target": "tanstack/pacer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TanStack/form",
-      "target": "tanstack/ranger",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TanStack/form",
-      "target": "tanstack/router",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TanStack/form",
-      "target": "tanstack/store",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TanStack/form",
@@ -647,7 +619,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:07:04.075989+00:00",
+  "fetched_at": "2026-05-02T18:33:58.679752+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -680,7 +652,7 @@
     "html_url": "https://github.com/TanStack/form",
     "language": "TypeScript",
     "pushed_at": "2026-04-29T13:50:14Z",
-    "stargazers_count": 6500,
+    "stargazers_count": 6502,
     "topics": [
       "angular",
       "form",
@@ -695,30 +667,9 @@
       "yup",
       "zod"
     ],
-    "updated_at": "2026-04-30T20:46:03Z"
+    "updated_at": "2026-05-02T15:33:29Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tanstack/pacer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tanstack/ranger",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tanstack/router",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tanstack/store",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

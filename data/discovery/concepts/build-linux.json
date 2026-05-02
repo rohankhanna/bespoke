@@ -3,7 +3,8 @@
     "Build Linux",
     "build-linux",
     "Build-Linux",
-    "Build (linux)"
+    "Build (linux)",
+    "\ud83d\udc27 Build Linux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -166,6 +167,18 @@
       "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
       "status": "candidate-context",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "Godot plugin for MediaPipe framework and solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate-context",
+      "text": "\ud83d\udc27 Build Linux"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +259,12 @@
       "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
       "status": "candidate",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP",
+      "status": "candidate",
+      "text": "\ud83d\udc27 Build Linux"
     }
   ],
   "candidate_related_terms": [
@@ -492,11 +511,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "j20001970/GDMP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

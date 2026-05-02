@@ -1039,6 +1039,30 @@
       "source_repo": "logseq/logseq",
       "status": "candidate-context",
       "text": "<!-- logo -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown with Vue for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate-context",
+      "text": "Markdown for Vite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -1557,6 +1581,18 @@
       "source_repo": "logseq/logseq",
       "status": "candidate",
       "text": "<!-- logo -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vite-plugin-md",
+      "status": "candidate",
+      "text": "Markdown for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getzola/zola",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_related_terms": [
@@ -2308,11 +2344,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vite-plugin-md"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "getzola/zola"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

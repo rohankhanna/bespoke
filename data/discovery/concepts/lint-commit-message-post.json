@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udcee Lint Commit Message Post"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A Vue.js 3 UI Library made by Element team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate-context",
+      "text": "\ud83d\udcee Lint Commit Message Post"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "\ud83d\udcee Lint Commit Message Post"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33266,
+      "status": "candidate",
+      "text": "memo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32979,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32808,
+      "status": "candidate",
+      "text": "flame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32808,
+      "status": "candidate",
+      "text": "forum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30350,
+      "status": "candidate",
+      "text": "acton"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udcee Lint Commit Message Post",
+  "concept_id": "lint-commit-message-post",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/lint-commit-message-post.yml",
+      "source_repo": "element-plus/element-plus"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udcee Lint Commit Message Post",
+      "sense_id": "lint-commit-message-post#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

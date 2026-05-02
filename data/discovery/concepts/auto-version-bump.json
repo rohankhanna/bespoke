@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Version Bump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "\u26a1 High-performance Vue language tooling based-on Volar.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate-context",
+      "text": "Auto Version Bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/language-tools",
+      "status": "candidate",
+      "text": "Auto Version Bump"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18123,
+      "status": "candidate",
+      "text": "dent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17942,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17898,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17898,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17898,
+      "status": "candidate",
+      "text": "brakes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Version Bump",
+  "concept_id": "auto-version-bump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/auto-version.yml",
+      "source_repo": "vuejs/language-tools"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Version Bump",
+      "sense_id": "auto-version-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

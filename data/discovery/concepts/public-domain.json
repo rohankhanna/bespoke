@@ -67,6 +67,18 @@
       "source_repo": "wrkout/exercises.json",
       "status": "candidate-context",
       "text": "> Open Public Domain Exercise Dataset in JSON format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate-context",
+      "text": "A reference implementation of a JSON package in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate-context",
+      "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "wrkout/exercises.json",
       "status": "candidate",
       "text": "> Open Public Domain Exercise Dataset in JSON format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stleary/JSON-java",
+      "status": "candidate",
+      "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "wrkout/exercises.json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "stleary/JSON-java"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

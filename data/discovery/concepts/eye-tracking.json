@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "eye-tracking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoinelame/GazeTracking",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 Eye Tracking library easily implementable to your projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinelame/GazeTracking",
+      "status": "candidate-context",
+      "text": "![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinelame/GazeTracking",
+      "status": "candidate",
+      "text": "![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "eye-tracking",
+  "concept_id": "eye-tracking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "antoinelame/GazeTracking"
+    }
+  ],
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eye-tracking",
+      "sense_id": "eye-tracking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

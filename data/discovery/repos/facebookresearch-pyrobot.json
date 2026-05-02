@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T19:48:10.131087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyRobot: An Open Source Robotics Research Platform",
+    "fork": false,
+    "full_name": "facebookresearch/pyrobot",
+    "html_url": "https://github.com/facebookresearch/pyrobot",
+    "language": "Python",
+    "pushed_at": "2023-10-03T21:35:11Z",
+    "stargazers_count": 2313,
+    "topics": [],
+    "updated_at": "2026-04-28T02:12:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

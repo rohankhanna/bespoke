@@ -1,0 +1,430 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml"
+    },
+    {
+      "component": "davidanthoff/julia-pkgbutler@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-codeformat@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "davidanthoff/julia-pkgbutler@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Run the Julia Package Butler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Run CI on master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Run CI on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-codeformat@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "peter-evans/create-pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Code Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Run CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia-actions/julia-docdeploy@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/ElectronDisplay.jl",
+      "target": "queryverse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:43:41.141874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2791
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "size": 442
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "size": 1061
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "size": 1059
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "size": 631
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Electron.jl based figure and table display.",
+    "fork": false,
+    "full_name": "queryverse/ElectronDisplay.jl",
+    "html_url": "https://github.com/queryverse/ElectronDisplay.jl",
+    "language": "CSS",
+    "pushed_at": "2022-10-16T12:13:15Z",
+    "stargazers_count": 90,
+    "topics": [
+      "julia",
+      "queryverse"
+    ],
+    "updated_at": "2025-11-26T00:05:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run the Julia Package Butler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
+      "term": "Run the Julia Package Butler"
+    },
+    {
+      "context_snippet": "Run CI on master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "term": "Run CI on master"
+    },
+    {
+      "context_snippet": "Run CI on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "term": "Run CI on PR"
+    },
+    {
+      "context_snippet": "Code Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "term": "Code Formatting"
+    },
+    {
+      "context_snippet": "Run CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "term": "Run CompatHelper"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "term": "Deploy documentation"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queryverse"
+    }
+  ]
+}

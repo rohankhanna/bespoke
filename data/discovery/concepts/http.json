@@ -1183,6 +1183,54 @@
       "source_repo": "quicwg/base-drafts",
       "status": "candidate-context",
       "text": "The base-drafts repository is the historical home of the QUIC version 1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "A simple, zero-configuration, command-line http server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excon/excon",
+      "status": "candidate-context",
+      "text": "Usable, fast, simple HTTP 1.1 for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excon/excon",
+      "status": "candidate-context",
+      "text": "Usable, fast, simple Ruby HTTP 1.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate-context",
+      "text": "[![Gem Version][gem-image]][gem-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
     }
   ],
   "candidate_glosses": [
@@ -1773,6 +1821,30 @@
       "source_repo": "quicwg/base-drafts",
       "status": "candidate",
       "text": "The base-drafts repository is the historical home of the QUIC version 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-party/http-server",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excon/excon",
+      "status": "candidate",
+      "text": "Usable, fast, simple Ruby HTTP 1.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httprb/http",
+      "status": "candidate",
+      "text": "[![Gem Version][gem-image]][gem-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate",
+      "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
     }
   ],
   "candidate_related_terms": [
@@ -2664,11 +2736,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "http-party/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "excon/excon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "httprb/http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "mitmproxy/mitmproxy"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

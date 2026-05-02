@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IgorSusmelj/barlowtwins",
+      "target": "igorsusmelj/simsiam-cifar10",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/barlowtwins",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:34:22.388210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1137
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Barlow Twins paper",
+    "fork": false,
+    "full_name": "IgorSusmelj/barlowtwins",
+    "html_url": "https://github.com/IgorSusmelj/barlowtwins",
+    "language": "Python",
+    "pushed_at": "2022-10-10T16:26:57Z",
+    "stargazers_count": 99,
+    "topics": [
+      "self-supervised-learning"
+    ],
+    "updated_at": "2026-03-26T14:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igorsusmelj/simsiam-cifar10",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch Implementation of Barlow Twins paper: [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/pdf/2103.03230.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    }
+  ]
+}

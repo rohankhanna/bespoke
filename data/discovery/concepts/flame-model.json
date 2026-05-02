@@ -103,6 +103,18 @@
       "source_repo": "TimoBolkart/FLAME-Universe",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filby89/spectre",
+      "status": "candidate-context",
+      "text": "Official Pytorch Implementation of SPECTRE: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filby89/spectre",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "TimoBolkart/FLAME-Universe",
       "status": "candidate",
       "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filby89/spectre",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "TimoBolkart/FLAME-Universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "filby89/spectre"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

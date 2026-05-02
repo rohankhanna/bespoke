@@ -1,0 +1,12 @@
+{
+  "component": "snok/container-retention-policy@b56f4ff7539c1f94f01e5dc726671cd619aa8072",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-docker-image-prune.yml",
+      "source_repo": "qdrant/qdrant"
+    }
+  ]
+}

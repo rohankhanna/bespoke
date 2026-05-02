@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml"
+    },
+    {
+      "component": "yamachu/merge-queue-action/precheck@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml"
+    },
+    {
+      "component": "yamachu/merge-queue-action/pretesting@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml"
+    },
+    {
+      "component": "yamachu/merge-queue-action/posttesting@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csharp_test.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "yamachu/merge-queue-action/precheck@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "Handle Merge Queue Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "Release packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submodule_tracker.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "yamachu/merge-queue-action/pretesting@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "yamachu/merge-queue-action/posttesting@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "Testing Queue Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yamachu/VoicevoxCoreSharp",
+      "target": "voicevox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:26:52.429054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1986
+    },
+    {
+      "path": ".github/workflows/csharp_test.yml",
+      "size": 4740
+    },
+    {
+      "path": ".github/workflows/merge-queue-trigger-handler.yml",
+      "size": 2313
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/submodule_tracker.yml",
+      "size": 2525
+    },
+    {
+      "path": ".github/workflows/testing-queue.yml",
+      "size": 2007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "voicevox_core \u3092C# \u304b\u3089\u6271\u3046\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea",
+    "fork": false,
+    "full_name": "yamachu/VoicevoxCoreSharp",
+    "html_url": "https://github.com/yamachu/VoicevoxCoreSharp",
+    "language": "C#",
+    "pushed_at": "2026-04-27T07:17:10Z",
+    "stargazers_count": 25,
+    "topics": [
+      "voicevox"
+    ],
+    "updated_at": "2026-04-27T07:17:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Handle Merge Queue Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-queue-trigger-handler.yml",
+      "term": "Handle Merge Queue Trigger"
+    },
+    {
+      "context_snippet": "Release packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Release packages"
+    },
+    {
+      "context_snippet": "Testing Queue Runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing-queue.yml",
+      "term": "Testing Queue Runner"
+    },
+    {
+      "context_snippet": "[voicevox_core](https://github.com/voicevox/voicevox_core) \u3092 C# \u304b\u3089\u4f7f\u7528\u3059\u308b\u305f\u3081\u306e\u30e9\u30c3\u30d1\u30fc\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicevox"
+    }
+  ]
+}

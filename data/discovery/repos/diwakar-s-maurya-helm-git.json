@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T18:27:35.366067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "use private git repo as helm repo",
+    "fork": false,
+    "full_name": "diwakar-s-maurya/helm-git",
+    "html_url": "https://github.com/diwakar-s-maurya/helm-git",
+    "language": "Shell",
+    "pushed_at": "2023-10-28T10:31:59Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-11-29T12:17:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

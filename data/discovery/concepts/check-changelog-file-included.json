@@ -133,6 +133,30 @@
       "source_repo": "chaoss/grimoirelab-kidash",
       "status": "candidate-context",
       "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-sortinghat",
+      "status": "candidate-context",
+      "text": "A tool to manage identities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sortinghat",
+      "status": "candidate-context",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "status": "candidate-context",
+      "text": "Panels from GrimoireLab dashboards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sigils",
+      "status": "candidate-context",
+      "text": "Check changelog file included"
     }
   ],
   "candidate_glosses": [
@@ -199,6 +223,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chaoss/grimoirelab-kidash",
+      "status": "candidate",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sortinghat",
+      "status": "candidate",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sigils",
       "status": "candidate",
       "text": "Check changelog file included"
     }
@@ -310,11 +346,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "chaoss/grimoirelab-kidash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-sortinghat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-sigils"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

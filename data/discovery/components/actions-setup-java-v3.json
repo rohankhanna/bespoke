@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -777,6 +777,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "json-path/JsonPath"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/open-beat-control"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "djjolicoeur/datamaps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ePages-de/restdocs-api-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ePages-de/restdocs-wiremock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ePages-de/restdocs-wiremock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/androidBuild.yml",
+      "source_repo": "LucasGinard/AireLibre-Android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releaseBeta.yml",
+      "source_repo": "LucasGinard/AireLibre-Android"
     }
   ]
 }

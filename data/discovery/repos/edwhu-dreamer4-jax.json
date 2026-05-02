@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwhu/dreamer4-jax",
+      "target": "p-doom/jasmine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edwhu/dreamer4-jax",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edwhu/dreamer4-jax",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T19:45:58.143150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6415
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dreamer 4 jax implementation",
+    "fork": false,
+    "full_name": "edwhu/dreamer4-jax",
+    "html_url": "https://github.com/edwhu/dreamer4-jax",
+    "language": "Python",
+    "pushed_at": "2025-11-28T17:31:31Z",
+    "stargazers_count": 84,
+    "topics": [
+      "reinforcement-learning",
+      "world-models"
+    ],
+    "updated_at": "2026-04-25T08:33:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p-doom/jasmine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is an unofficial implementation of the **[Dreamer 4](https://danijar.com/project/dreamer4/)** world model and RL agent from *\u201cTraining Agents Inside of Scalable World Models\u201d* in pure JAX. This repo is designed to be educational and serve as a starting point for those \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "This repo is an unofficial implementation of the **[Dreamer 4](https://danijar.com/project/dreamer4/)** world model and RL agent from *\u201cTraining Agents Inside of Scalable World Models\u201d* in pure JAX. This repo is designed to be educational and serve as a starting point for those \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yaml"
+    },
+    {
+      "component": "you-win/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "target": "altf02/mouse-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yaml",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yaml",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "target": "you-win/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-release.yaml",
+      "source_repo": "virtual-puppet-project/mouse-tracker",
+      "target": "Generate release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:35:32.806951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1211
+    },
+    {
+      "path": ".github/workflows/generate-release.yaml",
+      "size": 2119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tracker for vpuppr that uses the mouse instead of face tracking",
+    "fork": false,
+    "full_name": "virtual-puppet-project/mouse-tracker",
+    "html_url": "https://github.com/virtual-puppet-project/mouse-tracker",
+    "language": "GDScript",
+    "pushed_at": "2023-03-12T06:19:17Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-08-10T09:27:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altf02/mouse-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-release.yaml",
+      "term": "Generate release"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "LedgerHQ/app-exchange/.github/workflows/reusable_swap_functional_tests.yml@develop",
+  "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swap-ci-workflow.yml",
+      "source_repo": "LedgerHQ/app-bitcoin"
+    }
+  ]
+}

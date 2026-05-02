@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cloudflare/go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cloudflare/go",
+      "target": "Go Toolchain Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/go",
+      "target": "delegated-credentials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/go",
+      "target": "kyber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/go",
+      "target": "post-quantum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:30:15.649653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 896
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "cf",
+    "description": "Go with Cloudflare experimental patches",
+    "fork": false,
+    "full_name": "cloudflare/go",
+    "html_url": "https://github.com/cloudflare/go",
+    "language": "Go",
+    "pushed_at": "2026-04-24T00:34:57Z",
+    "stargazers_count": 370,
+    "topics": [
+      "delegated-credentials",
+      "ech",
+      "go",
+      "kyber",
+      "post-quantum"
+    ],
+    "updated_at": "2026-05-01T14:30:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go Toolchain Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Go Toolchain Tests"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 This fork is offered as-is, and without guarantees. It is expected that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delegated-credentials"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 This fork is offered as-is, and without guarantees. It is expected that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kyber"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 This fork is offered as-is, and without guarantees. It is expected that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum"
+    }
+  ]
+}

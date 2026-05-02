@@ -547,6 +547,30 @@
       "source_repo": "zig-wasm/wasmer-zig-api",
       "status": "candidate-context",
       "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate-context",
+      "text": "WebAssembly binding for llama.cpp - Enabling on-browser LLM inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate-context",
+      "text": "![](./README_banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "Pure Go implementation of the WebRTC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +843,18 @@
       "source_repo": "zig-wasm/wasmer-zig-api",
       "status": "candidate",
       "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngxson/wllama",
+      "status": "candidate",
+      "text": "![](./README_banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/webrtc",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1102,11 +1138,29 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "ngxson/wllama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "pion/webrtc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

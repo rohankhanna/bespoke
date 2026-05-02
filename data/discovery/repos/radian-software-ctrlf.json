@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/ctrlf",
+      "target": "emacsorphanage/helm-swoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/ctrlf",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/ctrlf",
+      "target": "politza/pdf-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "radian-software/ctrlf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:39:50.971534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14543
+    },
+    {
+      "path": "Dockerfile",
+      "size": 169
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2328\ufe0f Emacs finally learns how to ctrl+F.",
+    "fork": false,
+    "full_name": "radian-software/ctrlf",
+    "html_url": "https://github.com/radian-software/ctrlf",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-21T19:39:54Z",
+    "stargazers_count": 367,
+    "topics": [],
+    "updated_at": "2026-03-26T23:56:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacsorphanage/helm-swoop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "politza/pdf-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

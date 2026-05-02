@@ -19,6 +19,18 @@
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
       "status": "candidate-context",
       "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cahamilton/css-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "CSS Property Sort Order based on the SMACSS methodogy "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/css-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/css-property-sort-order-smacss.svg)](https://www.npmjs.org/package/css-property-sort-order-smacss)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
       "status": "candidate",
       "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/css-property-sort-order-smacss",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/css-property-sort-order-smacss.svg)](https://www.npmjs.org/package/css-property-sort-order-smacss)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T18:23:34.576038+00:00",
+      "source_file": null,
+      "source_repo": "cahamilton/css-property-sort-order-smacss"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CleanPreview.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CleanPreview.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CleanPreview.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "Doc Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Comment.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/fluxml.github.io",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:40:03.420407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1325
+    },
+    {
+      "path": ".github/workflows/CleanPreview.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/Comment.yml",
+      "size": 736
+    },
+    {
+      "path": ".github/workflows/Deploy.yml",
+      "size": 2693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flux Website",
+    "fork": false,
+    "full_name": "FluxML/fluxml.github.io",
+    "html_url": "https://github.com/FluxML/fluxml.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-03-26T05:49:47Z",
+    "stargazers_count": 20,
+    "topics": [
+      "deep-learning",
+      "flux",
+      "hacktoberfest",
+      "julia",
+      "machine-learning"
+    ],
+    "updated_at": "2026-03-26T05:47:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Doc Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CleanPreview.yml",
+      "term": "Doc Preview Cleanup"
+    },
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

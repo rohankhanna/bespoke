@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo2",
+      "target": "zejun-yang/aniportrait",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T18:25:38.468552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19619
+    },
+    {
+      "path": "requirements.txt",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation",
+    "fork": false,
+    "full_name": "fudan-generative-vision/hallo2",
+    "html_url": "https://github.com/fudan-generative-vision/hallo2",
+    "language": "Python",
+    "pushed_at": "2025-02-27T03:24:55Z",
+    "stargazers_count": 3697,
+    "topics": [],
+    "updated_at": "2026-05-02T04:30:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zejun-yang/aniportrait",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

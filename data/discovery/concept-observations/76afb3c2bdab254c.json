@@ -48,7 +48,7 @@
   "normalized_form": "kafka-server",
   "observation_id": "76afb3c2bdab254c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-02T18:23:34.576038+00:00",
   "observed_text": "kafka-server",
   "source_context_snippet": "[![Build Status](https://github.com/karafka/example-app/actions/workflows/ci.yml/badge.svg)](https://github.com/karafka/example-app/actions/workflows/ci.yml)",
   "source_file": null,
