@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:21:23.750247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Repository for the Robust Multi-View Depth Benchmark",
+    "fork": false,
+    "full_name": "lmb-freiburg/robustmvd",
+    "html_url": "https://github.com/lmb-freiburg/robustmvd",
+    "language": "Python",
+    "pushed_at": "2023-05-11T17:04:08Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-04-20T08:39:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

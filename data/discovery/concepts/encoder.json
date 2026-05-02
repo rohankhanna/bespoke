@@ -91,6 +91,18 @@
       "source_repo": "dloebl/cgif",
       "status": "candidate-context",
       "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate-context",
+      "text": "Official implementation of \"Designing an Encoder for StyleGAN Image Manipulation\"  (SIGGRAPH 2021) https://arxiv.org/abs/2102.02766"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate-context",
+      "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "dloebl/cgif",
       "status": "candidate",
       "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate",
+      "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

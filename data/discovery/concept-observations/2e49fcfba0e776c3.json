@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pip install antialiased-cnns to improve stability and accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9990669,
+      "status": "candidate",
+      "text": "scc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9926058,
+      "status": "candidate",
+      "text": "rnc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9896080,
+      "status": "candidate",
+      "text": "cable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9890945,
+      "status": "candidate",
+      "text": "ncc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9864561,
+      "status": "candidate",
+      "text": "cdn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cnns",
+      "sense_id": "cnns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cnns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cnns",
+  "observation_id": "2e49fcfba0e776c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "cnns",
+  "source_context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+  "source_file": null,
+  "source_repo": "adobe/antialiased-cnns",
+  "source_repo_description": "pip install antialiased-cnns to improve stability and accuracy"
+}

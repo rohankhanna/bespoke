@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "target": "simonmeister/unflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow",
+      "target": "deep-learing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:23:10.520570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2628
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " a reimplementation of UnFlow in PyTorch that matches the official TensorFlow version",
+    "fork": false,
+    "full_name": "sniklaus/pytorch-unflow",
+    "html_url": "https://github.com/sniklaus/pytorch-unflow",
+    "language": "Python",
+    "pushed_at": "2025-01-06T01:02:14Z",
+    "stargazers_count": 146,
+    "topics": [
+      "cuda",
+      "cupy",
+      "deep-learing",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-15T16:57:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonmeister/unflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learing"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

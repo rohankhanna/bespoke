@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -256,6 +256,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "NVIDIAGameWorks/kaolin"
     }
   ],
   "term": "Mark stale issues and pull requests"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vue-echarts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecomfe/vue-echarts",
+      "status": "candidate-context",
+      "text": "Vue.js component for Apache ECharts\u2122."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/vue-echarts",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://vue-echarts.dev/\"><img alt=\"Vue ECharts\" src=\"https://raw.githubusercontent.com/ecomfe/vue-echarts/refs/heads/main/demo/public/favicon.svg\" width=\"96\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/vue-echarts",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://vue-echarts.dev/\"><img alt=\"Vue ECharts\" src=\"https://raw.githubusercontent.com/ecomfe/vue-echarts/refs/heads/main/demo/public/favicon.svg\" width=\"96\"></a></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vue-echarts",
+  "concept_id": "vue-echarts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ecomfe/vue-echarts"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vue-echarts",
+      "sense_id": "vue-echarts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

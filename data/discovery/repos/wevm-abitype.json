@@ -481,7 +481,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:43:16.612009+00:00",
+  "fetched_at": "2026-05-02T06:48:37.521915+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -525,7 +525,7 @@
     "full_name": "wevm/abitype",
     "html_url": "https://github.com/wevm/abitype",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T03:05:44Z",
+    "pushed_at": "2026-05-01T19:47:24Z",
     "stargazers_count": 543,
     "topics": [
       "abi",

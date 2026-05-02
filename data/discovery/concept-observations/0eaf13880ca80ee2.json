@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ tensors with broadcasting and lazy computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gh-pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gh-pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gh-pages",
+      "sense_id": "gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gh-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gh-pages",
+  "observation_id": "0eaf13880ca80ee2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "gh-pages",
+  "source_context_snippet": "gh-pages",
+  "source_file": ".github/workflows/gh-pages.yml",
+  "source_repo": "xtensor-stack/xtensor",
+  "source_repo_description": "C++ tensors with broadcasting and lazy computing"
+}

@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWHL/ConvertLaTeXOCRToONNX",
+      "target": "convert-to-onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWHL/ConvertLaTeXOCRToONNX",
+      "target": "img2latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWHL/ConvertLaTeXOCRToONNX",
+      "target": "latex-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SWHL/ConvertLaTeXOCRToONNX",
+      "target": "math-formula",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:25:17.691667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2097
+    },
+    {
+      "path": "requirements.txt",
+      "size": 246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert LaTeX-OCR To ONNX",
+    "fork": false,
+    "full_name": "SWHL/ConvertLaTeXOCRToONNX",
+    "html_url": "https://github.com/SWHL/ConvertLaTeXOCRToONNX",
+    "language": "Python",
+    "pushed_at": "2024-04-02T10:07:02Z",
+    "stargazers_count": 14,
+    "topics": [
+      "convert-to-onnx",
+      "img2latex",
+      "latex-ocr",
+      "math-formula"
+    ],
+    "updated_at": "2026-02-22T01:14:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convert-to-onnx"
+    },
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2latex"
+    },
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex-ocr"
+    },
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula"
+    }
+  ]
+}

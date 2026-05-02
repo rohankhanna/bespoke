@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harskish/ganspace",
+      "target": "harskish/stylegan2-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harskish/ganspace",
+      "target": "huggingface/pytorch-pretrained-biggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harskish/ganspace",
+      "target": "lernapparat/lernapparat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harskish/ganspace",
+      "target": "justinpinkney/awesome-pretrained-stylegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harskish/ganspace",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harskish/ganspace",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harskish/ganspace",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harskish/ganspace",
+      "target": "interactive-visualizations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harskish/ganspace",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:55.235621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Discovering Interpretable GAN Controls [NeurIPS 2020]",
+    "fork": false,
+    "full_name": "harskish/ganspace",
+    "html_url": "https://github.com/harskish/ganspace",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-20T21:23:23Z",
+    "stargazers_count": 1793,
+    "topics": [
+      "deep-learning",
+      "gan",
+      "generative-adversarial-network",
+      "image-generation",
+      "interactive-visualizations",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T14:10:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harskish/stylegan2-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-pretrained-biggan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/awesome-pretrained-stylegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lernapparat/lernapparat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-visualizations"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

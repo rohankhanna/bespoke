@@ -559,6 +559,30 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate-context",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent/MimicMotion",
+      "status": "candidate-context",
+      "text": "High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/MimicMotion",
+      "status": "candidate-context",
+      "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +861,18 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent/MimicMotion",
+      "status": "candidate",
+      "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -1210,11 +1246,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Vchitect/VBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/SEINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Tencent/MimicMotion"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

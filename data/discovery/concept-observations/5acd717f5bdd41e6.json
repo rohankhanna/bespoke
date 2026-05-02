@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An awesome list of air quality resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome-list",
+      "sense_id": "awesome-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "awesome-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "awesome-list",
+  "observation_id": "5acd717f5bdd41e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "awesome-list",
+  "source_context_snippet": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)",
+  "source_file": null,
+  "source_repo": "openaq/awesome-air-quality",
+  "source_repo_description": "An awesome list of air quality resources."
+}

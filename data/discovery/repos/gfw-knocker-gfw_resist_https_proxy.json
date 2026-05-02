@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "gfw-knocker/mahsang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "gfw-knocker/segaro_dream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "msasanmh/securednsclient",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "ehsanfarahi22/bypassing-sni-based-https-filtering",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:56:21.714470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HTTPS proxy with Fragment and DoH",
+    "fork": false,
+    "full_name": "GFW-knocker/gfw_resist_HTTPS_proxy",
+    "html_url": "https://github.com/GFW-knocker/gfw_resist_HTTPS_proxy",
+    "language": "Python",
+    "pushed_at": "2025-07-19T21:12:28Z",
+    "stargazers_count": 701,
+    "topics": [],
+    "updated_at": "2026-05-01T01:39:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ehsanfarahi22/bypassing-sni-based-https-filtering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/mahsang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/segaro_dream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msasanmh/securednsclient",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

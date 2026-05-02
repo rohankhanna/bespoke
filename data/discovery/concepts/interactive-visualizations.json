@@ -31,6 +31,30 @@
       "source_repo": "CSAILVision/gandissect",
       "status": "candidate-context",
       "text": "[**Project**](https://gandissect.csail.mit.edu/) | [**Demo**](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4) | [**Paper**](https://arxiv.org/pdf/1811.10597.pdf) | [**Video**](http://tiny.cc/gandissect) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "A PyTorch Library for Accelerating 3D Deep Learning Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "CSAILVision/gandissect",
       "status": "candidate",
       "text": "[**Project**](https://gandissect.csail.mit.edu/) | [**Demo**](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4) | [**Paper**](https://arxiv.org/pdf/1811.10597.pdf) | [**Video**](http://tiny.cc/gandissect) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "CSAILVision/gandissect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "harskish/ganspace"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

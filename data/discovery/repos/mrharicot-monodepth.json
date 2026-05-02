@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:13:13.791475+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unsupervised single image depth prediction with CNNs",
+    "fork": false,
+    "full_name": "mrharicot/monodepth",
+    "html_url": "https://github.com/mrharicot/monodepth",
+    "language": "Python",
+    "pushed_at": "2021-06-16T06:49:24Z",
+    "stargazers_count": 2266,
+    "topics": [],
+    "updated_at": "2026-05-01T19:07:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

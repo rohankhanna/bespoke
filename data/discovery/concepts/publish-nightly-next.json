@@ -19,12 +19,30 @@
       "source_repo": "apache/echarts",
       "status": "candidate-context",
       "text": "Publish Nightly Next"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecomfe/zrender",
+      "status": "candidate-context",
+      "text": "A lightweight graphic library providing 2d draw for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/zrender",
+      "status": "candidate-context",
+      "text": "Publish Nightly Next"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/echarts",
+      "status": "candidate",
+      "text": "Publish Nightly Next"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/zrender",
       "status": "candidate",
       "text": "Publish Nightly Next"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/nightly-next.yml",
       "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/nightly-next.yml",
+      "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/nightly-next.yaml",
+      "source_repo": "ecomfe/zrender"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

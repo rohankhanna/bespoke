@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:24:23.376200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UnifiedQA: Crossing Format Boundaries With a Single QA System",
+    "fork": false,
+    "full_name": "allenai/unifiedqa",
+    "html_url": "https://github.com/allenai/unifiedqa",
+    "language": "Python",
+    "pushed_at": "2022-05-09T20:51:31Z",
+    "stargazers_count": 445,
+    "topics": [],
+    "updated_at": "2026-02-16T12:31:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -857,6 +857,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_build.yml",
       "source_repo": "mdn/rari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
     }
   ]
 }

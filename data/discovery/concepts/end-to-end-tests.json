@@ -133,6 +133,18 @@
       "source_repo": "symfony/demo",
       "status": "candidate-context",
       "text": "End to End Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "NVIDIA device plugin for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "End-to-end Tests"
     }
   ],
   "candidate_glosses": [
@@ -195,6 +207,12 @@
       "source_repo": "symfony/demo",
       "status": "candidate",
       "text": "End to End Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate",
+      "text": "End-to-end Tests"
     }
   ],
   "candidate_related_terms": [
@@ -351,11 +369,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/end_to_end_tests.yaml",
       "source_repo": "symfony/demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "NVIDIA/k8s-device-plugin"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

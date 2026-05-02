@@ -55,6 +55,18 @@
       "source_repo": "nghorbani/homogenus",
       "status": "candidate-context",
       "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of openpose including Hand and Body Pose Estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nghorbani/homogenus",
       "status": "candidate",
       "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nghorbani/homogenus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Hzzone/pytorch-openpose"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

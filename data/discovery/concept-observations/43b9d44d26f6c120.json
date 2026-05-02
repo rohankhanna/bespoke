@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CNN-based affine shape estimator."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CNN-based affine shape estimator."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convolutional-neural-networks",
+      "sense_id": "convolutional-neural-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "convolutional-neural-networks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "convolutional-neural-networks",
+  "observation_id": "43b9d44d26f6c120",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "convolutional-neural-networks",
+  "source_context_snippet": "CNN-based affine shape estimator.",
+  "source_file": null,
+  "source_repo": "ducha-aiki/affnet",
+  "source_repo_description": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+}

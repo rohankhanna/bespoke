@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "dogyoonlee/pointcloud_visualizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "jiachens/modelnet40-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "3dpointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "modelnet40",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "regularization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix",
+      "target": "shape-classification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:18:37.265749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021 - Official] Rigid Subset Mix (RSMix): Regularization Strategy for Point Cloud via Rigidly Mixed Samples",
+    "fork": false,
+    "full_name": "dogyoonlee/RSMix",
+    "html_url": "https://github.com/dogyoonlee/RSMix",
+    "language": "Python",
+    "pushed_at": "2022-02-11T05:55:37Z",
+    "stargazers_count": 32,
+    "topics": [
+      "3d",
+      "3dpointcloud",
+      "data-augmentation",
+      "deep-learning",
+      "modelnet40",
+      "pointcloud",
+      "regularization",
+      "shape-classification"
+    ],
+    "updated_at": "2026-05-02T01:00:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogyoonlee/pointcloud_visualizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiachens/modelnet40-c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dpointcloud"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelnet40"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regularization"
+    },
+    {
+      "context_snippet": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-classification"
+    }
+  ]
+}

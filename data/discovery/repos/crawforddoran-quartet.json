@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:16:43.172801+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tetrahedral mesh generator that does isosurface stuffing with an acute tetrahedral tile.",
+    "fork": false,
+    "full_name": "crawforddoran/quartet",
+    "html_url": "https://github.com/crawforddoran/quartet",
+    "language": "C++",
+    "pushed_at": "2024-08-15T21:28:38Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2026-04-27T08:59:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

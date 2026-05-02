@@ -79,6 +79,18 @@
       "source_repo": "JingyunLiang/MANet",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate-context",
+      "text": "Official Implementation (PyTorch) of \"Point Cloud Augmentation with Weighted Local Transformations\", ICCV 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate-context",
+      "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "JingyunLiang/MANet",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05302)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate",
+      "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "mlvlab/PointWOLF"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/go-boot",
+      "target": "pbatard/uefi-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/go-boot",
+      "target": "rhboot/efibootmgr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/go-boot",
+      "target": "usbarmory/go-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/go-boot",
+      "target": "usbarmory/tamago-sev-example",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "usbarmory/go-boot"
+}

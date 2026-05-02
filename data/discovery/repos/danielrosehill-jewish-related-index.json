@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/ha-shabbat-dashboard-0125",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-tech-vocab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-tts-providers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-image-generation-eval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:59:27.873778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories involving tech + Judaism",
+    "fork": false,
+    "full_name": "danielrosehill/Jewish-Related-Index",
+    "html_url": "https://github.com/danielrosehill/Jewish-Related-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:08:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-27T17:08:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ha-shabbat-dashboard-0125",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/hebrew-image-generation-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/hebrew-tech-vocab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/hebrew-tts-providers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

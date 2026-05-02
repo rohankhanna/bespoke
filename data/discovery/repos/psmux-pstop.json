@@ -210,7 +210,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:50:58.959115+00:00",
+  "fetched_at": "2026-05-02T07:02:04.985351+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -235,7 +235,7 @@
     "html_url": "https://github.com/psmux/pstop",
     "language": "Rust",
     "pushed_at": "2026-04-18T16:34:54Z",
-    "stargazers_count": 101,
+    "stargazers_count": 102,
     "topics": [
       "cli",
       "htop",
@@ -254,7 +254,7 @@
       "windows",
       "windows-terminal"
     ],
-    "updated_at": "2026-04-29T05:17:29Z"
+    "updated_at": "2026-05-01T23:45:16Z"
   },
   "repo_links": [
     {

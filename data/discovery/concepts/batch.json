@@ -55,6 +55,18 @@
       "source_repo": "kubernetes-sigs/jobset",
       "status": "candidate-context",
       "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate-context",
+      "text": "Quick scripts to calculate CLIP text-image similarity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "kubernetes-sigs/jobset",
       "status": "candidate",
       "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/jobset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Taited/clip-score"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

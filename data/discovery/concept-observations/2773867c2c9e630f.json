@@ -84,7 +84,7 @@
   "normalized_form": "managed-configuration-tests",
   "observation_id": "2773867c2c9e630f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
   "observed_text": "Managed configuration tests",
   "source_context_snippet": "Managed configuration tests",
   "source_file": ".github/workflows/managed-configuration.yaml",

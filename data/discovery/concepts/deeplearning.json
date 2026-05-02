@@ -319,6 +319,18 @@
       "source_repo": "VITA-Group/Random_Pruning",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation, CVPR 2018 (Spotlight paper, 6.6%)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "VITA-Group/Random_Pruning",
       "status": "candidate",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -754,11 +772,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

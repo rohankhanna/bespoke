@@ -1387,6 +1387,30 @@
       "source_repo": "mks0601/TF-SimpleHumanPose",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation, CVPR 2018 (Spotlight paper, 6.6%)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2103,18 @@
       "source_repo": "mks0601/TF-SimpleHumanPose",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_related_terms": [
@@ -3124,11 +3160,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "mks0601/TF-SimpleHumanPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tensorpack/tensorpack"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

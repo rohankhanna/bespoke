@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nicklashansen/dreamer4",
+      "target": "edwhu/dreamer4-jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nicklashansen/dreamer4",
+      "target": "nicklashansen/newt",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "nicklashansen/dreamer4"
+}

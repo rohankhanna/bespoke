@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Strict separation of config from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "========================================================"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "========================================================"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "environment-variables",
+      "sense_id": "environment-variables#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "environment-variables",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "environment-variables",
+  "observation_id": "c6a44b5e7b41392a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "environment-variables",
+  "source_context_snippet": "========================================================",
+  "source_file": null,
+  "source_repo": "HBNetwork/python-decouple",
+  "source_repo_description": "Strict separation of config from code."
+}

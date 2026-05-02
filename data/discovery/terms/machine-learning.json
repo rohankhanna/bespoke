@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1881,6 +1881,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "h2oai/sparkling-water"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PAIR-code/lit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorpack/tensorpack"
     }
   ],
   "term": "machine-learning"

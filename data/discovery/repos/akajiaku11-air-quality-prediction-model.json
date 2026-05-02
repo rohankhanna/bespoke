@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Akajiaku11/Air-Quality-Prediction-Model",
+      "target": "eteh1/air-quality-prediction-model",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:56:37.448548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This Python-based project leverages machine learning to predict air quality levels using synthetic pollutant data, simulating real-world air quality monitoring for various pollutants.",
+    "fork": false,
+    "full_name": "Akajiaku11/Air-Quality-Prediction-Model",
+    "html_url": "https://github.com/Akajiaku11/Air-Quality-Prediction-Model",
+    "language": "Python",
+    "pushed_at": "2025-12-27T08:43:16Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-04-28T06:17:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eteh1/air-quality-prediction-model",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

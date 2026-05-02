@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ducha-aiki/affnet",
+      "target": "perdoch/hesaff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "affine-shape-estimator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "convolutional-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "hessian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "image-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "local-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:17:34.690979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\"",
+    "fork": false,
+    "full_name": "ducha-aiki/affnet",
+    "html_url": "https://github.com/ducha-aiki/affnet",
+    "language": "Python",
+    "pushed_at": "2025-04-14T11:16:20Z",
+    "stargazers_count": 278,
+    "topics": [
+      "affine-shape-estimator",
+      "computer-vision",
+      "convolutional-networks",
+      "convolutional-neural-networks",
+      "deep-learning",
+      "hessian",
+      "image-matching",
+      "image-retrieval",
+      "local-features",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-21T06:23:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "perdoch/hesaff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "affine-shape-estimator"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-networks"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessian"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matching"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-features"
+    },
+    {
+      "context_snippet": "CNN-based affine shape estimator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

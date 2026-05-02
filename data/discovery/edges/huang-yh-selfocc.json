@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huang-yh/SelfOcc",
+      "target": "wzzheng/occworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huang-yh/SelfOcc",
+      "target": "wzzheng/pointocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huang-yh/SelfOcc",
+      "target": "weiyithu/surroundocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huang-yh/SelfOcc",
+      "target": "zhangyp15/occformer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "huang-yh/SelfOcc"
+}

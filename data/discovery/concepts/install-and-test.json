@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Install and Test"
+    "Install and Test",
+    "Install and test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "remotion-dev/remotion",
       "status": "candidate-context",
       "text": "Install and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/habitat-sim",
+      "status": "candidate-context",
+      "text": "A flexible, high-performance 3D simulator for Embodied AI research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-sim",
+      "status": "candidate-context",
+      "text": "Install and test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "remotion-dev/remotion",
       "status": "candidate",
       "text": "Install and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/habitat-sim",
+      "status": "candidate",
+      "text": "Install and test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

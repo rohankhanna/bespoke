@@ -23,13 +23,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "siliconflow/nexeval",
-      "target": "mseitzer/pytorch-fid.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "siliconflow/nexeval",
       "target": "taited/clip-score",
       "target_type": "repository"
     },
@@ -48,7 +41,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T14:01:42.522402+00:00",
+  "fetched_at": "2026-05-02T07:17:31.064210+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,11 +71,6 @@
     "updated_at": "2026-02-19T13:46:14Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mseitzer/pytorch-fid.",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "siliconflow/odeval",

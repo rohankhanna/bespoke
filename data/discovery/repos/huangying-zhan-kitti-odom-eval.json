@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huangying-Zhan/kitti-odom-eval",
+      "target": "huangying-zhan/df-vo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huangying-Zhan/kitti-odom-eval",
+      "target": "kitti-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huangying-Zhan/kitti-odom-eval",
+      "target": "odometry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:15.042060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KITTI Odometry Evaluation Toolbox",
+    "fork": false,
+    "full_name": "Huangying-Zhan/kitti-odom-eval",
+    "html_url": "https://github.com/Huangying-Zhan/kitti-odom-eval",
+    "language": "Python",
+    "pushed_at": "2024-03-22T14:33:51Z",
+    "stargazers_count": 239,
+    "topics": [
+      "kitti-dataset",
+      "odometry"
+    ],
+    "updated_at": "2026-05-01T14:37:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huangying-zhan/df-vo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[KITTI Odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) contains 22 stereo sequences, in which 11 sequences are provided with ground truth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti-dataset"
+    },
+    {
+      "context_snippet": "[KITTI Odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) contains 22 stereo sequences, in which 11 sequences are provided with ground truth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    }
+  ]
+}

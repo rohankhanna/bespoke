@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "12000+ manually drawn pixel-level lung segmentations, with and without covid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "covid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "coronavirus disease 2019"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "coronavirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24993,
+      "status": "candidate",
+      "text": "wuhan coronavirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24992,
+      "status": "candidate",
+      "text": "coronavirosis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "covid-19",
+      "sense_id": "covid-19#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "covid-19",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "covid-19",
+  "observation_id": "3ff7cc3216952498",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "covid-19",
+  "source_context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+  "source_file": null,
+  "source_repo": "v7labs/covid-19-xray-dataset",
+  "source_repo_description": "12000+ manually drawn pixel-level lung segmentations, with and without covid"
+}

@@ -367,6 +367,18 @@
       "source_repo": "citation-file-format/ruby-cff",
       "status": "candidate-context",
       "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "Configuration Management for Python \u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "citation-file-format/ruby-cff",
       "status": "candidate",
       "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate",
+      "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +796,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "citation-file-format/ruby-cff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "dynaconf/dynaconf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

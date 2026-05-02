@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/SeeSR",
+      "target": "cswry/vosr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/SeeSR",
+      "target": "cswry/osediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cswry/SeeSR",
+      "target": "xinyu1205/recognize-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cswry/SeeSR",
+      "target": "seesr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cswry/SeeSR",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cswry/SeeSR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:03.080589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11043
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2024] SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution",
+    "fork": false,
+    "full_name": "cswry/SeeSR",
+    "html_url": "https://github.com/cswry/SeeSR",
+    "language": "Python",
+    "pushed_at": "2026-04-09T18:35:07Z",
+    "stargazers_count": 631,
+    "topics": [
+      "seesr",
+      "stable-diffusion",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-20T10:39:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cswry/osediff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cswry/vosr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinyu1205/recognize-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center class=\"logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seesr"
+    },
+    {
+      "context_snippet": "<div align=center class=\"logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<div align=center class=\"logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

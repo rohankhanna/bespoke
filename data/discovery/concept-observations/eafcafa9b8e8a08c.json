@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parsing ELF and DWARF in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pyelftools-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pyelftools-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pyelftools-tests",
+      "sense_id": "pyelftools-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyelftools-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyelftools-tests",
+  "observation_id": "eafcafa9b8e8a08c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "pyelftools-tests",
+  "source_context_snippet": "pyelftools-tests",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "eliben/pyelftools",
+  "source_repo_description": "Parsing ELF and DWARF in Python"
+}

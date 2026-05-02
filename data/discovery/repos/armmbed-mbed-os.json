@@ -1,0 +1,609 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "filipstefansson/uuid-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.prune.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "filipstefansson/uuid-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greentea_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_conditional_ble_feature_compilation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "armmbed/mbed-os-5-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic_checks.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic_checks.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "Basic Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "filipstefansson/uuid-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.branch.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.prune.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_management.prune.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "Prune temporary docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "filipstefansson/uuid-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.release.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "addnab/docker-run-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "Build docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greentea_cmake.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greentea_cmake.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "test building greentea tests with cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_conditional_ble_feature_compilation.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_conditional_ble_feature_compilation.yml",
+      "source_repo": "ARMmbed/mbed-os",
+      "target": "run conditional BLE feature compilation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:58:38.479717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3815
+    },
+    {
+      "path": "requirements.txt",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/basic_checks.yml",
+      "size": 9470
+    },
+    {
+      "path": ".github/workflows/docker_management.branch.yml",
+      "size": 8689
+    },
+    {
+      "path": ".github/workflows/docker_management.prune.yml",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/docker_management.release.yml",
+      "size": 11968
+    },
+    {
+      "path": ".github/workflows/docker_management.test-PR.yml",
+      "size": 2220
+    },
+    {
+      "path": ".github/workflows/greentea_cmake.yml",
+      "size": 1154
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/run_conditional_ble_feature_compilation.yml",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arm Mbed OS is a platform operating system designed for the internet of things",
+    "fork": false,
+    "full_name": "ARMmbed/mbed-os",
+    "html_url": "https://github.com/ARMmbed/mbed-os",
+    "language": "C",
+    "pushed_at": "2024-10-08T17:44:17Z",
+    "stargazers_count": 4834,
+    "topics": [],
+    "updated_at": "2026-05-01T19:35:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "armmbed/mbed-os-5-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Basic Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic_checks.yml",
+      "term": "Basic Checks"
+    },
+    {
+      "context_snippet": "Prune temporary docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_management.prune.yml",
+      "term": "Prune temporary docker images"
+    },
+    {
+      "context_snippet": "Build docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "term": "Build docker image"
+    },
+    {
+      "context_snippet": "test building greentea tests with cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greentea_cmake.yml",
+      "term": "test building greentea tests with cmake"
+    },
+    {
+      "context_snippet": "run conditional BLE feature compilation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_conditional_ble_feature_compilation.yml",
+      "term": "run conditional BLE feature compilation"
+    }
+  ]
+}

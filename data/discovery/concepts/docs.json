@@ -2075,6 +2075,18 @@
       "source_repo": "crystal-lang/crystal",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joke2k/django-environ",
+      "status": "candidate-context",
+      "text": "Django-environ allows you to utilize 12factor inspired environment variables to configure your Django application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joke2k/django-environ",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -3113,6 +3125,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crystal-lang/crystal",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joke2k/django-environ",
       "status": "candidate",
       "text": "Docs"
     }
@@ -4818,11 +4836,41 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "crystal-lang/crystal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "joke2k/django-environ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

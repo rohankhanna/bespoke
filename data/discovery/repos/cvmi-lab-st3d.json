@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:19:16.914187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10677
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(CVPR 2021 &  T-PAMI 2022) ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection & ST3D++: Denoised Self-training for Unsupervised Domain Adaptation on 3D Object Detection",
+    "fork": false,
+    "full_name": "CVMI-Lab/ST3D",
+    "html_url": "https://github.com/CVMI-Lab/ST3D",
+    "language": "Python",
+    "pushed_at": "2024-07-14T13:06:36Z",
+    "stargazers_count": 312,
+    "topics": [],
+    "updated_at": "2026-04-18T15:23:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

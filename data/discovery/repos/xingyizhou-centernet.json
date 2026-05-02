@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "ifzhang/fairmot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "fatescript/centernet-better",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "guanghan/mxnet-centernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "caowgg/tensorrt-centernet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:19:14.438439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8976
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Object detection, 3D detection, and pose estimation using center point detection: ",
+    "fork": false,
+    "full_name": "xingyizhou/CenterNet",
+    "html_url": "https://github.com/xingyizhou/CenterNet",
+    "language": "Python",
+    "pushed_at": "2023-03-02T14:23:04Z",
+    "stargazers_count": 7565,
+    "topics": [],
+    "updated_at": "2026-04-29T08:42:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caowgg/tensorrt-centernet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatescript/centernet-better",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guanghan/mxnet-centernet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifzhang/fairmot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

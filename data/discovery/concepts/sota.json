@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sota"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidu-baige/LoongFlow",
+      "status": "candidate-context",
+      "text": "LoongFlow: A Thinking & Learning Framework for Expert-Grade AI Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu-baige/LoongFlow",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u7248**](./README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu-baige/LoongFlow",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u7248**](./README_zh.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924461,
+      "status": "candidate",
+      "text": "war"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19778026,
+      "status": "candidate",
+      "text": "soto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015166,
+      "status": "candidate",
+      "text": "satoru"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015165,
+      "status": "candidate",
+      "text": "shouta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015164,
+      "status": "candidate",
+      "text": "tomoyoshi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sota",
+  "concept_id": "sota",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "baidu-baige/LoongFlow"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sota",
+      "sense_id": "sota#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

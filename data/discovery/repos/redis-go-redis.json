@@ -294,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:54:11.812956+00:00",
+  "fetched_at": "2026-05-02T07:06:36.977748+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -347,7 +347,7 @@
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
     "pushed_at": "2026-04-30T14:08:21Z",
-    "stargazers_count": 22069,
+    "stargazers_count": 22068,
     "topics": [
       "go",
       "golang",
@@ -355,7 +355,7 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-05-01T01:37:46Z"
+    "updated_at": "2026-05-01T15:55:52Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "aq-sensors/airbeamr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "davidcarslaw/openair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "aarshbatra/bitesizedaq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "danielbernalb/libreco2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "air-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality",
+      "target": "code4cleanair",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:57:03.571472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An awesome list of air quality resources.",
+    "fork": false,
+    "full_name": "openaq/awesome-air-quality",
+    "html_url": "https://github.com/openaq/awesome-air-quality",
+    "language": null,
+    "pushed_at": "2025-06-02T15:09:12Z",
+    "stargazers_count": 70,
+    "topics": [
+      "air-quality",
+      "aqi",
+      "awesome-list",
+      "code4cleanair"
+    ],
+    "updated_at": "2026-04-28T19:07:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarshbatra/bitesizedaq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aq-sensors/airbeamr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielbernalb/libreco2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidcarslaw/openair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "air-quality"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code4cleanair"
+    }
+  ]
+}

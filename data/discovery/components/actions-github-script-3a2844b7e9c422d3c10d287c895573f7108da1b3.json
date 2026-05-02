@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -692,6 +692,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/needs-port-upstream.yml",
       "source_repo": "nuxt/bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-by-package.yml",
+      "source_repo": "langchain-ai/langchain"
     }
   ]
 }

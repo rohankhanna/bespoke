@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "ifzhang/fairmot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "fatescript/centernet-better",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "guanghan/mxnet-centernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xingyizhou/CenterNet",
+      "target": "caowgg/tensorrt-centernet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "xingyizhou/CenterNet"
+}

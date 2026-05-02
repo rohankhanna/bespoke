@@ -31,6 +31,30 @@
       "source_repo": "adafruit/Adafruit_BME280_Library",
       "status": "candidate-context",
       "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate-context",
+      "text": "Arduino library for PMS* Air Quality Sensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate-context",
+      "text": "Common sensor library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate-context",
+      "text": "Arduino Library CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adafruit/Adafruit_BME280_Library",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate",
+      "text": "Arduino Library CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_Sensor",
       "status": "candidate",
       "text": "Arduino Library CI"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/githubci.yml",
       "source_repo": "adafruit/Adafruit_BME280_Library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_PM25AQI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_Sensor"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "jalammar/ecco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "jalammar/ecco",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "jalammar/ecco",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jalammar/ecco",
+      "target": "explorables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jalammar/ecco",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jalammar/ecco",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jalammar/ecco",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jalammar/ecco",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:29.674214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3735
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 1224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0).",
+    "fork": false,
+    "full_name": "jalammar/ecco",
+    "html_url": "https://github.com/jalammar/ecco",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-15T19:08:06Z",
+    "stargazers_count": 2096,
+    "topics": [
+      "explorables",
+      "language-models",
+      "natural-language-processing",
+      "nlp",
+      "pytorch",
+      "visualization"
+    ],
+    "updated_at": "2026-05-02T03:27:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explorables"
+    },
+    {
+      "context_snippet": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

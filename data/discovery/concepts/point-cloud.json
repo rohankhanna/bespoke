@@ -259,6 +259,42 @@
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
       "status": "candidate-context",
       "text": "![](images/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate-context",
+      "text": "Official Implementation (PyTorch) of \"Point Cloud Augmentation with Weighted Local Transformations\", ICCV 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate-context",
+      "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate-context",
+      "text": "Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.11139)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2019, Spotlight] Point-Voxel CNN for Efficient 3D Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate-context",
+      "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
       "status": "candidate",
       "text": "![](images/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlvlab/PointWOLF",
+      "status": "candidate",
+      "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.11139)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate",
+      "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +604,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "mlvlab/PointWOLF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "yifanzhang713/IA-SSD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

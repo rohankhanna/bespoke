@@ -223,6 +223,18 @@
       "source_repo": "vadimkantorov/caffemodel2pytorch",
       "status": "candidate-context",
       "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation, CVPR 2018 (Spotlight paper, 6.6%)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "vadimkantorov/caffemodel2pytorch",
       "status": "candidate",
       "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +502,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "vadimkantorov/caffemodel2pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

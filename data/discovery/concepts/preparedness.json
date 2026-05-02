@@ -43,6 +43,18 @@
       "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
       "status": "candidate-context",
       "text": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "status": "candidate-context",
+      "text": "Index of repositories related to civilian emergency preparedness in Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
       "status": "candidate",
       "text": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/HA-Red-Alert-News-Dash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Preparedness-Index"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:24:35.905953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"Colorectal Polyp Classification from White-light Colonoscopy Images via Domain Alignment\" in MICCAI 2021",
+    "fork": false,
+    "full_name": "qinwang-ai/PolypsAlign",
+    "html_url": "https://github.com/qinwang-ai/PolypsAlign",
+    "language": "Python",
+    "pushed_at": "2026-01-03T02:39:21Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-06T08:22:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

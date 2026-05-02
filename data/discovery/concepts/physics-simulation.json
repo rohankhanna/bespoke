@@ -115,6 +115,18 @@
       "source_repo": "ZhengyiLuo/PHC",
       "status": "candidate-context",
       "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "A PyTorch Library for Accelerating 3D Deep Learning Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "ZhengyiLuo/PHC",
       "status": "candidate",
       "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ZhengyiLuo/PHC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIAGameWorks/kaolin"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

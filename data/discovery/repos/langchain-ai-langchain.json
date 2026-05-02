@@ -31,12 +31,12 @@
       "source_file": ".github/workflows/_refresh_model_profiles.yml"
     },
     {
-      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_refresh_model_profiles.yml"
     },
     {
-      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_refresh_model_profiles.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/_release.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml"
     },
@@ -66,32 +66,7 @@
       "source_file": ".github/workflows/_release.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_release.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml"
     },
@@ -116,7 +91,32 @@
       "source_file": ".github/workflows/_release.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/_test_vcr.yml"
     },
     {
-      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-label-by-package.yml"
     },
@@ -215,14 +215,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_refresh_model_profiles.yml",
       "source_repo": "langchain-ai/langchain",
-      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_refresh_model_profiles.yml",
       "source_repo": "langchain-ai/langchain",
-      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
       "target_type": "component"
     },
     {
@@ -243,7 +243,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml",
       "source_repo": "langchain-ai/langchain",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -257,7 +257,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_release.yml",
       "source_repo": "langchain-ai/langchain",
-      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
     {
@@ -320,7 +320,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-label-by-package.yml",
       "source_repo": "langchain-ai/langchain",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:50:18.899453+00:00",
+  "fetched_at": "2026-05-02T07:00:54.817352+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -442,7 +442,7 @@
     },
     {
       "path": ".github/workflows/_release.yml",
-      "size": 28262
+      "size": 29917
     },
     {
       "path": ".github/workflows/_test.yml",
@@ -458,7 +458,7 @@
     },
     {
       "path": ".github/workflows/auto-label-by-package.yml",
-      "size": 4372
+      "size": 4376
     },
     {
       "path": ".github/workflows/check_agents_sync.yml",
@@ -474,8 +474,8 @@
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-05-01T13:40:14Z",
-    "stargazers_count": 135561,
+    "pushed_at": "2026-05-01T21:59:57Z",
+    "stargazers_count": 135614,
     "topics": [
       "agents",
       "ai",
@@ -497,7 +497,7 @@
       "python",
       "rag"
     ],
-    "updated_at": "2026-05-01T13:50:08Z"
+    "updated_at": "2026-05-02T06:57:05Z"
   },
   "repo_links": [],
   "terms": [

@@ -67,6 +67,18 @@
       "source_repo": "emilianavt/OpenSeeFace",
       "status": "candidate-context",
       "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "emilianavt/OpenSeeFace",
       "status": "candidate",
       "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "emilianavt/OpenSeeFace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

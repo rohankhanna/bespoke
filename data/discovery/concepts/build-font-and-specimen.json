@@ -43,6 +43,18 @@
       "source_repo": "m4rc1e/test-ufr-family",
       "status": "candidate-context",
       "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ButTaiwan/iansui",
+      "status": "candidate-context",
+      "text": "\u82ab\u837d\uff0c\u57fa\u65bc Klee One \u6539\u9020\u7684\u5b78\u7fd2\u7528\u53f0\u7063\u7e41\u9ad4\u5b57\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/iansui",
+      "status": "candidate-context",
+      "text": "Build font and specimen"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "m4rc1e/test-ufr-family",
+      "status": "candidate",
+      "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ButTaiwan/iansui",
       "status": "candidate",
       "text": "Build font and specimen"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "googlefonts/googlefonts-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ButTaiwan/iansui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

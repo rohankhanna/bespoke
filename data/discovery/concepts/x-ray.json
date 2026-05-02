@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "x-ray"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate-context",
+      "text": "12000+ manually drawn pixel-level lung segmentations, with and without covid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate-context",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017909,
+      "status": "candidate",
+      "text": "x-radiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017908,
+      "status": "candidate",
+      "text": "radiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017499,
+      "status": "candidate",
+      "text": "radiological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017472,
+      "status": "candidate",
+      "text": "irradiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017311,
+      "status": "candidate",
+      "text": "radiographic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "x-ray",
+  "concept_id": "x-ray",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "x-ray",
+      "sense_id": "x-ray#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

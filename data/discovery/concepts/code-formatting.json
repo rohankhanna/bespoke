@@ -80,6 +80,18 @@
       "source_repo": "ag2ai/build-with-ag2",
       "status": "candidate-context",
       "text": "Code formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidanthoff/Electron.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidanthoff/Electron.jl",
+      "status": "candidate-context",
+      "text": "Code Formatting"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "ag2ai/build-with-ag2",
       "status": "candidate",
       "text": "Code formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidanthoff/Electron.jl",
+      "status": "candidate",
+      "text": "Code Formatting"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +215,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "ag2ai/build-with-ag2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
+      "source_repo": "davidanthoff/Electron.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

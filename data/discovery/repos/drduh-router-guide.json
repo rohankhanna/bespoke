@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
+      "target": "stevenblack/hosts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
       "target": "elad/openbsd-apu2",
       "target_type": "repository"
     },
@@ -20,13 +27,6 @@
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
       "target": "martinbaillie/homebrew-openbsd-pcengines-router",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "drduh/Router-Guide",
-      "target": "northox/openbsd-apu2",
       "target_type": "repository"
     },
     {
@@ -121,7 +121,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:45:41.260629+00:00",
+  "fetched_at": "2026-05-02T06:52:35.912837+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -175,7 +175,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "northox/openbsd-apu2",
+      "full_name": "stevenblack/hosts",
       "source_file": "README.md"
     }
   ],

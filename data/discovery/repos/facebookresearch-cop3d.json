@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:22:18.683694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common Pets in 3D",
+    "fork": false,
+    "full_name": "facebookresearch/cop3d",
+    "html_url": "https://github.com/facebookresearch/cop3d",
+    "language": "Python",
+    "pushed_at": "2023-06-14T16:43:41Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-24T13:35:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

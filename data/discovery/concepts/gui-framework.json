@@ -31,6 +31,18 @@
       "source_repo": "aui-framework/aui",
       "status": "candidate-context",
       "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "Finally, a GUI Engine made for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "![](docs/src/assets/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aui-framework/aui",
       "status": "candidate",
       "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate",
+      "text": "![](docs/src/assets/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aui-framework/aui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

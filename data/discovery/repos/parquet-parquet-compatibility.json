@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:06:10.619566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "compatibility tests to make sur C and Java implementations can read each other",
+    "fork": false,
+    "full_name": "Parquet/parquet-compatibility",
+    "html_url": "https://github.com/Parquet/parquet-compatibility",
+    "language": "Java",
+    "pushed_at": "2022-01-05T21:15:11Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2025-10-10T08:12:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

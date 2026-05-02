@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taited/clip-score",
+      "target": "batch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taited/clip-score",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taited/clip-score",
+      "target": "clip-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taited/clip-score",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:17:31.913033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quick scripts to calculate CLIP text-image similarity",
+    "fork": false,
+    "full_name": "Taited/clip-score",
+    "html_url": "https://github.com/Taited/clip-score",
+    "language": "Python",
+    "pushed_at": "2025-04-14T08:10:11Z",
+    "stargazers_count": 319,
+    "topics": [
+      "batch",
+      "clip",
+      "clip-score",
+      "pytorch"
+    ],
+    "updated_at": "2026-05-02T04:25:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batch"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip-score"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

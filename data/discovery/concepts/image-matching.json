@@ -67,6 +67,18 @@
       "source_repo": "DagnyT/hardnet",
       "status": "candidate-context",
       "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "CNN-based affine shape estimator."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "DagnyT/hardnet",
       "status": "candidate",
       "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate",
+      "text": "CNN-based affine shape estimator."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "DagnyT/hardnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

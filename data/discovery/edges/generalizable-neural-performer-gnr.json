@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/gnr",
+      "target": "openxrlab/xrnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/gnr",
+      "target": "generalizable-neural-performer/bodyfitting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/gnr",
+      "target": "generalizable-neural-performer/genebody-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "generalizable-neural-performer/gnr",
+      "target": "lemonatsu/a-nerf",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "generalizable-neural-performer/gnr"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:21:16.684717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo accompanies the research paper, ARKitScenes - A Diverse Real-World Dataset for 3D Indoor Scene Understanding Using Mobile RGB-D Data and contains the data, scripts to visualize and process assets, and training code described in our paper.",
+    "fork": false,
+    "full_name": "apple/ARKitScenes",
+    "html_url": "https://github.com/apple/ARKitScenes",
+    "language": "Python",
+    "pushed_at": "2024-09-21T11:15:13Z",
+    "stargazers_count": 901,
+    "topics": [],
+    "updated_at": "2026-04-30T21:51:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exiawsh/StreamPETR",
+      "target": "exiawsh/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exiawsh/StreamPETR",
+      "target": "nvidia/dl4agx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exiawsh/StreamPETR",
+      "target": "linxuewu/sparse4d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exiawsh/StreamPETR",
+      "target": "megvii-research/motr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:13.022847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] StreamPETR: Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection",
+    "fork": false,
+    "full_name": "exiawsh/StreamPETR",
+    "html_url": "https://github.com/exiawsh/StreamPETR",
+    "language": "Python",
+    "pushed_at": "2024-06-26T11:31:02Z",
+    "stargazers_count": 798,
+    "topics": [],
+    "updated_at": "2026-04-27T23:42:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exiawsh/storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linxuewu/sparse4d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/motr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/dl4agx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

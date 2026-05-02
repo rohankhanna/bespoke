@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:07:48.826767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Issues and roadmap",
+    "fork": false,
+    "full_name": "logux/logux",
+    "html_url": "https://github.com/logux/logux",
+    "language": null,
+    "pushed_at": "2023-08-04T22:22:36Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-04-08T20:36:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

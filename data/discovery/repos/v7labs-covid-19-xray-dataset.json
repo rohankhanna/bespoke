@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "chest-x-ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "medical-image-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "pneumonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "x-ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "target": "x-ray-images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:24:45.339374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "12000+ manually drawn pixel-level lung segmentations, with and without covid",
+    "fork": false,
+    "full_name": "v7labs/covid-19-xray-dataset",
+    "html_url": "https://github.com/v7labs/covid-19-xray-dataset",
+    "language": null,
+    "pushed_at": "2021-07-02T16:46:18Z",
+    "stargazers_count": 85,
+    "topics": [
+      "chest-x-ray",
+      "computer-vision",
+      "covid-19",
+      "deep-learning",
+      "medical-image-dataset",
+      "pneumonia",
+      "x-ray",
+      "x-ray-images"
+    ],
+    "updated_at": "2026-04-19T20:03:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chest-x-ray"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-dataset"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pneumonia"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x-ray"
+    },
+    {
+      "context_snippet": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x-ray-images"
+    }
+  ]
+}

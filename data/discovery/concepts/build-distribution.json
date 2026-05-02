@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Distribution"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "Configuration Management for Python \u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "Build Distribution"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate",
+      "text": "Build Distribution"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Distribution",
+  "concept_id": "build-distribution",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/main__build-dist.yml",
+      "source_repo": "dynaconf/dynaconf"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Distribution",
+      "sense_id": "build-distribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

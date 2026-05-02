@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -2231,6 +2231,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "crystal-lang/crystal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main__lint.yml",
+      "source_repo": "dynaconf/dynaconf"
     }
   ],
   "term": "lint"

@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:55:49.792685+00:00",
+  "fetched_at": "2026-05-02T07:08:43.963436+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -108,7 +108,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 19660
+      "size": 19061
     }
   ],
   "related_repositories": [],
@@ -120,10 +120,10 @@
     "full_name": "libbitcoin/libbitcoin-system",
     "html_url": "https://github.com/libbitcoin/libbitcoin-system",
     "language": "C++",
-    "pushed_at": "2026-04-25T06:18:42Z",
+    "pushed_at": "2026-05-02T04:37:47Z",
     "stargazers_count": 1386,
     "topics": [],
-    "updated_at": "2026-05-01T06:54:05Z"
+    "updated_at": "2026-05-02T04:37:52Z"
   },
   "repo_links": [
     {

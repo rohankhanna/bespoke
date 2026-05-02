@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "explorables"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": "Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9910500,
+      "status": "candidate",
+      "text": "inaccessible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9894154,
+      "status": "candidate",
+      "text": "undiscovered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9883798,
+      "status": "candidate",
+      "text": "uncharted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9882741,
+      "status": "candidate",
+      "text": "unexplored"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "explorables",
+  "concept_id": "explorables",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jalammar/ecco"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "explorables",
+      "sense_id": "explorables#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

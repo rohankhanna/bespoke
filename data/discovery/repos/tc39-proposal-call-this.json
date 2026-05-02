@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-choi/github-comment-floodgate@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/floodgate.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "tc39/proposal-bind-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "tc39/proposal-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "nodejs/gzemnid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "tc39/proposal-partial-application",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/floodgate.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "js-choi/github-comment-floodgate@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/floodgate.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "Comment Floodgate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "Build and Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-lock.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "dessant/lock-threads@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-lock.yml",
+      "source_repo": "tc39/proposal-call-this",
+      "target": "Lock Stale Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-call-this",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-call-this",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:54:54.369380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22202
+    },
+    {
+      "path": "package.json",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/floodgate.yml",
+      "size": 302
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 605
+    },
+    {
+      "path": ".github/workflows/stale-lock.yml",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A proposal for a simple call-this operator in JavaScript.",
+    "fork": false,
+    "full_name": "tc39/proposal-call-this",
+    "html_url": "https://github.com/tc39/proposal-call-this",
+    "language": "HTML",
+    "pushed_at": "2025-04-03T00:50:10Z",
+    "stargazers_count": 130,
+    "topics": [
+      "javascript",
+      "proposal",
+      "tc39"
+    ],
+    "updated_at": "2026-02-13T18:53:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/gzemnid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-bind-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-partial-application",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comment Floodgate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/floodgate.yml",
+      "term": "Comment Floodgate"
+    },
+    {
+      "context_snippet": "Build and Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Lock Stale Threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-lock.yml",
+      "term": "Lock Stale Threads"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-1 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-1 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

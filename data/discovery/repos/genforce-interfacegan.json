@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:21:53.028314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] Interpreting the Latent Space of GANs for Semantic Face Editing",
+    "fork": false,
+    "full_name": "genforce/interfacegan",
+    "html_url": "https://github.com/genforce/interfacegan",
+    "language": "Python",
+    "pushed_at": "2022-02-09T02:20:04Z",
+    "stargazers_count": 1559,
+    "topics": [],
+    "updated_at": "2026-04-24T21:48:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

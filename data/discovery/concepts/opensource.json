@@ -175,6 +175,18 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre is a community response to the need to know about air quality in a free, collaborative and decentralized way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +622,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

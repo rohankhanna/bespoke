@@ -55,6 +55,18 @@
       "source_repo": "sclorg/s2i-perl-container",
       "status": "candidate-context",
       "text": "Auto Merge On Demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-php-container",
+      "status": "candidate-context",
+      "text": "PHP container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running PHP applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-php-container",
+      "status": "candidate-context",
+      "text": "Auto Merge On Demand"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate",
+      "text": "Auto Merge On Demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-php-container",
       "status": "candidate",
       "text": "Auto Merge On Demand"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/auto-merge-on-demand.yml",
       "source_repo": "sclorg/s2i-perl-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-php-container"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

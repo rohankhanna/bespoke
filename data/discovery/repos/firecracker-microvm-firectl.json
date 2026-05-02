@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "firecracker-microvm/firecracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "firecracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "firecracker-vm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firectl",
+      "target": "virtual-machine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:49:15.749193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5199
+    },
+    {
+      "path": "go.mod",
+      "size": 2073
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 791
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "firectl is a command-line tool to run Firecracker microVMs",
+    "fork": false,
+    "full_name": "firecracker-microvm/firectl",
+    "html_url": "https://github.com/firecracker-microvm/firectl",
+    "language": "Go",
+    "pushed_at": "2026-01-16T03:12:27Z",
+    "stargazers_count": 604,
+    "topics": [
+      "aws",
+      "cli",
+      "firecracker",
+      "firecracker-vm",
+      "golang",
+      "virtual-machine"
+    ],
+    "updated_at": "2026-05-01T20:54:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firecracker-microvm/firecracker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "firectl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firecracker"
+    },
+    {
+      "context_snippet": "firectl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firecracker-vm"
+    },
+    {
+      "context_snippet": "firectl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "firectl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    }
+  ]
+}

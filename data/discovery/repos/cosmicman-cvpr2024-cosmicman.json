@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:22:01.798750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CosmicMan: A Text-to-Image Foundation Model for Humans (CVPR 2024) ",
+    "fork": false,
+    "full_name": "cosmicman-cvpr2024/CosmicMan",
+    "html_url": "https://github.com/cosmicman-cvpr2024/CosmicMan",
+    "language": "Python",
+    "pushed_at": "2024-07-26T04:11:10Z",
+    "stargazers_count": 348,
+    "topics": [],
+    "updated_at": "2026-04-14T02:04:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -91,6 +91,18 @@
       "source_repo": "emilk/egui",
       "status": "candidate-context",
       "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for cimgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "emilk/egui",
       "status": "candidate",
       "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "emilk/egui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImGui/CImGui.jl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

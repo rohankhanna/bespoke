@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "jiarenchang/psmnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "gengshan-y/high-res-stereo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "shunsukesaito/pifu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "deep-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "deep-stereo-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "stereo-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabiotosi92/SMD-Nets",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:22:16.070653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11408
+    },
+    {
+      "path": "requirements.txt",
+      "size": 117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SMD-Nets: Stereo Mixture Density Networks",
+    "fork": false,
+    "full_name": "fabiotosi92/SMD-Nets",
+    "html_url": "https://github.com/fabiotosi92/SMD-Nets",
+    "language": "Python",
+    "pushed_at": "2025-03-12T20:20:55Z",
+    "stargazers_count": 177,
+    "topics": [
+      "deep-stereo",
+      "deep-stereo-network",
+      "stereo-dataset",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-04-22T19:48:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gengshan-y/high-res-stereo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiarenchang/psmnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shunsukesaito/pifu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Alt text](./images/architecture2-1.jpg \"architecture\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-stereo"
+    },
+    {
+      "context_snippet": "![Alt text](./images/architecture2-1.jpg \"architecture\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-stereo-network"
+    },
+    {
+      "context_snippet": "![Alt text](./images/architecture2-1.jpg \"architecture\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-dataset"
+    },
+    {
+      "context_snippet": "![Alt text](./images/architecture2-1.jpg \"architecture\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

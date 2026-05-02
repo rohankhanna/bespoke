@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "air-quality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre is a community response to the need to know about air quality in a free, collaborative and decentralized way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openair-project/openair",
+      "status": "candidate-context",
+      "text": "\ud83e\udded Open source tools for air quality data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openair-project/openair",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate-context",
+      "text": "An awesome list of air quality resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openair-project/openair",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "air-quality",
+  "concept_id": "air-quality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "openair-project/openair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "air-quality",
+      "sense_id": "air-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A FUSE wrapper that puts the littlefs in user-space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A FUSE wrapper that puts the littlefs in user-space."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A FUSE wrapper that puts the littlefs in user-space."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952392,
+      "status": "candidate",
+      "text": "fuze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948042,
+      "status": "candidate",
+      "text": "fusee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947631,
+      "status": "candidate",
+      "text": "fuzee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859684,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859332,
+      "status": "candidate",
+      "text": "immix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fuse",
+      "sense_id": "fuse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59037,
+      "status": "candidate",
+      "text": "coalesce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28030,
+      "status": "candidate",
+      "text": "conflate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16044,
+      "status": "candidate",
+      "text": "merge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13031,
+      "status": "candidate",
+      "text": "commingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "meld"
+    }
+  ],
+  "concept_id": "fuse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuse",
+  "observation_id": "5b549a9879ad4b32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "fuse",
+  "source_context_snippet": "A FUSE wrapper that puts the littlefs in user-space.",
+  "source_file": null,
+  "source_repo": "littlefs-project/littlefs-fuse",
+  "source_repo_description": "A FUSE wrapper that puts the littlefs in user-space"
+}

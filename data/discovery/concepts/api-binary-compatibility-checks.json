@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Binary Compatibility Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg",
+      "status": "candidate-context",
+      "text": "Apache Iceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg",
+      "status": "candidate-context",
+      "text": "\"API Binary Compatibility Checks\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg",
+      "status": "candidate",
+      "text": "\"API Binary Compatibility Checks\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29211,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28962,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28962,
+      "status": "candidate",
+      "text": "shoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28954,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28954,
+      "status": "candidate",
+      "text": "runner"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Binary Compatibility Checks",
+  "concept_id": "api-binary-compatibility-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/api-binary-compatibility.yml",
+      "source_repo": "apache/iceberg"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Binary Compatibility Checks",
+      "sense_id": "api-binary-compatibility-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

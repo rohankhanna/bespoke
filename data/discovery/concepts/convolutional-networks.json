@@ -19,6 +19,18 @@
       "source_repo": "milesial/Pytorch-UNet",
       "status": "candidate-context",
       "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "CNN-based affine shape estimator."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "milesial/Pytorch-UNet",
       "status": "candidate",
       "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate",
+      "text": "CNN-based affine shape estimator."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "milesial/Pytorch-UNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

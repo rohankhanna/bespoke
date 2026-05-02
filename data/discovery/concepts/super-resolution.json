@@ -439,6 +439,18 @@
       "source_repo": "AssemblyAI-Community/MinImagen",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate-context",
+      "text": "[CVPR2024] SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate-context",
+      "text": "<div align=center class=\"logo\">"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "AssemblyAI-Community/MinImagen",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate",
+      "text": "<div align=center class=\"logo\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1006,11 +1024,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "cswry/SeeSR"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

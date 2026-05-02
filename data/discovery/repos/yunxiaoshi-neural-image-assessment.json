@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "target": "mtobeiyf/ava_downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "target": "photo-editing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:40.908164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch Implementation of Neural IMage Assessment",
+    "fork": false,
+    "full_name": "yunxiaoshi/Neural-IMage-Assessment",
+    "html_url": "https://github.com/yunxiaoshi/Neural-IMage-Assessment",
+    "language": "Python",
+    "pushed_at": "2021-11-10T11:36:17Z",
+    "stargazers_count": 583,
+    "topics": [
+      "computer-vision",
+      "image-enhancement",
+      "machine-learning",
+      "photo-editing"
+    ],
+    "updated_at": "2026-03-16T08:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mtobeiyf/ava_downloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enhancement"
+    },
+    {
+      "context_snippet": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photo-editing"
+    }
+  ]
+}

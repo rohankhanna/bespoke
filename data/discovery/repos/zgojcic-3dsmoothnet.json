@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zgojcic/3DSmoothNet",
+      "target": "andyzeng/3dmatch-toolbox",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:19:50.587104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10071
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR2019] The Perfect Match: 3D Point Cloud Matching with Smoothed Densities",
+    "fork": false,
+    "full_name": "zgojcic/3DSmoothNet",
+    "html_url": "https://github.com/zgojcic/3DSmoothNet",
+    "language": "Python",
+    "pushed_at": "2023-03-24T21:55:02Z",
+    "stargazers_count": 511,
+    "topics": [],
+    "updated_at": "2026-05-01T07:41:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andyzeng/3dmatch-toolbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -859,6 +859,30 @@
       "source_repo": "yuval-alaluf/Attend-and-Excite",
       "status": "candidate-context",
       "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate-context",
+      "text": "[CVPR2024] SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate-context",
+      "text": "<div align=center class=\"logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1311,18 @@
       "source_repo": "yuval-alaluf/Attend-and-Excite",
       "status": "candidate",
       "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cswry/SeeSR",
+      "status": "candidate",
+      "text": "<div align=center class=\"logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/SEINE",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
     }
   ],
   "candidate_related_terms": [],
@@ -2134,11 +2170,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "cswry/SeeSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/SEINE"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

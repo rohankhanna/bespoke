@@ -19,6 +19,18 @@
       "source_repo": "abhijay9/ShiftTolerant-LPIPS",
       "status": "candidate-context",
       "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "status": "candidate-context",
+      "text": "[TMLR 2023] as a featured article (spotlight :star2: or top 0.01% of the accepted papers). In this study, we systematically examine the robustness of both traditional and learned perceptual similarity metrics to imperceptible adversarial perturbations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "status": "candidate-context",
+      "text": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abhijay9/ShiftTolerant-LPIPS",
       "status": "candidate",
       "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "status": "candidate",
+      "text": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "abhijay9/ShiftTolerant-LPIPS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

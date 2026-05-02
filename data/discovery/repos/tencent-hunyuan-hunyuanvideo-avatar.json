@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-Avatar",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:22:36.768779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12877
+    },
+    {
+      "path": "requirements.txt",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "language": "Python",
+    "pushed_at": "2025-12-16T12:32:46Z",
+    "stargazers_count": 2088,
+    "topics": [],
+    "updated_at": "2026-04-30T07:00:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

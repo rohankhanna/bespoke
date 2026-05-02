@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "target": "centernet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "target": "dcnv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:19:08.486744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DCNv2 supports decent pytorch such as torch 1.5+ (now 1.8+)",
+    "fork": false,
+    "full_name": "lucasjinreal/DCNv2_latest",
+    "html_url": "https://github.com/lucasjinreal/DCNv2_latest",
+    "language": "C++",
+    "pushed_at": "2022-03-24T02:10:59Z",
+    "stargazers_count": 675,
+    "topics": [
+      "centernet",
+      "dcnv2",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-26T08:53:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- Add support for pytorch1.11 (may be not backward-compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centernet"
+    },
+    {
+      "context_snippet": "- Add support for pytorch1.11 (may be not backward-compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dcnv2"
+    },
+    {
+      "context_snippet": "- Add support for pytorch1.11 (may be not backward-compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

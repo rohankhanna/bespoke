@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nicklashansen/dreamer4",
+      "target": "edwhu/dreamer4-jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nicklashansen/dreamer4",
+      "target": "nicklashansen/newt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:15:28.044950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation of the Dreamer 4 world model in PyTorch.",
+    "fork": false,
+    "full_name": "nicklashansen/dreamer4",
+    "html_url": "https://github.com/nicklashansen/dreamer4",
+    "language": "Python",
+    "pushed_at": "2026-03-25T03:23:15Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-04-29T03:48:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edwhu/dreamer4-jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicklashansen/newt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guyuchao/PyramidCSA",
+      "target": "pytorch/tnt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guyuchao/PyramidCSA",
+      "target": "dengpingfan/davsod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guyuchao/PyramidCSA",
+      "target": "fperazzi/davis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guyuchao/PyramidCSA",
+      "target": "d-li14/mobilenetv3.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:24:38.220847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official implementation of \"Pyramid constrained self-attention network for fast video salient object detection\"",
+    "fork": false,
+    "full_name": "guyuchao/PyramidCSA",
+    "html_url": "https://github.com/guyuchao/PyramidCSA",
+    "language": "Makefile",
+    "pushed_at": "2021-11-09T11:52:23Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-12T03:07:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d-li14/mobilenetv3.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/davsod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fperazzi/davis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/tnt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "target": "object-oriented-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:55:05.787624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2822
+    },
+    {
+      "path": "package.json",
+      "size": 317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Draft specification for a standard demethodize function in JavaScript.",
+    "fork": false,
+    "full_name": "js-choi/proposal-function-demethodize",
+    "html_url": "https://github.com/js-choi/proposal-function-demethodize",
+    "language": "HTML",
+    "pushed_at": "2022-07-09T15:11:13Z",
+    "stargazers_count": 13,
+    "topics": [
+      "functional-programming",
+      "javascript",
+      "object-oriented-programming",
+      "tc39"
+    ],
+    "updated_at": "2026-01-04T17:30:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-oriented-programming"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

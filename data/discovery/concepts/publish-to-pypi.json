@@ -797,6 +797,30 @@
       "source_repo": "nomadkaraoke/python-audio-separator",
       "status": "candidate-context",
       "text": "publish-to-pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdbds/SageAttention-for-windows",
+      "status": "candidate-context",
+      "text": "Quantized Attention that achieves speedups of 2.1-3.1x and 2.7-5.1x compared to FlashAttention2 and xformers, respectively, without lossing end-to-end metrics across various models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdbds/SageAttention-for-windows",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1201,6 +1225,18 @@
       "source_repo": "nomadkaraoke/python-audio-separator",
       "status": "candidate",
       "text": "publish-to-pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdbds/SageAttention-for-windows",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -1994,11 +2030,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sdbds/SageAttention-for-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tensorpack/tensorpack"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

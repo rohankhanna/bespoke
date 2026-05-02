@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buernia/Zhudou-Sans",
+      "target": "googlefonts/noto-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buernia/Zhudou-Sans",
+      "target": "buernia/tiejili",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buernia/Zhudou-Sans",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buernia/Zhudou-Sans",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:33.567212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u716e\u8c46\u9ed1\u4f53\uff0cNoto \u98ce\u683c\u4e2d\u65e5\u97e9\u6807\u70b9\u7b26\u53f7\u5b57\u4f53\u3002A font family for CJK symbols and punctuation, derived from Noto Sans.",
+    "fork": false,
+    "full_name": "Buernia/Zhudou-Sans",
+    "html_url": "https://github.com/Buernia/Zhudou-Sans",
+    "language": null,
+    "pushed_at": "2023-04-09T04:11:43Z",
+    "stargazers_count": 945,
+    "topics": [
+      "cjk",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-04-26T09:45:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buernia/tiejili",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-fonts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u716e\u8c46\u9ed1\u4f53\u662f\u884d\u751f\u81ea [Noto Sans](https://github.com/googlefonts/noto-fonts) \u548c[\u601d\u6e90\u9ed1\u4f53](https://github.com/adobe-fonts/source-han-sans)\u7684\u6807\u70b9\u7b26\u53f7\u5b57\u4f53\u5bb6\u65cf\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u6807\u70b9\u3001\u5168\u89d2\u5b57\u6bcd\u3001\u5168\u89d2\u6570\u5b57\u53ca\u4e00\u4e9b\u7279\u6b8a\u7b26\u53f7\u3002\u6807\u70b9\u9020\u578b\u4e3b\u8981\u6765\u6e90\u4e8e Noto Sans\uff0c\u53ef\u4ee5\u4e3a\u7c7b\u4f3c\u98ce\u683c\u7684\u897f\u6587\u5b57\u4f53\u5e26\u6765\u66f4\u52a0\u534f\u8c03\u7684\u4e2d\u5916\u6587\u6df7\u6392\u6548\u679c\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "\u716e\u8c46\u9ed1\u4f53\u662f\u884d\u751f\u81ea [Noto Sans](https://github.com/googlefonts/noto-fonts) \u548c[\u601d\u6e90\u9ed1\u4f53](https://github.com/adobe-fonts/source-han-sans)\u7684\u6807\u70b9\u7b26\u53f7\u5b57\u4f53\u5bb6\u65cf\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u6807\u70b9\u3001\u5168\u89d2\u5b57\u6bcd\u3001\u5168\u89d2\u6570\u5b57\u53ca\u4e00\u4e9b\u7279\u6b8a\u7b26\u53f7\u3002\u6807\u70b9\u9020\u578b\u4e3b\u8981\u6765\u6e90\u4e8e Noto Sans\uff0c\u53ef\u4ee5\u4e3a\u7c7b\u4f3c\u98ce\u683c\u7684\u897f\u6587\u5b57\u4f53\u5e26\u6765\u66f4\u52a0\u534f\u8c03\u7684\u4e2d\u5916\u6587\u6df7\u6392\u6548\u679c\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

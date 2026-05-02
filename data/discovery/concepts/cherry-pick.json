@@ -68,6 +68,18 @@
       "source_repo": "argoproj/argo-workflows",
       "status": "candidate-context",
       "text": "Cherry Pick"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "NVIDIA device plugin for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "Cherry-Pick"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "argoproj/argo-workflows",
       "status": "candidate",
       "text": "Cherry Pick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate",
+      "text": "Cherry-Pick"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/cherry-pick.yml",
       "source_repo": "argoproj/argo-workflows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/k8s-device-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

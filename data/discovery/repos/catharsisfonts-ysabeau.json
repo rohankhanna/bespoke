@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CatharsisFonts/Ysabeau",
+      "target": "catharsisfonts/cormorant",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:38.711328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ysabeau: The essence of Garamond in an open-source sans-serif typeface",
+    "fork": false,
+    "full_name": "CatharsisFonts/Ysabeau",
+    "html_url": "https://github.com/CatharsisFonts/Ysabeau",
+    "language": "Python",
+    "pushed_at": "2026-04-01T13:36:21Z",
+    "stargazers_count": 631,
+    "topics": [],
+    "updated_at": "2026-04-29T05:50:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catharsisfonts/cormorant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

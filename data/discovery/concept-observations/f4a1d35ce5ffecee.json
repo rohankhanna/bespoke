@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pip install antialiased-cnns to improve stability and accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "proceedings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icml",
+      "sense_id": "icml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "icml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "icml",
+  "observation_id": "f4a1d35ce5ffecee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "icml",
+  "source_context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+  "source_file": null,
+  "source_repo": "adobe/antialiased-cnns",
+  "source_repo_description": "pip install antialiased-cnns to improve stability and accuracy"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liuziyu77/Visual-RFT",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liuziyu77/Visual-RFT",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:01.020528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of 'Visual-RFT: Visual Reinforcement Fine-Tuning' & 'Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning'\u2019",
+    "fork": false,
+    "full_name": "Liuziyu77/Visual-RFT",
+    "html_url": "https://github.com/Liuziyu77/Visual-RFT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-10-29T07:28:02Z",
+    "stargazers_count": 2246,
+    "topics": [],
+    "updated_at": "2026-04-29T15:25:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-agent/r1-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

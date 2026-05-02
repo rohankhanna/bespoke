@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlvlab/PointWOLF",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlvlab/PointWOLF",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:18:49.130192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation (PyTorch) of \"Point Cloud Augmentation with Weighted Local Transformations\", ICCV 2021",
+    "fork": false,
+    "full_name": "mlvlab/PointWOLF",
+    "html_url": "https://github.com/mlvlab/PointWOLF",
+    "language": "Python",
+    "pushed_at": "2022-03-02T08:12:43Z",
+    "stargazers_count": 40,
+    "topics": [
+      "iccv2021",
+      "point-cloud"
+    ],
+    "updated_at": "2026-05-02T01:00:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

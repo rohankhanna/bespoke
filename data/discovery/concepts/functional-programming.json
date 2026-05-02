@@ -175,6 +175,30 @@
       "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
       "status": "candidate-context",
       "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate-context",
+      "text": "A proposal to standardize helper functions for serial function application and function composition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate-context",
+      "text": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "status": "candidate-context",
+      "text": "Draft specification for a standard demethodize function in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "status": "candidate-context",
+      "text": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
       "status": "candidate",
       "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate",
+      "text": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-choi/proposal-function-demethodize",
+      "status": "candidate",
+      "text": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022."
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +388,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "js-choi/proposal-function-demethodize"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

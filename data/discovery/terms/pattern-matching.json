@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "G-Research/ahocorasick_rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shuckster/match-iz"
     }
   ],
   "term": "pattern-matching"

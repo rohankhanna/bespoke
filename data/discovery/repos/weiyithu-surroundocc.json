@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiyithu/SurroundOcc",
+      "target": "astra-vision/monoscene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc",
+      "target": "3d-semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc",
+      "target": "occupancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:25:12.074504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving",
+    "fork": false,
+    "full_name": "weiyithu/SurroundOcc",
+    "html_url": "https://github.com/weiyithu/SurroundOcc",
+    "language": "Python",
+    "pushed_at": "2025-06-20T12:47:59Z",
+    "stargazers_count": 1039,
+    "topics": [
+      "3d-reconstruction",
+      "3d-semantic-segmentation",
+      "occupancy",
+      "occupancy-prediction"
+    ],
+    "updated_at": "2026-04-28T05:52:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astra-vision/monoscene",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-semantic-segmentation"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Q-Insight",
+      "target": "xuanyuzhang21/rali",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Q-Insight",
+      "target": "xuanyuzhang21/vq-insight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Q-Insight",
+      "target": "xpixelgroup/depictqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/Q-Insight",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:58.568480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8846
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Q-Insight Family: Q-Insight, VQ-Insight and RALI (NeurIPS 2025 Spotlight, AAAI 2026 Oral, and ICLR 2026 Oral)",
+    "fork": false,
+    "full_name": "bytedance/Q-Insight",
+    "html_url": "https://github.com/bytedance/Q-Insight",
+    "language": "Python",
+    "pushed_at": "2026-03-03T05:18:53Z",
+    "stargazers_count": 290,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-05-02T02:43:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xpixelgroup/depictqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuanyuzhang21/rali",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuanyuzhang21/vq-insight",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

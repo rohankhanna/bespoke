@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing",
+      "target": "siggraph2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing",
+      "target": "stylegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing",
+      "target": "stylegan-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing",
+      "target": "stylegan-image-manipulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:57.764400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"Designing an Encoder for StyleGAN Image Manipulation\"  (SIGGRAPH 2021) https://arxiv.org/abs/2102.02766",
+    "fork": false,
+    "full_name": "omertov/encoder4editing",
+    "html_url": "https://github.com/omertov/encoder4editing",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-15T00:35:18Z",
+    "stargazers_count": 995,
+    "topics": [
+      "encoder",
+      "siggraph2021",
+      "stylegan",
+      "stylegan-encoder",
+      "stylegan-image-manipulation"
+    ],
+    "updated_at": "2026-04-25T16:50:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siggraph2021"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan-encoder"
+    },
+    {
+      "context_snippet": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan-image-manipulation"
+    }
+  ]
+}

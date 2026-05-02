@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "danielrosehill/hfc-guidance-flip-book",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "danielrosehill/israel-civilian-readiness-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "danielrosehill/israel-first-aid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "danielrosehill/israel-alert-map",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "pikud-haoref",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "preparedness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Israel-Preparedness-Index",
+      "target": "red-alerts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:59:12.916529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Index of repositories related to civilian emergency preparedness in Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Israel-Preparedness-Index",
+    "html_url": "https://github.com/danielrosehill/Israel-Preparedness-Index",
+    "language": null,
+    "pushed_at": "2026-04-06T14:14:22Z",
+    "stargazers_count": 0,
+    "topics": [
+      "index",
+      "pikud-haoref",
+      "preparedness",
+      "red-alerts"
+    ],
+    "updated_at": "2026-04-06T14:14:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/hfc-guidance-flip-book",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/israel-alert-map",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/israel-civilian-readiness-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/israel-first-aid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pikud-haoref"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preparedness"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-alerts"
+    }
+  ]
+}

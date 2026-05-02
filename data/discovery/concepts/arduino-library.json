@@ -67,6 +67,30 @@
       "source_repo": "adafruit/Adafruit_BME280_Library",
       "status": "candidate-context",
       "text": "<a href=\"http://www.adafruit.com/products/2652\"><img src=\"./assets/board.jpg\" width=\"500\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate-context",
+      "text": "Arduino library for PMS* Air Quality Sensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate-context",
+      "text": "This is the Adafruit PM25AQI Arduino Library for Arduino"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate-context",
+      "text": "Common sensor library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate-context",
+      "text": "Many small embedded systems exist to collect data from sensors, analyse the data, and either take an appropriate action or send that sensor data to another system for processing."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "adafruit/Adafruit_BME280_Library",
       "status": "candidate",
       "text": "<a href=\"http://www.adafruit.com/products/2652\"><img src=\"./assets/board.jpg\" width=\"500\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_PM25AQI",
+      "status": "candidate",
+      "text": "This is the Adafruit PM25AQI Arduino Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_Sensor",
+      "status": "candidate",
+      "text": "Many small embedded systems exist to collect data from sensors, analyse the data, and either take an appropriate action or send that sensor data to another system for processing."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "adafruit/Adafruit_BME280_Library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_PM25AQI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_Sensor"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

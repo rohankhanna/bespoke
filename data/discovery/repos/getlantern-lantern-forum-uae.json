@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-uae",
+      "target": "getlantern/lantern-forum-ukraine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:56:16.804776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Forum for discussing all things Lantern for users in the UAE!",
+    "fork": false,
+    "full_name": "getlantern/lantern-forum-uae",
+    "html_url": "https://github.com/getlantern/lantern-forum-uae",
+    "language": null,
+    "pushed_at": "2024-11-01T19:50:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-11-01T19:50:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ukraine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

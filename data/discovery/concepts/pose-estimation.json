@@ -331,6 +331,18 @@
       "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
       "status": "candidate-context",
       "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of openpose including Hand and Body Pose Estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
       "status": "candidate",
       "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -694,11 +712,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Hzzone/pytorch-openpose"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

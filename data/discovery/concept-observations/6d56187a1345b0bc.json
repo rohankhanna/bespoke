@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Draft specification for a standard demethodize function in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-oriented-programming",
+      "sense_id": "object-oriented-programming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "object-oriented-programming",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "object-oriented-programming",
+  "observation_id": "6d56187a1345b0bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "object-oriented-programming",
+  "source_context_snippet": "ECMAScript Stage-0 Proposal. J. S. Choi, 2022.",
+  "source_file": null,
+  "source_repo": "js-choi/proposal-function-demethodize",
+  "source_repo_description": "Draft specification for a standard demethodize function in JavaScript."
+}

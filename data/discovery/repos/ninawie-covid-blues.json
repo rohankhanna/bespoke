@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NinaWie/COVID-BLUES",
+      "target": "ninawie/covid-blues-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:24:56.657264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dataset of lung ultrasound videos for research on AI-based medical image analysis",
+    "fork": false,
+    "full_name": "NinaWie/COVID-BLUES",
+    "html_url": "https://github.com/NinaWie/COVID-BLUES",
+    "language": null,
+    "pushed_at": "2025-11-09T18:54:32Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-02-19T13:59:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninawie/covid-blues-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

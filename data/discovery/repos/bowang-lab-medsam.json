@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bowang-lab/MedSAM",
+      "target": "bowang-lab/medsam2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bowang-lab/MedSAM",
+      "target": "bowang-lab/medsamslicer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:00:15.100573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Segment Anything in Medical Images",
+    "fork": false,
+    "full_name": "bowang-lab/MedSAM",
+    "html_url": "https://github.com/bowang-lab/MedSAM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-07T13:36:16Z",
+    "stargazers_count": 4246,
+    "topics": [],
+    "updated_at": "2026-05-02T05:46:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bowang-lab/medsam2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bowang-lab/medsamslicer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

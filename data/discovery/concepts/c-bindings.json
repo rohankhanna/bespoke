@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "c-bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for cimgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "c-bindings",
+  "concept_id": "c-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImGui/CImGui.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "c-bindings",
+      "sense_id": "c-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

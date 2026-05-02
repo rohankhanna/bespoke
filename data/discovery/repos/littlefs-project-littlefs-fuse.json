@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "libfuse/libfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "geky/littlefs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "target": "fuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:58:48.105021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5199
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3893
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A FUSE wrapper that puts the littlefs in user-space",
+    "fork": false,
+    "full_name": "littlefs-project/littlefs-fuse",
+    "html_url": "https://github.com/littlefs-project/littlefs-fuse",
+    "language": "C",
+    "pushed_at": "2026-03-25T04:16:40Z",
+    "stargazers_count": 212,
+    "topics": [
+      "fuse"
+    ],
+    "updated_at": "2026-04-14T13:36:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geky/littlefs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libfuse/libfuse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "A FUSE wrapper that puts the littlefs in user-space.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuse"
+    }
+  ]
+}

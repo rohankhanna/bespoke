@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -321,6 +321,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "h2oai/awesome-h2o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality"
     }
   ],
   "term": "awesome-list"

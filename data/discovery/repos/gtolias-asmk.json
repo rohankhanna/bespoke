@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gtolias/asmk",
+      "target": "jenicek/asmk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:17:39.502126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Matlab/Mex implementation of Aggregated Selective Match Kernels for Image Retrieval (published in ICCV 2013)",
+    "fork": false,
+    "full_name": "gtolias/asmk",
+    "html_url": "https://github.com/gtolias/asmk",
+    "language": "MATLAB",
+    "pushed_at": "2025-10-16T12:38:51Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-10-16T12:38:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenicek/asmk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

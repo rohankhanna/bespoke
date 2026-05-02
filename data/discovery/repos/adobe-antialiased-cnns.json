@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "antialiasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "cnns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "icml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "icml-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "shift-equivariant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe/antialiased-cnns",
+      "target": "shift-invariant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:51.927488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9060
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pip install antialiased-cnns to improve stability and accuracy",
+    "fork": false,
+    "full_name": "adobe/antialiased-cnns",
+    "html_url": "https://github.com/adobe/antialiased-cnns",
+    "language": "Python",
+    "pushed_at": "2024-04-08T12:49:27Z",
+    "stargazers_count": 1683,
+    "topics": [
+      "antialiasing",
+      "artificial-intelligence",
+      "cnns",
+      "computer-vision",
+      "convolutional-neural-networks",
+      "icml",
+      "icml-2019",
+      "shift-equivariant",
+      "shift-invariant"
+    ],
+    "updated_at": "2026-04-17T02:43:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antialiasing"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cnns"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2019"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shift-equivariant"
+    },
+    {
+      "context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shift-invariant"
+    }
+  ]
+}

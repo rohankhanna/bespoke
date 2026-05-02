@@ -84,7 +84,7 @@
   "normalized_form": "call-building-packages",
   "observation_id": "cd3a1e06e531758d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
   "observed_text": "Call building packages",
   "source_context_snippet": "Call building packages",
   "source_file": ".github/workflows/_build-packages.yml",

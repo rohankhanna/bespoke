@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:25:01.332490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch code for the paper \"FIERY: Future Instance Segmentation in Bird's-Eye view from Surround Monocular Cameras\"",
+    "fork": false,
+    "full_name": "wayveai/fiery",
+    "html_url": "https://github.com/wayveai/fiery",
+    "language": "Python",
+    "pushed_at": "2024-11-18T15:16:23Z",
+    "stargazers_count": 606,
+    "topics": [],
+    "updated_at": "2026-04-22T17:36:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

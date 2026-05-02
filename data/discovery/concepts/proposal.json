@@ -175,6 +175,30 @@
       "source_repo": "tc39/proposal-hack-pipes",
       "status": "candidate-context",
       "text": "ECMAScript Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-call-this",
+      "status": "candidate-context",
+      "text": "A proposal for a simple call-this operator in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-call-this",
+      "status": "candidate-context",
+      "text": "ECMAScript Stage-1 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate-context",
+      "text": "A proposal to standardize helper functions for serial function application and function composition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate-context",
+      "text": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021."
     }
   ],
   "candidate_glosses": [
@@ -267,6 +291,18 @@
       "source_repo": "tc39/proposal-hack-pipes",
       "status": "candidate",
       "text": "ECMAScript Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-call-this",
+      "status": "candidate",
+      "text": "ECMAScript Stage-1 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "status": "candidate",
+      "text": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021."
     }
   ],
   "candidate_related_terms": [
@@ -470,11 +506,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-source-phase-imports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-call-this"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

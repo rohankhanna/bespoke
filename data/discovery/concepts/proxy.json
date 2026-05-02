@@ -297,6 +297,18 @@
       "source_repo": "MicahParks/jcp",
       "status": "candidate-context",
       "text": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliRezaBeigy/paqetNG",
+      "status": "candidate-context",
+      "text": "Android client for paqet \u2014 Root Required \u2014 Ferries Packets Across Forbidden Boundaries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliRezaBeigy/paqetNG",
+      "status": "candidate-context",
+      "text": "![paqetNG Banner](docs/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -443,6 +455,12 @@
       "source_repo": "MicahParks/jcp",
       "status": "candidate",
       "text": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliRezaBeigy/paqetNG",
+      "status": "candidate",
+      "text": "![paqetNG Banner](docs/banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -663,11 +681,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MicahParks/jcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "AliRezaBeigy/paqetNG"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

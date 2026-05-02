@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "self-hosting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotify/server",
+      "status": "candidate-context",
+      "text": "A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024457,
+      "status": "candidate",
+      "text": "portable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024456,
+      "status": "candidate",
+      "text": "self-documenting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024455,
+      "status": "candidate",
+      "text": "redistributable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024454,
+      "status": "candidate",
+      "text": "auto-generated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024453,
+      "status": "candidate",
+      "text": "scriptable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "self-hosting",
+  "concept_id": "self-hosting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "gotify/server"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-hosting",
+      "sense_id": "self-hosting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

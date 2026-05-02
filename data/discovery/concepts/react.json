@@ -2007,6 +2007,18 @@
       "source_repo": "styleguidist/react-styleguidist",
       "status": "candidate-context",
       "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotify/server",
+      "status": "candidate-context",
+      "text": "A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -3011,6 +3023,12 @@
       "source_repo": "styleguidist/react-styleguidist",
       "status": "candidate",
       "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotify/server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -4539,11 +4557,41 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "styleguidist/react-styleguidist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "gotify/server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "occupancy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate-context",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923079,
+      "status": "candidate",
+      "text": "occupation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917677,
+      "status": "candidate",
+      "text": "tenancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929562,
+      "status": "candidate",
+      "text": "taking possession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929561,
+      "status": "candidate",
+      "text": "occupier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929542,
+      "status": "candidate",
+      "text": "occupy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5043,
+      "status": "candidate",
+      "text": "occupation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "tenancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4,
+      "status": "candidate",
+      "text": "taking possession"
+    }
+  ],
+  "canonical_name": "occupancy",
+  "concept_id": "occupancy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "occupancy",
+      "sense_id": "occupancy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

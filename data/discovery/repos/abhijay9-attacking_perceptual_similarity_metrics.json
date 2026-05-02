@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "rakutentech/stadv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "adversarial-attacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "adversarial-robustness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "full-reference-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "full-reference-iqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "image-quality-assesment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "perceptual-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "transferable-attacks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:47.518936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TMLR 2023] as a featured article (spotlight :star2: or top 0.01% of the accepted papers). In this study, we systematically examine the robustness of both traditional and learned perceptual similarity metrics to imperceptible adversarial perturbations.",
+    "fork": false,
+    "full_name": "abhijay9/attacking_perceptual_similarity_metrics",
+    "html_url": "https://github.com/abhijay9/attacking_perceptual_similarity_metrics",
+    "language": "Python",
+    "pushed_at": "2025-01-24T23:22:59Z",
+    "stargazers_count": 6,
+    "topics": [
+      "adversarial-attacks",
+      "adversarial-robustness",
+      "full-reference-image-quality-assessment",
+      "full-reference-iqa",
+      "image-quality-assesment",
+      "iqa",
+      "perceptual-similarity",
+      "transferable-attacks"
+    ],
+    "updated_at": "2025-01-24T23:23:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rakutentech/stadv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-attacks"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-robustness"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-reference-image-quality-assessment"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-reference-iqa"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assesment"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-similarity"
+    },
+    {
+      "context_snippet": "[Abhijay Ghildyal](https://abhijay9.github.io/), [Feng Liu](http://web.cecs.pdx.edu/~fliu/). In TMLR, 2023. [(Featured Certification)](https://jmlr.org/tmlr/papers/#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transferable-attacks"
+    }
+  ]
+}

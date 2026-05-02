@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deep-learing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": " a reimplementation of UnFlow in PyTorch that matches the official TensorFlow version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deep-learing",
+  "concept_id": "deep-learing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learing",
+      "sense_id": "deep-learing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

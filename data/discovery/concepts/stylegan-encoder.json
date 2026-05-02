@@ -19,6 +19,18 @@
       "source_repo": "eladrich/pixel2style2pixel",
       "status": "candidate-context",
       "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate-context",
+      "text": "Official implementation of \"Designing an Encoder for StyleGAN Image Manipulation\"  (SIGGRAPH 2021) https://arxiv.org/abs/2102.02766"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate-context",
+      "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "eladrich/pixel2style2pixel",
       "status": "candidate",
       "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omertov/encoder4editing",
+      "status": "candidate",
+      "text": "<a href=\"https://arxiv.org/abs/2102.02766\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "eladrich/pixel2style2pixel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "omertov/encoder4editing"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

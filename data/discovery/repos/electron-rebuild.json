@@ -51,16 +51,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@typescript-eslint/eslint-plugin",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@typescript-eslint/parser",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@vitest/coverage-v8",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -71,7 +61,27 @@
       "source_file": "package.json"
     },
     {
-      "component": "eslint",
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint-tsgolint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -241,20 +251,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "electron/rebuild",
-      "target": "@typescript-eslint/eslint-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "electron/rebuild",
-      "target": "@typescript-eslint/parser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "electron/rebuild",
       "target": "@vitest/coverage-v8",
       "target_type": "component"
     },
@@ -269,7 +265,35 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "electron/rebuild",
-      "target": "eslint",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/rebuild",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/rebuild",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/rebuild",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/rebuild",
+      "target": "oxlint-tsgolint",
       "target_type": "component"
     },
     {
@@ -434,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:57:49.695096+00:00",
+  "fetched_at": "2026-05-02T07:11:51.467071+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -442,7 +466,7 @@
     },
     {
       "path": "package.json",
-      "size": 2152
+      "size": 2270
     },
     {
       "path": ".github/workflows/add-to-project.yml",
@@ -474,10 +498,10 @@
     "full_name": "electron/rebuild",
     "html_url": "https://github.com/electron/rebuild",
     "language": "TypeScript",
-    "pushed_at": "2026-05-01T06:22:45Z",
+    "pushed_at": "2026-05-01T22:35:13Z",
     "stargazers_count": 1117,
     "topics": [],
-    "updated_at": "2026-05-01T09:47:25Z"
+    "updated_at": "2026-05-01T22:35:16Z"
   },
   "repo_links": [],
   "terms": [

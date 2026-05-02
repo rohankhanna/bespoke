@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyupio/safety-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyupio/safety-action",
+      "target": "Safety Action CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyupio/safety-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyupio/safety-action",
+      "target": "Update Main Version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:07:59.698783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 809
+    },
+    {
+      "path": "Dockerfile",
+      "size": 147
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3608
+    },
+    {
+      "path": ".github/workflows/gh-action-integration-matrix.json",
+      "size": 25
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runs the Safety CLI dependency scanner against your project",
+    "fork": false,
+    "full_name": "pyupio/safety-action",
+    "html_url": "https://github.com/pyupio/safety-action",
+    "language": "Shell",
+    "pushed_at": "2025-07-03T14:35:02Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-01-22T02:06:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Safety Action CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Safety Action CI"
+    },
+    {
+      "context_snippet": "Update Main Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Update Main Version"
+    }
+  ]
+}

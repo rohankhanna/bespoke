@@ -90,7 +90,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "paralleldrive/cuid",
-      "target": "grantcarthew/deno-cuid",
+      "target": "hugodaniel/cuid-c",
       "target_type": "repository"
     },
     {
@@ -199,7 +199,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T13:55:28.887944+00:00",
+  "fetched_at": "2026-05-02T07:08:17.880818+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -219,7 +219,7 @@
     "full_name": "paralleldrive/cuid",
     "html_url": "https://github.com/paralleldrive/cuid",
     "language": "JavaScript",
-    "pushed_at": "2026-04-29T13:15:40Z",
+    "pushed_at": "2026-05-01T18:14:09Z",
     "stargazers_count": 3506,
     "topics": [],
     "updated_at": "2026-04-27T12:03:50Z"
@@ -242,7 +242,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "grantcarthew/deno-cuid",
+      "full_name": "hugodaniel/cuid-c",
       "source_file": "README.md"
     }
   ],

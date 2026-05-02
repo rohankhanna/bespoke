@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dreamoving/Phantom",
+      "target": "csxmli2016/marconet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:05.553386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4476
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "repository for dreamoving-phantom https://www.modelscope.cn/studios/vigen/DreaMoving_Phantom/summary. DreaMoving-Phantom is a general and automatic image enhancement and super resolution framework.",
+    "fork": false,
+    "full_name": "dreamoving/Phantom",
+    "html_url": "https://github.com/dreamoving/Phantom",
+    "language": "Python",
+    "pushed_at": "2024-02-02T03:12:51Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-15T11:43:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csxmli2016/marconet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DCNv2 supports decent pytorch such as torch 1.5+ (now 1.8+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- Add support for pytorch1.11 (may be not backward-compatible)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- Add support for pytorch1.11 (may be not backward-compatible)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "centernet",
+      "sense_id": "centernet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "centernet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "centernet",
+  "observation_id": "d7ba7556f011dbeb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "centernet",
+  "source_context_snippet": "- Add support for pytorch1.11 (may be not backward-compatible).",
+  "source_file": null,
+  "source_repo": "lucasjinreal/DCNv2_latest",
+  "source_repo_description": "DCNv2 supports decent pytorch such as torch 1.5+ (now 1.8+)"
+}

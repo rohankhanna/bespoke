@@ -19,6 +19,18 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate-context",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firecracker-microvm/firectl",
+      "status": "candidate-context",
+      "text": "firectl is a command-line tool to run Firecracker microVMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firectl",
+      "status": "candidate-context",
+      "text": "firectl"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firecracker-microvm/firectl",
+      "status": "candidate",
+      "text": "firectl"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "firecracker-microvm/firectl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

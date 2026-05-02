@@ -1,0 +1,237 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "scipy/scipy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "dranjan/python-plyfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "h5py/h5py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "charlesq34/frustum-pointnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "frustum-pointnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "frustum-pointnets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "point-voxel-cnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "pointnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "pointnet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "pvcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "s3dis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn",
+      "target": "shapenet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:19:42.327626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11888
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[NeurIPS 2019, Spotlight] Point-Voxel CNN for Efficient 3D Deep Learning",
+    "fork": false,
+    "full_name": "mit-han-lab/pvcnn",
+    "html_url": "https://github.com/mit-han-lab/pvcnn",
+    "language": "Python",
+    "pushed_at": "2022-04-12T12:07:21Z",
+    "stargazers_count": 679,
+    "topics": [
+      "frustum-pointnet",
+      "frustum-pointnets",
+      "kitti",
+      "point-cloud",
+      "point-voxel-cnn",
+      "pointnet",
+      "pointnet2",
+      "pvcnn",
+      "pytorch",
+      "s3dis",
+      "shapenet"
+    ],
+    "updated_at": "2026-03-25T09:32:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesq34/frustum-pointnets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dranjan/python-plyfile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h5py/h5py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scipy/scipy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frustum-pointnet"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frustum-pointnets"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-voxel-cnn"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnet"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnet2"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pvcnn"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "s3dis"
+    },
+    {
+      "context_snippet": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shapenet"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:22:00.951367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation for \"StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery\" (ICCV 2021 Oral)",
+    "fork": false,
+    "full_name": "orpatashnik/StyleCLIP",
+    "html_url": "https://github.com/orpatashnik/StyleCLIP",
+    "language": "HTML",
+    "pushed_at": "2023-05-30T19:57:17Z",
+    "stargazers_count": 4125,
+    "topics": [],
+    "updated_at": "2026-05-02T01:56:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

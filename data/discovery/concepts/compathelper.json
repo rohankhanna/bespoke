@@ -529,6 +529,30 @@
       "source_repo": "ali-ramadhan/DocumenterCitations.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for cimgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGizmos/Blink.jl",
+      "status": "candidate-context",
+      "text": "Web-based GUIs for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGizmos/Blink.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -799,6 +823,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImGui/CImGui.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGizmos/Blink.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -1120,11 +1156,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaImGui/CImGui.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

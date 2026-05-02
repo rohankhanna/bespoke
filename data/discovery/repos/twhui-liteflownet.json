@@ -1,0 +1,180 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "twhui/liteflownet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "twhui/liteflownet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "lmb-freiburg/flownet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "cvpr2018",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "liteflownet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:23:14.239959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation, CVPR 2018 (Spotlight paper, 6.6%)",
+    "fork": false,
+    "full_name": "twhui/LiteFlowNet",
+    "html_url": "https://github.com/twhui/LiteFlowNet",
+    "language": "C++",
+    "pushed_at": "2023-03-21T07:13:27Z",
+    "stargazers_count": 629,
+    "topics": [
+      "caffe",
+      "cnn",
+      "computer-vision",
+      "cvpr2018",
+      "deeplearning",
+      "liteflownet",
+      "optical-flow",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-03-28T03:48:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/flownet2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twhui/liteflownet2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twhui/liteflownet3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2018"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liteflownet"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

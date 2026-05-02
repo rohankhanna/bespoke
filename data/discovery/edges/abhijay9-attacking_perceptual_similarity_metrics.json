@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "rakutentech/stadv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "adversarial-attacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "adversarial-robustness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "full-reference-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "full-reference-iqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "image-quality-assesment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "perceptual-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target": "transferable-attacks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "abhijay9/attacking_perceptual_similarity_metrics"
+}

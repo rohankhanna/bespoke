@@ -99,6 +99,18 @@
       "source_repo": "argoproj/argo-events",
       "status": "candidate-context",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate-context",
+      "text": "C++ tensors with broadcasting and lazy computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate-context",
+      "text": "gh-pages"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +159,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "argoproj/argo-events",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor",
       "status": "candidate",
       "text": "gh-pages"
     }
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/gh-pages.yaml",
       "source_repo": "argoproj/argo-events"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

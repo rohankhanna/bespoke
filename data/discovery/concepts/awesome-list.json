@@ -739,6 +739,18 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate-context",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate-context",
+      "text": "An awesome list of air quality resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
     }
   ],
   "candidate_glosses": [
@@ -1101,6 +1113,12 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openaq/awesome-air-quality",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/LICENSE-CC0%201.0%20Universal-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)"
     }
   ],
   "candidate_related_terms": [],
@@ -1564,11 +1582,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "h2oai/awesome-h2o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "openaq/awesome-air-quality"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

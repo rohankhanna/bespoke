@@ -571,6 +571,30 @@
       "source_repo": "jessevig/bertviz",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": "Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate-context",
+      "text": "The Learning Interpretability Tool: Interactively analyze ML models to understand their behavior in an extensible and framework agnostic interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate-context",
+      "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +879,18 @@
       "source_repo": "jessevig/bertviz",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate",
+      "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
     }
   ],
   "candidate_related_terms": [
@@ -1249,11 +1285,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jalammar/ecco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "PAIR-code/lit"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

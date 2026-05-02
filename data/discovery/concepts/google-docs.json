@@ -31,6 +31,18 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate-context",
+      "text": "ESP8266 Projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate-context",
+      "text": "Stuff I do with this tiny wireless wonder"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate",
+      "text": "Stuff I do with this tiny wireless wonder"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "electronicsguy/ESP8266"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -771,6 +771,18 @@
       "source_repo": "gmberton/CosPlace",
       "status": "candidate-context",
       "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imfing/ava_downloader",
+      "status": "candidate-context",
+      "text": ":arrow_double_down: Download AVA dataset (A Large-Scale Database for Aesthetic Visual Analysis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfing/ava_downloader",
+      "status": "candidate-context",
+      "text": "**A Large-Scale Database for Aesthetic Visual Analysis**"
     }
   ],
   "candidate_glosses": [
@@ -1157,6 +1169,12 @@
       "source_repo": "gmberton/CosPlace",
       "status": "candidate",
       "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfing/ava_downloader",
+      "status": "candidate",
+      "text": "**A Large-Scale Database for Aesthetic Visual Analysis**"
     }
   ],
   "candidate_related_terms": [
@@ -1608,11 +1626,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "gmberton/CosPlace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "imfing/ava_downloader"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

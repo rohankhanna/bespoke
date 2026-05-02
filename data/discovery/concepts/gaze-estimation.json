@@ -19,6 +19,18 @@
       "source_repo": "natanielruiz/deep-head-pose",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "natanielruiz/deep-head-pose",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "natanielruiz/deep-head-pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

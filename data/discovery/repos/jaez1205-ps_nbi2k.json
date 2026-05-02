@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaeZ1205/PS_NBI2k",
+      "target": "baiboat/hsnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaeZ1205/PS_NBI2k",
+      "target": "ducnt9907/colonformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaeZ1205/PS_NBI2k",
+      "target": "esandml/fcbformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaeZ1205/PS_NBI2k",
+      "target": "midsdsy/lod-net",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:24:34.970666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JaeZ1205/PS_NBI2k",
+    "html_url": "https://github.com/JaeZ1205/PS_NBI2k",
+    "language": null,
+    "pushed_at": "2025-12-31T12:26:10Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-12-31T12:26:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baiboat/hsnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ducnt9907/colonformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esandml/fcbformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "midsdsy/lod-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

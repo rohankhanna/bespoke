@@ -211,6 +211,18 @@
       "source_repo": "mfussenegger/nvim-dap-python",
       "status": "candidate-context",
       "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliben/pyelftools",
+      "status": "candidate-context",
+      "text": "Parsing ELF and DWARF in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliben/pyelftools",
+      "status": "candidate-context",
+      "text": "=========="
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "mfussenegger/nvim-dap-python",
       "status": "candidate",
       "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliben/pyelftools",
+      "status": "candidate",
+      "text": "=========="
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +556,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "debug-js/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "eliben/pyelftools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

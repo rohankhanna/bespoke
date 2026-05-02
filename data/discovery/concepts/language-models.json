@@ -67,6 +67,18 @@
       "source_repo": "agencyenterprise/PromptInject",
       "status": "candidate-context",
       "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": "Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "agencyenterprise/PromptInject",
       "status": "candidate",
       "text": "[**Paper: Ignore Previous Prompt: Attack Techniques For Language Models**](https://arxiv.org/abs/2211.09527)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "agencyenterprise/PromptInject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jalammar/ecco"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

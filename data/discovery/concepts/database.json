@@ -1279,6 +1279,18 @@
       "source_repo": "tonsky/datascript",
       "status": "candidate-context",
       "text": "<img src=\"./extras/logo.svg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1917,6 +1929,12 @@
       "source_repo": "tonsky/datascript",
       "status": "candidate",
       "text": "<img src=\"./extras/logo.svg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2830,11 +2848,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

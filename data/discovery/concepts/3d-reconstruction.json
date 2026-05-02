@@ -301,6 +301,42 @@
       "source_repo": "openMVG/openMVG",
       "status": "candidate-context",
       "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate-context",
+      "text": "MVSNet: Depth Inference for Unstructured Multi-view Stereo using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "News: the 10k dataset is ready for download."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +489,24 @@
       "source_repo": "openMVG/openMVG",
       "status": "candidate",
       "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiyithu/SurroundOcc",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +664,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "openMVG/openMVG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/MVSNet_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundOcc"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

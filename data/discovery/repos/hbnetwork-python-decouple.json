@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "Tox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "configuration-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HBNetwork/python-decouple",
+      "target": "environment-variables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:59:53.551570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14942
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1507
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Strict separation of config from code.",
+    "fork": false,
+    "full_name": "HBNetwork/python-decouple",
+    "html_url": "https://github.com/HBNetwork/python-decouple",
+    "language": "Python",
+    "pushed_at": "2024-11-28T20:56:27Z",
+    "stargazers_count": 3033,
+    "topics": [
+      "configuration-files",
+      "environment-variables",
+      "python"
+    ],
+    "updated_at": "2026-05-02T06:07:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tox",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tox"
+    },
+    {
+      "context_snippet": "========================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-files"
+    },
+    {
+      "context_snippet": "========================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment-variables"
+    }
+  ]
+}

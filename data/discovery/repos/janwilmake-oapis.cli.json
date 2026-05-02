@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T06:58:24.251830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1349
+    },
+    {
+      "path": "package.json",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "janwilmake/oapis.cli",
+    "html_url": "https://github.com/janwilmake/oapis.cli",
+    "language": "JavaScript",
+    "pushed_at": "2025-03-19T09:52:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-19T09:52:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

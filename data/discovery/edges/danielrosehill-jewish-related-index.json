@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/ha-shabbat-dashboard-0125",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-tech-vocab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-tts-providers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Related-Index",
+      "target": "danielrosehill/hebrew-image-generation-eval",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "danielrosehill/Jewish-Related-Index"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Projects-Index",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Projects-Index",
+      "target": "danielrosehill/failover-internet-israel-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Projects-Index",
+      "target": "danielrosehill/greeninvoice-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Israel-Projects-Index",
+      "target": "danielrosehill/awesome-hebrew-fonts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:59:23.390895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories related to Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Israel-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Israel-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-04-27T08:39:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T08:40:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/awesome-hebrew-fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/failover-internet-israel-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/greeninvoice-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

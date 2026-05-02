@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreact",
+      "target": "bearpaw/pytorch-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreact",
+      "target": "hri-uestc/cfm-hri-rgb-d-action-database",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:16:39.784797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Synthetic Humans for Action Recognition, IJCV 2021",
+    "fork": false,
+    "full_name": "gulvarol/surreact",
+    "html_url": "https://github.com/gulvarol/surreact",
+    "language": "Shell",
+    "pushed_at": "2021-06-09T10:50:54Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-02-18T14:50:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bearpaw/pytorch-pose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hri-uestc/cfm-hri-rgb-d-action-database",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

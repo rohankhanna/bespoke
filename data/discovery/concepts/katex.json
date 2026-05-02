@@ -31,6 +31,18 @@
       "source_repo": "JuliaDocs/Franklin.jl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWHL/ProcessLaTeXFormulaTools",
+      "status": "candidate-context",
+      "text": "Tools for processing LaTeX formulas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWHL/ProcessLaTeXFormulaTools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWHL/ProcessLaTeXFormulaTools",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "SWHL/ProcessLaTeXFormulaTools"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

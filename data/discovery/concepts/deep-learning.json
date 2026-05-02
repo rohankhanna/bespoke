@@ -6199,6 +6199,138 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate-context",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate-context",
+      "text": "Implementation of Dreamer v3 in pytorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate-context",
+      "text": "[CVPR 2021 - Official] Rigid Subset Mix (RSMix): Regularization Strategy for Point Cloud via Rigidly Mixed Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate-context",
+      "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "News: the 10k dataset is ready for download."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate-context",
+      "text": "TEED: Tiny and Efficient Edge Detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tiny-and-efficient-model-for-the-edge/edge-detection-on-uded)](https://paperswithcode.com/sota/edge-detection-on-uded?p=tiny-and-efficient-model-for-the-edge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "an implementation of softmax splatting for differentiable forward warping using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": " a reimplementation of PWC-Net in PyTorch that matches the official Caffe version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate-context",
+      "text": " a reimplementation of Optical Flow Estimation using a Spatial Pyramid Network in PyTorch "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of SPyNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/anuragranj/spynet#license\">licensing terms</a> of the authors. Should you be ma\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate-context",
+      "text": "12000+ manually drawn pixel-level lung segmentations, with and without covid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate-context",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_glosses": [
@@ -9303,6 +9435,72 @@
       "source_repo": "h2oai/awesome-h2o",
       "status": "candidate",
       "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate",
+      "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate",
+      "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tiny-and-efficient-model-for-the-edge/edge-detection-on-uded)](https://paperswithcode.com/sota/edge-detection-on-uded?p=tiny-and-efficient-model-for-the-edge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of SPyNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/anuragranj/spynet#license\">licensing terms</a> of the authors. Should you be ma\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v7labs/covid-19-xray-dataset",
+      "status": "candidate",
+      "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -13978,11 +14176,167 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "h2oai/awesome-h2o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "NM512/dreamerv3-torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "harskish/ganspace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "xavysp/TEED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/softmax-splatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-pwc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-spynet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "v7labs/covid-19-xray-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tensorpack/tensorpack"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
       "source_repo": "llvm/torch-mlir-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "earlephilhower/mklittlefs"
     }
   ]
 }

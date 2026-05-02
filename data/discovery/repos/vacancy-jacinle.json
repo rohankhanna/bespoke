@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vacancy/Jacinle",
+      "target": "vacancy/jacmldash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:25:08.102440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4270
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 726
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal python toolbox.",
+    "fork": false,
+    "full_name": "vacancy/Jacinle",
+    "html_url": "https://github.com/vacancy/Jacinle",
+    "language": "Python",
+    "pushed_at": "2025-09-29T19:42:18Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-22T16:28:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vacancy/jacmldash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

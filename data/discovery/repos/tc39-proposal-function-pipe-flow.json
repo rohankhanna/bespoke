@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "target": "js-choi/proposal-function-pipe-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "target": "stdlib-js/stdlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:55:03.475288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13268
+    },
+    {
+      "path": "package.json",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A proposal to standardize helper functions for serial function application and function composition.",
+    "fork": false,
+    "full_name": "tc39/proposal-function-pipe-flow",
+    "html_url": "https://github.com/tc39/proposal-function-pipe-flow",
+    "language": "HTML",
+    "pushed_at": "2022-08-20T23:20:31Z",
+    "stargazers_count": 54,
+    "topics": [
+      "functional-programming",
+      "javascript",
+      "proposal",
+      "tc39"
+    ],
+    "updated_at": "2026-03-27T03:30:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-function-pipe-flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdlib-js/stdlib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

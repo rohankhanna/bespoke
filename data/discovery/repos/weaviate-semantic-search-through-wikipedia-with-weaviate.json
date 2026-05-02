@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/semantic-search-through-wikipedia-with-weaviate",
+      "target": "semi-technologies/weaviate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:59:37.514967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Semantic search through a vectorized Wikipedia (SentenceBERT) with the Weaviate vector search engine",
+    "fork": false,
+    "full_name": "weaviate/semantic-search-through-wikipedia-with-weaviate",
+    "html_url": "https://github.com/weaviate/semantic-search-through-wikipedia-with-weaviate",
+    "language": "Python",
+    "pushed_at": "2023-05-31T17:25:22Z",
+    "stargazers_count": 245,
+    "topics": [],
+    "updated_at": "2026-04-05T07:18:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semi-technologies/weaviate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

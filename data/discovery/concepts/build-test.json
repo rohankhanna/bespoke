@@ -7,7 +7,8 @@
     "Build, Test",
     "Build&Test",
     "build & test",
-    "Build & test"
+    "Build & test",
+    "Build + Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -572,6 +573,18 @@
       "source_repo": "vuejs/composition-api",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/Microsoft",
+      "status": "candidate-context",
+      "text": "A Vale-compatible implementation of the Microsoft Writing Style Guide. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Microsoft",
+      "status": "candidate-context",
+      "text": "Build + Test"
     }
   ],
   "candidate_glosses": [
@@ -862,6 +875,12 @@
       "source_repo": "vuejs/composition-api",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Microsoft",
+      "status": "candidate",
+      "text": "Build + Test"
     }
   ],
   "candidate_related_terms": [
@@ -1541,11 +1560,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

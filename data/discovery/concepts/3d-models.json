@@ -91,6 +91,18 @@
       "source_repo": "TimoBolkart/FLAME-Universe",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "News: the 10k dataset is ready for download."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "TimoBolkart/FLAME-Universe",
       "status": "candidate",
       "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "TimoBolkart/FLAME-Universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

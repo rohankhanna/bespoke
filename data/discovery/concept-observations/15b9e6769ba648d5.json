@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face-pose",
+      "sense_id": "face-pose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "face-pose",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "face-pose",
+  "observation_id": "15b9e6769ba648d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "face-pose",
+  "source_context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+  "source_file": null,
+  "source_repo": "kwea123/VTuber_Unity",
+  "source_repo_description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+}

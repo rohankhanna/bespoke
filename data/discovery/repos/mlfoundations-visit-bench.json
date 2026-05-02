@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:24:04.531514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mlfoundations/VisIT-Bench",
+    "html_url": "https://github.com/mlfoundations/VisIT-Bench",
+    "language": "Python",
+    "pushed_at": "2023-10-29T09:43:35Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-03-11T08:12:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

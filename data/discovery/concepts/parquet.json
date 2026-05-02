@@ -151,6 +151,18 @@
       "source_repo": "hyparam/icebird",
       "status": "candidate-context",
       "text": "![Iceberg Icebird](icebird.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet-writer",
+      "status": "candidate-context",
+      "text": "Apache Parquet file writer in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-writer",
+      "status": "candidate-context",
+      "text": "![hyparquet writer parakeet](hyparquet-writer.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "hyparam/icebird",
       "status": "candidate",
       "text": "![Iceberg Icebird](icebird.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet-writer",
+      "status": "candidate",
+      "text": "![hyparquet writer parakeet](hyparquet-writer.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -354,11 +372,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "hyparam/icebird"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet-writer"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

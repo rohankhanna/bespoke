@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/OccWorld",
+      "target": "tsinghua-mars-lab/occ3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/OccWorld",
+      "target": "wzzheng/pointocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/OccWorld",
+      "target": "zhangyp15/occformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:25:14.820592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] 3D World Model for Autonomous Driving",
+    "fork": false,
+    "full_name": "wzzheng/OccWorld",
+    "html_url": "https://github.com/wzzheng/OccWorld",
+    "language": "Python",
+    "pushed_at": "2024-04-12T08:22:17Z",
+    "stargazers_count": 546,
+    "topics": [],
+    "updated_at": "2026-05-02T02:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghua-mars-lab/occ3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzzheng/pointocc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangyp15/occformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

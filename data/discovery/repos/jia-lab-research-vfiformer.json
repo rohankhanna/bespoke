@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/VFIformer",
-      "target": "sniklaus/pytorch-liteflownet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/VFIformer",
       "target": "dvlab-research/vfiformer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/VFIformer",
-      "target": "jia-research-lab/vfiformer",
       "target_type": "repository"
     },
     {
@@ -30,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T14:04:41.246670+00:00",
+  "fetched_at": "2026-05-02T07:23:03.741162+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -60,16 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "hzwer/arxiv2021-rife",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jia-research-lab/vfiformer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sniklaus/pytorch-liteflownet",
       "source_file": "README.md"
     }
   ],

@@ -79,6 +79,18 @@
       "source_repo": "falcoframework/Falco.Markup",
       "status": "candidate-context",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.Markup.svg)](https://www.nuget.org/packages/Falco.Markup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecomfe/zrender",
+      "status": "candidate-context",
+      "text": "A lightweight graphic library providing 2d draw for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/zrender",
+      "status": "candidate-context",
+      "text": "ZRender"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "falcoframework/Falco.Markup",
       "status": "candidate",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.Markup.svg)](https://www.nuget.org/packages/Falco.Markup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/zrender",
+      "status": "candidate",
+      "text": "ZRender"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ecomfe/zrender"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

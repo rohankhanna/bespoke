@@ -320,13 +320,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "jupyter/.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jupyter-server/jupyter_server",
@@ -551,7 +544,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:46:04.103816+00:00",
+  "fetched_at": "2026-05-02T06:53:08.080847+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -599,20 +592,15 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-01T12:16:21Z",
+    "pushed_at": "2026-05-01T16:40:04Z",
     "stargazers_count": 558,
     "topics": [
       "jupyter",
       "server"
     ],
-    "updated_at": "2026-05-01T11:57:03Z"
+    "updated_at": "2026-05-01T16:34:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter/.",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jupyter/jupyter_server",

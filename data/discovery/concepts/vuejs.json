@@ -115,6 +115,18 @@
       "source_repo": "appsignal/appsignal-javascript",
       "status": "candidate-context",
       "text": "- [AppSignal.com website][appsignal]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/babel-plugin-jsx",
+      "status": "candidate-context",
+      "text": "JSX for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/babel-plugin-jsx",
+      "status": "candidate-context",
+      "text": "[![npm package](https://img.shields.io/npm/v/@vue/babel-plugin-jsx.svg?style=flat-square)](https://www.npmjs.com/package/@vue/babel-plugin-jsx)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "appsignal/appsignal-javascript",
       "status": "candidate",
       "text": "- [AppSignal.com website][appsignal]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/babel-plugin-jsx",
+      "status": "candidate",
+      "text": "[![npm package](https://img.shields.io/npm/v/@vue/babel-plugin-jsx.svg?style=flat-square)](https://www.npmjs.com/package/@vue/babel-plugin-jsx)"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "appsignal/appsignal-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/babel-plugin-jsx"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

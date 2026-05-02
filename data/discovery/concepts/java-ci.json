@@ -277,6 +277,30 @@
       "source_repo": "HdrHistogram/HdrHistogram",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iceberg",
+      "status": "candidate-context",
+      "text": "Apache Iceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg",
+      "status": "candidate-context",
+      "text": "\"Java CI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-path/JsonPath",
+      "status": "candidate-context",
+      "text": "Java JsonPath implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-path/JsonPath",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -415,6 +439,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HdrHistogram/HdrHistogram",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iceberg",
+      "status": "candidate",
+      "text": "\"Java CI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-path/JsonPath",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -598,11 +634,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "HdrHistogram/HdrHistogram"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/java-ci.yml",
+      "source_repo": "apache/iceberg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "json-path/JsonPath"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Typo Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "Typo Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate",
+      "text": "Typo Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16316,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16217,
+      "status": "candidate",
+      "text": "err"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16217,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16217,
+      "status": "candidate",
+      "text": "goof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16217,
+      "status": "candidate",
+      "text": "misprint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Typo Check",
+  "concept_id": "typo-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/typo-check.yml",
+      "source_repo": "nutsdb/nutsdb"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typo Check",
+      "sense_id": "typo-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

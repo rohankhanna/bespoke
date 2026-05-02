@@ -115,6 +115,18 @@
       "source_repo": "amilajack/eslint-plugin-compat",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "que-etc/resize-observer-polyfill",
+      "status": "candidate-context",
+      "text": "A polyfill for the Resize Observer API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "que-etc/resize-observer-polyfill",
+      "status": "candidate-context",
+      "text": "ResizeObserver Polyfill"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "amilajack/eslint-plugin-compat",
       "status": "candidate",
       "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "que-etc/resize-observer-polyfill",
+      "status": "candidate",
+      "text": "ResizeObserver Polyfill"
     }
   ],
   "candidate_related_terms": [
@@ -358,11 +376,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "que-etc/resize-observer-polyfill"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

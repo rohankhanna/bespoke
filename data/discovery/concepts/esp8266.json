@@ -55,6 +55,30 @@
       "source_repo": "earlephilhower/bearssl-esp8266",
       "status": "candidate-context",
       "text": "The most up-to-date documentation is supposed to be available on the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "status": "candidate-context",
+      "text": "Free and open (as much as possible) integrated SDK for ESP8266/ESP8285 chips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "status": "candidate-context",
+      "text": "esp-open-sdk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate-context",
+      "text": "ESP8266 Projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate-context",
+      "text": "Stuff I do with this tiny wireless wonder"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "earlephilhower/bearssl-esp8266",
       "status": "candidate",
       "text": "The most up-to-date documentation is supposed to be available on the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "status": "candidate",
+      "text": "esp-open-sdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electronicsguy/ESP8266",
+      "status": "candidate",
+      "text": "Stuff I do with this tiny wireless wonder"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "earlephilhower/bearssl-esp8266"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "pfalcon/esp-open-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "electronicsguy/ESP8266"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

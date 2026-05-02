@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/mast3r",
+      "target": "jenicek/asmk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/mast3r",
+      "target": "naver/dune",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:25.251126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27586
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grounding Image Matching in 3D with MASt3R",
+    "fork": false,
+    "full_name": "naver/mast3r",
+    "html_url": "https://github.com/naver/mast3r",
+    "language": "Python",
+    "pushed_at": "2025-06-30T07:07:35Z",
+    "stargazers_count": 2882,
+    "topics": [],
+    "updated_at": "2026-05-02T04:45:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenicek/asmk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/dune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

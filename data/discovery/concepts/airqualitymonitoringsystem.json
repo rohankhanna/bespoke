@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "airqualitymonitoringsystem"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre is a community response to the need to know about air quality in a free, collaborative and decentralized way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate-context",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melizeche/AireLibre",
+      "status": "candidate",
+      "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "airqualitymonitoringsystem",
+  "concept_id": "airqualitymonitoringsystem",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "airqualitymonitoringsystem",
+      "sense_id": "airqualitymonitoringsystem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

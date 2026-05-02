@@ -199,6 +199,18 @@
       "source_repo": "ZhuoZhuoCrayon/throttled-py",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">throttled-py</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate-context",
+      "text": "QUIC and HTTP/3 implementation in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate-context",
+      "text": "aioquic"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "ZhuoZhuoCrayon/throttled-py",
       "status": "candidate",
       "text": "<h1 align=\"center\">throttled-py</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate",
+      "text": "aioquic"
     }
   ],
   "candidate_related_terms": [],
@@ -484,11 +502,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "aiortc/aioquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

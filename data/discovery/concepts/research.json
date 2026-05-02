@@ -211,6 +211,18 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/Q-Insight",
+      "status": "candidate-context",
+      "text": "Q-Insight Family: Q-Insight, VQ-Insight and RALI (NeurIPS 2025 Spotlight, AAAI 2026 Oral, and ICLR 2026 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Q-Insight",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +333,12 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Q-Insight",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -561,11 +579,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Epistimio/orion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/Q-Insight"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

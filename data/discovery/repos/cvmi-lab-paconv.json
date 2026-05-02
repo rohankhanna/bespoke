@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/PAConv",
+      "target": "hszhao/pointweb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:18:35.825849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2021) PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds",
+    "fork": false,
+    "full_name": "CVMI-Lab/PAConv",
+    "html_url": "https://github.com/CVMI-Lab/PAConv",
+    "language": "Python",
+    "pushed_at": "2023-12-25T06:22:02Z",
+    "stargazers_count": 304,
+    "topics": [],
+    "updated_at": "2026-04-18T15:22:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hszhao/pointweb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

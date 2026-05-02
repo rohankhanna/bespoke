@@ -181,7 +181,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-29T21:00:25.245611+00:00",
+  "fetched_at": "2026-05-02T07:06:01.910565+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -189,7 +189,7 @@
     },
     {
       "path": "package.json",
-      "size": 1712
+      "size": 1718
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -205,10 +205,10 @@
     "full_name": "acornjs/acorn",
     "html_url": "https://github.com/acornjs/acorn",
     "language": "JavaScript",
-    "pushed_at": "2026-04-08T13:52:20Z",
-    "stargazers_count": 11375,
+    "pushed_at": "2026-04-30T21:08:48Z",
+    "stargazers_count": 11376,
     "topics": [],
-    "updated_at": "2026-04-29T04:36:21Z"
+    "updated_at": "2026-04-30T21:09:07Z"
   },
   "repo_links": [],
   "terms": []

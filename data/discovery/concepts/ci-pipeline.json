@@ -81,6 +81,18 @@
       "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
       "status": "candidate-context",
       "text": "\ud83e\udd16 CI Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "NVIDIA device plugin for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
       "status": "candidate",
       "text": "\ud83e\udd16 CI Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "NVIDIA/k8s-device-plugin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

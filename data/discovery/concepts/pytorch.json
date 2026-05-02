@@ -6055,6 +6055,234 @@
       "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
       "status": "candidate-context",
       "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate-context",
+      "text": "Implementation of Dreamer v3 in pytorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate-context",
+      "text": "Quick scripts to calculate CLIP text-image similarity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "Code and weights for local  feature affine shape estimation paper \"Repeatability Is Not Enough: Learning Discriminative Affine Regions via Discriminability\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate-context",
+      "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate-context",
+      "text": "MVSNet: Depth Inference for Unstructured Multi-view Stereo using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate-context",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate-context",
+      "text": "Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.11139)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "status": "candidate-context",
+      "text": "DCNv2 supports decent pytorch such as torch 1.5+ (now 1.8+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "status": "candidate-context",
+      "text": "- Add support for pytorch1.11 (may be not backward-compatible)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2019, Spotlight] Point-Voxel CNN for Efficient 3D Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate-context",
+      "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": "Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate-context",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "A PyTorch Library for Accelerating 3D Deep Learning Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of openpose including Hand and Body Pose Estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate-context",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "News: the 10k dataset is ready for download."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate-context",
+      "text": "TEED: Tiny and Efficient Edge Detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tiny-and-efficient-model-for-the-edge/edge-detection-on-uded)](https://paperswithcode.com/sota/edge-detection-on-uded?p=tiny-and-efficient-model-for-the-edge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "an implementation of softmax splatting for differentiable forward warping using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": " a reimplementation of PWC-Net in PyTorch that matches the official Caffe version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate-context",
+      "text": " a reimplementation of Optical Flow Estimation using a Spatial Pyramid Network in PyTorch "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of SPyNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/anuragranj/spynet#license\">licensing terms</a> of the authors. Should you be ma\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": " a reimplementation of UnFlow in PyTorch that matches the official TensorFlow version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation, CVPR 2018 (Spotlight paper, 6.6%)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -9081,6 +9309,120 @@
       "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
       "status": "candidate",
       "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NM512/dreamerv3-torch",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taited/clip-score",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/clip-score.svg)](https://pypi.org/project/clip-score/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ducha-aiki/affnet",
+      "status": "candidate",
+      "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/MVSNet_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/VTuber_Unity",
+      "status": "candidate",
+      "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yifanzhang713/IA-SSD",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.11139)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasjinreal/DCNv2_latest",
+      "status": "candidate",
+      "text": "- Add support for pytorch1.11 (may be not backward-compatible)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/pvcnn",
+      "status": "candidate",
+      "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jalammar/ecco",
+      "status": "candidate",
+      "text": ".. image:: https://ar.pegg.io/img/ecco-logo-w-800.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIAGameWorks/kaolin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hzzone/pytorch-openpose",
+      "status": "candidate",
+      "text": "pytorch implementation of [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) including **Body and Hand Pose Estimation**, and the pytorch model is directly converted from [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) caffemodel by [caffem\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xavysp/TEED",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tiny-and-efficient-model-for-the-edge/edge-detection-on-uded)](https://paperswithcode.com/sota/edge-detection-on-uded?p=tiny-and-efficient-model-for-the-edge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-spynet",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of SPyNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/anuragranj/spynet#license\">licensing terms</a> of the authors. Should you be ma\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -13750,11 +14092,215 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "NM512/dreamerv3-torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Taited/clip-score"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ducha-aiki/affnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/MVSNet_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "yifanzhang713/IA-SSD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "lucasjinreal/DCNv2_latest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/pvcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jalammar/ecco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "harskish/ganspace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Hzzone/pytorch-openpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "xavysp/TEED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/softmax-splatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-pwc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-spynet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

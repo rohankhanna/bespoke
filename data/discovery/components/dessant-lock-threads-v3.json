@@ -1,12 +1,17 @@
 {
   "component": "dessant/lock-threads@v3",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale-lock.yml",
       "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-lock.yml",
+      "source_repo": "tc39/proposal-call-this"
     }
   ]
 }

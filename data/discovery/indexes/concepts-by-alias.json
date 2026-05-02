@@ -5,6 +5,9 @@
   "12-factor-app": [
     "12-factor-app"
   ],
+  "12factorapp": [
+    "12factorapp"
+  ],
   "2048-ai": [
     "2048-ai"
   ],
@@ -58,6 +61,9 @@
   ],
   "3d-data": [
     "3d-data"
+  ],
+  "3d-deep-learning": [
+    "3d-deep-learning"
   ],
   "3d-detection": [
     "3d-detection"
@@ -211,6 +217,9 @@
   ],
   "3dmm": [
     "3dmm"
+  ],
+  "3dpointcloud": [
+    "3dpointcloud"
   ],
   "3dvision": [
     "3dvision"
@@ -1067,6 +1076,9 @@
   "advisories": [
     "advisories"
   ],
+  "adwaita": [
+    "adwaita"
+  ],
   "aead": [
     "aead"
   ],
@@ -1126,6 +1138,9 @@
   ],
   "aff review process reminder": [
     "aff-review-process-reminder"
+  ],
+  "affine-shape-estimator": [
+    "affine-shape-estimator"
   ],
   "affinity-matrix": [
     "affinity-matrix"
@@ -1701,6 +1716,9 @@
   "ai-ocr": [
     "ai-ocr"
   ],
+  "ai-optimization": [
+    "ai-optimization"
+  ],
   "ai-orchestration": [
     "ai-orchestration"
   ],
@@ -1887,6 +1905,12 @@
   "aipc": [
     "aipc"
   ],
+  "air-quality": [
+    "air-quality"
+  ],
+  "air-quality-data": [
+    "air-quality-data"
+  ],
   "aircontrol2": [
     "aircontrol2"
   ],
@@ -1907,6 +1931,15 @@
   ],
   "airos": [
     "airos"
+  ],
+  "airquality": [
+    "airquality"
+  ],
+  "airquality-sensor": [
+    "airquality-sensor"
+  ],
+  "airqualitymonitoringsystem": [
+    "airqualitymonitoringsystem"
   ],
   "airsonic": [
     "airsonic"
@@ -2821,6 +2854,9 @@
   "anti-tracking": [
     "anti-tracking"
   ],
+  "antialiasing": [
+    "antialiasing"
+  ],
   "antigen": [
     "antigen"
   ],
@@ -2959,6 +2995,9 @@
   ],
   "api baseline generation": [
     "api-baseline-generation"
+  ],
+  "api binary compatibility checks": [
+    "api-binary-compatibility-checks"
   ],
   "api changes check": [
     "api-changes-check"
@@ -3163,6 +3202,9 @@
   ],
   "app tests": [
     "app-tests"
+  ],
+  "app-config": [
+    "app-config"
   ],
   "app-design-center-ci": [
     "app-design-center-ci"
@@ -5427,6 +5469,9 @@
   "automerge-nightly-pr": [
     "automerge-nightly-pr"
   ],
+  "automerge-pre-commit-ci": [
+    "automerge-pre-commit-ci"
+  ],
   "automl": [
     "automl"
   ],
@@ -7550,6 +7595,9 @@
   "bipartite-graphs": [
     "bipartite-graphs"
   ],
+  "biped": [
+    "biped"
+  ],
   "birds-eye-view": [
     "birds-eye-view"
   ],
@@ -8572,6 +8620,9 @@
   "bsdf": [
     "bsdf"
   ],
+  "bsds500": [
+    "bsds500"
+  ],
   "bson": [
     "bson"
   ],
@@ -8830,6 +8881,9 @@
   "build + deploy on development branches": [
     "build-deploy-on-development-branches"
   ],
+  "build + test": [
+    "build-test"
+  ],
   "build - all platforms": [
     "build---all-platforms"
   ],
@@ -8922,6 +8976,9 @@
   ],
   "build and commit documentation": [
     "build-and-commit-documentation"
+  ],
+  "build and coverage": [
+    "build-and-coverage"
   ],
   "build and cross-compile": [
     "build-and-cross-compile"
@@ -9966,6 +10023,9 @@
   ],
   "build dist tarballs": [
     "build-dist-tarballs"
+  ],
+  "build distribution": [
+    "build-distribution"
   ],
   "build distribution images": [
     "build-distribution-images"
@@ -12371,6 +12431,9 @@
   "c++ windows msvc reusable": [
     "c-windows-msvc-reusable"
   ],
+  "c-bindings": [
+    "c-bindings"
+  ],
   "c-extension": [
     "c-extension"
   ],
@@ -13153,6 +13216,9 @@
   ],
   "censorship-circumvention": [
     "censorship-circumvention"
+  ],
+  "centernet": [
+    "centernet"
   ],
   "centerpoint": [
     "centerpoint"
@@ -14878,6 +14944,9 @@
   ],
   "chest-radiographs": [
     "chest-radiographs"
+  ],
+  "chest-x-ray": [
+    "chest-x-ray"
   ],
   "chest-xray": [
     "chest-xray"
@@ -16904,6 +16973,9 @@
   "clip-retrival": [
     "clip-retrival"
   ],
+  "clip-score": [
+    "clip-score"
+  ],
   "clipboard": [
     "clipboard"
   ],
@@ -17606,6 +17678,9 @@
   "cnn-model": [
     "cnn-model"
   ],
+  "cnns": [
+    "cnns"
+  ],
   "cntk": [
     "cntk"
   ],
@@ -17998,6 +18073,9 @@
   ],
   "code-visualization": [
     "code-visualization"
+  ],
+  "code4cleanair": [
+    "code4cleanair"
   ],
   "codebase": [
     "codebase"
@@ -19169,6 +19247,9 @@
   "compositor": [
     "compositor"
   ],
+  "compound-systems": [
+    "compound-systems"
+  ],
   "comprehensive ci": [
     "comprehensive-ci"
   ],
@@ -20132,6 +20213,9 @@
   "convert-js": [
     "convert-js"
   ],
+  "convert-to-onnx": [
+    "convert-to-onnx"
+  ],
   "convert-videos": [
     "convert-videos"
   ],
@@ -20419,6 +20503,9 @@
   ],
   "corretto ci": [
     "corretto-ci"
+  ],
+  "corruption": [
+    "corruption"
   ],
   "cose": [
     "cose"
@@ -22829,6 +22916,9 @@
   "dcgan": [
     "dcgan"
   ],
+  "dcnv2": [
+    "dcnv2"
+  ],
   "dco": [
     "dco"
   ],
@@ -23030,6 +23120,9 @@
   "declarative": [
     "declarative"
   ],
+  "declarative-conditionals": [
+    "declarative-conditionals"
+  ],
   "declarative-config": [
     "declarative-config"
   ],
@@ -23108,6 +23201,9 @@
   "deep-io": [
     "deep-io"
   ],
+  "deep-learing": [
+    "deep-learing"
+  ],
   "deep-learning": [
     "deep-learning"
   ],
@@ -23143,6 +23239,12 @@
   ],
   "deep-residual-learning": [
     "deep-residual-learning"
+  ],
+  "deep-stereo": [
+    "deep-stereo"
+  ],
+  "deep-stereo-network": [
+    "deep-stereo-network"
   ],
   "deep-transformer": [
     "deep-transformer"
@@ -23428,6 +23530,9 @@
   ],
   "delta": [
     "delta"
+  ],
+  "delta conversion ci": [
+    "delta-conversion-ci"
   ],
   "delta-lake": [
     "delta-lake"
@@ -23896,6 +24001,9 @@
   ],
   "deploy github pages": [
     "deploy-github-pages"
+  ],
+  "deploy helm charts to github pages": [
+    "deploy-helm-charts-to-github-pages"
   ],
   "deploy hitl": [
     "deploy-hitl"
@@ -24911,6 +25019,9 @@
   "differentiable-binarization": [
     "differentiable-binarization"
   ],
+  "differentiable-lighting": [
+    "differentiable-lighting"
+  ],
   "differentiable-programming": [
     "differentiable-programming"
   ],
@@ -25412,8 +25523,14 @@
   "django multitenant tests": [
     "django-multitenant-tests"
   ],
+  "django-configuration": [
+    "django-configuration"
+  ],
   "django-cookiecutter": [
     "django-cookiecutter"
+  ],
+  "django-extension": [
+    "django-extension"
   ],
   "django-ninja": [
     "django-ninja"
@@ -25453,6 +25570,9 @@
   ],
   "dlang": [
     "dlang"
+  ],
+  "dlib": [
+    "dlib"
   ],
   "dlrm": [
     "dlrm"
@@ -26062,6 +26182,9 @@
   ],
   "docs build check": [
     "docs-build-check"
+  ],
+  "docs build ci": [
+    "docs-build-ci"
   ],
   "docs check": [
     "docs-check"
@@ -26942,6 +27065,9 @@
   "dvgo": [
     "dvgo"
   ],
+  "dwarf": [
+    "dwarf"
+  ],
   "dweb": [
     "dweb"
   ],
@@ -26962,6 +27088,9 @@
   ],
   "dxvk": [
     "dxvk"
+  ],
+  "dynaconf": [
+    "dynaconf"
   ],
   "dynamic": [
     "dynamic"
@@ -27520,6 +27649,9 @@
   "edge-computing": [
     "edge-computing"
   ],
+  "edge-detection": [
+    "edge-detection"
+  ],
   "edge-engine": [
     "edge-engine"
   ],
@@ -27803,6 +27935,12 @@
   ],
   "elf": [
     "elf"
+  ],
+  "elf-binaries": [
+    "elf-binaries"
+  ],
+  "elf-parser": [
+    "elf-parser"
   ],
   "elf-riscv32": [
     "elf-riscv32"
@@ -28423,6 +28561,9 @@
   "environment tests": [
     "environment-tests"
   ],
+  "environment-configuration": [
+    "environment-configuration"
+  ],
   "environment-variables": [
     "environment-variables"
   ],
@@ -28934,6 +29075,12 @@
   "evolutionary-algorithms": [
     "evolutionary-algorithms"
   ],
+  "evolutionary-computation": [
+    "evolutionary-computation"
+  ],
+  "evolve": [
+    "evolve"
+  ],
   "ewasm": [
     "ewasm"
   ],
@@ -29155,6 +29302,9 @@
   ],
   "exploit": [
     "exploit"
+  ],
+  "explorables": [
+    "explorables"
   ],
   "exploration": [
     "exploration"
@@ -30367,6 +30517,9 @@
   "firecracker": [
     "firecracker"
   ],
+  "firecracker-vm": [
+    "firecracker-vm"
+  ],
   "firefly": [
     "firefly"
   ],
@@ -30610,6 +30763,12 @@
   "flask": [
     "flask"
   ],
+  "flask-configuration": [
+    "flask-configuration"
+  ],
+  "flask-extension": [
+    "flask-extension"
+  ],
   "flask-sqlalchemy": [
     "flask-sqlalchemy"
   ],
@@ -30666,6 +30825,9 @@
   ],
   "flink": [
     "flink"
+  ],
+  "flink ci": [
+    "flink-ci"
   ],
   "flink connector pulsar ci": [
     "flink-connector-pulsar-ci"
@@ -30741,6 +30903,9 @@
   ],
   "flownet": [
     "flownet"
+  ],
+  "flowtype": [
+    "flowtype"
   ],
   "fluent": [
     "fluent"
@@ -31301,6 +31466,9 @@
   "free-pascal": [
     "free-pascal"
   ],
+  "free-software": [
+    "free-software"
+  ],
   "freebsd": [
     "freebsd"
   ],
@@ -31420,6 +31588,12 @@
   ],
   "frp-server-manager": [
     "frp-server-manager"
+  ],
+  "frustum-pointnet": [
+    "frustum-pointnet"
+  ],
+  "frustum-pointnets": [
+    "frustum-pointnets"
   ],
   "fsb": [
     "fsb"
@@ -34094,6 +34268,9 @@
   "gosu-image": [
     "gosu-image"
   ],
+  "gotify": [
+    "gotify"
+  ],
   "gotty": [
     "gotty"
   ],
@@ -34963,6 +35140,12 @@
   ],
   "gui-framework": [
     "gui-framework"
+  ],
+  "gui-frontend": [
+    "gui-frontend"
+  ],
+  "gui-frontend-framework": [
+    "gui-frontend-framework"
   ],
   "gui-operator": [
     "gui-operator"
@@ -35927,6 +36110,9 @@
   "hive": [
     "hive"
   ],
+  "hive ci": [
+    "hive-ci"
+  ],
   "hive consume": [
     "hive-consume"
   ],
@@ -36362,6 +36548,9 @@
   "https-client": [
     "https-client"
   ],
+  "httpsredirect": [
+    "httpsredirect"
+  ],
   "httpurlresponse": [
     "httpurlresponse"
   ],
@@ -36710,6 +36899,9 @@
   "i686-w64-mingw32": [
     "i686-w64-mingw32"
   ],
+  "ia-ssd": [
+    "ia-ssd"
+  ],
   "iac-security": [
     "iac-security"
   ],
@@ -36826,6 +37018,9 @@
   ],
   "icml": [
     "icml"
+  ],
+  "icml-2019": [
+    "icml-2019"
   ],
   "icml-2020": [
     "icml-2020"
@@ -37223,6 +37418,9 @@
   "image-quality": [
     "image-quality"
   ],
+  "image-quality-assesment": [
+    "image-quality-assesment"
+  ],
   "image-quality-assessment": [
     "image-quality-assessment"
   ],
@@ -37426,6 +37624,9 @@
   ],
   "imgui-filebrowser": [
     "imgui-filebrowser"
+  ],
+  "imgui-wrapper": [
+    "imgui-wrapper"
   ],
   "imguizmo": [
     "imguizmo"
@@ -38909,6 +39110,12 @@
   "iterable": [
     "iterable"
   ],
+  "iterative-methods": [
+    "iterative-methods"
+  ],
+  "iterative-refinement": [
+    "iterative-refinement"
+  ],
   "iterator": [
     "iterator"
   ],
@@ -39374,6 +39581,9 @@
   "jittor": [
     "jittor"
   ],
+  "jmh benchmarks": [
+    "jmh-benchmarks"
+  ],
   "job messages \u2699\ufe0f": [
     "job-messages"
   ],
@@ -39673,6 +39883,9 @@
   ],
   "julia-multithreading": [
     "julia-multithreading"
+  ],
+  "julia-package": [
+    "julia-package"
   ],
   "juliaformatter": [
     "juliaformatter"
@@ -40712,6 +40925,9 @@
   "kv-cache": [
     "kv-cache"
   ],
+  "kv-store": [
+    "kv-store"
+  ],
   "kvcache": [
     "kvcache"
   ],
@@ -41724,6 +41940,9 @@
   "libcurl": [
     "libcurl"
   ],
+  "libdefs": [
+    "libdefs"
+  ],
   "libffi": [
     "libffi"
   ],
@@ -42047,6 +42266,9 @@
   ],
   "lightweight": [
     "lightweight"
+  ],
+  "lightweight-framework": [
+    "lightweight-framework"
   ],
   "lightweight-image-super-resolution": [
     "lightweight-image-super-resolution"
@@ -42744,6 +42966,9 @@
   "lite-xl": [
     "lite-xl"
   ],
+  "liteflownet": [
+    "liteflownet"
+  ],
   "litellm": [
     "litellm"
   ],
@@ -42939,6 +43164,9 @@
   ],
   "llm-cpu": [
     "llm-cpu"
+  ],
+  "llm-ensemble": [
+    "llm-ensemble"
   ],
   "llm-eval": [
     "llm-eval"
@@ -43509,6 +43737,9 @@
   ],
   "loongarch64-ci": [
     "loongarch64-ci"
+  ],
+  "loongflow": [
+    "loongflow"
   ],
   "loop-closure-detection": [
     "loop-closure-detection"
@@ -44828,6 +45059,9 @@
   "match": [
     "match"
   ],
+  "match-when": [
+    "match-when"
+  ],
   "matcher": [
     "matcher"
   ],
@@ -45158,6 +45392,9 @@
   "mechanics": [
     "mechanics"
   ],
+  "medaka": [
+    "medaka"
+  ],
   "medama": [
     "medama"
   ],
@@ -45205,6 +45442,9 @@
   ],
   "medical-image-analysis": [
     "medical-image-analysis"
+  ],
+  "medical-image-dataset": [
+    "medical-image-dataset"
   ],
   "medical-image-processing": [
     "medical-image-processing"
@@ -45416,6 +45656,9 @@
   "merge queue failure handler": [
     "merge-queue-failure-handler"
   ],
+  "merge queue tests": [
+    "merge-queue-tests"
+  ],
   "merge release pull request": [
     "merge-release-pull-request"
   ],
@@ -45601,6 +45844,9 @@
   ],
   "meteor": [
     "meteor"
+  ],
+  "meteorology": [
+    "meteorology"
   ],
   "meter": [
     "meter"
@@ -46687,6 +46933,9 @@
   ],
   "modelnet": [
     "modelnet"
+  ],
+  "modelnet40": [
+    "modelnet40"
   ],
   "models": [
     "models"
@@ -47936,6 +48185,9 @@
   ],
   "nanoflann": [
     "nanoflann"
+  ],
+  "nanopore": [
+    "nanopore"
   ],
   "nanoservices": [
     "nanoservices"
@@ -49876,6 +50128,9 @@
   "nushell": [
     "nushell"
   ],
+  "nutsdb": [
+    "nutsdb"
+  ],
   "nuxt": [
     "nuxt"
   ],
@@ -50029,6 +50284,9 @@
   "nydus": [
     "nydus"
   ],
+  "nyudv2": [
+    "nyudv2"
+  ],
   "oasv3": [
     "oasv3"
   ],
@@ -50082,6 +50340,9 @@
   ],
   "object-oriented-metrics": [
     "object-oriented-metrics"
+  ],
+  "object-oriented-programming": [
+    "object-oriented-programming"
   ],
   "object-pascal": [
     "object-pascal"
@@ -50188,8 +50449,14 @@
   "ocaps": [
     "ocaps"
   ],
+  "occupancy": [
+    "occupancy"
+  ],
   "occupancy-detection": [
     "occupancy-detection"
+  ],
+  "occupancy-prediction": [
+    "occupancy-prediction"
   ],
   "oceanbase": [
     "oceanbase"
@@ -50935,6 +51202,9 @@
   "openai-whisper": [
     "openai-whisper"
   ],
+  "openair": [
+    "openair"
+  ],
   "openal": [
     "openal"
   ],
@@ -51051,6 +51321,9 @@
   ],
   "opendata": [
     "opendata"
+  ],
+  "openevolve-alternative": [
+    "openevolve-alternative"
   ],
   "openexr": [
     "openexr"
@@ -53089,6 +53362,9 @@
   "phonetics": [
     "phonetics"
   ],
+  "photo-editing": [
+    "photo-editing"
+  ],
   "photogrammetry": [
     "photogrammetry"
   ],
@@ -53716,6 +53992,9 @@
   "pmml-spark-transformer": [
     "pmml-spark-transformer"
   ],
+  "pneumonia": [
+    "pneumonia"
+  ],
   "png-decoder": [
     "png-decoder"
   ],
@@ -53799,6 +54078,9 @@
   ],
   "point-tracking": [
     "point-tracking"
+  ],
+  "point-voxel-cnn": [
+    "point-voxel-cnn"
   ],
   "pointcloud": [
     "pointcloud"
@@ -55807,6 +56089,9 @@
   "prompt-management": [
     "prompt-management"
   ],
+  "prompt-optimization": [
+    "prompt-optimization"
+  ],
   "prompt-templates": [
     "prompt-templates"
   ],
@@ -56055,6 +56340,9 @@
   ],
   "prune": [
     "prune"
+  ],
+  "prune temporary docker images": [
+    "prune-temporary-docker-images"
   ],
   "pruning": [
     "pruning"
@@ -57535,6 +57823,9 @@
   "pv-rcnn": [
     "pv-rcnn"
   ],
+  "pvcnn": [
+    "pvcnn"
+  ],
   "pvtv2": [
     "pvtv2"
   ],
@@ -57609,6 +57900,9 @@
   ],
   "pydata": [
     "pydata"
+  ],
+  "pyelftools-tests": [
+    "pyelftools-tests"
   ],
   "pyenv": [
     "pyenv"
@@ -59347,6 +59641,9 @@
   "red-alert": [
     "red-alert"
   ],
+  "red-alerts": [
+    "red-alerts"
+  ],
   "red-team": [
     "red-team"
   ],
@@ -59688,6 +59985,9 @@
   ],
   "regular-expressions": [
     "regular-expressions"
+  ],
+  "regularization": [
+    "regularization"
   ],
   "rehype": [
     "rehype"
@@ -61333,8 +61633,14 @@
   "resize": [
     "resize"
   ],
+  "resize-events": [
+    "resize-events"
+  ],
   "resize-images": [
     "resize-images"
+  ],
+  "resize-observer": [
+    "resize-observer"
   ],
   "resnest": [
     "resnest"
@@ -62755,6 +63061,9 @@
   "run conda-lock to update dependencies": [
     "run-conda-lock-to-update-dependencies"
   ],
+  "run conditional ble feature compilation": [
+    "run-conditional-ble-feature-compilation"
+  ],
   "run container and execute tests": [
     "run-container-and-execute-tests"
   ],
@@ -63438,6 +63747,9 @@
   ],
   "safety": [
     "safety"
+  ],
+  "safety action ci": [
+    "safety-action-ci"
   ],
   "safety vulnerability scan": [
     "safety-vulnerability-scan"
@@ -64465,6 +64777,9 @@
   "seeds": [
     "seeds"
   ],
+  "seesr": [
+    "seesr"
+  ],
   "segformer": [
     "segformer"
   ],
@@ -64596,6 +64911,9 @@
   ],
   "self-hosted-actions": [
     "self-hosted-actions"
+  ],
+  "self-hosting": [
+    "self-hosting"
   ],
   "self-hosting docker compose tests": [
     "self-hosting-docker-compose-tests"
@@ -64809,6 +65127,9 @@
   ],
   "sense-making": [
     "sense-making"
+  ],
+  "sensor": [
+    "sensor"
   ],
   "sensor-fusion": [
     "sensor-fusion"
@@ -65235,6 +65556,9 @@
   "shape-bias": [
     "shape-bias"
   ],
+  "shape-classification": [
+    "shape-classification"
+  ],
   "shape-detection": [
     "shape-detection"
   ],
@@ -65330,6 +65654,12 @@
   ],
   "shields": [
     "shields"
+  ],
+  "shift-equivariant": [
+    "shift-equivariant"
+  ],
+  "shift-invariant": [
+    "shift-invariant"
   ],
   "shift-left": [
     "shift-left"
@@ -65460,6 +65790,9 @@
   "siggraph-asia-2023": [
     "siggraph-asia-2023"
   ],
+  "siggraph2021": [
+    "siggraph2021"
+  ],
   "sign": [
     "sign"
   ],
@@ -65540,6 +65873,9 @@
   ],
   "sim-to-real": [
     "sim-to-real"
+  ],
+  "sim2real": [
+    "sim2real"
   ],
   "simclr": [
     "simclr"
@@ -66605,6 +66941,9 @@
   ],
   "sorting-imports": [
     "sorting-imports"
+  ],
+  "sota": [
+    "sota"
   ],
   "souin-instance": [
     "souin-instance"
@@ -68121,6 +68460,9 @@
   "stereo": [
     "stereo"
   ],
+  "stereo-dataset": [
+    "stereo-dataset"
+  ],
   "stereo-matching": [
     "stereo-matching"
   ],
@@ -68538,6 +68880,9 @@
   "stylegan-encoder": [
     "stylegan-encoder"
   ],
+  "stylegan-image-manipulation": [
+    "stylegan-image-manipulation"
+  ],
   "stylegan2": [
     "stylegan2"
   ],
@@ -68852,6 +69197,9 @@
   ],
   "supported": [
     "supported"
+  ],
+  "supports-transactions": [
+    "supports-transactions"
   ],
   "surface": [
     "surface"
@@ -69179,6 +69527,9 @@
   ],
   "switch": [
     "switch"
+  ],
+  "switch-case": [
+    "switch-case"
   ],
   "swoole": [
     "swoole"
@@ -69671,6 +70022,12 @@
   ],
   "table-of-contents-generator": [
     "table-of-contents-generator"
+  ],
+  "table-pretraining": [
+    "table-pretraining"
+  ],
+  "table-qa": [
+    "table-qa"
   ],
   "table-recognition": [
     "table-recognition"
@@ -70581,6 +70938,9 @@
   "test arm7": [
     "test-arm7"
   ],
+  "test autodocstring": [
+    "test-autodocstring"
+  ],
   "test azd deployment": [
     "test-azd-deployment"
   ],
@@ -70628,6 +70988,9 @@
   ],
   "test build release": [
     "test-build-release"
+  ],
+  "test building greentea tests with cmake": [
+    "test-building-greentea-tests-with-cmake"
   ],
   "test building static binaries": [
     "test-building-static-binaries"
@@ -72054,6 +72417,9 @@
   "textual-formats": [
     "textual-formats"
   ],
+  "textual-gradients": [
+    "textual-gradients"
+  ],
   "textual-inversion": [
     "textual-inversion"
   ],
@@ -73064,6 +73430,9 @@
   "transfer-learning": [
     "transfer-learning"
   ],
+  "transferable-attacks": [
+    "transferable-attacks"
+  ],
   "transferlab": [
     "transferlab"
   ],
@@ -73733,6 +74102,9 @@
   "tweet-release": [
     "tweet-release"
   ],
+  "twelve-factor": [
+    "twelve-factor"
+  ],
   "twemoji": [
     "twemoji"
   ],
@@ -73991,6 +74363,9 @@
   "typo": [
     "typo"
   ],
+  "typo check": [
+    "typo-check"
+  ],
   "typography": [
     "typography"
   ],
@@ -74137,6 +74512,9 @@
   ],
   "uccl build & test (l4)": [
     "uccl-build-test-l4"
+  ],
+  "uded": [
+    "uded"
   ],
   "udp-client": [
     "udp-client"
@@ -74569,6 +74947,9 @@
   ],
   "unity-catalog": [
     "unity-catalog"
+  ],
+  "unity-chan": [
+    "unity-chan"
   ],
   "unity3d": [
     "unity3d"
@@ -76040,6 +76421,15 @@
   ],
   "vagrant": [
     "vagrant"
+  ],
+  "vale": [
+    "vale"
+  ],
+  "vale-linter-style": [
+    "vale-linter-style"
+  ],
+  "vale-style": [
+    "vale-style"
   ],
   "valence": [
     "valence"
@@ -77816,6 +78206,9 @@
   ],
   "vue-components": [
     "vue-components"
+  ],
+  "vue-echarts": [
+    "vue-echarts"
   ],
   "vue-i18n": [
     "vue-i18n"
@@ -79636,6 +80029,12 @@
   "x-prompt": [
     "x-prompt"
   ],
+  "x-ray": [
+    "x-ray"
+  ],
+  "x-ray-images": [
+    "x-ray-images"
+  ],
   "x25519": [
     "x25519"
   ],
@@ -79908,6 +80307,9 @@
   ],
   "xss-filter": [
     "xss-filter"
+  ],
+  "xtensa": [
+    "xtensa"
   ],
   "xterm": [
     "xterm"

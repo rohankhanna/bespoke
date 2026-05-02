@@ -1,0 +1,207 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "kwea123/openvtuberproject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "yinguobing/head-pose-estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "antoinelame/gazetracking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "davisking/dlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "dlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "face-landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "face-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "gaze-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "unity-chan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/VTuber_Unity",
+      "target": "vtuber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:17:48.999526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+    "fork": false,
+    "full_name": "kwea123/VTuber_Unity",
+    "html_url": "https://github.com/kwea123/VTuber_Unity",
+    "language": "Python",
+    "pushed_at": "2021-09-01T05:43:31Z",
+    "stargazers_count": 807,
+    "topics": [
+      "dlib",
+      "face-detection",
+      "face-landmark-detection",
+      "face-pose",
+      "gaze-estimation",
+      "python",
+      "pytorch",
+      "unity",
+      "unity-chan",
+      "vrm",
+      "vtuber"
+    ],
+    "updated_at": "2026-05-01T18:40:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoinelame/gazetracking",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisking/dlib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/openvtuberproject",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yinguobing/head-pose-estimation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlib"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-landmark-detection"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-pose"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaze-estimation"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-chan"
+    },
+    {
+      "context_snippet": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtuber"
+    }
+  ]
+}

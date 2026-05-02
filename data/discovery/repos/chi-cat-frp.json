@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T06:56:04.282544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26408
+    },
+    {
+      "path": "go.mod",
+      "size": 1749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+    "fork": true,
+    "full_name": "chi-cat/frp",
+    "html_url": "https://github.com/chi-cat/frp",
+    "language": null,
+    "pushed_at": "2022-06-25T10:56:26Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-07-28T08:29:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

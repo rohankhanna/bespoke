@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "jcmvbkbc/crosstool-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "jcmvbkbc/gcc-xtensa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "jcmvbkbc/newlib-xtensa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "micropython/micropython",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfalcon/esp-open-sdk",
+      "target": "xtensa",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:58:54.814757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Free and open (as much as possible) integrated SDK for ESP8266/ESP8285 chips",
+    "fork": false,
+    "full_name": "pfalcon/esp-open-sdk",
+    "html_url": "https://github.com/pfalcon/esp-open-sdk",
+    "language": "Makefile",
+    "pushed_at": "2022-01-12T01:11:42Z",
+    "stargazers_count": 1989,
+    "topics": [
+      "esp8266",
+      "xtensa"
+    ],
+    "updated_at": "2026-04-22T05:51:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcmvbkbc/crosstool-ng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcmvbkbc/gcc-xtensa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcmvbkbc/newlib-xtensa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micropython/micropython",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "esp-open-sdk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "esp-open-sdk",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtensa"
+    }
+  ]
+}

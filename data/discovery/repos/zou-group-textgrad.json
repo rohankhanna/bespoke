@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zou-group/textgrad",
+      "target": "conda-forge/textgrad-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zou-group/textgrad",
+      "target": "noahshinn/reflexion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml",
+      "source_repo": "zou-group/textgrad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_queue.yml",
+      "source_repo": "zou-group/textgrad",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_queue.yml",
+      "source_repo": "zou-group/textgrad",
+      "target": "Merge Queue Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zou-group/textgrad",
+      "target": "ai-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zou-group/textgrad",
+      "target": "compound-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zou-group/textgrad",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zou-group/textgrad",
+      "target": "prompt-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zou-group/textgrad",
+      "target": "textual-gradients",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:24:19.674856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19111
+    },
+    {
+      "path": "requirements.txt",
+      "size": 180
+    },
+    {
+      "path": ".github/workflows/merge_queue.yml",
+      "size": 1338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TextGrad: Automatic ''Differentiation'' via Text -- using large language models to backpropagate textual gradients. Published in Nature.",
+    "fork": false,
+    "full_name": "zou-group/textgrad",
+    "html_url": "https://github.com/zou-group/textgrad",
+    "language": "Python",
+    "pushed_at": "2025-07-25T14:30:39Z",
+    "stargazers_count": 3521,
+    "topics": [
+      "ai-optimization",
+      "compound-systems",
+      "large-language-models",
+      "prompt-optimization",
+      "textual-gradients"
+    ],
+    "updated_at": "2026-04-30T12:13:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/textgrad-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noahshinn/reflexion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Merge Queue Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_queue.yml",
+      "term": "Merge Queue Tests"
+    },
+    {
+      "context_snippet": "![Logo](assets/logo_full.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-optimization"
+    },
+    {
+      "context_snippet": "![Logo](assets/logo_full.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compound-systems"
+    },
+    {
+      "context_snippet": "![Logo](assets/logo_full.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![Logo](assets/logo_full.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-optimization"
+    },
+    {
+      "context_snippet": "![Logo](assets/logo_full.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textual-gradients"
+    }
+  ]
+}

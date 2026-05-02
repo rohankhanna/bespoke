@@ -91,6 +91,42 @@
       "source_repo": "sniklaus/pytorch-liteflownet",
       "status": "candidate-context",
       "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "an implementation of softmax splatting for differentiable forward warping using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate-context",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": " a reimplementation of PWC-Net in PyTorch that matches the official Caffe version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": " a reimplementation of UnFlow in PyTorch that matches the official TensorFlow version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "sniklaus/pytorch-liteflownet",
       "status": "candidate",
       "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/softmax-splatting",
+      "status": "candidate",
+      "text": "This is a reference implementation of the softmax splatting operator, which has been proposed in Softmax Splatting for Video Frame Interpolation [1], using PyTorch. Softmax splatting is a well-motivated approach for differentiable forward warping. It uses a translational invaria\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-pwc",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of PWC-Net [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/NVlabs/PWC-Net#license\">licensing terms</a> of the authors. Should you be maki\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-unflow",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of UnFlow [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/simonmeister/UnFlow/blob/master/LICENSE\">licensing terms</a> of the authors. Sh\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +274,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "sniklaus/pytorch-liteflownet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/softmax-splatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-pwc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-unflow"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

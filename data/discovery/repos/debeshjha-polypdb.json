@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:24:29.244562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PolypDB: A Curated Multi-Center Dataset for Development of AI Algorithms in Colonoscopy",
+    "fork": false,
+    "full_name": "DebeshJha/PolypDB",
+    "html_url": "https://github.com/DebeshJha/PolypDB",
+    "language": null,
+    "pushed_at": "2024-12-17T07:32:45Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-10-21T18:51:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

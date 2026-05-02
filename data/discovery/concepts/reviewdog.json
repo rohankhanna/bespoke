@@ -472,6 +472,18 @@
       "source_repo": "reviewdog/action-shfmt",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/reviewdog/action-shfmt/workflows/Test/badge.svg)](https://github.com/reviewdog/action-shfmt/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate-context",
+      "text": "reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -732,6 +744,12 @@
       "source_repo": "reviewdog/action-shfmt",
       "status": "candidate",
       "text": "[![Test](https://github.com/reviewdog/action-shfmt/workflows/Test/badge.svg)](https://github.com/reviewdog/action-shfmt/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nutsdb/nutsdb",
+      "status": "candidate",
+      "text": "reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -1315,11 +1333,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "nutsdb/nutsdb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

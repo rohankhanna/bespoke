@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "match-when"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shuckster/match-iz",
+      "status": "candidate-context",
+      "text": "A tiny pattern-matching library in the style of the TC39 proposal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuckster/match-iz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><code>match-iz</code> \ud83d\udd25</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shuckster/match-iz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><code>match-iz</code> \ud83d\udd25</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "match-when",
+  "concept_id": "match-when",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "shuckster/match-iz"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "match-when",
+      "sense_id": "match-when#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

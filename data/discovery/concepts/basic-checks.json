@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Basic checks",
-    "basic checks"
+    "basic checks",
+    "Basic Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
       "status": "candidate-context",
       "text": "\"basic checks\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "NVIDIA device plugin for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate-context",
+      "text": "\"basic checks\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate-context",
+      "text": "Arm Mbed OS is a platform operating system designed for the internet of things"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate-context",
+      "text": "Basic Checks"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +71,18 @@
       "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
       "status": "candidate",
       "text": "\"basic checks\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/k8s-device-plugin",
+      "status": "candidate",
+      "text": "\"basic checks\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate",
+      "text": "Basic Checks"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +138,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/basic-checks.yaml",
       "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/basic-checks.yaml",
+      "source_repo": "NVIDIA/k8s-device-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/basic_checks.yml",
+      "source_repo": "ARMmbed/mbed-os"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

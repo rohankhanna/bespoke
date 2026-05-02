@@ -800,7 +800,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:48:40.192419+00:00",
+  "fetched_at": "2026-05-02T06:58:01.405212+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -852,8 +852,8 @@
     "full_name": "apache/echarts",
     "html_url": "https://github.com/apache/echarts",
     "language": "TypeScript",
-    "pushed_at": "2026-04-29T20:33:59Z",
-    "stargazers_count": 66252,
+    "pushed_at": "2026-05-02T05:58:07Z",
+    "stargazers_count": 66255,
     "topics": [
       "apache",
       "canvas",
@@ -865,7 +865,7 @@
       "svg",
       "visualization"
     ],
-    "updated_at": "2026-05-01T12:47:23Z"
+    "updated_at": "2026-05-02T05:39:24Z"
   },
   "repo_links": [
     {

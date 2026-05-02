@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliben/pyelftools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliben/pyelftools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eliben/pyelftools",
+      "target": "pyelftools-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliben/pyelftools",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliben/pyelftools",
+      "target": "dwarf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliben/pyelftools",
+      "target": "elf-binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliben/pyelftools",
+      "target": "elf-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:49:06.030374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1869
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2237
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parsing ELF and DWARF in Python",
+    "fork": false,
+    "full_name": "eliben/pyelftools",
+    "html_url": "https://github.com/eliben/pyelftools",
+    "language": "Python",
+    "pushed_at": "2026-05-01T21:37:00Z",
+    "stargazers_count": 2233,
+    "topics": [
+      "debugging",
+      "dwarf",
+      "elf",
+      "elf-binaries",
+      "elf-parser",
+      "python"
+    ],
+    "updated_at": "2026-05-01T21:37:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pyelftools-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "pyelftools-tests"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dwarf"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elf-binaries"
+    },
+    {
+      "context_snippet": "==========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elf-parser"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "actions/checkout",
       "status": "candidate-context",
       "text": "Update Main Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyupio/safety-action",
+      "status": "candidate-context",
+      "text": "Runs the Safety CLI dependency scanner against your project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety-action",
+      "status": "candidate-context",
+      "text": "Update Main Version"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/checkout",
+      "status": "candidate",
+      "text": "Update Main Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety-action",
       "status": "candidate",
       "text": "Update Main Version"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/update-main-version.yml",
       "source_repo": "actions/checkout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pyupio/safety-action"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

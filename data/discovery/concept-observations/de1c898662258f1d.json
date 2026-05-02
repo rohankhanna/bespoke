@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generative-adversarial-network",
+      "sense_id": "generative-adversarial-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generative-adversarial-network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generative-adversarial-network",
+  "observation_id": "de1c898662258f1d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "generative-adversarial-network",
+  "source_context_snippet": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+  "source_file": null,
+  "source_repo": "harskish/ganspace",
+  "source_repo_description": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+}

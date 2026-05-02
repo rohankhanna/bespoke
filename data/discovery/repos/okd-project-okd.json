@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/s2i-php-container",
+      "target": "sclorg/s2i-python-container",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/s2i-perl-container",
+      "target": "sclorg/s2i-php-container",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:57:06.131131+00:00",
+  "fetched_at": "2026-05-02T07:10:40.453982+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,12 +90,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/s2i-perl-container",
+      "full_name": "sclorg/s2i-php-container",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/s2i-php-container",
+      "full_name": "sclorg/s2i-python-container",
       "source_file": "README.md"
     }
   ],

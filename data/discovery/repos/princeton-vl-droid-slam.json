@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "princeton-vl/DROID-SLAM",
+      "target": "michaelgrupp/evo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "princeton-vl/DROID-SLAM",
+      "target": "castacks/tartanair_tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:22:09.104613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "princeton-vl/DROID-SLAM",
+    "html_url": "https://github.com/princeton-vl/DROID-SLAM",
+    "language": "Python",
+    "pushed_at": "2025-05-05T05:29:42Z",
+    "stargazers_count": 2547,
+    "topics": [],
+    "updated_at": "2026-04-30T08:28:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castacks/tartanair_tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelgrupp/evo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

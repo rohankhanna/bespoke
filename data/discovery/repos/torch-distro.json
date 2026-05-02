@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:16:42.606468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Torch installation in a self-contained folder",
+    "fork": false,
+    "full_name": "torch/distro",
+    "html_url": "https://github.com/torch/distro",
+    "language": "CMake",
+    "pushed_at": "2024-07-22T19:23:01Z",
+    "stargazers_count": 562,
+    "topics": [],
+    "updated_at": "2026-04-25T15:09:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

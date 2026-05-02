@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pip install antialiased-cnns to improve stability and accuracy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021847,
+      "status": "candidate",
+      "text": "jaggies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021846,
+      "status": "candidate",
+      "text": "artifacting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021845,
+      "status": "candidate",
+      "text": "pixellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021844,
+      "status": "candidate",
+      "text": "pixelisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021843,
+      "status": "candidate",
+      "text": "pixelation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "antialiasing",
+      "sense_id": "antialiasing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "antialiasing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "antialiasing",
+  "observation_id": "d60f701ce0bc97a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_text": "antialiasing",
+  "source_context_snippet": "<img src='https://richzhang.github.io/antialiased-cnns/resources/gifs2/video_00810.gif' align=\"right\" width=300>",
+  "source_file": null,
+  "source_repo": "adobe/antialiased-cnns",
+  "source_repo_description": "pip install antialiased-cnns to improve stability and accuracy"
+}

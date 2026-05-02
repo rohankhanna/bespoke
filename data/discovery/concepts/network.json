@@ -187,6 +187,18 @@
       "source_repo": "Deep-Symmetry/crate-digger",
       "status": "candidate-context",
       "text": "Create library jar"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate-context",
+      "text": "QUIC and HTTP/3 implementation in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate-context",
+      "text": "aioquic"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "Deep-Symmetry/crate-digger",
       "status": "candidate",
       "text": "Create library jar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiortc/aioquic",
+      "status": "candidate",
+      "text": "aioquic"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +616,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "aiortc/aioquic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

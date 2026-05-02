@@ -307,6 +307,18 @@
       "source_repo": "danielroich/PTI",
       "status": "candidate-context",
       "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "Discovering Interpretable GAN Controls [NeurIPS 2020]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "danielroich/PTI",
       "status": "candidate",
       "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harskish/ganspace",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -712,11 +730,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "harskish/ganspace"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

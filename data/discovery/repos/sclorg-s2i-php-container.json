@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml"
+    },
+    {
+      "component": "sclorg/auto-merge-wrapper@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "sclorg/auto-merge-wrapper@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "sclorg/build-and-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/gather-pull-request-metadata@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "containers/libpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "Auto Merge On Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "redhat-plumbers-in-action/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "Auto Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "sclorg/build-and-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "redhat-plumbers-in-action/gather-pull-request-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "Gather Pull Request Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "rhel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-php-container",
+      "target": "source-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:10:44.650182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6003
+    },
+    {
+      "path": ".github/workflows/auto-merge-on-demand.yml",
+      "size": 2241
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 2183
+    },
+    {
+      "path": ".github/workflows/container-tests.yml",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/pr-metadata.yml",
+      "size": 667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PHP container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running PHP applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.",
+    "fork": false,
+    "full_name": "sclorg/s2i-php-container",
+    "html_url": "https://github.com/sclorg/s2i-php-container",
+    "language": "Shell",
+    "pushed_at": "2026-05-01T22:22:46Z",
+    "stargazers_count": 113,
+    "topics": [
+      "centos",
+      "container",
+      "docker",
+      "dockerfile",
+      "fedora",
+      "openshift",
+      "php",
+      "rhel",
+      "s2i",
+      "source-to-image"
+    ],
+    "updated_at": "2026-04-21T09:55:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/libpod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Merge On Demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "term": "Auto Merge On Demand"
+    },
+    {
+      "context_snippet": "Auto Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Auto Merge"
+    },
+    {
+      "context_snippet": "Gather Pull Request Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "term": "Gather Pull Request Metadata"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    },
+    {
+      "context_snippet": "PHP Docker images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-to-image"
+    }
+  ]
+}

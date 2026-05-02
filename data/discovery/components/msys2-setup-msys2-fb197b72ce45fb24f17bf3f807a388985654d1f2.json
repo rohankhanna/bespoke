@@ -1,12 +1,17 @@
 {
   "component": "msys2/setup-msys2@fb197b72ce45fb24f17bf3f807a388985654d1f2",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rurban/smhasher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "earlephilhower/mklittlefs"
     }
   ]
 }

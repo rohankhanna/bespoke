@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "echarts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "echarts",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "timdream/wordcloud2.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecomfe/echarts-wordcloud",
+      "target": "echarts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:58:13.657486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4850
+    },
+    {
+      "path": "package.json",
+      "size": 675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Word Cloud extension based on Apache ECharts and wordcloud2.js",
+    "fork": false,
+    "full_name": "ecomfe/echarts-wordcloud",
+    "html_url": "https://github.com/ecomfe/echarts-wordcloud",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-12T02:35:10Z",
+    "stargazers_count": 1815,
+    "topics": [
+      "echarts"
+    ],
+    "updated_at": "2026-04-28T01:12:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdream/wordcloud2.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Third-party Wordcloud extension based on [wordcloud2.js](https://github.com/timdream/wordcloud2.js) for [Apache ECharts](https://github.com/apache/echarts).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echarts"
+    }
+  ]
+}

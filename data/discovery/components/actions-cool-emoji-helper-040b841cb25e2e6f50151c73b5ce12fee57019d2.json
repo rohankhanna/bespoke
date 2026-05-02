@@ -1,0 +1,12 @@
+{
+  "component": "actions-cool/emoji-helper@040b841cb25e2e6f50151c73b5ce12fee57019d2",
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emoji-helper.yml",
+      "source_repo": "vuejs/babel-plugin-jsx"
+    }
+  ]
+}

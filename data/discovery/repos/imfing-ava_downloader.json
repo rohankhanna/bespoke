@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfing/ava_downloader",
+      "target": "aesthetic-visual-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfing/ava_downloader",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfing/ava_downloader",
+      "target": "dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:20:43.521434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":arrow_double_down: Download AVA dataset (A Large-Scale Database for Aesthetic Visual Analysis)",
+    "fork": false,
+    "full_name": "imfing/ava_downloader",
+    "html_url": "https://github.com/imfing/ava_downloader",
+    "language": null,
+    "pushed_at": "2024-02-14T21:07:34Z",
+    "stargazers_count": 447,
+    "topics": [
+      "aesthetic-visual-analysis",
+      "ava",
+      "computer-vision",
+      "dataset",
+      "python"
+    ],
+    "updated_at": "2026-04-13T15:18:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**A Large-Scale Database for Aesthetic Visual Analysis**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aesthetic-visual-analysis"
+    },
+    {
+      "context_snippet": "**A Large-Scale Database for Aesthetic Visual Analysis**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "**A Large-Scale Database for Aesthetic Visual Analysis**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    }
+  ]
+}

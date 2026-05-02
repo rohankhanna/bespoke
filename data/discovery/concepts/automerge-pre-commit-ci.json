@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "automerge-pre-commit-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate-context",
+      "text": "pytest + rich integration (proof of concept)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate-context",
+      "text": "automerge-pre-commit-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate",
+      "text": "automerge-pre-commit-ci"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "automerge-pre-commit-ci",
+  "concept_id": "automerge-pre-commit-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/automerge-pre-commit-ci.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "automerge-pre-commit-ci",
+      "sense_id": "automerge-pre-commit-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

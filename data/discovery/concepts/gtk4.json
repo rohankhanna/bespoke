@@ -19,6 +19,18 @@
       "source_repo": "celluloid-player/celluloid",
       "status": "candidate-context",
       "text": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "Finally, a GUI Engine made for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "![](docs/src/assets/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "celluloid-player/celluloid",
       "status": "candidate",
       "text": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate",
+      "text": "![](docs/src/assets/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "celluloid-player/celluloid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

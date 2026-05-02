@@ -67,6 +67,18 @@
       "source_repo": "junit-team/junit-framework",
       "status": "candidate-context",
       "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate-context",
+      "text": "C++ tensors with broadcasting and lazy computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate-context",
+      "text": "Close inactive issues and PRs"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "junit-team/junit-framework",
+      "status": "candidate",
+      "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor",
       "status": "candidate",
       "text": "Close inactive issues and PRs"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/close-inactive-issues.yml",
       "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/issue-close.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

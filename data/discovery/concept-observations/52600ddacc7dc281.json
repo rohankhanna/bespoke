@@ -48,7 +48,7 @@
   "normalized_form": "gamedev",
   "observation_id": "52600ddacc7dc281",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
   "observed_text": "gamedev",
   "source_context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
   "source_file": null,

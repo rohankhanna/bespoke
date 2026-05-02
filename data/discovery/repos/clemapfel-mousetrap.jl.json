@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "makieorg/makie.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "clemapfel/mousetrapmakie.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "adwaita",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "gtk4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "gui-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "gui-frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "gui-frontend-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "target": "julia-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:09:04.552285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7338
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Finally, a GUI Engine made for Julia",
+    "fork": false,
+    "full_name": "Clemapfel/Mousetrap.jl",
+    "html_url": "https://github.com/Clemapfel/Mousetrap.jl",
+    "language": "Julia",
+    "pushed_at": "2024-02-28T14:54:55Z",
+    "stargazers_count": 457,
+    "topics": [
+      "adwaita",
+      "gtk",
+      "gtk4",
+      "gui",
+      "gui-framework",
+      "gui-frontend",
+      "gui-frontend-framework",
+      "julia",
+      "julia-language",
+      "julia-package"
+    ],
+    "updated_at": "2026-04-28T02:23:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clemapfel/mousetrapmakie.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "makieorg/makie.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adwaita"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtk4"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-framework"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-frontend"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-frontend-framework"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "![](docs/src/assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-package"
+    }
+  ]
+}

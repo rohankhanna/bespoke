@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T06:49:04.538748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3143
+    },
+    {
+      "path": "go.mod",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "USB armory - Mass Storage firmware",
+    "fork": false,
+    "full_name": "usbarmory/armory-ums",
+    "html_url": "https://github.com/usbarmory/armory-ums",
+    "language": "Go",
+    "pushed_at": "2026-04-10T07:21:37Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-10T07:21:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

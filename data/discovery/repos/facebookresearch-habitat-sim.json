@@ -1,0 +1,259 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "facebookresearch/replica-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "facebookresearch/habitat-lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "facebookresearch/pyrobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "actions/setup-python@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "mxschmitt/action-tmate@v3.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "Install and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "sim2real",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/habitat-sim",
+      "target": "simulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:21:20.030171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16413
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4825
+    },
+    {
+      "path": "requirements.txt",
+      "size": 151
+    },
+    {
+      "path": ".github/workflows/install_and_test.yml",
+      "size": 20912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A flexible, high-performance 3D simulator for Embodied AI research.",
+    "fork": false,
+    "full_name": "facebookresearch/habitat-sim",
+    "html_url": "https://github.com/facebookresearch/habitat-sim",
+    "language": "C++",
+    "pushed_at": "2026-02-24T01:27:10Z",
+    "stargazers_count": 3647,
+    "topics": [
+      "ai",
+      "computer-vision",
+      "cplusplus",
+      "robotics",
+      "sim2real",
+      "simulator"
+    ],
+    "updated_at": "2026-05-02T04:40:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/habitat-lab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pyrobot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/replica-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Install and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_and_test.yml",
+      "term": "Install and test"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sim2real"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    }
+  ]
+}

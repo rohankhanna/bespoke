@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "ldkong1205/robo3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "cuge1995/pointcutmix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "hansen7/occo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "lulutang0608/point-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "3dvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "corruption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldkong1205/PointCloud-C",
+      "target": "robustness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:18:46.207831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14632
+    },
+    {
+      "path": "requirements.txt",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions",
+    "fork": false,
+    "full_name": "ldkong1205/PointCloud-C",
+    "html_url": "https://github.com/ldkong1205/PointCloud-C",
+    "language": "Python",
+    "pushed_at": "2024-03-15T08:41:51Z",
+    "stargazers_count": 165,
+    "topics": [
+      "3dvision",
+      "benchmark",
+      "corruption",
+      "pointcloud",
+      "robustness"
+    ],
+    "updated_at": "2026-04-20T06:49:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuge1995/pointcutmix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hansen7/occo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldkong1205/robo3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lulutang0608/point-bert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dvision"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corruption"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robustness"
+    }
+  ]
+}

@@ -103,6 +103,18 @@
       "source_repo": "iver56/audiomentations",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate-context",
+      "text": "[CVPR 2021 - Official] Rigid Subset Mix (RSMix): Regularization Strategy for Point Cloud via Rigidly Mixed Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate-context",
+      "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "iver56/audiomentations",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dogyoonlee/RSMix",
+      "status": "candidate",
+      "text": "We propose a novel data augmentation method for point cloud, **Rigid Subset Mix (RSMix)**."
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "dogyoonlee/RSMix"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

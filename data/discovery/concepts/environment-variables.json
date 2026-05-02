@@ -79,6 +79,30 @@
       "source_repo": "theskumar/python-dotenv",
       "status": "candidate-context",
       "text": "[![Build Status][build_status_badge]][build_status_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "Configuration Management for Python \u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate-context",
+      "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HBNetwork/python-decouple",
+      "status": "candidate-context",
+      "text": "Strict separation of config from code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HBNetwork/python-decouple",
+      "status": "candidate-context",
+      "text": "========================================================"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "theskumar/python-dotenv",
       "status": "candidate",
       "text": "[![Build Status][build_status_badge]][build_status_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dynaconf/dynaconf",
+      "status": "candidate",
+      "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HBNetwork/python-decouple",
+      "status": "candidate",
+      "text": "========================================================"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "theskumar/python-dotenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "dynaconf/dynaconf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "HBNetwork/python-decouple"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

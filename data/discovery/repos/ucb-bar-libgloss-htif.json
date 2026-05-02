@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T06:49:13.464168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A libgloss replacement for RISC-V that supports HTIF",
+    "fork": false,
+    "full_name": "ucb-bar/libgloss-htif",
+    "html_url": "https://github.com/ucb-bar/libgloss-htif",
+    "language": "C",
+    "pushed_at": "2024-05-03T21:59:45Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-09T04:51:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

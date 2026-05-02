@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/cascade-stereo",
+      "target": "xy-guo/gwcnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/cascade-stereo",
+      "target": "xy-guo/mvsnet_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:17:42.873078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1572
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cascade-stereo",
+    "fork": false,
+    "full_name": "alibaba/cascade-stereo",
+    "html_url": "https://github.com/alibaba/cascade-stereo",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:16:45Z",
+    "stargazers_count": 488,
+    "topics": [],
+    "updated_at": "2026-04-18T15:12:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xy-guo/gwcnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xy-guo/mvsnet_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

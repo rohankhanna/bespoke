@@ -19,6 +19,18 @@
       "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "status": "candidate-context",
+      "text": "A FUSE wrapper that puts the littlefs in user-space"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "status": "candidate-context",
+      "text": "A FUSE wrapper that puts the littlefs in user-space."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/littlefs-fuse",
+      "status": "candidate",
+      "text": "A FUSE wrapper that puts the littlefs in user-space."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mxmlnkn/ratarmount"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/littlefs-fuse"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

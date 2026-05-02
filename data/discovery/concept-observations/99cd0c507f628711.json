@@ -106,7 +106,7 @@
   "normalized_form": "authentication",
   "observation_id": "99cd0c507f628711",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T06:47:22.946566+00:00",
   "observed_text": "authentication",
   "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
   "source_file": null,

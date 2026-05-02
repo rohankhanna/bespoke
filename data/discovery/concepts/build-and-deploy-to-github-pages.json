@@ -43,6 +43,18 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate-context",
       "text": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-call-this",
+      "status": "candidate-context",
+      "text": "A proposal for a simple call-this operator in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-call-this",
+      "status": "candidate-context",
+      "text": "Build and Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate",
+      "text": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-call-this",
       "status": "candidate",
       "text": "Build and Deploy to GitHub Pages"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-call-this"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

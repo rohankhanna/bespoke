@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T07:24:28.402028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A public endoscopic video dataset for polyp detection",
+    "fork": false,
+    "full_name": "dashishi/LDPolypVideo-Benchmark",
+    "html_url": "https://github.com/dashishi/LDPolypVideo-Benchmark",
+    "language": null,
+    "pushed_at": "2022-12-06T13:57:42Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2025-12-21T00:30:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

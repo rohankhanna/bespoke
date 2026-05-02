@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "siliconflow/nexeval",
-      "target": "mseitzer/pytorch-fid.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "siliconflow/nexeval",
       "target": "taited/clip-score",
       "target_type": "repository"
     },
@@ -36,6 +29,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
   "source_repo": "siliconflow/nexeval"
 }

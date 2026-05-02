@@ -328,6 +328,18 @@
       "source_repo": "excalidraw/excalidraw",
       "status": "candidate-context",
       "text": "Build Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate-context",
+      "text": "Arm Mbed OS is a platform operating system designed for the internet of things"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate-context",
+      "text": "Build docker image"
     }
   ],
   "candidate_glosses": [
@@ -492,6 +504,12 @@
       "source_repo": "excalidraw/excalidraw",
       "status": "candidate",
       "text": "Build Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate",
+      "text": "Build docker image"
     }
   ],
   "candidate_related_terms": [
@@ -793,11 +811,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docker_management.test-PR.yml",
+      "source_repo": "ARMmbed/mbed-os"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

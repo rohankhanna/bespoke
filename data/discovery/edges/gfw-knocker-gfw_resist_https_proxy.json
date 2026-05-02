@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "gfw-knocker/mahsang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "gfw-knocker/segaro_dream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "msasanmh/securednsclient",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy",
+      "target": "ehsanfarahi22/bypassing-sni-based-https-filtering",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
+  "source_repo": "GFW-knocker/gfw_resist_HTTPS_proxy"
+}

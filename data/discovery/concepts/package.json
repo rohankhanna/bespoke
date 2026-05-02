@@ -250,6 +250,18 @@
       "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate-context",
       "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openair-project/openair",
+      "status": "candidate-context",
+      "text": "\ud83e\udded Open source tools for air quality data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openair-project/openair",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -372,6 +384,12 @@
       "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate",
       "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openair-project/openair",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -756,11 +774,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "openair-project/openair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

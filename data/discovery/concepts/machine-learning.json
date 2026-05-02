@@ -4507,6 +4507,54 @@
       "source_repo": "h2oai/sparkling-water",
       "status": "candidate-context",
       "text": "Sparkling Water"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate-context",
+      "text": "The Learning Interpretability Tool: Interactively analyze ML models to understand their behavior in an extensible and framework agnostic interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate-context",
+      "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "status": "candidate-context",
+      "text": "A PyTorch Implementation of Neural IMage Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "status": "candidate-context",
+      "text": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "News: the 10k dataset is ready for download."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate-context",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_glosses": [
@@ -6759,6 +6807,30 @@
       "source_repo": "h2oai/sparkling-water",
       "status": "candidate",
       "text": "Sparkling Water"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PAIR-code/lit",
+      "status": "candidate",
+      "text": "<!--* freshness: { owner: 'lit-dev' reviewed: '2024-06-25' } *-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
+      "status": "candidate",
+      "text": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DL3DV-10K/Dataset",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorpack/tensorpack",
+      "status": "candidate",
+      "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -10426,11 +10498,107 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "h2oai/sparkling-water"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "PAIR-code/lit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "yunxiaoshi/Neural-IMage-Assessment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "tensorpack/tensorpack"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

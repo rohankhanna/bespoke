@@ -9,7 +9,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T13:52:23.293339+00:00",
+  "fetched_at": "2026-05-02T07:03:58.454306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -20,14 +20,13 @@
       "size": 402
     }
   ],
-  "metadata_refreshed_at": "2026-05-02T05:25:28.572510+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "POSIX-style getopt() for Node.js",
     "fork": false,
-    "full_name": "tritondatacenter/node-getopt",
+    "full_name": "TritonDataCenter/node-getopt",
     "html_url": "https://github.com/TritonDataCenter/node-getopt",
     "language": "JavaScript",
     "pushed_at": "2024-08-01T15:11:07Z",

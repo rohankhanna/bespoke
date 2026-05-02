@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenBMB/MiniCPM-o",
-      "target": "flagos-ai/flaggems",
+      "target": "hiyouga/llama-factory",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenBMB/MiniCPM-o",
-      "target": "flagos-ai/flagtree",
+      "target": "ggerganov/llama.cpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenBMB/MiniCPM-o",
-      "target": "flagos-ai/vllm-plugin-fl",
+      "target": "heshengtao/comfyui_llm_party",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenBMB/MiniCPM-o",
-      "target": "catchthetornado/text-extract-api",
+      "target": "humanaigc-engineering/openavatarchat",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-05-02T06:47:22.946566+00:00",
   "source_repo": "OpenBMB/MiniCPM-o"
 }

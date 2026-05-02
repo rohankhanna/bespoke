@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melizeche/AireLibre",
+      "target": "garyservin/linka-firmware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melizeche/AireLibre",
+      "target": "matiasinsaurralde/aqmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melizeche/AireLibre",
+      "target": "lucasginard/airelibre-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melizeche/AireLibre",
+      "target": "lucasginard/airelibre-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "air-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "airquality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "airquality-sensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "airqualitymonitoringsystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "melizeche/AireLibre",
+      "target": "opensource",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T06:56:40.152483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AireLibre is a community response to the need to know about air quality in a free, collaborative and decentralized way.",
+    "fork": false,
+    "full_name": "melizeche/AireLibre",
+    "html_url": "https://github.com/melizeche/AireLibre",
+    "language": "HTML",
+    "pushed_at": "2025-03-21T15:28:12Z",
+    "stargazers_count": 74,
+    "topics": [
+      "air",
+      "air-quality",
+      "airquality",
+      "airquality-sensor",
+      "airqualitymonitoringsystem",
+      "fastapi",
+      "opensource",
+      "python"
+    ],
+    "updated_at": "2025-10-16T17:49:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garyservin/linka-firmware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasginard/airelibre-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasginard/airelibre-ios",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matiasinsaurralde/aqmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "air-quality"
+    },
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airquality"
+    },
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airquality-sensor"
+    },
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airqualitymonitoringsystem"
+    },
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    }
+  ]
+}

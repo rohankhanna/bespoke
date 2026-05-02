@@ -1481,6 +1481,30 @@
       "source_repo": "bookcars/bookcars.github.io",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate-context",
+      "text": "pytest + rich integration (proof of concept)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XuyangBai/TransFusion",
+      "status": "candidate-context",
+      "text": "[PyTorch] Official implementation of CVPR2022 paper \"TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers\". https://arxiv.org/abs/2203.11496"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuyangBai/TransFusion",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -2225,6 +2249,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bookcars/bookcars.github.io",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamorim-esss/pytest-rich",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuyangBai/TransFusion",
       "status": "candidate",
       "text": "deploy"
     }
@@ -3481,11 +3517,29 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/deploy.yml.orig",
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "XuyangBai/TransFusion"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "lexical_providers": [
     "datamuse"
   ],

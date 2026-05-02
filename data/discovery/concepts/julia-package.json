@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "julia-package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "Finally, a GUI Engine made for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate-context",
+      "text": "![](docs/src/assets/banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/Mousetrap.jl",
+      "status": "candidate",
+      "text": "![](docs/src/assets/banner.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "julia-package",
+  "concept_id": "julia-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T06:47:22.946566+00:00",
+      "source_file": null,
+      "source_repo": "Clemapfel/Mousetrap.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "julia-package",
+      "sense_id": "julia-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

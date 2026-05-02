@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/typos_check.yml",
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci_typos.yml",
+      "source_repo": "apache/iceberg-rust"
     }
   ],
   "term": "Typos Check"

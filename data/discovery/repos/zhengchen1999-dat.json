@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengchen1999/DAT",
+      "target": "muslll/neosr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T07:22:25.338783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14540
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV'23] Dual Aggregation Transformer for Image Super-Resolution",
+    "fork": false,
+    "full_name": "zhengchen1999/DAT",
+    "html_url": "https://github.com/zhengchen1999/DAT",
+    "language": "Python",
+    "pushed_at": "2024-11-26T15:22:40Z",
+    "stargazers_count": 530,
+    "topics": [],
+    "updated_at": "2026-04-28T11:49:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muslll/neosr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
