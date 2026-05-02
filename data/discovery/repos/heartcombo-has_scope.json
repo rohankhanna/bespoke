@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/has_scope",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/has_scope",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/has_scope",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:55:48.245201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10367
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Map incoming controller parameters to named scopes in your resources",
+    "fork": false,
+    "full_name": "heartcombo/has_scope",
+    "html_url": "https://github.com/heartcombo/has_scope",
+    "language": "Ruby",
+    "pushed_at": "2026-03-27T12:50:52Z",
+    "stargazers_count": 1729,
+    "topics": [],
+    "updated_at": "2026-04-23T21:40:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

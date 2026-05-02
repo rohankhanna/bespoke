@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Java SerDe Compatibility Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-cpp",
+      "status": "candidate-context",
+      "text": "Core C++ Sketch Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-cpp",
+      "status": "candidate-context",
+      "text": "Java SerDe Compatibility Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-cpp",
+      "status": "candidate",
+      "text": "Java SerDe Compatibility Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26383,
+      "status": "candidate",
+      "text": "decaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19160,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "complexion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Java SerDe Compatibility Test",
+  "concept_id": "java-serde-compatibility-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "source_repo": "apache/datasketches-cpp"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java SerDe Compatibility Test",
+      "sense_id": "java-serde-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -83,7 +83,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:54:24.449351+00:00",
+  "fetched_at": "2026-05-02T12:59:06.922026+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -108,14 +108,14 @@
     "html_url": "https://github.com/multiformats/cid",
     "language": null,
     "pushed_at": "2025-04-28T15:57:33Z",
-    "stargazers_count": 485,
+    "stargazers_count": 486,
     "topics": [
       "cid",
       "ipfs",
       "ipld",
       "multiformats"
     ],
-    "updated_at": "2026-04-28T03:03:50Z"
+    "updated_at": "2026-05-01T21:22:12Z"
   },
   "repo_links": [
     {

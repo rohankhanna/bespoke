@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Conceitos de C\u00f3digo Limpo adaptados em JavaScript (Tradu\u00e7\u00e3o PT-BR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clean-code",
+      "sense_id": "clean-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-code",
+  "observation_id": "d5e170ff1e143c6e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "clean-code",
+  "source_context_snippet": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)",
+  "source_file": null,
+  "source_repo": "felipe-augusto/clean-code-javascript",
+  "source_repo_description": "Conceitos de C\u00f3digo Limpo adaptados em JavaScript (Tradu\u00e7\u00e3o PT-BR)"
+}

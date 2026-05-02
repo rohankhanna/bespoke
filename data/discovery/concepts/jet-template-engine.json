@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jet-template-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate-context",
+      "text": "Jet  template engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jet-template-engine",
+  "concept_id": "jet-template-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "CloudyKit/jet"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jet-template-engine",
+      "sense_id": "jet-template-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

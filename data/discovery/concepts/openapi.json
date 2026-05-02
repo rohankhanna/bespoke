@@ -634,6 +634,18 @@
       "source_repo": "rustmailer/bichon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "A self-hosted Email Middleware for IMAP, SMTP, Gmail API, Graph API \u2014 built for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -948,6 +960,12 @@
       "source_repo": "rustmailer/bichon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1393,11 +1411,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/rustmailer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

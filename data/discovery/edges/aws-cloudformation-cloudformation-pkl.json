@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkl-patterns.yml",
+      "source_repo": "aws-cloudformation/cloudformation-pkl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkl-patterns.yml",
+      "source_repo": "aws-cloudformation/cloudformation-pkl",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkl-patterns.yml",
+      "source_repo": "aws-cloudformation/cloudformation-pkl",
+      "target": "pkl-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-pkl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-cloudformation/cloudformation-pkl",
+      "target": "Create release from tag",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "aws-cloudformation/cloudformation-pkl"
+}

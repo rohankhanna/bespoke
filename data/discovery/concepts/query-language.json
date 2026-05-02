@@ -19,6 +19,18 @@
       "source_repo": "obi1kenobi/trustfall",
       "status": "candidate-context",
       "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate-context",
+      "text": "Neo4j Bolt driver for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate-context",
+      "text": "****************************"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "obi1kenobi/trustfall",
       "status": "candidate",
       "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate",
+      "text": "****************************"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "obi1kenobi/trustfall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

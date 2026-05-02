@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_erlang",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_erlang",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:03:33.588906+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 783
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang lexer for Makeup",
+    "fork": false,
+    "full_name": "elixir-makeup/makeup_erlang",
+    "html_url": "https://github.com/elixir-makeup/makeup_erlang",
+    "language": "Elixir",
+    "pushed_at": "2026-01-18T16:20:48Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-01-18T16:20:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tipi-deps/example-mapmap_cpu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tipi-deps/example-mapmap_cpu",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:32:03.998953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An example to use the mapMAP library",
+    "fork": false,
+    "full_name": "tipi-deps/example-mapmap_cpu",
+    "html_url": "https://github.com/tipi-deps/example-mapmap_cpu",
+    "language": "C++",
+    "pushed_at": "2022-05-27T15:34:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-05-27T15:30:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    }
+  ]
+}

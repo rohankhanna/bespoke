@@ -34,6 +34,18 @@
       "source_repo": "JetBrains/intellij-community",
       "status": "candidate-context",
       "text": "IntelliJ IDEA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Template repository for creating plugins for IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "JetBrains/intellij-community",
       "status": "candidate",
       "text": "IntelliJ IDEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/IntelliJ_IDEA.yml",
       "source_repo": "JetBrains/intellij-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "kair-bair/nerfacc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "ashawkey/envlight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/MVDream-threestudio",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "bytedance/MVDream-threestudio"
+}

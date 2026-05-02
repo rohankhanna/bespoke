@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chimps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024690,
+      "status": "candidate",
+      "text": "chimpanzee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25003,
+      "status": "candidate",
+      "text": "pan troglodytes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "apes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "chimpanzees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "monkeys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chimps",
+  "concept_id": "chimps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chimps",
+      "sense_id": "chimps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

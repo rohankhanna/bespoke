@@ -79,6 +79,18 @@
       "source_repo": "php/doc-ja",
       "status": "candidate-context",
       "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83d\udc0d\ud83d\udce6 Serverless plugin to bundle Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "Integrate"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "php/doc-ja",
       "status": "candidate",
       "text": "\"Integrate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "Integrate"
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +236,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/integrate.yaml",
       "source_repo": "php/doc-ja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

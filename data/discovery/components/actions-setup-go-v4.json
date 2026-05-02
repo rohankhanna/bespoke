@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v4",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -842,6 +842,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/datasketches-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/datasketches-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
     }
   ]
 }

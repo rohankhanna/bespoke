@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:55:27.128978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "It's a flipper plugin for wdyr",
+    "fork": false,
+    "full_name": "allen-hsu/wdyr-flipper",
+    "html_url": "https://github.com/allen-hsu/wdyr-flipper",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-30T03:30:55Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-05-18T10:34:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

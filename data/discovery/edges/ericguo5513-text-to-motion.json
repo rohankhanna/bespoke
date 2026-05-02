@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "ericguo5513/humanml3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "EricGuo5513/text-to-motion"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Macos-latest"
+    "Macos-latest",
+    "macOS latest"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "mholt/archiver",
       "status": "candidate-context",
       "text": "Macos-latest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "macOS latest"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "mholt/archiver",
       "status": "candidate",
       "text": "Macos-latest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "macOS latest"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "adam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "advanced"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Macos-latest",
   "concept_id": "macos-latest",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/macos-latest.yml",
       "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gazebosim/sdformat"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

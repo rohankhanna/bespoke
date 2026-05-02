@@ -1,7 +1,7 @@
 {
   "component": "tempy",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -167,6 +167,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "keithamus/sort-package-json"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sindresorhus/globby"
     }
   ]
 }

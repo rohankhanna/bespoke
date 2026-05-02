@@ -139,6 +139,18 @@
       "source_repo": "HavenFeng/photometric_optimization",
       "status": "candidate-context",
       "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "HavenFeng/photometric_optimization",
       "status": "candidate",
       "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "HavenFeng/photometric_optimization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

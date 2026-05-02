@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Windows release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "Build Windows release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate",
+      "text": "Build Windows release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18263,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18142,
+      "status": "candidate",
+      "text": "lats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "balcony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "window"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Windows release",
+  "concept_id": "build-windows-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows release",
+      "sense_id": "build-windows-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

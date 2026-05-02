@@ -190,11 +190,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/check-ai-co-authors.yml",
       "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

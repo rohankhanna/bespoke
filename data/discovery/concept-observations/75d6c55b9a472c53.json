@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder JavaScript SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "75d6c55b9a472c53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026",
+  "source_file": null,
+  "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+  "source_repo_description": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder JavaScript SDK, including middleware, dialogs, recognizers and more."
+}

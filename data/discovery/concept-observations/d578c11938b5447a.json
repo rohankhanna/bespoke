@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action to run Standard Ruby against your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-action",
+      "sense_id": "github-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-action",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-action",
+  "observation_id": "d578c11938b5447a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "github-action",
+  "source_context_snippet": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)",
+  "source_file": null,
+  "source_repo": "standardrb/standard-ruby-action",
+  "source_repo_description": "A GitHub Action to run Standard Ruby against your code."
+}

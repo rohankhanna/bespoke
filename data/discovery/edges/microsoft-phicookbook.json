@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/ai-powered-notes-winui3-sample",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "jennifermarsman/phirecycling",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/aitour-exploring-cutting-edge-models",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/langchain-for-beginners",
+      "target": "microsoft/phi3-chat-winui3-sample",
       "target_type": "repository"
     },
     {
@@ -113,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "microsoft/PhiCookBook"
 }

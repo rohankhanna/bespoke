@@ -19,12 +19,30 @@
       "source_repo": "mrcjkb/vimcats",
       "status": "candidate-context",
       "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "A language for writing HTML user interfaces in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "\"Publish tags to FlakeHub\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mrcjkb/vimcats",
+      "status": "candidate",
+      "text": "\"Publish tags to FlakeHub\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
       "status": "candidate",
       "text": "\"Publish tags to FlakeHub\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/flakehub.yml",
       "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yml",
+      "source_repo": "a-h/templ"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

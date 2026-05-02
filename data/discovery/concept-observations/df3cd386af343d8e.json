@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rules Registry for Compliance Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infrastructure-as-code",
+      "sense_id": "infrastructure-as-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "infrastructure-as-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "infrastructure-as-code",
+  "observation_id": "df3cd386af343d8e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "infrastructure-as-code",
+  "source_context_snippet": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes.",
+  "source_file": null,
+  "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+  "source_repo_description": "Rules Registry for Compliance Frameworks"
+}

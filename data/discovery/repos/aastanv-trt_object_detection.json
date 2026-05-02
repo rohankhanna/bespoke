@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:38:09.167386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python sample for referencing object detection model with TensorRT",
+    "fork": false,
+    "full_name": "AastaNV/TRT_object_detection",
+    "html_url": "https://github.com/AastaNV/TRT_object_detection",
+    "language": "Python",
+    "pushed_at": "2022-05-13T18:16:44Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-01-26T21:28:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

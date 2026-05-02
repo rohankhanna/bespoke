@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "st-tech/zr-obp",
+      "target": "sony/pyieoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "Lints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "st-tech/zr-obp",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp",
+      "target": "contextual-bandits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp",
+      "target": "multi-armed-bandits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp",
+      "target": "off-policy-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:39:36.307994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26330
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/lints.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open Bandit Pipeline: a python library for bandit algorithms and off-policy evaluation",
+    "fork": false,
+    "full_name": "st-tech/zr-obp",
+    "html_url": "https://github.com/st-tech/zr-obp",
+    "language": "Python",
+    "pushed_at": "2024-06-03T11:04:44Z",
+    "stargazers_count": 705,
+    "topics": [
+      "contextual-bandits",
+      "datasets",
+      "multi-armed-bandits",
+      "off-policy-evaluation",
+      "research"
+    ],
+    "updated_at": "2026-04-28T08:44:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/pyieoe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints.yml",
+      "term": "Lints"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contextual-bandits"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-armed-bandits"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "off-policy-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

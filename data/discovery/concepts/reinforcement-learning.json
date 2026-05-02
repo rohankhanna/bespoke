@@ -1123,6 +1123,30 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate-context",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_glosses": [
@@ -1683,6 +1707,18 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -2464,11 +2500,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "tensorpack/tensorpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ARISE-Initiative/robosuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

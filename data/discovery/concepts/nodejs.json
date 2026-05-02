@@ -3367,6 +3367,66 @@
       "source_repo": "logseq/nbb-logseq",
       "status": "candidate-context",
       "text": "`nbb-logseq` provides [easy CLJS scripting on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder JavaScript SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate-context",
+      "text": "User-friendly glob matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate-context",
+      "text": "globby \u2014 User-friendly glob matching"
     }
   ],
   "candidate_glosses": [
@@ -5049,6 +5109,36 @@
       "source_repo": "logseq/nbb-logseq",
       "status": "candidate",
       "text": "`nbb-logseq` provides [easy CLJS scripting on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate",
+      "text": "globby \u2014 User-friendly glob matching"
     }
   ],
   "candidate_related_terms": [],
@@ -7804,11 +7894,83 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "boxyhq/saas-starter-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/globby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

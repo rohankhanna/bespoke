@@ -91,6 +91,18 @@
       "source_repo": "NimblePros/eShopOnWeb",
       "status": "candidate-context",
       "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "NimblePros/eShopOnWeb",
       "status": "candidate",
       "text": "This Microsoft reference application is now being maintained by [NimblePros](https://nimblepros.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "NimblePros/eShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bdovaz/UnityNuGet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

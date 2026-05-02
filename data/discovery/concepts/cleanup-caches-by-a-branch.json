@@ -56,6 +56,18 @@
       "source_repo": "anolilab/unplugin-favicons",
       "status": "candidate-context",
       "text": "\"Cleanup caches by a branch\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "Scheduling infrastructure for absolutely everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "cleanup caches by a branch"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "anolilab/unplugin-favicons",
       "status": "candidate",
       "text": "\"Cleanup caches by a branch\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate",
+      "text": "cleanup caches by a branch"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +179,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/cache-clear.yml",
       "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/cache-clean.yml",
+      "source_repo": "calcom/cal.diy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

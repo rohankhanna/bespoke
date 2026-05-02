@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/sphinx_docs.yml",
       "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer"
     }
   ],
   "term": "Deploy Sphinx documentation to Pages"

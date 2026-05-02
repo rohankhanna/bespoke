@@ -2087,6 +2087,18 @@
       "source_repo": "joke2k/django-environ",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-makeup/makeup_syntect",
+      "status": "candidate-context",
+      "text": "Makeup syntax highlighting using the syntect Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_syntect",
+      "status": "candidate-context",
+      "text": "\"Docs\""
     }
   ],
   "candidate_glosses": [
@@ -3133,6 +3145,12 @@
       "source_repo": "joke2k/django-environ",
       "status": "candidate",
       "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_syntect",
+      "status": "candidate",
+      "text": "\"Docs\""
     }
   ],
   "candidate_related_terms": [
@@ -4866,11 +4884,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

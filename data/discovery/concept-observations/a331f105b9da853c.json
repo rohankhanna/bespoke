@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038785,
+      "status": "candidate",
+      "text": "fauna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025501,
+      "status": "candidate",
+      "text": "physical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004373,
+      "status": "candidate",
+      "text": "creature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999807,
+      "status": "candidate",
+      "text": "fishlike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986120,
+      "status": "candidate",
+      "text": "beast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "animals",
+      "sense_id": "animals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "animals",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "animals",
+  "observation_id": "a331f105b9da853c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "animals",
+  "source_context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+  "source_file": null,
+  "source_repo": "drivendataorg/zamba",
+  "source_repo_description": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+}

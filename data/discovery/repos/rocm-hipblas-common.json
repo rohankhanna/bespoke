@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:52:17.138990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1084
+    },
+    {
+      "path": "README.rst",
+      "size": 1392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop_deprecated",
+    "description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo ",
+    "fork": false,
+    "full_name": "ROCm/hipBLAS-common",
+    "html_url": "https://github.com/ROCm/hipBLAS-common",
+    "language": "CMake",
+    "pushed_at": "2026-04-14T13:53:38Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-06-13T17:51:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

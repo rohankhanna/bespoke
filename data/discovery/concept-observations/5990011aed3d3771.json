@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](assets/header-nef.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](assets/header-nef.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28605259,
+      "status": "candidate",
+      "text": "hyde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635685,
+      "status": "candidate",
+      "text": "jukes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635684,
+      "status": "candidate",
+      "text": "jelf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635683,
+      "status": "candidate",
+      "text": "jinkings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635682,
+      "status": "candidate",
+      "text": "jyles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jekyll",
+      "sense_id": "jekyll#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jekyll",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jekyll",
+  "observation_id": "5990011aed3d3771",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "jekyll",
+  "source_context_snippet": "![](assets/header-nef.png)",
+  "source_file": null,
+  "source_repo": "bow-swift/nef",
+  "source_repo_description": "\ud83d\udc8a steroids for Xcode Playgrounds"
+}

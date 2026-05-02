@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "nihopa/nlpre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "marcotcr/lime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "NIHOPA/word2vec_pipeline"
+}

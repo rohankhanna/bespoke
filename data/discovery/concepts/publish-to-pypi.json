@@ -821,6 +821,18 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1235,6 +1247,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tensorpack/tensorpack",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -2048,11 +2066,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tensorpack/tensorpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "ARISE-Initiative/robosuite"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

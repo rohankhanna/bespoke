@@ -4247,6 +4247,30 @@
       "source_repo": "nutsdb/nutsdb",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate-context",
+      "text": "A cgo-free SDL3 binding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate-context",
+      "text": "Jet  template engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
     }
   ],
   "candidate_glosses": [
@@ -6379,6 +6403,18 @@
       "source_repo": "nutsdb/nutsdb",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudyKit/jet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -9056,11 +9092,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "CloudyKit/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

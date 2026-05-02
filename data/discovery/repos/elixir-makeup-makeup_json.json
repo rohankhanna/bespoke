@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-elixir@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_json",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_json",
+      "target": "erlef/setup-elixir@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:03:37.072342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JSON lexer for Makeup",
+    "fork": false,
+    "full_name": "elixir-makeup/makeup_json",
+    "html_url": "https://github.com/elixir-makeup/makeup_json",
+    "language": "Elixir",
+    "pushed_at": "2025-02-10T08:06:43Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-02-10T08:06:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

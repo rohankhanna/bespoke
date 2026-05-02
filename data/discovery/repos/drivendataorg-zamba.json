@@ -1,0 +1,600 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml"
+    },
+    {
+      "component": "drivendataorg/setup-python-uv-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml"
+    },
+    {
+      "component": "drivendataorg/setup-python-uv-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "drivendataorg/setup-python-uv-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Iamshankhadeep/setup-ffmpeg@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Iamshankhadeep/setup-ffmpeg@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "jayqi/failed-build-issue-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "r-b-g-b/yolox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "drivendataorg/setup-python-uv-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "nwtgck/actions-netlify@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "docs-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "drivendataorg/setup-python-uv-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "nwtgck/actions-netlify@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "docs-preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "drivendataorg/setup-python-uv-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "pypa/gh-action-pypi-publish@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "nwtgck/actions-netlify@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "Iamshankhadeep/setup-ffmpeg@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "jayqi/failed-build-issue-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "animals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "camera-traps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "chimps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "conservation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "ecology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "jungle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba",
+      "target": "videos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:43:49.398645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8485
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2403
+    },
+    {
+      "path": ".github/workflows/docs-latest.yml",
+      "size": 1556
+    },
+    {
+      "path": ".github/workflows/docs-preview.yml",
+      "size": 1120
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4013
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 8690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images",
+    "fork": false,
+    "full_name": "drivendataorg/zamba",
+    "html_url": "https://github.com/drivendataorg/zamba",
+    "language": "Python",
+    "pushed_at": "2026-02-17T01:56:52Z",
+    "stargazers_count": 153,
+    "topics": [
+      "animals",
+      "camera-traps",
+      "chimps",
+      "cli",
+      "conservation",
+      "deep-learning",
+      "ecology",
+      "gpu",
+      "images",
+      "jungle",
+      "machine-learning",
+      "neural-network",
+      "python",
+      "pytorch",
+      "pytorch-lightning",
+      "video-processing",
+      "videos"
+    ],
+    "updated_at": "2026-04-24T11:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-b-g-b/yolox",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "term": "docs-latest"
+    },
+    {
+      "context_snippet": "docs-preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "term": "docs-preview"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animals"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-traps"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chimps"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conservation"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecology"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jungle"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    },
+    {
+      "context_snippet": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videos"
+    }
+  ]
+}

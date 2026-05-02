@@ -826,6 +826,18 @@
       "source_repo": "whatyouhide/stream_data",
       "status": "candidate-context",
       "text": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "Property based Testing for Elixir (based upon PropEr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang"
     }
   ],
   "candidate_glosses": [
@@ -1236,6 +1248,12 @@
       "source_repo": "whatyouhide/stream_data",
       "status": "candidate",
       "text": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate",
+      "text": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang"
     }
   ],
   "candidate_related_terms": [
@@ -1861,11 +1879,65 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "alfert/propcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -531,6 +531,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "yifanzhang713/IA-SSD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Thinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI"
     }
   ],
   "term": "object-detection"

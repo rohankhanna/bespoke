@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -772,6 +772,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "jalammar/ecco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ]
 }

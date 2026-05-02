@@ -46,7 +46,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ai-co-authors.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build-amd.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -144,14 +144,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
 }

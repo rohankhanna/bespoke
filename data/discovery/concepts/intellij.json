@@ -103,6 +103,18 @@
       "source_repo": "SchwarzIT/spectral-intellij-plugin",
       "status": "candidate-context",
       "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Template repository for creating plugins for IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "SchwarzIT/spectral-intellij-plugin",
       "status": "candidate",
       "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +316,17 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

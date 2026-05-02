@@ -511,6 +511,18 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "Scheduling infrastructure for absolutely everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +777,12 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [
@@ -1209,11 +1227,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "calcom/cal.diy"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -178,6 +178,18 @@
       "source_repo": "prisma/prisma-examples",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "prisma/prisma-examples",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [
@@ -421,11 +439,17 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "boxyhq/saas-starter-kit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

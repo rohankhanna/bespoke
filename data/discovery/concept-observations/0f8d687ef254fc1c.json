@@ -84,7 +84,7 @@
   "normalized_form": "deploy",
   "observation_id": "0f8d687ef254fc1c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "deploy",
   "source_context_snippet": "deploy",
   "source_file": ".github/workflows/publish-to-pypi.yml",

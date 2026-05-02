@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1162,6 +1162,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "esy/esy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "datajuicer/data-juicer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-helper-next.yml",
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-helper.yml",
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-production-build.yml",
+      "source_repo": "coollabsio/coolify"
     }
   ]
 }

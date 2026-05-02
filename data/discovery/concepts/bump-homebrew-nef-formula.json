@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Homebrew nef formula"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "Bump Homebrew nef formula"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate",
+      "text": "Bump Homebrew nef formula"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "hooking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "hooks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "jook"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Homebrew nef formula",
+  "concept_id": "bump-homebrew-nef-formula",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/bump-formula.yml",
+      "source_repo": "bow-swift/nef"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Homebrew nef formula",
+      "sense_id": "bump-homebrew-nef-formula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

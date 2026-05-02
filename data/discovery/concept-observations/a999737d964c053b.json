@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc12 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "modern-normalize \u2014 Normalize browsers' default style"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "modern-normalize \u2014 Normalize browsers' default style"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "npm-package",
+      "sense_id": "npm-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "npm-package",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "npm-package",
+  "observation_id": "a999737d964c053b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "npm-package",
+  "source_context_snippet": "modern-normalize \u2014 Normalize browsers' default style",
+  "source_file": null,
+  "source_repo": "sindresorhus/modern-normalize",
+  "source_repo_description": "\ud83d\udc12 Normalize browsers' default style"
+}

@@ -19,12 +19,30 @@
       "source_repo": "robotology/gym-ignition-models",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "robotology/gym-ignition-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

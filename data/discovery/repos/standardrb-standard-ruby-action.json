@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "ruby/setup-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "andrewmcodes/standardrb-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "autofixer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action",
+      "target": "standardrb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:56:04.172794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2872
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1277
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub Action to run Standard Ruby against your code.",
+    "fork": false,
+    "full_name": "standardrb/standard-ruby-action",
+    "html_url": "https://github.com/standardrb/standard-ruby-action",
+    "language": null,
+    "pushed_at": "2026-05-01T12:34:53Z",
+    "stargazers_count": 17,
+    "topics": [
+      "autofixer",
+      "github-action",
+      "linter",
+      "standardrb"
+    ],
+    "updated_at": "2026-03-02T12:15:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewmcodes/standardrb-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby/setup-ruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Smoke Test"
+    },
+    {
+      "context_snippet": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autofixer"
+    },
+    {
+      "context_snippet": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standardrb"
+    }
+  ]
+}

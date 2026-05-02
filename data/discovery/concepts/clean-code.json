@@ -55,6 +55,18 @@
       "source_repo": "trylovetom/clean-code-javascript",
       "status": "candidate-context",
       "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "Conceitos de C\u00f3digo Limpo adaptados em JavaScript (Tradu\u00e7\u00e3o PT-BR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "trylovetom/clean-code-javascript",
       "status": "candidate",
       "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "status": "candidate",
+      "text": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "trylovetom/clean-code-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "trylovetom/clean-code-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "felipe-augusto/clean-code-javascript"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

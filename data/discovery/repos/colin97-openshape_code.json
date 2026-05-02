@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "salesforce/ulip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "3d-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "3d-shape-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "3d-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "point-cloud-caption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "zero-shot-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code",
+      "target": "zero-shot-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:31:39.747692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "official code of \u201cOpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding\u201d",
+    "fork": false,
+    "full_name": "Colin97/OpenShape_code",
+    "html_url": "https://github.com/Colin97/OpenShape_code",
+    "language": "Python",
+    "pushed_at": "2025-03-16T22:42:27Z",
+    "stargazers_count": 311,
+    "topics": [
+      "3d",
+      "3d-classification",
+      "3d-shape-retrieval",
+      "3d-understanding",
+      "image-generation",
+      "point-cloud",
+      "point-cloud-caption",
+      "zero-shot-classification",
+      "zero-shot-retrieval"
+    ],
+    "updated_at": "2026-04-09T20:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/ulip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-classification"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-shape-retrieval"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-understanding"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-caption"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-classification"
+    },
+    {
+      "context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-retrieval"
+    }
+  ]
+}

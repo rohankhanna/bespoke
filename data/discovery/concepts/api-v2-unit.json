@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API v2 Unit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "Scheduling infrastructure for absolutely everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "API v2 Unit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate",
+      "text": "API v2 Unit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16404,
+      "status": "candidate",
+      "text": "apis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16374,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "beehive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "beeper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API v2 Unit",
+  "concept_id": "api-v2-unit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/api-v2-unit-tests.yml",
+      "source_repo": "calcom/cal.diy"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API v2 Unit",
+      "sense_id": "api-v2-unit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

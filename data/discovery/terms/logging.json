@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -161,6 +161,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JuliaLogging/LoggingExtras.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net"
     }
   ],
   "term": "logging"

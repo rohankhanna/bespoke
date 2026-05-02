@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "kreeti/kt-paperclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "gmontard/paperclip-azure-storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "janko-m/paperclip-dropbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "drpentode/attachment-on-the-fly",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "thoughtbot/paperclip"
+}

@@ -283,6 +283,18 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate-context",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate-context",
+      "text": "Welcome to the Microsoft Voice Assistant samples repository! Here you will find samples to help you get started building client application for your bot or Custom Command service. You will also be able to easily deploy a working Custom Command based Voice Assistant to your own Azure subscription"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -693,11 +711,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

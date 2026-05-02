@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "eclipsefdn-hugo-solstice-theme",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "list.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "target": "eclipsefdn/eclipsefdn-project-adopters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "target": "eclipsefdn-hugo-solstice-theme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "target": "list.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "target": "webdev",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:35.894109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2755
+    },
+    {
+      "path": "package.json",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and Cloud Platforms.",
+    "fork": false,
+    "full_name": "EclipseFdn/iot.eclipse.org",
+    "html_url": "https://github.com/EclipseFdn/iot.eclipse.org",
+    "language": "HTML",
+    "pushed_at": "2022-03-25T17:46:20Z",
+    "stargazers_count": 11,
+    "topics": [
+      "hugo",
+      "webdev"
+    ],
+    "updated_at": "2026-03-08T06:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipsefdn/eclipsefdn-project-adopters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdev"
+    }
+  ]
+}

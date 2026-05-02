@@ -19,6 +19,18 @@
       "source_repo": "Stanford-TML/robot_keyframe_kit",
       "status": "candidate-context",
       "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer https://arxiv.org/abs/2404.05695"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Stanford-TML/robot_keyframe_kit",
       "status": "candidate",
       "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Stanford-TML/robot_keyframe_kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

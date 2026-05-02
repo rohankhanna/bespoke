@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "Daily Building Script Execution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "source_repo": "alibaba/ChatLearn",
+      "target": "Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:35:39.738036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6584
+    },
+    {
+      "path": "requirements.txt",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1084
+    },
+    {
+      "path": ".github/workflows/unit_test.yml",
+      "size": 1040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A flexible and efficient training framework for large-scale alignment tasks",
+    "fork": false,
+    "full_name": "alibaba/ChatLearn",
+    "html_url": "https://github.com/alibaba/ChatLearn",
+    "language": "Python",
+    "pushed_at": "2025-10-23T06:33:12Z",
+    "stargazers_count": 453,
+    "topics": [],
+    "updated_at": "2026-04-23T04:02:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Daily Building Script Execution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Daily Building Script Execution"
+    },
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yml",
+      "term": "Unit Tests"
+    }
+  ]
+}

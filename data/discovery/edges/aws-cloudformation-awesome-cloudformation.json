@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cloudformation-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "cloudformation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "aws-cloudformation/awesome-cloudformation"
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "channelcat/sanic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "eugeniy/pytest-tornado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "pytest-dev/pytest-asyncio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "aio-libs/pytest-aiohttp",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "RasaHQ/pytest-sanic"
+}

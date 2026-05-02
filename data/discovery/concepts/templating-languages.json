@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "templating-languages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "A language for writing HTML user interfaces in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate",
+      "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "templating-languages",
+  "concept_id": "templating-languages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "a-h/templ"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "templating-languages",
+      "sense_id": "templating-languages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

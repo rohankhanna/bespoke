@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "github-repo-stats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "github-repo-stats"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate",
+      "text": "github-repo-stats"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "github-repo-stats",
+  "concept_id": "github-repo-stats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "PetervanLunteren/AddaxAI"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "github-repo-stats",
+      "sense_id": "github-repo-stats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

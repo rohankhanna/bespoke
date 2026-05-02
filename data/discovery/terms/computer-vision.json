@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -946,6 +946,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "v7labs/covid-19-xray-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/objaverse-xl"
     }
   ],
   "term": "computer-vision"

@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1297,6 +1297,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-to-pages.yaml",
       "source_repo": "NVIDIA/k8s-device-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ]
 }

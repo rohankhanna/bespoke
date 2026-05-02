@@ -1036,6 +1036,42 @@
       "source_repo": "heroku/buildpacks-dotnet",
       "status": "candidate-context",
       "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1554,6 +1590,24 @@
       "source_repo": "heroku/buildpacks-dotnet",
       "status": "candidate",
       "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2365,11 +2419,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bdovaz/UnityNuGet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

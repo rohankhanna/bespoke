@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:33:31.340811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "For organizing projects related to rOpenSci Software Peer Review",
+    "fork": false,
+    "full_name": "ropensci/software-review-meta",
+    "html_url": "https://github.com/ropensci/software-review-meta",
+    "language": null,
+    "pushed_at": "2022-03-23T08:40:41Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-03-22T08:14:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "log4net"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "log4net",
+  "concept_id": "log4net",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "log4net",
+      "sense_id": "log4net#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -36,20 +36,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "standardrb/standard-sorbet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standardrb/standard",
-      "target": "standardrb/standard-ruby-action",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standardrb/standard",
       "target": "testdouble/standard",
       "target_type": "repository"
     },
@@ -138,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:52:40.044930+00:00",
+  "fetched_at": "2026-05-02T12:56:11.368620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,27 +148,17 @@
     "full_name": "standardrb/standard",
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
-    "pushed_at": "2026-04-21T01:32:31Z",
-    "stargazers_count": 2893,
+    "pushed_at": "2026-05-02T02:11:30Z",
+    "stargazers_count": 2894,
     "topics": [
       "formatter",
       "linter",
       "rubocop",
       "ruby"
     ],
-    "updated_at": "2026-05-01T00:04:17Z"
+    "updated_at": "2026-05-01T15:42:22Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "standardrb/standard-ruby-action",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "standardrb/standard-sorbet",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "testdouble/standard",

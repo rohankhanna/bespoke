@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "wangyuxinwhy/uniem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "answerdotai/rerankers",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "NLPJCL/RAG-Retrieval"
+}

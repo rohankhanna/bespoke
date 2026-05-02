@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ebml-go/ebml",
+      "target": "ebml-go/webm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:43:40.638905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 676
+    },
+    {
+      "path": "go.mod",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of an EBML decoder in the Go Programming Language.",
+    "fork": false,
+    "full_name": "ebml-go/ebml",
+    "html_url": "https://github.com/ebml-go/ebml",
+    "language": "Go",
+    "pushed_at": "2022-11-14T15:29:29Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-12-20T15:36:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebml-go/webm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

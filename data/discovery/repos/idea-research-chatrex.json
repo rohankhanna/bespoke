@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/ChatRex",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/ChatRex",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/ChatRex",
+      "target": "multimodal-deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:22.557375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25803
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.0",
+    "description": "Code for ChatRex: Taming Multimodal LLM for Joint Perception and Understanding",
+    "fork": false,
+    "full_name": "IDEA-Research/ChatRex",
+    "html_url": "https://github.com/IDEA-Research/ChatRex",
+    "language": "Python",
+    "pushed_at": "2025-10-15T02:25:29Z",
+    "stargazers_count": 212,
+    "topics": [
+      "detection",
+      "llm",
+      "mllm",
+      "multimodal-deep-learning",
+      "vlm"
+    ],
+    "updated_at": "2026-04-14T09:16:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-deep-learning"
+    }
+  ]
+}

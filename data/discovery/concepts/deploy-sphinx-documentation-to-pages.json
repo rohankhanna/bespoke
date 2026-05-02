@@ -61,6 +61,18 @@
       "source_repo": "agentscope-ai/agentscope",
       "status": "candidate-context",
       "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "Data processing for and with foundation models!  \ud83c\udf4e \ud83c\udf4b \ud83c\udf3d \u27a1\ufe0f \u27a1\ufe0f\ud83c\udf78 \ud83c\udf79 \ud83c\udf77"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx documentation to Pages"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate",
+      "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
       "status": "candidate",
       "text": "Deploy Sphinx documentation to Pages"
     }
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/sphinx_docs.yml",
       "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

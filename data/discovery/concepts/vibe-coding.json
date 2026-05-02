@@ -91,6 +91,18 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mountchicken/Resophy",
+      "status": "candidate-context",
+      "text": "\ud83c\udfaf Read research papers faster with AI. Resophy is an HTML-based AI paper reader with:  \ud83e\udd16 AI Translation & Analysis \u2014 instantly understand structure, contributions, and results  \ud83d\ude80 Daily arXiv Recommendations \u2014 discover relevant papers with less noise  \ud83d\udee0\ufe0f Vibe Coding Oriented \u2014 agent-friendly and easy to customize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Resophy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "metatool-ai/metamcp",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Resophy",
+      "status": "candidate",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "metatool-ai/metamcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Mountchicken/Resophy"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

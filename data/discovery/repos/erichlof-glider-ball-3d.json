@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:40:59.114276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fully path traced 3D action game for all devices with a browser. https://erichlof.github.io/Glider-Ball-3D/Glider_Ball_3D.html",
+    "fork": false,
+    "full_name": "erichlof/Glider-Ball-3D",
+    "html_url": "https://github.com/erichlof/Glider-Ball-3D",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T19:34:29Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-17T19:34:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

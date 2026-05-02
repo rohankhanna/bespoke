@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021440,
+      "status": "candidate",
+      "text": "vmci"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021439,
+      "status": "candidate",
+      "text": "vrml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021438,
+      "status": "candidate",
+      "text": "jvmdi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021437,
+      "status": "candidate",
+      "text": "vdm-sl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021436,
+      "status": "candidate",
+      "text": "llvm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mvvm",
+      "sense_id": "mvvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mvvm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mvvm",
+  "observation_id": "9566d0a2aa9cc0ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "mvvm",
+  "source_context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+  "source_file": null,
+  "source_repo": "reactiveui/ReactiveUI",
+  "source_repo_description": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+}

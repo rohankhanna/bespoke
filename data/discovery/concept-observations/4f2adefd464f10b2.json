@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "User-friendly glob matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "globby \u2014 User-friendly glob matching"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "globby \u2014 User-friendly glob matching"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "boards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "catalogues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "clues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "collections"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "directories",
+      "sense_id": "directories#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "directories",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "directories",
+  "observation_id": "4f2adefd464f10b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "directories",
+  "source_context_snippet": "globby \u2014 User-friendly glob matching",
+  "source_file": null,
+  "source_repo": "sindresorhus/globby",
+  "source_repo_description": "User-friendly glob matching"
+}

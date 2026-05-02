@@ -187,11 +187,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/gaia.yml",
       "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

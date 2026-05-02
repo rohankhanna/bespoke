@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "@turf/turf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-vincenty",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "mapbox/cheap-ruler-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "vipera/cheap-ruler-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "turbo87/flat-projection-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "@turf/turf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "node-vincenty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "geodesy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler",
+      "target": "measurements",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:59:41.882513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6810
+    },
+    {
+      "path": "package.json",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "size": 384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast approximations for common geodesic measurements \ud83c\udf10",
+    "fork": false,
+    "full_name": "mapbox/cheap-ruler",
+    "html_url": "https://github.com/mapbox/cheap-ruler",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-23T09:11:39Z",
+    "stargazers_count": 427,
+    "topics": [
+      "distance",
+      "fast",
+      "geodesy",
+      "javascript",
+      "library",
+      "measurements"
+    ],
+    "updated_at": "2026-04-09T15:27:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/cheap-ruler-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turbo87/flat-projection-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vipera/cheap-ruler-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "term": "Node"
+    },
+    {
+      "context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distance"
+    },
+    {
+      "context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geodesy"
+    },
+    {
+      "context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "measurements"
+    }
+  ]
+}

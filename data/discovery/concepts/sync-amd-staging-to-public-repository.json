@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync amd-staging to public repository"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/roctracer",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-systems repo "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/roctracer",
+      "status": "candidate-context",
+      "text": "Sync amd-staging to public repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/roctracer",
+      "status": "candidate",
+      "text": "Sync amd-staging to public repository"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28031,
+      "status": "candidate",
+      "text": "street"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28021,
+      "status": "candidate",
+      "text": "lost-and-found"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24435,
+      "status": "candidate",
+      "text": "crew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24393,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24393,
+      "status": "candidate",
+      "text": "hand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync amd-staging to public repository",
+  "concept_id": "sync-amd-staging-to-public-repository",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/sync-staging.yaml",
+      "source_repo": "ROCm/roctracer"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync amd-staging to public repository",
+      "sense_id": "sync-amd-staging-to-public-repository#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

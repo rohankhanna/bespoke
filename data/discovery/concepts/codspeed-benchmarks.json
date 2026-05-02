@@ -106,6 +106,18 @@
       "source_repo": "z-galaxy/zbus",
       "status": "candidate-context",
       "text": "CodSpeed Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "Rust parser combinator framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "codspeed-benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "z-galaxy/zbus",
       "status": "candidate",
       "text": "CodSpeed Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate",
+      "text": "codspeed-benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +283,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/codspeed.yml",
       "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "rust-bakery/nom"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

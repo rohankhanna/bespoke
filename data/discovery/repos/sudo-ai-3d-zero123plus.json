@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "image-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "research-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:31:57.305193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7281
+    },
+    {
+      "path": "Dockerfile",
+      "size": 986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model.",
+    "fork": false,
+    "full_name": "SUDO-AI-3D/zero123plus",
+    "html_url": "https://github.com/SUDO-AI-3D/zero123plus",
+    "language": "Python",
+    "pushed_at": "2024-02-23T18:17:53Z",
+    "stargazers_count": 2034,
+    "topics": [
+      "3d",
+      "3d-graphics",
+      "aigc",
+      "diffusers",
+      "diffusion-models",
+      "image-to-3d",
+      "research-project",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-04-30T07:43:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-3d"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research-project"
+    },
+    {
+      "context_snippet": "![Teaser](resources/teaser-low.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

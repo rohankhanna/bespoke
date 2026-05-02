@@ -1,7 +1,7 @@
 {
   "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-bindings.yml",
       "source_repo": "conda/rattler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml",
+      "source_repo": "prefix-dev/rattler-build"
     }
   ]
 }

@@ -32,6 +32,18 @@
       "source_repo": "beached/daw_json_link",
       "status": "candidate-context",
       "text": "Doxygen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-cpp",
+      "status": "candidate-context",
+      "text": "Core C++ Sketch Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-cpp",
+      "status": "candidate-context",
+      "text": "Doxygen"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "beached/daw_json_link",
+      "status": "candidate",
+      "text": "Doxygen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-cpp",
       "status": "candidate",
       "text": "Doxygen"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/doxygen.yaml",
       "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "apache/datasketches-cpp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/api-node-template.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ai-co-authors.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/docker-build-amd.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build-amd.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/docker-build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build.yml"
     },
@@ -66,27 +66,27 @@
       "source_file": ".github/workflows/docker-build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -143,7 +143,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ai-co-authors.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -164,7 +164,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build-amd.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -206,7 +206,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -241,14 +241,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -266,7 +266,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:41:02.431890+00:00",
+  "fetched_at": "2026-05-02T12:38:17.668463+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -302,7 +302,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 24482
+      "size": 26261
     }
   ],
   "related_repositories": [],
@@ -314,10 +314,10 @@
     "full_name": "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "html_url": "https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-01T04:13:11Z",
+    "pushed_at": "2026-05-01T22:27:14Z",
     "stargazers_count": 81,
     "topics": [],
-    "updated_at": "2026-05-01T04:13:17Z"
+    "updated_at": "2026-05-01T22:27:20Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "dialogs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder .NET SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder JavaScript SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024970,
+      "status": "candidate",
+      "text": "dialogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024671,
+      "status": "candidate",
+      "text": "duologue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "conversations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "dialogues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "talks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dialogs",
+  "concept_id": "dialogs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dialogs",
+      "sense_id": "dialogs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

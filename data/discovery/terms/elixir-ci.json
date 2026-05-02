@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -191,6 +191,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/elixir.yml",
       "source_repo": "rkallos/peep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ],
   "term": "Elixir CI"

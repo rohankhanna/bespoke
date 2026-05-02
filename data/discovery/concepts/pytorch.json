@@ -6283,6 +6283,18 @@
       "source_repo": "twhui/LiteFlowNet",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
     }
   ],
   "candidate_glosses": [
@@ -9423,6 +9435,12 @@
       "source_repo": "twhui/LiteFlowNet",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
     }
   ],
   "candidate_related_terms": [
@@ -14296,11 +14314,53 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -51,6 +51,13 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-determinism.yml",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-libktx-only.yml",
       "source_repo": "KhronosGroup/KTX-Software",
       "target": "actions/checkout@v6",
@@ -253,13 +260,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/manual.yml",
-      "source_repo": "KhronosGroup/KTX-Software",
-      "target": "Manually Run All Workflows",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "KhronosGroup/KTX-Software",
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "KhronosGroup/KTX-Software"
 }

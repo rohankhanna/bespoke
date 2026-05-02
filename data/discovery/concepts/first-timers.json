@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "first-timers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9898191,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "repeat customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "returning customer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "first-timers",
+  "concept_id": "first-timers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "first-timers",
+      "sense_id": "first-timers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

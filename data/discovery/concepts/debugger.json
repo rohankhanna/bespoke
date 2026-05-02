@@ -283,6 +283,18 @@
       "source_repo": "hackwaly/ocamlearlybird",
       "status": "candidate-context",
       "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhen0409/react-native-debugger",
+      "status": "candidate-context",
+      "text": "The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhen0409/react-native-debugger",
+      "status": "candidate-context",
+      "text": "[![Backers on Open Collective](https://opencollective.com/react-native-debugger/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-debugger/sponsors/badge.svg)](#sponsors) [![CI Status](https://github.com/jhen0409/react-native-d\u2026"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "hackwaly/ocamlearlybird",
       "status": "candidate",
       "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhen0409/react-native-debugger",
+      "status": "candidate",
+      "text": "[![Backers on Open Collective](https://opencollective.com/react-native-debugger/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-debugger/sponsors/badge.svg)](#sponsors) [![CI Status](https://github.com/jhen0409/react-native-d\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +676,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "jhen0409/react-native-debugger"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

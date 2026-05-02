@@ -1,0 +1,508 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml"
+    },
+    {
+      "component": "jtalk/url-health-check-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-cleanup.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-verify.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jetbrains/intellij-sdk-code-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jetbrains/gradle-changelog-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jetbrains/intellij-ui-test-robot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jtalk/url-health-check-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "Run UI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "ad-m/github-push-action@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "Template Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-verify.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-verify.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "Template Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij-idea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij-idea-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "intellij-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "target": "jetbrains-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:43:00.506762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32860
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6369
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3397
+    },
+    {
+      "path": ".github/workflows/run-ui-tests.yml",
+      "size": 1770
+    },
+    {
+      "path": ".github/workflows/template-cleanup.yml",
+      "size": 3044
+    },
+    {
+      "path": ".github/workflows/template-verify.yml",
+      "size": 1398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template repository for creating plugins for IntelliJ Platform",
+    "fork": false,
+    "full_name": "JetBrains/intellij-platform-plugin-template",
+    "html_url": "https://github.com/JetBrains/intellij-platform-plugin-template",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T06:52:59Z",
+    "stargazers_count": 3722,
+    "topics": [
+      "intellij",
+      "intellij-idea",
+      "intellij-idea-plugin",
+      "intellij-platform",
+      "intellij-plugin",
+      "intellij-plugins",
+      "jetbrains-plugin"
+    ],
+    "updated_at": "2026-04-29T20:03:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/gradle-changelog-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/intellij-sdk-code-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/intellij-ui-test-robot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run UI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "term": "Run UI Tests"
+    },
+    {
+      "context_snippet": "Template Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "term": "Template Cleanup"
+    },
+    {
+      "context_snippet": "Template Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-verify.yml",
+      "term": "Template Verify"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-idea"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-idea-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-platform"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugins"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains-plugin"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-db/barrel",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-db/barrel",
+      "target": "diesel-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-db/barrel",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-db/barrel",
+      "target": "schema-migration-builder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:47:09.676507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udee2 A database schema migration builder for Rust",
+    "fork": false,
+    "full_name": "rust-db/barrel",
+    "html_url": "https://github.com/rust-db/barrel",
+    "language": "Rust",
+    "pushed_at": "2021-07-07T16:27:58Z",
+    "stargazers_count": 429,
+    "topics": [
+      "database",
+      "diesel-rs",
+      "rust",
+      "schema-migration-builder",
+      "sql"
+    ],
+    "updated_at": "2026-02-23T18:32:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diesel-rs"
+    },
+    {
+      "context_snippet": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-migration-builder"
+    }
+  ]
+}

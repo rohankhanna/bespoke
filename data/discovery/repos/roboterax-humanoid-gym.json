@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "control-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "humanoid-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "locomotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:19.552771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer https://arxiv.org/abs/2404.05695",
+    "fork": false,
+    "full_name": "roboterax/humanoid-gym",
+    "html_url": "https://github.com/roboterax/humanoid-gym",
+    "language": "Python",
+    "pushed_at": "2025-01-26T08:11:29Z",
+    "stargazers_count": 1958,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "control-systems",
+      "humanoid-robot",
+      "locomotion",
+      "machine-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-05-01T11:24:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control-systems"
+    },
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid-robot"
+    },
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "locomotion"
+    },
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

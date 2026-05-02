@@ -319,6 +319,18 @@
       "source_repo": "elixir-ecto/myxql",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/elixir-ecto/myxql/workflows/CI/badge.svg)](https://github.com/elixir-ecto/myxql/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "elixir-ecto/myxql",
       "status": "candidate",
       "text": "[![CI](https://github.com/elixir-ecto/myxql/workflows/CI/badge.svg)](https://github.com/elixir-ecto/myxql/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +760,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "coollabsio/coolify"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

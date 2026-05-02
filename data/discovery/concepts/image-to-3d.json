@@ -31,6 +31,30 @@
       "source_repo": "cvlab-columbia/zero123",
       "status": "candidate-context",
       "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "\ud83e\ude90 Objaverse-XL is a Universe of 10M+ 3D Objects. Contains API Scripts for Downloading and Processing!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to download and process Objaverse-XL."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "cvlab-columbia/zero123",
       "status": "candidate",
       "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate",
+      "text": "This repository contains scripts to download and process Objaverse-XL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "cvlab-columbia/zero123"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "allenai/objaverse-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Collection Labeler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "PR Collection Labeler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "PR Collection Labeler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "ex libris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "herbarium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "bookplate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "genre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "index"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Collection Labeler",
+  "concept_id": "pr-collection-labeler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/sdformat"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Collection Labeler",
+      "sense_id": "pr-collection-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

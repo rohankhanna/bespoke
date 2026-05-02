@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "My fork of https://github.com/taichi-dev/taichi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Taichi Workflow Initiator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Taichi Workflow Initiator"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "acclamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "acculturation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "adenoidectomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "agrarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "anticathode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Taichi Workflow Initiator",
+      "sense_id": "taichi-workflow-initiator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "taichi-workflow-initiator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "taichi-workflow-initiator",
+  "observation_id": "aac4e229ccdebe46",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "Taichi Workflow Initiator",
+  "source_context_snippet": "Taichi Workflow Initiator",
+  "source_file": ".github/workflows/initiator.yaml",
+  "source_repo": "yuanming-hu/taichi",
+  "source_repo_description": "My fork of https://github.com/taichi-dev/taichi"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "clear-ok-to-deploy-on-new-commits",
   "observation_id": "2106db48bbc0e15d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "Clear ok-to-deploy on new commits",
   "source_context_snippet": "Clear ok-to-deploy on new commits",
   "source_file": ".github/workflows/clear-ok-to-deploy.yml",

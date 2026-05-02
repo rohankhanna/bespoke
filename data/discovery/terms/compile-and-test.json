@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/compile-and-test.yml",
       "source_repo": "cawa-93/vite-electron-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef"
     }
   ],
   "term": "Compile and test"

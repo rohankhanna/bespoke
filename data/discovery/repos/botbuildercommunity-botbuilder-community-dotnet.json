@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "botbuildercommunity/botbuilder-community-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "botbuildercommunity/botbuilder-community-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "botbuildercommunity/botbuilder-community-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "microsoft/botbuilder-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "adapters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "bot-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "dialogs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "target": "recognizers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:00:24.032511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder .NET SDK, including middleware, dialogs, recognizers and more.",
+    "fork": false,
+    "full_name": "BotBuilderCommunity/botbuilder-community-dotnet",
+    "html_url": "https://github.com/BotBuilderCommunity/botbuilder-community-dotnet",
+    "language": "C#",
+    "pushed_at": "2024-07-18T06:24:16Z",
+    "stargazers_count": 282,
+    "topics": [
+      "adapters",
+      "bot-builder",
+      "bot-framework",
+      "dialogs",
+      "hacktoberfest",
+      "middleware",
+      "recognizers"
+    ],
+    "updated_at": "2026-04-26T00:54:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-v3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adapters"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-builder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialogs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognizers"
+    }
+  ]
+}

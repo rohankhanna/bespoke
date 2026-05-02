@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "propcheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "Property based Testing for Elixir (based upon PropEr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate",
+      "text": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "propcheck",
+  "concept_id": "propcheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "alfert/propcheck"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "propcheck",
+      "sense_id": "propcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

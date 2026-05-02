@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToruOwO/hato",
+      "target": "rail-berkeley/oculus_reader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToruOwO/hato",
+      "target": "wuphilipp/gello_software",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToruOwO/hato",
+      "target": "psyonicinc/ability-hand-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:05.167867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8694
+    },
+    {
+      "path": "requirements.txt",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd4a\ufe0f HATO: Learning Visuotactile Skills with Two Multifingered Hands [ICRA 2025]",
+    "fork": false,
+    "full_name": "ToruOwO/hato",
+    "html_url": "https://github.com/ToruOwO/hato",
+    "language": "Python",
+    "pushed_at": "2024-05-27T06:45:26Z",
+    "stargazers_count": 168,
+    "topics": [],
+    "updated_at": "2026-04-23T06:25:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psyonicinc/ability-hand-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rail-berkeley/oculus_reader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuphilipp/gello_software",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

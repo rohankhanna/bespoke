@@ -97,6 +97,18 @@
       "source_repo": "obsidianmd/eslint-plugin",
       "status": "candidate-context",
       "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/reselect",
+      "status": "candidate-context",
+      "text": "Selector library for Redux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/reselect",
+      "status": "candidate-context",
+      "text": "Publish Package to npmjs"
     }
   ],
   "candidate_glosses": [
@@ -145,6 +157,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "obsidianmd/eslint-plugin",
+      "status": "candidate",
+      "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/reselect",
       "status": "candidate",
       "text": "Publish Package to npmjs"
     }
@@ -244,11 +262,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "obsidianmd/eslint-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "reduxjs/reselect"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pals-ttic/sjc",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pals-ttic/sjc",
+      "target": "diffusion-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:31:54.276050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13019
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation (CVPR 2023)",
+    "fork": false,
+    "full_name": "pals-ttic/sjc",
+    "html_url": "https://github.com/pals-ttic/sjc",
+    "language": "Python",
+    "pushed_at": "2024-03-13T22:07:19Z",
+    "stargazers_count": 524,
+    "topics": [
+      "3d-generation",
+      "diffusion-models"
+    ],
+    "updated_at": "2026-04-11T07:47:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Haochen Wang*](https://whc.is/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "[Haochen Wang*](https://whc.is/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    }
+  ]
+}

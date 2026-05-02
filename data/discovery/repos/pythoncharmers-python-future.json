@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PythonCharmers/python-future",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:24.889459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 11373
+    },
+    {
+      "path": "Dockerfile",
+      "size": 129
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy, clean, reliable Python 2/3 compatibility",
+    "fork": false,
+    "full_name": "PythonCharmers/python-future",
+    "html_url": "https://github.com/PythonCharmers/python-future",
+    "language": "Python",
+    "pushed_at": "2025-05-19T20:20:19Z",
+    "stargazers_count": 1191,
+    "topics": [],
+    "updated_at": "2026-04-29T11:42:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -547,6 +547,54 @@
       "source_repo": "facebookresearch/habitat-sim",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer https://arxiv.org/abs/2404.05695"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +867,30 @@
       "source_repo": "facebookresearch/habitat-sim",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-sim/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-sim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1198,11 +1270,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/habitat-sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/sdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ARISE-Initiative/robosuite"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

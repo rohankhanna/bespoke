@@ -1,0 +1,17 @@
+{
+  "component": "AMD-ROCm-Internal/rocprofiler-github-actions@git-sync-v3",
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-mainline.yaml",
+      "source_repo": "ROCm/roctracer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-staging.yaml",
+      "source_repo": "ROCm/roctracer"
+    }
+  ]
+}

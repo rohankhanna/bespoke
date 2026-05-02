@@ -1,12 +1,27 @@
 {
   "component": "sarisia/actions-status-discord@v1",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "architect/architect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-helper-next.yml",
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-helper.yml",
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coolify-production-build.yml",
+      "source_repo": "coollabsio/coolify"
     }
   ]
 }

@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jpetrucciani/mypy-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "jpetrucciani/mypy-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq",
+      "target": "CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/fileseq",
+      "target": "filesequence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/fileseq",
+      "target": "imagesequence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:16.976709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5996
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2317
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python library for parsing frame ranges.",
+    "fork": false,
+    "full_name": "justinfx/fileseq",
+    "html_url": "https://github.com/justinfx/fileseq",
+    "language": "Python",
+    "pushed_at": "2026-04-19T04:14:10Z",
+    "stargazers_count": 279,
+    "topics": [
+      "filesequence",
+      "imagesequence",
+      "python",
+      "vfx"
+    ],
+    "updated_at": "2026-05-02T03:14:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Tests"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/fileseq/badge/?version=latest)](http://fileseq.readthedocs.io/en/latest/) [![Build status](https://github.com/justinfx/fileseq/actions/workflows/ci.yml/badge.svg)](https://github.com/justinfx/fileseq/actions/workflows/ci.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesequence"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/fileseq/badge/?version=latest)](http://fileseq.readthedocs.io/en/latest/) [![Build status](https://github.com/justinfx/fileseq/actions/workflows/ci.yml/badge.svg)](https://github.com/justinfx/fileseq/actions/workflows/ci.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagesequence"
+    }
+  ]
+}

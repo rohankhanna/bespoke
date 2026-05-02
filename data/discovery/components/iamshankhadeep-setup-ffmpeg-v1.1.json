@@ -1,0 +1,12 @@
+{
+  "component": "Iamshankhadeep/setup-ffmpeg@v1.1",
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/zamba"
+    }
+  ]
+}

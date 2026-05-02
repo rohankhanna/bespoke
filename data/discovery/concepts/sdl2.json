@@ -43,6 +43,30 @@
       "source_repo": "veandco/go-sdl2",
       "status": "candidate-context",
       "text": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate-context",
+      "text": "Simple DirectMedia Layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate-context",
+      "text": "Simple DirectMedia Layer (SDL for short) is a cross-platform library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate-context",
+      "text": "Image decoding for many popular formats for Simple Directmedia Layer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate-context",
+      "text": "SDL_image 3.0"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "veandco/go-sdl2",
       "status": "candidate",
       "text": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate",
+      "text": "Simple DirectMedia Layer (SDL for short) is a cross-platform library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate",
+      "text": "SDL_image 3.0"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "veandco/go-sdl2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "libsdl-org/SDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "libsdl-org/SDL_image"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

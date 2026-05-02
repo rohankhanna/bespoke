@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "quantumope/groundingdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "rexthinker/rexthinker.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "grpo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Thinker",
+      "target": "referring-expression-comprehension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:25.426497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12451
+    },
+    {
+      "path": "requirements.txt",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR-2026] Rex-Thinker: Grounded Object Refering via Chain-of-Thought Reasoning",
+    "fork": false,
+    "full_name": "IDEA-Research/Rex-Thinker",
+    "html_url": "https://github.com/IDEA-Research/Rex-Thinker",
+    "language": "Python",
+    "pushed_at": "2025-06-30T13:36:57Z",
+    "stargazers_count": 148,
+    "topics": [
+      "grpo",
+      "mllm",
+      "object-detection",
+      "referring-expression-comprehension"
+    ],
+    "updated_at": "2026-04-26T17:25:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quantumope/groundingdino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rexthinker/rexthinker.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpo"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "referring-expression-comprehension"
+    }
+  ]
+}

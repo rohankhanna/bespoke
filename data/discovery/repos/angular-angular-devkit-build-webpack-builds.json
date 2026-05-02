@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "@angular-devkit/architect",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rxjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-build-webpack-builds",
+      "target": "@angular-devkit/architect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-build-webpack-builds",
+      "target": "rxjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-build-webpack-builds",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-build-webpack-builds",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:55:14.050367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1456
+    },
+    {
+      "path": "package.json",
+      "size": 1215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build artifacts for @angular-devkit/build-webpack",
+    "fork": false,
+    "full_name": "angular/angular-devkit-build-webpack-builds",
+    "html_url": "https://github.com/angular/angular-devkit-build-webpack-builds",
+    "language": null,
+    "pushed_at": "2026-05-01T17:59:59Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-05-01T18:00:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

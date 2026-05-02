@@ -871,6 +871,18 @@
       "source_repo": "ceres-solver/ceres-solver",
       "status": "candidate-context",
       "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1317,12 @@
       "source_repo": "ceres-solver/ceres-solver",
       "status": "candidate",
       "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2014,11 +2032,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

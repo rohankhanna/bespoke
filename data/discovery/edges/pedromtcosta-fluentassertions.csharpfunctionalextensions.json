@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pedromtcosta/FluentAssertions.CSharpFunctionalExtensions",
+      "target": "fluentassertions/fluentassertions",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "pedromtcosta/FluentAssertions.CSharpFunctionalExtensions"
+}

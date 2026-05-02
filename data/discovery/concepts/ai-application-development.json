@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-application-development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-application-development",
+  "concept_id": "ai-application-development",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-application-development",
+      "sense_id": "ai-application-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

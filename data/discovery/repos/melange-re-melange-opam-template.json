@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "reasonml/reason-react",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "ahrefs/opam-check-npm-deps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "melange-re/melange-opam-template",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:54:41.552901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2154
+    },
+    {
+      "path": "package.json",
+      "size": 2298
+    },
+    {
+      "path": ".github/workflows/build-sample-project.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple project template using Melange with opam",
+    "fork": false,
+    "full_name": "melange-re/melange-opam-template",
+    "html_url": "https://github.com/melange-re/melange-opam-template",
+    "language": "Reason",
+    "pushed_at": "2024-11-14T17:12:06Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-03-02T09:34:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reasonml/reason-react",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahrefs/opam-check-npm-deps",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

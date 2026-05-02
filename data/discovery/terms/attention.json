@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lucidrains/spear-tts-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention"
     }
   ],
   "term": "attention"

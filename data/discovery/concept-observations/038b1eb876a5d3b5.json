@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core C++ Sketch Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the core C++ component of the Apache DataSketches library. It contains all the key sketching algorithms from the Java implementation and can be accessed directly by user applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the core C++ component of the Apache DataSketches library. It contains all the key sketching algorithms from the Java implementation and can be accessed directly by user applications."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datasketches",
+      "sense_id": "datasketches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datasketches",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datasketches",
+  "observation_id": "038b1eb876a5d3b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "datasketches",
+  "source_context_snippet": "This is the core C++ component of the Apache DataSketches library. It contains all the key sketching algorithms from the Java implementation and can be accessed directly by user applications.",
+  "source_file": null,
+  "source_repo": "apache/datasketches-cpp",
+  "source_repo_description": "Core C++ Sketch Library"
+}

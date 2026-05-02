@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "libimobiledevice/libusbmuxd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "libimobiledevice/usbmuxd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "libimobiledevice/libirecovery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "common",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "shared",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:33:37.844586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7864
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library with common code used by libraries and tools around the libimobiledevice project",
+    "fork": false,
+    "full_name": "libimobiledevice/libimobiledevice-glue",
+    "html_url": "https://github.com/libimobiledevice/libimobiledevice-glue",
+    "language": "C",
+    "pushed_at": "2025-11-24T00:34:15Z",
+    "stargazers_count": 110,
+    "topics": [
+      "c",
+      "common",
+      "helper",
+      "library",
+      "shared",
+      "utility"
+    ],
+    "updated_at": "2026-04-27T05:32:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libimobiledevice/libirecovery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libimobiledevice/libusbmuxd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libimobiledevice/usbmuxd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Library with common code used by the libraries and tools around the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "common"
+    },
+    {
+      "context_snippet": "Library with common code used by the libraries and tools around the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helper"
+    },
+    {
+      "context_snippet": "Library with common code used by the libraries and tools around the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Library with common code used by the libraries and tools around the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shared"
+    },
+    {
+      "context_snippet": "Library with common code used by the libraries and tools around the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

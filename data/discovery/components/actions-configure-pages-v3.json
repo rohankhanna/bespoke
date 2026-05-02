@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v3",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy_docs.yml",
       "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ]
 }

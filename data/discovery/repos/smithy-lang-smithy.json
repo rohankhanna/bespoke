@@ -518,7 +518,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:19:25.623969+00:00",
+  "fetched_at": "2026-05-02T12:56:19.734776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -567,12 +567,12 @@
     "html_url": "https://github.com/smithy-lang/smithy",
     "language": "Java",
     "pushed_at": "2026-04-30T20:23:24Z",
-    "stargazers_count": 2251,
+    "stargazers_count": 2252,
     "topics": [
       "smithy",
       "smithy-models"
     ],
-    "updated_at": "2026-04-30T20:23:26Z"
+    "updated_at": "2026-05-01T16:21:06Z"
   },
   "repo_links": [],
   "terms": [

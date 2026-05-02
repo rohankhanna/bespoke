@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "danielstjules/buddy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "alivebao/clean-code-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "greg-dev/clean-code-javascript-pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "boryamogila/clean-code-javascript-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "clean-code",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "felipe-augusto/clean-code-javascript"
+}

@@ -859,6 +859,30 @@
       "source_repo": "Tencent/MimicMotion",
       "status": "candidate-context",
       "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pals-ttic/sjc",
+      "status": "candidate-context",
+      "text": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pals-ttic/sjc",
+      "status": "candidate-context",
+      "text": "[Haochen Wang*](https://whc.is/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1311,18 @@
       "source_repo": "Tencent/MimicMotion",
       "status": "candidate",
       "text": "<a href='http://tencent.github.io/MimicMotion'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.19680'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pals-ttic/sjc",
+      "status": "candidate",
+      "text": "[Haochen Wang*](https://whc.is/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -1936,11 +1972,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Tencent/MimicMotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "pals-ttic/sjc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

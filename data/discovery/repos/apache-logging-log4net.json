@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator-default",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@asciidoctor/tabs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-broadcast.yml"
+    },
+    {
+      "component": "actions/setup-node@v2-beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-broadcast.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4net",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4net",
+      "target": "@antora/site-generator-default",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4net",
+      "target": "@asciidoctor/tabs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4net",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4net",
+      "target": "actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4net",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-broadcast.yml",
+      "source_repo": "apache/logging-log4net",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-broadcast.yml",
+      "source_repo": "apache/logging-log4net",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-broadcast.yml",
+      "source_repo": "apache/logging-log4net",
+      "target": "Broadcast master updates to satellites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "log4net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "logger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net",
+      "target": "syslog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:05:03.282214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1094
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1961
+    },
+    {
+      "path": "package.json",
+      "size": 563
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/git-broadcast.yml",
+      "size": 1580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET",
+    "fork": false,
+    "full_name": "apache/logging-log4net",
+    "html_url": "https://github.com/apache/logging-log4net",
+    "language": "C#",
+    "pushed_at": "2026-04-22T19:03:45Z",
+    "stargazers_count": 926,
+    "topics": [
+      "apache",
+      "api",
+      "dotnet",
+      "library",
+      "log4net",
+      "logger",
+      "logging",
+      "syslog"
+    ],
+    "updated_at": "2026-04-29T15:14:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Broadcast master updates to satellites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-broadcast.yml",
+      "term": "Broadcast master updates to satellites"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log4net"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logger"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syslog"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "irongut/CodeCoverageSummary@v1.3.0",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-version.yml",
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow"
     }
   ]
 }

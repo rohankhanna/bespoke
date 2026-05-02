@@ -11,20 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ROCm/hipBLASLt",
-      "target": "rocm/hipblas-common",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/hipBLASLt",
-      "target": "rocm/roctracer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/hipBLASLt",
       "target": "rocmsoftwareplatform/hipblaslt",
       "target_type": "repository"
     },
@@ -78,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "ROCm/hipBLASLt"
 }

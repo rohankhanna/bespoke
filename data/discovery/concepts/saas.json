@@ -55,6 +55,18 @@
       "source_repo": "locize/locizify",
       "status": "candidate-context",
       "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "locize/locizify",
       "status": "candidate",
       "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "locize/locizify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "boxyhq/saas-starter-kit"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

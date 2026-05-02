@@ -19,6 +19,18 @@
       "source_repo": "pisa-engine/pisa",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ot/ds2i",
+      "status": "candidate-context",
+      "text": "A library of inverted index data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ot/ds2i",
+      "status": "candidate-context",
+      "text": "ds2i"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pisa-engine/pisa",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ot/ds2i",
+      "status": "candidate",
+      "text": "ds2i"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "pisa-engine/pisa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ot/ds2i"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:38:11.205002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository is a collection of scripts/programs I use to set up the software development environment on my Jetson Nano, TX2, and Xavier NX.",
+    "fork": false,
+    "full_name": "jkjung-avt/jetson_nano",
+    "html_url": "https://github.com/jkjung-avt/jetson_nano",
+    "language": "Shell",
+    "pushed_at": "2022-05-21T03:52:49Z",
+    "stargazers_count": 304,
+    "topics": [],
+    "updated_at": "2026-02-06T07:23:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

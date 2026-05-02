@@ -259,6 +259,18 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate-context",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate-context",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUDO-AI-3D/zero123plus",
+      "status": "candidate",
+      "text": "![Teaser](resources/teaser-low.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +628,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "SUDO-AI-3D/zero123plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

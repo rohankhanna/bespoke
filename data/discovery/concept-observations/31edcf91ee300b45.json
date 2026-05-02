@@ -84,7 +84,7 @@
   "normalized_form": "weekly-cog-update",
   "observation_id": "31edcf91ee300b45",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "Weekly Cog Update",
   "source_context_snippet": "Weekly Cog Update",
   "source_file": ".github/workflows/cog.yml",

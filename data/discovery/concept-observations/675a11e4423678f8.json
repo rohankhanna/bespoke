@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of resources and projects for working with AWS CloudFormation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudformation",
+      "sense_id": "cloudformation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloudformation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloudformation",
+  "observation_id": "675a11e4423678f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "cloudformation",
+  "source_context_snippet": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/).",
+  "source_file": null,
+  "source_repo": "aws-cloudformation/awesome-cloudformation",
+  "source_repo_description": "A curated list of resources and projects for working with AWS CloudFormation."
+}

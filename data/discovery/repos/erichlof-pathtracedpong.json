@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:40:59.883576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A real-time path traced game for desktop and mobile using WebGL. Click to Play: https://erichlof.github.io/PathTracedPong/Path_Traced_Pong.html",
+    "fork": false,
+    "full_name": "erichlof/PathTracedPong",
+    "html_url": "https://github.com/erichlof/PathTracedPong",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T19:37:18Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-17T19:37:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "formtastic/formtastic_i18n",
+      "target": "timoschilling/formtastic_i18n",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:55:57.207548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "I18n translation for the formtastic gem",
+    "fork": false,
+    "full_name": "formtastic/formtastic_i18n",
+    "html_url": "https://github.com/formtastic/formtastic_i18n",
+    "language": "Ruby",
+    "pushed_at": "2021-05-23T20:29:41Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-08-07T03:03:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timoschilling/formtastic_i18n",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

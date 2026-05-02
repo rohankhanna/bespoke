@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghstack_land.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghstack_land.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/add-to-project@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_open.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.23.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_on_failure.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "taichi-dev/public_files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "taichi-dev/quantaichi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "taichi-dev/taichi-aot-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "taichi-dev/games201",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "shallwefootball/s3-upload-action@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Build Taichi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Sync Near Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghstack_land.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghstack_land.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghstack_land.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Land ghstack PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initiator.yaml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Taichi Workflow Initiator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "peter-evans/slash-command-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Slash Command Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_open.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/add-to-project@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_open.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Add issues to Taichi project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_on_failure.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "slackapi/slack-github-action@v1.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify_on_failure.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Notification for master failure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "yuanming-hu/taichi",
+      "target": "Performance Monitoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:52.599648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11428
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 12682
+    },
+    {
+      "path": ".github/workflows/cache.yml",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/ghstack_land.yml",
+      "size": 1352
+    },
+    {
+      "path": ".github/workflows/initiator.yaml",
+      "size": 2218
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/issue_open.yml",
+      "size": 350
+    },
+    {
+      "path": ".github/workflows/notify_on_failure.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/perf.yml",
+      "size": 2813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My fork of https://github.com/taichi-dev/taichi",
+    "fork": true,
+    "full_name": "yuanming-hu/taichi",
+    "html_url": "https://github.com/yuanming-hu/taichi",
+    "language": "C++",
+    "pushed_at": "2023-09-16T14:39:21Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-29T06:16:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/games201",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/public_files",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/quantaichi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/taichi-aot-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Taichi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build Taichi"
+    },
+    {
+      "context_snippet": "Sync Near Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "term": "Sync Near Cache"
+    },
+    {
+      "context_snippet": "Land ghstack PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghstack_land.yml",
+      "term": "Land ghstack PRs"
+    },
+    {
+      "context_snippet": "Taichi Workflow Initiator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initiator.yaml",
+      "term": "Taichi Workflow Initiator"
+    },
+    {
+      "context_snippet": "Slash Command Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Slash Command Dispatch"
+    },
+    {
+      "context_snippet": "Add issues to Taichi project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_open.yml",
+      "term": "Add issues to Taichi project"
+    },
+    {
+      "context_snippet": "Notification for master failure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify_on_failure.yml",
+      "term": "Notification for master failure"
+    },
+    {
+      "context_snippet": "Performance Monitoring",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf.yml",
+      "term": "Performance Monitoring"
+    }
+  ]
+}

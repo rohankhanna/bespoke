@@ -2369,6 +2369,54 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate-context",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "\ud83e\ude90 Objaverse-XL is a Universe of 10M+ 3D Objects. Contains API Scripts for Downloading and Processing!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-python",
+      "status": "candidate-context",
+      "text": "Apache datasketches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-python",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "Rules Registry for Compliance Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-makeup/makeup_html",
+      "status": "candidate-context",
+      "text": "HTML lexer for Makeup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_html",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -3559,6 +3607,30 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-python",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_html",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -5300,11 +5372,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/continuous-integration.yml",
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "allenai/objaverse-xl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/datasketches-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/run-ci.yml",
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_html"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

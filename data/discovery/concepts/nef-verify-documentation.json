@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nef verify documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "nef verify documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate",
+      "text": "nef verify documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25684,
+      "status": "candidate",
+      "text": "vouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22410,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22376,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22376,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22376,
+      "status": "candidate",
+      "text": "endow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nef verify documentation",
+  "concept_id": "nef-verify-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/nef-compile.yml",
+      "source_repo": "bow-swift/nef"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nef verify documentation",
+      "sense_id": "nef-verify-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

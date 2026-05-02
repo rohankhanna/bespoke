@@ -1,0 +1,689 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@effect/language-service",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/next",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nx/vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tolgee/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jiti",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sherif",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hmarr/auto-approve-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "EndBug/latest-tag@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@effect/language-service",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@nx/esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@nx/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@nx/next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@nx/vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@nx/vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@tolgee/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "jiti",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "nx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "sherif",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "hmarr/auto-approve-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Auto approve PRs by owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "butlerlogic/action-autotag@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "EndBug/latest-tag@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Create Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Daily job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-partykit.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-partykit.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Deploy Partykit server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "superfly/flyctl-actions/setup-flyctl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Deploy Workflows (Fly.io)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hourly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Hourly job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monthly.yml",
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "Monthly job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "chat-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "conversational-bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "form-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io",
+      "target": "tailwindcss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:46:22.459768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5050
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1548
+    },
+    {
+      "path": "package.json",
+      "size": 2841
+    },
+    {
+      "path": ".github/workflows/auto-approve.yml",
+      "size": 350
+    },
+    {
+      "path": ".github/workflows/auto-create-tags.yml",
+      "size": 1015
+    },
+    {
+      "path": ".github/workflows/daily.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/deploy-partykit.yml",
+      "size": 1720
+    },
+    {
+      "path": ".github/workflows/deploy-workflows.yml",
+      "size": 1188
+    },
+    {
+      "path": ".github/workflows/hourly.yml",
+      "size": 1480
+    },
+    {
+      "path": ".github/workflows/monthly.yml",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcac Typebot is a powerful chatbot builder that you can self-host.",
+    "fork": false,
+    "full_name": "baptisteArno/typebot.io",
+    "html_url": "https://github.com/baptisteArno/typebot.io",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-01T10:26:13Z",
+    "stargazers_count": 9898,
+    "topics": [
+      "chat-application",
+      "chatbot",
+      "conversational-bots",
+      "form-builder",
+      "nextjs",
+      "tailwindcss"
+    ],
+    "updated_at": "2026-05-02T09:58:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto approve PRs by owner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "term": "Auto approve PRs by owner"
+    },
+    {
+      "context_snippet": "Create Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "term": "Create Tag"
+    },
+    {
+      "context_snippet": "Daily job",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yml",
+      "term": "Daily job"
+    },
+    {
+      "context_snippet": "Deploy Partykit server",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-partykit.yml",
+      "term": "Deploy Partykit server"
+    },
+    {
+      "context_snippet": "Deploy Workflows (Fly.io)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-workflows.yml",
+      "term": "Deploy Workflows (Fly.io)"
+    },
+    {
+      "context_snippet": "Hourly job",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hourly.yml",
+      "term": "Hourly job"
+    },
+    {
+      "context_snippet": "Monthly job",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monthly.yml",
+      "term": "Monthly job"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat-application"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-bots"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "form-builder"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "The most intelligent password evaluator app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "Release Builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate",
+      "text": "Release Builder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11852,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10734,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10734,
+      "status": "candidate",
+      "text": "diffusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10734,
+      "status": "candidate",
+      "text": "disseminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10734,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Builder",
+  "concept_id": "release-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Builder",
+      "sense_id": "release-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

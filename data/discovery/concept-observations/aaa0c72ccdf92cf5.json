@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "rattler-build is a universal Conda package builder for Windows, macOS and Linux (like conda-build but faster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880403,
+      "status": "candidate",
+      "text": "formula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051347,
+      "status": "candidate",
+      "text": "over-the-counter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051149,
+      "status": "candidate",
+      "text": "prescription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050899,
+      "status": "candidate",
+      "text": "dose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042147,
+      "status": "candidate",
+      "text": "potion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recipe",
+      "sense_id": "recipe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6058,
+      "status": "candidate",
+      "text": "formula"
+    }
+  ],
+  "concept_id": "recipe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recipe",
+  "observation_id": "aaa0c72ccdf92cf5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "recipe",
+  "source_context_snippet": "<h1>",
+  "source_file": null,
+  "source_repo": "prefix-dev/rattler-build",
+  "source_repo_description": "rattler-build is a universal Conda package builder for Windows, macOS and Linux (like conda-build but faster)"
+}

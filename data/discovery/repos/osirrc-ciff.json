@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osirrc/ciff",
+      "target": "andrewtrotman/jassv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osirrc/ciff",
+      "target": "pisa-engine/ciff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osirrc/ciff",
+      "target": "chriskamphuis/olddog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osirrc/ciff",
+      "target": "terrierteam/terrier-ciff",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:52:40.353617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common Index File Format to to support interoperability between open-source IR engines",
+    "fork": false,
+    "full_name": "osirrc/ciff",
+    "html_url": "https://github.com/osirrc/ciff",
+    "language": "Java",
+    "pushed_at": "2024-09-19T16:23:14Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2025-12-19T23:23:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewtrotman/jassv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskamphuis/olddog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pisa-engine/ciff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terrierteam/terrier-ciff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

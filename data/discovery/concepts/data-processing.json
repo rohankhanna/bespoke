@@ -43,6 +43,18 @@
       "source_repo": "allenai/dolma",
       "status": "candidate-context",
       "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "Data processing for and with foundation models!  \ud83c\udf4e \ud83c\udf4b \ud83c\udf3d \u27a1\ufe0f \u27a1\ufe0f\ud83c\udf78 \ud83c\udf79 \ud83c\udf77"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "allenai/dolma",
       "status": "candidate",
       "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "allenai/dolma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "datajuicer/data-juicer"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

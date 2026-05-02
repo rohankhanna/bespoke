@@ -19,6 +19,18 @@
       "source_repo": "Digidai/product-manager-skills",
       "status": "candidate-context",
       "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "Papers, Datasets, Algorithms, SOTA for STR. Long-time Maintaining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Digidai/product-manager-skills",
       "status": "candidate",
       "text": "**Not a template pack. A PM operator for AI coding tools.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "Digidai/product-manager-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

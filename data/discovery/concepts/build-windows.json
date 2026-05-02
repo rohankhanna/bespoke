@@ -154,6 +154,18 @@
       "source_repo": "InteractiveComputerGraphics/CompactNSearch",
       "status": "candidate-context",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "build-windows"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +238,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "status": "candidate",
+      "text": "build-windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
       "status": "candidate",
       "text": "build-windows"
     }
@@ -378,11 +396,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "InteractiveComputerGraphics/CompactNSearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

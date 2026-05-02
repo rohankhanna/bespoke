@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "channelcat/sanic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "eugeniy/pytest-tornado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "pytest-dev/pytest-asyncio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RasaHQ/pytest-sanic",
+      "target": "aio-libs/pytest-aiohttp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:43.461710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10676
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a Pytest Plugin for Sanic.",
+    "fork": true,
+    "full_name": "RasaHQ/pytest-sanic",
+    "html_url": "https://github.com/RasaHQ/pytest-sanic",
+    "language": null,
+    "pushed_at": "2025-11-24T12:02:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-03-24T10:47:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aio-libs/pytest-aiohttp",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "channelcat/sanic",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eugeniy/pytest-tornado",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytest-dev/pytest-asyncio",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

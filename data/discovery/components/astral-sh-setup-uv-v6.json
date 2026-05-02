@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v6",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -507,6 +507,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main__lint.yml",
       "source_repo": "dynaconf/dynaconf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NeilGirdhar/tjax"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "official code of \u201cOpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "point-cloud",
+      "sense_id": "point-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "point-cloud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "point-cloud",
+  "observation_id": "ec11c202506adad3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "point-cloud",
+  "source_context_snippet": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)",
+  "source_file": null,
+  "source_repo": "Colin97/OpenShape_code",
+  "source_repo_description": "official code of \u201cOpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding\u201d"
+}

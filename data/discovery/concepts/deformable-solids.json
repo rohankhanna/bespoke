@@ -19,6 +19,18 @@
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

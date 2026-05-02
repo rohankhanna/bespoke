@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:43:41.724436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 577
+    },
+    {
+      "path": "go.mod",
+      "size": 173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package webm implements parser, reader and seeker for WebM / Matroska containers.",
+    "fork": false,
+    "full_name": "ebml-go/webm",
+    "html_url": "https://github.com/ebml-go/webm",
+    "language": "Go",
+    "pushed_at": "2026-01-12T10:38:44Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-01-12T23:35:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

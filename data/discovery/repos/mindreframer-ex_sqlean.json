@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindreframer/ex_sqlean",
+      "target": "mindreframer/sqlean",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:56:14.731686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mindreframer/ex_sqlean",
+    "html_url": "https://github.com/mindreframer/ex_sqlean",
+    "language": "Elixir",
+    "pushed_at": "2021-10-15T18:30:34Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-01-07T16:32:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindreframer/sqlean",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

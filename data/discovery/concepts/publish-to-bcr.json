@@ -259,6 +259,18 @@
       "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
       "status": "candidate-context",
       "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
     }
   ],
   "candidate_glosses": [
@@ -391,6 +403,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
       "status": "candidate",
       "text": "Publish to BCR"
     }
@@ -634,11 +652,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish_to_bcr.yaml",
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/sdformat"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

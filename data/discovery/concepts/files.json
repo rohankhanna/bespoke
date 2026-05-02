@@ -91,6 +91,18 @@
       "source_repo": "ehmicky/global-cache-dir",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate-context",
+      "text": "User-friendly glob matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate-context",
+      "text": "globby \u2014 User-friendly glob matching"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ehmicky/global-cache-dir",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/globby",
+      "status": "candidate",
+      "text": "globby \u2014 User-friendly glob matching"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/globby"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "generate-release",
   "observation_id": "7783d2b4620950a8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "generate-release",
   "source_context_snippet": "generate-release",
   "source_file": ".github/workflows/generate-release.yml",

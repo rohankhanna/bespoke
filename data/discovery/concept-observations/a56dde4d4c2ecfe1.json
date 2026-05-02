@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Welcome to the Microsoft Voice Assistant samples repository! Here you will find samples to help you get started building client application for your bot or Custom Command service. You will also be able to easily deploy a working Custom Command based Voice Assistant to your own Azure subscription"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bot-framework",
+      "sense_id": "bot-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bot-framework",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bot-framework",
+  "observation_id": "a56dde4d4c2ecfe1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "bot-framework",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+  "source_repo_description": "Welcome to the Microsoft Voice Assistant samples repository! Here you will find samples to help you get started building client application for your bot or Custom Command service. You will also be able to easily deploy a working Custom Command based Voice Assistant to your own Azure subscription"
+}

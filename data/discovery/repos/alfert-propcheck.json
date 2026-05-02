@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfert/propcheck",
+      "target": "proper-testing/proper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck",
+      "target": "Elixir CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfert/propcheck",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfert/propcheck",
+      "target": "propcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfert/propcheck",
+      "target": "proper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfert/propcheck",
+      "target": "property-based-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:57:58.970516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10360
+    },
+    {
+      "path": ".github/workflows/elixir.yml",
+      "size": 2357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Property based Testing for Elixir (based upon PropEr)",
+    "fork": false,
+    "full_name": "alfert/propcheck",
+    "html_url": "https://github.com/alfert/propcheck",
+    "language": "Elixir",
+    "pushed_at": "2025-04-21T20:34:11Z",
+    "stargazers_count": 392,
+    "topics": [
+      "elixir",
+      "propcheck",
+      "proper",
+      "property-based-testing"
+    ],
+    "updated_at": "2026-04-02T14:08:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proper-testing/proper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "term": "Elixir CI"
+    },
+    {
+      "context_snippet": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "propcheck"
+    },
+    {
+      "context_snippet": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proper"
+    },
+    {
+      "context_snippet": "`PropCheck` is a testing library, that provides a wrapper around PropEr, an Erlang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "property-based-testing"
+    }
+  ]
+}

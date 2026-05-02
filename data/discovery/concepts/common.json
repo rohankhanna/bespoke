@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Common"
+    "Common",
+    "common"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "pykeen/pykeen",
       "status": "candidate-context",
       "text": "Common"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate-context",
+      "text": "A library with common code used by libraries and tools around the libimobiledevice project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate-context",
+      "text": "Library with common code used by the libraries and tools around the"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "pykeen/pykeen",
       "status": "candidate",
       "text": "Common"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate",
+      "text": "Library with common code used by the libraries and tools around the"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +157,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/common.yml",
       "source_repo": "pykeen/pykeen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice-glue"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

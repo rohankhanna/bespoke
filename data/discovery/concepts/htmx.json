@@ -19,6 +19,18 @@
       "source_repo": "falcoframework/Falco.Htmx",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "A language for writing HTML user interfaces in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "falcoframework/Falco.Htmx",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate",
+      "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "falcoframework/Falco.Htmx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "a-h/templ"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

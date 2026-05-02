@@ -232,6 +232,24 @@
       "source_repo": "SciML/SciMLStyle",
       "status": "candidate-context",
       "text": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terrier-org/pyterrier",
+      "status": "candidate-context",
+      "text": "A Python framework for performing information retrieval experiments, building on http://terrier.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrier-org/pyterrier",
+      "status": "candidate-context",
+      "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_doc2query",
+      "status": "candidate-context",
+      "text": "style"
     }
   ],
   "candidate_glosses": [
@@ -348,6 +366,18 @@
       "source_repo": "SciML/SciMLStyle",
       "status": "candidate",
       "text": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrier-org/pyterrier",
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_doc2query",
+      "status": "candidate",
+      "text": "style"
     }
   ],
   "candidate_related_terms": [
@@ -673,11 +703,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "terrier-org/pyterrier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "terrierteam/pyterrier_doc2query"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

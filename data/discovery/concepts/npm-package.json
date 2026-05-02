@@ -142,6 +142,18 @@
       "source_repo": "rahsheen/react-native-template-redux-typescript",
       "status": "candidate-context",
       "text": "npm Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/modern-normalize",
+      "status": "candidate-context",
+      "text": "\ud83d\udc12 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/modern-normalize",
+      "status": "candidate-context",
+      "text": "modern-normalize \u2014 Normalize browsers' default style"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "rahsheen/react-native-template-redux-typescript",
       "status": "candidate",
       "text": "npm Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/modern-normalize",
+      "status": "candidate",
+      "text": "modern-normalize \u2014 Normalize browsers' default style"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "rahsheen/react-native-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/modern-normalize"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

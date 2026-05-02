@@ -267,6 +267,18 @@
       "source_repo": "sigstore/k8s-manifest-sigstore",
       "status": "candidate-context",
       "text": "CI-Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinfx/fileseq",
+      "status": "candidate-context",
+      "text": "A Python library for parsing frame ranges."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/fileseq",
+      "status": "candidate-context",
+      "text": "CI Tests"
     }
   ],
   "candidate_glosses": [
@@ -401,6 +413,12 @@
       "source_repo": "sigstore/k8s-manifest-sigstore",
       "status": "candidate",
       "text": "CI-Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/fileseq",
+      "status": "candidate",
+      "text": "CI Tests"
     }
   ],
   "candidate_related_terms": [
@@ -654,11 +672,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

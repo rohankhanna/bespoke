@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ot/ds2i",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ot/ds2i",
+      "target": "inverted-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ot/ds2i",
+      "target": "search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:52:34.609053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library of inverted index data structures",
+    "fork": false,
+    "full_name": "ot/ds2i",
+    "html_url": "https://github.com/ot/ds2i",
+    "language": "C++",
+    "pushed_at": "2022-12-15T13:37:42Z",
+    "stargazers_count": 150,
+    "topics": [
+      "information-retrieval",
+      "inverted-index",
+      "search"
+    ],
+    "updated_at": "2026-03-15T14:11:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ds2i",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "ds2i",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverted-index"
+    },
+    {
+      "context_snippet": "ds2i",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    }
+  ]
+}

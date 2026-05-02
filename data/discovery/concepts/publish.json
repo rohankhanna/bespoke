@@ -2758,6 +2758,42 @@
       "source_repo": "apache/iceberg-rust",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83d\udc0d\ud83d\udce6 Serverless plugin to bundle Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "Rules Registry for Compliance Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kellyselden/eslint-plugin-json-files",
+      "status": "candidate-context",
+      "text": "ESLint JSON processor and rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kellyselden/eslint-plugin-json-files",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -4150,6 +4186,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/iceberg-rust",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kellyselden/eslint-plugin-json-files",
       "status": "candidate",
       "text": "Publish"
     }
@@ -6709,11 +6763,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kellyselden/eslint-plugin-json-files"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

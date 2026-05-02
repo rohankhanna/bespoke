@@ -559,6 +559,18 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate-context",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "The most intelligent password evaluator app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +849,12 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
     }
   ],
   "candidate_related_terms": [
@@ -1228,11 +1246,23 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

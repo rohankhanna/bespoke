@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "paper-recommendations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "Papers, Datasets, Algorithms, SOTA for STR. Long-time Maintaining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "paper-recommendations",
+  "concept_id": "paper-recommendations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paper-recommendations",
+      "sense_id": "paper-recommendations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

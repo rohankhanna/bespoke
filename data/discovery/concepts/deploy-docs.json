@@ -467,6 +467,42 @@
       "source_repo": "baidu-baige/LoongFlow",
       "status": "candidate-context",
       "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "A language for writing HTML user interfaces in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate-context",
+      "text": "rattler-build is a universal Conda package builder for Windows, macOS and Linux (like conda-build but faster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "Deploy docs"
     }
   ],
   "candidate_glosses": [
@@ -703,6 +739,24 @@
       "source_repo": "baidu-baige/LoongFlow",
       "status": "candidate",
       "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-h/templ",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate",
+      "text": "Deploy docs"
     }
   ],
   "candidate_related_terms": [
@@ -1160,11 +1214,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "baidu-baige/LoongFlow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prefix-dev/rattler-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/nef"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

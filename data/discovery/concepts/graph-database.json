@@ -91,6 +91,18 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate-context",
+      "text": "Neo4j Bolt driver for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate-context",
+      "text": "****************************"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver",
+      "status": "candidate",
+      "text": "****************************"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

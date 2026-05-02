@@ -595,6 +595,18 @@
       "source_repo": "harskish/ganspace",
       "status": "candidate-context",
       "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Colin97/OpenShape_code",
+      "status": "candidate-context",
+      "text": "official code of \u201cOpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Colin97/OpenShape_code",
+      "status": "candidate-context",
+      "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +903,12 @@
       "source_repo": "harskish/ganspace",
       "status": "candidate",
       "text": "![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Colin97/OpenShape_code",
+      "status": "candidate",
+      "text": "[\\[project\\]](https://colin97.github.io/OpenShape/) [\\[paper\\]](https://arxiv.org/pdf/2305.10764.pdf) [\\[Live Demo\\]](https://huggingface.co/spaces/OpenShape/openshape-demo)"
     }
   ],
   "candidate_related_terms": [],
@@ -1324,11 +1342,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "harskish/ganspace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Colin97/OpenShape_code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

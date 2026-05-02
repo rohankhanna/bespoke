@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Template repository for creating plugins for IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "intellij-idea-plugin",
+      "sense_id": "intellij-idea-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "intellij-idea-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "intellij-idea-plugin",
+  "observation_id": "88e53c079645fe9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "intellij-idea-plugin",
+  "source_context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+  "source_file": null,
+  "source_repo": "JetBrains/intellij-platform-plugin-template",
+  "source_repo_description": "Template repository for creating plugins for IntelliJ Platform"
+}

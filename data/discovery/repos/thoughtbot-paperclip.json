@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "kreeti/kt-paperclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "gmontard/paperclip-azure-storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "janko-m/paperclip-dropbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/paperclip",
+      "target": "drpentode/attachment-on-the-fly",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:56:01.910794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Easy file attachment management for ActiveRecord",
+    "fork": false,
+    "full_name": "thoughtbot/paperclip",
+    "html_url": "https://github.com/thoughtbot/paperclip",
+    "language": "Ruby",
+    "pushed_at": "2023-07-13T17:57:58Z",
+    "stargazers_count": 9015,
+    "topics": [],
+    "updated_at": "2026-04-29T15:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drpentode/attachment-on-the-fly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmontard/paperclip-azure-storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janko-m/paperclip-dropbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kreeti/kt-paperclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

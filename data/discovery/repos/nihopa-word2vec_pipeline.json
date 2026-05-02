@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "nihopa/nlpre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "marcotcr/lime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NIHOPA/word2vec_pipeline",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:44:53.547446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14217
+    },
+    {
+      "path": "requirements.txt",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NLP pipeline using word2vec (preprocessing/embedding/prediction/clustering)",
+    "fork": false,
+    "full_name": "NIHOPA/word2vec_pipeline",
+    "html_url": "https://github.com/NIHOPA/word2vec_pipeline",
+    "language": "Python",
+    "pushed_at": "2024-05-03T19:39:42Z",
+    "stargazers_count": 116,
+    "topics": [
+      "nlp",
+      "python",
+      "word2vec"
+    ],
+    "updated_at": "2025-08-30T08:58:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcotcr/lime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihopa/nlpre",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Word2vec is a research and exploration pipeline designed to analyze biomedical grants, publication abstracts, and other natural language corpora.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word2vec"
+    }
+  ]
+}

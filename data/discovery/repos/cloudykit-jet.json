@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CloudyKit/jet",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CloudyKit/jet",
+      "target": "jet-template-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CloudyKit/jet",
+      "target": "template-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:48:42.037590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1958
+    },
+    {
+      "path": "go.mod",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jet  template engine",
+    "fork": false,
+    "full_name": "CloudyKit/jet",
+    "html_url": "https://github.com/CloudyKit/jet",
+    "language": "Go",
+    "pushed_at": "2026-03-16T21:14:42Z",
+    "stargazers_count": 1397,
+    "topics": [
+      "golang",
+      "jet",
+      "jet-template-engine",
+      "template-engine"
+    ],
+    "updated_at": "2026-04-30T02:12:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jet-template-engine"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    }
+  ]
+}

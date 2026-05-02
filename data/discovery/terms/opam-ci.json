@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/opam-ci.yml",
       "source_repo": "reasonml/reason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "reasonml/reason-react"
     }
   ],
   "term": "opam CI"

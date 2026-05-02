@@ -19,6 +19,18 @@
       "source_repo": "nodemailer/nodemailer",
       "status": "candidate-context",
       "text": "[![Nodemailer](https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png)](https://nodemailer.com/about/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "A self-hosted Email Middleware for IMAP, SMTP, Gmail API, Graph API \u2014 built for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nodemailer/nodemailer",
       "status": "candidate",
       "text": "[![Nodemailer](https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png)](https://nodemailer.com/about/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "nodemailer/nodemailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/rustmailer"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -79,6 +79,30 @@
       "source_repo": "kwea123/VTuber_Unity",
       "status": "candidate-context",
       "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate-context",
+      "text": "The OpenUPM-CLI is a command-line interface for maintaining UPM registries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/openupm-cli) ![NPM](https://img.shields.io/npm/l/openupm-cli) ![npm](https://img.shields.io/npm/dm/openupm-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "kwea123/VTuber_Unity",
       "status": "candidate",
       "text": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/openupm-cli) ![NPM](https://img.shields.io/npm/l/openupm-cli) ![npm](https://img.shields.io/npm/dm/openupm-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +268,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "kwea123/VTuber_Unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "openupm/openupm-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bdovaz/UnityNuGet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

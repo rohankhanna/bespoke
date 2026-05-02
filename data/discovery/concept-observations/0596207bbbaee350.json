@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tool"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tool"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035641,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035591,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024659,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023598,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986315,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tool",
+      "sense_id": "tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30070,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18039,
+      "status": "candidate",
+      "text": "creature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15044,
+      "status": "candidate",
+      "text": "dick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12063,
+      "status": "candidate",
+      "text": "instrument"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12036,
+      "status": "candidate",
+      "text": "pecker"
+    }
+  ],
+  "concept_id": "tool",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tool",
+  "observation_id": "0596207bbbaee350",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "tool",
+  "source_context_snippet": "tool",
+  "source_file": ".github/workflows/tool.yml",
+  "source_repo": "bdovaz/UnityNuGet",
+  "source_repo_description": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+}

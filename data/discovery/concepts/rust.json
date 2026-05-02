@@ -7336,6 +7336,54 @@
       "source_repo": "apache/iceberg-rust",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-db/barrel",
+      "status": "candidate-context",
+      "text": "\ud83d\udee2 A database schema migration builder for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-db/barrel",
+      "status": "candidate-context",
+      "text": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "A self-hosted Email Middleware for IMAP, SMTP, Gmail API, Graph API \u2014 built for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "Rust parser combinator framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhihu/rucene",
+      "status": "candidate-context",
+      "text": "Rust port of Lucene"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhihu/rucene",
+      "status": "candidate-context",
+      "text": "Rucene - Rust implementation of Lucene"
     }
   ],
   "candidate_glosses": [
@@ -11100,6 +11148,30 @@
       "source_repo": "apache/iceberg-rust",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-db/barrel",
+      "status": "candidate",
+      "text": "An SQL migration generator. This project has moved to: https://git.irde.st/spacekookie/barrel!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhihu/rucene",
+      "status": "candidate",
+      "text": "Rucene - Rust implementation of Lucene"
     }
   ],
   "candidate_related_terms": [
@@ -17113,11 +17185,95 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "apache/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rust-db/barrel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/rustmailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "zhihu/rucene"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

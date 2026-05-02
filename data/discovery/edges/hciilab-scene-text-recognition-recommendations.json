@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "bgshih/aster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "ayumiymk/aster.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "canjie-luo/moran_v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "aster-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "crnn-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "paper-recommendations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "scene-text-recogniton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "sotas",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations"
+}

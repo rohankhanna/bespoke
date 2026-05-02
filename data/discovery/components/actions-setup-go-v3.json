@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v3",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -802,6 +802,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "firecracker-microvm/firectl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go"
     }
   ]
 }

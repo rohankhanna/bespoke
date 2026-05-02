@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "wangyuxinwhy/uniem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NLPJCL/RAG-Retrieval",
+      "target": "answerdotai/rerankers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:34:40.121430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10139
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1310
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unify Efficient Fine-tuning of  RAG Retrieval, including Embedding, ColBERT, ReRanker.",
+    "fork": true,
+    "full_name": "NLPJCL/RAG-Retrieval",
+    "html_url": "https://github.com/NLPJCL/RAG-Retrieval",
+    "language": null,
+    "pushed_at": "2025-07-05T09:02:51Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-20T08:39:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "answerdotai/rerankers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wangyuxinwhy/uniem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

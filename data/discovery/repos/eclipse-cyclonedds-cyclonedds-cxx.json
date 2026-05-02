@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target": "eclipsefdn/iot.eclipse.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target": "MISRA regressions check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:32.705827+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7929
+    },
+    {
+      "path": ".github/workflows/misra-regressions-check.yml",
+      "size": 2549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "eclipse-cyclonedds/cyclonedds-cxx",
+    "html_url": "https://github.com/eclipse-cyclonedds/cyclonedds-cxx",
+    "language": "C++",
+    "pushed_at": "2026-03-23T11:50:47Z",
+    "stargazers_count": 138,
+    "topics": [],
+    "updated_at": "2026-04-21T01:16:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipsefdn/iot.eclipse.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"MISRA regressions check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "term": "MISRA regressions check"
+    }
+  ]
+}

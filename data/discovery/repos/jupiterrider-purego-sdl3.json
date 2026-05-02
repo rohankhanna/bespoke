@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "sdl3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:43:27.849588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1758
+    },
+    {
+      "path": "go.mod",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cgo-free SDL3 binding.",
+    "fork": false,
+    "full_name": "JupiterRider/purego-sdl3",
+    "html_url": "https://github.com/JupiterRider/purego-sdl3",
+    "language": "Go",
+    "pushed_at": "2026-03-15T10:47:20Z",
+    "stargazers_count": 148,
+    "topics": [
+      "binding",
+      "freebsd",
+      "game-development",
+      "go",
+      "golang",
+      "linux",
+      "macos",
+      "sdl3",
+      "windows"
+    ],
+    "updated_at": "2026-04-24T19:46:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdl3"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

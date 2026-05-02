@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml"
+    },
+    {
+      "component": "pozetroninc/github-action-get-latest-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml"
+    },
+    {
+      "component": "pozetroninc/github-action-get-latest-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml"
+    },
+    {
+      "component": "joncloud/makensis-action@publish",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml"
+    },
+    {
+      "component": "eltorio/action-signtoolLocation@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml"
+    },
+    {
+      "component": "jgehrcke/github-repo-stats@RELEASE",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-repo-stats.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-txt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "petervanlunteren/ecoassist-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Build macOS release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "joncloud/makensis-action@publish",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "eltorio/action-signtoolLocation@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Build Windows release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "jgehrcke/github-repo-stats@RELEASE",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "github-repo-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-txt.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version-txt.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Update version text file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "cameratraps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "conservation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "ecology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "megadetector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:44:03.093367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3197
+    },
+    {
+      "path": ".github/workflows/build-macos-release.yml",
+      "size": 28074
+    },
+    {
+      "path": ".github/workflows/build-windows-release.yml",
+      "size": 36759
+    },
+    {
+      "path": ".github/workflows/github-repo-stats.yml",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/update-version-txt.yml",
+      "size": 1097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model",
+    "fork": false,
+    "full_name": "PetervanLunteren/AddaxAI",
+    "html_url": "https://github.com/PetervanLunteren/AddaxAI",
+    "language": "Python",
+    "pushed_at": "2026-05-01T23:15:55Z",
+    "stargazers_count": 176,
+    "topics": [
+      "cameratraps",
+      "conservation",
+      "ecology",
+      "machine-learning",
+      "megadetector",
+      "object-detection",
+      "python"
+    ],
+    "updated_at": "2026-04-30T18:54:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petervanlunteren/ecoassist-metadata",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build macOS release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "term": "Build macOS release"
+    },
+    {
+      "context_snippet": "Build Windows release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "term": "Build Windows release"
+    },
+    {
+      "context_snippet": "github-repo-stats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "term": "github-repo-stats"
+    },
+    {
+      "context_snippet": "Update version text file",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version-txt.yml",
+      "term": "Update version text file"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cameratraps"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conservation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecology"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megadetector"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    }
+  ]
+}

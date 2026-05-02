@@ -1,0 +1,17 @@
+{
+  "component": "peaceiris/actions-gh-pages@v3.9.3",
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "apache/datasketches-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "apache/datasketches-python"
+    }
+  ]
+}

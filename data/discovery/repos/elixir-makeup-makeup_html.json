@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-makeup/makeup_html",
+      "target": "steffende/makeup_syntect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_html",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_html",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_html",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:03:35.414504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 702
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HTML lexer for Makeup",
+    "fork": false,
+    "full_name": "elixir-makeup/makeup_html",
+    "html_url": "https://github.com/elixir-makeup/makeup_html",
+    "language": "Elixir",
+    "pushed_at": "2025-02-09T15:54:36Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-10-06T09:07:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steffende/makeup_syntect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    }
+  ]
+}

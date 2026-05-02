@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Efficient-Deep-Learning",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Efficient-Deep-Learning",
+      "target": "tricks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:30.199863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A bag of tricks to speed up your deep learning process",
+    "fork": false,
+    "full_name": "Mountchicken/Efficient-Deep-Learning",
+    "html_url": "https://github.com/Mountchicken/Efficient-Deep-Learning",
+    "language": "Python",
+    "pushed_at": "2024-04-28T01:41:06Z",
+    "stargazers_count": 162,
+    "topics": [
+      "deep-learning",
+      "tricks"
+    ],
+    "updated_at": "2026-04-19T14:18:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tricks"
+    }
+  ]
+}

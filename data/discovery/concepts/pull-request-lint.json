@@ -49,6 +49,18 @@
       "source_repo": "prasek/supergraph-demo-opentelemetry",
       "status": "candidate-context",
       "text": "pull-request-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "Rules Registry for Compliance Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "status": "candidate-context",
+      "text": "pull-request-lint"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prasek/supergraph-demo-opentelemetry",
+      "status": "candidate",
+      "text": "pull-request-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
       "status": "candidate",
       "text": "pull-request-lint"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pull-request-lint.yml",
       "source_repo": "prasek/supergraph-demo-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pull_request_lint.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

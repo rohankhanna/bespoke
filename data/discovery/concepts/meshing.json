@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "meshing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate-context",
+      "text": ":spider_web: input/output for many mesh formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974811,
+      "status": "candidate",
+      "text": "interlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932046,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922466,
+      "status": "candidate",
+      "text": "interlocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19988425,
+      "status": "candidate",
+      "text": "intermingling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19988424,
+      "status": "candidate",
+      "text": "interlacement"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28051,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9053,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "interlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "interlocking"
+    }
+  ],
+  "canonical_name": "meshing",
+  "concept_id": "meshing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/meshio"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meshing",
+      "sense_id": "meshing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "erlef/setup-beam@v1",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -667,6 +667,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stdlib.yml",
       "source_repo": "whatyouhide/stream_data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_html"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ]
 }

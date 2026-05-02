@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee",
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4net"
+    }
+  ]
+}

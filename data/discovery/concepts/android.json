@@ -1420,6 +1420,54 @@
       "source_repo": "AliRezaBeigy/paqetNG",
       "status": "candidate-context",
       "text": "![paqetNG Banner](docs/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate-context",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nitaliano/react-native-mapbox-gl",
+      "status": "candidate-context",
+      "text": "A Mapbox GL react native module for creating custom maps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitaliano/react-native-mapbox-gl",
+      "status": "candidate-context",
+      "text": "This repository is no longer actively maintained."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "The most intelligent password evaluator app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -2148,6 +2196,30 @@
       "source_repo": "AliRezaBeigy/paqetNG",
       "status": "candidate",
       "text": "![paqetNG Banner](docs/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native",
+      "status": "candidate",
+      "text": "[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nitaliano/react-native-mapbox-gl",
+      "status": "candidate",
+      "text": "This repository is no longer actively maintained."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyb3rko/pazzword",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -3154,11 +3226,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

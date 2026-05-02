@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948309,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923756,
+      "status": "candidate",
+      "text": "aoa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29826528,
+      "status": "candidate",
+      "text": "saa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29812045,
+      "status": "candidate",
+      "text": "handle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29618967,
+      "status": "candidate",
+      "text": "zermatt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "saas",
+      "sense_id": "saas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "saas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "saas",
+  "observation_id": "0073c90489e7d501",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "saas",
+  "source_context_snippet": "<picture>",
+  "source_file": null,
+  "source_repo": "boxyhq/saas-starter-kit",
+  "source_repo_description": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+}

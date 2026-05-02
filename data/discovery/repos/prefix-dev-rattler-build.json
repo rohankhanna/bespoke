@@ -1,0 +1,656 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@4f65fabd2431ebc8d299f8e5a018d79a769ae185",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/rattler-build-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "Lint Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "Deploy Playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "Publish Pre-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-bindings.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build.yml",
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "addnab/docker-run-action@4f65fabd2431ebc8d299f8e5a018d79a769ae185",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "conda-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "mamba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build",
+      "target": "recipe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:51:11.751362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10129
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 9576
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 5032
+    },
+    {
+      "path": ".github/workflows/lint-pr.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1687
+    },
+    {
+      "path": ".github/workflows/playground.yml",
+      "size": 1967
+    },
+    {
+      "path": ".github/workflows/publish-pre-release.yml",
+      "size": 2138
+    },
+    {
+      "path": ".github/workflows/python-bindings.yml",
+      "size": 1896
+    },
+    {
+      "path": ".github/workflows/python-build.yml",
+      "size": 11819
+    },
+    {
+      "path": ".github/workflows/python-release.yml",
+      "size": 589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "rattler-build is a universal Conda package builder for Windows, macOS and Linux (like conda-build but faster)",
+    "fork": false,
+    "full_name": "prefix-dev/rattler-build",
+    "html_url": "https://github.com/prefix-dev/rattler-build",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T05:34:23Z",
+    "stargazers_count": 357,
+    "topics": [
+      "conda",
+      "conda-build",
+      "mamba",
+      "package-management",
+      "recipe"
+    ],
+    "updated_at": "2026-05-01T13:28:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prefix-dev/rattler-build-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Lint Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "term": "Lint Pull Requests"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Deploy Playground",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground.yml",
+      "term": "Deploy Playground"
+    },
+    {
+      "context_snippet": "Publish Pre-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "term": "Publish Pre-release"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-build"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mamba"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recipe"
+    }
+  ]
+}

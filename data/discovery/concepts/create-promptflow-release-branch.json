@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Create promptflow release branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "Create promptflow release branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate",
+      "text": "Create promptflow release branch"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Create promptflow release branch",
+  "concept_id": "create-promptflow-release-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/create_promptflow_release_branch.yml",
+      "source_repo": "microsoft/promptflow"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create promptflow release branch",
+      "sense_id": "create-promptflow-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

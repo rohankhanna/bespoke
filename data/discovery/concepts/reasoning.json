@@ -175,6 +175,18 @@
       "source_repo": "RUC-NLPIR/Search-o1",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "status": "candidate-context",
+      "text": "The Entropy Mechanism of Reinforcement Learning for Large Language Model Reasoning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "RUC-NLPIR/Search-o1",
       "status": "candidate",
       "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -489,11 +507,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

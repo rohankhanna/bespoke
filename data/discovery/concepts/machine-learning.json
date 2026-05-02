@@ -4555,6 +4555,54 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate-context",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate-context",
+      "text": "Swift for TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer https://arxiv.org/abs/2404.05695"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -6831,6 +6879,30 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboterax/humanoid-gym",
+      "status": "candidate",
+      "text": "<a href=\"https://sites.google.com/view/humanoid-gym/\"><strong>Project Page</strong></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -10594,11 +10666,119 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "tensorpack/tensorpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "roboterax/humanoid-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "conservationtechlab/animl-r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

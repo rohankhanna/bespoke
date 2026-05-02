@@ -199,6 +199,18 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate-context",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Standard Ruby against your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +460,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "byte-array"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "Rust parser combinator framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate-context",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bakery/nom",
+      "status": "candidate",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "byte-array",
+  "concept_id": "byte-array",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rust-bakery/nom"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "byte-array",
+      "sense_id": "byte-array#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

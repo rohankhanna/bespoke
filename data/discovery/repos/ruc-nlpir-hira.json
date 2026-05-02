@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/HiRA",
+      "target": "ignorejjj/hira",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:36:02.603240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The code for paper: Decoupled Planning and Execution: A Hierarchical Reasoning Framework for Deep Search [SIGIR 2026]",
+    "fork": false,
+    "full_name": "RUC-NLPIR/HiRA",
+    "html_url": "https://github.com/RUC-NLPIR/HiRA",
+    "language": "Python",
+    "pushed_at": "2025-07-04T01:01:58Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-12T06:32:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ignorejjj/hira",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

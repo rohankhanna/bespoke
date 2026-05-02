@@ -1535,6 +1535,18 @@
       "source_repo": "citation-file-format/ruby-cff",
       "status": "candidate-context",
       "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Standard Ruby against your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
     }
   ],
   "candidate_glosses": [
@@ -2299,6 +2311,12 @@
       "source_repo": "citation-file-format/ruby-cff",
       "status": "candidate",
       "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate",
+      "text": "A GitHub Action to run [Standard Ruby](https://github.com/standardrb/standard)"
     }
   ],
   "candidate_related_terms": [
@@ -3824,11 +3842,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard-ruby-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

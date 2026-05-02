@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:31:44.561737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10651
+    },
+    {
+      "path": "requirements.txt",
+      "size": 170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "salesforce/ULIP",
+    "html_url": "https://github.com/salesforce/ULIP",
+    "language": "Python",
+    "pushed_at": "2026-01-21T01:44:22Z",
+    "stargazers_count": 601,
+    "topics": [],
+    "updated_at": "2026-04-30T11:25:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

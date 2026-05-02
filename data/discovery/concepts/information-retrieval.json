@@ -331,6 +331,30 @@
       "source_repo": "dorianbrown/rank_bm25",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ot/ds2i",
+      "status": "candidate-context",
+      "text": "A library of inverted index data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ot/ds2i",
+      "status": "candidate-context",
+      "text": "ds2i"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate-context",
+      "text": "A Python Search Engine for Humans \ud83e\udd78"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +519,18 @@
       "source_repo": "dorianbrown/rank_bm25",
       "status": "candidate",
       "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ot/ds2i",
+      "status": "candidate",
+      "text": "ds2i"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -724,11 +760,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ot/ds2i"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "AmenRa/retriv"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

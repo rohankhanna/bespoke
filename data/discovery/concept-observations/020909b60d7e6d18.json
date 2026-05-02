@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019862,
+      "status": "candidate",
+      "text": "kindling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014768,
+      "status": "candidate",
+      "text": "lighting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006183,
+      "status": "candidate",
+      "text": "firing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029451,
+      "status": "candidate",
+      "text": "ignition system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029450,
+      "status": "candidate",
+      "text": "combustion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ignition",
+      "sense_id": "ignition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15036,
+      "status": "candidate",
+      "text": "kindling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "lighting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1040,
+      "status": "candidate",
+      "text": "firing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "ignition system"
+    }
+  ],
+  "concept_id": "ignition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ignition",
+  "observation_id": "020909b60d7e6d18",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "ignition",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "robotology-legacy/gym-ignition",
+  "source_repo_description": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+}

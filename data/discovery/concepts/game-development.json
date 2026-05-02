@@ -295,6 +295,18 @@
       "source_repo": "godotengine/godot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate-context",
+      "text": "A cgo-free SDL3 binding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "godotengine/godot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JupiterRider/purego-sdl3",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/purego-sdl3.svg)](https://pkg.go.dev/github.com/jupiterrider/purego-sdl3)"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +676,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "JupiterRider/purego-sdl3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

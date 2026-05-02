@@ -64,13 +64,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "phodal/coca",
-      "target": "tushartushar/designitejava",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "phodal/coca",
@@ -162,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:48:34.707092+00:00",
+  "fetched_at": "2026-05-02T12:50:20.622282+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -217,11 +210,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "newlee/tequila",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tushartushar/designitejava",
       "source_file": "README.md"
     }
   ],

@@ -235,6 +235,18 @@
       "source_repo": "AlecAivazis/survey",
       "status": "candidate-context",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "AlecAivazis/survey",
       "status": "candidate",
       "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/AlecAivazis/survey/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
     }
   ],
   "candidate_related_terms": [
@@ -700,11 +718,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

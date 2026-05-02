@@ -2255,7 +2255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:51:04.723106+00:00",
+  "fetched_at": "2026-05-02T12:54:03.911278+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2308,7 +2308,7 @@
     "html_url": "https://github.com/ipfs/ipfs-webui",
     "language": "JavaScript",
     "pushed_at": "2026-04-26T12:21:41Z",
-    "stargazers_count": 1631,
+    "stargazers_count": 1630,
     "topics": [
       "ipfs",
       "ipfs-gui",
@@ -2318,7 +2318,7 @@
       "redux",
       "redux-bundler"
     ],
-    "updated_at": "2026-04-20T13:18:40Z"
+    "updated_at": "2026-05-02T09:59:39Z"
   },
   "repo_links": [],
   "terms": [

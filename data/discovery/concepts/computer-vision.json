@@ -2269,6 +2269,18 @@
       "source_repo": "v7labs/covid-19-xray-dataset",
       "status": "candidate-context",
       "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "\ud83e\ude90 Objaverse-XL is a Universe of 10M+ 3D Objects. Contains API Scripts for Downloading and Processing!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to download and process Objaverse-XL."
     }
   ],
   "candidate_glosses": [
@@ -3405,6 +3417,12 @@
       "source_repo": "v7labs/covid-19-xray-dataset",
       "status": "candidate",
       "text": "![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/objaverse-xl",
+      "status": "candidate",
+      "text": "This repository contains scripts to download and process Objaverse-XL."
     }
   ],
   "candidate_related_terms": [],
@@ -5008,11 +5026,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "allenai/objaverse-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

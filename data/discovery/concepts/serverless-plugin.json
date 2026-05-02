@@ -31,6 +31,18 @@
       "source_repo": "serverless-operations/serverless-step-functions",
       "status": "candidate-context",
       "text": "![CI](https://github.com/serverless-operations/serverless-step-functions/actions/workflows/config.yml/badge.svg) [![npm version](https://badge.fury.io/js/serverless-step-functions.svg)](https://badge.fury.io/js/serverless-step-functions) [![codecov](https://codecov.io/gh/serverl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83d\udc0d\ud83d\udce6 Serverless plugin to bundle Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "serverless-operations/serverless-step-functions",
       "status": "candidate",
       "text": "![CI](https://github.com/serverless-operations/serverless-step-functions/actions/workflows/config.yml/badge.svg) [![npm version](https://badge.fury.io/js/serverless-step-functions.svg)](https://badge.fury.io/js/serverless-step-functions) [![codecov](https://codecov.io/gh/serverl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "serverless-operations/serverless-step-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "serverless/serverless-python-requirements"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

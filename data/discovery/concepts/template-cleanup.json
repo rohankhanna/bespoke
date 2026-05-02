@@ -31,6 +31,18 @@
       "source_repo": "cortinico/kotlin-android-template",
       "status": "candidate-context",
       "text": "Template Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Template repository for creating plugins for IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Template Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "Template Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
       "status": "candidate",
       "text": "Template Cleanup"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cleanup.yaml",
       "source_repo": "cortinico/kotlin-android-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

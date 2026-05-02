@@ -48,7 +48,7 @@
   "normalized_form": "sdk-codegen-ci",
   "observation_id": "efbbf9e562ae5926",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "sdk-codegen-ci",
   "source_context_snippet": "sdk-codegen-ci",
   "source_file": ".github/workflows/sdk-codegen-ci.yml",

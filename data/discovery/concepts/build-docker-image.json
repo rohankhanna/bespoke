@@ -340,6 +340,18 @@
       "source_repo": "ARMmbed/mbed-os",
       "status": "candidate-context",
       "text": "Build docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Build docker image"
     }
   ],
   "candidate_glosses": [
@@ -508,6 +520,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ARMmbed/mbed-os",
+      "status": "candidate",
+      "text": "Build docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "Build docker image"
     }
@@ -817,11 +835,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/docker_management.test-PR.yml",
       "source_repo": "ARMmbed/mbed-os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "bdovaz/UnityNuGet"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

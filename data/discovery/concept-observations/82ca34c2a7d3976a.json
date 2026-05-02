@@ -84,7 +84,7 @@
   "normalized_form": "elixir-ci",
   "observation_id": "82ca34c2a7d3976a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "Elixir CI",
   "source_context_snippet": "Elixir CI",
   "source_file": ".github/workflows/elixir.yml",

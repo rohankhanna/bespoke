@@ -1505,6 +1505,12 @@
       "source_repo": "XuyangBai/TransFusion",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_doc2query",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -2261,6 +2267,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "XuyangBai/TransFusion",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_doc2query",
       "status": "candidate",
       "text": "deploy"
     }
@@ -3535,11 +3547,53 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "XuyangBai/TransFusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "terrierteam/pyterrier_doc2query"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

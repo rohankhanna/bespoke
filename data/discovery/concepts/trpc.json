@@ -13,6 +13,18 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate-context",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "Scheduling infrastructure for absolutely everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/cal.diy",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "calcom/cal.diy"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

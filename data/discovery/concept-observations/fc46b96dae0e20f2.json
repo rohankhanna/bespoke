@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern GPU Compute and Rendering in Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webgpu-shaders",
+      "sense_id": "webgpu-shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webgpu-shaders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webgpu-shaders",
+  "observation_id": "fc46b96dae0e20f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "webgpu-shaders",
+  "source_context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+  "source_file": null,
+  "source_repo": "AmesingFlank/taichi.js",
+  "source_repo_description": "Modern GPU Compute and Rendering in Javascript"
+}

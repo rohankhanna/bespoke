@@ -19,6 +19,18 @@
       "source_repo": "tensorflow/agents",
       "status": "candidate-context",
       "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "Open Bandit Pipeline: a python library for bandit algorithms and off-policy evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tensorflow/agents",
       "status": "candidate",
       "text": "[![PyPI tf-agents](https://badge.fury.io/py/tf-agents.svg)](https://badge.fury.io/py/tf-agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "tensorflow/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "check",
   "observation_id": "6b4d8dc28ff9fae9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "\ud83d\udee0\ufe0f check",
   "source_context_snippet": "\"\ud83d\udee0\ufe0f check\"",
   "source_file": ".github/workflows/check.yaml",

@@ -223,6 +223,30 @@
       "source_repo": "bytedance/Q-Insight",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate-context",
+      "text": "3D generation code for MVDream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate-context",
+      "text": "Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, Xiao Yang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "Open Bandit Pipeline: a python library for bandit algorithms and off-policy evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -339,6 +363,18 @@
       "source_repo": "bytedance/Q-Insight",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate",
+      "text": "Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, Xiao Yang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_related_terms": [
@@ -585,11 +621,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "bytedance/Q-Insight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/MVDream-threestudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

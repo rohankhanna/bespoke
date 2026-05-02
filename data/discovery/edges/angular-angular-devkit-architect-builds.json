@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-architect-builds",
+      "target": "@angular-devkit/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-architect-builds",
+      "target": "rxjs",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "angular/angular-devkit-architect-builds"
+}

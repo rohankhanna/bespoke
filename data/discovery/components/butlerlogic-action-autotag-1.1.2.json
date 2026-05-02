@@ -1,7 +1,7 @@
 {
   "component": "butlerlogic/action-autotag@1.1.2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-tag.yml",
       "source_repo": "DiligentGraphics/NuklearUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-tags.yml",
+      "source_repo": "baptisteArno/typebot.io"
     }
   ]
 }

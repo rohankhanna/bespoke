@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cache-clear.yml",
       "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cache-clean.yml",
+      "source_repo": "calcom/cal.diy"
     }
   ],
   "term": "cleanup caches by a branch"

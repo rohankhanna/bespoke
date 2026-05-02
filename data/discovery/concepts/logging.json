@@ -379,6 +379,18 @@
       "source_repo": "JuliaLogging/LoggingExtras.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/oxinabox/LoggingExtras.jl.svg?branch=master)](https://travis-ci.org/oxinabox/LoggingExtras.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "JuliaLogging/LoggingExtras.jl",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/oxinabox/LoggingExtras.jl.svg?branch=master)](https://travis-ci.org/oxinabox/LoggingExtras.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate",
+      "text": "[![NuGet package](https://img.shields.io/nuget/v/log4net.svg?logo=NuGet)](https://www.nuget.org/packages/log4net)"
     }
   ],
   "candidate_related_terms": [
@@ -814,11 +832,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaLogging/LoggingExtras.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4net"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

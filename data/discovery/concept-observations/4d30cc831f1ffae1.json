@@ -84,7 +84,7 @@
   "normalized_form": "lockfile-lint",
   "observation_id": "4d30cc831f1ffae1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "Lockfile lint",
   "source_context_snippet": "Lockfile lint",
   "source_file": ".github/workflows/lockfile-lint.yml",

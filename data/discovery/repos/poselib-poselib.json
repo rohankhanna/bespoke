@@ -35,13 +35,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "PoseLib/PoseLib",
-      "target": "poselib/posebench",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-pypi.yaml",
       "source_repo": "PoseLib/PoseLib",
@@ -91,7 +84,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:07:59.736803+00:00",
+  "fetched_at": "2026-05-02T12:32:07.774579+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -129,11 +122,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "vlarsson/poselib",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "poselib/posebench",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

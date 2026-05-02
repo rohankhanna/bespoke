@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "node-version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matzkoh/prettier-plugin-packagejson",
+      "status": "candidate-context",
+      "text": "Prettier plugin for package.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matzkoh/prettier-plugin-packagejson",
+      "status": "candidate-context",
+      "text": "node-version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matzkoh/prettier-plugin-packagejson",
+      "status": "candidate",
+      "text": "node-version"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "node-version",
+  "concept_id": "node-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/node-version.yml",
+      "source_repo": "matzkoh/prettier-plugin-packagejson"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "node-version",
+      "sense_id": "node-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

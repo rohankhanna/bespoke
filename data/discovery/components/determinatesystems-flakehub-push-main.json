@@ -1,12 +1,17 @@
 {
   "component": "DeterminateSystems/flakehub-push@main",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/flakehub.yml",
       "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flakehub-publish-tagged.yml",
+      "source_repo": "a-h/templ"
     }
   ]
 }

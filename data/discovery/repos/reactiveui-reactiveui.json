@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "reactiveui/actions-common/.github/workflows/workflow-common-setup-and-build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "reactiveui/actions-common/.github/workflows/workflow-common-codeql.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "reactiveui/actions-common/.github/workflows/workflow-common-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "NuGet/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "reactiveui/actions-common/.github/workflows/workflow-common-create-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactiveui/actions-common/.github/workflows/workflow-common-setup-and-build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactiveui/actions-common/.github/workflows/workflow-common-codeql.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "dessant/lock-threads@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactiveui/actions-common/.github/workflows/workflow-common-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "NuGet/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactiveui/actions-common/.github/workflows/workflow-common-create-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "first-timers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "fody",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "functional-reactive-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactive-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactive-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactiveui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "reactivex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "tizen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "winforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "xamarin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI",
+      "target": "xamarin-forms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:04:49.208630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13503
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 559
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.",
+    "fork": false,
+    "full_name": "reactiveui/ReactiveUI",
+    "html_url": "https://github.com/reactiveui/ReactiveUI",
+    "language": "C#",
+    "pushed_at": "2026-05-02T04:56:33Z",
+    "stargazers_count": 8472,
+    "topics": [
+      "android",
+      "csharp",
+      "dotnet",
+      "first-timers",
+      "fody",
+      "framework",
+      "functional-reactive-programming",
+      "hacktoberfest",
+      "ios",
+      "mvvm",
+      "reactive-extensions",
+      "reactive-programming",
+      "reactiveui",
+      "reactivex",
+      "tizen",
+      "uwp",
+      "winforms",
+      "wpf",
+      "xamarin",
+      "xamarin-forms"
+    ],
+    "updated_at": "2026-04-29T01:40:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-timers"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fody"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-reactive-programming"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive-extensions"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive-programming"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactiveui"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactivex"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tizen"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winforms"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-forms"
+    }
+  ]
+}

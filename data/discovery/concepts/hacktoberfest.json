@@ -7351,6 +7351,102 @@
       "source_repo": "apache/iceberg-rust",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder .NET SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for extensions for the Bot Builder JavaScript SDK, including middleware, dialogs, recognizers and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0c an Xcode extension to use nef features easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate-context",
+      "text": "The OpenUPM-CLI is a command-line interface for maintaining UPM registries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/openupm-cli) ![NPM](https://img.shields.io/npm/l/openupm-cli) ![npm](https://img.shields.io/npm/dm/openupm-cli)"
     }
   ],
   "candidate_glosses": [
@@ -11043,6 +11139,54 @@
       "source_repo": "apache/iceberg-rust",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/dotnet/_apis/build/status/BotBuilderCommunity.botbuilder-community-dotnet?branchName=master)](https://dev.azure.com/BotBuilder-Community/dotnet/_build/latest?definitionId=1&branchName=master) [![Bot Builder Community Nu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/BotBuilder-Community/js/_apis/build/status/BotBuilderCommunity.botbuilder-community-js?branchName=master)](https://dev.azure.com/BotBuilder-Community/js/_build/latest?definitionId=3&branchName=master) [![](https://img.shields.io/static/v1?l\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate",
+      "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openupm/openupm-cli",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/openupm-cli) ![NPM](https://img.shields.io/npm/l/openupm-cli) ![npm](https://img.shields.io/npm/dm/openupm-cli)"
     }
   ],
   "candidate_related_terms": [],
@@ -16594,11 +16738,125 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/sdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "boxyhq/saas-starter-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pipx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reactiveui/ReactiveUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "openupm/openupm-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

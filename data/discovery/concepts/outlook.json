@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "outlook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "A self-hosted Email Middleware for IMAP, SMTP, Gmail API, Graph API \u2014 built for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/rustmailer",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047454,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047057,
+      "status": "candidate",
+      "text": "lookout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034921,
+      "status": "candidate",
+      "text": "mentality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022608,
+      "status": "candidate",
+      "text": "expectation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047959,
+      "status": "candidate",
+      "text": "viewpoint"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55047,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11036,
+      "status": "candidate",
+      "text": "mentality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8047,
+      "status": "candidate",
+      "text": "expectation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "lookout"
+    }
+  ],
+  "canonical_name": "outlook",
+  "concept_id": "outlook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/rustmailer"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "outlook",
+      "sense_id": "outlook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

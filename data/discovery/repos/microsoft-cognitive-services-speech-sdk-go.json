@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "golangci/golangci-lint-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "target": "Lint code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:00:19.029796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1828
+    },
+    {
+      "path": "go.mod",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 4454
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go bindings for the Microsoft Cognitive Services Speech SDK",
+    "fork": false,
+    "full_name": "microsoft/cognitive-services-speech-sdk-go",
+    "html_url": "https://github.com/microsoft/cognitive-services-speech-sdk-go",
+    "language": "Go",
+    "pushed_at": "2026-04-15T21:03:43Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-26T22:23:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint code"
+    }
+  ]
+}

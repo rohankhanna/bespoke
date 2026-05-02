@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Coolify Helper Image Development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "Coolify Helper Image Development"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate",
+      "text": "Coolify Helper Image Development"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33899,
+      "status": "candidate",
+      "text": "fixer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18732,
+      "status": "candidate",
+      "text": "sponsor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18732,
+      "status": "candidate",
+      "text": "tout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18729,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18700,
+      "status": "candidate",
+      "text": "aid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Coolify Helper Image Development",
+  "concept_id": "coolify-helper-image-development",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/coolify-helper-next.yml",
+      "source_repo": "coollabsio/coolify"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coolify Helper Image Development",
+      "sense_id": "coolify-helper-image-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

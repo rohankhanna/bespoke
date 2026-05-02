@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "irecovery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate-context",
+      "text": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate-context",
+      "text": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate",
+      "text": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "irecovery",
+  "concept_id": "irecovery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libirecovery"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "irecovery",
+      "sense_id": "irecovery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

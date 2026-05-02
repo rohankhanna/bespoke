@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "petervanlunteren/ecoassist-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Build macOS release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "joncloud/makensis-action@publish",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "eltorio/action-signtoolLocation@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-release.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Build Windows release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "jgehrcke/github-repo-stats@RELEASE",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-repo-stats.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "github-repo-stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-txt.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version-txt.yml",
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "Update version text file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "cameratraps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "conservation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "ecology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "megadetector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PetervanLunteren/AddaxAI",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "PetervanLunteren/AddaxAI"
+}

@@ -19,12 +19,24 @@
       "source_repo": "eclipse-cyclonedds/cyclonedds",
       "status": "candidate-context",
       "text": "\"MISRA regressions check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
+      "status": "candidate-context",
+      "text": "\"MISRA regressions check\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "status": "candidate",
+      "text": "\"MISRA regressions check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx",
       "status": "candidate",
       "text": "\"MISRA regressions check\""
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/misra-regressions-check.yml",
       "source_repo": "eclipse-cyclonedds/cyclonedds"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds-cxx"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

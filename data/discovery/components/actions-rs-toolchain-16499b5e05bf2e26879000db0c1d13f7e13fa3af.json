@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

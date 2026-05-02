@@ -9246,6 +9246,138 @@
       "source_repo": "XuyangBai/TransFusion",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MultiPath/fairseq-stable",
+      "status": "candidate-context",
+      "text": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MultiPath/fairseq-stable",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tipi-deps/example-mapmap_cpu",
+      "status": "candidate-context",
+      "text": "An example to use the mapMAP library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tipi-deps/example-mapmap_cpu",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate-context",
+      "text": "A library with common code used by libraries and tools around the libimobiledevice project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate-context",
+      "text": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libusbmuxd",
+      "status": "candidate-context",
+      "text": "A client library to multiplex connections from and to iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libusbmuxd",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Template repository for creating plugins for IntelliJ Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate-context",
+      "text": "Simple DirectMedia Layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate-context",
+      "text": "Image decoding for many popular formats for Simple Directmedia Layer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -13944,6 +14076,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "XuyangBai/TransFusion",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MultiPath/fairseq-stable",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tipi-deps/example-mapmap_cpu",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice-glue",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libirecovery",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libusbmuxd",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-plugin-template",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsdl-org/SDL_image",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxyhq/saas-starter-kit",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactiveui/ReactiveUI",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
       "status": "candidate",
       "text": "build"
     }
@@ -20972,11 +21170,143 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MultiPath/fairseq-stable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tipi-deps/example-mapmap_cpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libimobiledevice-glue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libusbmuxd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "libsdl-org/SDL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "libsdl-org/SDL_image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boxyhq/saas-starter-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "reactiveui/ReactiveUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

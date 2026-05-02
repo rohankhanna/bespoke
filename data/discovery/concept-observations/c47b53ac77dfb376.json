@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcac Typebot is a powerful chatbot builder that you can self-host."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Workflows (Fly.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Workflows (Fly.io)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "babble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "bailiff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "epiphenomenalism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "evolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "fimbria"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Workflows (Fly.io)",
+      "sense_id": "deploy-workflows-fly.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-workflows-fly.io",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-workflows-fly.io",
+  "observation_id": "c47b53ac77dfb376",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "Deploy Workflows (Fly.io)",
+  "source_context_snippet": "Deploy Workflows (Fly.io)",
+  "source_file": ".github/workflows/deploy-workflows.yml",
+  "source_repo": "baptisteArno/typebot.io",
+  "source_repo_description": "\ud83d\udcac Typebot is a powerful chatbot builder that you can self-host."
+}

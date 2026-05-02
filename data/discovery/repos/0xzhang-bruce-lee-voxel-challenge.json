@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xzhang/bruce-lee-voxel-challenge",
+      "target": "maajor/maajor-voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:37.120226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1163
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "0xzhang/bruce-lee-voxel-challenge",
+    "html_url": "https://github.com/0xzhang/bruce-lee-voxel-challenge",
+    "language": "Python",
+    "pushed_at": "2022-05-18T06:57:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-09-17T06:33:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maajor/maajor-voxel-challenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

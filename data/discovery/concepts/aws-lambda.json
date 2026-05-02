@@ -283,6 +283,18 @@
       "source_repo": "softprops/envy-store",
       "status": "candidate-context",
       "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f\ud83d\udc0d\ud83d\udce6 Serverless plugin to bundle Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "softprops/envy-store",
       "status": "candidate",
       "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [],
@@ -592,11 +610,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "softprops/envy-store"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "serverless/serverless-python-requirements"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

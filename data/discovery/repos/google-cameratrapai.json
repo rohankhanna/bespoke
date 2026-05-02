@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "google/cameratrapai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:43:59.151881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26268
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2908
+    },
+    {
+      "path": ".github/workflows/markdown_style_checks.yml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/python_style_checks.yml",
+      "size": 1553
+    },
+    {
+      "path": ".github/workflows/python_tests.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI models trained by Google to classify species in images from motion-triggered wildlife cameras.",
+    "fork": false,
+    "full_name": "google/cameratrapai",
+    "html_url": "https://github.com/google/cameratrapai",
+    "language": "Python",
+    "pushed_at": "2026-04-25T21:41:32Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-04-30T08:27:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

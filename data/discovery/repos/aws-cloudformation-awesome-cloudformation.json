@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cloudformation-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "target": "cloudformation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:49:52.866640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of resources and projects for working with AWS CloudFormation.",
+    "fork": false,
+    "full_name": "aws-cloudformation/awesome-cloudformation",
+    "html_url": "https://github.com/aws-cloudformation/awesome-cloudformation",
+    "language": null,
+    "pushed_at": "2024-07-23T23:09:59Z",
+    "stargazers_count": 621,
+    "topics": [
+      "awesome-list",
+      "aws",
+      "aws-cloudformation",
+      "cloudformation"
+    ],
+    "updated_at": "2026-04-03T18:39:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cfn-lint-visual-studio-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/cfn-python-lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudformation"
+    },
+    {
+      "context_snippet": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/notify_on_failure.yml",
       "source_repo": "taichi-dev/taichi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify_on_failure.yml",
+      "source_repo": "yuanming-hu/taichi"
     }
   ],
   "term": "Notification for master failure"

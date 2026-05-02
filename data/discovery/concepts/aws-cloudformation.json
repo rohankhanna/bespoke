@@ -67,6 +67,18 @@
       "source_repo": "aws-cloudformation/aws-cloudformation-templates",
       "status": "candidate-context",
       "text": "This repository contains sample CloudFormation templates that you can use"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "status": "candidate-context",
+      "text": "A curated list of resources and projects for working with AWS CloudFormation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "status": "candidate-context",
+      "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "aws-cloudformation/aws-cloudformation-templates",
       "status": "candidate",
       "text": "This repository contains sample CloudFormation templates that you can use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/awesome-cloudformation",
+      "status": "candidate",
+      "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +358,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/awesome-cloudformation"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

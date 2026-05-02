@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "flagai-open/aquila2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "flagopen/flagattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "flagopen/flagattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "triton-lang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:31:24.377926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11682
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/code-check.yml",
+      "size": 1542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of memory efficient attention operators implemented in the Triton language.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagAttention",
+    "html_url": "https://github.com/flagos-ai/FlagAttention",
+    "language": "Python",
+    "pushed_at": "2024-06-05T09:41:11Z",
+    "stargazers_count": 290,
+    "topics": [
+      "attention",
+      "triton-lang"
+    ],
+    "updated_at": "2026-04-15T15:53:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagai-open/aquila2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagattention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagattention",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton-lang"
+    }
+  ]
+}

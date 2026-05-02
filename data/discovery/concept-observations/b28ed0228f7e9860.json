@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image decoding for many popular formats for Simple Directmedia Layer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SDL_image 3.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SDL_image 3.0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sdl2",
+      "sense_id": "sdl2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sdl2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sdl2",
+  "observation_id": "b28ed0228f7e9860",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "sdl2",
+  "source_context_snippet": "SDL_image 3.0",
+  "source_file": null,
+  "source_repo": "libsdl-org/SDL_image",
+  "source_repo_description": "Image decoding for many popular formats for Simple Directmedia Layer."
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:44:08.665184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine Learning resources for camera trap data processing",
+    "fork": false,
+    "full_name": "tnc-ca-geo/animl-ml",
+    "html_url": "https://github.com/tnc-ca-geo/animl-ml",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-10T20:24:45Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-11T20:28:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

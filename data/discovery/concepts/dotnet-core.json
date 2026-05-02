@@ -211,6 +211,30 @@
       "source_repo": "dotnet/corefx",
       "status": "candidate-context",
       "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate-context",
+      "text": "Welcome to the Microsoft Voice Assistant samples repository! Here you will find samples to help you get started building client application for your bot or Custom Command service. You will also be able to easily deploy a working Custom Command based Voice Assistant to your own Azure subscription"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "Provides a service to install NuGet packages into a Unity project via the Unity Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate-context",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "dotnet/corefx",
       "status": "candidate",
       "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdovaz/UnityNuGet",
+      "status": "candidate",
+      "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -490,11 +526,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bdovaz/UnityNuGet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

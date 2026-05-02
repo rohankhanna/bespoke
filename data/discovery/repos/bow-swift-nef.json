@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula.yml"
+    },
+    {
+      "component": "dawidd6/action-homebrew-bump-formula@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nef-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef",
+      "target": "arrow-kt/ank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef",
+      "target": "bow-swift/homebrew-nef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef",
+      "target": "bow-swift/nef-editor-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef",
+      "target": "bow-swift/bow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "dawidd6/action-homebrew-bump-formula@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-formula.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "Bump Homebrew nef formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nef-compile.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nef-compile.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "nef verify documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "geekyeggo/delete-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "Compile and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcode.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcode.yml",
+      "source_repo": "bow-swift/nef",
+      "target": "Verify Xcode integrity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "apple-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "carbon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:04:09.819362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18816
+    },
+    {
+      "path": ".github/workflows/bump-formula.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/nef-compile.yml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/xcode.yml",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc8a steroids for Xcode Playgrounds",
+    "fork": false,
+    "full_name": "bow-swift/nef",
+    "html_url": "https://github.com/bow-swift/nef",
+    "language": "Swift",
+    "pushed_at": "2022-01-19T18:14:26Z",
+    "stargazers_count": 268,
+    "topics": [
+      "apple-documentation",
+      "bow",
+      "carbon",
+      "cocoapods",
+      "functional-programming",
+      "hacktoberfest",
+      "jekyll",
+      "nef",
+      "playground",
+      "swift"
+    ],
+    "updated_at": "2026-03-27T23:01:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arrow-kt/ank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bow-swift/bow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bow-swift/homebrew-nef",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bow-swift/nef-editor-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump Homebrew nef formula",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-formula.yml",
+      "term": "Bump Homebrew nef formula"
+    },
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "nef verify documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nef-compile.yml",
+      "term": "nef verify documentation"
+    },
+    {
+      "context_snippet": "Compile and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Compile and test"
+    },
+    {
+      "context_snippet": "Verify Xcode integrity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcode.yml",
+      "term": "Verify Xcode integrity"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-documentation"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carbon"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playground"
+    },
+    {
+      "context_snippet": "![](assets/header-nef.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

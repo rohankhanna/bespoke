@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "bgshih/aster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "ayumiymk/aster.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "canjie-luo/moran_v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "aster-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "crnn-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "paper-recommendations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "scene-text-recogniton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "target": "sotas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:18.300094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Papers, Datasets, Algorithms, SOTA for STR. Long-time Maintaining",
+    "fork": false,
+    "full_name": "HCIILAB/Scene-Text-Recognition-Recommendations",
+    "html_url": "https://github.com/HCIILAB/Scene-Text-Recognition-Recommendations",
+    "language": "Python",
+    "pushed_at": "2023-11-29T06:15:50Z",
+    "stargazers_count": 353,
+    "topics": [
+      "aster-pytorch",
+      "crnn-pytorch",
+      "datasets",
+      "frameworks",
+      "paper-recommendations",
+      "scene-text-recogniton",
+      "sotas"
+    ],
+    "updated_at": "2026-04-26T21:53:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayumiymk/aster.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/aster",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/crnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "canjie-luo/moran_v2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aster-pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn-pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameworks"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper-recommendations"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recogniton"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sotas"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed_issue_message.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v3.4.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "Build Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed_issue_message.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "aws-actions/closed-issue-message@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed_issue_message.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "aws-actions/amazon-ecr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_lint.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "amannn/action-semantic-pull-request@v3.4.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_lint.yml",
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "pull-request-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "cfn-guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "policy-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-guard-rules-registry",
+      "target": "static-application-security-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:48:59.946204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11688
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1368
+    },
+    {
+      "path": ".github/workflows/closed_issue_message.yml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2774
+    },
+    {
+      "path": ".github/workflows/pull_request_lint.yml",
+      "size": 534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rules Registry for Compliance Frameworks",
+    "fork": false,
+    "full_name": "aws-cloudformation/aws-guard-rules-registry",
+    "html_url": "https://github.com/aws-cloudformation/aws-guard-rules-registry",
+    "language": "Python",
+    "pushed_at": "2024-03-25T20:06:52Z",
+    "stargazers_count": 143,
+    "topics": [
+      "aws",
+      "cfn-guard",
+      "infrastructure-as-code",
+      "policy-as-code",
+      "static-application-security-testing"
+    ],
+    "updated_at": "2026-04-24T21:23:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Artifacts"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed_issue_message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "pull-request-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_lint.yml",
+      "term": "pull-request-lint"
+    },
+    {
+      "context_snippet": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cfn-guard"
+    },
+    {
+      "context_snippet": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "policy-as-code"
+    },
+    {
+      "context_snippet": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-application-security-testing"
+    }
+  ]
+}

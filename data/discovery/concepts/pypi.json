@@ -364,6 +364,24 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate-context",
       "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/chex",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate-context",
+      "text": ":spider_web: input/output for many mesh formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -546,6 +564,18 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate",
       "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/chex",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nschloe/meshio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1003,11 +1033,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/chex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nschloe/meshio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pipx"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

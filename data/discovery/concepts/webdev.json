@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "webdev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate-context",
+      "text": "Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and Cloud Platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webdev",
+  "concept_id": "webdev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "EclipseFdn/iot.eclipse.org"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webdev",
+      "sense_id": "webdev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

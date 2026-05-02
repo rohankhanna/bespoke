@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:35:16.217370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pokee Deep Research Model Open Source Repo",
+    "fork": false,
+    "full_name": "Pokee-AI/PokeeResearchOSS",
+    "html_url": "https://github.com/Pokee-AI/PokeeResearchOSS",
+    "language": "Python",
+    "pushed_at": "2025-10-22T06:57:29Z",
+    "stargazers_count": 1101,
+    "topics": [],
+    "updated_at": "2026-04-30T02:03:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

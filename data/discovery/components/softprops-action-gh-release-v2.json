@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1652,6 +1652,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ecomfe/vue-echarts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rustmailer/rustmailer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precompile.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ]
 }

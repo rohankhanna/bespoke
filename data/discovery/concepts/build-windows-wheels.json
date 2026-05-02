@@ -68,6 +68,18 @@
       "source_repo": "pytorch/tensordict",
       "status": "candidate-context",
       "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "build-windows-wheels"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "pytorch/tensordict",
       "status": "candidate",
       "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate",
+      "text": "build-windows-wheels"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/build-wheels-windows.yml",
       "source_repo": "pytorch/tensordict"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

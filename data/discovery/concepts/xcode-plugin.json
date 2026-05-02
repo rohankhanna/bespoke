@@ -19,6 +19,18 @@
       "source_repo": "bazelbuild/tulsi",
       "status": "candidate-context",
       "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0c an Xcode extension to use nef features easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazelbuild/tulsi",
       "status": "candidate",
       "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-plugin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/tulsi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-plugin"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

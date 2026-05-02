@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A software library of stochastic streaming algorithms, a.k.a. sketches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CPP SerDe Compatibility Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CPP SerDe Compatibility Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "contribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "contributions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "premium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23600,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPP SerDe Compatibility Test",
+      "sense_id": "cpp-serde-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cpp-serde-compatibility-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cpp-serde-compatibility-test",
+  "observation_id": "77e191d829e2ebb7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "CPP SerDe Compatibility Test",
+  "source_context_snippet": "CPP SerDe Compatibility Test",
+  "source_file": ".github/workflows/cpp-serde-compat.yml",
+  "source_repo": "apache/datasketches-java",
+  "source_repo_description": "A software library of stochastic streaming algorithms, a.k.a. sketches."
+}

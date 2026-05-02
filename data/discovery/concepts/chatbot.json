@@ -607,6 +607,30 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate-context",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Typebot is a powerful chatbot builder that you can self-host."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate-context",
+      "text": "Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate-context",
+      "text": "botkit-packages"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +933,18 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate",
+      "text": "botkit-packages"
     }
   ],
   "candidate_related_terms": [
@@ -1426,11 +1462,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "baptisteArno/typebot.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "howdyai/botkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

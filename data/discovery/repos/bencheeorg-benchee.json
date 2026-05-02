@@ -120,7 +120,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:53:50.938427+00:00",
+  "fetched_at": "2026-05-02T12:58:14.477942+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -141,7 +141,7 @@
     "html_url": "https://github.com/bencheeorg/benchee",
     "language": "Elixir",
     "pushed_at": "2026-04-11T09:28:54Z",
-    "stargazers_count": 1506,
+    "stargazers_count": 1507,
     "topics": [
       "benchmarking",
       "elixir",
@@ -150,7 +150,7 @@
       "microbenchmarks",
       "statistics"
     ],
-    "updated_at": "2026-05-01T08:41:24Z"
+    "updated_at": "2026-05-02T09:26:15Z"
   },
   "repo_links": [
     {

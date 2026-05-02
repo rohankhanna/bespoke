@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "raybobo/taichi-voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "maajor/maajor-voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "houkensjtu/qbao_voxel_art",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "ltt1598/voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:35.942091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2950
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Taichi Voxel Challenge 2022",
+    "fork": false,
+    "full_name": "0xrabbyte/voxel-challenge-2022",
+    "html_url": "https://github.com/0xrabbyte/voxel-challenge-2022",
+    "language": "Python",
+    "pushed_at": "2022-05-11T16:25:00Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-12T18:03:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "houkensjtu/qbao_voxel_art",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltt1598/voxel-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maajor/maajor-voxel-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raybobo/taichi-voxel-challenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

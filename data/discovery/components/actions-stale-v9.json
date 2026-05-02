@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v9",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -522,6 +522,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "aiortc/aioquic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chore-manage-stale-issues-and-prs.yml",
+      "source_repo": "coollabsio/coolify"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast approximations for common geodesic measurements \ud83c\udf10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of very fast approximations to common geodesic measurements."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of very fast approximations to common geodesic measurements."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965198,
+      "status": "candidate",
+      "text": "length"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848510,
+      "status": "candidate",
+      "text": "outstrip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848327,
+      "status": "candidate",
+      "text": "outdistance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39837101,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39769692,
+      "status": "candidate",
+      "text": "aloofness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "distance",
+      "sense_id": "distance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25064,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "aloofness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "outstrip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "outdistance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 65,
+      "status": "candidate",
+      "text": "length"
+    }
+  ],
+  "concept_id": "distance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "distance",
+  "observation_id": "5993a540bdbcf9f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "distance",
+  "source_context_snippet": "A collection of very fast approximations to common geodesic measurements.",
+  "source_file": null,
+  "source_repo": "mapbox/cheap-ruler",
+  "source_repo_description": "Fast approximations for common geodesic measurements \ud83c\udf10"
+}

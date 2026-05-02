@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Byron/google-apis-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Byron/google-apis-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:42:42.860977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10426
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 134
+    },
+    {
+      "path": "requirements.txt",
+      "size": 103
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A binding and CLI generator for all Google APIs",
+    "fork": false,
+    "full_name": "Byron/google-apis-rs",
+    "html_url": "https://github.com/Byron/google-apis-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-14T15:06:39Z",
+    "stargazers_count": 1131,
+    "topics": [],
+    "updated_at": "2026-04-30T18:13:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

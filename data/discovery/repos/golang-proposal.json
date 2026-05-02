@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:43:26.774001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Project Design Documents",
+    "fork": false,
+    "full_name": "golang/proposal",
+    "html_url": "https://github.com/golang/proposal",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T06:15:39Z",
+    "stargazers_count": 3448,
+    "topics": [],
+    "updated_at": "2026-05-01T05:57:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

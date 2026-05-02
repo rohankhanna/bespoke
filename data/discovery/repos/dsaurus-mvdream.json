@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:32:01.875767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3670
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-view Diffusion for 3D Generation",
+    "fork": true,
+    "full_name": "DSaurus/MVDream",
+    "html_url": "https://github.com/DSaurus/MVDream",
+    "language": "Python",
+    "pushed_at": "2023-12-20T06:44:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-12-20T06:44:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

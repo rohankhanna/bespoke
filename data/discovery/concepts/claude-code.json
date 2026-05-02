@@ -1600,6 +1600,18 @@
       "source_repo": "pulumi/pulumi-gcp",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -2392,6 +2404,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coollabsio/coolify",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -4207,11 +4225,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "coollabsio/coolify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

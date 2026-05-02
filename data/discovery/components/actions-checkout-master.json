@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@master",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1167,6 +1167,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/diagram.yml",
       "source_repo": "danmayer/coverband"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ]
 }

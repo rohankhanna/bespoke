@@ -92,6 +92,18 @@
       "source_repo": "jest-community/eslint-plugin-jest-extended",
       "status": "candidate-context",
       "text": "Smoke test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run Standard Ruby against your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate-context",
+      "text": "Smoke Test"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "jest-community/eslint-plugin-jest-extended",
       "status": "candidate",
       "text": "Smoke test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-ruby-action",
+      "status": "candidate",
+      "text": "Smoke Test"
     }
   ],
   "candidate_related_terms": [
@@ -221,11 +239,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/smoke-test.yml",
       "source_repo": "jest-community/eslint-plugin-jest-extended"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-ruby-action"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "electron-store",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -77,6 +77,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jhen0409/react-native-debugger"
     }
   ]
 }

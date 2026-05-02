@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -7302,6 +7302,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "ButTaiwan/iansui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nschloe/meshio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-pypi.yaml",
+      "source_repo": "ARISE-Initiative/robosuite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "libsdl-org/SDL_image"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown_style_checks.yml",
+      "source_repo": "google/cameratrapai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_style_checks.yml",
+      "source_repo": "google/cameratrapai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "google/cameratrapai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "apache/datasketches-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/datasketches-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "apache/datasketches-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "terrierteam/pyterrier_doc2query"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "terrierteam/pyterrier_doc2query"
     }
   ]
 }

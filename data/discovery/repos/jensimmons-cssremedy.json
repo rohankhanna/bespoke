@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "jensimmons/cssremedy",
+      "target": "mozdevs/cssremedy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:02:19.775610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4415
+    },
+    {
+      "path": "package.json",
+      "size": 449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Start your project with a remedy for the technical debt of CSS. ",
+    "fork": false,
+    "full_name": "jensimmons/cssremedy",
+    "html_url": "https://github.com/jensimmons/cssremedy",
+    "language": "CSS",
+    "pushed_at": "2022-07-07T22:11:37Z",
+    "stargazers_count": 2228,
+    "topics": [],
+    "updated_at": "2026-04-22T17:37:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozdevs/cssremedy",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

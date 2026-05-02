@@ -595,6 +595,18 @@
       "source_repo": "hyparam/squirreling",
       "status": "candidate-context",
       "text": "![squirreling engine](squirreling.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate-context",
+      "text": "Enables simple, yet robust handling of async action creators in Redux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +903,12 @@
       "source_repo": "hyparam/squirreling",
       "status": "candidate",
       "text": "![squirreling engine](squirreling.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
     }
   ],
   "candidate_related_terms": [
@@ -1330,11 +1348,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "pburtchaell/redux-promise-middleware"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

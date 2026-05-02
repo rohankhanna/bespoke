@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_enforcer.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_branch.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flowdag_schema_check.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc_ci.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc_ci.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "Build Doc CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_msi_installer.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_enforcer.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_branch.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_promptflow_release_branch.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "Create promptflow release branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "Create promptflow release tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "Flake8 Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flowdag_schema_check.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promptflow-core-test.yml",
+      "source_repo": "microsoft/promptflow",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow",
+      "target": "ai-application-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow",
+      "target": "ai-applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:37:00.785136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9876
+    },
+    {
+      "path": ".github/workflows/build_doc_ci.yml",
+      "size": 3208
+    },
+    {
+      "path": ".github/workflows/build_msi_installer.yml",
+      "size": 11345
+    },
+    {
+      "path": ".github/workflows/check_enforcer.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/create_promptflow_release_branch.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/create_promptflow_release_tag.yml",
+      "size": 3141
+    },
+    {
+      "path": ".github/workflows/flake8.yml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/flowdag_schema_check.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/promptflow-core-test.yml",
+      "size": 6549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
+    "fork": false,
+    "full_name": "microsoft/promptflow",
+    "html_url": "https://github.com/microsoft/promptflow",
+    "language": "Python",
+    "pushed_at": "2026-05-01T03:15:20Z",
+    "stargazers_count": 11116,
+    "topics": [
+      "ai",
+      "ai-application-development",
+      "ai-applications",
+      "chatgpt",
+      "gpt",
+      "llm",
+      "prompt",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-05-01T12:42:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Doc CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc_ci.yml",
+      "term": "Build Doc CI"
+    },
+    {
+      "context_snippet": "Create promptflow release branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_promptflow_release_branch.yml",
+      "term": "Create promptflow release branch"
+    },
+    {
+      "context_snippet": "Create promptflow release tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_promptflow_release_tag.yml",
+      "term": "Create promptflow release tag"
+    },
+    {
+      "context_snippet": "Flake8 Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake8.yml",
+      "term": "Flake8 Lint"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-application-development"
+    },
+    {
+      "context_snippet": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-applications"
+    },
+    {
+      "context_snippet": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

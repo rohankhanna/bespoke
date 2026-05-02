@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Haochen Wang*](https://whc.is/),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Haochen Wang*](https://whc.is/),"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-models",
+      "sense_id": "diffusion-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diffusion-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diffusion-models",
+  "observation_id": "94d4d3a6b922651b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "diffusion-models",
+  "source_context_snippet": "[Haochen Wang*](https://whc.is/),",
+  "source_file": null,
+  "source_repo": "pals-ttic/sjc",
+  "source_repo_description": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation (CVPR 2023)"
+}

@@ -355,6 +355,30 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate-context",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "Papers, Datasets, Algorithms, SOTA for STR. Long-time Maintaining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "Open Bandit Pipeline: a python library for bandit algorithms and off-policy evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "st-tech/zr-obp",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/st-tech/zr-obp/master/images/logo.png\" width=\"60%\"/></div>"
     }
   ],
   "candidate_related_terms": [
@@ -772,11 +808,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaData/DataFrames.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "HCIILAB/Scene-Text-Recognition-Recommendations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "st-tech/zr-obp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

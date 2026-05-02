@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "RuboCop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/responders",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/responders",
+      "target": "controllers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/responders",
+      "target": "flash-messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/responders",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/responders",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:55:50.215553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9806
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of Rails responders to dry up your application",
+    "fork": false,
+    "full_name": "heartcombo/responders",
+    "html_url": "https://github.com/heartcombo/responders",
+    "language": "Ruby",
+    "pushed_at": "2026-04-06T20:25:44Z",
+    "stargazers_count": 2046,
+    "topics": [
+      "controllers",
+      "flash-messages",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-15T03:07:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "RuboCop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "RuboCop"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controllers"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash-messages"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

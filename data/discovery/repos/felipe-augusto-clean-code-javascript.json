@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "danielstjules/buddy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "alivebao/clean-code-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "greg-dev/clean-code-javascript-pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "boryamogila/clean-code-javascript-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felipe-augusto/clean-code-javascript",
+      "target": "clean-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:50:39.262802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Conceitos de C\u00f3digo Limpo adaptados em JavaScript (Tradu\u00e7\u00e3o PT-BR)",
+    "fork": false,
+    "full_name": "felipe-augusto/clean-code-javascript",
+    "html_url": "https://github.com/felipe-augusto/clean-code-javascript",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-13T23:52:59Z",
+    "stargazers_count": 4891,
+    "topics": [
+      "clean-code",
+      "javascript"
+    ],
+    "updated_at": "2026-05-01T04:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alivebao/clean-code-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boryamogila/clean-code-javascript-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielstjules/buddy.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greg-dev/clean-code-javascript-pl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Reposit\u00f3rio original: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-code"
+    }
+  ]
+}

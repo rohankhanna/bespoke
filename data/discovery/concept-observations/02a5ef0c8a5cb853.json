@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "(CVPR 2023) Pytorch implementation of \u201cT2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "motion-generation",
+      "sense_id": "motion-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "motion-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "motion-generation",
+  "observation_id": "02a5ef0c8a5cb853",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "motion-generation",
+  "source_context_snippet": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\"",
+  "source_file": null,
+  "source_repo": "Mael-zys/T2M-GPT",
+  "source_repo_description": "(CVPR 2023) Pytorch implementation of \u201cT2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\u201d"
+}

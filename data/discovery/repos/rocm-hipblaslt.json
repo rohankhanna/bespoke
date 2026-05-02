@@ -12,20 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ROCm/hipBLASLt",
-      "target": "rocm/hipblas-common",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/hipBLASLt",
-      "target": "rocm/roctracer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/hipBLASLt",
       "target": "rocmsoftwareplatform/hipblaslt",
       "target_type": "repository"
     },
@@ -79,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:49:56.065476+00:00",
+  "fetched_at": "2026-05-02T12:52:24.061866+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,16 +100,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "radeonopencompute/rocm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/hipblas-common",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/roctracer",
       "source_file": "README.md"
     },
     {

@@ -295,6 +295,18 @@
       "source_repo": "CrackAndDie/Abdrakov.Container",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate-context",
+      "text": "Fast approximations for common geodesic measurements \ud83c\udf10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate-context",
+      "text": "A collection of very fast approximations to common geodesic measurements."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "CrackAndDie/Abdrakov.Container",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate",
+      "text": "A collection of very fast approximations to common geodesic measurements."
     }
   ],
   "candidate_related_terms": [
@@ -694,11 +712,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/cheap-ruler"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "nmwsharp/happly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "interactivecomputergraphics/discregrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "build-linux-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "build-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "build-windows-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "build-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "deformable-solids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "position-based-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "rigid-bodies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "rigid-body-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
+}

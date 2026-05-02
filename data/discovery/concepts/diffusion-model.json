@@ -91,6 +91,18 @@
       "source_repo": "Vchitect/SEINE",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChenFengYe/motion-latent-diffusion",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Executing your Commands via Motion Diffusion in Latent Space, a fast and high-quality motion diffusion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenFengYe/motion-latent-diffusion",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/executing-your-commands-via-motion-diffusion/motion-synthesis-on-humanml3d)](https://paperswithcode.com/sota/motion-synthesis-on-humanml3d?p=executing-your-commands-via-motion-diffusion)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Vchitect/SEINE",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenFengYe/motion-latent-diffusion",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/executing-your-commands-via-motion-diffusion/motion-synthesis-on-humanml3d)](https://paperswithcode.com/sota/motion-synthesis-on-humanml3d?p=executing-your-commands-via-motion-diffusion)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "Vchitect/SEINE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ChenFengYe/motion-latent-diffusion"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

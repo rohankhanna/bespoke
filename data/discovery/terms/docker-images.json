@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ],
   "term": "Docker images"

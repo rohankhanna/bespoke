@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reason bindings for ReactJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **Warning**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **Warning**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030991,
+      "status": "candidate",
+      "text": "mingle-mangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030985,
+      "status": "candidate",
+      "text": "omnium-gatherum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030908,
+      "status": "candidate",
+      "text": "farrago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030876,
+      "status": "candidate",
+      "text": "hodgepodge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030816,
+      "status": "candidate",
+      "text": "oddments"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "melange",
+      "sense_id": "melange#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21032,
+      "status": "candidate",
+      "text": "hodgepodge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10034,
+      "status": "candidate",
+      "text": "farrago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "odds and ends"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "ragbag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "oddments"
+    }
+  ],
+  "concept_id": "melange",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "melange",
+  "observation_id": "c466046cea110ee4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "melange",
+  "source_context_snippet": "> **Warning**",
+  "source_file": null,
+  "source_repo": "reasonml/reason-react",
+  "source_repo_description": "Reason bindings for ReactJS"
+}

@@ -389,7 +389,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:54:23.176910+00:00",
+  "fetched_at": "2026-05-02T12:42:45.413734+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -413,15 +413,15 @@
     "full_name": "rust-lang/rustup",
     "html_url": "https://github.com/rust-lang/rustup",
     "language": "Rust",
-    "pushed_at": "2026-04-29T01:12:45Z",
-    "stargazers_count": 6863,
+    "pushed_at": "2026-05-02T07:30:25Z",
+    "stargazers_count": 6862,
     "topics": [
       "hacktoberfest",
       "rust",
       "rustlang",
       "toolchain"
     ],
-    "updated_at": "2026-04-29T15:47:56Z"
+    "updated_at": "2026-05-02T09:23:28Z"
   },
   "repo_links": [],
   "terms": [

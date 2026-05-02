@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:41:34.230503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9560
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "eclipse-cyclonedds/cyclonedds-python",
+    "html_url": "https://github.com/eclipse-cyclonedds/cyclonedds-python",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:27:54Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-13T18:27:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

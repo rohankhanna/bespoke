@@ -119,6 +119,16 @@
       "component": "actions/setup-python@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-stage-check.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled"
     }
   ],
   "edges": [
@@ -226,9 +236,30 @@
       "source_repo": "InternScience/SciReason",
       "target": "actions/setup-python@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason",
+      "target": "deploy",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:15:35.965229+00:00",
+  "fetched_at": "2026-05-02T12:37:13.643721+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,6 +288,10 @@
     {
       "path": ".github/workflows/pr-stage-check.yml.disabled",
       "size": 4636
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml.disabled",
+      "size": 855
     }
   ],
   "related_repositories": [],
@@ -292,6 +327,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/lint.yml.disabled",
       "term": "lint"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "term": "deploy"
     }
   ]
 }

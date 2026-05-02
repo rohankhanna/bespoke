@@ -92,6 +92,18 @@
       "source_repo": "pytorch/tensordict",
       "status": "candidate-context",
       "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "build-linux-wheels"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "pytorch/tensordict",
       "status": "candidate",
       "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate",
+      "text": "build-linux-wheels"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/build_linux_wheels.yaml",
       "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

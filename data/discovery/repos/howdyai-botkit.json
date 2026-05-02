@@ -1,0 +1,381 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "howdyai/botkit",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "bot-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "botkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "botkit-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "cisco-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "conversational-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "facebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "facebook-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "facebook-messenger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "glitch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "making-bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "microsoft-bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "microsoft-teams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "slack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "twilio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "web-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "howdyai/botkit",
+      "target": "workplacebyfacebook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:00:34.257363+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms.",
+    "fork": false,
+    "full_name": "howdyai/botkit",
+    "html_url": "https://github.com/howdyai/botkit",
+    "language": "TypeScript",
+    "pushed_at": "2024-07-01T02:28:35Z",
+    "stargazers_count": 11583,
+    "topics": [
+      "bot",
+      "bot-application",
+      "botkit",
+      "botkit-studio",
+      "bots",
+      "chatbot",
+      "cisco-spark",
+      "conversational-ui",
+      "facebook",
+      "facebook-bot",
+      "facebook-messenger",
+      "glitch",
+      "making-bots",
+      "microsoft-bot-framework",
+      "microsoft-teams",
+      "slack",
+      "sms",
+      "twilio",
+      "web-bot",
+      "workplacebyfacebook"
+    ],
+    "updated_at": "2026-04-28T03:57:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-application"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botkit"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botkit-studio"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cisco-spark"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ui"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook-bot"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook-messenger"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glitch"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "making-bots"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-bot-framework"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-teams"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slack"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twilio"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-bot"
+    },
+    {
+      "context_snippet": "botkit-packages",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workplacebyfacebook"
+    }
+  ]
+}

@@ -127,6 +127,18 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate",
+      "text": "![gallery of_environments](docs/images/gallery.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ARISE-Initiative/robosuite"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

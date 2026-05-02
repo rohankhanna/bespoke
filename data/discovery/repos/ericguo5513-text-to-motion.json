@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "ericguo5513/humanml3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/text-to-motion",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:14.007828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5875
+    },
+    {
+      "path": "requirements.txt",
+      "size": 107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for \"Generating Diverse and Natural 3D Human Motions from Texts (CVPR2022).\"",
+    "fork": false,
+    "full_name": "EricGuo5513/text-to-motion",
+    "html_url": "https://github.com/EricGuo5513/text-to-motion",
+    "language": "Python",
+    "pushed_at": "2024-08-18T00:21:07Z",
+    "stargazers_count": 698,
+    "topics": [
+      "motion-generation",
+      "pytorch-implementation"
+    ],
+    "updated_at": "2026-04-30T05:24:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/humanml3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/text-to-motion/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/text-to-motion/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    }
+  ]
+}

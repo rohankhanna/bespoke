@@ -84,7 +84,7 @@
   "normalized_form": "exhaustive-package-test-slow",
   "observation_id": "0e0fb9def7089553",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "Exhaustive Package Test (slow)",
   "source_context_snippet": "Exhaustive Package Test (slow)",
   "source_file": ".github/workflows/exhaustive_package_test.yml",

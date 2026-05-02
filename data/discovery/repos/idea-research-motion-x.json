@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Motion-X",
+      "target": "idea-research/humantomato",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:15.955766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023] Official implementation of the paper \"Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset\"",
+    "fork": false,
+    "full_name": "IDEA-Research/Motion-X",
+    "html_url": "https://github.com/IDEA-Research/Motion-X",
+    "language": "Python",
+    "pushed_at": "2025-03-03T12:29:28Z",
+    "stargazers_count": 856,
+    "topics": [],
+    "updated_at": "2026-04-30T16:23:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/humantomato",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

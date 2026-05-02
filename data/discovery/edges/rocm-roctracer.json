@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kws-caller.yml",
+      "source_repo": "ROCm/roctracer",
+      "target": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/kws.yml@mainline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kws-caller.yml",
+      "source_repo": "ROCm/roctracer",
+      "target": "Rocm Validation Suite KWS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "source_repo": "ROCm/roctracer",
+      "target": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/rocm_ci.yml@mainline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "source_repo": "ROCm/roctracer",
+      "target": "ROCm CI Caller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-mainline.yaml",
+      "source_repo": "ROCm/roctracer",
+      "target": "AMD-ROCm-Internal/rocprofiler-github-actions@git-sync-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-mainline.yaml",
+      "source_repo": "ROCm/roctracer",
+      "target": "Sync amd-mainline to public repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-staging.yaml",
+      "source_repo": "ROCm/roctracer",
+      "target": "AMD-ROCm-Internal/rocprofiler-github-actions@git-sync-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-staging.yaml",
+      "source_repo": "ROCm/roctracer",
+      "target": "Sync amd-staging to public repository",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "ROCm/roctracer"
+}

@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "Continuous Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "mikepenz/release-changelog-builder-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-builder.yml",
+      "source_repo": "cyb3rko/pazzword",
+      "target": "Release Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "cybersecurity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "nbvcxz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "password",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyb3rko/pazzword",
+      "target": "zxcvbn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:02:32.148206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4187
+    },
+    {
+      "path": ".github/workflows/continuous-build.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/release-builder.yml",
+      "size": 4140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The most intelligent password evaluator app",
+    "fork": false,
+    "full_name": "cyb3rko/pazzword",
+    "html_url": "https://github.com/cyb3rko/pazzword",
+    "language": "Kotlin",
+    "pushed_at": "2024-10-24T01:47:21Z",
+    "stargazers_count": 77,
+    "topics": [
+      "analyzer",
+      "android",
+      "app",
+      "cybersecurity",
+      "evaluation",
+      "kotlin",
+      "nbvcxz",
+      "password",
+      "zxcvbn"
+    ],
+    "updated_at": "2026-02-24T17:32:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-build.yml",
+      "term": "Continuous Builder"
+    },
+    {
+      "context_snippet": "Release Builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-builder.yml",
+      "term": "Release Builder"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analyzer"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cybersecurity"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nbvcxz"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password"
+    },
+    {
+      "context_snippet": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zxcvbn"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRIME-RL/Entropy-Mechanism-of-RL",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:35:17.534456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Entropy Mechanism of Reinforcement Learning for Large Language Model Reasoning.",
+    "fork": false,
+    "full_name": "PRIME-RL/Entropy-Mechanism-of-RL",
+    "html_url": "https://github.com/PRIME-RL/Entropy-Mechanism-of-RL",
+    "language": "Python",
+    "pushed_at": "2025-07-11T06:47:36Z",
+    "stargazers_count": 435,
+    "topics": [
+      "llm",
+      "reasoning",
+      "rl"
+    ],
+    "updated_at": "2026-04-30T07:31:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

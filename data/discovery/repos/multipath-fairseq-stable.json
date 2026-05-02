@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "MultiPath/fairseq-stable",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:31:32.018900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11147
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/build_windows.yml",
+      "size": 1326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+    "fork": true,
+    "full_name": "MultiPath/fairseq-stable",
+    "html_url": "https://github.com/MultiPath/fairseq-stable",
+    "language": "Python",
+    "pushed_at": "2022-07-18T14:26:17Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-07-18T07:50:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

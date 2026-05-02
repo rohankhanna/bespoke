@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aymerick/raymond",
+      "target": "jknack/handlebars.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aymerick/raymond",
+      "target": "cowboyd/handlebars.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aymerick/raymond",
+      "target": "bertrand/handlebars-objc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aymerick/raymond",
+      "target": "nicolas-cherel/rumblebars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aymerick/raymond",
+      "target": "handlebars",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:48:39.813454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Handlebars for golang",
+    "fork": false,
+    "full_name": "aymerick/raymond",
+    "html_url": "https://github.com/aymerick/raymond",
+    "language": "Go",
+    "pushed_at": "2025-06-19T12:32:54Z",
+    "stargazers_count": 643,
+    "topics": [
+      "go",
+      "handlebars"
+    ],
+    "updated_at": "2026-04-12T10:14:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bertrand/handlebars-objc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cowboyd/handlebars.rb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jknack/handlebars.java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicolas-cherel/rumblebars",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**\u26a0\ufe0f Project is archived \u26a0\ufe0f**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handlebars"
+    }
+  ]
+}

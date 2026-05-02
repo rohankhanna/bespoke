@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WASasquatch/FreeU_Advanced",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WASasquatch/FreeU_Advanced",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WASasquatch/FreeU_Advanced",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:38:07.789956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5448
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 358
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FreeU - Free Lunch, and Dinner. ",
+    "fork": false,
+    "full_name": "WASasquatch/FreeU_Advanced",
+    "html_url": "https://github.com/WASasquatch/FreeU_Advanced",
+    "language": "Python",
+    "pushed_at": "2025-09-29T15:46:06Z",
+    "stargazers_count": 122,
+    "topics": [],
+    "updated_at": "2026-04-22T14:29:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

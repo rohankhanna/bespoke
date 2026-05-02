@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhihu/rucene",
+      "target": "information-retrival",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhihu/rucene",
+      "target": "lucene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhihu/rucene",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:52:36.922823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 981
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust port of Lucene",
+    "fork": false,
+    "full_name": "zhihu/rucene",
+    "html_url": "https://github.com/zhihu/rucene",
+    "language": "Rust",
+    "pushed_at": "2024-02-16T19:20:16Z",
+    "stargazers_count": 1017,
+    "topics": [
+      "information-retrival",
+      "lucene",
+      "rust"
+    ],
+    "updated_at": "2026-04-13T05:27:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rucene - Rust implementation of Lucene",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrival"
+    },
+    {
+      "context_snippet": "Rucene - Rust implementation of Lucene",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    },
+    {
+      "context_snippet": "Rucene - Rust implementation of Lucene",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

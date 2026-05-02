@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "microsoft-teams"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate-context",
+      "text": "Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate-context",
+      "text": "botkit-packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "howdyai/botkit",
+      "status": "candidate",
+      "text": "botkit-packages"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "microsoft-teams",
+  "concept_id": "microsoft-teams",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "howdyai/botkit"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microsoft-teams",
+      "sense_id": "microsoft-teams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

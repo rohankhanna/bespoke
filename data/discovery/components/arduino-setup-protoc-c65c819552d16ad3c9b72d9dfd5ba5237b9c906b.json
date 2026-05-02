@@ -1,7 +1,7 @@
 {
   "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

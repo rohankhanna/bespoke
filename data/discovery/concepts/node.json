@@ -1318,6 +1318,30 @@
       "source_repo": "browserify/resolve",
       "status": "candidate-context",
       "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate-context",
+      "text": "Fast approximations for common geodesic measurements \ud83c\udf10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/concaveman",
+      "status": "candidate-context",
+      "text": "A very fast 2D concave hull algorithm in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/concaveman",
+      "status": "candidate-context",
+      "text": "Node"
     }
   ],
   "candidate_glosses": [
@@ -1974,6 +1998,18 @@
       "source_repo": "browserify/resolve",
       "status": "candidate",
       "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/cheap-ruler",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/concaveman",
+      "status": "candidate",
+      "text": "Node"
     }
   ],
   "candidate_related_terms": [
@@ -3367,11 +3403,47 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/cheap-ruler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/concaveman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

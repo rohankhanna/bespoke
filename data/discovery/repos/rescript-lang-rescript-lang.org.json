@@ -253,7 +253,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:15:12.085952+00:00",
+  "fetched_at": "2026-05-02T12:54:30.063824+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,7 +273,7 @@
     },
     {
       "path": ".github/workflows/deploy.yml",
-      "size": 4189
+      "size": 4283
     },
     {
       "path": ".github/workflows/pull-request.yml",
@@ -289,10 +289,10 @@
     "full_name": "rescript-lang/rescript-lang.org",
     "html_url": "https://github.com/rescript-lang/rescript-lang.org",
     "language": "MDX",
-    "pushed_at": "2026-04-28T21:12:38Z",
+    "pushed_at": "2026-05-01T11:34:07Z",
     "stargazers_count": 1857,
     "topics": [],
-    "updated_at": "2026-04-28T19:29:01Z"
+    "updated_at": "2026-05-01T11:34:10Z"
   },
   "repo_links": [],
   "terms": [

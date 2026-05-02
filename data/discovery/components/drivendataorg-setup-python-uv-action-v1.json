@@ -1,0 +1,22 @@
+{
+  "component": "drivendataorg/setup-python-uv-action@v1",
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-latest.yml",
+      "source_repo": "drivendataorg/zamba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "drivendataorg/zamba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drivendataorg/zamba"
+    }
+  ]
+}

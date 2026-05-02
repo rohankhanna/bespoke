@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "QwenPaw Desktop Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "status": "candidate-context",
+      "text": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "status": "candidate-context",
+      "text": "QwenPaw Desktop Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "status": "candidate",
+      "text": "QwenPaw Desktop Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11207,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11207,
+      "status": "candidate",
+      "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11207,
+      "status": "candidate",
+      "text": "dell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11207,
+      "status": "candidate",
+      "text": "desk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11207,
+      "status": "candidate",
+      "text": "font"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "QwenPaw Desktop Build",
+  "concept_id": "qwenpaw-desktop-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QwenPaw Desktop Build",
+      "sense_id": "qwenpaw-desktop-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1072,6 +1072,18 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate-context",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-go",
+      "status": "candidate-context",
+      "text": "Apache datasketches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-go",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -1608,6 +1620,12 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-go",
+      "status": "candidate",
+      "text": "Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -2411,11 +2429,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/datasketches-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

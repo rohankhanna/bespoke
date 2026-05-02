@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/local-email-agent",
+      "target": "microsoft/vscode-ai-toolkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:00:06.412507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Local email agent using Python, Foundry Local, MCP and LangChain",
+    "fork": false,
+    "full_name": "microsoft/local-email-agent",
+    "html_url": "https://github.com/microsoft/local-email-agent",
+    "language": "Python",
+    "pushed_at": "2026-01-31T03:15:11Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-24T07:27:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-ai-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

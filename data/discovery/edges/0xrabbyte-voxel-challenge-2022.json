@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "raybobo/taichi-voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "maajor/maajor-voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "houkensjtu/qbao_voxel_art",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xrabbyte/voxel-challenge-2022",
+      "target": "ltt1598/voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "0xrabbyte/voxel-challenge-2022"
+}

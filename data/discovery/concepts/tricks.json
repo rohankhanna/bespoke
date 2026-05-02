@@ -19,6 +19,18 @@
       "source_repo": "mhinz/vim-galore",
       "status": "candidate-context",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mountchicken/Efficient-Deep-Learning",
+      "status": "candidate-context",
+      "text": "A bag of tricks to speed up your deep learning process"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Efficient-Deep-Learning",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mhinz/vim-galore",
       "status": "candidate",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Efficient-Deep-Learning",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mhinz/vim-galore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Mountchicken/Efficient-Deep-Learning"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

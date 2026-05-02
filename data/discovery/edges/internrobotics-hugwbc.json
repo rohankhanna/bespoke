@@ -6,15 +6,8 @@
       "source_repo": "InternRobotics/HugWBC",
       "target": "apexrl/hugwbc",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternRobotics/HugWBC",
-      "target": "unitreerobotics/unitree_mujoco",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "InternRobotics/HugWBC"
 }

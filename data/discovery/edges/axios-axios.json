@@ -11,14 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "axios/axios",
-      "target": "ljharb/qs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axios/axios",
-      "target": "form-data/form-data",
+      "target": "webreflection/url-search-params",
       "target_type": "repository"
     },
     {
@@ -596,6 +589,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
   "source_repo": "axios/axios"
 }

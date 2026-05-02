@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1737,6 +1737,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android_builds.yml",
       "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "justinfx/fileseq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generic.yml",
+      "source_repo": "libsdl-org/SDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "libsdl-org/SDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "source_repo": "apache/datasketches-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-jdk-matrix.yml",
+      "source_repo": "apache/datasketches-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-os-matrix.yml",
+      "source_repo": "apache/datasketches-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/datasketches-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp-serde-compat.yml",
+      "source_repo": "apache/datasketches-java"
     }
   ]
 }

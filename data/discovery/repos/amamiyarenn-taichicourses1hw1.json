@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:40:38.216487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 463
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TaichiGraphicsCourseHomework1",
+    "fork": false,
+    "full_name": "AmamiyaRenn/TaichiCourseS1Hw1",
+    "html_url": "https://github.com/AmamiyaRenn/TaichiCourseS1Hw1",
+    "language": "Python",
+    "pushed_at": "2022-04-12T09:20:33Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-05-07T15:37:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

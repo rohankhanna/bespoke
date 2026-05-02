@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudstudio/ollama-laravel",
+      "target": "jmorganca/ollama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T13:09:16.092377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ollama-Laravel is a Laravel package providing seamless integration with the Ollama API.",
+    "fork": false,
+    "full_name": "cloudstudio/ollama-laravel",
+    "html_url": "https://github.com/cloudstudio/ollama-laravel",
+    "language": "PHP",
+    "pushed_at": "2026-03-29T15:49:14Z",
+    "stargazers_count": 470,
+    "topics": [],
+    "updated_at": "2026-04-28T14:21:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmorganca/ollama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

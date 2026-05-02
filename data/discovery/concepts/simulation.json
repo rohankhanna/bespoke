@@ -307,6 +307,42 @@
       "source_repo": "HReynaud/EchoDiffusion",
       "status": "candidate-context",
       "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "Simulation Description Format (SDFormat) parser and description files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate-context",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "Framework for developing OpenAI Gym robotics environments simulated with Ignition Gazebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate-context",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +495,24 @@
       "source_repo": "HReynaud/EchoDiffusion",
       "status": "candidate",
       "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics",
+      "status": "candidate",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/PositionBasedDynamics/workflows/build-linux-wheels/badge.svg\">&nbsp;&nbsp; <img s\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -754,11 +808,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/sdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/PositionBasedDynamics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

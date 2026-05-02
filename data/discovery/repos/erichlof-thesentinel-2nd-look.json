@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:41:00.698250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fully path traced remake of Geoff Crammond's iconic 1986 game, The Sentinel.  Click to play: https://erichlof.github.io/TheSentinel-2nd-Look/TheSentinel_2nd_Look.html",
+    "fork": false,
+    "full_name": "erichlof/TheSentinel-2nd-Look",
+    "html_url": "https://github.com/erichlof/TheSentinel-2nd-Look",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T19:35:26Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-17T19:35:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

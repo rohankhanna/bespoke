@@ -19,12 +19,30 @@
       "source_repo": "ROCm/hip",
       "status": "candidate-context",
       "text": "ROCm CI Caller"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/roctracer",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-systems repo "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/roctracer",
+      "status": "candidate-context",
+      "text": "ROCm CI Caller"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ROCm/hip",
+      "status": "candidate",
+      "text": "ROCm CI Caller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/roctracer",
       "status": "candidate",
       "text": "ROCm CI Caller"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/rocm-ci-caller.yml",
       "source_repo": "ROCm/hip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "source_repo": "ROCm/roctracer"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

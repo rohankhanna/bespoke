@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "@loaders.gl/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@loaders.gl/gltf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@webgpu/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gl-matrix",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-typescript2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@loaders.gl/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@loaders.gl/gltf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@webgpu/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "gl-matrix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "rollup-plugin-typescript2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "webgpu-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js",
+      "target": "webgpu-shaders",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:39.267181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2116
+    },
+    {
+      "path": "package.json",
+      "size": 1509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern GPU Compute and Rendering in Javascript",
+    "fork": false,
+    "full_name": "AmesingFlank/taichi.js",
+    "html_url": "https://github.com/AmesingFlank/taichi.js",
+    "language": "TypeScript",
+    "pushed_at": "2024-07-18T06:38:21Z",
+    "stargazers_count": 534,
+    "topics": [
+      "gpu",
+      "gpu-computing",
+      "gpu-programming",
+      "javascript",
+      "webgpu",
+      "webgpu-api",
+      "webgpu-shaders"
+    ],
+    "updated_at": "2026-04-29T19:27:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    },
+    {
+      "context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu-api"
+    },
+    {
+      "context_snippet": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu-shaders"
+    }
+  ]
+}

@@ -1411,6 +1411,18 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate-context",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate-context",
+      "text": "Swift for TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2115,6 +2127,12 @@
       "source_repo": "tensorpack/tensorpack",
       "status": "candidate",
       "text": "![Tensorpack](https://github.com/tensorpack/tensorpack/raw/master/.github/tensorpack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3184,11 +3202,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "tensorpack/tensorpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

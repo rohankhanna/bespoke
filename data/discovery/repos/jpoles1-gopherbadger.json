@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:48:26.980632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate coverage badge images using Go!",
+    "fork": false,
+    "full_name": "jpoles1/gopherbadger",
+    "html_url": "https://github.com/jpoles1/gopherbadger",
+    "language": "Go",
+    "pushed_at": "2021-08-19T13:52:04Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2025-09-26T09:41:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

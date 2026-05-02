@@ -1,12 +1,17 @@
 {
   "component": "orgoro/coverage@v3.2",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yaml",
       "source_repo": "atlanhq/atlan-sample-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw"
     }
   ]
 }

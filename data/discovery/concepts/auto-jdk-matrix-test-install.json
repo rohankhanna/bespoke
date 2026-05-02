@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto JDK Matrix Test & Install"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate-context",
+      "text": "A software library of stochastic streaming algorithms, a.k.a. sketches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate-context",
+      "text": "Auto JDK Matrix Test & Install"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate",
+      "text": "Auto JDK Matrix Test & Install"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39781,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33799,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27567,
+      "status": "candidate",
+      "text": "catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27320,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27052,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto JDK Matrix Test & Install",
+  "concept_id": "auto-jdk-matrix-test-install",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/auto-jdk-matrix.yml",
+      "source_repo": "apache/datasketches-java"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto JDK Matrix Test & Install",
+      "sense_id": "auto-jdk-matrix-test-install#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -69,6 +69,18 @@
       "source_repo": "teal-language/tl",
       "status": "candidate-context",
       "text": "playground"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8a steroids for Xcode Playgrounds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate-context",
+      "text": "![](assets/header-nef.png)"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "teal-language/tl",
       "status": "candidate",
       "text": "playground"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef",
+      "status": "candidate",
+      "text": "![](assets/header-nef.png)"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "gluon-lang/gluon-lang.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

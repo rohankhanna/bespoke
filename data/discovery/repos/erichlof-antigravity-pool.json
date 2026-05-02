@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/AntiGravity-Pool",
+      "target": "lo-th/oimo.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:40:58.319308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The first real-time pathtraced game for desktop and mobile using WebGL.  Click to Play: https://erichlof.github.io/AntiGravity-Pool/AntiGravityPool.html ",
+    "fork": false,
+    "full_name": "erichlof/AntiGravity-Pool",
+    "html_url": "https://github.com/erichlof/AntiGravity-Pool",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T19:36:27Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-17T19:36:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lo-th/oimo.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

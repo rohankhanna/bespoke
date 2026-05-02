@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CPP SerDe Compatibility Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate-context",
+      "text": "A software library of stochastic streaming algorithms, a.k.a. sketches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate-context",
+      "text": "CPP SerDe Compatibility Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-java",
+      "status": "candidate",
+      "text": "CPP SerDe Compatibility Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "contribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "contributions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24623,
+      "status": "candidate",
+      "text": "premium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23600,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CPP SerDe Compatibility Test",
+  "concept_id": "cpp-serde-compatibility-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/cpp-serde-compat.yml",
+      "source_repo": "apache/datasketches-java"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPP SerDe Compatibility Test",
+      "sense_id": "cpp-serde-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

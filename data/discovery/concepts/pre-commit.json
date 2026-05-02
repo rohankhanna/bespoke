@@ -1619,6 +1619,42 @@
       "source_repo": "LedgerHQ/ledgerctl",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate-context",
+      "text": "3D generation code for MVDream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "Data processing for and with foundation models!  \ud83c\udf4e \ud83c\udf4b \ud83c\udf3d \u27a1\ufe0f \u27a1\ufe0f\ud83c\udf78 \ud83c\udf79 \ud83c\udf77"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2435,6 +2471,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LedgerHQ/ledgerctl",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream-threestudio",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -3692,11 +3746,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "bytedance/MVDream-threestudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "ARISE-Initiative/robosuite"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

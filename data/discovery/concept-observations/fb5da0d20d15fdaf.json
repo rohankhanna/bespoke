@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core C++ Sketch Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Java SerDe Compatibility Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Java SerDe Compatibility Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26383,
+      "status": "candidate",
+      "text": "decaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19160,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "complexion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java SerDe Compatibility Test",
+      "sense_id": "java-serde-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "java-serde-compatibility-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java-serde-compatibility-test",
+  "observation_id": "fb5da0d20d15fdaf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "Java SerDe Compatibility Test",
+  "source_context_snippet": "Java SerDe Compatibility Test",
+  "source_file": ".github/workflows/serde_compat.yml",
+  "source_repo": "apache/datasketches-cpp",
+  "source_repo_description": "Core C++ Sketch Library"
+}

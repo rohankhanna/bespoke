@@ -5,28 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/ai-powered-notes-winui3-sample",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "jennifermarsman/phirecycling",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/aitour-exploring-cutting-edge-models",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/langchain-for-beginners",
+      "target": "microsoft/phi3-chat-winui3-sample",
       "target_type": "repository"
     },
     {
@@ -114,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:11:05.557295+00:00",
+  "fetched_at": "2026-05-02T12:36:52.423329+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -152,22 +131,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jennifermarsman/phirecycling",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/ai-powered-notes-winui3-sample",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/aitour-exploring-cutting-edge-models",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/langchain-for-beginners",
+      "full_name": "microsoft/phi3-chat-winui3-sample",
       "source_file": "README.md"
     }
   ],

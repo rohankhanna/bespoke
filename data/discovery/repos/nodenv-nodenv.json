@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:59:48.455591+00:00",
+  "fetched_at": "2026-05-02T13:06:51.413219+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,7 +292,7 @@
     "html_url": "https://github.com/nodenv/nodenv",
     "language": "Shell",
     "pushed_at": "2026-04-20T02:54:17Z",
-    "stargazers_count": 2375,
+    "stargazers_count": 2374,
     "topics": [
       "node",
       "nodejs",
@@ -300,7 +300,7 @@
       "shell",
       "version-manager"
     ],
-    "updated_at": "2026-04-28T06:58:18Z"
+    "updated_at": "2026-05-01T23:09:32Z"
   },
   "repo_links": [],
   "terms": [

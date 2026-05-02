@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "agentscope-ai/reme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "orgoro/coverage@v3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/channel-tests.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "Channel Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "Deploy website to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "negrutiu/nsis-install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "QwenPaw Desktop Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "Docker Build and Push on Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/first-time-contributor-welcome.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/first-time-contributor-welcome.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "First-Time Contributor Welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "Issue Welcome Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-format.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-format.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-format.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-format.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "NPM Format (website & console)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-under-review.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-under-review.yml",
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "PR Under Review Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "agentscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "agentscope-runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "llm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw",
+      "target": "skills",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "agentscope-ai/QwenPaw"
+}

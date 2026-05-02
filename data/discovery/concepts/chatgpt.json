@@ -1135,6 +1135,18 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate-context",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate-context",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
     }
   ],
   "candidate_glosses": [
@@ -1701,6 +1713,12 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/promptflow",
+      "status": "candidate",
+      "text": "[![Python package](https://img.shields.io/pypi/v/promptflow)](https://pypi.org/project/promptflow/)"
     }
   ],
   "candidate_related_terms": [],
@@ -3196,11 +3214,77 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/promptflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/contoso-creative-writer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

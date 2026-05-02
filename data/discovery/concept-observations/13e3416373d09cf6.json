@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "botkit-packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "botkit-packages"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39571028,
+      "status": "candidate",
+      "text": "bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023765,
+      "status": "candidate",
+      "text": "defect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023547,
+      "status": "candidate",
+      "text": "fault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023325,
+      "status": "candidate",
+      "text": "malfunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022749,
+      "status": "candidate",
+      "text": "error"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glitch",
+      "sense_id": "glitch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18084,
+      "status": "candidate",
+      "text": "bug"
+    }
+  ],
+  "concept_id": "glitch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "glitch",
+  "observation_id": "13e3416373d09cf6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "glitch",
+  "source_context_snippet": "botkit-packages",
+  "source_file": null,
+  "source_repo": "howdyai/botkit",
+  "source_repo_description": "Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms."
+}

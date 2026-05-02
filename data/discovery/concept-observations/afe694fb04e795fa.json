@@ -48,7 +48,7 @@
   "normalized_form": "venv",
   "observation_id": "afe694fb04e795fa",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "venv",
   "source_context_snippet": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026",
   "source_file": null,

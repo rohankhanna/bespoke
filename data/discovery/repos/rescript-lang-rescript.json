@@ -474,7 +474,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:51:22.457667+00:00",
+  "fetched_at": "2026-05-02T12:54:45.138121+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,15 +510,15 @@
     "full_name": "rescript-lang/rescript",
     "html_url": "https://github.com/rescript-lang/rescript",
     "language": "ReScript",
-    "pushed_at": "2026-05-01T11:13:55Z",
-    "stargazers_count": 7372,
+    "pushed_at": "2026-05-02T08:00:01Z",
+    "stargazers_count": 7373,
     "topics": [
       "altjs",
       "compiler",
       "javascript",
       "rescript"
     ],
-    "updated_at": "2026-04-28T18:02:25Z"
+    "updated_at": "2026-05-02T08:00:05Z"
   },
   "repo_links": [
     {

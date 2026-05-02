@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3.9.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hardening.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitize.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "apache/datasketches-postgresql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "apache/datasketches-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "apache/datasketches-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "apache/datasketches-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "peaceiris/actions-gh-pages@v3.9.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "Doxygen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hardening.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hardening.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "libc++ Hardening Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitize.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitize.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "Sanitize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "source_repo": "apache/datasketches-cpp",
+      "target": "Java SerDe Compatibility Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datasketches-cpp",
+      "target": "datasketches",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:47:55.330819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5104
+    },
+    {
+      "path": ".github/workflows/build_cmake.yml",
+      "size": 5830
+    },
+    {
+      "path": ".github/workflows/code_coverage.yml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/doxygen.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/hardening.yml",
+      "size": 1740
+    },
+    {
+      "path": ".github/workflows/sanitize.yml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/serde_compat.yml",
+      "size": 948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Core C++ Sketch Library",
+    "fork": false,
+    "full_name": "apache/datasketches-cpp",
+    "html_url": "https://github.com/apache/datasketches-cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-14T06:24:16Z",
+    "stargazers_count": 257,
+    "topics": [
+      "datasketches"
+    ],
+    "updated_at": "2026-04-14T06:24:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/datasketches-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/datasketches-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/datasketches-postgresql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/datasketches-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Doxygen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "term": "Doxygen"
+    },
+    {
+      "context_snippet": "libc++ Hardening Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hardening.yml",
+      "term": "libc++ Hardening Tests"
+    },
+    {
+      "context_snippet": "Sanitize",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitize.yml",
+      "term": "Sanitize"
+    },
+    {
+      "context_snippet": "Java SerDe Compatibility Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/serde_compat.yml",
+      "term": "Java SerDe Compatibility Test"
+    },
+    {
+      "context_snippet": "This is the core C++ component of the Apache DataSketches library. It contains all the key sketching algorithms from the Java implementation and can be accessed directly by user applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasketches"
+    }
+  ]
+}

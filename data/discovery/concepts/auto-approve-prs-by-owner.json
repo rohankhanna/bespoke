@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto approve PRs by owner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Typebot is a powerful chatbot builder that you can self-host."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate-context",
+      "text": "Auto approve PRs by owner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baptisteArno/typebot.io",
+      "status": "candidate",
+      "text": "Auto approve PRs by owner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21464,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16968,
+      "status": "candidate",
+      "text": "cab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16968,
+      "status": "candidate",
+      "text": "taxi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16931,
+      "status": "candidate",
+      "text": "avow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16929,
+      "status": "candidate",
+      "text": "lease"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto approve PRs by owner",
+  "concept_id": "auto-approve-prs-by-owner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "baptisteArno/typebot.io"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto approve PRs by owner",
+      "sense_id": "auto-approve-prs-by-owner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

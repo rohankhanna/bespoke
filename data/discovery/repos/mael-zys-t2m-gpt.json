@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "ericguo5513/humanml3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "ericguo5513/tm2t",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "guytevet/motion-diffusion-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "mingyuan-zhang/motiondiffuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mael-zys/T2M-GPT",
+      "target": "vq-vae",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:41:17.858110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2023) Pytorch implementation of \u201cT2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\u201d",
+    "fork": false,
+    "full_name": "Mael-zys/T2M-GPT",
+    "html_url": "https://github.com/Mael-zys/T2M-GPT",
+    "language": "Python",
+    "pushed_at": "2024-09-17T14:19:55Z",
+    "stargazers_count": 757,
+    "topics": [
+      "gpt",
+      "motion-generation",
+      "vq-vae"
+    ],
+    "updated_at": "2026-04-23T11:53:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/humanml3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/tm2t",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guytevet/motion-diffusion-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingyuan-zhang/motiondiffuse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vq-vae"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
       "status": "candidate-context",
       "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/ChatRex",
+      "status": "candidate-context",
+      "text": "Code for ChatRex: Taming Multimodal LLM for Joint Perception and Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/ChatRex",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
       "status": "candidate",
       "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/ChatRex",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/ChatRex"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

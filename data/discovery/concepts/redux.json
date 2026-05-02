@@ -181,6 +181,30 @@
       "source_repo": "byte-fe/react-model",
       "status": "candidate-context",
       "text": "The State management library for React"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate-context",
+      "text": "Enables simple, yet robust handling of async action creators in Redux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/reselect",
+      "status": "candidate-context",
+      "text": "Selector library for Redux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/reselect",
+      "status": "candidate-context",
+      "text": "[![npm package][npm-badge]][npm][![Coveralls][coveralls-badge]][coveralls][![GitHub Workflow Status][build-badge]][build]![TypeScript][typescript-badge]"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +297,18 @@
       "source_repo": "byte-fe/react-model",
       "status": "candidate",
       "text": "The State management library for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pburtchaell/redux-promise-middleware",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/reselect",
+      "status": "candidate",
+      "text": "[![npm package][npm-badge]][npm][![Coveralls][coveralls-badge]][coveralls][![GitHub Workflow Status][build-badge]][build]![TypeScript][typescript-badge]"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +484,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "byte-fe/react-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "pburtchaell/redux-promise-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/reselect"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

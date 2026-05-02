@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library with common code used by libraries and tools around the libimobiledevice project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Library with common code used by the libraries and tools around the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Library with common code used by the libraries and tools around the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020358,
+      "status": "candidate",
+      "text": "mutual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019057,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017751,
+      "status": "candidate",
+      "text": "popular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016659,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015639,
+      "status": "candidate",
+      "text": "community"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "common",
+      "sense_id": "common#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51043,
+      "status": "candidate",
+      "text": "vernacular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46039,
+      "status": "candidate",
+      "text": "vulgar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37040,
+      "status": "candidate",
+      "text": "familiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34048,
+      "status": "candidate",
+      "text": "coarse"
+    }
+  ],
+  "concept_id": "common",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "common",
+  "observation_id": "af0ed3ed5e5fe578",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "common",
+  "source_context_snippet": "Library with common code used by the libraries and tools around the",
+  "source_file": null,
+  "source_repo": "libimobiledevice/libimobiledevice-glue",
+  "source_repo_description": "A library with common code used by libraries and tools around the libimobiledevice project"
+}

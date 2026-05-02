@@ -1930,6 +1930,18 @@
       "source_repo": "chancejs/chancejs",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terrier-org/pyterrier",
+      "status": "candidate-context",
+      "text": "A Python framework for performing information retrieval experiments, building on http://terrier.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrier-org/pyterrier",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -2920,6 +2932,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chancejs/chancejs",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrier-org/pyterrier",
       "status": "candidate",
       "text": "Documentation"
     }
@@ -4362,11 +4380,41 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "terrier-org/pyterrier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

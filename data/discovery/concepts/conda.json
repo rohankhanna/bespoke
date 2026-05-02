@@ -214,6 +214,18 @@
       "source_repo": "prefix-dev/setup-pixi",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate-context",
+      "text": "rattler-build is a universal Conda package builder for Windows, macOS and Linux (like conda-build but faster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +330,12 @@
       "source_repo": "prefix-dev/setup-pixi",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -427,11 +445,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "prefix-dev/setup-pixi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

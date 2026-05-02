@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Docs and Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Docs and Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "enroll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "exhibition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "matrix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Docs and Deploy",
+      "sense_id": "update-docs-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-docs-and-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-docs-and-deploy",
+  "observation_id": "3fa275ae00341958",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_text": "Update Docs and Deploy",
+  "source_context_snippet": "Update Docs and Deploy",
+  "source_file": ".github/workflows/update-docs.yaml",
+  "source_repo": "ARISE-Initiative/robosuite",
+  "source_repo_description": "robosuite: A Modular Simulation Framework and Benchmark for Robot Learning"
+}

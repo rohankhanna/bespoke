@@ -104,6 +104,18 @@
       "source_repo": "NVIDIA/nvidia-resiliency-ext",
       "status": "candidate-context",
       "text": "Lint Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "status": "candidate-context",
+      "text": "Go bindings for the Microsoft Cognitive Services Speech SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "status": "candidate-context",
+      "text": "Lint code"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +166,12 @@
       "source_repo": "NVIDIA/nvidia-resiliency-ext",
       "status": "candidate",
       "text": "Lint Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go",
+      "status": "candidate",
+      "text": "Lint code"
     }
   ],
   "candidate_related_terms": [
@@ -251,11 +269,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/cognitive-services-speech-sdk-go"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "iboot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "ibss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "irecovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libirecovery",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:33:42.137441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8186
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux",
+    "fork": false,
+    "full_name": "libimobiledevice/libirecovery",
+    "html_url": "https://github.com/libimobiledevice/libirecovery",
+    "language": "C",
+    "pushed_at": "2026-04-30T22:25:53Z",
+    "stargazers_count": 628,
+    "topics": [
+      "dfu",
+      "iboot",
+      "ibss",
+      "ios",
+      "irecovery",
+      "library"
+    ],
+    "updated_at": "2026-04-30T22:25:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iboot"
+    },
+    {
+      "context_snippet": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibss"
+    },
+    {
+      "context_snippet": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "irecovery"
+    },
+    {
+      "context_snippet": "*The libirecovery library allows communication with iBoot/iBSS of iOS devices",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

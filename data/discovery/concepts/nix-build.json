@@ -141,6 +141,18 @@
       "source_repo": "lumen-oss/lz.n",
       "status": "candidate-context",
       "text": "\"Nix build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasonml/reason-react",
+      "status": "candidate-context",
+      "text": "Reason bindings for ReactJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason-react",
+      "status": "candidate-context",
+      "text": "\"Nix Build\""
     }
   ],
   "candidate_glosses": [
@@ -209,6 +221,12 @@
       "source_repo": "lumen-oss/lz.n",
       "status": "candidate",
       "text": "\"Nix build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason-react",
+      "status": "candidate",
+      "text": "\"Nix Build\""
     }
   ],
   "candidate_related_terms": [
@@ -462,11 +480,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "reasonml/reason-react"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

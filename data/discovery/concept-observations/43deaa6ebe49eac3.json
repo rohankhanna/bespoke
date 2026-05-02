@@ -48,7 +48,7 @@
   "normalized_form": "release-please",
   "observation_id": "43deaa6ebe49eac3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "release-please",
   "source_context_snippet": "release-please",
   "source_file": ".github/workflows/release-please.yml",

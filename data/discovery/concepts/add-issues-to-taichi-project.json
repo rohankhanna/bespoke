@@ -19,12 +19,30 @@
       "source_repo": "taichi-dev/taichi",
       "status": "candidate-context",
       "text": "Add issues to Taichi project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuanming-hu/taichi",
+      "status": "candidate-context",
+      "text": "My fork of https://github.com/taichi-dev/taichi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanming-hu/taichi",
+      "status": "candidate-context",
+      "text": "Add issues to Taichi project"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "taichi-dev/taichi",
+      "status": "candidate",
+      "text": "Add issues to Taichi project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanming-hu/taichi",
       "status": "candidate",
       "text": "Add issues to Taichi project"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/issue_open.yml",
       "source_repo": "taichi-dev/taichi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/issue_open.yml",
+      "source_repo": "yuanming-hu/taichi"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

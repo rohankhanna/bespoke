@@ -109,6 +109,18 @@
       "source_repo": "google/docsy-example",
       "status": "candidate-context",
       "text": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate-context",
+      "text": "Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and Cloud Platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +171,12 @@
       "source_repo": "google/docsy-example",
       "status": "candidate",
       "text": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/iot.eclipse.org",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "google/docsy-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "EclipseFdn/iot.eclipse.org"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

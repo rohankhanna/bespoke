@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Broadcast master updates to satellites"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate-context",
+      "text": "Broadcast master updates to satellites"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4net",
+      "status": "candidate",
+      "text": "Broadcast master updates to satellites"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30088,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30088,
+      "status": "candidate",
+      "text": "sky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27004,
+      "status": "candidate",
+      "text": "upcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26084,
+      "status": "candidate",
+      "text": "presenter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21311,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Broadcast master updates to satellites",
+  "concept_id": "broadcast-master-updates-to-satellites",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/git-broadcast.yml",
+      "source_repo": "apache/logging-log4net"
+    }
+  ],
+  "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Broadcast master updates to satellites",
+      "sense_id": "broadcast-master-updates-to-satellites#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

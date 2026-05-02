@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/langchain-agent-python",
+      "target": "microsoft/aitour26-wrk540-unlock-your-agents-potential-with-model-context-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/langchain-agent-python",
+      "target": "jlowin/fastmcp",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "source_repo": "Azure-Samples/langchain-agent-python"
+}

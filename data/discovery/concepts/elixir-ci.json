@@ -463,6 +463,30 @@
       "source_repo": "rkallos/peep",
       "status": "candidate-context",
       "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "Property based Testing for Elixir (based upon PropEr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-makeup/makeup_syntect",
+      "status": "candidate-context",
+      "text": "Makeup syntax highlighting using the syntect Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_syntect",
+      "status": "candidate-context",
+      "text": "Elixir CI"
     }
   ],
   "candidate_glosses": [
@@ -691,6 +715,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rkallos/peep",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfert/propcheck",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_syntect",
       "status": "candidate",
       "text": "Elixir CI"
     }
@@ -1048,11 +1084,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "alfert/propcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_syntect"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

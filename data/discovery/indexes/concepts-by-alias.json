@@ -53,6 +53,9 @@
   "3d-body-recovery": [
     "3d-body-recovery"
   ],
+  "3d-classification": [
+    "3d-classification"
+  ],
   "3d-convolutional-network": [
     "3d-convolutional-network"
   ],
@@ -178,6 +181,9 @@
   ],
   "3d-shape-generation": [
     "3d-shape-generation"
+  ],
+  "3d-shape-retrieval": [
+    "3d-shape-retrieval"
   ],
   "3d-shapes": [
     "3d-shapes"
@@ -551,6 +557,9 @@
   "acmmm2021": [
     "acmmm2021"
   ],
+  "acquire unity activation file": [
+    "acquire-unity-activation-file"
+  ],
   "acrn": [
     "acrn"
   ],
@@ -784,6 +793,9 @@
   ],
   "add code owners to a pr": [
     "add-code-owners-to-a-pr"
+  ],
+  "add comment based on label": [
+    "add-comment-based-on-label"
   ],
   "add comment for issue": [
     "add-comment-for-issue"
@@ -1422,6 +1434,9 @@
   "agentscope": [
     "agentscope"
   ],
+  "agentscope-runtime": [
+    "agentscope-runtime"
+  ],
   "agentshield self-scan": [
     "agentshield-self-scan"
   ],
@@ -1574,6 +1589,12 @@
   ],
   "ai-application": [
     "ai-application"
+  ],
+  "ai-application-development": [
+    "ai-application-development"
+  ],
+  "ai-applications": [
+    "ai-applications"
   ],
   "ai-art": [
     "ai-art"
@@ -2136,6 +2157,9 @@
   "all builds": [
     "all-builds"
   ],
+  "all checks": [
+    "all-checks"
+  ],
   "all checks pass": [
     "all-checks-pass"
   ],
@@ -2652,6 +2676,9 @@
   "animal-pose-estimation": [
     "animal-pose-estimation"
   ],
+  "animals": [
+    "animals"
+  ],
   "animate": [
     "animate"
   ],
@@ -3056,6 +3083,9 @@
   "api tests": [
     "api-tests"
   ],
+  "api v2 unit": [
+    "api-v2-unit"
+  ],
   "api-benchmark-baseline": [
     "api-benchmark-baseline"
   ],
@@ -3280,6 +3310,9 @@
   ],
   "apple m": [
     "apple-m"
+  ],
+  "apple-documentation": [
+    "apple-documentation"
   ],
   "apple-lossless": [
     "apple-lossless"
@@ -4143,6 +4176,9 @@
   "astcenc": [
     "astcenc"
   ],
+  "aster-pytorch": [
+    "aster-pytorch"
+  ],
   "asteroids": [
     "asteroids"
   ],
@@ -4319,6 +4355,9 @@
   ],
   "atomizer": [
     "atomizer"
+  ],
+  "atoms production build": [
+    "atoms-production-build"
   ],
   "atproto": [
     "atproto"
@@ -4611,6 +4650,9 @@
   "auto approve dependency prs": [
     "auto-approve-dependency-prs"
   ],
+  "auto approve prs by owner": [
+    "auto-approve-prs-by-owner"
+  ],
   "auto assign": [
     "auto-assign"
   ],
@@ -4707,6 +4749,9 @@
   "auto i18n daily": [
     "auto-i18n-daily"
   ],
+  "auto jdk matrix test & install": [
+    "auto-jdk-matrix-test-install"
+  ],
   "auto label": [
     "auto-label"
   ],
@@ -4766,6 +4811,9 @@
   ],
   "auto notify": [
     "auto-notify"
+  ],
+  "auto os matrix test & install": [
+    "auto-os-matrix-test-install"
   ],
   "auto parallel 8 gpu integration tests": [
     "auto-parallel-8-gpu-integration-tests"
@@ -5216,6 +5264,9 @@
   ],
   "autofix.ci": [
     "autofix.ci"
+  ],
+  "autofixer": [
+    "autofixer"
   ],
   "autoformat": [
     "autoformat"
@@ -6705,6 +6756,9 @@
   "bazel checks": [
     "bazel-checks"
   ],
+  "bazel ci": [
+    "bazel-ci"
+  ],
   "bazel dependency violations": [
     "bazel-dependency-violations"
   ],
@@ -7421,6 +7475,9 @@
   "binary-ninja-plugin": [
     "binary-ninja-plugin"
   ],
+  "binary-protocol": [
+    "binary-protocol"
+  ],
   "binary-search-tree": [
     "binary-search-tree"
   ],
@@ -8063,6 +8120,9 @@
   "boilerplate-rust": [
     "boilerplate-rust"
   ],
+  "boilerplates": [
+    "boilerplates"
+  ],
   "bokeh": [
     "bokeh"
   ],
@@ -8252,6 +8312,9 @@
   "bot response to issues": [
     "bot-response-to-issues"
   ],
+  "bot-application": [
+    "bot-application"
+  ],
   "bot-bot": [
     "bot-bot"
   ],
@@ -8285,6 +8348,12 @@
   "bot-make-migrators": [
     "bot-make-migrators"
   ],
+  "botbuilder": [
+    "botbuilder"
+  ],
+  "botframework": [
+    "botframework"
+  ],
   "both": [
     "en-article_or_determiner-both",
     "en-pronoun-both",
@@ -8292,6 +8361,9 @@
   ],
   "botkit": [
     "botkit"
+  ],
+  "botkit-studio": [
+    "botkit-studio"
   ],
   "boto": [
     "boto"
@@ -8478,6 +8550,9 @@
   ],
   "broadcast": [
     "broadcast"
+  ],
+  "broadcast master updates to satellites": [
+    "broadcast-master-updates-to-satellites"
   ],
   "broadcom": [
     "broadcom"
@@ -8796,6 +8871,9 @@
   ],
   "build & upload pypi package": [
     "build-upload-pypi-package"
+  ],
+  "build (all)": [
+    "build-all"
   ],
   "build (alpine-linux)": [
     "build-alpine-linux"
@@ -10039,6 +10117,9 @@
   "build dlss-enabler installer": [
     "build-dlss-enabler-installer"
   ],
+  "build doc ci": [
+    "build-doc-ci"
+  ],
   "build doc page": [
     "build-doc-page"
   ],
@@ -10540,6 +10621,9 @@
   "build macos installer": [
     "build-macos-installer"
   ],
+  "build macos release": [
+    "build-macos-release"
+  ],
   "build macos wheel": [
     "build-macos-wheel"
   ],
@@ -10818,6 +10902,9 @@
   ],
   "build praktika for pypi": [
     "build-praktika-for-pypi"
+  ],
+  "build precompiled nifs": [
+    "build-precompiled-nifs"
   ],
   "build preview": [
     "build-preview"
@@ -11394,6 +11481,9 @@
   ],
   "build windows installer (gpu)": [
     "build-windows-installer-gpu"
+  ],
+  "build windows release": [
+    "build-windows-release"
   ],
   "build windows wheel (latest commit)": [
     "build-windows-wheel-latest-commit"
@@ -12082,6 +12172,9 @@
   "bump homebrew greptime version": [
     "bump-homebrew-greptime-version"
   ],
+  "bump homebrew nef formula": [
+    "bump-homebrew-nef-formula"
+  ],
   "bump inference defaults": [
     "bump-inference-defaults"
   ],
@@ -12358,6 +12451,9 @@
   ],
   "byte": [
     "byte"
+  ],
+  "byte-array": [
+    "byte-array"
   ],
   "byte-code": [
     "byte-code"
@@ -13499,6 +13595,9 @@
   "chango": [
     "chango"
   ],
+  "channel tests": [
+    "channel-tests"
+  ],
   "channel-extract": [
     "channel-extract"
   ],
@@ -14420,6 +14519,9 @@
   "check prebuild binaries": [
     "check-prebuild-binaries"
   ],
+  "check prisma migrations": [
+    "check-prisma-migrations"
+  ],
   "check project": [
     "check-project"
   ],
@@ -14962,6 +15064,9 @@
   ],
   "child-process": [
     "child-process"
+  ],
+  "chimps": [
+    "chimps"
   ],
   "china": [
     "china"
@@ -16163,6 +16268,9 @@
   "circumvention": [
     "circumvention"
   ],
+  "cisco-spark": [
+    "cisco-spark"
+  ],
   "cit hotrod": [
     "cit-hotrod"
   ],
@@ -16744,6 +16852,9 @@
   ],
   "cleanup stale performance test data": [
     "cleanup-stale-performance-test-data"
+  ],
+  "cleanup untagged ghcr images": [
+    "cleanup-untagged-ghcr-images"
   ],
   "cleanup-actions-caches": [
     "cleanup-actions-caches"
@@ -18118,6 +18229,9 @@
   ],
   "codecov report": [
     "codecov-report"
+  ],
+  "codecov-badge": [
+    "codecov-badge"
   ],
   "codecov-comment": [
     "codecov-comment"
@@ -19937,6 +20051,9 @@
   "continuous build macos": [
     "continuous-build-macos"
   ],
+  "continuous builder": [
+    "continuous-builder"
+  ],
   "continuous builds": [
     "continuous-builds"
   ],
@@ -19981,6 +20098,9 @@
   ],
   "continuous test + deploy": [
     "continuous-test-deploy"
+  ],
+  "continuous testing": [
+    "continuous-testing"
   ],
   "continuous translation": [
     "continuous-translation"
@@ -20132,6 +20252,9 @@
   "controller": [
     "controller"
   ],
+  "controllers": [
+    "controllers"
+  ],
   "controlnet": [
     "controlnet"
   ],
@@ -20200,6 +20323,9 @@
   ],
   "conversational-learning": [
     "conversational-learning"
+  ],
+  "conversational-ui": [
+    "conversational-ui"
   ],
   "conversion": [
     "conversion"
@@ -20299,6 +20425,15 @@
   ],
   "coolcat467": [
     "coolcat467"
+  ],
+  "coolify": [
+    "coolify"
+  ],
+  "coolify helper image": [
+    "coolify-helper-image"
+  ],
+  "coolify helper image development": [
+    "coolify-helper-image-development"
   ],
   "coolq": [
     "coolq"
@@ -20717,6 +20852,9 @@
   "cpp linter": [
     "cpp-linter"
   ],
+  "cpp serde compatibility test": [
+    "cpp-serde-compatibility-test"
+  ],
   "cpp tests": [
     "cpp-tests"
   ],
@@ -21068,6 +21206,12 @@
   "create pre-release": [
     "create-pre-release"
   ],
+  "create promptflow release branch": [
+    "create-promptflow-release-branch"
+  ],
+  "create promptflow release tag": [
+    "create-promptflow-release-tag"
+  ],
   "create pull request": [
     "create-pull-request"
   ],
@@ -21271,6 +21415,9 @@
   ],
   "crnn": [
     "crnn"
+  ],
+  "crnn-pytorch": [
+    "crnn-pytorch"
   ],
   "croaring": [
     "croaring"
@@ -21650,6 +21797,9 @@
   "css-in-js": [
     "css-in-js"
   ],
+  "css-library": [
+    "css-library"
+  ],
   "css-minifier": [
     "css-minifier"
   ],
@@ -21676,6 +21826,9 @@
   ],
   "css-processor": [
     "css-processor"
+  ],
+  "css-reset": [
+    "css-reset"
   ],
   "css-syntax": [
     "css-syntax"
@@ -22157,6 +22310,9 @@
   "daily build status": [
     "daily-build-status"
   ],
+  "daily building script execution": [
+    "daily-building-script-execution"
+  ],
   "daily buildpulse run": [
     "daily-buildpulse-run"
   ],
@@ -22189,6 +22345,9 @@
   ],
   "daily integration check": [
     "daily-integration-check"
+  ],
+  "daily job": [
+    "daily-job"
   ],
   "daily lines of code report": [
     "daily-lines-of-code-report"
@@ -22697,6 +22856,9 @@
   "database-cluster": [
     "database-cluster"
   ],
+  "database-driver": [
+    "database-driver"
+  ],
   "database-gui": [
     "database-gui"
   ],
@@ -22825,6 +22987,9 @@
   ],
   "datasette-tool": [
     "datasette-tool"
+  ],
+  "datasketches": [
+    "datasketches"
   ],
   "datastore": [
     "datastore"
@@ -24119,6 +24284,9 @@
   "deploy pages": [
     "deploy-pages"
   ],
+  "deploy partykit server": [
+    "deploy-partykit-server"
+  ],
   "deploy playground": [
     "deploy-playground"
   ],
@@ -24344,6 +24512,9 @@
   "deploy vector preview sites": [
     "deploy-vector-preview-sites"
   ],
+  "deploy versioned javadoc (manual trigger)": [
+    "deploy-versioned-javadoc-manual-trigger"
+  ],
   "deploy vitepress site to pages": [
     "deploy-vitepress-site-to-pages"
   ],
@@ -24379,6 +24550,9 @@
   ],
   "deploy wiki": [
     "deploy-wiki"
+  ],
+  "deploy workflows (fly.io)": [
+    "deploy-workflows-fly.io"
   ],
   "deploy \ud83c\udfd7\ufe0f": [
     "deploy"
@@ -24970,6 +25144,9 @@
   ],
   "dialogpt": [
     "dialogpt"
+  ],
+  "dialogs": [
+    "dialogs"
   ],
   "dialogue": [
     "dialogue"
@@ -25745,6 +25922,9 @@
   "docker build and push": [
     "docker-build-and-push"
   ],
+  "docker build and push on release": [
+    "docker-build-and-push-on-release"
+  ],
   "docker build and push to ghcr": [
     "docker-build-and-push-to-ghcr"
   ],
@@ -26257,6 +26437,12 @@
   ],
   "docs-gh-pages": [
     "docs-gh-pages"
+  ],
+  "docs-latest": [
+    "docs-latest"
+  ],
+  "docs-preview": [
+    "docs-preview"
   ],
   "docs-preview-cleanup": [
     "docs-preview-cleanup"
@@ -28086,6 +28272,12 @@
   "email-archiving": [
     "email-archiving"
   ],
+  "email-client": [
+    "email-client"
+  ],
+  "email-integration": [
+    "email-integration"
+  ],
   "email-marketing": [
     "email-marketing"
   ],
@@ -28100,6 +28292,9 @@
   ],
   "email-validation": [
     "email-validation"
+  ],
+  "emailengine": [
+    "emailengine"
   ],
   "emails": [
     "emails"
@@ -28659,6 +28854,9 @@
   ],
   "erlang-otp": [
     "erlang-otp"
+  ],
+  "erlang-versions-badge": [
+    "erlang-versions-badge"
   ],
   "ernie": [
     "ernie"
@@ -29630,6 +29828,12 @@
   "facebook": [
     "facebook"
   ],
+  "facebook-bot": [
+    "facebook-bot"
+  ],
+  "facebook-messenger": [
+    "facebook-messenger"
+  ],
   "facebook-plugins-build": [
     "facebook-plugins-build"
   ],
@@ -30289,6 +30493,9 @@
   "fileselector": [
     "fileselector"
   ],
+  "filesequence": [
+    "filesequence"
+  ],
   "filestash": [
     "filestash"
   ],
@@ -30577,6 +30784,12 @@
   "first-principles": [
     "first-principles"
   ],
+  "first-time contributor welcome": [
+    "first-time-contributor-welcome"
+  ],
+  "first-timers": [
+    "first-timers"
+  ],
   "firstbatch": [
     "firstbatch"
   ],
@@ -30691,6 +30904,9 @@
   "flake8": [
     "flake8"
   ],
+  "flake8 lint": [
+    "flake8-lint"
+  ],
   "flake8-extensions": [
     "flake8-extensions"
   ],
@@ -30753,6 +30969,9 @@
   ],
   "flash-linear-attention": [
     "flash-linear-attention"
+  ],
+  "flash-messages": [
+    "flash-messages"
   ],
   "flashbots": [
     "flashbots"
@@ -31030,6 +31249,9 @@
   "focus - update nimbus experiments": [
     "focus---update-nimbus-experiments"
   ],
+  "fody": [
+    "fody"
+  ],
   "folder": [
     "folder"
   ],
@@ -31168,6 +31390,9 @@
   ],
   "form": [
     "form"
+  ],
+  "form-builder": [
+    "form-builder"
   ],
   "formal verification": [
     "formal-verification"
@@ -31748,6 +31973,9 @@
   "functional-programming": [
     "functional-programming"
   ],
+  "functional-reactive-programming": [
+    "functional-reactive-programming"
+  ],
   "functionality": [
     "functionality"
   ],
@@ -32059,6 +32287,9 @@
   ],
   "gazebo": [
     "gazebo"
+  ],
+  "gazebosim": [
+    "gazebosim"
   ],
   "gazelle": [
     "gazelle"
@@ -33413,6 +33644,9 @@
   "github-releases": [
     "github-releases"
   ],
+  "github-repo-stats": [
+    "github-repo-stats"
+  ],
   "github-repos": [
     "github-repos"
   ],
@@ -33593,6 +33827,9 @@
   "glip": [
     "glip"
   ],
+  "glitch": [
+    "glitch"
+  ],
   "glm-4": [
     "glm-4"
   ],
@@ -33700,6 +33937,9 @@
   ],
   "gmail": [
     "gmail"
+  ],
+  "gmail-api": [
+    "gmail-api"
   ],
   "gmc e2e test for call": [
     "gmc-e2e-test-for-call"
@@ -34700,6 +34940,9 @@
   "graph-analytics": [
     "graph-analytics"
   ],
+  "graph-api": [
+    "graph-api"
+  ],
   "graph-based": [
     "graph-based"
   ],
@@ -35392,6 +35635,9 @@
   ],
   "handle issue assignments": [
     "handle-issue-assignments"
+  ],
+  "handlebars": [
+    "handlebars"
   ],
   "handler": [
     "handler"
@@ -36293,6 +36539,9 @@
   "hourly": [
     "hourly"
   ],
+  "hourly job": [
+    "hourly-job"
+  ],
   "house": [
     "house"
   ],
@@ -36379,6 +36628,9 @@
   ],
   "html-element": [
     "html-element"
+  ],
+  "html-elements": [
+    "html-elements"
   ],
   "html-escape": [
     "html-escape"
@@ -36758,6 +37010,9 @@
   "hybrid-model": [
     "hybrid-model"
   ],
+  "hybrid-retrieval": [
+    "hybrid-retrieval"
+  ],
   "hybrid-search": [
     "hybrid-search"
   ],
@@ -36932,11 +37187,17 @@
   "ibm-semeru": [
     "ibm-semeru"
   ],
+  "iboot": [
+    "iboot"
+  ],
   "ibot": [
     "ibot"
   ],
   "ibrowse": [
     "ibrowse"
+  ],
+  "ibss": [
+    "ibss"
   ],
   "icalendar": [
     "icalendar"
@@ -37106,6 +37367,9 @@
   "ide-features": [
     "ide-features"
   ],
+  "ide-support": [
+    "ide-support"
+  ],
   "ideas": [
     "ideas"
   ],
@@ -37189,6 +37453,12 @@
   ],
   "ignite": [
     "ignite"
+  ],
+  "ignition": [
+    "ignition"
+  ],
+  "ignition-gazebo": [
+    "ignition-gazebo"
   ],
   "ignitionrobotics": [
     "ignitionrobotics"
@@ -37571,6 +37841,9 @@
   "images": [
     "images"
   ],
+  "imagesequence": [
+    "imagesequence"
+  ],
   "imageserver": [
     "imageserver"
   ],
@@ -37840,6 +38113,9 @@
   ],
   "individual-fonts": [
     "individual-fonts"
+  ],
+  "inertiajs": [
+    "inertiajs"
   ],
   "inference": [
     "inference"
@@ -38378,6 +38654,9 @@
   "intellij-idea": [
     "intellij-idea"
   ],
+  "intellij-idea-plugin": [
+    "intellij-idea-plugin"
+  ],
   "intellij-ides": [
     "intellij-ides"
   ],
@@ -38386,6 +38665,9 @@
   ],
   "intellij-plugin": [
     "intellij-plugin"
+  ],
+  "intellij-plugins": [
+    "intellij-plugins"
   ],
   "intellij-sdk": [
     "intellij-sdk"
@@ -38714,6 +38996,9 @@
   "ipns": [
     "ipns"
   ],
+  "iproxy": [
+    "iproxy"
+  ],
   "ipscanner": [
     "ipscanner"
   ],
@@ -38752,6 +39037,9 @@
   ],
   "irc-bot": [
     "irc-bot"
+  ],
+  "irecovery": [
+    "irecovery"
   ],
   "iresnet": [
     "iresnet"
@@ -39056,6 +39344,9 @@
   "issue triage workflow": [
     "issue-triage-workflow"
   ],
+  "issue welcome bot": [
+    "issue-welcome-bot"
+  ],
   "issue workflow": [
     "issue-workflow"
   ],
@@ -39247,6 +39538,9 @@
   ],
   "java sdk ci test": [
     "java-sdk-ci-test"
+  ],
+  "java serde compatibility test": [
+    "java-serde-compatibility-test"
   ],
   "java spiffe helper ci": [
     "java-spiffe-helper-ci"
@@ -39479,6 +39773,9 @@
   "jest-transformer": [
     "jest-transformer"
   ],
+  "jet-template-engine": [
+    "jet-template-engine"
+  ],
   "jetbrains": [
     "jetbrains"
   ],
@@ -39707,6 +40004,9 @@
   "js-beautify": [
     "js-beautify"
   ],
+  "js-boilerplate": [
+    "js-boilerplate"
+  ],
   "js-interpreter": [
     "js-interpreter"
   ],
@@ -39901,6 +40201,9 @@
   ],
   "jumpserver": [
     "jumpserver"
+  ],
+  "jungle": [
+    "jungle"
   ],
   "juniper": [
     "juniper"
@@ -41919,6 +42222,9 @@
   "libc": [
     "libc"
   ],
+  "libc++ hardening tests": [
+    "libc-hardening-tests"
+  ],
   "libclang": [
     "libclang"
   ],
@@ -43459,6 +43765,9 @@
   "lock closed issues and prs": [
     "lock-closed-issues-and-prs"
   ],
+  "lock closed issues, discussions, and prs": [
+    "lock-closed-issues-discussions-and-prs"
+  ],
   "lock closed prs": [
     "lock-closed-prs"
   ],
@@ -43584,6 +43893,9 @@
   ],
   "log4j2": [
     "log4j2"
+  ],
+  "log4net": [
+    "log4net"
   ],
   "logger": [
     "logger"
@@ -44005,6 +44317,12 @@
   "luigi": [
     "luigi"
   ],
+  "luis": [
+    "luis"
+  ],
+  "luisai": [
+    "luisai"
+  ],
   "luma": [
     "luma"
   ],
@@ -44215,6 +44533,9 @@
   "macos cmake": [
     "macos-cmake"
   ],
+  "macos latest": [
+    "macos-latest"
+  ],
   "macos matrix": [
     "macos-matrix"
   ],
@@ -44379,6 +44700,9 @@
   ],
   "mail": [
     "mail"
+  ],
+  "mailer": [
+    "mailer"
   ],
   "mailersend": [
     "mailersend"
@@ -44565,6 +44889,9 @@
   ],
   "makevsix": [
     "makevsix"
+  ],
+  "making-bots": [
+    "making-bots"
   ],
   "mako": [
     "mako"
@@ -44839,6 +45166,9 @@
   ],
   "mapbox": [
     "mapbox"
+  ],
+  "mapbox-gl": [
+    "mapbox-gl"
   ],
   "mapping": [
     "mapping"
@@ -45389,6 +45719,9 @@
   "measurement": [
     "measurement"
   ],
+  "measurements": [
+    "measurements"
+  ],
   "mechanics": [
     "mechanics"
   ],
@@ -45541,6 +45874,9 @@
   ],
   "memoization": [
     "memoization"
+  ],
+  "memoized-selectors": [
+    "memoized-selectors"
   ],
   "memorization": [
     "memorization"
@@ -45730,6 +46066,9 @@
   ],
   "meshes": [
     "meshes"
+  ],
+  "meshing": [
+    "meshing"
   ],
   "meson": [
     "meson"
@@ -45986,6 +46325,9 @@
   "microsoft-clearscript": [
     "microsoft-clearscript"
   ],
+  "microsoft-cognitive-services": [
+    "microsoft-cognitive-services"
+  ],
   "microsoft-edge": [
     "microsoft-edge"
   ],
@@ -46003,6 +46345,9 @@
   ],
   "microsoft-sql-server": [
     "microsoft-sql-server"
+  ],
+  "microsoft-teams": [
+    "microsoft-teams"
   ],
   "microsoft-vscode": [
     "microsoft-vscode"
@@ -47173,6 +47518,9 @@
   ],
   "monthly issue metrics (multi repo)": [
     "monthly-issue-metrics-multi-repo"
+  ],
+  "monthly job": [
+    "monthly-job"
   ],
   "monthly link check": [
     "monthly-link-check"
@@ -48348,6 +48696,9 @@
   "nbpackage": [
     "nbpackage"
   ],
+  "nbvcxz": [
+    "nbvcxz"
+  ],
   "ncc build": [
     "ncc-build"
   ],
@@ -48411,6 +48762,9 @@
   "needs-follow-up-label": [
     "needs-follow-up-label"
   ],
+  "nef verify documentation": [
+    "nef-verify-documentation"
+  ],
   "negative": [
     "negative"
   ],
@@ -48445,6 +48799,9 @@
   ],
   "neo4j": [
     "neo4j"
+  ],
+  "neo4j-driver": [
+    "neo4j-driver"
   ],
   "neomake": [
     "neomake"
@@ -48870,6 +49227,9 @@
   ],
   "next snapshot v1": [
     "next-snapshot-v1"
+  ],
+  "next-auth": [
+    "next-auth"
   ],
   "next-check": [
     "next-check"
@@ -49524,6 +49884,9 @@
   "node-sql-parser package to npm and gpr": [
     "node-sql-parser-package-to-npm-and-gpr"
   ],
+  "node-version": [
+    "node-version"
+  ],
   "node-version-manager": [
     "node-version-manager"
   ],
@@ -49706,8 +50069,14 @@
   "normalization-free-training": [
     "normalization-free-training"
   ],
+  "normalize": [
+    "normalize"
+  ],
   "normalize discovery documents": [
     "normalize-discovery-documents"
+  ],
+  "normalize-css": [
+    "normalize-css"
   ],
   "normalizer": [
     "normalizer"
@@ -49926,6 +50295,9 @@
   ],
   "npm deprecate pr versions on merge": [
     "npm-deprecate-pr-versions-on-merge"
+  ],
+  "npm format (website & console)": [
+    "npm-format-website-console"
   ],
   "npm package": [
     "npm-package"
@@ -50313,6 +50685,9 @@
   ],
   "obfuscation": [
     "obfuscation"
+  ],
+  "objaverse": [
+    "objaverse"
   ],
   "object": [
     "object"
@@ -51193,6 +51568,9 @@
   "openai-gym": [
     "openai-gym"
   ],
+  "openai-gym-environment": [
+    "openai-gym-environment"
+  ],
   "openai-proxy": [
     "openai-proxy"
   ],
@@ -51490,6 +51868,9 @@
   "openstack-swift": [
     "openstack-swift"
   ],
+  "openstreetmap": [
+    "openstreetmap"
+  ],
   "opensubsonic": [
     "opensubsonic"
   ],
@@ -51540,6 +51921,12 @@
   ],
   "openui5": [
     "openui5"
+  ],
+  "openupm": [
+    "openupm"
+  ],
+  "openupm-cli": [
+    "openupm-cli"
   ],
   "openvex": [
     "openvex"
@@ -51678,6 +52065,9 @@
   ],
   "optimistic-rollup": [
     "optimistic-rollup"
+  ],
+  "optimistic-updates": [
+    "optimistic-updates"
   ],
   "optimization": [
     "optimization"
@@ -51978,6 +52368,12 @@
   ],
   "outline-tree": [
     "outline-tree"
+  ],
+  "outlook": [
+    "outlook"
+  ],
+  "outlook-365": [
+    "outlook-365"
   ],
   "outpainting": [
     "outpainting"
@@ -52450,6 +52846,12 @@
   "paper-list": [
     "paper-list"
   ],
+  "paper-reading": [
+    "paper-reading"
+  ],
+  "paper-recommendations": [
+    "paper-recommendations"
+  ],
   "paper-resource": [
     "paper-resource"
   ],
@@ -52584,6 +52986,9 @@
   ],
   "parser-combinator": [
     "parser-combinator"
+  ],
+  "parser-combinators": [
+    "parser-combinators"
   ],
   "parser-generator": [
     "parser-generator"
@@ -53662,6 +54067,9 @@
   "pkgdown": [
     "pkgdown"
   ],
+  "pkl-patterns": [
+    "pkl-patterns"
+  ],
   "pkware": [
     "pkware"
   ],
@@ -54067,6 +54475,9 @@
   "point-cloud": [
     "point-cloud"
   ],
+  "point-cloud-caption": [
+    "point-cloud-caption"
+  ],
   "point-cloud-dataset": [
     "point-cloud-dataset"
   ],
@@ -54279,6 +54690,9 @@
   ],
   "posetracking": [
     "posetracking"
+  ],
+  "position-based-dynamics": [
+    "position-based-dynamics"
   ],
   "position-embedding": [
     "position-embedding"
@@ -54715,6 +55129,9 @@
   "pr code security": [
     "pr-code-security"
   ],
+  "pr collection labeler": [
+    "pr-collection-labeler"
+  ],
   "pr comment": [
     "pr-comment"
   ],
@@ -55023,6 +55440,9 @@
   ],
   "pr triage": [
     "pr-triage"
+  ],
+  "pr under review label": [
+    "pr-under-review-label"
   ],
   "pr unit tests": [
     "pr-unit-tests"
@@ -55819,6 +56239,12 @@
   "production": [
     "production"
   ],
+  "production build": [
+    "production-build"
+  ],
+  "production build (v4)": [
+    "production-build-v4"
+  ],
   "production build front": [
     "production-build-front"
   ],
@@ -56172,6 +56598,12 @@
   ],
   "proot": [
     "proot"
+  ],
+  "propcheck": [
+    "propcheck"
+  ],
+  "proper": [
+    "proper"
   ],
   "properties": [
     "properties"
@@ -56959,6 +57391,9 @@
   "publish package to npmjs": [
     "publish-package-to-npmjs"
   ],
+  "publish package to pypi": [
+    "publish-package-to-pypi"
+  ],
   "publish packages": [
     "publish-packages"
   ],
@@ -56991,6 +57426,9 @@
   ],
   "publish pr documentation": [
     "publish-pr-documentation"
+  ],
+  "publish pre-release": [
+    "publish-pre-release"
   ],
   "publish prerelease npm": [
     "publish-prerelease-npm"
@@ -57099,6 +57537,9 @@
   ],
   "publish report": [
     "publish-report"
+  ],
+  "publish ruby gem": [
+    "publish-ruby-gem"
   ],
   "publish rust": [
     "publish-rust"
@@ -58396,6 +58837,9 @@
   "qmake": [
     "qmake"
   ],
+  "qnamaker": [
+    "qnamaker"
+  ],
   "qodana": [
     "qodana"
   ],
@@ -58716,6 +59160,9 @@
   ],
   "qwenpaw": [
     "qwenpaw"
+  ],
+  "qwenpaw desktop build": [
+    "qwenpaw-desktop-build"
   ],
   "qwik": [
     "qwik"
@@ -59218,6 +59665,9 @@
   "react-data-grid": [
     "react-data-grid"
   ],
+  "react-devtools": [
+    "react-devtools"
+  ],
   "react-dom": [
     "react-dom"
   ],
@@ -59296,6 +59746,9 @@
   "reactive": [
     "reactive"
   ],
+  "reactive-extensions": [
+    "reactive-extensions"
+  ],
   "reactive-programming": [
     "reactive-programming"
   ],
@@ -59313,6 +59766,12 @@
   ],
   "reactivesearch-api": [
     "reactivesearch-api"
+  ],
+  "reactiveui": [
+    "reactiveui"
+  ],
+  "reactivex": [
+    "reactivex"
   ],
   "reactjs": [
     "reactjs"
@@ -59569,6 +60028,9 @@
   "recognition": [
     "recognition"
   ],
+  "recognizers": [
+    "recognizers"
+  ],
   "recommandation-system": [
     "recommandation-system"
   ],
@@ -59739,6 +60201,9 @@
   ],
   "redux-bundler": [
     "redux-bundler"
+  ],
+  "redux-devtools-extension": [
+    "redux-devtools-extension"
   ],
   "redux-saga": [
     "redux-saga"
@@ -60207,6 +60672,9 @@
   ],
   "release build publish": [
     "release-build-publish"
+  ],
+  "release builder": [
+    "release-builder"
   ],
   "release buildpack": [
     "release-buildpack"
@@ -60712,6 +61180,9 @@
   "release rust \ud83e\udd80": [
     "release-rust"
   ],
+  "release rustmailer": [
+    "release-rustmailer"
+  ],
   "release rustup-toolchain": [
     "release-rustup-toolchain"
   ],
@@ -60903,6 +61374,9 @@
   ],
   "release-automation": [
     "release-automation"
+  ],
+  "release-badge": [
+    "release-badge"
   ],
   "release-branch-forward": [
     "release-branch-forward"
@@ -61588,6 +62062,9 @@
   "research-paper": [
     "research-paper"
   ],
+  "research-project": [
+    "research-project"
+  ],
   "research-software-engineering": [
     "research-software-engineering"
   ],
@@ -62209,6 +62686,12 @@
   "right-to-left": [
     "right-to-left"
   ],
+  "rigid-bodies": [
+    "rigid-bodies"
+  ],
+  "rigid-body-dynamics": [
+    "rigid-body-dynamics"
+  ],
   "ring": [
     "ring"
   ],
@@ -62367,6 +62850,9 @@
   ],
   "robot-learning": [
     "robot-learning"
+  ],
+  "robot-manipulation": [
+    "robot-manipulation"
   ],
   "robot-model": [
     "robot-model"
@@ -63709,6 +64195,18 @@
   "saas": [
     "saas"
   ],
+  "saas-app": [
+    "saas-app"
+  ],
+  "saas-application": [
+    "saas-application"
+  ],
+  "saas-boilerplate": [
+    "saas-boilerplate"
+  ],
+  "saas-kit": [
+    "saas-kit"
+  ],
   "saas-metrics": [
     "saas-metrics"
   ],
@@ -64135,6 +64633,9 @@
   "scedit": [
     "scedit"
   ],
+  "scenario": [
+    "scenario"
+  ],
   "scene": [
     "scene"
   ],
@@ -64158,6 +64659,9 @@
   ],
   "scene-text-recognition": [
     "scene-text-recognition"
+  ],
+  "scene-text-recogniton": [
+    "scene-text-recogniton"
   ],
   "scene-texts": [
     "scene-texts"
@@ -64233,6 +64737,9 @@
   ],
   "schema-language": [
     "schema-language"
+  ],
+  "schema-migration-builder": [
+    "schema-migration-builder"
   ],
   "schema-org": [
     "schema-org"
@@ -64492,6 +64999,9 @@
   "sd-webui": [
     "sd-webui"
   ],
+  "sdformat": [
+    "sdformat"
+  ],
   "sdg16": [
     "sdg16"
   ],
@@ -64522,8 +65032,14 @@
   "sdk-node": [
     "sdk-node"
   ],
+  "sdl-image": [
+    "sdl-image"
+  ],
   "sdl2": [
     "sdl2"
+  ],
+  "sdl3": [
+    "sdl3"
   ],
   "sdlc": [
     "sdlc"
@@ -64554,6 +65070,9 @@
   ],
   "search-engine": [
     "search-engine"
+  ],
+  "search-engine-optimization": [
+    "search-engine-optimization"
   ],
   "search-in-text": [
     "search-in-text"
@@ -65579,6 +66098,9 @@
   ],
   "share": [
     "share"
+  ],
+  "shared": [
+    "shared"
   ],
   "shared checks": [
     "shared-checks"
@@ -66945,6 +67467,9 @@
   "sota": [
     "sota"
   ],
+  "sotas": [
+    "sotas"
+  ],
   "souin-instance": [
     "souin-instance"
   ],
@@ -67130,6 +67655,9 @@
   ],
   "sparse-neural-networks": [
     "sparse-neural-networks"
+  ],
+  "sparse-retrieval": [
+    "sparse-retrieval"
   ],
   "sparse-rnn-training": [
     "sparse-rnn-training"
@@ -68319,6 +68847,9 @@
   "static-analyzers": [
     "static-analyzers"
   ],
+  "static-application-security-testing": [
+    "static-application-security-testing"
+  ],
   "static-code-analysis": [
     "static-code-analysis"
   ],
@@ -69282,6 +69813,9 @@
   "svelte-query": [
     "svelte-query"
   ],
+  "svelte5": [
+    "svelte5"
+  ],
   "sveltejs": [
     "sveltejs"
   ],
@@ -69606,6 +70140,12 @@
   "sync action version": [
     "sync-action-version"
   ],
+  "sync amd-mainline to public repository": [
+    "sync-amd-mainline-to-public-repository"
+  ],
+  "sync amd-staging to public repository": [
+    "sync-amd-staging-to-public-repository"
+  ],
   "sync branch": [
     "sync-branch"
   ],
@@ -69629,6 +70169,9 @@
   ],
   "sync deno & web types": [
     "sync-deno-web-types"
+  ],
+  "sync docker image to aliyun oss": [
+    "sync-docker-image-to-aliyun-oss"
   ],
   "sync docs": [
     "sync-docs"
@@ -70001,6 +70544,9 @@
   ],
   "t2i-adapter": [
     "t2i-adapter"
+  ],
+  "t3-stack": [
+    "t3-stack"
   ],
   "tab-completion": [
     "tab-completion"
@@ -70503,6 +71049,9 @@
   "template validation sample workflow": [
     "template-validation-sample-workflow"
   ],
+  "template verify": [
+    "template-verify"
+  ],
   "template-engine": [
     "template-engine"
   ],
@@ -70526,6 +71075,9 @@
   ],
   "templating": [
     "templating"
+  ],
+  "templating-languages": [
+    "templating-languages"
   ],
   "tempo": [
     "tempo"
@@ -72240,6 +72792,9 @@
   "text-detection-recognition": [
     "text-detection-recognition"
   ],
+  "text-driven": [
+    "text-driven"
+  ],
   "text-editor": [
     "text-editor"
   ],
@@ -72458,6 +73013,9 @@
   ],
   "tf-db": [
     "tf-db"
+  ],
+  "tf-idf": [
+    "tf-idf"
   ],
   "tf-trt": [
     "tf-trt"
@@ -72752,6 +73310,9 @@
   "ticket management": [
     "ticket-management"
   ],
+  "ticket opened": [
+    "ticket-opened"
+  ],
   "tidb": [
     "tidb"
   ],
@@ -72916,6 +73477,9 @@
   ],
   "tips": [
     "tips"
+  ],
+  "tizen": [
+    "tizen"
   ],
   "tizen-wearable": [
     "tizen-wearable"
@@ -74009,6 +74573,9 @@
   "turbomind": [
     "turbomind"
   ],
+  "turborepo": [
+    "turborepo"
+  ],
   "turing": [
     "turing"
   ],
@@ -74110,6 +74677,9 @@
   ],
   "twig cs fixer": [
     "twig-cs-fixer"
+  ],
+  "twilio": [
+    "twilio"
   ],
   "twin": [
     "twin"
@@ -74951,6 +75521,9 @@
   "unity-chan": [
     "unity-chan"
   ],
+  "unity-registry": [
+    "unity-registry"
+  ],
   "unity3d": [
     "unity3d"
   ],
@@ -75326,6 +75899,9 @@
   ],
   "update docs (gh pages)": [
     "update-docs-gh-pages"
+  ],
+  "update docs and deploy": [
+    "update-docs-and-deploy"
   ],
   "update docs with versioning": [
     "update-docs-with-versioning"
@@ -75885,6 +76461,9 @@
   "update version tag": [
     "update-version-tag"
   ],
+  "update version text file": [
+    "update-version-text-file"
+  ],
   "update versions": [
     "update-versions"
   ],
@@ -76155,6 +76734,9 @@
   "upload-llvm": [
     "upload-llvm"
   ],
+  "upm-registry": [
+    "upm-registry"
+  ],
   "upnp": [
     "upnp"
   ],
@@ -76280,6 +76862,9 @@
   ],
   "usbipd": [
     "usbipd"
+  ],
+  "usbmuxd": [
+    "usbmuxd"
   ],
   "usdt": [
     "usdt"
@@ -76566,6 +77151,9 @@
   "validate new news entries": [
     "validate-new-news-entries"
   ],
+  "validate package.xml": [
+    "validate-package.xml"
+  ],
   "validate pecl package": [
     "validate-pecl-package"
   ],
@@ -76818,6 +77406,9 @@
   "vector-store": [
     "vector-store"
   ],
+  "vector-tiles": [
+    "vector-tiles"
+  ],
   "vectorchord cnpg image build": [
     "vectorchord-cnpg-image-build"
   ],
@@ -77018,6 +77609,9 @@
   ],
   "verify templating": [
     "verify-templating"
+  ],
+  "verify xcode integrity": [
+    "verify-xcode-integrity"
   ],
   "verify-conformance": [
     "verify-conformance"
@@ -78096,6 +78690,9 @@
   "vq-apc": [
     "vq-apc"
   ],
+  "vq-vae": [
+    "vq-vae"
+  ],
   "vq-wav2vec": [
     "vq-wav2vec"
   ],
@@ -78696,6 +79293,9 @@
   "web-based": [
     "web-based"
   ],
+  "web-bot": [
+    "web-bot"
+  ],
   "web-components": [
     "web-components"
   ],
@@ -78834,6 +79434,9 @@
   "webdav": [
     "webdav"
   ],
+  "webdev": [
+    "webdev"
+  ],
   "webdriver": [
     "webdriver"
   ],
@@ -78878,6 +79481,12 @@
   ],
   "webgpu": [
     "webgpu"
+  ],
+  "webgpu-api": [
+    "webgpu-api"
+  ],
+  "webgpu-shaders": [
+    "webgpu-shaders"
   ],
   "webhook": [
     "webhook"
@@ -79900,6 +80509,9 @@
   "workout-apps": [
     "workout-apps"
   ],
+  "workplacebyfacebook": [
+    "workplacebyfacebook"
+  ],
   "works-with-codespaces": [
     "works-with-codespaces"
   ],
@@ -80121,6 +80733,9 @@
   ],
   "xcode-color-theme": [
     "xcode-color-theme"
+  ],
+  "xcode-extension": [
+    "xcode-extension"
   ],
   "xcode-plugin": [
     "xcode-plugin"

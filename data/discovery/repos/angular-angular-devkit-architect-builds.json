@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@angular-devkit/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rxjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-architect-builds",
+      "target": "@angular-devkit/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "angular/angular-devkit-architect-builds",
+      "target": "rxjs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T12:55:11.118604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 520
+    },
+    {
+      "path": "package.json",
+      "size": 968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build artifacts for @angular-devkit/architect",
+    "fork": false,
+    "full_name": "angular/angular-devkit-architect-builds",
+    "html_url": "https://github.com/angular/angular-devkit-architect-builds",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-01T17:59:46Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-01T17:59:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

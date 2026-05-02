@@ -763,6 +763,18 @@
       "source_repo": "PaddlePaddle/models",
       "status": "candidate-context",
       "text": "\u98de\u6868\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u5305\u542b\u5927\u91cf\u7ecf\u8fc7\u4ea7\u4e1a\u5b9e\u8df5\u957f\u671f\u6253\u78e8\u7684\u4e3b\u6d41\u6a21\u578b\u4ee5\u53ca\u5728\u56fd\u9645\u7ade\u8d5b\u4e2d\u7684\u593a\u51a0\u6a21\u578b\uff1b\u63d0\u4f9b\u9762\u5411\u8bed\u4e49\u7406\u89e3\u3001\u56fe\u50cf\u5206\u7c7b\u3001\u76ee\u6807\u68c0\u6d4b\u3001\u56fe\u50cf\u5206\u5272\u3001\u6587\u5b57\u8bc6\u522b\u3001\u8bed\u97f3\u5408\u6210\u7b49\u573a\u666f\u7684\u591a\u4e2a\u7aef\u5230\u7aef\u5f00\u53d1\u5957\u4ef6\uff0c\u6ee1\u8db3\u4f01\u4e1a\u4f4e\u6210\u672c\u5f00\u53d1\u548c\u5feb\u901f\u96c6\u6210\u7684\u9700\u6c42\u3002\u98de\u6868\u7684\u6a21\u578b\u5e93\u662f\u56f4\u7ed5\u56fd\u5185\u4f01\u4e1a\u5b9e\u9645\u7814\u53d1\u6d41\u7a0b\u91cf\u8eab\u5b9a\u5236\u6253\u9020\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u670d\u52a1\u4f01\u4e1a\u904d\u5e03\u80fd\u6e90\u3001\u91d1\u878d\u3001\u5de5\u4e1a\u3001\u519c\u4e1a\u7b49\u591a\u4e2a\u9886\u57df\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate-context",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1155,12 @@
       "source_repo": "PaddlePaddle/models",
       "status": "candidate",
       "text": "\u98de\u6868\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u5305\u542b\u5927\u91cf\u7ecf\u8fc7\u4ea7\u4e1a\u5b9e\u8df5\u957f\u671f\u6253\u78e8\u7684\u4e3b\u6d41\u6a21\u578b\u4ee5\u53ca\u5728\u56fd\u9645\u7ade\u8d5b\u4e2d\u7684\u593a\u51a0\u6a21\u578b\uff1b\u63d0\u4f9b\u9762\u5411\u8bed\u4e49\u7406\u89e3\u3001\u56fe\u50cf\u5206\u7c7b\u3001\u76ee\u6807\u68c0\u6d4b\u3001\u56fe\u50cf\u5206\u5272\u3001\u6587\u5b57\u8bc6\u522b\u3001\u8bed\u97f3\u5408\u6210\u7b49\u573a\u666f\u7684\u591a\u4e2a\u7aef\u5230\u7aef\u5f00\u53d1\u5957\u4ef6\uff0c\u6ee1\u8db3\u4f01\u4e1a\u4f4e\u6210\u672c\u5f00\u53d1\u548c\u5feb\u901f\u96c6\u6210\u7684\u9700\u6c42\u3002\u98de\u6868\u7684\u6a21\u578b\u5e93\u662f\u56f4\u7ed5\u56fd\u5185\u4f01\u4e1a\u5b9e\u9645\u7814\u53d1\u6d41\u7a0b\u91cf\u8eab\u5b9a\u5236\u6253\u9020\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u670d\u52a1\u4f01\u4e1a\u904d\u5e03\u80fd\u6e90\u3001\u91d1\u878d\u3001\u5de5\u4e1a\u3001\u519c\u4e1a\u7b49\u591a\u4e2a\u9886\u57df\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/zamba",
+      "status": "candidate",
+      "text": "[![Docs Status](https://img.shields.io/badge/docs-stable-informational)](https://zamba.drivendata.org/docs/)"
     }
   ],
   "candidate_related_terms": [],
@@ -1630,11 +1648,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/zamba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

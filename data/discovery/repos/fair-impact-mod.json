@@ -21,13 +21,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "FAIR-IMPACT/MOD",
-      "target": "agroportal/documentation",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FAIR-IMPACT/MOD",
       "target": "sifrproject/mod-ontology",
       "target_type": "repository"
     },
@@ -102,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:47:13.110474+00:00",
+  "fetched_at": "2026-05-02T12:47:24.936245+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -135,11 +128,6 @@
     "updated_at": "2026-04-01T20:47:38Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "agroportal/documentation",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "sifrproject/mod-ontology",

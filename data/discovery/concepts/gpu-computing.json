@@ -151,6 +151,18 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmesingFlank/taichi.js",
+      "status": "candidate-context",
+      "text": "Modern GPU Compute and Rendering in Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmesingFlank/taichi.js",
+      "status": "candidate-context",
+      "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmesingFlank/taichi.js",
+      "status": "candidate",
+      "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "AmesingFlank/taichi.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],

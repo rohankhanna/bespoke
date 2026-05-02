@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T12:31:36.955937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nv-tlabs/FlexiCubes",
+    "html_url": "https://github.com/nv-tlabs/FlexiCubes",
+    "language": "Python",
+    "pushed_at": "2025-04-04T15:45:53Z",
+    "stargazers_count": 844,
+    "topics": [],
+    "updated_at": "2026-05-02T02:56:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -48,7 +48,7 @@
   "normalized_form": "check-header",
   "observation_id": "1815e8252be34cb7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T12:29:04.390200+00:00",
   "observed_text": "check-header",
   "source_context_snippet": "check-header",
   "source_file": ".github/workflows/check-header.yml",

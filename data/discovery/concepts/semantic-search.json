@@ -175,6 +175,18 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate-context",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate-context",
+      "text": "A Python Search Engine for Humans \ud83e\udd78"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/retriv",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -394,11 +412,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T12:29:04.390200+00:00",
+      "source_file": null,
+      "source_repo": "AmenRa/retriv"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "lexical_providers": [
     "datamuse"
   ],
