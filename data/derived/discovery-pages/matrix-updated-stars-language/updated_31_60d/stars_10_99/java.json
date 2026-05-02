@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 58,
-    "observations": 59,
-    "repos": 11,
-    "terms": 56
+    "components": 71,
+    "concepts": 71,
+    "observations": 72,
+    "repos": 14,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/netbeans-nbpackage",
+    "bobbylight/RSTALanguageSupport",
+    "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",
+    "dart4e/dart4e",
     "enola-dev/enola",
-    "EXIficient/exificient-for-json",
     "filip26/iridium-cbor-ld",
     "glaforge/adk-java-maven-template",
     "guyboertje/jrjackson",
     "ipld/java-cid",
+    "iterate-ch/rococoa",
     "multiformats/java-multibase",
     "padreati/rapaio",
     "smithy-lang/smithy-dafny"

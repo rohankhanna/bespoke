@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 29,
-    "terms": 142
+    "components": 74,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 33,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "abel533/ECharts",
     "alibaba/compileflow",
     "apache/rocketmq-externals",
     "aragozin/jvm-tools",
@@ -24,10 +25,13 @@
     "facebook/buck",
     "featurecat/lizzie",
     "gchq/Gaffer",
+    "h2oai/h2o-2",
     "hazelcast/hazelcast-jet",
+    "HdrHistogram/HdrHistogram",
     "JakeWharton/ThreeTenABP",
     "knowm/XChart",
     "LaurieWired/GhidraMCP",
+    "me-no-dev/EspExceptionDecoder",
     "MineDojo/MineDojo",
     "MSPaintIDE/MSPaintIDE",
     "mstrobel/procyon",

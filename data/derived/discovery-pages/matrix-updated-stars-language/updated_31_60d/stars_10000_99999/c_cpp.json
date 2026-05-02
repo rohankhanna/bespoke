@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 10,
-    "terms": 52
+    "components": 79,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 13,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
     "cloudwu/skynet",
     "esp8266/Arduino",
+    "facebook/zstd",
     "glfw/glfw",
     "google/googletest",
     "google/leveldb",
     "jart/cosmopolitan",
+    "libevent/libevent",
     "libgit2/libgit2",
+    "lz4/lz4",
     "mobile-shell/mosh"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 40,
-    "terms": 158
+    "components": 131,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 43,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "andreasdr/tdme2",
     "antonypro/QGoodWindow",
     "appelmar/gdalcubes",
     "Ar-Ray-code/YOLOX-ROS",
+    "ashawkey/cubvh",
     "avaneev/lzav",
     "avaneev/prvhash",
     "aviggiano/redis-roaring",
@@ -27,6 +28,7 @@
     "bnosac/audio.whisper",
     "CGCL-codes/YiTu",
     "conor42/fast-lzma2",
+    "dthuerck/mapmap_cpu",
     "eddelbuettel/rinside",
     "ejoy/lua",
     "erkyrath/glulxe",
@@ -53,6 +55,7 @@
     "pmwkaa/ioarena",
     "powervr-graphics/Native_SDK",
     "swigger/wechat-ocr",
-    "TkTech/can_ada"
+    "TkTech/can_ada",
+    "unitreerobotics/unitree_mujoco"
   ]
 }

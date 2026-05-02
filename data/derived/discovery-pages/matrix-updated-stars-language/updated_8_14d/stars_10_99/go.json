@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 169,
-    "observations": 169,
+    "components": 238,
+    "concepts": 161,
+    "observations": 161,
     "repos": 32,
-    "terms": 167
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "appleboy/drone-lambda",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
@@ -40,9 +39,10 @@
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
-    "MicahParks/jwkset",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
+    "sigstore/helm-sigstore",
+    "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
     "transparency-dev/armored-witness"

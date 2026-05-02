@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1903,
-    "concepts": 518,
-    "observations": 521,
-    "repos": 57,
-    "terms": 553
+    "components": 1911,
+    "concepts": 533,
+    "observations": 536,
+    "repos": 58,
+    "terms": 567
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "996icu/996.ICU",
     "affaan-m/everything-claude-code",
@@ -36,6 +36,7 @@
     "flutter/flutter",
     "Genymobile/scrcpy",
     "ggml-org/llama.cpp",
+    "godotengine/godot",
     "golang/go",
     "google-gemini/gemini-cli",
     "huggingface/transformers",

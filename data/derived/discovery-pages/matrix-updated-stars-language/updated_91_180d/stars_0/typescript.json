@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 2,
-    "terms": 9
+    "components": 107,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 3,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "flageval-baai/LRM-Eval",
     "forcedotcom/change-case-management",
     "stainless-api/tsc-multi"
   ]

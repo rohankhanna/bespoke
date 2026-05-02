@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1669,
-    "concepts": 1094,
-    "observations": 1096,
-    "repos": 233,
-    "terms": 1071
+    "components": 1904,
+    "concepts": 1134,
+    "observations": 1136,
+    "repos": 239,
+    "terms": 1111
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "adam-p/markdown-here",
     "adobe-fonts/source-code-pro",
@@ -165,6 +165,7 @@
     "microsoft/nni",
     "microsoft/Swin-Transformer",
     "Mikubill/sd-webui-controlnet",
+    "milesial/Pytorch-UNet",
     "minimaxir/big-list-of-naughty-strings",
     "mishoo/UglifyJS",
     "mislav/hub",
@@ -177,6 +178,7 @@
     "nerfstudio-project/nerfstudio",
     "nodejs/node-v0.x-archive",
     "nomic-ai/gpt4all",
+    "nuysoft/Mock",
     "nvbn/thefuck",
     "NVIDIA/DeepLearningExamples",
     "NVIDIA/nvidia-docker",
@@ -190,7 +192,9 @@
     "OpenGVLab/InternVL",
     "OpenMOSS/MOSS",
     "pallets/jinja",
+    "petkaantonov/bluebird",
     "phillipi/pix2pix",
+    "piskvorky/gensim",
     "pjreddie/darknet",
     "PlexPt/awesome-chatgpt-prompts-zh",
     "powerline/fonts",
@@ -213,6 +217,7 @@
     "Stability-AI/StableLM",
     "standard/standard",
     "statsd/statsd",
+    "styleguidist/react-styleguidist",
     "suno-ai/bark",
     "tatsu-lab/stanford_alpaca",
     "Tencent/rapidjson",
@@ -245,6 +250,7 @@
     "yudai/gotty",
     "zai-org/ChatGLM-6B",
     "zai-org/ChatGLM2-6B",
+    "zalmoxisus/redux-devtools-extension",
     "zsh-users/zsh-autosuggestions"
   ]
 }

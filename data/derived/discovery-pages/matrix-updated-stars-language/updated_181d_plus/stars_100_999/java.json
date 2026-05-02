@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 33,
-    "terms": 87
+    "components": 41,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 35,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
@@ -34,6 +34,7 @@
     "google/graphicsfuzz",
     "google/osdetector-gradle-plugin",
     "googleapis/gapic-generator",
+    "GoSimpleLLC/nbvcxz",
     "howiehu/ddd-architecture-samples",
     "iTXTech/mirai-console-loader",
     "jmockit/jmockit1",
@@ -46,6 +47,7 @@
     "snapcast/snapdroid",
     "timgifford/maven-buildtime-extension",
     "trustin/os-maven-plugin",
+    "tushartushar/DesigniteJava",
     "ymnk/jzlib"
   ]
 }

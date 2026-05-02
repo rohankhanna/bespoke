@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 13,
-    "terms": 177
+    "components": 156,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 7,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "cloudflare/cloudflared",
-    "gastownhall/beads",
+    "authelia/authelia",
+    "containers/podman",
     "gastownhall/gastown",
-    "git-lfs/git-lfs",
     "gravitational/teleport",
     "moby/moby",
     "mudler/LocalAI",
-    "navidrome/navidrome",
-    "pulumi/pulumi",
-    "QuantumNous/new-api",
-    "rclone/rclone",
-    "redis/go-redis",
-    "weaviate/weaviate"
+    "pulumi/pulumi"
   ]
 }

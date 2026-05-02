@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 20
+    "components": 29,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 6,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "dockur/windows",
+    "lxgw/LxgwWenKai",
     "rbenv/rbenv",
     "romkatv/powerlevel10k",
     "sindresorhus/pure",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 139,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 31,
-    "terms": 88
+    "concepts": 93,
+    "observations": 93,
+    "repos": 34,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "actboy168/ltest",
     "ankane/seaduck",
@@ -28,14 +28,17 @@
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
-    "dm0x23/portfolio-website",
     "enbop/fungi-app",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
+    "fredrikekre/runic-pre-commit",
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",
+    "hchiam/hchiam.github.io",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
+    "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
+    "JuliaCI/julia-buildkite",
     "KhronosGroup/KTX-Software-CTS",
     "KnotUntied/scoop-fonts",
     "lahma/test262-harness-dotnet",

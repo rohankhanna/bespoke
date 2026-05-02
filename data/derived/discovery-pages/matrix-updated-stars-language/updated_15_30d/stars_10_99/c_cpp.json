@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 16,
-    "terms": 68
+    "components": 101,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 18,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
     "aifoundry-org/et-platform",
-    "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
     "barak/minidjvu",
     "fcambus/bdf2sfd",
@@ -25,7 +24,10 @@
     "GaoYusong/llm.cpp",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
+    "marciogranzotto/clawd-tank",
+    "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
+    "mybigday/llama.node",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "theimpossibleastronaut/rmw",

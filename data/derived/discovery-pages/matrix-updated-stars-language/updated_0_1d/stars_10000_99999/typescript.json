@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1092,
-    "concepts": 226,
-    "observations": 228,
-    "repos": 15,
-    "terms": 235
+    "components": 826,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 13,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
-    "ant-design/ant-design",
-    "appwrite/appwrite",
     "HumanSignal/label-studio",
     "jestjs/jest",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "puppeteer/puppeteer",
     "QwikDev/qwik",
-    "remix-run/remix",
+    "remotion-dev/remotion",
     "ruvnet/ruflo",
-    "storybookjs/storybook",
+    "tailwindlabs/tailwindcss",
     "TanStack/query",
     "TanStack/router",
+    "TanStack/table",
     "webpro-nl/knip"
   ]
 }

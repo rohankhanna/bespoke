@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 310,
-    "concepts": 313,
-    "observations": 316,
-    "repos": 125,
-    "terms": 309
+    "components": 319,
+    "concepts": 321,
+    "observations": 324,
+    "repos": 129,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -20,6 +20,7 @@
     "2color/auspinner",
     "3rd/syslang",
     "a-h/rest",
+    "a3chron/gith",
     "abatilo/github-action-locks",
     "aethiopicuschan/cubism-go",
     "ahmetb/ytdl",
@@ -27,11 +28,13 @@
     "aimerneige/yukichan-bot",
     "Alexander-r/box2d",
     "alexanderscrimgeour/biogo",
+    "AlexBeauchemin/gobadge",
     "alexkohler/dogsled",
     "alexkohler/nargs",
     "ameshkov/dnscrypt",
     "anacrolix/btlink",
     "antonmedv/golang-expression-evaluation-comparison",
+    "argoproj-labs/argocd-interlace",
     "athos/trenchman",
     "authorizer-tech/access-controller",
     "awakesecurity/csp",
@@ -45,6 +48,7 @@
     "carbocation/genomisc",
     "cdcdx/lotus",
     "chenghonour/formulago",
+    "chi-cat/frps-auth",
     "ChrisHirsch/kuberhealthy-storage-check",
     "chrismellard/docker-credential-acr-env",
     "cisco/go-hpke",

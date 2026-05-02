@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 377,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 27,
-    "terms": 85
+    "components": 484,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 36,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "ankane/ahoy.js",
@@ -21,24 +21,33 @@
     "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",
     "CyberAP/nanoid-dictionary",
+    "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
     "fgnass/domino",
+    "florajs/sql-parser",
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
+    "hudochenkov/stylelint-order",
+    "kharchenkolab/pagoda2",
     "kriszyp/cbor-x",
     "Level/abstract-level",
     "mafintosh/streamx",
     "markdown-it/linkify-it",
+    "microsoft/vscode-custom-data",
+    "neverendingqs/serverless-dotenv-plugin",
     "npm/abbrev-js",
     "npm/rfcs",
+    "oblador/react-native-vector-image",
+    "OffchainLabs/arbitrum-tutorials",
     "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "rtfeldman/node-test-runner",
     "terraform-linters/setup-tflint",
+    "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
     "toon-format/spec"
   ]

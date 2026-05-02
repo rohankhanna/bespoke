@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 2,
-    "terms": 20
+    "components": 136,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 3,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "all-contributors/app",
+    "Kilian/electron-to-chromium",
+    "mdn/fred",
     "w3c/webref"
   ]
 }

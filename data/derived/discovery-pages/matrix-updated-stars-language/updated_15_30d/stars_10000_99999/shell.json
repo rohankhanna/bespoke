@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 43,
-    "observations": 43,
+    "components": 11,
+    "concepts": 32,
+    "observations": 32,
     "repos": 6,
-    "terms": 42
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "agarrharr/awesome-cli-apps",
-    "dockur/windows",
     "nodesource/distributions",
     "oh-my-fish/oh-my-fish",
+    "pyenv/pyenv",
     "tj/n",
     "zarazhangrui/frontend-slides"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 849,
-    "concepts": 800,
-    "observations": 804,
-    "repos": 71,
-    "terms": 790
+    "components": 795,
+    "concepts": 757,
+    "observations": 761,
+    "repos": 66,
+    "terms": 745
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -28,12 +28,9 @@
     "charmbracelet/lipgloss",
     "cli/cli",
     "coder/coder",
-    "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
     "coredns/coredns",
-    "coreybutler/nvm-windows",
-    "danielmiessler/fabric",
     "dexidp/dex",
     "dgraph-io/badger",
     "distribution/distribution",
@@ -60,7 +57,6 @@
     "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",
-    "kubernetes-sigs/kustomize",
     "kubernetes/kops",
     "kubernetes/minikube",
     "lima-vm/lima",
@@ -69,7 +65,6 @@
     "mikefarah/yq",
     "milvus-io/milvus",
     "nats-io/nats-server",
-    "nektos/act",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",

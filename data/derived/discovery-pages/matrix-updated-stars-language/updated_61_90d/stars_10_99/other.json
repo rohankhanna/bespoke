@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 38,
-    "terms": 89
+    "components": 230,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 48,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -22,8 +22,11 @@
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
+    "apache/netbeans-antora-site",
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
+    "benomahony/oil-git.nvim",
+    "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
     "dwyl/elixir-auth-github",
@@ -34,7 +37,11 @@
     "GoogleCloudPlatform/getting-started-dotnet",
     "hedronvision/bazel-make-cc-https-easy",
     "hspec/sensei",
+    "Humans-of-Julia/StaticWebPages.jl",
+    "jakewvincent/texmagic.nvim",
+    "JezerM/oil-lsp-diagnostics.nvim",
     "jmespath/jmespath.site",
+    "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
     "JunoLab/Atom.jl",
@@ -43,10 +50,13 @@
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "newtheatre/history-project",
+    "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
+    "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "Rhoban/onshape-to-robot-examples",
+    "spring-ai-alibaba/website",
     "standardrb/lint_roller",
     "status-im/nim-serialization",
     "tarsius/llama",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 60,
-    "concepts": 54,
-    "observations": 55,
-    "repos": 18,
-    "terms": 52
+    "concepts": 59,
+    "observations": 60,
+    "repos": 19,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -31,6 +31,7 @@
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
     "r-spatial/lwgeom",
-    "XR-Robotics/XRoboToolkit-PC-Service-Pybind"
+    "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
+    "zig-wasm/wasmer-zig-api"
   ]
 }

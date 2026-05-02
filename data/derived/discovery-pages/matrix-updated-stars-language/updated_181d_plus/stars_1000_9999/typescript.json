@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1146,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 46,
-    "terms": 216
+    "components": 1289,
+    "concepts": 242,
+    "observations": 242,
+    "repos": 51,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "anse-app/anse",
@@ -25,11 +25,13 @@
     "benjamn/ast-types",
     "benjamn/recast",
     "cevek/ttypescript",
+    "CirclonGroup/angular-tree-component",
     "ConsenSys-archive/ganache",
     "dethcrypto/TypeChain",
     "dilanx/craco",
     "domeccleston/sharegpt",
     "eastlondoner/vibe-tools",
+    "egoist/esbuild-register",
     "electron-vite/electron-vite-react",
     "electron-vite/electron-vite-vue",
     "ElricLiu/AutoGPT-Next-Web",
@@ -47,13 +49,16 @@
     "kentcdodds/babel-plugin-preval",
     "microsoft/BotFramework-Emulator",
     "microsoft/dts-gen",
+    "node-gh/gh",
     "nsfw-filter/nsfw-filter",
     "plantain-00/type-coverage",
     "redis/redis-om-node",
+    "reduxjs/redux-templates",
     "rust-lang/vscode-rust",
     "serafimcloud/21st",
     "tremorlabs/tremor",
     "tsdjs/tsd",
+    "twibiral/obsidian-execute-code",
     "Uniswap/v3-periphery",
     "Uniswap/web3-react",
     "vercel/modelfusion",

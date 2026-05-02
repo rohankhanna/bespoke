@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 142,
-    "observations": 144,
-    "repos": 32,
-    "terms": 142
+    "components": 218,
+    "concepts": 147,
+    "observations": 149,
+    "repos": 34,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "bet4it/udbserver",
@@ -27,6 +27,7 @@
     "esp-rs/esp-idf-svc",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
+    "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
     "IWANABETHATGUY/tower-lsp-boilerplate",
@@ -34,14 +35,15 @@
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
+    "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "Nugine/simd",
     "posit-dev/air",
+    "prisma/tiberius",
     "quickwit-oss/tantivy-cli",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",
-    "rust3ds/ctru-rs",
     "servo/rust-cssparser",
     "sparsemat/sprs",
     "typst/comemo",

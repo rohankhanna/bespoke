@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
+    "components": 90,
     "concepts": 44,
     "observations": 44,
-    "repos": 20,
-    "terms": 47
+    "repos": 24,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
@@ -24,6 +24,7 @@
     "ashvardanian/ashvardanian",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
+    "bryanh9111/engram",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
@@ -33,6 +34,9 @@
     "kelp/webdown",
     "Mbed-TLS/mbedtls-framework",
     "piqrypt/piqrypt",
-    "ROCm/rbuild"
+    "ROCm/rbuild",
+    "sunthinks/kvmind",
+    "TexasInstruments/edgeai-tidlrunner",
+    "xiaochu-1208/interview-assistant-cli"
   ]
 }

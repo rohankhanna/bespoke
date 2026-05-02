@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 21,
-    "terms": 35
+    "components": 30,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 28,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "alibaba-archive/session-compatible-fast-serializer",
     "anjeludo/spring-ai-mcp",
     "caprica/vlcj-file-filters",
     "carrotsearch/elasticsearch-lingo3g",
     "cdmikechen/airflow-dag-operator",
     "chequer-io/phoenixsql",
+    "coconut2015/cookjson",
     "code1986/sentinel-lib",
+    "datanucleus/datanucleus-typeconverter-kryo",
+    "Deep-Symmetry/beat-carabiner-java",
+    "Deep-Symmetry/electro",
+    "Deep-Symmetry/lib-carabiner",
     "enola-dev/LearningADK",
     "FasterXML/jackson-1",
     "finefuture/sentinel-dashboard-X",
@@ -34,6 +40,7 @@
     "redis-developer/redis-om-autocomplete-demo",
     "takari/m2e-discovery-catalog",
     "timfel/graalpy-jbang",
-    "venkat1701/research4j"
+    "venkat1701/research4j",
+    "XR-Robotics/XRoboToolkit-Native-Video-Viewer"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 155,
-    "observations": 156,
-    "repos": 29,
-    "terms": 160
+    "components": 167,
+    "concepts": 180,
+    "observations": 181,
+    "repos": 34,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "amebalabs/TRex",
@@ -23,11 +23,14 @@
     "cognitect/transit-format",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
+    "Deci-AI/super-gradients",
     "emacs-lsp/dap-mode",
+    "formtastic/formtastic",
     "Glavin001/atom-beautify",
     "googleapis/elixir-google-api",
     "greggh/claude-code.nvim",
     "guard/guard",
+    "IDEA-Research/Rex-Omni",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "mfussenegger/nvim-jdtls",
@@ -41,7 +44,9 @@
     "SpinalHDL/VexRiscv",
     "steipete/imsg",
     "stevearc/aerial.nvim",
+    "stevearc/oil.nvim",
     "touchlab/droidconkotlin",
+    "vkhorikov/CSharpFunctionalExtensions",
     "woct0rdho/triton-windows"
   ]
 }

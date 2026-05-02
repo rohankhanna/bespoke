@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1837,
-    "concepts": 378,
-    "observations": 378,
-    "repos": 59,
-    "terms": 408
+    "components": 1846,
+    "concepts": 363,
+    "observations": 363,
+    "repos": 56,
+    "terms": 391
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -43,13 +43,13 @@
     "kysely-org/kysely-ctl",
     "lerna-lite/lerna-lite",
     "lobehub/lobe-chat-plugins",
+    "logux/client",
     "maltsev/htmlnano",
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
     "microsoft/TypeScript-DOM-lib-generator",
     "napi-rs/package-template",
-    "nyatinte/ccexp",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
@@ -62,9 +62,6 @@
     "redhat-developer/vscode-xml",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
-    "Shougo/ddc.vim",
-    "Shougo/ddu.vim",
-    "Shougo/dpp.vim",
     "Softeria/ms-365-mcp-server",
     "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",

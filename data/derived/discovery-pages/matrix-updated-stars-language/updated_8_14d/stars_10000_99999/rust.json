@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 718,
-    "concepts": 415,
-    "observations": 416,
+    "components": 721,
+    "concepts": 418,
+    "observations": 419,
     "repos": 42,
-    "terms": 411
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
@@ -43,7 +44,6 @@
     "rayon-rs/rayon",
     "rust-lang/cargo",
     "Schniz/fnm",
-    "seanmonstar/reqwest",
     "servo/servo",
     "sharkdp/bat",
     "sharkdp/fd",

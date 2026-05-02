@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 171,
-    "observations": 174,
-    "repos": 29,
-    "terms": 179
+    "components": 109,
+    "concepts": 164,
+    "observations": 167,
+    "repos": 27,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
-    "codelibs/docker-fess",
+    "bnb-chain/bsc-snapshots",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
@@ -28,19 +28,17 @@
     "git-friendly/git-friendly",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
-    "kubernetes/sig-release",
     "lemire/docker_programming_station",
     "opea-project/GenAIExamples",
     "openshift/release",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
-    "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",
-    "rz1989s/claude-code-statusline",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",
+    "tinted-theming/schemes",
     "tonistiigi/xx",
     "unixorn/zsh-quickstart-kit"
   ]

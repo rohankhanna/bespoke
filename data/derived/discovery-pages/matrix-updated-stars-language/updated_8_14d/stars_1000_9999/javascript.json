@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1309,
-    "concepts": 303,
-    "observations": 303,
-    "repos": 39,
-    "terms": 301
+    "components": 1276,
+    "concepts": 283,
+    "observations": 283,
+    "repos": 38,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "amperser/proselint",
     "apache/cordova-android",
@@ -29,29 +29,28 @@
     "fullstorydev/grpcui",
     "GoogleChrome/web-vitals",
     "grommet/grommet",
+    "i18next/i18next",
     "ipfs/ipfs-desktop",
     "jprichardson/node-fs-extra",
     "json-schema-org/json-schema-spec",
-    "JuliaPluto/Pluto.jl",
     "mapbox/node-pre-gyp",
     "micromatch/picomatch",
     "minio/minio-js",
     "newrelic/node-newrelic",
     "nodegit/nodegit",
     "nodejs/undici",
-    "npm/cli",
-    "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
     "release-it/release-it",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
-    "serverless-operations/serverless-step-functions",
+    "sindresorhus/np",
     "tc39/test262",
     "tchx84/Flatseal",
     "thlorenz/doctoc",
     "tw-in-js/twind",
     "vizzuhq/vizzu-lib",
-    "webtorrent/bittorrent-dht"
+    "webtorrent/bittorrent-dht",
+    "yahoo/serialize-javascript"
   ]
 }

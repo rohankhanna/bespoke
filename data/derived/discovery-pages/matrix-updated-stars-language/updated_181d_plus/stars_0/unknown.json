@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 65,
-    "terms": 52
+    "components": 95,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 69,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -42,18 +42,22 @@
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "devongovett/html5ever",
-    "DiffEqML/diffeqml-media",
+    "diffeqml/diffeqml-media",
     "dstein64/media",
     "filecoin-project/fvm-test-vectors",
     "flashinfer-ai/web-data",
     "get-gah/setup-gah",
+    "getlantern/lantern-forum-en",
     "glandium/rust-objc",
+    "gokyeongryeol/diffusers",
     "Heap-Hop/if-watch",
     "ipfs-examples/example-fork-go-template",
     "josejg/google-research",
     "joshmedeski/tmux-list",
+    "juliaci/base-buildkite-docs",
     "kazuk/cargo-make-coverage-grcov",
     "keathley/finch",
+    "kivikakk/cmark-gfm",
     "koreader/koreader-artwork",
     "krallin/probminhash",
     "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
@@ -61,7 +65,7 @@
     "madsim-rs/rust-tokio-retry",
     "madsim-rs/sqlx",
     "marwes/hubcaps",
-    "Mountchicken/MMOCR_tutorials",
+    "mountchicken/mmocr_tutorials",
     "newrelic/open-source-office",
     "ningsir/pytorch",
     "pengzhendong/files",

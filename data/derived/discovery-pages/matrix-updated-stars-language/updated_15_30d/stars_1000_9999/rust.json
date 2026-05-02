@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 422,
-    "concepts": 298,
-    "observations": 301,
-    "repos": 50,
-    "terms": 295
+    "components": 529,
+    "concepts": 352,
+    "observations": 356,
+    "repos": 59,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
     "aome510/spotify-player",
-    "arxanas/git-branchless",
-    "bitshifter/glam-rs",
+    "asny/three-d",
+    "asomers/mockall",
     "BurntSushi/quickcheck",
     "bvaisvil/zenith",
     "bytedance/monoio",
     "Canop/bacon",
+    "cedar-policy/cedar",
     "chronotope/chrono",
     "crate-ci/typos",
     "crossterm-rs/crossterm",
@@ -37,6 +38,8 @@
     "johnnymorganz/stylua",
     "jonhoo/inferno",
     "jsr-io/jsr",
+    "Keats/tera",
+    "killercup/cargo-edit",
     "lalrpop/lalrpop",
     "libp2p/rust-libp2p",
     "linebender/resvg",
@@ -46,8 +49,11 @@
     "mitsuhiko/similar",
     "mozilla/sccache",
     "nabijaczleweli/cargo-update",
+    "napi-rs/napi-rs",
+    "napi-rs/node-rs",
     "noib3/nvim-oxi",
     "not-fl3/miniquad",
+    "nvidia/openshell",
     "openai/harmony",
     "pop-os/cosmic-text",
     "rust-cli/confy",
@@ -58,10 +64,13 @@
     "rust-windowing/winit",
     "serde-rs/json",
     "servo/ipc-channel",
+    "snapview/tungstenite-rs",
     "spacejam/sled",
     "tauri-apps/wry",
     "testcontainers/testcontainers-rs",
     "tokio-rs/mini-redis",
+    "tokio-rs/mio",
+    "tokio-rs/tracing",
     "uuid-rs/uuid",
     "WebAssembly/WASI"
   ]

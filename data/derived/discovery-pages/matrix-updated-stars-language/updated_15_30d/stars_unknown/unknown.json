@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 3,
+    "repos": 13,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,10 +12,20 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "BehiSecc/awesome-claude-skills",
-    "onyx-dot-app/onyx_deep_research_bench",
-    "revfactory/harness-100"
+    "aitooools/chatgpt",
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/claude-pro",
+    "aitooools/claude-pro-hezu",
+    "aitooools/claude-pro-recharge",
+    "aitooools/gemini-pro",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu"
   ]
 }

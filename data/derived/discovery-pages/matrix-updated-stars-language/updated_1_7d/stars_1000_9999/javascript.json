@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1309,
-    "concepts": 221,
-    "observations": 222,
-    "repos": 30,
-    "terms": 221
+    "components": 1415,
+    "concepts": 239,
+    "observations": 240,
+    "repos": 35,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "amannn/action-semantic-pull-request",
+    "antfu/eslint-config",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
     "callstack/react-native-builder-bob",
@@ -22,9 +23,10 @@
     "google/docsy",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
-    "i18next/i18next",
     "i18next/react-i18next",
     "ipfs/ipfs-webui",
+    "jakerella/jquery-mockjax",
+    "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
     "LavaMoat/LavaMoat",
     "ljharb/qs",
@@ -33,9 +35,12 @@
     "module-federation/core",
     "mozilla/rhino",
     "mozilla/web-ext",
+    "nodejs/Release",
     "observing/pre-commit",
     "parallel-js/parallel.js",
     "paralleldrive/cuid",
+    "postcss/postcss-import",
+    "ranisalt/node-argon2",
     "sveltejs/devalue",
     "swagger-api/swagger-editor",
     "umijs/dumi",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 41,
-    "terms": 110
+    "components": 85,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 47,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
+    "adamharrison/lite-xl-android",
     "angelozerr/ec4e",
     "apache/pulsar-adapters",
     "asaikali/spring-ai-zero-to-hero",
@@ -25,6 +26,8 @@
     "CommonWealthRobotics/mujoco-java",
     "CraftJarvis/MC-Simulator",
     "cyberphone/jws-ct",
+    "Deep-Symmetry/wayang",
+    "DerekCook/CoreMidi4J",
     "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
     "eclipse-acute/aCute",
@@ -36,6 +39,7 @@
     "fillumina/id-encryptor",
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
+    "h2oai/h2o-droplets",
     "iamolegga/react-native-launch-arguments",
     "imfangs/langgraph4j-deep-researcher",
     "jchambers/id-obfuscator",
@@ -45,10 +49,12 @@
     "marbl/MHAP",
     "mikepapadim/llama2.tornadovm.java",
     "MSPaintIDE/NewOCR",
+    "rahsheen/react-native-template-redux-typescript",
     "redis-developer/redis-om-spring-skeleton-app",
     "ruby-processing/JRubyArt",
     "setl/rdf-urdna",
     "shire-lang/shire-demo",
+    "snover/terp",
     "SpencerPark/jupyter-jvm-basekernel",
     "SpencerPark/MellowD",
     "stephanj/Llama3JavaChatCompletionService",

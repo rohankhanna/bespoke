@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 10,
-    "terms": 49
+    "components": 375,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 14,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
+    "antfu-collective/vitesse",
+    "cosmiconfig/cosmiconfig",
     "flightcontrolhq/superjson",
+    "jonaskello/tsconfig-paths",
     "metatool-ai/metamcp",
     "react-native-netinfo/react-native-netinfo",
     "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",
     "stravu/crystal",
+    "styleguidist/react-docgen-typescript",
     "toddbluhm/env-cmd",
     "ulid/javascript"
   ]

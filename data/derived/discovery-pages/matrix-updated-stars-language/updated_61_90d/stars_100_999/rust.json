@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 26,
-    "terms": 113
+    "components": 139,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 28,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
+    "blyxxyz/lexopt",
     "cowboy8625/rusty-rain",
     "cuviper/autocfg",
     "dtolnay/prettyplease",
@@ -31,13 +32,14 @@
     "MSxDOS/ntapi",
     "pdf-rs/pdf_render",
     "ratatui/templates",
+    "rust-native-tls/rust-native-tls",
+    "rust3ds/ctru-rs",
     "sagiegurari/duckscript",
     "smol-rs/async-executor",
     "SunDoge/simdjson-rust",
     "tsonglew/dutis",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
-    "walles/riff",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub"
   ]

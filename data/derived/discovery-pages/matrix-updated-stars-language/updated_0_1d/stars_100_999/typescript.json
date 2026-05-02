@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 13,
-    "terms": 87
+    "components": 119,
+    "concepts": 19,
+    "observations": 21,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "appium/appium-xcuitest-driver",
-    "electron-vite/vite-plugin-electron",
-    "engine262/engine262",
-    "gradle/actions",
-    "mightyiam/eslint-config-love",
-    "stx-labs/stacks.js",
-    "TanStack/config",
-    "TanStack/devtools",
-    "TanStack/pacer",
-    "TanStack/store",
-    "un-ts/synckit",
-    "unplugin/unplugin-imagemin"
+    "electron/packager",
+    "nuxt/bridge",
+    "smithy-lang/smithy-typescript"
   ]
 }

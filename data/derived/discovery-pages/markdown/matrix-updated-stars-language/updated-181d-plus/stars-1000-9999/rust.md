@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-01T10:43:36.497216+00:00`
+Generated at: `2026-05-02T05:25:58.258401+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 191
-- components: 159
-- concepts: 193
-- observations: 196
+- repos: 47
+- terms: 205
+- components: 197
+- concepts: 207
+- observations: 210
 
 ## Static behavior
 
@@ -64,8 +64,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [koute/stdweb](https://github.com/koute/stdweb) | 3455 | 2024-02-28T12:11:10Z | Rust | CLI | 5 | 0 | 5 | 5 |
 | [http-rs/tide](https://github.com/http-rs/tide) | 5102 | 2024-01-05T01:12:04Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [BrainiumLLC/cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) | 1311 | 2024-01-04T21:56:21Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [koute/cargo-web](https://github.com/koute/cargo-web) | 1112 | 2023-11-29T04:25:09Z | Rust | CLI | 5 | 0 | 5 | 5 |
 | [racer-rust/racer](https://github.com/racer-rust/racer) | 3352 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [jameslittle230/stork](https://github.com/jameslittle230/stork) | 2756 | 2023-07-01T14:15:45Z | Rust | Infrastructure/tooling | 9 | 38 | 9 | 9 |
 | [japaric/xargo](https://github.com/japaric/xargo) | 1132 | 2023-05-02T22:57:39Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gfx-rs/gfx](https://github.com/gfx-rs/gfx) | 5401 | 2023-02-27T01:05:58Z | Rust | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [vislyhq/stretch](https://github.com/vislyhq/stretch) | 2031 | 2023-01-26T16:14:25Z | Rust | Unknown | 4 | 0 | 4 | 4 |
@@ -93,6 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) | 2973 | 2025-09-21T22:00:37Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [mtshiba/pylyzer](https://github.com/mtshiba/pylyzer) | 2869 | 2025-05-10T02:10:33Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 8 |
 | [watchexec/cargo-watch](https://github.com/watchexec/cargo-watch) | 2861 | 2025-01-14T14:57:47Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [jameslittle230/stork](https://github.com/jameslittle230/stork) | 2756 | 2023-07-01T14:15:45Z | Rust | Infrastructure/tooling | 9 | 38 | 9 | 9 |
 | [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs) | 2526 | 2024-09-23T10:31:00Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [cgag/loc](https://github.com/cgag/loc) | 2449 | 2024-04-21T20:06:03Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [BurntSushi/fst](https://github.com/BurntSushi/fst) | 2063 | 2024-09-25T20:46:04Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -116,6 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvarner/typst-lsp](https://github.com/nvarner/typst-lsp) | 1157 | 2024-11-05T06:22:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [hecrj/coffee](https://github.com/hecrj/coffee) | 1143 | 2024-03-03T11:30:40Z | Rust | Infrastructure/tooling | 7 | 2 | 8 | 8 |
 | [japaric/xargo](https://github.com/japaric/xargo) | 1132 | 2023-05-02T22:57:39Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [koute/cargo-web](https://github.com/koute/cargo-web) | 1112 | 2023-11-29T04:25:09Z | Rust | CLI | 5 | 0 | 5 | 5 |
 | [fcsonline/tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) | 1065 | 2024-04-20T05:12:22Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 8 |
 | [phsym/prettytable-rs](https://github.com/phsym/prettytable-rs) | 1047 | 2024-09-20T04:41:24Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [g1mv/density](https://github.com/g1mv/density) | 1043 | 2025-09-16T09:12:50Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |

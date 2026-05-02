@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 453,
-    "observations": 453,
-    "repos": 105,
-    "terms": 454
+    "components": 239,
+    "concepts": 470,
+    "observations": 470,
+    "repos": 111,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -53,6 +53,8 @@
     "dragonflyoss/dragonfly-archived",
     "ericfreese/rat",
     "filhodanuvem/gitql",
+    "fluxcd/flux",
+    "githubnemo/CompileDaemon",
     "go-bindata/go-bindata",
     "go-yaml/yaml",
     "gobwas/glob",
@@ -61,8 +63,10 @@
     "golang/lint",
     "golang/mock",
     "golang/snappy",
+    "gomodule/redigo",
     "google/btree",
     "google/crfs",
+    "google/gopacket",
     "google/uuid",
     "gorilla/sessions",
     "h2non/bimg",
@@ -100,6 +104,7 @@
     "puma/puma-dev",
     "qri-io/qri",
     "robertkrimen/otto",
+    "roboll/helmfile",
     "russross/blackfriday",
     "segmentio/ksuid",
     "sorintlab/stolon",
@@ -116,6 +121,7 @@
     "vmihailenco/taskq",
     "vulcand/vulcand",
     "xlab/android-go",
+    "xxxserxxx/gotop",
     "yannh/kubeconform",
     "youtube/doorman",
     "zyedidia/eget"

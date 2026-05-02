@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1901,
-    "concepts": 359,
-    "observations": 362,
-    "repos": 40,
-    "terms": 355
+    "components": 1738,
+    "concepts": 349,
+    "observations": 352,
+    "repos": 36,
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "arkenfox/user.js",
@@ -29,8 +29,6 @@
     "expressjs/express",
     "fastify/fastify",
     "google/zx",
-    "graphql/graphql-spec",
-    "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
     "jquery/jquery",
@@ -38,7 +36,6 @@
     "lodash/lodash",
     "lovell/sharp",
     "markedjs/marked",
-    "motdotla/dotenv",
     "nock/nock",
     "openai/codex-plugin-cc",
     "prettier/prettier",
@@ -49,10 +46,9 @@
     "semantic-release/semantic-release",
     "serverless/serverless",
     "simple-icons/simple-icons",
-    "svg/svgo",
+    "validatorjs/validator.js",
     "webpack/webpack",
     "webtorrent/webtorrent",
-    "yarnpkg/yarn",
     "zloirock/core-js"
   ]
 }

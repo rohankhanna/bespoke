@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 69,
-    "observations": 70,
+    "components": 82,
+    "concepts": 74,
+    "observations": 75,
     "repos": 20,
-    "terms": 68
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
-    "charmbracelet/scoop-bucket",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
@@ -33,6 +32,7 @@
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "w3c/accname",
-    "w3c/core-aam"
+    "w3c/core-aam",
+    "webdriverio/awesome-webdriverio"
   ]
 }

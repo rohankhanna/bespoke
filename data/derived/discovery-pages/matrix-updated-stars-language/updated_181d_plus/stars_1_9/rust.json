@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 58,
-    "terms": 68
+    "components": 197,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 62,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "adambiltcliffe/macroquad-jfa",
     "adamgreig/spi-flash-rs",
@@ -39,6 +39,7 @@
     "EspressoSystems/atomicstore",
     "EspressoSystems/surf-disco",
     "franziskuskiefer/cose-rust",
+    "glium/glium_derive",
     "gordon-f/miniquad_ios_example",
     "hasharchives/blockprotocol-incubator",
     "huggingface/tei-gaudi",
@@ -62,15 +63,18 @@
     "ncitron/ethereum_hashing",
     "not-fl3/sapp-jsutils",
     "Piebald-AI/muda",
+    "prasmussen/google-apis-rs",
     "rust3ds/shim-3ds",
     "s3bk/pathfinder_view",
     "s3bk/tuple",
+    "sfackler/serde-smile",
     "spacemeshos/scrypt-jane-rs",
     "tensorchord/rust-stemmers",
     "thomaseizinger/rust-jsonrpc-client",
     "tmpfs/tamp-rs",
     "valida-xyz/Plonky3",
     "walles/loadviz",
-    "wezterm/xcb-imdkit-rs"
+    "wezterm/xcb-imdkit-rs",
+    "yaahc/btparse"
   ]
 }

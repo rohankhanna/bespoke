@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 118,
-    "terms": 102
+    "components": 40,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 126,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -63,8 +63,11 @@
     "fidlabs/allocator-tooling",
     "filecoin-project/Allocator-Governance",
     "getlantern/lantern-forum-belarus",
+    "getlantern/lantern-forum-fa",
+    "getlantern/lantern-forum-ru",
     "gnunicorn/cargo-unleash",
     "HarderThenHarder/OpenRLHF",
+    "HDETR/H-Mask-Deformable-DETR",
     "hpcaitech/Open-Sora-Demo",
     "HTR-United/tapuscorpus",
     "ibis-project/governance",
@@ -79,6 +82,7 @@
     "jiweimaster/lfs",
     "jupyter/notebook-team-compass",
     "justinchuby/lintrunner-action",
+    "kowainik/.github",
     "KSXGitHub/pacman-repo",
     "layr-labs/avs-vibe-developer-guide",
     "LianjiaTech/athena-model-zoo",
@@ -99,13 +103,17 @@
     "philips-labs/about-this-organization",
     "pimlie/geekworm-x-c1",
     "podman-desktop/community",
+    "prisma/barrel",
+    "prisma/presskit",
     "pulsar-cooperative/.github",
     "ray-x/files",
     "s3bk/pdf_fonts",
     "sagiegurari/cargo-make-tasks",
+    "scicode-bench/submissions",
     "scottemmons/decision-transformer",
     "seebye/urwid-ueberzogen",
     "shirommakkad/base16-jetbrains-ide-monokai",
+    "siliconflow/oneflow_releases",
     "sokra/triomphe",
     "spacemeshos/SMIPS",
     "spring-projects/.github",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "concepts": 3,
+    "observations": 3,
+    "repos": 2,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "jtoy/awesome-tensorflow"
+    "jtoy/awesome-tensorflow",
+    "slatedocs/slate"
   ]
 }

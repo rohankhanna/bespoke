@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 13,
-    "terms": 94
+    "components": 84,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 14,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -23,6 +23,7 @@
     "eclipse-tm4e/tm4e",
     "GoogleCloudPlatform/cloud-opensource-java",
     "higress-group/higress-console",
+    "jpmml/jpmml-sparkml",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "redis/redis-om-spring",

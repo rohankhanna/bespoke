@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 8,
-    "terms": 40
+    "components": 32,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 9,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
+    "jonmosco/kube-ps1",
     "Pal3love/dream-han-cjk",
     "pgsty/pigsty",
     "tianon/gosu",

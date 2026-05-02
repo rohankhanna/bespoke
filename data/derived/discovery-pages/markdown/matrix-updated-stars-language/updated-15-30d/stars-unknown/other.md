@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · Unknown stars · Other
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-05-02T05:25:58.258401+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 4
-- components: 11
+- repos: 1
+- terms: 0
+- components: 0
 - concepts: 0
 - observations: 0
 
@@ -26,14 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [manzaltu/claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el) | unknown | 2026-04-02T05:20:26Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | unknown | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [steipete/Peekaboo](https://github.com/steipete/Peekaboo) | unknown | 2026-03-28T04:18:13Z | Other | CLI | 4 | 8 | 0 | 0 |
+| [aitooools/aitooools.github.io](https://github.com/aitooools/aitooools.github.io) | unknown | 2026-04-17T14:24:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [manzaltu/claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el) | unknown | 2026-04-02T05:20:26Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | unknown | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [steipete/Peekaboo](https://github.com/steipete/Peekaboo) | unknown | 2026-03-28T04:18:13Z | Other | CLI | 4 | 8 | 0 | 0 |
+| [aitooools/aitooools.github.io](https://github.com/aitooools/aitooools.github.io) | unknown | 2026-04-17T14:24:38Z | Other | Unknown | 0 | 0 | 0 | 0 |

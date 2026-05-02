@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 558,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 29,
-    "terms": 119
+    "components": 506,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 28,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
-    "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bufbuild/protobuf-conformance",
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
@@ -31,17 +29,18 @@
     "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
+    "oclif/oclif.github.io",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "peergos/web-ui",
+    "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "semantic-release/error",
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
-    "webtorrent/bittorrent-lsd",
-    "winstonjs/winston-transport"
+    "webtorrent/bittorrent-lsd"
   ]
 }

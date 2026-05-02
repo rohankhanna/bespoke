@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 15,
+    "components": 18,
     "concepts": 39,
     "observations": 39,
-    "repos": 7,
+    "repos": 8,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "anthropics/courses",
     "camenduru/stable-diffusion-webui-colab",
@@ -20,6 +20,7 @@
     "github/copilot.vim",
     "QwenLM/Qwen3-VL",
     "tachyons-css/tachyons",
+    "twbs/bootstrap-sass",
     "ziglang/zig"
   ]
 }

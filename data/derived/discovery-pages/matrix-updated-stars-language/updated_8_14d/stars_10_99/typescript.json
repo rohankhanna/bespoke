@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1090,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 38,
-    "terms": 183
+    "components": 977,
+    "concepts": 168,
+    "observations": 170,
+    "repos": 33,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "52-entertainment/vite-plugin-oxlint",
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
-    "ava-labs/avalanche-dapp-sdks",
     "Azure/bicep-deploy",
     "Azure/powershell",
-    "Beaglefoot/prettier-plugin-awk",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "cargo-bins/release-pr",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
-    "darkriszty/MarkdownTablePrettify-VSCodeExt",
-    "dokploy/cli",
     "electron/windows-sign",
     "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
@@ -38,19 +35,17 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
+    "jakoch/install-vulkan-sdk-action",
     "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
     "llamastack/llama-stack-client-typescript",
     "mcous/vitest-when",
-    "nuxt-modules/emotion",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "slopus/slopus.github.io",
     "vaultwarden/vw_web_builds",
-    "wighawag/rocketh",
-    "ylsssq926/relic.skill",
-    "zuplo/docs"
+    "wighawag/rocketh"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 218,
-    "observations": 218,
-    "repos": 39,
-    "terms": 217
+    "components": 129,
+    "concepts": 232,
+    "observations": 232,
+    "repos": 41,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -20,6 +20,7 @@
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
     "cjlin1/liblinear",
+    "codeplea/tinyexpr",
     "colmap/glomap",
     "cpputest/cpputest",
     "EKA2L1/EKA2L1",
@@ -36,10 +37,10 @@
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
     "jlblancoc/nanoflann",
-    "julienxx/terminal-notifier",
     "libimobiledevice/libimobiledevice",
     "libsndfile/libsndfile",
     "MaskRay/ccls",
+    "MIT-SPARK/TEASER-plusplus",
     "naelstrof/maim",
     "nfrechette/acl",
     "niessner/Matterport",
@@ -47,11 +48,12 @@
     "nvim-telescope/telescope-fzf-native.nvim",
     "NVlabs/nvdiffrast",
     "Oneflow-Inc/oneflow",
+    "openMVG/openMVG",
     "pothosware/SoapySDR",
     "rurban/smhasher",
     "ScanNet/ScanNet",
+    "simonfuhrmann/mve",
     "sysstat/sysstat",
-    "Tessil/robin-map",
     "tpoechtrager/osxcross"
   ]
 }

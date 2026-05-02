@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 490,
+    "components": 491,
     "concepts": 632,
     "observations": 635,
-    "repos": 60,
+    "repos": 59,
     "terms": 638
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -24,9 +24,9 @@
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "chromium/chromium",
+    "citusdata/citus",
     "ClickHouse/ClickHouse",
     "curl/curl",
-    "duckdb/duckdb",
     "emscripten-core/emscripten",
     "envoyproxy/envoy",
     "facebook/folly",
@@ -55,7 +55,6 @@
     "microsoft/WSL",
     "microsoft/WSL2-Linux-Kernel",
     "ml-explore/mlx",
-    "mozilla-ai/llamafile",
     "mpv-player/mpv",
     "NixOS/nix",
     "ocornut/imgui",

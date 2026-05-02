@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 205,
-    "observations": 205,
-    "repos": 61,
-    "terms": 202
+    "components": 260,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 66,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -23,12 +23,14 @@
     "adobe/spectrum-tokens",
     "Afnanksalal/co-op",
     "agents-x-project/PyVision-RL-Eval",
+    "aifoundry-org/et-man",
     "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-libby-book-monitor",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
     "alexpolonsky/agent-skill-strikeradar",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "AlwaysNur/bookbank",
     "ankane/torchcodec-ruby",
     "ansible-community/collection_bot",
     "ansible-community/presentations",
@@ -37,6 +39,7 @@
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
     "birdofpreyru/js-utils",
+    "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
     "coderaiser/escover",
     "Coral-Protocol/coral-rs",
     "cpojer/js-codemod",
@@ -51,9 +54,11 @@
     "genius-harry/neural-chat",
     "gost-dom/webref",
     "haya14busa/github-used-by",
+    "hchiam/learning-https-server",
     "hermit-os/hermit-gcc",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jsdom/.github",
+    "JuliaBinaryWrappers/Zlib_jll.jl",
     "kornia/data",
     "leaktk/gitleaks",
     "mlfoundations/SkyRL",
@@ -72,7 +77,7 @@
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
-    "zen-eth/multiformats-zig",
-    "zwowo1997/pack-repo-4ai"
+    "yoshoku/numo-libsvm",
+    "zen-eth/multiformats-zig"
   ]
 }

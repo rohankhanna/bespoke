@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 11,
-    "observations": 11,
+    "components": 9,
+    "concepts": 2,
+    "observations": 2,
     "repos": 1,
-    "terms": 11
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "rockerBOO/awesome-neovim"
+    "BtbN/FFmpeg-Builds"
   ]
 }

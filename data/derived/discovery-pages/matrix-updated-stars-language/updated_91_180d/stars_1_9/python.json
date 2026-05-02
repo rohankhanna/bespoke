@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 17,
-    "terms": 43
+    "components": 55,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 19,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abersheeran/pdm-version",
     "ai-bot-pro/pipeline-py",
@@ -26,10 +26,12 @@
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "hashberg-io/typing-validation",
     "heyoeyo/toadui",
+    "LedgerHQ/ledgercomm",
     "MarcCote/downward",
     "mjvolk3/torchcell",
     "MollySophia/Albatross",
     "pydantic/pydantic-docs",
-    "tahv/typos-gitlab-code-quality"
+    "tahv/typos-gitlab-code-quality",
+    "zwowo1997/pack-repo-4ai"
   ]
 }

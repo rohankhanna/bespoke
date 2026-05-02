@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 437,
-    "concepts": 153,
-    "observations": 153,
+    "components": 475,
+    "concepts": 151,
+    "observations": 151,
     "repos": 33,
-    "terms": 150
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
+    "ahmadnassri/node-glob-promise",
     "andylockran/spectral-aws-apigateway-ruleset",
     "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
+    "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
-    "dart-lang/site-shared",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
     "dwyl/phoenix-liveview-stopwatch",
@@ -32,7 +33,6 @@
     "electerm/electerm-locales",
     "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
-    "gatsbyjs/gatsby-starter-minimal",
     "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
@@ -41,11 +41,11 @@
     "i18next/i18next-icu",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
-    "Level/browser-level",
-    "Level/memory-level",
-    "neverendingqs/serverless-dotenv-example",
+    "mapbox/point-geometry",
+    "npm/types",
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
-    "webtorrent/bittorrent-peerid"
+    "webtorrent/bittorrent-peerid",
+    "winstonjs/winston-transport"
   ]
 }

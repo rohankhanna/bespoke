@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 423,
-    "observations": 423,
-    "repos": 71,
-    "terms": 423
+    "components": 288,
+    "concepts": 459,
+    "observations": 459,
+    "repos": 75,
+    "terms": 457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "anapnoe/stable-diffusion-webui-ux",
@@ -48,6 +48,7 @@
     "ionelmc/pytest-benchmark",
     "jeffallan/claude-skills",
     "keleshev/schema",
+    "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
     "michaelfeil/infinity",
@@ -57,16 +58,18 @@
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "nunchaku-ai/nunchaku",
+    "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",
     "om-ai-lab/VLM-R1",
     "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
+    "PaddlePaddle/PaddleClas",
     "pdfminer/pdfminer.six",
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
-    "python-semantic-release/python-semantic-release",
+    "pyupio/safety",
     "randy3k/radian",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
@@ -84,6 +87,7 @@
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "ufoym/deepo",
+    "Vchitect/VBench",
     "wenet-e2e/wenet"
   ]
 }

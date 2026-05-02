@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 976,
-    "concepts": 183,
-    "observations": 184,
-    "repos": 34,
-    "terms": 201
+    "components": 956,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 35,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0no-co/wonka",
+    "43081j/picoquery",
     "aelassas/bookcars",
+    "agentscope-ai/agentscope-studio",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
-    "antfu/changelogithub",
     "aquasecurity/trivy-vscode-extension",
     "avli/clojureVSCode",
     "aws-samples/dify-self-hosted-on-aws",
@@ -27,15 +28,15 @@
     "connectrpc/connect-query-es",
     "cztomsik/ava",
     "ethereum/staking-launchpad",
+    "fannheyward/coc-sql",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
+    "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
-    "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
-    "lobehub/lobe-tts",
     "microsoft/vscode-debugadapter-node",
     "neoclide/coc-java",
     "PanAeon/vscode-tmgrammar-test",

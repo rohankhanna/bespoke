@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 82,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 63,
-    "terms": 183
+    "concepts": 191,
+    "observations": 191,
+    "repos": 65,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -38,6 +38,7 @@
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
     "chemprop/chemprop_benchmark",
+    "CISOfy/lynis-sdk",
     "coin-or-tools/ThirdParty-HSL",
     "coqui-ai/TTS-recipes",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
@@ -65,6 +66,7 @@
     "luizm/asdf-shfmt",
     "manim-kindergarten/manim_action_renderer",
     "nmattia/sorri",
+    "northox/openbsd-apu2",
     "Oneflow-Inc/conda-env",
     "scaleway/initrd",
     "sclorg/mongodb-container",

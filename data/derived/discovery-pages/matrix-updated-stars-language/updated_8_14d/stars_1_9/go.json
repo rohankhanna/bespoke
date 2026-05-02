@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 80,
+    "components": 78,
     "concepts": 46,
     "observations": 46,
     "repos": 15,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "anexia/k8s-external-dns-webhook",
@@ -22,12 +22,12 @@
     "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",
     "k8nstantin/openpraxis",
-    "petmal/mindtrial",
     "probe-lab/tiros",
     "serpro69/capy",
     "transparency-dev/armored-witness-boot",
     "transparency-dev/armored-witness-os",
     "transparency-dev/distributor",
+    "usbarmory/boot-transparency",
     "walles/ftop"
   ]
 }

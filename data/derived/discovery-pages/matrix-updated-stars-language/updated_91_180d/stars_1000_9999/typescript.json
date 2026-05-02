@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 19,
-    "terms": 110
+    "components": 608,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 21,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "EventSource/eventsource",
     "glimmerjs/glimmer-vm",
@@ -25,12 +25,14 @@
     "lokerl/tts-vue",
     "msgpack/msgpack-javascript",
     "numman-ali/openskills",
+    "obsidianmd/obsidian-sample-plugin",
     "omnara-ai/omnara",
     "PaulLeCam/react-leaflet",
     "piotrostr/listen",
     "ricky0123/vad",
     "shareAI-lab/Kode-Agent",
     "tancredi/fantasticon",
+    "unplugin/unplugin-icons",
     "vercel/ms",
     "WebAV-Tech/WebAV"
   ]

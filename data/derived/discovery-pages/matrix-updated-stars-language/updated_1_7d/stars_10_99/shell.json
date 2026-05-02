@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 10,
-    "terms": 38
+    "components": 42,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 11,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "dotenvx/dotenvx.sh",

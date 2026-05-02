@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 14,
-    "terms": 71
+    "components": 79,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 17,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
-    "acts-project/traccc",
     "Antares0982/ssrJSON",
+    "erigontech/mdbx-go",
+    "facebook/fb303",
     "hazelcast/hazelcast-cpp-client",
+    "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
+    "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
+    "microsoft/aitour-exploring-cutting-edge-models",
     "mongodb/winkerberos",
-    "ROCm/ROCgdb",
     "ROCm/rpp",
     "walbourn/directxmathtest",
     "xjb714/xjb"

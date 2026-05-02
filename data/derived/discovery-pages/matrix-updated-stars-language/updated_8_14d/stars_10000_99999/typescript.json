@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6065,
-    "concepts": 592,
-    "observations": 599,
+    "components": 5969,
+    "concepts": 595,
+    "observations": 602,
     "repos": 64,
-    "terms": 610
+    "terms": 612
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "ajv-validator/ajv",
     "apache/superset",
     "apollographql/apollo-client",
     "babel/babel",
@@ -21,13 +22,13 @@
     "bitwarden/clients",
     "bluesky-social/social-app",
     "browserless/browserless",
-    "changesets/changesets",
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
     "conventional-changelog/commitlint",
     "DefinitelyTyped/DefinitelyTyped",
     "diegomura/react-pdf",
+    "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "elastic/kibana",
     "emberjs/ember.js",
@@ -41,6 +42,7 @@
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
+    "gvergnaud/ts-pattern",
     "iOfficeAI/AionUi",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
@@ -48,10 +50,7 @@
     "labring/FastGPT",
     "labring/sealos",
     "microsoft/playwright",
-    "modelcontextprotocol/servers",
     "multica-ai/multica",
-    "neoclide/coc.nvim",
-    "nuxt/nuxt",
     "nvidia/nemoclaw",
     "openai/openai-node",
     "pnpm/pnpm",
@@ -67,8 +66,8 @@
     "SBoudrias/Inquirer.js",
     "sindresorhus/got",
     "sindresorhus/ky",
+    "sindresorhus/type-fest",
     "slopus/happy",
-    "tailwindlabs/tailwindcss",
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",
@@ -76,6 +75,7 @@
     "VSCodeVim/Vim",
     "vuejs/core",
     "withastro/astro",
+    "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 18,
-    "terms": 32
+    "components": 15,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 21,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "airlift/codestyle",
@@ -23,6 +23,8 @@
     "cedar-policy/rfcs",
     "dredozubov/prd-generator",
     "eric-haibin-lin/verl-community",
+    "FAIR-IMPACT/MOD",
+    "getlantern/lantern-forum-cn",
     "json-schema-org/.github",
     "Level/community",
     "oak-security/resources",
@@ -30,6 +32,7 @@
     "rose-pine/rose-pine-template",
     "sclorg/welcome",
     "stephenschoettler/taches-oc-prompts",
+    "talk-flow/Lynxe-public-usecase",
     "VectorSpaceLab/Vis-IR",
     "vega/schema"
   ]

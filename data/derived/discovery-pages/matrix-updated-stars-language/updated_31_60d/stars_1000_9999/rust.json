@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 122,
-    "observations": 123,
-    "repos": 25,
-    "terms": 121
+    "components": 211,
+    "concepts": 145,
+    "observations": 147,
+    "repos": 28,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "allan2/dotenvy",
+    "arxanas/git-branchless",
+    "bitshifter/glam-rs",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
+    "emilk/eframe_template",
     "enigo-rs/enigo",
     "extism/extism",
+    "google/argh",
     "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
     "LaurentMazare/tch-rs",
     "lldap/lldap",
     "mitsuhiko/insta",
-    "mozilla/cbindgen",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 8,
-    "terms": 59
+    "components": 2,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "Apicurio/apicurio-registry",
-    "aws/smithy-go",
-    "bazel-contrib/rules_jvm_external",
     "cloudfoundry/credhub",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "palantir/javapoet",
-    "SAP/SapMachine",
-    "spring-projects/spring-tools"
+    "microsoft/LangChain4j-for-Beginners",
+    "palantir/javapoet"
   ]
 }

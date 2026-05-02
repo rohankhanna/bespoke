@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 11,
-    "terms": 77
+    "components": 77,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 8,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "actions/python-versions",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "erlef/rebar3_hex",
-    "hazelcast/hazelcast-csharp-client",
+    "bazel-contrib/rules_kotlin",
+    "codiume/orbit",
+    "haskell/ghcup-hs",
     "jackielii/skhd.zig",
-    "JuliaPackaging/BinaryBuilder.jl",
-    "JuliaPackaging/Yggdrasil",
-    "LogtalkDotOrg/logtalk3",
-    "microsoft/Oryx",
-    "moyangzhan/langchain4j-aideepin-web",
-    "SonarSource/sonarlint-intellij"
+    "pulumi/templates",
+    "ROCm/rocMLIR",
+    "ropensci/software-review",
+    "rust-lang/blog.rust-lang.org"
   ]
 }

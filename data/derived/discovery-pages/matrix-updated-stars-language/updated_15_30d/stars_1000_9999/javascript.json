@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 745,
-    "concepts": 163,
-    "observations": 163,
+    "components": 794,
+    "concepts": 164,
+    "observations": 164,
     "repos": 32,
-    "terms": 163
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -31,14 +31,14 @@
     "GoogleChromeLabs/ProjectVisBug",
     "igorshubovych/markdownlint-cli",
     "istanbuljs/istanbuljs",
-    "jshttp/mime-types",
     "kpdecker/jsdiff",
-    "Level/level",
+    "npm/cli",
     "npm/node-semver",
-    "pillarjs/iconv-lite",
+    "piebald-ai/claude-code-system-prompts",
     "pinojs/pino-pretty",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
+    "serverless-operations/serverless-step-functions",
     "sindresorhus/hyper-snazzy",
     "tc39/agendas",
     "webpack/postcss-loader",

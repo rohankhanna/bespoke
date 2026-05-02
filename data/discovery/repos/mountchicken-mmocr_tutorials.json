@@ -8,13 +8,14 @@
       "size": 321
     }
   ],
+  "metadata_refreshed_at": "2026-05-02T05:25:17.829386+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Jupyter notebook tutorials for MMOCR",
     "fork": true,
-    "full_name": "Mountchicken/MMOCR_tutorials",
+    "full_name": "mountchicken/mmocr_tutorials",
     "html_url": "https://github.com/Mountchicken/MMOCR_tutorials",
     "language": null,
     "pushed_at": "2022-03-18T08:28:53Z",

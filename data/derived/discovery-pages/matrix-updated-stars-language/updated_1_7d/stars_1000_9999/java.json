@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 350,
-    "concepts": 422,
-    "observations": 422,
-    "repos": 37,
-    "terms": 418
+    "components": 401,
+    "concepts": 493,
+    "observations": 493,
+    "repos": 43,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,27 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/ignite",
     "apache/parquet-java",
+    "apache/phoenix",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
     "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
+    "cloudfoundry/uaa",
     "confluentinc/examples",
     "confluentinc/schema-registry",
+    "dlew/joda-time-android",
+    "dropwizard/dropwizard",
     "dylibso/chicory",
     "eclipse-openvsx/openvsx",
-    "FasterXML/jackson-annotations",
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
@@ -48,6 +52,8 @@
     "langgraph4j/langgraph4j",
     "lightbend/config",
     "micronaut-projects/micronaut-core",
+    "moyangzhan/langchain4j-aideepin",
+    "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",
     "swagger-api/swagger-core"

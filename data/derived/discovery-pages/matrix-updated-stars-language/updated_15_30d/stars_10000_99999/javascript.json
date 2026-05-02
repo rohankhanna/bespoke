@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 640,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 20,
-    "terms": 104
+    "components": 923,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 26,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "acornjs/acorn",
     "ai/nanoid",
@@ -22,17 +22,23 @@
     "be5invis/Sarasa-Gothic",
     "browserslist/browserslist",
     "ConardLi/easy-dataset",
-    "debug-js/debug",
+    "graphql/graphql-spec",
     "hapijs/hapi",
+    "immerjs/immer",
+    "jantimon/html-webpack-plugin",
     "jashkenas/underscore",
-    "jquery/jquery-ui",
+    "motdotla/dotenv",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "preactjs/preact",
     "reactjs/react.dev",
+    "svg/svgo",
     "thomaspark/bootswatch",
     "tj/commander.js",
     "vega/vega",
-    "vercel-labs/agent-skills"
+    "vercel-labs/agent-skills",
+    "vuejs/vue-router",
+    "welldone-software/why-did-you-render",
+    "yarnpkg/yarn"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 317,
-    "observations": 318,
-    "repos": 27,
-    "terms": 314
+    "components": 284,
+    "concepts": 439,
+    "observations": 440,
+    "repos": 36,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,43 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/brpc",
+    "argotorg/solidity",
     "asmvik/yabai",
+    "assimp/assimp",
     "baldurk/renderdoc",
+    "bpftrace/bpftrace",
     "cameron314/concurrentqueue",
     "carla-simulator/carla",
     "catchorg/Catch2",
-    "citusdata/citus",
     "colmap/colmap",
+    "dcloudio/uni-app",
     "dmlc/xgboost",
+    "espressif/arduino-esp32",
     "FFmpeg/FFmpeg",
+    "google-ai-edge/mediapipe",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
     "isl-org/Open3D",
+    "jemalloc/jemalloc",
     "jqlang/jq",
     "k2-fsa/sherpa-onnx",
     "libuv/libuv",
     "lightgbm-org/LightGBM",
+    "LostRuins/koboldcpp",
     "mongodb/mongo",
     "oceanbase/oceanbase",
     "opencv/opencv",
     "openframeworks/openFrameworks",
+    "qmk/qmk_firmware",
     "simdjson/simdjson",
     "swaywm/sway",
     "v8/v8",
+    "winsiderss/systeminformer",
     "yhirose/cpp-httplib"
   ]
 }

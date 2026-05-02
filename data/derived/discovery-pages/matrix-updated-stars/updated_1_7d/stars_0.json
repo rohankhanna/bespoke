@@ -1,37 +1,41 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 20,
-    "terms": 44
+    "components": 64,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 24,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
     "danielrosehill/AI-Safety-Projects-Index",
+    "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Claude-ADB-Ops-Plugin",
+    "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
+    "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Responsible-Agent-Skill-Development",
     "flagos-ai/verl-FL",
+    "getlantern/guide",
     "hermit-os/.github",
+    "HumanSignal/label-studio-client-generator",
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
-    "mukel/gptoss.java",
-    "mukel/nemotron3.java",
+    "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves",
-    "squidowl/iced",
-    "Strivin0311/strivin0311.github.io"
+    "squidowl/iced"
   ]
 }

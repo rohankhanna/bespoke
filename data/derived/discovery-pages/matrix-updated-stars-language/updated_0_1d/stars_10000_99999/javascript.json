@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 288,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 6,
-    "terms": 59
+    "components": 143,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "CesiumGS/cesium",
-    "jsdoc/jsdoc",
-    "lint-staged/lint-staged",
-    "mochajs/mocha",
-    "nwjs/nw.js",
     "stylelint/stylelint"
   ]
 }

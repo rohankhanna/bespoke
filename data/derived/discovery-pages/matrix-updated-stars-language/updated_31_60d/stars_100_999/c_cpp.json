@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 44,
-    "terms": 224
+    "components": 147,
+    "concepts": 235,
+    "observations": 235,
+    "repos": 47,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
+    "arduino-libraries/Ethernet",
+    "arduino-libraries/Servo",
     "ARM-software/EndpointAI",
     "avaneev/r8brain-free-src",
     "btzy/nativefiledialog-extended",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
+    "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
     "douglascrockford/JSMin",
     "eliemichel/LearnWebGPU",

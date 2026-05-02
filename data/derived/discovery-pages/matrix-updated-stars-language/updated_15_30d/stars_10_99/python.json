@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 216,
-    "observations": 216,
-    "repos": 58,
-    "terms": 220
+    "components": 326,
+    "concepts": 266,
+    "observations": 266,
+    "repos": 66,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
+    "Accenture/Cymple",
     "Accio-Lab/SwimBird",
     "activeviam/jdk4py",
     "AFLplusplus/afl-cov",
     "AgriciDaniel/claude-email",
+    "ai4colonoscopy/Colon-X",
     "aiagenta2z/mcp-marketplace",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
@@ -26,10 +28,11 @@
     "ankurhanda/robot-assets",
     "archlizheng/frontend-slides-editable",
     "autowarefoundation/autoware-github-actions",
-    "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
+    "cdeust/cortex",
+    "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",
     "cloudartisan/cloudartisan.github.io",
     "cmake-wheel/cmeel",
@@ -40,6 +43,7 @@
     "dreamiurg/claude-mountaineering-skills",
     "facebookresearch/mosaic",
     "googleapis/python-pubsublite",
+    "GuyKh/ims-custom-component",
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "hynek/argon2-cffi-bindings",
@@ -52,6 +56,7 @@
     "kserve/community",
     "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
     "lblankl/Short-RL",
+    "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
     "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
@@ -62,15 +67,18 @@
     "nix-community/nur-update",
     "NixOS/branding",
     "optuna/optunahub",
+    "pycompression/python-isal",
     "python-graphblas/graphblas-algorithms",
+    "recap-utr/nlp-service",
+    "redhat-et/triton-dev-containers",
     "riponazad/echotracker",
     "RWKV-Vibe/rwkv_lightning",
     "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
+    "svaningelgem/logprise",
     "urschrei/pypolyline",
-    "w1ndys/ex-cure-skill",
     "weaviate/agent-skills"
   ]
 }

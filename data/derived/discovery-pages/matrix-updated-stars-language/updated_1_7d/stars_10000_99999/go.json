@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 21,
-    "terms": 274
+    "components": 339,
+    "concepts": 372,
+    "observations": 372,
+    "repos": 28,
+    "terms": 372
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/casbin",
     "apernet/hysteria",
     "argoproj/argo-workflows",
     "bufbuild/buf",
+    "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
-    "containers/podman",
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
     "etcd-io/etcd",
+    "gastownhall/beads",
+    "git-lfs/git-lfs",
     "go-sql-driver/mysql",
     "goharbor/harbor",
     "grpc-ecosystem/grpc-gateway",
@@ -32,8 +34,13 @@
     "hashicorp/nomad",
     "helm/helm",
     "ipfs/kubo",
+    "navidrome/navidrome",
     "php/frankenphp",
     "pingcap/tidb",
-    "quic-go/quic-go"
+    "QuantumNous/new-api",
+    "quic-go/quic-go",
+    "rclone/rclone",
+    "redis/go-redis",
+    "weaviate/weaviate"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 12,
-    "terms": 85
+    "components": 90,
+    "concepts": 102,
+    "observations": 103,
+    "repos": 14,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "alexkohler/nakedret",
     "alexkohler/prealloc",
     "Antonboom/testifylint",
     "appbaseio/reactivesearch-api",
+    "argoproj-labs/argocd-rbac-operator",
+    "aws/amazon-ec2-spot-interrupter",
     "cloudwego/biz-demo",
     "dop251/goja_nodejs",
     "gost-dom/browser",
@@ -25,6 +26,7 @@
     "lightningnetwork/lightning-onion",
     "MicahParks/keyfunc",
     "multiformats/go-multiaddr",
-    "oceanbase/ob-operator"
+    "oceanbase/ob-operator",
+    "slinso/goTemplateBenchmark"
   ]
 }

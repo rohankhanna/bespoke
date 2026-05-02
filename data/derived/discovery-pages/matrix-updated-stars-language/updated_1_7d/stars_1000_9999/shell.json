@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 11,
-    "terms": 73
+    "components": 55,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 10,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
+    "fluxcd/flux2-kustomize-helm-example",
     "home-assistant/addons",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "pypa/manylinux",
     "rbenv/ruby-build",
-    "rocker-org/rocker",
     "ROCm/ROCm",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build"

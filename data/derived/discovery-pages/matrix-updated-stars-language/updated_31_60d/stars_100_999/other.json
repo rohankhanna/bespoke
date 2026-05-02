@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 520,
-    "concepts": 360,
-    "observations": 363,
-    "repos": 91,
-    "terms": 360
+    "components": 592,
+    "concepts": 424,
+    "observations": 428,
+    "repos": 103,
+    "terms": 424
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "actboy168/json.lua",
+    "AgentTorch/AgentTorch",
     "agrafix/elm-bridge",
     "akabe/ocaml-jupyter",
+    "ankane/mailkick",
     "ankane/vega-ruby",
-    "astral-sh/uv-docker-example",
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws/homebrew-tap",
@@ -32,6 +33,8 @@
     "bhauman/rebel-readline",
     "BKWLD/laravel-pug",
     "caddyserver/caddy-docker",
+    "caro401/royal-velvet",
+    "cbl-dart/cbl-dart",
     "ChenyunWu/PhraseCutDataset",
     "chep/copilot-chat.el",
     "chomosuke/typst-preview.nvim",
@@ -42,6 +45,7 @@
     "clojure/tools.analyzer.jvm",
     "cpp-pm/hunter",
     "creativescala/doodle",
+    "csstools/normalize.css",
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",
@@ -57,15 +61,22 @@
     "dwyl/phoenix-todo-list-tutorial",
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
+    "ericmj/decimal",
     "ethereum/builder-specs",
+    "fredrikekre/Literate.jl",
     "fsharp/fslang-design",
-    "google/CommonLoopUtils",
+    "getsentry/sentry-clj",
+    "google/protobuf.dart",
     "IAPark/tiktoken_ruby",
     "iftheshoefritz/solargraph-rails",
     "IST-DASLab/Quartet",
+    "JuliaDebug/JuliaInterpreter.jl",
+    "JuliaLogging/LoggingExtras.jl",
     "JunoLab/Weave.jl",
     "kendryte/nncase",
     "KhronosGroup/EGL-Registry",
+    "kowainik/summoner",
+    "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
     "lambdalisue/vim-nerdfont",
     "lassik/emacs-format-all-the-code",
@@ -79,7 +90,6 @@
     "milvus-io/milvus-sdk-csharp",
     "mirage/mirage-www",
     "moyangzhan/langchain4j-aideepin-admin",
-    "NimblePros/eShopOnWeb",
     "ocaml-community/utop",
     "ocurrent/ocaml-ci",
     "ocurrent/ocurrent",
@@ -95,6 +105,7 @@
     "semver/semver.org",
     "sol/hpack",
     "stellar/soroban-examples",
+    "SymbolicML/DynamicExpressions.jl",
     "tanvirtin/vgit.nvim",
     "tarides/dune-release",
     "tc39/proposal-source-phase-imports",
@@ -104,6 +115,7 @@
     "unxsist/jet-pilot",
     "vlaaad/reveal",
     "w3c/navigation-timing",
-    "WebAssembly/esm-integration"
+    "WebAssembly/esm-integration",
+    "whatyouhide/stream_data"
   ]
 }

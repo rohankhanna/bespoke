@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 23,
     "observations": 23,
-    "repos": 14,
+    "repos": 16,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
@@ -26,7 +26,9 @@
     "googlefonts/emoji-metadata",
     "grpc/grpc-community",
     "ithiria894/awesome-claude-code-hooks",
+    "Lynxe-public/Lynxe-public-prompts",
     "marko-js/examples",
-    "opencontainers/tob"
+    "opencontainers/tob",
+    "operator-framework/community"
   ]
 }

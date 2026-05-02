@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 975,
-    "concepts": 968,
-    "observations": 969,
-    "repos": 116,
-    "terms": 960
+    "components": 981,
+    "concepts": 956,
+    "observations": 957,
+    "repos": 114,
+    "terms": 949
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -32,7 +32,6 @@
     "clice-io/clice",
     "CLIUtils/CLI11",
     "cloudflare/workerd",
-    "containers/crun",
     "contour-terminal/contour",
     "DanBloomberg/leptonica",
     "danmar/cppcheck",
@@ -61,7 +60,6 @@
     "HypoPG/hypopg",
     "ibireme/yyjson",
     "infiniflow/infinity",
-    "inikep/lzbench",
     "intel/compute-runtime",
     "jarro2783/cxxopts",
     "jbeder/yaml-cpp",
@@ -70,6 +68,7 @@
     "KhronosGroup/Vulkan-Headers",
     "KhronosGroup/Vulkan-Samples",
     "Kitware/CMake",
+    "kvcache-ai/Mooncake",
     "LeelaChessZero/lc0",
     "liballeg/allegro5",
     "libarchive/libarchive",
@@ -94,7 +93,6 @@
     "mitsuba-renderer/mitsuba3",
     "Moddable-OpenSource/moddable",
     "netblue30/firejail",
-    "Novum/vkQuake",
     "NVIDIA/cccl",
     "NVIDIA/cutlass",
     "NVIDIA/MatX",

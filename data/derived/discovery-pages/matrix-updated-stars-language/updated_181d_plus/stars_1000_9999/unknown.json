@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 79,
-    "terms": 184
+    "concepts": 194,
+    "observations": 194,
+    "repos": 81,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -29,6 +29,7 @@
     "aws-cloudformation/cloudformation-coverage-roadmap",
     "aws-samples/aws-serverless-airline-booking",
     "bincode-org/bincode",
+    "bnb-chain/whitepaper",
     "callbag/callbag",
     "carlosperate/awesome-pyproject",
     "chenking2020/FindTheChatGPTer",
@@ -83,6 +84,7 @@
     "sporto/awesome-elm",
     "styfle/awesome-online-ide",
     "styled-components/awesome-styled-components",
+    "taichi-dev/difftaichi",
     "tc39/proposal-decorators",
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",

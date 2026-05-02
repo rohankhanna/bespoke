@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 13,
-    "terms": 49
+    "components": 47,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 11,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "apache/ignite-extensions",
     "confluentinc/common",
     "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
-    "GoogleCloudPlatform/opentelemetry-operations-java",
-    "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
-    "mukel/gemma4.java",
+    "jpmml/jpmml-r",
+    "opensim-org/opensim-gui",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe"
   ]

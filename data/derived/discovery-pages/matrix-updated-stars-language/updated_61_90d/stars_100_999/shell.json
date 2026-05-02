@@ -12,16 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
     "apollographql/supergraph-demo",
     "asdf-vm/asdf-nodejs",
-    "bluzername/claude-code-terminal-title",
     "docker-library/buildpack-deps",
     "get-gah/gah",
     "helm/kind-action",
+    "nico2sh/semtag",
     "nodejs/unofficial-builds",
     "omerxx/tmux-floax",
     "tensorflow/build"

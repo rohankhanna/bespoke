@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 339,
-    "concepts": 285,
-    "observations": 287,
-    "repos": 120,
-    "terms": 280
+    "components": 344,
+    "concepts": 291,
+    "observations": 293,
+    "repos": 125,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -58,6 +58,7 @@
     "ddulesov/clickhouse_driver",
     "dermesser/integer-encoding-rs",
     "diem/diem-devtools",
+    "digama0/frat",
     "domoritz/arrow-wasm",
     "dskkato/rjo",
     "dymat/rwkv-burn",
@@ -97,6 +98,7 @@
     "lita-xyz/valida-vm",
     "markdown-it-rust/markdown-it-plugins.rs",
     "matklad/djot-rs",
+    "matklad/xflags",
     "matter-labs/pairing",
     "monoio-rs/local-sync",
     "monoio-rs/monoio-codec",
@@ -105,6 +107,7 @@
     "nickspring/charset-normalizer-rs",
     "nlewo/hydra-cli",
     "nlordell/solabi-rs",
+    "not-fl3/quad-net",
     "nuxy/no-ai-badge",
     "op-rs/maili",
     "optozorax/quad-storage",
@@ -125,10 +128,12 @@
     "rust3ds/pthread-3ds",
     "SabakiHQ/deadstones",
     "sayanarijit/jf",
+    "softprops/envy-store",
     "sonhal/wasm-oauth-filter",
     "stainless-steel/md5",
     "tari-project/randomx-rs",
     "tensorchord/pg_tokenizer.rs",
+    "thomcc/index_vec",
     "udoprog/codeviz",
     "UnstoppableSwap/wallet",
     "vladkens/badges",

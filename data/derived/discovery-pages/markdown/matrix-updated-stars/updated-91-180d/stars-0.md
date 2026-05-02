@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-01T10:43:36.497216+00:00`
+Generated at: `2026-05-02T05:25:58.258401+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 42
-- terms: 50
-- components: 177
-- concepts: 50
-- observations: 50
+- repos: 46
+- terms: 61
+- components: 213
+- concepts: 61
+- observations: 61
 
 ## Static behavior
 
@@ -27,17 +27,21 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sarlinpe/pybind11-stubgen](https://github.com/sarlinpe/pybind11-stubgen) | 0 | 2026-01-23T05:50:43Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [jackielii/qmk_firmware](https://github.com/jackielii/qmk_firmware) | 0 | 2026-01-20T17:01:32Z | Unknown | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
 | [DiligentGraphics/glslang](https://github.com/DiligentGraphics/glslang) | 0 | 2026-01-19T19:39:35Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [DiligentGraphics/googletest](https://github.com/DiligentGraphics/googletest) | 0 | 2026-01-19T04:19:47Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [all-the-noises/data](https://github.com/all-the-noises/data) | 0 | 2026-01-19T00:32:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Keats/os_info](https://github.com/Keats/os_info) | 0 | 2026-01-16T13:35:23Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [wintercg/fetch](https://github.com/wintercg/fetch) | 0 | 2026-01-13T14:25:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Mountchicken/Mountchicken](https://github.com/Mountchicken/Mountchicken) | 0 | 2026-01-13T05:05:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Deploy](https://github.com/danielrosehill/Agent-Deploy) | 0 | 2026-01-09T12:59:56Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [prestodb/presto-dev](https://github.com/prestodb/presto-dev) | 0 | 2026-01-06T17:27:12Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/AI-Sysadmin](https://github.com/danielrosehill/AI-Sysadmin) | 0 | 2025-12-26T15:30:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -60,13 +64,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [espressosystems/espresso-systems-common](https://github.com/EspressoSystems/espresso-systems-common) | 0 | 2025-11-21T08:07:23Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [flageval-baai/LRM-Eval](https://github.com/flageval-baai/LRM-Eval) | 0 | 2025-11-20T02:29:31Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [faradayio/compose_yml](https://github.com/faradayio/compose_yml) | 0 | 2025-11-11T00:03:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [forcedotcom/change-case-management](https://github.com/forcedotcom/change-case-management) | 0 | 2025-11-10T11:28:14Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -74,17 +78,21 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sarlinpe/pybind11-stubgen](https://github.com/sarlinpe/pybind11-stubgen) | 0 | 2026-01-23T05:50:43Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [jackielii/qmk_firmware](https://github.com/jackielii/qmk_firmware) | 0 | 2026-01-20T17:01:32Z | Unknown | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [aldernero/spider](https://github.com/aldernero/spider) | 0 | 2026-01-20T03:37:43Z | Go | Library | 0 | 0 | 0 | 0 |
 | [DiligentGraphics/glslang](https://github.com/DiligentGraphics/glslang) | 0 | 2026-01-19T19:39:35Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [DiligentGraphics/googletest](https://github.com/DiligentGraphics/googletest) | 0 | 2026-01-19T04:19:47Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [all-the-noises/data](https://github.com/all-the-noises/data) | 0 | 2026-01-19T00:32:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Keats/os_info](https://github.com/Keats/os_info) | 0 | 2026-01-16T13:35:23Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [wintercg/fetch](https://github.com/wintercg/fetch) | 0 | 2026-01-13T14:25:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Mountchicken/Mountchicken](https://github.com/Mountchicken/Mountchicken) | 0 | 2026-01-13T05:05:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Deploy](https://github.com/danielrosehill/Agent-Deploy) | 0 | 2026-01-09T12:59:56Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [prestodb/presto-dev](https://github.com/prestodb/presto-dev) | 0 | 2026-01-06T17:27:12Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/AI-Sysadmin](https://github.com/danielrosehill/AI-Sysadmin) | 0 | 2025-12-26T15:30:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Data-Projects-Index](https://github.com/danielrosehill/Data-Projects-Index) | 0 | 2025-12-25T17:16:39Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [appscodelabs/liche](https://github.com/appscodelabs/liche) | 0 | 2025-12-25T06:55:19Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -107,10 +115,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [espressosystems/espresso-systems-common](https://github.com/EspressoSystems/espresso-systems-common) | 0 | 2025-11-21T08:07:23Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [flageval-baai/LRM-Eval](https://github.com/flageval-baai/LRM-Eval) | 0 | 2025-11-20T02:29:31Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [faradayio/compose_yml](https://github.com/faradayio/compose_yml) | 0 | 2025-11-11T00:03:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [forcedotcom/change-case-management](https://github.com/forcedotcom/change-case-management) | 0 | 2025-11-10T11:28:14Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |

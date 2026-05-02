@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 193,
-    "observations": 196,
-    "repos": 45,
-    "terms": 191
+    "components": 197,
+    "concepts": 207,
+    "observations": 210,
+    "repos": 47,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -42,9 +42,11 @@
     "google-research/deduplicate-text-datasets",
     "hecrj/coffee",
     "http-rs/tide",
+    "jameslittle230/stork",
     "japaric/xargo",
     "johnthagen/min-sized-rust",
     "jrmuizel/raqote",
+    "koute/cargo-web",
     "koute/stdweb",
     "lnx-search/lnx",
     "mgdm/htmlq",

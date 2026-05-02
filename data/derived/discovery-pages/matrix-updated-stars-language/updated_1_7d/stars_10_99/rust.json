@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 25,
-    "terms": 126
+    "components": 161,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 23,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apollographql/federation-rs",
     "arkworks-rs/std",
+    "astral-sh/pubgrub",
     "bourumir-wyngs/serde-yaml-bw",
     "davidhozic/mujoco-rs",
-    "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
-    "hermit-os/loader",
+    "heroku/buildpacks-dotnet",
+    "heroku/buildpacks-go",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
-    "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
-    "rozbb/rust-hpke",
+    "Ralith/lahar",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "typst/typst-assets",
-    "urschrei/rdp",
-    "vaporif/parry-guard"
+    "urschrei/rdp"
   ]
 }

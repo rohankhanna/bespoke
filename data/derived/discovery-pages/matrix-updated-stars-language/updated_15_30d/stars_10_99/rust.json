@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 20,
-    "terms": 90
+    "components": 171,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 24,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
+    "andelf/picc",
     "antonWetzel/prettypst",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
@@ -23,16 +24,19 @@
     "crate-ci/imperative",
     "google/safe-mmio",
     "hagan/claudia-statusline",
+    "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
     "Kimahriman/hdfs-native",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "messense/py-promql-parser",
-    "neysofu/reltester",
     "open-telemetry/opentelemetry-rust-contrib",
+    "phiat/claude-esp-rs",
     "psmux/omp-manager",
     "quininer/x11-clipboard",
-    "tianrking/weixin-agent-rs"
+    "sophus-vision/sophus-rs",
+    "tianrking/weixin-agent-rs",
+    "tracel-ai/burn-bench"
   ]
 }

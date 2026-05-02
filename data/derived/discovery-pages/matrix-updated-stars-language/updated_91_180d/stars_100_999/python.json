@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 491,
-    "observations": 494,
-    "repos": 123,
-    "terms": 487
+    "components": 299,
+    "concepts": 531,
+    "observations": 534,
+    "repos": 130,
+    "terms": 526
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -36,6 +36,7 @@
     "axon-rl/gem",
     "Azure-Samples/ai-rag-chat-evaluator",
     "Azure/MS-AMP",
+    "baaivision/Uni3D",
     "behave/behave-django",
     "belambert/edit-distance",
     "bigcode-project/bigcodebench",
@@ -60,9 +61,12 @@
     "fonttools/fontbakery",
     "FoundationVision/Liquid",
     "GewelsJI/VPS",
+    "githubharald/CTCDecoder",
     "googlefonts/fontmake",
     "gristlabs/asttokens",
     "Gumpest/SparseVLMs",
+    "hako-mikan/sd-webui-supermerger",
+    "haoxiangsnr/spiking-fullsubnet",
     "hkchengrex/CascadePSP",
     "hluaguo/learn-faster-kit",
     "httplib2/httplib2",
@@ -85,8 +89,10 @@
     "madebyollin/taesd",
     "marin-community/haliax",
     "marin-community/levanter",
+    "mariusvniekerk/condax",
     "mcfletch/pyopengl",
     "microsoft/ANCE",
+    "microsoft/langchain-for-beginners",
     "microsoft/Samba",
     "mit-han-lab/radial-attention",
     "multi-swe-bench/multi-swe-bench",
@@ -122,6 +128,7 @@
     "theupdateframework/specification",
     "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",
+    "v-iashin/video_features",
     "virtuald/pyhcl",
     "w3c/trace-context",
     "walles/px",

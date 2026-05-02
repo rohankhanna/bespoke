@@ -1,22 +1,25 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 8,
-    "terms": 84
+    "components": 340,
+    "concepts": 136,
+    "observations": 138,
+    "repos": 11,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "anomalyco/opencode",
     "axios/axios",
+    "excalidraw/excalidraw",
+    "f/prompts.chat",
     "fatedier/frp",
     "Genymobile/scrcpy",
+    "huggingface/transformers",
     "microsoft/generative-ai-for-beginners",
     "ohmyzsh/ohmyzsh",
     "twbs/bootstrap",

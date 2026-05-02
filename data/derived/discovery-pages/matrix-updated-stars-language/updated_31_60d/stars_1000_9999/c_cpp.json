@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 231,
-    "observations": 232,
-    "repos": 47,
-    "terms": 229
+    "components": 180,
+    "concepts": 247,
+    "observations": 247,
+    "repos": 48,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
@@ -27,16 +27,15 @@
     "coin-or/Ipopt",
     "containers/bubblewrap",
     "CVCUDA/CV-CUDA",
-    "eradman/entr",
     "go-gl/gl",
     "google/double-conversion",
     "google/snappy",
     "gperftools/gperftools",
-    "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "icecc/icecream",
     "ioquake/ioq3",
     "leethomason/tinyxml2",
     "lieff/minimp3",
+    "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
     "madler/zlib",
     "microsoft/GSL",
@@ -46,7 +45,9 @@
     "nmslib/hnswlib",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
+    "olikraus/u8g2",
     "onnx/onnx-tensorrt",
+    "pisa-engine/pisa",
     "PoseLib/PoseLib",
     "redis/hiredis",
     "romkatv/gitstatus",

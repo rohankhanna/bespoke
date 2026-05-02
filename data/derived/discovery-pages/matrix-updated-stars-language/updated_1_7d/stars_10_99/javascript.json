@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 59,
-    "observations": 60,
-    "repos": 17,
-    "terms": 59
+    "components": 235,
+    "concepts": 71,
+    "observations": 73,
+    "repos": 16,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
+    "coasys/ad4m",
     "Eonic/ProteanCMS",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
+    "hudochenkov/postcss-styled-syntax",
     "j9t/obsohtml",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
-    "oclif/oclif.github.io",
     "octokit/create-octokit-project.js",
-    "r-lyeh/gamebook",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills"

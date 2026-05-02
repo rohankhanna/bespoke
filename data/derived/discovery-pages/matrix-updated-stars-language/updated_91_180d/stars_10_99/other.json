@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 187,
-    "observations": 188,
-    "repos": 74,
-    "terms": 186
+    "components": 242,
+    "concepts": 212,
+    "observations": 213,
+    "repos": 78,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -32,6 +32,7 @@
     "ayrat555/cargo-mode",
     "bhftbootcamp/YYJSON.jl",
     "bitbeans/minisign-net",
+    "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "Cle2ment/CherryStudio_themes",
     "cleanlab/cleanvision-examples",
@@ -69,6 +70,7 @@
     "nikitabobko/brew-install-path",
     "NorfairKing/feedback",
     "opencontainers/oci-conformance",
+    "opensim-org/opensim-models",
     "pagedjs/pagedjs-cli",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
@@ -78,6 +80,7 @@
     "rocker-org/binder",
     "RTBHOUSE/tmux-picker",
     "sbcgua/abap-string-map",
+    "SciML/SciMLTutorialsOutput",
     "status-im/nim-json-serialization",
     "status-im/nim-nat-traversal",
     "status-im/nim-toml-serialization",
@@ -87,6 +90,7 @@
     "travis-ci/travis-scheduler",
     "viafintech/gcra-ruby",
     "webdataset/WebDataset.jl",
-    "XR-Robotics/XRoboToolkit-Unity-Client"
+    "XR-Robotics/XRoboToolkit-Unity-Client",
+    "Xuyuanp/yanil"
   ]
 }

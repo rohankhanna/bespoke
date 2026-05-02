@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 18,
-    "terms": 65
+    "components": 212,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 24,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "ably-labs/realtime-multiplayer-space-invaders",
@@ -22,11 +22,17 @@
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
     "csstree/stylelint-validator",
+    "dart-lang/site-shared",
     "eemeli/prettier-plugin-properties",
+    "gatsbyjs/gatsby-starter-minimal",
     "haskell-actions/run-fourmolu",
     "hipster-labs/jhipster-daily-builds",
+    "hudochenkov/stylelint-config-hudochenkov",
     "Jack-Works/react-refresh-transformer",
     "kddnewton/prettier-plugin-ini",
+    "Level/browser-level",
+    "Level/memory-level",
+    "neverendingqs/serverless-dotenv-example",
     "nodejs/email",
     "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",

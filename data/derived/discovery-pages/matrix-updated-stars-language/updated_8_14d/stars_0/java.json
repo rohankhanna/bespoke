@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 2,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "repo_ids": [
+    "mukel/gptoss.java",
+    "mukel/nemotron3.java"
+  ]
+}

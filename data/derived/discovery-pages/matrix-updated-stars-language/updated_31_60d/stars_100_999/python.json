@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 349,
-    "observations": 351,
-    "repos": 79,
-    "terms": 351
+    "components": 281,
+    "concepts": 420,
+    "observations": 422,
+    "repos": 88,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "AGI-Arena/MARS",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
+    "akoumjian/datefinder",
+    "alibaba/TinyNeuralNetwork",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amaranth-lang/amaranth-boards",
@@ -33,8 +35,13 @@
     "clearml/clearml-serving",
     "dask/fastparquet",
     "datasets/country-codes",
+    "ddh0/easy-llama",
     "facebookincubator/ptr",
+    "facebookresearch/CodeGen",
+    "gmberton/CosPlace",
+    "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/MegaLoc",
+    "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
     "googleapis/python-storage",
     "HazyResearch/zoology",
@@ -46,6 +53,7 @@
     "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/CLIP_benchmark",
     "laixintao/tokei-pie",
+    "langfengQ/DrMAS",
     "lartpang/PySODMetrics",
     "ldayton/dippy",
     "lessw2020/Ranger21",
@@ -86,6 +94,7 @@
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
     "thu-ml/DiT-Extrapolation",
+    "TorchDR/TorchDR",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "WujiangXu/A-mem",

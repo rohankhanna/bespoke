@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
+    "components": 75,
     "concepts": 6,
     "observations": 6,
-    "repos": 8,
-    "terms": 7
+    "repos": 7,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",
     "i18next/i18next-subliminal",
     "redductive/securepixel",
-    "saidudz/chat-ai",
     "similar-colpoxerosis201/codex-wechat",
     "tornikepe/ai-chatbot"
   ]

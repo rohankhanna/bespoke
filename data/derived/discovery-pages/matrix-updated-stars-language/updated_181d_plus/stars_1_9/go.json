@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 42,
-    "terms": 81
+    "components": 130,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 45,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
     "akhettar/gin-jwt-cognito",
     "alexellis/discord-updater",
+    "amanbolat/zederr",
     "antlabs/pulse",
     "antlabs/quickws-example",
     "apache/casbin-fasthttp-auth",
@@ -46,6 +47,7 @@
     "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
     "lesismal/arpcex",
+    "MicahParks/jcp",
     "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",
@@ -55,6 +57,7 @@
     "qri-io/qfs",
     "rpcxio/rpcx-consul",
     "sourcegraph/godockerize",
-    "tidwall/gjson-benchmarks"
+    "tidwall/gjson-benchmarks",
+    "usbarmory/armory-drive-log"
   ]
 }

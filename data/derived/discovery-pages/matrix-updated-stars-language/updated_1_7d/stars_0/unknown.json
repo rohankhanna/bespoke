@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 8,
-    "terms": 8
+    "components": 7,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 13,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "danielrosehill/AI-Safety-Projects-Index",
+    "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Claude-ADB-Ops-Plugin",
+    "danielrosehill/Claude-AI-Model-Research-Plugin",
+    "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
+    "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "hermit-os/.github",
+    "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 95,
     "concepts": 112,
     "observations": 113,
-    "repos": 33,
+    "repos": 36,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
+    "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "autokitteh/kittehub",
@@ -31,6 +32,7 @@
     "fla-org/flash-bidirectional-linear-attention",
     "galaxyproject/tools-devteam",
     "googlefonts/lang",
+    "huggingface/image_gen_aux",
     "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
     "IQTLabs/snowglobe",
@@ -38,6 +40,7 @@
     "jhogsett/VFIformer-WebUI",
     "Lizw14/Super-CLEVR",
     "mohammadtavakoli78/beam",
+    "Owen-Liuyuxuan/ros2_vision_inference",
     "shawn0728/ARES",
     "SLDGroup/LoMix",
     "TungChintao/SkiLa",

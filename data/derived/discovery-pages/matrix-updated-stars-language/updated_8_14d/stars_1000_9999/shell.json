@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 179,
-    "observations": 181,
-    "repos": 26,
+    "components": 135,
+    "concepts": 183,
+    "observations": 185,
+    "repos": 27,
     "terms": 173
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -36,7 +36,8 @@
     "nix-community/nix-direnv",
     "nodenv/nodenv",
     "pacstall/pacstall",
-    "pyenv/pyenv-virtualenv",
+    "pypa/manylinux",
+    "rocker-org/rocker",
     "rvm/rvm",
     "void-linux/void-packages",
     "zsh-users/zsh-completions"

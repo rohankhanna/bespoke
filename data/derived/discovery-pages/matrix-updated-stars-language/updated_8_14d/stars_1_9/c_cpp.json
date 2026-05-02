@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 4,
     "observations": 4,
-    "repos": 5,
+    "repos": 6,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "DavidKinder/inform",
     "gbrobro119-star/darksword-kexploit",
     "lonewolf-jp/convopeq",
-    "openssh/openssh-portable-selfhosted"
+    "openssh/openssh-portable-selfhosted",
+    "ROCm/rocJPEG"
   ]
 }

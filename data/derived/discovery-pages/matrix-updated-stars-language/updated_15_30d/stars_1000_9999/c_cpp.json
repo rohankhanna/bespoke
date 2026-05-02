@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 303,
-    "observations": 306,
-    "repos": 48,
-    "terms": 302
+    "components": 257,
+    "concepts": 342,
+    "observations": 345,
+    "repos": 52,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "Ableton/link",
     "ada-url/ada",
     "AFLplusplus/AFLplusplus",
     "alibaba/havenask",
     "asg017/sqlite-vec",
     "boazsegev/facil.io",
+    "ceres-solver/ceres-solver",
     "CNugteren/CLBlast",
+    "containers/crun",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
     "ericniebler/range-v3",
@@ -29,6 +32,7 @@
     "google/honggfuzz",
     "google/woff2",
     "h2o/picohttpparser",
+    "inikep/lzbench",
     "intel/isa-l",
     "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",
@@ -43,9 +47,9 @@
     "nigels-com/glew",
     "nihui/opencv-mobile",
     "nihui/waifu2x-ncnn-vulkan",
+    "Novum/vkQuake",
     "NVIDIA/libnvidia-container",
     "OHF-Voice/piper1-gpl",
-    "olikraus/u8g2",
     "oneapi-src/oneAPI-samples",
     "posva/catimg",
     "risc0/risc0",

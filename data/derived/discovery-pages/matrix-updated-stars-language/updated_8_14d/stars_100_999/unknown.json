@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 57,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 28,
-    "terms": 105
+    "concepts": 93,
+    "observations": 94,
+    "repos": 26,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
-    "actions/partner-runner-images",
-    "ailev/fpf",
+    "adoptium/temurin21-binaries",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
     "bitrise-io/bitrise-steplib",
@@ -34,7 +33,6 @@
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
     "mason-org/mason-registry",
-    "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",

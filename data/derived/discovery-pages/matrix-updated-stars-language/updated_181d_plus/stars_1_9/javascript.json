@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1054,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 75,
-    "terms": 151
+    "components": 1079,
+    "concepts": 152,
+    "observations": 153,
+    "repos": 81,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "1000ch/atom-csso",
     "14nrv/serverless-lambda-stripe",
@@ -33,6 +33,7 @@
     "boxworld18/OpenWebAgent",
     "broccolijs/broccoli-multifilter",
     "broccolijs/fs-merger",
+    "caoxiemeihao/blog",
     "cb1kenobi/hook-emitter",
     "ccdanpian/current-datetime",
     "celo-org/SocialConnect-ReactNative-Demo",
@@ -53,9 +54,14 @@
     "fwcd/atom-ide-kotlin",
     "gabrielschulhof/iotivity-node",
     "gajus/conventional-changelog-lint-config-canonical",
+    "hardfist/purge-tailwind-plugin",
     "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
     "hchiam/anonymous-input",
     "hchiam/generator-hchiam-learning",
+    "hchiam/learning-dependency-cruiser",
+    "hchiam/learning-nextjs",
+    "hchiam/learning-reactjs",
+    "hchiam/learning-sapper",
     "hchiam/learning-something",
     "hchiam/learning-tauri",
     "hchiam/trysterollup",

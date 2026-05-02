@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 10,
-    "terms": 77
+    "components": 71,
+    "concepts": 88,
+    "observations": 89,
+    "repos": 12,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
@@ -20,9 +20,11 @@
     "ComposioHQ/awesome-claude-skills",
     "FoundationAgents/OpenManus",
     "Jiayi-Pan/TinyZero",
+    "KlingAIResearch/LivePortrait",
     "lucidrains/denoising-diffusion-pytorch",
     "modin-project/modin",
     "tqdm/tqdm",
-    "unifyai/ivy"
+    "unifyai/ivy",
+    "zylon-ai/private-gpt"
   ]
 }

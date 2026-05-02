@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 20,
     "observations": 20,
-    "repos": 9,
+    "repos": 10,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "ai-bot-pro/achatbot-go",
@@ -22,6 +22,7 @@
     "karpeleslab/tpl",
     "Layr-Labs/optimism",
     "redis/go-redis-entraid",
-    "tats-u/goldmark-cjk-friendly"
+    "tats-u/goldmark-cjk-friendly",
+    "tmikus/ahocorasick_rs"
   ]
 }

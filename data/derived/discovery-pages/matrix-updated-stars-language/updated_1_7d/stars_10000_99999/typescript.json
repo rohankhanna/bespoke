@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1959,
-    "concepts": 534,
-    "observations": 535,
-    "repos": 44,
-    "terms": 534
+    "components": 2551,
+    "concepts": 617,
+    "observations": 621,
+    "repos": 50,
+    "terms": 615
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
-    "ajv-validator/ajv",
+    "angular/angular-cli",
+    "ant-design/ant-design",
     "apache/echarts",
     "apollographql/apollo-server",
     "appium/appium",
+    "appwrite/appwrite",
     "aws/aws-cdk",
     "better-auth/better-auth",
     "bokeh/bokeh",
@@ -27,7 +29,6 @@
     "cheeriojs/cheerio",
     "coder/code-server",
     "colinhacks/zod",
-    "discordjs/discord.js",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
     "fastapi/full-stack-fastapi-template",
@@ -39,9 +40,11 @@
     "jquense/yup",
     "Kong/insomnia",
     "kysely-org/kysely",
+    "mapbox/mapbox-gl-js",
     "marmelab/react-admin",
     "mermaid-js/mermaid",
     "mongodb/node-mongodb-native",
+    "nuxt/nuxt",
     "oblador/react-native-vector-icons",
     "openobserve/openobserve",
     "paulmillr/chokidar",
@@ -49,14 +52,17 @@
     "pmndrs/zustand",
     "postcss/postcss",
     "prisma/prisma",
+    "privatenumber/tsx",
+    "puppeteer/puppeteer",
+    "reduxjs/redux-devtools",
     "remix-run/react-router",
+    "remix-run/remix",
     "scalar/scalar",
-    "sindresorhus/type-fest",
+    "storybookjs/storybook",
     "styled-components/styled-components",
     "unocss/unocss",
     "vercel-labs/skills",
     "vitest-dev/vitest",
-    "web-infra-dev/midscene",
-    "wojtekmaj/react-pdf"
+    "web-infra-dev/midscene"
   ]
 }

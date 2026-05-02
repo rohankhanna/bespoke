@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 174,
-    "observations": 175,
-    "repos": 59,
-    "terms": 173
+    "components": 235,
+    "concepts": 199,
+    "observations": 200,
+    "repos": 63,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -22,7 +22,6 @@
     "ably-labs/realtime-quiz-framework",
     "adinhodovic/argo-cd-mixin",
     "am-kantox/md",
-    "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
@@ -37,6 +36,7 @@
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
+    "citation-file-format/ruby-cff",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
@@ -50,13 +50,16 @@
     "dwyl/mvp",
     "GaloisInc/cryptol-specs",
     "IQVIA-ML/LightGBM.jl",
-    "jakewvincent/texmagic.nvim",
     "jelly-beam/rebar3_ex_doc",
     "jfmengels/elm-review-unused",
+    "JuliaCI/PkgEval.jl",
+    "JuliaGtk/Gtk4.jl",
     "JuliaPackaging/PkgServer.jl",
     "kalbasit/nur-packages",
     "larshp/abapGitServer",
     "liquidev/lintplus",
+    "lostromb/concentus.oggfile",
+    "malewicz1337/oil-git.nvim",
     "nicholasjng/nanobind-bazel",
     "notaryproject/notaryproject.dev",
     "notomo/vusted",
@@ -64,12 +67,13 @@
     "ocurrent/ocurrent-deployer",
     "ocurrent/opam-health-check",
     "opencontainers/.github",
-    "PacktPublishing/Natural-Language-Processing-with-Flair",
     "php/doc-it",
     "revfactory/claude-code-harness",
     "rojo-rbx/rojo.space",
     "rubygems/release-gem",
     "rust-lang/crates-build-env",
+    "SchwarzIT/spectral-intellij-plugin",
+    "tarides/ocaml-eglot",
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
     "w3c/element-timing"

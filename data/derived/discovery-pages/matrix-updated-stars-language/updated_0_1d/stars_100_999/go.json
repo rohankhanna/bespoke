@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 4,
-    "terms": 30
+    "components": 84,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 6,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Azure/karpenter-provider-azure",
-    "gofiber/contrib",
-    "kubernetes-sigs/lws",
-    "suzuki-shunsuke/pinact"
+    "pulumi/pulumi-aws",
+    "pulumi/pulumi-azure",
+    "pulumi/pulumi-gcp",
+    "suzuki-shunsuke/ghalint",
+    "suzuki-shunsuke/ghtkn"
   ]
 }

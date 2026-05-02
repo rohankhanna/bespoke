@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 9,
-    "terms": 63
+    "components": 15,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 11,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "antonbabenko/terraform-skill",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
+    "estree/estree",
     "facebookresearch/moco",
+    "obsidianmd/obsidian-api",
     "orogene/orogene",
     "r-lyeh/single_file_libs",
     "sindresorhus/ponyfill",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 247,
-    "observations": 250,
-    "repos": 23,
-    "terms": 247
+    "components": 189,
+    "concepts": 175,
+    "observations": 177,
+    "repos": 17,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "activeadmin/activeadmin",
+    "activeadmin/inherited_resources",
     "all-contributors/allcontributors.org",
-    "clj-kondo/clj-kondo",
-    "dart-lang/pub",
-    "detekt/detekt",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
-    "elixir-ecto/ecto",
     "firebase/flutterfire",
+    "haskell/cabal",
     "JetBrains/intellij-platform-gradle-plugin",
-    "kurrent-io/KurrentDB",
-    "lobsters/lobsters",
-    "mdn/translated-content",
+    "JuliaAI/MLJ.jl",
+    "JuliaPy/PyCall.jl",
+    "JuliaSymbolics/Symbolics.jl",
     "microsoft/aspire",
     "nvim-neotest/neotest",
-    "ocaml/dune",
-    "ocaml/merlin",
-    "okd-project/okd",
     "psmux/psmux",
-    "Shopify/ruby-lsp",
+    "rescript-lang/rescript",
     "swiftlang/llvm-project",
-    "web-platform-tests/wpt",
-    "WebAssembly/wasi-sdk",
-    "webpack/webpack.js.org"
+    "swiftlang/swift-syntax",
+    "web-platform-tests/wpt"
   ]
 }

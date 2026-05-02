@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 293,
-    "observations": 294,
-    "repos": 24,
-    "terms": 291
+    "components": 109,
+    "concepts": 151,
+    "observations": 152,
+    "repos": 11,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
-    "Comfy-Org/ComfyUI-Manager",
-    "crewAIInc/crewAI",
-    "cvat-ai/cvat",
-    "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
-    "docling-project/docling",
-    "facefusion/facefusion",
     "fastapi/fastapi",
-    "hiyouga/LlamaFactory",
-    "huggingface/sentence-transformers",
     "jax-ml/jax",
-    "keras-team/keras",
-    "Kludex/starlette",
-    "Lightning-AI/pytorch-lightning",
+    "Lightning-AI/litgpt",
+    "mlflow/mlflow",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
-    "ostris/ai-toolkit",
-    "pipecat-ai/pipecat",
     "pydantic/pydantic",
-    "roboflow/supervision",
     "run-llama/llama_index",
-    "verl-project/verl"
+    "vega/altair"
   ]
 }

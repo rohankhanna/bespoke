@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 16,
-    "terms": 50
+    "components": 369,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 20,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
+    "apache/incubator-devlake-website",
     "automazeio/proof",
     "googleapis/google-cloud-node-core",
     "googleapis/nodejs-error-reporting",
     "gr2m/octokit-oauth-app-now-example",
+    "holochain/kangaroo-electron",
     "HoneyLuka/uBlacklist",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "klaudworks/ralph-meets-rex",
     "literalpie/storybook-framework-qwik",
     "memoryhole/jjo",
+    "nanostores/alpine",
     "SchwarzIT/api-linter-rules",
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "stx-labs/connect",
+    "TravisTheTechie/vscode-write-good",
     "trzsz/tabby-trzsz"
   ]
 }

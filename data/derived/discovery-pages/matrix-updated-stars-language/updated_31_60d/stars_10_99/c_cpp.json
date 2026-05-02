@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 25,
-    "terms": 100
+    "components": 109,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 27,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
+    "AIWintermuteAI/whispercpp",
     "aseprite/clip",
     "aseprite/observable",
     "cisco/libacvp",
@@ -25,6 +26,7 @@
     "DeanoC/tiny_imageformat",
     "edge-classic/EDGE-classic",
     "engineai-robotics/engineai_ros2_workspace",
+    "farm-ng/farm-ng-core",
     "flashlight/text",
     "gershnik/wsdd-native",
     "gozaltech/espeak-ng-sapi",

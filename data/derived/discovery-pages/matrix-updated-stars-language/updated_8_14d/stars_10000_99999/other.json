@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1048,
-    "concepts": 596,
-    "observations": 600,
-    "repos": 62,
-    "terms": 601
+    "components": 1058,
+    "concepts": 617,
+    "observations": 620,
+    "repos": 63,
+    "terms": 622
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "abpframework/abp",
     "Alamofire/Alamofire",
     "AlDanial/cloc",
     "antlr/grammars-v4",
     "apache/spark",
-    "apple/container",
+    "App-vNext/Polly",
     "AssemblyScript/assemblyscript",
     "Azure/azure-quickstart-templates",
     "composer/composer",
     "cython/cython",
     "dart-lang/sdk",
+    "datawhalechina/self-llm",
     "deepset-ai/haystack",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
@@ -51,7 +52,6 @@
     "jordansissel/fpm",
     "JuliaLang/julia",
     "jupyter/notebook",
-    "kubernetes/community",
     "llvm/llvm-project",
     "meta-llama/llama-cookbook",
     "metabase/metabase",
@@ -59,6 +59,7 @@
     "microsoft/semantic-kernel",
     "microsoft/vcpkg",
     "neovim/neovim",
+    "NielsRogge/Transformers-Tutorials",
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",
     "OAI/OpenAPI-Specification",
@@ -68,12 +69,12 @@
     "rails/rails",
     "realm/SwiftLint",
     "SaschaWillems/Vulkan",
-    "semgrep/semgrep",
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
     "swiftlang/swift-evolution",
     "tc39/ecma262",
+    "teamcapybara/capybara",
     "vim/vim",
     "winsw/winsw"
   ]

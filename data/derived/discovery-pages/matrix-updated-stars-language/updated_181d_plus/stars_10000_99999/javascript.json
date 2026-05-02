@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 911,
-    "concepts": 109,
-    "observations": 110,
-    "repos": 25,
-    "terms": 106
+    "components": 1002,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 28,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "adam-p/markdown-here",
     "adobe/brackets",
@@ -32,12 +32,15 @@
     "kriskowal/q",
     "localtunnel/localtunnel",
     "mishoo/UglifyJS",
+    "nuysoft/Mock",
+    "petkaantonov/bluebird",
     "request/request",
     "restify/node-restify",
     "ryanmcdermott/clean-code-javascript",
     "standard/standard",
     "statsd/statsd",
     "vuejs/vue-cli",
-    "yaronn/blessed-contrib"
+    "yaronn/blessed-contrib",
+    "zalmoxisus/redux-devtools-extension"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 12,
-    "terms": 83
+    "components": 300,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 15,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
+    "anolilab/unplugin-favicons",
     "dreamscached/i18next-cli-plugin-svelte",
     "ecyrbe/zodios-plugins",
     "filecoin-project/github-mgmt",
+    "haskell-actions/hlint-run",
+    "haskell-actions/hlint-setup",
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
     "multiformats/github-mgmt",
-    "oclif/plugin-commands",
     "oclif/plugin-search",
     "octokit/auth-callback.js",
-    "redhat-developer/app-services-api-guidelines"
+    "redhat-developer/app-services-api-guidelines",
+    "webdriverio/devtools"
   ]
 }

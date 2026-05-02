@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 213,
-    "observations": 213,
-    "repos": 27,
-    "terms": 211
+    "components": 260,
+    "concepts": 281,
+    "observations": 281,
+    "repos": 34,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,41 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/commons-jexl",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
+    "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
+    "aws/smithy-go",
+    "bazel-contrib/rules_jvm_external",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
-    "graalvm/graalvm-demos",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
+    "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
     "microsoft/vscode-java-test",
     "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "revelc/formatter-maven-plugin",
-    "sevntu-checkstyle/sevntu.checkstyle",
+    "SAP/SapMachine",
+    "spring-projects/spring-tools",
     "swagger-api/swagger-parser",
-    "wildfly/quickstart"
+    "ThreeTen/threetenbp",
+    "wildfly/quickstart",
+    "Xilinx/RapidWright"
   ]
 }

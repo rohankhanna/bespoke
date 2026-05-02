@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 7,
-    "terms": 54
+    "components": 79,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 8,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
     "casey/just",
     "diesel-rs/diesel",
     "eza-community/eza",
     "lsd-rs/lsd",
+    "seanmonstar/reqwest",
     "seanmonstar/warp",
     "tokio-rs/axum"
   ]

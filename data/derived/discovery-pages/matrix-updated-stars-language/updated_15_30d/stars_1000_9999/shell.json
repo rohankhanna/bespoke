@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 35,
-    "observations": 35,
+    "components": 37,
+    "concepts": 30,
+    "observations": 30,
     "repos": 12,
-    "terms": 44
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "bluesky-social/pds",
     "containers/toolbox",
@@ -20,9 +20,9 @@
     "devcontainers/templates",
     "diet103/claude-code-infrastructure-showcase",
     "frankbria/ralph-claude-code",
-    "jonmosco/kube-ps1",
     "matryer/xbar-plugins",
     "nvie/git-toolbelt",
+    "pyenv/pyenv-virtualenv",
     "spiffe/spiffe",
     "trailofbits/claude-code-config",
     "zilliztech/attu"

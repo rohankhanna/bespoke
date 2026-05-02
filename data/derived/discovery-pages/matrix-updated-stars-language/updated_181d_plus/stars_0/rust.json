@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 36,
-    "observations": 37,
-    "repos": 22,
-    "terms": 36
+    "components": 120,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 27,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "andreivasiliu/quad-net",
     "boundless-xyz/reth",
     "byron/cargo-release",
+    "CBenoit/diplomat",
     "cgisky1980/hf-hub",
     "Commit-Boost/blstrs",
     "ComunidadAylas/glsl-lang",
@@ -28,7 +30,10 @@
     "imandra-ai/tldrs",
     "lnx-search/memmap2-rs",
     "madsim-rs/getrandom",
+    "matthme/devhub-dnas",
+    "matthme/hc-zome-mere-memory",
     "mikelodder7/blstrs",
+    "msoos/cryptominisat-rs",
     "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",
     "OlivierDehaene/candle",

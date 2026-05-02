@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 16,
-    "terms": 26
+    "components": 92,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 19,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
@@ -20,7 +20,9 @@
     "Bearer/homebrew-tap",
     "bgw/bincode",
     "DataDog/go-cmp",
+    "DiligentGraphics/args",
     "DiligentGraphics/glfw",
+    "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
     "EspressoSystems/jellyfish-compat",
     "get-gah/gah-db",
@@ -28,6 +30,7 @@
     "kitknox/helix",
     "mjvolk3/dendron-template",
     "mudler/vulkan-sdk-arm",
-    "typstyle-rs/prettyless"
+    "typstyle-rs/prettyless",
+    "yoshoku/numo-liblinear"
   ]
 }

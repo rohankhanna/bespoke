@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-01T10:43:36.497216+00:00`
+Generated at: `2026-05-02T05:25:58.258401+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 113
-- components: 136
-- concepts: 113
-- observations: 114
+- repos: 8
+- terms: 82
+- components: 139
+- concepts: 83
+- observations: 84
 
 ## Static behavior
 
@@ -26,30 +26,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 15 | 16 | 15 | 15 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5689 | 2026-05-01T17:23:40Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
+| [unicode-org/icu4x](https://github.com/unicode-org/icu4x) | 1791 | 2026-05-01T17:12:50Z | Rust | CLI | 11 | 25 | 11 | 11 |
+| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-05-01T15:48:23Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T15:33:16Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [facebook/sapling](https://github.com/facebook/sapling) | 6825 | 2026-05-01T13:37:35Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2023 | 2026-05-01T11:20:41Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
+| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
 | [VOICEVOX/voicevox_core](https://github.com/VOICEVOX/voicevox_core) | 1097 | 2026-05-01T06:40:29Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2022 | 2026-05-01T05:46:38Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T04:45:16Z | Rust | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [rust-openssl/rust-openssl](https://github.com/rust-openssl/rust-openssl) | 1614 | 2026-05-01T03:24:58Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5656 | 2026-05-01T01:19:28Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [facebook/pyrefly](https://github.com/facebook/pyrefly) | 5647 | 2026-04-30T19:03:30Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
-| [delta-io/delta-rs](https://github.com/delta-io/delta-rs) | 3205 | 2026-04-30T18:38:08Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [holochain/holochain](https://github.com/holochain/holochain) | 1373 | 2026-04-30T17:41:51Z | Rust | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-04-30T15:10:08Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
-| [mozilla/uniffi-rs](https://github.com/mozilla/uniffi-rs) | 4545 | 2026-04-30T14:56:56Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 15 | 16 | 15 | 15 |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5656 | 2026-05-01T01:19:28Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [facebook/pyrefly](https://github.com/facebook/pyrefly) | 5647 | 2026-04-30T19:03:30Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
-| [mozilla/uniffi-rs](https://github.com/mozilla/uniffi-rs) | 4545 | 2026-04-30T14:56:56Z | Rust | Unknown | 2 | 0 | 2 | 2 |
-| [delta-io/delta-rs](https://github.com/delta-io/delta-rs) | 3205 | 2026-04-30T18:38:08Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2022 | 2026-05-01T05:46:38Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
-| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-04-30T15:10:08Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
-| [rust-openssl/rust-openssl](https://github.com/rust-openssl/rust-openssl) | 1614 | 2026-05-01T03:24:58Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T04:45:16Z | Rust | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [holochain/holochain](https://github.com/holochain/holochain) | 1373 | 2026-04-30T17:41:51Z | Rust | Infrastructure/tooling | 13 | 6 | 13 | 13 |
+| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
+| [facebook/sapling](https://github.com/facebook/sapling) | 6825 | 2026-05-01T13:37:35Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5689 | 2026-05-01T17:23:40Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2023 | 2026-05-01T11:20:41Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
+| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-05-01T15:48:23Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
+| [unicode-org/icu4x](https://github.com/unicode-org/icu4x) | 1791 | 2026-05-01T17:12:50Z | Rust | CLI | 11 | 25 | 11 | 11 |
+| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T15:33:16Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [VOICEVOX/voicevox_core](https://github.com/VOICEVOX/voicevox_core) | 1097 | 2026-05-01T06:40:29Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |

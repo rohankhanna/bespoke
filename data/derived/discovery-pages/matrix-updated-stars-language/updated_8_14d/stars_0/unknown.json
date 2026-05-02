@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 47,
-    "terms": 41
+    "components": 31,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 44,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "8144225309/lightning",
-    "alexcrichton/cc-rs",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
@@ -26,8 +25,6 @@
     "conda-forge/equinox-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
-    "damacol/ai-hub",
-    "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 189,
-    "observations": 192,
-    "repos": 47,
-    "terms": 189
+    "components": 309,
+    "concepts": 218,
+    "observations": 221,
+    "repos": 54,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
+    "ada-url/rust",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
+    "athre0z/color-backtrace",
     "cargo-lambda/cargo-lambda",
     "containers/aardvark-dns",
     "crate-ci/committed",
+    "criterion-rs/criterion.rs",
     "ctz/graviola",
     "dalance/ptags",
+    "denoland/deno_doc",
     "djc/tokio-retry",
     "drahnr/cargo-spellcheck",
     "dtormoen/tsk-tsk",
@@ -38,10 +42,12 @@
     "gjtorikian/commonmarker",
     "hniksic/rust-subprocess",
     "in-toto/attestation",
+    "kaj/ructe",
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
+    "kylebarron/parquet-wasm",
     "matrix-org/seshat",
-    "mitsuhiko/similar-asserts",
+    "nielsgroen/claude-tmux",
     "nix-community/lorri",
     "nixops4/nixops4",
     "proxy-wasm/proxy-wasm-rust-sdk",
@@ -59,6 +65,7 @@
     "smol-rs/async-task",
     "tauri-apps/muda",
     "tikv/jemallocator",
+    "tracel-ai/models",
     "yeslogic/allsorts",
     "zimbatm/mdsh"
   ]

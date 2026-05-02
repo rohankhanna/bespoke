@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 11,
-    "terms": 127
+    "components": 196,
+    "concepts": 199,
+    "observations": 201,
+    "repos": 17,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "apache/dubbo",
     "apache/kafka",
+    "apache/pulsar",
     "apache/rocketmq",
     "awsdocs/aws-doc-sdk-examples",
     "bumptech/glide",
     "dbeaver/dbeaver",
     "debezium/debezium",
     "elastic/elasticsearch",
+    "elastic/logstash",
     "google/gson",
+    "grpc/grpc-java",
+    "jenkinsci/jenkins",
     "langchain4j/langchain4j",
+    "languagetool-org/languagetool",
     "netty/netty",
     "oracle/graal"
   ]

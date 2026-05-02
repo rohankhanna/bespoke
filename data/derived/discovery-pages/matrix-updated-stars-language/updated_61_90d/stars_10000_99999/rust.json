@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 5,
-    "terms": 24
+    "components": 63,
+    "concepts": 35,
+    "observations": 37,
+    "repos": 6,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "astral-sh/rye",
     "bootandy/dust",
     "burntsushi/ripgrep",
     "ekzhang/bore",
-    "sharkdp/hyperfine"
+    "sharkdp/hyperfine",
+    "TabbyML/tabby"
   ]
 }

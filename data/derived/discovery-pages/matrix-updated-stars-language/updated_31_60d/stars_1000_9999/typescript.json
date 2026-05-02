@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 917,
-    "concepts": 205,
-    "observations": 205,
-    "repos": 26,
-    "terms": 228
+    "components": 1044,
+    "concepts": 236,
+    "observations": 237,
+    "repos": 33,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "actions/download-artifact",
+    "aleclarson/vite-tsconfig-paths",
     "ben-rogerson/twin.macro",
     "coaidev/coai",
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
+    "glittercowboy/taches-cc-resources",
     "gpac/mp4box.js",
     "graphql-hive/graphql-config",
     "gustavoguichard/string-ts",
@@ -30,15 +32,20 @@
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
     "markdoc/markdoc",
+    "mattpocock/ts-reset",
     "microsoft/genaiscript",
     "microsoft/tsdoc",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
+    "obsidian-community/obsidian-style-settings",
+    "peter-evans/repository-dispatch",
     "react-native-webview/react-native-webview",
     "REditorSupport/vscode-R",
     "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",
+    "unplugin/unplugin-vue-components",
+    "vercel/next-learn",
     "vercel/serve"
   ]
 }

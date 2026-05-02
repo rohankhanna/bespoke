@@ -3,7 +3,7 @@
     "components": 29,
     "concepts": 16,
     "observations": 16,
-    "repos": 20,
+    "repos": 21,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "airowe/claude-a11y-skill",
     "apollographql/.github",
@@ -25,6 +25,7 @@
     "danielrosehill/Claude-Code-Bash-Aliases",
     "hesreallyhim/inkverse-fork",
     "lionel-/biome",
+    "radian-software/contributor-guide",
     "rose-pine/.github",
     "sigstore/.github",
     "steve-todorov/oidc-debugger-action",

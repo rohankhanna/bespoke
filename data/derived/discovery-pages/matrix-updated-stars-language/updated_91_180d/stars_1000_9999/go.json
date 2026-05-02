@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 26,
-    "terms": 146
+    "components": 95,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 25,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "achannarasappa/ticker",
@@ -28,7 +28,6 @@
     "favadi/protoc-go-inject-tag",
     "gin-gonic/contrib",
     "github/git-sizer",
-    "gomodule/redigo",
     "h2non/imaginary",
     "instrumenta/kubeval",
     "jhump/protoreflect",

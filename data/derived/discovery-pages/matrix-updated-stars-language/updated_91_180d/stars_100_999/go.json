@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 23,
-    "terms": 143
+    "components": 131,
+    "concepts": 155,
+    "observations": 155,
+    "repos": 25,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-instance-selector",
     "aws/amazon-ec2-metadata-mock",
@@ -33,6 +34,7 @@
     "Masterminds/vcs",
     "mholt/archives",
     "multiformats/multiaddr",
+    "node-real/bsc-erigon",
     "phodal/coca",
     "proxy-wasm/proxy-wasm-go-sdk",
     "spacemeshos/go-spacemesh",

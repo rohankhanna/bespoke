@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4379,
-    "concepts": 703,
-    "observations": 707,
-    "repos": 93,
-    "terms": 798
+    "components": 4010,
+    "concepts": 647,
+    "observations": 650,
+    "repos": 82,
+    "terms": 708
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -24,7 +24,6 @@
     "adobe/spectrum-web-components",
     "ai-that-works/ai-that-works",
     "antfu-collective/vite-plugin-inspect",
-    "anthropics/claude-code-action",
     "apache/apisix-dashboard",
     "archestra-ai/archestra",
     "artifacthub/hub",
@@ -32,7 +31,6 @@
     "aws-actions/configure-aws-credentials",
     "Azure/azure-sdk-for-js",
     "benchmark-action/github-action-benchmark",
-    "berty/berty",
     "bluesky-social/atproto",
     "bufbuild/protobuf-es",
     "ChainSafe/lodestar",
@@ -45,11 +43,9 @@
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
     "denoland/std",
-    "devcontainers/cli",
     "ding113/claude-code-hub",
     "docker/build-push-action",
     "docker/login-action",
-    "docker/metadata-action",
     "docker/setup-buildx-action",
     "dyoshikawa/rulesync",
     "eemeli/yaml",
@@ -69,12 +65,9 @@
     "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
     "letta-ai/letta-code",
-    "liam-hq/liam",
     "libp2p/js-libp2p",
-    "liveblocks/liveblocks",
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
-    "matt1398/claude-devtools",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-js-debug",
@@ -89,14 +82,11 @@
     "owloops/claude-powerline",
     "panva/jose",
     "peter-evans/create-pull-request",
-    "piebald-ai/tweakcc",
     "prettier/prettier-vscode",
     "privatenumber/esbuild-loader",
     "react-native-community/cli",
     "redhat-developer/yaml-language-server",
     "safe-fndn/safe-smart-account",
-    "sirmalloc/ccstatusline",
-    "stripe/stripe-node",
     "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "thomasloven/lovelace-card-mod",
@@ -105,7 +95,6 @@
     "vuejs/eslint-plugin-vue",
     "vuejs/router",
     "wighawag/hardhat-deploy",
-    "withastro/starlight",
     "yarnpkg/berry"
   ]
 }

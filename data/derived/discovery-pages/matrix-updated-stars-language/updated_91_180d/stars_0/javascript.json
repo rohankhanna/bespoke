@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 6,
+    "components": 9,
     "concepts": 2,
     "observations": 2,
-    "repos": 1,
+    "repos": 2,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "danielrosehill/Model-Scout-MCP",
     "illusionfield/fourseven-scss"
   ]
 }

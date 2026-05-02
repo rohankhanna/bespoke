@@ -16,13 +16,14 @@
       "size": 3826
     }
   ],
+  "metadata_refreshed_at": "2026-05-02T05:25:04.395494+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "This linter plugin for SublimeLinter provides an interface to csstree-validator.",
     "fork": false,
-    "full_name": "csstree/SublimeLinter-contrib-csstree",
+    "full_name": "csstree/sublimelinter-contrib-csstree",
     "html_url": "https://github.com/csstree/SublimeLinter-contrib-csstree",
     "language": "Python",
     "pushed_at": "2022-09-02T23:00:58Z",

@@ -8,13 +8,14 @@
       "size": 66
     }
   ],
+  "metadata_refreshed_at": "2026-05-02T05:25:23.885481+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Media, tutorials and blog posts of DiffeqML",
     "fork": false,
-    "full_name": "DiffEqML/diffeqml-media",
+    "full_name": "diffeqml/diffeqml-media",
     "html_url": "https://github.com/DiffEqML/diffeqml-media",
     "language": null,
     "pushed_at": "2022-09-23T03:39:03Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 222,
-    "observations": 222,
-    "repos": 31,
-    "terms": 222
+    "components": 290,
+    "concepts": 256,
+    "observations": 256,
+    "repos": 35,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
     "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
+    "argoproj-labs/argocd-operator",
+    "aws-cloudformation/rain",
     "Azure/azure-dev",
     "bitrise-io/bitrise",
     "boj/redistore",
@@ -30,18 +32,20 @@
     "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "Consensys/gnark-crypto",
+    "controlplaneio-fluxcd/flux-operator",
     "fnproject/cli",
     "go-logr/zapr",
     "go-openapi/strfmt",
+    "gofiber/contrib",
     "hybridgroup/yzma",
-    "ipfs/boxo",
-    "ipfs/rainbow",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
+    "kubernetes-sigs/lws",
     "mattn/go-isatty",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "sigstore/fulcio",
     "SpecterOps/AzureHound",
+    "suzuki-shunsuke/pinact",
     "theupdateframework/go-tuf",
     "trzsz/tsshd",
     "web-infra-dev/rslint"

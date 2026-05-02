@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 733,
+    "components": 737,
     "concepts": 71,
     "observations": 71,
-    "repos": 41,
+    "repos": 42,
     "terms": 69
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -41,6 +41,7 @@
     "finehow/bingsearch-plugin",
     "iansan5653/vscode-format-python-docstrings",
     "intlify/eslint-plugin-svelte",
+    "janwilmake/oapis.npm",
     "litter-coder/midjourney-proxy-admin",
     "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
     "LuaLS/LLS-Addons-Action",

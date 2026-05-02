@@ -1,18 +1,32 @@
 {
   "counts": {
-    "components": 0,
+    "components": 10,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "repos": 15,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "karpathy/autoresearch"
+    "aitooools/aitooools.github.io",
+    "aitooools/chatgpt",
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/claude-pro",
+    "aitooools/claude-pro-hezu",
+    "aitooools/claude-pro-recharge",
+    "aitooools/gemini-pro",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "GeiserX/AgentTap"
   ]
 }

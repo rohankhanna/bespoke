@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 19,
-    "observations": 19,
+    "components": 16,
+    "concepts": 17,
+    "observations": 17,
     "repos": 14,
-    "terms": 19
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "bell-sw/osv-database",
@@ -21,12 +21,12 @@
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
     "danielrosehill/Claude-Code-Plugins",
-    "danielrosehill/Experiments-And-Evaluations-Index",
     "eslint/.github",
-    "eternahybridexchange/eterna-mcp",
     "flathub/org.gnome.eog",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "oobabooga/screenshots",
-    "scalar/starter"
+    "openwebdocs/mdn-bcd-results",
+    "scalar/starter",
+    "web-platform-tests/results-analysis-cache"
   ]
 }

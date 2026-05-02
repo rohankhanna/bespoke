@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1130,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 18,
-    "terms": 183
+    "components": 1329,
+    "concepts": 220,
+    "observations": 220,
+    "repos": 22,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ampproject/amphtml",
     "Automattic/mongoose",
@@ -20,17 +20,21 @@
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
     "huggingface/transformers.js",
+    "jsdoc/jsdoc",
     "jsdom/jsdom",
+    "lint-staged/lint-staged",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
+    "mochajs/mocha",
     "mozilla/pdf.js",
+    "mui/material-ui",
     "nodemailer/nodemailer",
     "novnc/noVNC",
+    "nwjs/nw.js",
     "plotly/plotly.js",
     "SillyTavern/SillyTavern",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
-    "validatorjs/validator.js",
     "wix/Detox"
   ]
 }

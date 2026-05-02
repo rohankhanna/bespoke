@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 53,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 16,
-    "terms": 43
+    "concepts": 46,
+    "observations": 46,
+    "repos": 17,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/incubator-seata-go-samples",
     "bombsimon/logrusr",
@@ -23,6 +23,7 @@
     "FiloSottile/hpke",
     "google/gnostic-models",
     "lesismal/nbio-examples",
+    "lukacu/docker-frps",
     "mikespook/possum",
     "objectbox/objectbox-generator",
     "rpcxio/rpcx-etcd",

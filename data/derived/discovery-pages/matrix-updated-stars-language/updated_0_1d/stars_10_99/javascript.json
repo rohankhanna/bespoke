@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 13,
-    "observations": 14,
-    "repos": 1,
-    "terms": 13
+    "components": 25,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 3,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
-    "coasys/ad4m"
+    "4catalyzer/javascript",
+    "hyparam/squirreling",
+    "julia-actions/cache"
   ]
 }

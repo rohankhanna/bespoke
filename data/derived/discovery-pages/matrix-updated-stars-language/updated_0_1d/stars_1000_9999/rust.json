@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 11,
-    "terms": 113
+    "components": 139,
+    "concepts": 83,
+    "observations": 84,
+    "repos": 8,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "boxlite-ai/boxlite",
     "crate-ci/cargo-release",
-    "delta-io/delta-rs",
     "dmtrKovalenko/fff",
-    "facebook/pyrefly",
-    "holochain/holochain",
-    "mozilla/uniffi-rs",
+    "facebook/sapling",
     "prefix-dev/pixi",
-    "rust-openssl/rust-openssl",
+    "unicode-org/icu4x",
     "VOICEVOX/voicevox_core"
   ]
 }

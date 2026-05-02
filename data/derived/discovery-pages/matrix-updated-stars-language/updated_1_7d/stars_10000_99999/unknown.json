@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 3,
-    "terms": 36
+    "components": 14,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "firstcontributions/first-contributions",
     "matiassingers/awesome-readme",
+    "obsidianmd/obsidian-releases",
     "veggiemonk/awesome-docker"
   ]
 }

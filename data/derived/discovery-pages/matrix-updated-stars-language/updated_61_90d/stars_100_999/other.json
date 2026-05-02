@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 197,
-    "observations": 198,
-    "repos": 54,
-    "terms": 197
+    "components": 240,
+    "concepts": 217,
+    "observations": 217,
+    "repos": 60,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ahyatt/emacs-websocket",
     "AndrewRadev/switch.vim",
@@ -20,6 +20,7 @@
     "archguard/archguard",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
+    "astral-sh/uv-docker-example",
     "autodeployai/ai-serving",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "Azure-Samples/contoso-creative-writer",
@@ -40,17 +41,22 @@
     "emacs-lsp/lsp-dart",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
+    "esy/esy",
     "filiph/linkcheck",
-    "grpc/grpc-dart",
+    "google/CommonLoopUtils",
     "havarddj/typst-preview.el",
     "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
+    "jtdaugherty/vty",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
+    "JuliaLang/JuliaSyntax.jl",
     "lite-xl/lite-xl-plugin-manager",
     "loqusion/typix",
     "nim-lang/vscode-nim",
+    "NimblePros/eShopOnWeb",
     "PMunch/nimlsp",
+    "prettier/prettier-emacs",
     "pug-php/pug",
     "rahul-goel/fused-ssim",
     "rapidsai-community/notebooks-contrib",

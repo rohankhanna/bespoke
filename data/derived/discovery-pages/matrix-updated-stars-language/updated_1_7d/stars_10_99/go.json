@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 16,
-    "terms": 74
+    "components": 134,
+    "concepts": 90,
+    "observations": 91,
+    "repos": 20,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "bitrise-io/stepman",
@@ -22,13 +22,17 @@
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
     "cloudfoundry/credhub-cli",
+    "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "EngFlow/gazelle_cc",
+    "golangci/go-printf-func-name",
+    "golangci/misspell",
     "ipfs/ipfs-check",
     "Kong/kong-operator",
     "openshift/kubernetes",
+    "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "sigstore/helm-sigstore",
-    "transparency-dev/witness"
+    "transparency-dev/witness",
+    "usbarmory/tamago-example"
   ]
 }

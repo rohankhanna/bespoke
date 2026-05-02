@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 627,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 14,
-    "terms": 96
+    "components": 727,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 17,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "airbnb/visx",
     "catppuccin/catppuccin",
+    "changesets/changesets",
     "chatboxai/chatbox",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
@@ -23,6 +24,8 @@
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
+    "modelcontextprotocol/servers",
+    "neoclide/coc.nvim",
     "realworld-apps/realworld",
     "shareai-lab/learn-claude-code",
     "tobi/qmd",

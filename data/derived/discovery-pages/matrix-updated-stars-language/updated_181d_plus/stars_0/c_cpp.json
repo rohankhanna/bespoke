@@ -3,7 +3,7 @@
     "components": 43,
     "concepts": 20,
     "observations": 21,
-    "repos": 11,
+    "repos": 12,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
     "afd-illinois/eht-babel",
     "boingoing/node-sass",
+    "build2-packaging/nlohmann-json",
     "burntsushi/linux",
     "comit-network/hash_edwards_to_edwards",
     "DiligentGraphics/imgui",

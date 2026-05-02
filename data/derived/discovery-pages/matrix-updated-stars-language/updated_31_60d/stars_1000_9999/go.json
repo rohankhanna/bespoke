@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 36,
-    "terms": 161
+    "components": 224,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 43,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
+    "azure/aztfexport",
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -26,6 +27,7 @@
     "coder/websocket",
     "cortesi/devd",
     "darccio/mergo",
+    "davidbyttow/govips",
     "ddworken/hishtory",
     "dghubble/sling",
     "dop251/goja",
@@ -33,10 +35,14 @@
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
+    "google/pprof",
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/go-version",
+    "hashicorp/hcl",
     "hashicorp/memberlist",
+    "hashicorp/yamux",
+    "itchyny/gojq",
     "kubernetes-sigs/krew",
     "mailru/easyjson",
     "mattn/efm-langserver",
@@ -45,6 +51,7 @@
     "opencontainers/runtime-spec",
     "probonopd/go-appimage",
     "rest-sh/restish",
+    "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "stripe/stripe-mock",
     "xtaci/kcp-go",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 777,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 28,
-    "terms": 127
+    "components": 957,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 37,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
     "agents-squads/squads-cli",
+    "ava-labs/avalanche-dapp-sdks",
     "aws-samples/aws-sdk-js-notes-app",
+    "awslabs/wdio-aws-device-farm-service",
+    "Beaglefoot/prettier-plugin-awk",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
     "buttondown/cli",
+    "cahamilton/stylelint-config-property-sort-order-smacss",
+    "darkriszty/MarkdownTablePrettify-VSCodeExt",
+    "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
     "GreptimeTeam/greptimedb-grafana-datasource",
+    "haskell-actions/setup",
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
     "ipfs/ipld-explorer-components",
@@ -41,6 +48,8 @@
     "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
     "solidjs-community/storybook",
-    "zhayujie/cow-skill-hub"
+    "ylsssq926/relic.skill",
+    "zhayujie/cow-skill-hub",
+    "zuplo/docs"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 264,
-    "observations": 265,
-    "repos": 52,
+    "components": 145,
+    "concepts": 269,
+    "observations": 270,
+    "repos": 53,
     "terms": 258
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -22,13 +22,13 @@
     "AmberSahdev/Open-Interface",
     "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
+    "ARISE-Initiative/robomimic",
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
     "benjaminp/six",
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "brycedrennan/imaginAIry",
-    "chatopera/Synonyms",
     "ChenmienTan/RL2",
     "CLUEbenchmark/CLUE",
     "CrazyBoyM/llama3-Chinese-chat",
@@ -55,6 +55,7 @@
     "PaddlePaddle/PaddleSeg",
     "pfnet/pfrl",
     "Python-Markdown/markdown",
+    "python-semantic-release/python-semantic-release",
     "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
     "SafeAILab/EAGLE",

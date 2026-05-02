@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 11,
-    "terms": 18
+    "components": 24,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 12,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "Aedelon/claude-code-blueprint",
@@ -24,6 +24,7 @@
     "jawwadfirdousi/agent-skills",
     "nodejs/release-keys",
     "nodenv/node-build-update-defs",
+    "quicwg/qlog",
     "robertguss/claude-code-toolkit"
   ]
 }

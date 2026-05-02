@@ -3,7 +3,7 @@
     "components": 97,
     "concepts": 66,
     "observations": 67,
-    "repos": 23,
+    "repos": 25,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
@@ -25,6 +25,7 @@
     "catch-twenty-two/rust-ssd",
     "chrisguida/smaug",
     "datafusion-contrib/hdfs-native-object-store",
+    "Dzordzu/rust-apache-age",
     "EricLBuehler/candle",
     "fengkx/jieba-wasm",
     "georust/wkt",
@@ -36,6 +37,7 @@
     "microsoft/LinuxTracepoints-Rust",
     "spacemeshos/post-rs",
     "suo/lintrunner",
+    "zakarumych/mev",
     "zeng3ld/claude-session-restore"
   ]
 }

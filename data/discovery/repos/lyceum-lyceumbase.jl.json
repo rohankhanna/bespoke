@@ -84,13 +84,14 @@
       "size": 251
     }
   ],
+  "metadata_refreshed_at": "2026-05-02T05:25:02.402114+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A set of common definitions and interfaces for the Lyceum ecosystem.",
     "fork": false,
-    "full_name": "Lyceum/LyceumBase.jl",
+    "full_name": "lyceum/lyceumbase.jl",
     "html_url": "https://github.com/Lyceum/LyceumBase.jl",
     "language": "Julia",
     "pushed_at": "2021-09-16T22:39:32Z",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 191,
-    "observations": 193,
-    "repos": 120,
-    "terms": 203
+    "components": 396,
+    "concepts": 201,
+    "observations": 203,
+    "repos": 127,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "3swordman/tree-sitter-toon",
@@ -47,6 +47,7 @@
     "ca-ruz/bumpit",
     "CHERIoT-Platform/cheriot-pqc",
     "chronosphereio/calyptia-api",
+    "clojurephant/clojurephant-tooling",
     "codeGROOVE-dev/retry",
     "Computer-use-agents/GUI-Docker-Env",
     "cooper1637/SageAttention",
@@ -66,6 +67,7 @@
     "guoqingbao/rustchatui",
     "hashberg-io/typing-validation",
     "haskell-compat/base-orphans",
+    "hchiam/learning-eslint-google",
     "hden/cuid",
     "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
@@ -73,6 +75,7 @@
     "hermit-os/gcc",
     "hesreallyhim/inkverse-fork",
     "heyoeyo/toadui",
+    "holochain/hc-launch",
     "infiniflow/resource",
     "IWANABETHATGUY/l-lang",
     "jgburet/asdf-dotenvx",
@@ -87,6 +90,7 @@
     "LaurenzV/sitro",
     "Layr-Labs/optimism",
     "ldayton/bash-oracle",
+    "LedgerHQ/ledgercomm",
     "lionel-/biome",
     "lita-xyz/Plonky3",
     "lite-xl/lite-xl-build-box",
@@ -103,11 +107,12 @@
     "parruda/ruby_llm",
     "pydantic/pydantic-docs",
     "qiuyu96/CoDeF",
+    "radian-software/contributor-guide",
     "redis-stack/homebrew-redis-stack",
     "redis/go-redis-entraid",
-    "rocker-org/bspm",
     "rose-pine/.github",
     "Sbozzolo/libvterm-mirror",
+    "Shopify/svg2vd",
     "sigp/xdelta3-rs",
     "sigstore/.github",
     "simdjson/simdjson-data",
@@ -119,6 +124,7 @@
     "Tencent/tencent.github.io",
     "thalesgelinger/toon.nvim",
     "The-Focus-AI/buttondown-skill",
+    "tmikus/ahocorasick_rs",
     "Triang-jyed-driung/Albatross",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
@@ -132,6 +138,7 @@
     "vercel-labs/include_dir",
     "vim-fall/deno-fall-extra",
     "vim-fall/deno-fall-std",
-    "vllm-project/media-kit"
+    "vllm-project/media-kit",
+    "zwowo1997/pack-repo-4ai"
   ]
 }

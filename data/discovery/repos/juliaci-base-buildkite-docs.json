@@ -16,13 +16,14 @@
       "size": 386
     }
   ],
+  "metadata_refreshed_at": "2026-05-02T05:25:11.264249+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Documentation for the Buildkite setup used by Base Julia CI ",
     "fork": false,
-    "full_name": "JuliaCI/base-buildkite-docs",
+    "full_name": "juliaci/base-buildkite-docs",
     "html_url": "https://github.com/JuliaCI/base-buildkite-docs",
     "language": null,
     "pushed_at": "2022-08-26T04:22:55Z",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 84,
+    "components": 90,
     "concepts": 82,
     "observations": 85,
-    "repos": 12,
+    "repos": 13,
     "terms": 82
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
     "atanunq/viu",
+    "dtolnay/case-studies",
     "erg-lang/erg",
     "geiger-rs/cargo-geiger",
     "guillaume-be/rust-bert",

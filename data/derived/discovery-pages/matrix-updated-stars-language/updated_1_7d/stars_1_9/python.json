@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 13,
-    "terms": 51
+    "components": 83,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 12,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
     "demonatic/flash-attention",
     "eea/eea-website-backend",
     "flagos-ai/Megatron-LM-FL",
-    "kalavai-net/kube-watcher",
     "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
     "mozilla-ai/otari",

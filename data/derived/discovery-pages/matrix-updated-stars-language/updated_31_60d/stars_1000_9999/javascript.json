@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 20,
-    "terms": 106
+    "components": 557,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 25,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "amqp-node/amqplib",
@@ -26,13 +26,18 @@
     "ethereum/devp2p",
     "GoogleChrome/lighthouse-ci",
     "isaacs/minimatch",
+    "jshttp/mime-types",
     "kangax/html-minifier",
+    "Level/level",
     "microsoft/vscode-recipes",
     "mrsteele/dotenv-webpack",
+    "nksaraf/vinxi",
     "node-fetch/node-fetch",
     "paralleldrive/cuid2",
+    "pillarjs/iconv-lite",
     "pmndrs/drei",
     "rollup/plugins",
+    "styled-components/polished",
     "treosh/lighthouse-ci-action"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 413,
-    "observations": 415,
-    "repos": 74,
-    "terms": 413
+    "components": 394,
+    "concepts": 468,
+    "observations": 470,
+    "repos": 83,
+    "terms": 468
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-02T05:25:58.258401+00:00",
   "repo_ids": [
+    "activerecord-hackery/ransack",
     "alexreisner/geocoder",
+    "ankane/ahoy_email",
     "apache/casbin-Casbin.NET",
     "ardalis/ApiEndpoints",
     "athityakumar/colorls",
@@ -23,12 +25,14 @@
     "bbatsov/crux",
     "bbatsov/prelude",
     "bbatsov/projectile",
+    "bblimke/webmock",
     "castwide/solargraph",
     "chef/bento",
     "clojure/clojurescript",
     "clux/muslrust",
     "container-storage-interface/spec",
     "copilot-emacs/copilot.el",
+    "csstools/sanitize.css",
     "dakrone/cheshire",
     "DavBfr/dart_pdf",
     "dhall-lang/dhall-lang",
@@ -36,6 +40,7 @@
     "dotnet/project-system",
     "ex-aws/ex_aws",
     "facebookresearch/co-tracker",
+    "FluxML/Zygote.jl",
     "flycheck/flycheck",
     "folke/lazydev.nvim",
     "folke/snacks.nvim",
@@ -50,6 +55,8 @@
     "gpu-mode/Triton-Puzzles",
     "gpuweb/gpuweb",
     "grangier/python-goose",
+    "haleclipse/claudix",
+    "hercules-ci/flake-parts",
     "hrsh7th/nvim-cmp",
     "Intellindust-AI-Lab/DEIMv2",
     "jgm/djot",
@@ -59,6 +66,7 @@
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
+    "manzaltu/claude-code-ide.el",
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "ndmitchell/hlint",
@@ -82,11 +90,12 @@
     "ScoopInstaller/Install",
     "seancorfield/honeysql",
     "steipete/peekaboo",
+    "stevearc/overseer.nvim",
     "tensorflow/tpu",
     "timdorr/tesla-api",
     "vcr/vcr",
-    "vkhorikov/CSharpFunctionalExtensions",
     "z-x-yang/Segment-and-Track-Anything",
-    "zarazhangrui/codebase-to-course"
+    "zarazhangrui/codebase-to-course",
+    "zjunlp/EasyEdit"
   ]
 }
