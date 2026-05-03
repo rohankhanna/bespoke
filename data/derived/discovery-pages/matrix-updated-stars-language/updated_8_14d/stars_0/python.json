@@ -3,7 +3,7 @@
     "components": 24,
     "concepts": 29,
     "observations": 29,
-    "repos": 10,
+    "repos": 9,
     "terms": 34
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
@@ -21,7 +21,6 @@
     "hauntsaninja/mypy",
     "hmellor/vllm",
     "l12203685/digital-immortality",
-    "mohfer/nous-proxy",
     "roampal-ai/roampal-labs",
     "shubishere/ai-drawio"
   ]

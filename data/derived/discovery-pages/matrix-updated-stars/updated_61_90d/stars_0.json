@@ -3,7 +3,7 @@
     "components": 109,
     "concepts": 57,
     "observations": 57,
-    "repos": 23,
+    "repos": 25,
     "terms": 57
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
@@ -31,9 +31,11 @@
     "EspressoSystems/jellyfish-compat",
     "get-gah/gah-db",
     "grafana/cadvisor",
+    "guaguastandup/guaguastandup",
     "kitknox/helix",
     "mjvolk3/dendron-template",
     "mudler/vulkan-sdk-arm",
+    "samsja/dion",
     "typstyle-rs/prettyless",
     "yoshoku/numo-liblinear"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 236,
-    "observations": 237,
-    "repos": 71,
-    "terms": 234
+    "components": 276,
+    "concepts": 241,
+    "observations": 242,
+    "repos": 72,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -22,6 +22,7 @@
     "6cdh/dotfiles",
     "ably-labs/realtime-quiz-framework",
     "adinhodovic/argo-cd-mixin",
+    "alfaix/neotest-gtest",
     "am-kantox/md",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",

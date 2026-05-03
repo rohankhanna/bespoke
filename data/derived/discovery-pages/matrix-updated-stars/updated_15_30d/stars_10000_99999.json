@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3221,
-    "concepts": 1566,
-    "observations": 1574,
-    "repos": 217,
-    "terms": 1565
+    "components": 3245,
+    "concepts": 1576,
+    "observations": 1584,
+    "repos": 219,
+    "terms": 1579
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -19,6 +19,7 @@
     "3b1b/manim",
     "abetlen/llama-cpp-python",
     "abiosoft/colima",
+    "actions/starter-workflows",
     "adambard/learnxinyminutes-docs",
     "agarrharr/awesome-cli-apps",
     "ahmetb/kubectx",
@@ -73,6 +74,7 @@
     "dottxt-ai/outlines",
     "EleutherAI/lm-evaluation-harness",
     "ent/ent",
+    "everyinc/compound-engineering-plugin",
     "eza-community/eza",
     "fabric/fabric",
     "facebook/prophet",

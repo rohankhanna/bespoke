@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 67,
-    "observations": 68,
-    "repos": 21,
-    "terms": 65
+    "components": 65,
+    "concepts": 68,
+    "observations": 69,
+    "repos": 22,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
     "adamharrison/lite-xl-terminal",
+    "Blosc/hdf5-blosc",
     "cassioneri/teju_jagua",
     "coin-or/CHiPPS-ALPS",
     "DLR-TS/SUMOLibraries",

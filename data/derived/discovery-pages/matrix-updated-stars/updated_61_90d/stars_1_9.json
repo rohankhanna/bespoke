@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 250,
-    "observations": 250,
-    "repos": 77,
-    "terms": 247
+    "components": 331,
+    "concepts": 255,
+    "observations": 255,
+    "repos": 80,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "0x2a-42/nvim-lelwel",
@@ -65,8 +65,10 @@
     "hchiam/learning-redux",
     "hchiam/react-jexcel-redux",
     "hermit-os/hermit-gcc",
+    "heshengtao/desktop-for-sap",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jsdom/.github",
+    "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "kornia/data",
     "Layr-Labs/incredible-squaring-avs-rs",
@@ -86,6 +88,7 @@
     "tianon/fake-git",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
+    "vim-fuzzbox/fuzzbox-lsp.vim",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "yamachu/VoicevoxCoreSwift",
     "yoshoku/numo-libsvm",

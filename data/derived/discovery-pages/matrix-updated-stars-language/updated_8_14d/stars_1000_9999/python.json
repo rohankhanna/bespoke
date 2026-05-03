@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1347,
-    "concepts": 1438,
-    "observations": 1445,
+    "components": 1342,
+    "concepts": 1446,
+    "observations": 1453,
     "repos": 178,
-    "terms": 1426
+    "terms": 1431
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "AgentR1/Agent-R1",
@@ -123,12 +123,10 @@
     "modelscope/evalscope",
     "modelscope/modelscope",
     "ModelTC/LightLLM",
-    "mozillazg/python-pinyin",
     "ms-jpq/chadtree",
     "ms-jpq/coq_nvim",
     "mxmlnkn/ratarmount",
     "nerfstudio-project/gsplat",
-    "nesquena/hermes-webui",
     "nix-community/NUR",
     "noahcao/OC_SORT",
     "nomadkaraoke/python-audio-separator",
@@ -146,6 +144,7 @@
     "OpenBMB/UltraRAG",
     "OpenRLHF/OpenRLHF",
     "openvinotoolkit/nncf",
+    "OptimalScale/LMFlow",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
     "patrick-kidger/diffrax",
@@ -173,6 +172,7 @@
     "rllm-org/rllm",
     "secretflow/secretflow",
     "shapely/shapely",
+    "shenweichen/GraphEmbedding",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
     "sparckles/Robyn",

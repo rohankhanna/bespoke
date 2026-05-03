@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1158,
-    "concepts": 241,
-    "observations": 241,
-    "repos": 40,
-    "terms": 253
+    "components": 1222,
+    "concepts": 252,
+    "observations": 252,
+    "repos": 42,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -31,6 +31,7 @@
     "cztomsik/ava",
     "ethereum/staking-launchpad",
     "fannheyward/coc-sql",
+    "fnando/i18n",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
@@ -43,6 +44,7 @@
     "lobehub/lobe-midjourney-webui",
     "microsoft/vscode-debugadapter-node",
     "neoclide/coc-java",
+    "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "ruvnet/agentic-flow",

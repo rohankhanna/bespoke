@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1264,
-    "concepts": 899,
-    "observations": 899,
-    "repos": 156,
-    "terms": 896
+    "components": 1278,
+    "concepts": 913,
+    "observations": 913,
+    "repos": 157,
+    "terms": 910
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -86,6 +86,7 @@
     "JuliaDebug/Infiltrator.jl",
     "JuliaDocs/Documenter.jl",
     "JuliaFolds/BangBang.jl",
+    "JuliaIO/FileIO.jl",
     "JuliaLang/Pkg.jl",
     "JuliaML/MLDatasets.jl",
     "JuliaPackaging/BinaryBuilder.jl",

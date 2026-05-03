@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 21,
-    "terms": 89
+    "components": 122,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 22,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -23,6 +23,7 @@
     "decibri/decibri",
     "Dicklesworthstone/franken_agent_detection",
     "flathub-infra/flat-manager-hooks",
+    "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",
     "heroku/buildpacks-deb-packages",
     "heroku/buildpacks-php",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 49,
-    "concepts": 297,
-    "observations": 297,
-    "repos": 189,
-    "terms": 297
+    "concepts": 305,
+    "observations": 305,
+    "repos": 192,
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -49,6 +49,7 @@
     "cha0ran/fd-zh",
     "chainer-community/awesome-chainer",
     "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+    "ChiuMing-Neko/ChiuKongGothic",
     "chriskempson/base16",
     "chriskiehl/GooeyExamples",
     "CjangCjengh/TTSModels",
@@ -105,6 +106,7 @@
     "HzFu/COVID19_imaging_AI_paper_list",
     "ibm-granite/granite-3.0-language-models",
     "IceClear/SeedVR",
+    "ichitenfont/inheritedglyphs",
     "imfing/ava_downloader",
     "instantX-research/InstantID-Rome",
     "ipfs/roadmap",
@@ -172,6 +174,7 @@
     "proxy-wasm/spec",
     "pypa/packaging-problems",
     "pzzhang/VinVL",
+    "QingyongHu/VISO",
     "quchangle1/LLM-Tool-Survey",
     "react-native-community/RNNewArchitectureLibraries",
     "rust-lang/unsafe-code-guidelines",

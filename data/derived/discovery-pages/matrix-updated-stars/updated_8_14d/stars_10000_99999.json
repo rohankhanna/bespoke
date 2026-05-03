@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11983,
+    "components": 11968,
     "concepts": 4641,
     "observations": 4663,
-    "repos": 431,
-    "terms": 4653
+    "repos": 430,
+    "terms": 4647
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "567-labs/instructor",
@@ -151,7 +151,6 @@
     "eslint/eslint",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
-    "everyinc/compound-engineering-plugin",
     "exaloop/codon",
     "exo-explore/exo",
     "expo/expo",

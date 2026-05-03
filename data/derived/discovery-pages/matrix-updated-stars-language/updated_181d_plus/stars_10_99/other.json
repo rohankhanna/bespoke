@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1446,
-    "concepts": 1418,
-    "observations": 1423,
-    "repos": 600,
-    "terms": 1412
+    "components": 1472,
+    "concepts": 1442,
+    "observations": 1447,
+    "repos": 609,
+    "terms": 1436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -128,6 +128,7 @@
     "barrel-platform/rebar3_elixir_compile",
     "beam-telemetry/telemetry_metrics_prometheus",
     "beam-telemetry/telemetry_metrics_prometheus_core",
+    "benbalter/jekyll-default-layout",
     "bencheeorg/benchee_html",
     "bennyyip/plugpac.vim",
     "bhauman/flappy-bird-demo-new",
@@ -177,6 +178,7 @@
     "ChrisDud0257/AFINE",
     "chriskempson/base16-builder-php",
     "ChristianChiarulli/neovim-codicons",
+    "Chrixtar/latent-gaussian-rasterization",
     "citusdata/citus_docs",
     "cjohansen/gadget-inspector",
     "ckipp01/stylua-nvim",
@@ -213,6 +215,7 @@
     "davanstrien/haiku-dpo",
     "dbgrandi/danger-prose",
     "dcampos/cmp-snippy",
+    "dcharatan/diff-gaussian-rasterization-modified",
     "dcnorris/precautionary",
     "deanwiseman/DartSassBuilder",
     "Deep-Symmetry/afterglow-max",
@@ -278,6 +281,7 @@
     "fumiama/MoeGoe-Android",
     "fuziki/WorldInApple",
     "fwcd/kotlin-quick-start",
+    "FWHP-Enfun/Mixed-VsWeKai",
     "gdkrmr/lsp-julia",
     "genotrance/nimarchive",
     "geoffreylitt/ladybug",
@@ -470,6 +474,7 @@
     "nrepl/bencode",
     "nrepl/incomplete",
     "NVIDIA/nvbench_demo",
+    "NVIDIA/workbench-llamafactory",
     "nvim-neotest/neotest-plenary",
     "nvimdev/dbsession.nvim",
     "nvimdev/nerdicons.nvim",
@@ -500,6 +505,7 @@
     "qliu24/render-3d-segmentation",
     "queryverse/CSVFiles.jl",
     "queryverse/ElectronDisplay.jl",
+    "queryverse/TextParse.jl",
     "queryverse/VegaDatasets.jl",
     "quil/quil-templates",
     "qwertyforce/image_search",
@@ -580,6 +586,9 @@
     "unit-mesh/unit-gen",
     "unitycontainer/aspnet-mvc",
     "uperl/Kafka-Librd",
+    "vale-cli/alex",
+    "vale-cli/Google",
+    "vale-cli/Joblint",
     "vany0114/chaos-injection-using-simmy",
     "VBAndCs/eShopOnWeb_VB.NET",
     "VBAndCs/Vazor",

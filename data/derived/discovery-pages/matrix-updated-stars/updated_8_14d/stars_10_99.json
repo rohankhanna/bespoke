@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 3522,
-    "concepts": 1590,
-    "observations": 1598,
+    "components": 3584,
+    "concepts": 1594,
+    "observations": 1602,
     "repos": 366,
-    "terms": 1610
+    "terms": 1612
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
-    "2KAbhishek/sway2k",
     "3rd/config",
     "52-entertainment/vite-plugin-oxlint",
     "64bit/commandOK",
@@ -212,7 +211,6 @@
     "jakoch/install-vulkan-sdk-action",
     "janrueth/boring-rustls-provider",
     "JFLarvoire/the_silver_searcher",
-    "jkheadley/instar",
     "julia-actions/julia-format",
     "JuliaArrays/StaticArraysCore.jl",
     "JuliaCI/BaseBenchmarks.jl",
@@ -278,8 +276,10 @@
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-tracy",
     "oclif/oclif.github.io",
+    "oclif/plugin-autocomplete",
     "oclif/plugin-help",
     "oclif/plugin-plugins",
+    "oclif/plugin-update",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",

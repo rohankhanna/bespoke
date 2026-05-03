@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 42,
     "observations": 42,
-    "repos": 15,
+    "repos": 16,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "Biscuit-Theme/biscuit",
     "docker-library/faq",
@@ -23,6 +23,7 @@
     "JuliaDiff/BlueStyle",
     "libp2p/js-libp2p-examples",
     "lintool/guide",
+    "lxgw/lxgw",
     "microsoft/foss-fund",
     "pbatard/UEFI-Shell",
     "shadowspawn/node-version-usage",

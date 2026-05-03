@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 294,
-    "concepts": 468,
-    "observations": 468,
-    "repos": 113,
-    "terms": 464
+    "concepts": 470,
+    "observations": 470,
+    "repos": 116,
+    "terms": 466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -62,6 +62,7 @@
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
     "hustvl/LightningDiT",
+    "hustvl/VAD",
     "HybridRobotics/whole_body_tracking",
     "IBM/Project_CodeNet",
     "Instagram/LibCST",
@@ -110,6 +111,7 @@
     "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",
     "simonw/sqlite-utils",
+    "Simple-Efficient/RL-Factory",
     "SublimeLinter/SublimeLinter",
     "Supervisor/supervisor",
     "Sygil-Dev/sygil-webui",
@@ -124,6 +126,7 @@
     "waymo-research/waymo-open-dataset",
     "web-arena-x/webarena",
     "WenmuZhou/PytorchOCR",
+    "willisma/SiT",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
     "yifan123/flow_grpo",
     "Yuliang-Liu/Monkey"

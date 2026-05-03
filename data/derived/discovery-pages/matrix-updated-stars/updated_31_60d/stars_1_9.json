@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 689,
-    "concepts": 388,
-    "observations": 389,
+    "concepts": 389,
+    "observations": 390,
     "repos": 135,
-    "terms": 381
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -114,6 +114,7 @@
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "meelgroup/louvain-community",
+    "Mercury13/unicodia-sesh",
     "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",
     "mybigday/whisper.node",
@@ -145,7 +146,6 @@
     "tanyongkiam/cake_lpr",
     "vectordotdev/heim",
     "vega/.github",
-    "vim-fuzzbox/fuzzbox-lsp.vim",
     "WebAssembly/compact-import-section",
     "zkcrypto/rfcs"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1040,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 51,
-    "terms": 239
+    "components": 1058,
+    "concepts": 194,
+    "observations": 194,
+    "repos": 52,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
@@ -34,6 +34,7 @@
     "giselles-ai/giselle",
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
+    "immersive-translate/zotero-immersivetranslate",
     "jgm/djot.js",
     "juliangruber/brace-expansion",
     "jupyterlab/extension-examples",

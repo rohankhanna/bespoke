@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 75,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 17,
-    "terms": 43
+    "concepts": 49,
+    "observations": 49,
+    "repos": 19,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -23,12 +23,14 @@
     "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
     "hermit-os/hermit-gcc",
+    "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "SWE-bench/SWE-smith-envs",
     "tensorchord/VectorChord-images",
+    "vim-fuzzbox/fuzzbox-lsp.vim",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "zen-eth/multiformats-zig"
   ]

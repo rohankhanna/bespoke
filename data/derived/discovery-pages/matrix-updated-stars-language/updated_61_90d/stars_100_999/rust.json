@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 32,
-    "terms": 123
+    "components": 173,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 33,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
+    "bet4it/udbserver",
     "blyxxyz/lexopt",
     "callum-oakley/json5-rs",
     "cormacrelf/dark-notify",

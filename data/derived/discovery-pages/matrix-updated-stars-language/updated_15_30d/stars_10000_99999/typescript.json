@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 860,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 21,
-    "terms": 128
+    "components": 884,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 23,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
+    "actions/starter-workflows",
     "airbnb/visx",
     "catppuccin/catppuccin",
     "changesets/changesets",
     "chatboxai/chatbox",
     "diegomura/react-pdf",
+    "everyinc/compound-engineering-plugin",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "googleapis/google-api-nodejs-client",

@@ -3,7 +3,7 @@
     "components": 192,
     "concepts": 96,
     "observations": 97,
-    "repos": 57,
+    "repos": 56,
     "terms": 99
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
@@ -63,7 +63,6 @@
     "prisma/cuid-rust",
     "psmux/scoop-tmuxpanel",
     "saharmor/saharmor.github.io",
-    "samsja/dion",
     "Sovereign-Labs/reltester",
     "stable-haskell/stack",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

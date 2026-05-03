@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 23,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 89,
-    "terms": 211
+    "concepts": 222,
+    "observations": 222,
+    "repos": 91,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -52,6 +52,7 @@
     "hal9ai/awesome-dataviz",
     "Homebrew/homebrew-bundle",
     "HumanAIGC/EMO",
+    "ichitenfont/I.Ming",
     "IDEA-Research/awesome-detection-transformer",
     "integrations/slack",
     "jaydenseric/graphql-multipart-request-spec",
@@ -59,6 +60,7 @@
     "lauridskern/open-runde",
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "llamastack/llama-stack-apps",
+    "lxgw/kose-font",
     "microsoft/live-share",
     "microsoft/nodejs-guidelines",
     "MLNLP-World/Paper-Writing-Tips",

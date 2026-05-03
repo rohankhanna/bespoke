@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 9,
-    "terms": 13
+    "components": 76,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 10,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
@@ -22,6 +22,7 @@
     "cpojer/js-codemod",
     "hchiam/chat-app-fcc-react-redux",
     "hchiam/learning-redux",
-    "hchiam/react-jexcel-redux"
+    "hchiam/react-jexcel-redux",
+    "heshengtao/desktop-for-sap"
   ]
 }

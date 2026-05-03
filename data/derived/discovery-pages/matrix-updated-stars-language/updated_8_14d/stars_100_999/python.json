@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 992,
-    "concepts": 858,
-    "observations": 859,
-    "repos": 154,
-    "terms": 855
+    "concepts": 875,
+    "observations": 876,
+    "repos": 156,
+    "terms": 872
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "aaronjmars/MiroShark",
@@ -48,6 +48,7 @@
     "celery/vine",
     "CERTCC/SSVC",
     "chaoss/grimoirelab-perceval",
+    "chengzhag/PanSplat",
     "clearbluejar/pyghidra-mcp",
     "ClementPinard/Pytorch-Correlation-extension",
     "conda-forge/conda-smithy",
@@ -154,6 +155,7 @@
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
     "ServiceNow/WorkArena",
+    "seung-lab/cloud-volume",
     "SWE-agent/SWE-ReX",
     "SWE-bench/SWE-smith",
     "TIGER-AI-Lab/VLM2Vec",

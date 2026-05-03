@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2356,
-    "concepts": 529,
-    "observations": 531,
-    "repos": 77,
-    "terms": 525
+    "components": 2430,
+    "concepts": 539,
+    "observations": 541,
+    "repos": 78,
+    "terms": 535
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "antfu/eslint-flat-config-utils",
@@ -65,6 +65,7 @@
     "octokit/app.js",
     "octokit/auth-app.js",
     "octokit/graphql.js",
+    "ory/docs",
     "oxc-project/eslint-plugin-oxlint",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",

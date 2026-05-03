@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 987,
-    "concepts": 203,
-    "observations": 204,
-    "repos": 23,
-    "terms": 221
+    "components": 976,
+    "concepts": 191,
+    "observations": 192,
+    "repos": 22,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "angular/angular",
     "avelino/awesome-go",
@@ -25,7 +25,6 @@
     "microsoft/typescript",
     "microsoft/vscode",
     "mrdoob/three.js",
-    "nodejs/node",
     "nousresearch/hermes-agent",
     "open-webui/open-webui",
     "openclaw/openclaw",

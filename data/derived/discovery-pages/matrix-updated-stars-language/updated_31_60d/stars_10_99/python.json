@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 191,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 47,
-    "terms": 128
+    "concepts": 126,
+    "observations": 126,
+    "repos": 46,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -20,7 +20,6 @@
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
-    "apache/parquet-testing",
     "Azure-Samples/azureai-travel-agent-python",
     "bentoml/openllm-models",
     "BoosterRobotics/booster_assets",

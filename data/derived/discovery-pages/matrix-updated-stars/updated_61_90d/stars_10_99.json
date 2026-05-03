@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1059,
-    "concepts": 567,
-    "observations": 568,
-    "repos": 203,
-    "terms": 573
+    "components": 1034,
+    "concepts": 553,
+    "observations": 554,
+    "repos": 204,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -26,7 +26,6 @@
     "AdaCore/gnatcoll-bindings",
     "adamyaxley/Unformat",
     "adelarsq/vim-emoji-icon-theme",
-    "adevinta/actions-lighthouseci-compare",
     "agents-x-project/PyVision-RL",
     "alexellis/fstail",
     "AliRezaBeigy/paqetNG",
@@ -43,6 +42,7 @@
     "apache/incubator-seata-k8s",
     "apache/netbeans-antora-site",
     "apache/netbeans-nbpackage",
+    "apache/parquet-testing",
     "apache/seatunnel-tools",
     "apostrophecms/apostrophe-astro",
     "asg017/sqlite-hello",
@@ -89,6 +89,7 @@
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
     "DavidKinder/Windows-Glulxe",
+    "dspinellis/bibtools",
     "dsxmachina/rfm",
     "dwyl/elixir-auth-github",
     "eddelbuettel/tinythemes",
@@ -143,7 +144,6 @@
     "jmespath/jmespath.site",
     "jokkebk/JUnzip",
     "joliss/node-walk-sync",
-    "joseluisq/paket",
     "JPEWdev/icecream-sundae",
     "jpmml/jpmml-transpiler",
     "jpmml/r2pmml",
@@ -165,7 +165,6 @@
     "lumen-oss/rocks-git.nvim",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
-    "mohammadtavakoli78/beam",
     "mongodb-js/zstd",
     "multiformats/go-varint",
     "nebelgrau77/airsniffer-esp32c6",
@@ -186,7 +185,9 @@
     "piomin/spring-ai-showcase",
     "quarkiverse/quarkiverse",
     "Rhoban/onshape-to-robot-examples",
+    "robotology/icub-models",
     "rose-pine/rose-pine-bloom",
+    "scaleway/serverless-gateway",
     "shawn0728/ARES",
     "sigp/ethereum_hashing",
     "SLDGroup/LoMix",

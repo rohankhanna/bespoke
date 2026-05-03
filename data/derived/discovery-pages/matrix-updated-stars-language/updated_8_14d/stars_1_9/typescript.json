@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 469,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 16,
-    "terms": 51
+    "components": 472,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 14,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
-    "celo-org/SocialConnect-Twitter-Server-Side",
     "dreamiurg/mountaineers-mcp",
     "enxs969/skiller",
-    "ipfs/helia-remote-pinning",
     "kimosahy/railroaded",
     "klodr/mercury-invoicing-mcp",
     "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
+    "oclif/plugin-search",
     "octokit/auth-unauthenticated.js",
     "rstackjs/rsbuild-plugin-i18next-extractor",
     "saminiscool/twitter-ai-agent",
     "sass/sync-child-process",
-    "sass/sync-message-port",
-    "ublacklist/ublacklist.github.io"
+    "sass/sync-message-port"
   ]
 }

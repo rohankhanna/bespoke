@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1301,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 45,
-    "terms": 262
+    "components": 1209,
+    "concepts": 248,
+    "observations": 249,
+    "repos": 43,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "abaplint/transpiler",
@@ -35,8 +35,6 @@
     "jest-community/eslint-plugin-jest-extended",
     "ldclabs/KIP",
     "obsidianmd/eslint-plugin",
-    "oclif/plugin-autocomplete",
-    "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",

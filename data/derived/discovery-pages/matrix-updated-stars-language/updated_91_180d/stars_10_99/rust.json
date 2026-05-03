@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 27,
-    "terms": 66
+    "components": 113,
+    "concepts": 79,
+    "observations": 80,
+    "repos": 28,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
@@ -32,6 +32,7 @@
     "georust/wkt",
     "ifsheldon/async-openai-wasm",
     "jean-pierreBoth/probminhash",
+    "joseluisq/paket",
     "lindera/lindera-tantivy",
     "linebender/simplecss",
     "LuisaGroup/luisa-compute-rs",

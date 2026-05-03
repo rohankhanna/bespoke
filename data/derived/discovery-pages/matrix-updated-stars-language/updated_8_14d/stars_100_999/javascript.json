@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1094,
-    "concepts": 253,
-    "observations": 260,
-    "repos": 44,
-    "terms": 252
+    "components": 1110,
+    "concepts": 255,
+    "observations": 262,
+    "repos": 45,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -22,6 +22,7 @@
     "aredridel/node-bin-gen",
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
+    "browserslist/caniuse-lite",
     "browserslist/update-db",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",

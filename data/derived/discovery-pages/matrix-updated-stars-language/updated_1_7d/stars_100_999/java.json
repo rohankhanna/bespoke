@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 295,
-    "observations": 295,
-    "repos": 38,
-    "terms": 293
+    "components": 270,
+    "concepts": 296,
+    "observations": 296,
+    "repos": 39,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "apache/commons-jexl",
     "apache/ignite-3",
@@ -46,6 +46,7 @@
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "revelc/formatter-maven-plugin",
+    "saalfeldlab/n5",
     "SAP/SapMachine",
     "spring-projects/spring-tools",
     "swagger-api/swagger-parser",

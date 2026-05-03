@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4262,
-    "concepts": 855,
-    "observations": 857,
+    "components": 4268,
+    "concepts": 858,
+    "observations": 860,
     "repos": 97,
-    "terms": 851
+    "terms": 853
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -83,7 +83,6 @@
     "rolldown/tsdown",
     "rustmailer/bichon",
     "sinclairzx81/typebox",
-    "solidjs/solid-router",
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",
@@ -103,6 +102,7 @@
     "Urigo/graphql-cli",
     "valtyr/prisma-kysely",
     "VOICEVOX/voicevox",
+    "vuejs/babel-plugin-jsx",
     "vuejs/devtools",
     "vuejs/language-tools",
     "web-infra-dev/rsbuild",

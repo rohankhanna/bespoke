@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 49,
-    "terms": 120
+    "components": 238,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 51,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -31,6 +31,7 @@
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
+    "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
@@ -57,6 +58,7 @@
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "Rhoban/onshape-to-robot-examples",
+    "robotology/icub-models",
     "spring-ai-alibaba/website",
     "standardrb/lint_roller",
     "status-im/nim-serialization",

@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 2902,
-    "concepts": 1305,
-    "observations": 1310,
-    "repos": 368,
-    "terms": 1349
+    "components": 2930,
+    "concepts": 1310,
+    "observations": 1315,
+    "repos": 369,
+    "terms": 1356
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
+    "2KAbhishek/sway2k",
     "4dn-dcic/tibanna",
     "8144225309/SuperScalar",
     "9romise/eslint-plugin-import-lite",
@@ -42,7 +43,6 @@
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "aldernero/sketchy",
-    "alfaix/neotest-gtest",
     "alixinne/glsl-lang",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
@@ -248,6 +248,7 @@
     "jawah/wassima",
     "jeffzi/llscheck",
     "jerseycheese/narraitor",
+    "jkheadley/instar",
     "joshsymonds/cc-tools",
     "JuliaGPU/juliagpu.org",
     "jupyter/governance",

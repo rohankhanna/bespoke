@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
+    "components": 39,
     "concepts": 38,
     "observations": 38,
-    "repos": 29,
-    "terms": 44
+    "repos": 31,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -25,6 +25,8 @@
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1394,
-    "concepts": 1596,
-    "observations": 1600,
-    "repos": 159,
-    "terms": 1585
+    "components": 1421,
+    "concepts": 1617,
+    "observations": 1621,
+    "repos": 161,
+    "terms": 1605
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "abhiTronix/vidgear",
     "AcademySoftwareFoundation/OpenTimelineIO",
@@ -58,6 +58,7 @@
     "Dicklesworthstone/mcp_agent_mail",
     "dstackai/dstack",
     "eliben/pyelftools",
+    "emissary-ingress/emissary",
     "enjoy-digital/litex",
     "espressif/esptool",
     "ethereum/web3.py",
@@ -137,17 +138,18 @@
     "pypa/hatch",
     "pypi/warehouse",
     "pypy/pypy",
+    "pytest-dev/pytest-asyncio",
     "pytest-dev/pytest-mock",
     "pytorch/ao",
     "pytorch/rl",
     "pytorch/tensordict",
     "RDFLib/rdflib",
     "readthedocs/readthedocs.org",
+    "redis/redis-om-python",
     "roboflow/inference",
     "roboflow/maestro",
     "safetensors/safetensors",
     "shenweichen/DeepCTR",
-    "shenweichen/GraphEmbedding",
     "skforecast/skforecast",
     "skypilot-org/skypilot",
     "spack/spack",

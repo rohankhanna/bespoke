@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1014,
+    "components": 1044,
     "concepts": 143,
     "observations": 144,
-    "repos": 41,
-    "terms": 169
+    "repos": 42,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -41,6 +41,7 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jerseycheese/narraitor",
+    "jkheadley/instar",
     "labring/fastgpt-plugin",
     "lobehub/lobe-lint",
     "microsoft/vscode-js-debug-companion",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 218,
-    "observations": 220,
-    "repos": 141,
-    "terms": 230
+    "components": 513,
+    "concepts": 226,
+    "observations": 228,
+    "repos": 147,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "39george/scs_gin_adapter",
@@ -83,8 +83,12 @@
     "hedronvision/bazel-cc-filesystem-backport",
     "hermit-os/binutils",
     "hermit-os/gcc",
+    "heshengtao/sap-ai-drawio",
+    "heshengtao/sap-ai-mermaid",
+    "heshengtao/sap-ai-sheet",
     "hesreallyhim/inkverse-fork",
     "heyoeyo/toadui",
+    "HKU-BAL/Clair-Mosaic",
     "holochain/hc-launch",
     "infiniflow/resource",
     "IWANABETHATGUY/l-lang",
@@ -111,6 +115,7 @@
     "lumen-oss/luarocks-build-treesitter-parser",
     "MarcCote/downward",
     "Melandel/workflow",
+    "Mercury13/utranslator",
     "mjvolk3/torchcell",
     "MollySophia/Albatross",
     "Myriad-Dreamin/typst",
@@ -123,6 +128,7 @@
     "radian-software/contributor-guide",
     "redis/go-redis-entraid",
     "retracedhq/logs-viewer",
+    "retracedhq/retraced-js",
     "rose-pine/.github",
     "Sbozzolo/libvterm-mirror",
     "scaleway/serverless-functions-node",

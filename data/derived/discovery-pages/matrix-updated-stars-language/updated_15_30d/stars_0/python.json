@@ -3,7 +3,7 @@
     "components": 17,
     "concepts": 11,
     "observations": 11,
-    "repos": 8,
+    "repos": 9,
     "terms": 11
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "cdeust/cortex-know-when-to-stop-training-model",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
@@ -20,6 +20,7 @@
     "FEniCS/spack-fenics",
     "kidshadow79/ogma",
     "mitchuski/agentprivacy-skills",
+    "mohfer/nous-proxy",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue"
   ]

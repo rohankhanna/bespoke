@@ -3,7 +3,7 @@
     "components": 152,
     "concepts": 35,
     "observations": 36,
-    "repos": 16,
+    "repos": 17,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
     "d3x0r/JSOX",
     "dzeiocom/simple-icons-astro",
     "ember-cli/broccoli-caching-writer",
+    "freddyaboulton/gradio-pdf",
     "haskell-actions/run-ormolu",
     "karma-runner/karma-qunit",
     "LuaLS/vscode-lua-doc",

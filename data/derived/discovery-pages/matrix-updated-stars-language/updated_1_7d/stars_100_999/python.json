@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 734,
-    "concepts": 685,
-    "observations": 687,
-    "repos": 106,
-    "terms": 681
+    "components": 757,
+    "concepts": 721,
+    "observations": 723,
+    "repos": 110,
+    "terms": 717
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -21,6 +21,7 @@
     "AgileRL/AgileRL",
     "agno-agi/scout",
     "AgnostiqHQ/covalent",
+    "aigc3d/LAM",
     "aiidateam/aiida-core",
     "aio-libs/pytest-aiohttp",
     "amitfin/oref_alert",
@@ -38,8 +39,10 @@
     "casperdcl/git-fame",
     "castorini/rank_llm",
     "clearml/clearml-agent",
+    "cognizant-ai-lab/neuro-san-studio",
     "Comfy-Org/comfy-cli",
     "conda/conda-build",
+    "conda/conda-libmamba-solver",
     "Dao-AILab/quack",
     "Dao-AILab/sonic-moe",
     "databrickslabs/ucx",
@@ -50,6 +53,7 @@
     "enjoy-digital/litepcie",
     "enjoy-digital/litescope",
     "feluelle/airflow-diagrams",
+    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "flagos-ai/FlagGems",
     "fsspec/gcsfs",
     "fsspec/universal_pathlib",

@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 2310,
-    "concepts": 1660,
-    "observations": 1667,
-    "repos": 341,
-    "terms": 1642
+    "components": 2340,
+    "concepts": 1680,
+    "observations": 1688,
+    "repos": 347,
+    "terms": 1661
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
+    "aarondl/authboss",
     "achannarasappa/ticker",
     "AILab-CVC/VideoCrafter",
     "ajvb/kala",
@@ -151,6 +152,7 @@
     "googleapis/google-auth-library-nodejs",
     "GoogleChromeLabs/jsvu",
     "graalvm/graalvm-ce-builds",
+    "gradio-app/fastrtc",
     "gradle/kotlin-dsl-samples",
     "grpc/grpc-kotlin",
     "guard/listen",
@@ -173,6 +175,7 @@
     "huggingface/Math-Verify",
     "huggingface/swift-coreml-diffusers",
     "hustvl/LightningDiT",
+    "hustvl/VAD",
     "HybridRobotics/whole_body_tracking",
     "hyperupcall/autoenv",
     "ianlancetaylor/libbacktrace",
@@ -202,6 +205,7 @@
     "jpillora/cloud-torrent",
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "junyanz/CatPapers",
+    "jupyter-widgets/ipywidgets",
     "justinmk/vim-sneak",
     "karb94/neoscroll.nvim",
     "KellerJordan/Muon",
@@ -302,6 +306,7 @@
     "shazow/ssh-chat",
     "siliconflow/onediff",
     "simonw/sqlite-utils",
+    "Simple-Efficient/RL-Factory",
     "sindresorhus/execa",
     "sindresorhus/Gifski",
     "sindresorhus/ponyfill",
@@ -348,6 +353,7 @@
     "weichsel/ZIPFoundation",
     "WenmuZhou/PytorchOCR",
     "WICG/webcomponents",
+    "willisma/SiT",
     "wilsonzlin/minify-html",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
     "yifan123/flow_grpo",

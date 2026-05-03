@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 367,
-    "concepts": 361,
-    "observations": 361,
-    "repos": 73,
-    "terms": 358
+    "components": 371,
+    "concepts": 365,
+    "observations": 365,
+    "repos": 74,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
@@ -44,6 +44,7 @@
     "google/fuzztest",
     "google/riegeli",
     "hajimes/mmh3",
+    "highfive-devs/highfive",
     "intel/intel-ipsec-mb",
     "jcmvbkbc/gcc-xtensa",
     "jupyter-xeus/xwidgets",
@@ -51,6 +52,7 @@
     "KhronosGroup/VK-GL-CTS",
     "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
+    "libbitcoin/libbitcoin-server",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "marton78/pffft",
@@ -62,7 +64,6 @@
     "nss-dev/nss",
     "nvpro-samples/nvpro_core2",
     "nvpro-samples/vk_gltf_renderer",
-    "onnx/optimizer",
     "openSUSE/catatonit",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",

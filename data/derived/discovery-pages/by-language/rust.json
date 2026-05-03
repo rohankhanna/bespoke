@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10011,
-    "concepts": 6873,
-    "observations": 6920,
-    "repos": 1434,
-    "terms": 6880
+    "components": 10014,
+    "concepts": 6880,
+    "observations": 6927,
+    "repos": 1438,
+    "terms": 6882
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -209,6 +209,7 @@
     "badboy/iso8601",
     "baehyunsol/Quoridor-rs",
     "baerwang/openapi-rs",
+    "balajisivaraman/basic_calculator_rs",
     "base/base",
     "bbqsrc/cargo-ndk",
     "beeequeue/nvm-rust",
@@ -313,6 +314,7 @@
     "chelsea0x3b/cudarc",
     "chelsea0x3b/dfdx",
     "ChillFish8/tantivy",
+    "chipsenkbeil/vimwiki-rs",
     "chrisdickinson/tide-http-auth",
     "chrisguida/smaug",
     "chrisjsewell/markdown-it-pyrs",
@@ -844,6 +846,7 @@
     "layr-labs/hello-world-avs",
     "Layr-Labs/hokulea",
     "Layr-Labs/incredible-squaring-avs-rs",
+    "lbcb-sci/herro",
     "ldclabs/anda",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
@@ -1105,6 +1108,7 @@
     "RazrFalcon/memmap2-rs",
     "RazrFalcon/pico-args",
     "RazrFalcon/roxmltree",
+    "RazrFalcon/svgcleaner",
     "recmo/uint",
     "release-plz/release-plz",
     "reproto/reproto",

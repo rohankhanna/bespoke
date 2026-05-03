@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1117,
+    "components": 1086,
     "concepts": 568,
     "observations": 571,
-    "repos": 127,
+    "repos": 128,
     "terms": 567
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "1mb-dev/natcheck",
@@ -61,6 +61,7 @@
     "flagos-ai/Megatron-LM-FL",
     "flathub-infra/flat-manager-hooks",
     "fontsource/download-stat-aggregator",
+    "godot-rust/godot4-prebuilt",
     "googleapis/google-cloud-php-compute",
     "grizzlypeak3d/feather-tk",
     "hao-ai-lab/flash-attention-fp4",
@@ -104,7 +105,6 @@
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
     "multiformats/github-mgmt",
-    "oclif/plugin-search",
     "octokit/auth-callback.js",
     "OpenSC/Nightly",
     "oscard0m/ts-transformer-remove-named-export",
@@ -119,6 +119,7 @@
     "reviewdog/action-alex",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
+    "scaleway/serverless-api-framework-python",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-bigint",
     "sp1-patches/RustCrypto-hashes",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 310,
-    "concepts": 586,
-    "observations": 587,
-    "repos": 151,
-    "terms": 579
+    "concepts": 611,
+    "observations": 612,
+    "repos": 155,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -35,6 +35,8 @@
     "apple/ToolSandbox",
     "arsenetar/send2trash",
     "ashvardanian/less_slow.py",
+    "autonomousvision/carla_garage",
+    "autonomousvision/plant",
     "aws-cloudformation/aws-cloudformation-samples",
     "axon-rl/gem",
     "Azure-Samples/ai-rag-chat-evaluator",
@@ -80,6 +82,7 @@
     "inclusionAI/ASearcher",
     "InternRobotics/VLAC",
     "InternScience/SciReason",
+    "jimmyyhwu/tidybot2",
     "joblib/threadpoolctl",
     "KellerJordan/cifar10-airbench",
     "kevinhwang91/rnvimr",
@@ -96,6 +99,7 @@
     "marin-community/levanter",
     "mariusvniekerk/condax",
     "mcfletch/pyopengl",
+    "meidachen/STPLS3D",
     "microsoft/ANCE",
     "microsoft/botbuilder-python",
     "microsoft/langchain-for-beginners",

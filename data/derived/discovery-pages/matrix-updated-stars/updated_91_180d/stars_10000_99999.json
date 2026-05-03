@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 657,
-    "concepts": 434,
-    "observations": 435,
-    "repos": 64,
-    "terms": 432
+    "components": 663,
+    "concepts": 437,
+    "observations": 438,
+    "repos": 65,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -66,6 +66,7 @@
     "snarktank/ralph",
     "songquanpeng/one-api",
     "spf13/viper",
+    "Stability-AI/generative-models",
     "tachyons-css/tachyons",
     "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",

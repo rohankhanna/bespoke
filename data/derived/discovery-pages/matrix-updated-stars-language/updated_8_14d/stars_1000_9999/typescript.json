@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3820,
-    "concepts": 630,
-    "observations": 633,
+    "concepts": 614,
+    "observations": 617,
     "repos": 76,
-    "terms": 659
+    "terms": 643
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a-ghorbani/pocketpal-ai",
     "actions/cache",
@@ -66,7 +66,6 @@
     "microsoft/vscode-cpptools",
     "microsoft/vscode-js-debug",
     "MiniMax-AI/cli",
-    "mksglu/context-mode",
     "netlify/cli",
     "nizos/tdd-guard",
     "NomicFoundation/hardhat",
@@ -82,6 +81,7 @@
     "react-native-community/cli",
     "redhat-developer/yaml-language-server",
     "safe-fndn/safe-smart-account",
+    "solidjs/solid-router",
     "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "thomasloven/lovelace-card-mod",

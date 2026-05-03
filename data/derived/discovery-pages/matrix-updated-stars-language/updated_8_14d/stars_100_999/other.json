@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1651,
-    "concepts": 1142,
-    "observations": 1145,
-    "repos": 183,
-    "terms": 1161
+    "components": 1646,
+    "concepts": 1140,
+    "observations": 1143,
+    "repos": 182,
+    "terms": 1137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a2aproject/a2a-dotnet",
     "abap2UI5/abap2UI5",
@@ -116,11 +116,11 @@
     "jgarber/redcloth",
     "jixiuf/vterm-toggle",
     "jrh13/hol-light",
-    "jsonbored/claudepro-directory",
     "julia-vscode/LanguageServer.jl",
     "JuliaArrays/ArrayInterface.jl",
     "JuliaArrays/OffsetArrays.jl",
     "JuliaArrays/StaticArrays.jl",
+    "JuliaData/CSV.jl",
     "JuliaData/Tables.jl",
     "JuliaDiff/ChainRules.jl",
     "JuliaDiff/ChainRulesCore.jl",
@@ -191,7 +191,6 @@
     "usnistgov/ACVP",
     "vibhorkum/pg_background",
     "vim-fuzzbox/fuzzbox.vim",
-    "vladimir-kotikov/clink-completions",
     "w3c/aria",
     "WebAssembly/meetings",
     "WebAssembly/threads",

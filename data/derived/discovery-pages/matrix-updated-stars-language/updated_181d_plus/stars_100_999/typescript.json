@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3443,
-    "concepts": 571,
-    "observations": 572,
-    "repos": 149,
-    "terms": 583
+    "components": 3580,
+    "concepts": 575,
+    "observations": 576,
+    "repos": 150,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -141,6 +141,7 @@
     "rewbs/sd-parseq",
     "runwayml/RunwayML-for-Photoshop",
     "sawhney17/logseq-schrodinger",
+    "scalabel/scalabel",
     "sebelga/gstore-node",
     "simonwep/nanopop",
     "sinclairzx81/typebox-codegen",

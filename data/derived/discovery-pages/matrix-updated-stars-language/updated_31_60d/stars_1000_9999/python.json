@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 316,
-    "concepts": 525,
-    "observations": 525,
-    "repos": 84,
-    "terms": 521
+    "concepts": 539,
+    "observations": 539,
+    "repos": 87,
+    "terms": 535
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
+    "aigc3d/LHM",
     "anapnoe/stable-diffusion-webui-ux",
     "ApeWorX/ape",
     "arcee-ai/mergekit",
@@ -91,11 +92,13 @@
     "tensorflow/datasets",
     "Textualize/rich-cli",
     "themix-project/themix-gui",
+    "Thinklab-SJTU/Bench2Drive",
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "ufoym/deepo",
     "Vchitect/VBench",
     "wenet-e2e/wenet",
+    "yangyanli/PointCNN",
     "YanjieZe/GMR",
     "Yelp/dumb-init"
   ]

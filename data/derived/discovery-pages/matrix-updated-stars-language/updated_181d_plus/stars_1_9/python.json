@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 399,
-    "concepts": 276,
-    "observations": 276,
-    "repos": 210,
-    "terms": 281
+    "concepts": 277,
+    "observations": 277,
+    "repos": 216,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -52,6 +52,9 @@
     "altendky/qt-tools",
     "AmamiyaRenn/TaichiCourseS1Hw1",
     "antonagestam/pylint-mypy-overlap",
+    "appl-team/AutoNaming",
+    "appl-team/ExplErr",
+    "appl-team/TwitterPersonality",
     "arangoml/dgl-adapter",
     "asadfgglie/voicevox_tts",
     "asg017/sqlite-base64",
@@ -164,6 +167,7 @@
     "meteoswiss-mdr/pyart",
     "meteoswiss/pyrad-examples",
     "MikeSteglich/pyCmpl3",
+    "Muennighoff/sentence-transformers",
     "multipath/fairseq-stable",
     "neulab/explainaboard_client",
     "NeuralVox/OpenPhonemizer-GPL",
@@ -198,6 +202,7 @@
     "readthedocs/sphinx-build-compatibility",
     "reginald-mclean/Metaworld",
     "render-examples/chatgpt-retrieval-plugin",
+    "rexwangcc/taichi-voxel-challenge",
     "rochacbruno/dynaconf-mirror",
     "scicode-bench/scicode-bench.github.io",
     "scottemmons/youngs-cql",
@@ -215,6 +220,7 @@
     "unum-cloud/ustore-deps",
     "vacancy/JacMLDash",
     "VeriSilicon/tvm",
+    "victoriacity/voxel-challenge",
     "vitchyr/doodad",
     "wangshuai09/stable-diffusion-webui",
     "xinke-wang/EST-VQA",

@@ -3,8 +3,8 @@
     "components": 3664,
     "concepts": 884,
     "observations": 884,
-    "repos": 292,
-    "terms": 874
+    "repos": 293,
+    "terms": 871
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -97,6 +97,7 @@
     "d3/d3-interpolate",
     "d3/d3-time-format",
     "d3x0r/JSON6",
+    "daerduoCarey/partnet_anno_system",
     "dangreenisrael/eslint-plugin-jest-formatting",
     "dat-ecosystem-archive/dat-desktop",
     "dat-ecosystem-archive/dat-node",

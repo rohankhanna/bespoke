@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-03T05:56:37.358457+00:00`
+Generated at: `2026-05-03T07:46:29.058247+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 97
-- components: 109
-- concepts: 97
-- observations: 98
+- repos: 8
+- terms: 93
+- components: 100
+- concepts: 93
+- observations: 94
 
 ## Static behavior
 
@@ -34,14 +34,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4734 | 2026-05-02T20:20:59Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5739 | 2026-05-02T16:36:19Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
 | [nats-io/nats.rs](https://github.com/nats-io/nats.rs) | 1450 | 2026-05-02T13:51:07Z | Rust | CLI | 8 | 13 | 8 | 8 |
-| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9275 | 2026-05-03T03:44:34Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
-| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |
 | [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5739 | 2026-05-02T16:36:19Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
 | [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4734 | 2026-05-02T20:20:59Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |

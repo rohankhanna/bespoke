@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 3,
-    "terms": 31
+    "components": 9,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/maxdiffusion",
-    "cognizant-ai-lab/neuro-san-studio",
-    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    "AI-Hypercomputer/maxdiffusion"
   ]
 }

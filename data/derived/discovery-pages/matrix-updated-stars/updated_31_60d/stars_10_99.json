@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1623,
-    "concepts": 985,
-    "observations": 987,
+    "components": 1625,
+    "concepts": 987,
+    "observations": 989,
     "repos": 290,
-    "terms": 985
+    "terms": 987
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -36,6 +36,7 @@
     "ai4colonoscopy/PraNet-V2",
     "aiden0z/pptx-renderer",
     "AIWintermuteAI/whispercpp",
+    "alfaix/neotest-gtest",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "am-kantox/md",
@@ -48,7 +49,6 @@
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/incubator-devlake-website",
-    "apache/parquet-testing",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",

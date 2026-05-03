@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 977,
-    "concepts": 876,
-    "observations": 877,
-    "repos": 178,
-    "terms": 880
+    "components": 992,
+    "concepts": 887,
+    "observations": 888,
+    "repos": 182,
+    "terms": 913
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/luamake",
@@ -36,6 +36,7 @@
     "ankane/torch.rb",
     "ankane/transformers-ruby",
     "ankane/xgboost-ruby",
+    "ApolloScapeAuto/dataset-api",
     "App-vNext/Polly-Samples",
     "apple/swift-nio-extras",
     "apple/swift-nio-http2",
@@ -113,6 +114,7 @@
     "janestreet/torch",
     "jeremymailen/kotlinter-gradle",
     "jsdoc/jsdoc.github.io",
+    "jsonbored/claudepro-directory",
     "JuliaPluto/PlutoUI.jl",
     "JuliaRegistries/Registrator.jl",
     "JuliaStats/MultivariateStats.jl",
@@ -137,6 +139,7 @@
     "n8willis/opentype-shaping-documents",
     "nacos-group/nacos-group.github.io",
     "nashamri/spacemacs-theme",
+    "naver/anny",
     "nodejs/build",
     "nrepl/nrepl",
     "nubank/matcher-combinators",
@@ -188,6 +191,7 @@
     "twostraws/SwiftGD",
     "usnistgov/ACVP-Server",
     "vim-jp/vital.vim",
+    "vladimir-kotikov/clink-completions",
     "w3c/web-performance",
     "w3c/webdriver-bidi",
     "WebKitForWindows/WebKitRequirements",

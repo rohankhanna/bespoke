@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3396,
-    "concepts": 2260,
-    "observations": 2266,
-    "repos": 398,
-    "terms": 2270
+    "components": 3398,
+    "concepts": 2279,
+    "observations": 2285,
+    "repos": 402,
+    "terms": 2289
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -19,6 +19,7 @@
     "activerecord-hackery/ransack",
     "Adobe-CEP/Samples",
     "AgentOps-AI/agentops",
+    "aigc3d/LHM",
     "aleclarson/vite-tsconfig-paths",
     "alexreisner/geocoder",
     "AlibabaResearch/AdvancedLiterateMachinery",
@@ -375,6 +376,7 @@
     "TfTHacker/obsidian42-brat",
     "TheAssassin/AppImageLauncher",
     "themix-project/themix-gui",
+    "Thinklab-SJTU/Bench2Drive",
     "ThrowTheSwitch/Unity",
     "tianon/gosu",
     "timdorr/tesla-api",
@@ -401,6 +403,7 @@
     "xlite-dev/lite.ai.toolkit",
     "xtaci/kcp-go",
     "xtaci/smux",
+    "yangyanli/PointCNN",
     "YanjieZe/GMR",
     "Yelp/dumb-init",
     "ykdojo/claude-code-tips",
@@ -409,6 +412,7 @@
     "zarazhangrui/codebase-to-course",
     "zardus/preeny",
     "zdharma-continuum/zinit",
+    "zeromq/cppzmq",
     "zjunlp/EasyEdit",
     "zplug/zplug"
   ]

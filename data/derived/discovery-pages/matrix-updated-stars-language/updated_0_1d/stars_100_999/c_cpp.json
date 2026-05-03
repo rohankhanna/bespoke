@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 5,
-    "terms": 43
+    "components": 24,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 6,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "apache/iceberg-cpp",
+    "Blosc/c-blosc2",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "Mercury13/unicodia",

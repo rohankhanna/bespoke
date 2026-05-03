@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 708,
-    "concepts": 895,
-    "observations": 895,
-    "repos": 135,
-    "terms": 913
+    "components": 739,
+    "concepts": 913,
+    "observations": 913,
+    "repos": 139,
+    "terms": 933
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -106,16 +106,20 @@
     "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "modelscope/ms-agent",
+    "mozillazg/python-pinyin",
     "neovim/pynvim",
+    "nesquena/hermes-webui",
     "niklasf/python-chess",
     "nousresearch/atropos",
     "NVlabs/Sana",
     "open-thought/reasoning-gym",
+    "PDFMathTranslate-next/PDFMathTranslate-next",
     "Peterande/D-FINE",
     "PINTO0309/PINTO_model_zoo",
     "PKU-YuanGroup/Helios",
     "PKU-YuanGroup/MagicTime",
     "plastic-labs/honcho",
+    "Pointcept/Pointcept",
     "PyCQA/bandit",
     "pypa/setuptools",
     "pyro-ppl/numpyro",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7620,
-    "concepts": 4009,
-    "observations": 4018,
-    "repos": 339,
-    "terms": 3993
+    "components": 7732,
+    "concepts": 4085,
+    "observations": 4096,
+    "repos": 343,
+    "terms": 4061
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a-h/templ",
     "AaronFeng753/Waifu2x-Extension-GUI",
@@ -34,6 +34,7 @@
     "apache/brpc",
     "apache/casbin",
     "apache/dubbo",
+    "apache/echarts",
     "apache/kafka",
     "apache/pulsar",
     "apache/rocketmq",
@@ -95,6 +96,7 @@
     "dbeaver/dbeaver",
     "dcloudio/uni-app",
     "debezium/debezium",
+    "deepspeedai/DeepSpeed",
     "dgraph-io/dgraph",
     "DioxusLabs/dioxus",
     "dmlc/xgboost",
@@ -308,6 +310,7 @@
     "square/moshi",
     "square/okhttp",
     "state-spaces/mamba",
+    "storybookjs/storybook",
     "styled-components/styled-components",
     "stylelint/stylelint",
     "surrealdb/surrealdb",
@@ -346,6 +349,7 @@
     "web-infra-dev/midscene",
     "webpro-nl/knip",
     "winsiderss/systeminformer",
+    "withastro/astro",
     "wix/Detox",
     "wkentaro/labelme",
     "xmake-io/xmake",

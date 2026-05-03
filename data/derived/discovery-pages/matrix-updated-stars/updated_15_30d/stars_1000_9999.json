@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6525,
-    "concepts": 3952,
-    "observations": 3968,
-    "repos": 617,
-    "terms": 4070
+    "components": 6577,
+    "concepts": 3989,
+    "observations": 4005,
+    "repos": 623,
+    "terms": 4108
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -405,6 +405,7 @@
     "MiniMax-AI/MiniMax-MCP",
     "mitsuhiko/similar",
     "mkdocs/catalog",
+    "mksglu/context-mode",
     "ml-explore/mlx-examples",
     "ml-explore/mlx-swift",
     "ml-explore/mlx-swift-examples",
@@ -415,6 +416,7 @@
     "Morantron/tmux-fingers",
     "mourner/rbush",
     "mozilla/sccache",
+    "mozillazg/python-pinyin",
     "mutoe/vue3-realworld-example-app",
     "mvdan/sh",
     "nabijaczleweli/cargo-update",
@@ -422,6 +424,7 @@
     "napi-rs/node-rs",
     "ndmitchell/ghcid",
     "neovim/pynvim",
+    "nesquena/hermes-webui",
     "nginx-proxy/docker-gen",
     "nigels-com/glew",
     "nihui/opencv-mobile",
@@ -460,6 +463,7 @@
     "operator-framework/operator-sdk",
     "owloops/claude-powerline",
     "PAIR-code/lit",
+    "PDFMathTranslate-next/PDFMathTranslate-next",
     "pditommaso/awesome-pipeline",
     "peco/peco",
     "peergos/peergos",
@@ -476,6 +480,7 @@
     "plasma-umass/coz",
     "plastic-labs/honcho",
     "plotly/plotly.R",
+    "Pointcept/Pointcept",
     "pop-os/cosmic-text",
     "posva/catimg",
     "prabirshrestha/vim-lsp",
@@ -533,6 +538,7 @@
     "SarahWeiii/CoACD",
     "sbdchd/neoformat",
     "schachmat/wego",
+    "sebastianstarke/AI4Animation",
     "serde-rs/json",
     "serverless-operations/serverless-step-functions",
     "shenweichen/DeepCTR-Torch",

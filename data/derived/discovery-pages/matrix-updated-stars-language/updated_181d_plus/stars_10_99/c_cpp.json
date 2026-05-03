@@ -3,7 +3,7 @@
     "components": 387,
     "concepts": 441,
     "observations": 441,
-    "repos": 209,
+    "repos": 210,
     "terms": 438
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "a-n-t-h-o-n-y/Escape",
@@ -32,6 +32,7 @@
     "asg017/sqlite-path",
     "asg017/sqlite-url",
     "ashvardanian/SmashTable",
+    "asu-trans-ai-lab/DTALite",
     "autowarefoundation/autoware_ai_simulation",
     "avaneev/gammaenv",
     "awslabs/bike-kem",

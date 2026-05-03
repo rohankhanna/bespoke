@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 6,
-    "terms": 38
+    "components": 31,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 7,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "dockur/windows",
+    "githubnext/monaspace",
     "lxgw/LxgwWenKai",
     "rbenv/rbenv",
     "romkatv/powerlevel10k",

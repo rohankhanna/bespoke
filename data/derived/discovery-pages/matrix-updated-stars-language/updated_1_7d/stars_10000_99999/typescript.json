@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2897,
-    "concepts": 699,
-    "observations": 701,
-    "repos": 57,
-    "terms": 699
+    "components": 3004,
+    "concepts": 754,
+    "observations": 758,
+    "repos": 60,
+    "terms": 752
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
     "aidenybai/react-scan",
     "angular/angular-cli",
     "ant-design/ant-design",
+    "apache/echarts",
     "apollographql/apollo-server",
     "appium/appium",
     "appwrite/appwrite",
@@ -61,6 +62,7 @@
     "remix-run/react-router",
     "remix-run/remix",
     "scalar/scalar",
+    "storybookjs/storybook",
     "styled-components/styled-components",
     "tailwindlabs/tailwindcss",
     "TanStack/query",
@@ -70,6 +72,7 @@
     "vercel-labs/skills",
     "vitest-dev/vitest",
     "web-infra-dev/midscene",
-    "webpro-nl/knip"
+    "webpro-nl/knip",
+    "withastro/astro"
   ]
 }

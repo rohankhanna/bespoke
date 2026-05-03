@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 569,
-    "concepts": 918,
-    "observations": 921,
-    "repos": 267,
-    "terms": 907
+    "components": 573,
+    "concepts": 931,
+    "observations": 934,
+    "repos": 273,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -66,10 +66,12 @@
     "bwa-mem2/bwa-mem2",
     "bytedance/effective_transformer",
     "bytedance/particle-sfm",
+    "c-zhou/yahs",
     "c42f/tinyformat",
     "CaoWGG/TensorRT-CenterNet",
     "caryll/otfcc",
     "catid/leopard",
+    "chanzuckerberg/shasta",
     "chenkui164/FastASR",
     "chfast/ethash",
     "chongyi-zheng/SMPLpp",
@@ -88,6 +90,7 @@
     "DayBreak-u/yolo-face-with-landmark",
     "DeadSix27/waifu2x-converter-cpp",
     "Deep-Symmetry/carabiner",
+    "dfguan/purge_dups",
     "digitalocean/prometheus-client-c",
     "dlbeer/dhara",
     "dropbox/zxcvbn-ios",
@@ -225,8 +228,10 @@
     "ollix/MetalNanoVG",
     "openai/atari-py",
     "openai/coinrun",
+    "OpenDriveLab/OpenLane",
     "openeuler-mirror/iSulad",
     "openxrlab/xrnerf",
+    "openxrlab/xrsfm",
     "orhun/kermit",
     "ot/ds2i",
     "P-H-C/phc-string-format",
@@ -253,6 +258,7 @@
     "rsummers11/CADLab",
     "ruby-numo/numo-narray",
     "sadaszewski/concaveman-cpp",
+    "samylee/Towards-Realtime-MOT-Cpp",
     "serde-rs/json-benchmark",
     "sergei-mironov/xkb-switch",
     "shumatech/BOSSA",

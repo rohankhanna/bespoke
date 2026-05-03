@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 5,
-    "terms": 45
+    "components": 213,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 4,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "apollographql/apollo-client-devtools",
     "boxlite-ai/boxlite",
     "ng-packagr/ng-packagr",
-    "SilentVoid13/Templater",
-    "vuejs/babel-plugin-jsx"
+    "SilentVoid13/Templater"
   ]
 }

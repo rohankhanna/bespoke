@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-03T05:56:37.358457+00:00`
+Generated at: `2026-05-03T07:46:29.058247+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 18
-- components: 7
+- repos: 38
+- terms: 16
+- components: 5
 - concepts: 15
 - observations: 15
 
@@ -64,8 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -109,5 +107,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |

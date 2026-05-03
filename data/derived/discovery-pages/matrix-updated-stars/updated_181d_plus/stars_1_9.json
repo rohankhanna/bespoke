@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3969,
-    "concepts": 1401,
-    "observations": 1403,
-    "repos": 988,
-    "terms": 1402
+    "concepts": 1402,
+    "observations": 1404,
+    "repos": 995,
+    "terms": 1403
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -139,6 +139,9 @@
     "apache/netbeans-mavenutils-archetypes",
     "apnadkarni/tcl-libgit2",
     "appbaseio/flutter-searchbox",
+    "appl-team/AutoNaming",
+    "appl-team/ExplErr",
+    "appl-team/TwitterPersonality",
     "Ar-Ray-code/RenderTexture2ROS2Image",
     "aralyekta/prompttester",
     "arangoml/dgl-adapter",
@@ -655,6 +658,7 @@
     "kurrent-io/es-gencert-cli",
     "kurrent-io/EventStoreDB-Client-Dotnet-Legacy",
     "kushaldas/cpython",
+    "kvfrans/tfds_builders",
     "KyberNetwork/dao_sc",
     "L-Trump/logseq-publish-docker",
     "l3d00m/mmm-librespotjava",
@@ -739,6 +743,7 @@
     "mrsmkl/keep-awake-rs",
     "msqr1/kaldi-wasm2",
     "mtrbpr/lua-promql-parser",
+    "Muennighoff/sentence-transformers",
     "multipath/fairseq-stable",
     "my-liminal-space/read-parquet-browser",
     "nanxstats/ssw-r",
@@ -850,6 +855,7 @@
     "render-examples/chatgpt-retrieval-plugin",
     "retracedhq/retraced-go",
     "rexthinker/rexthinker.github.io",
+    "rexwangcc/taichi-voxel-challenge",
     "rhoban/maple",
     "rhysd/ss",
     "rigellute/scoop-bucket",
@@ -951,6 +957,7 @@
     "vega/logos",
     "venkat1701/research4j",
     "VeriSilicon/tvm",
+    "victoriacity/voxel-challenge",
     "videojs/admin",
     "vim-fall/deno-fall-custom",
     "viperjuice/flutter-structurizr",

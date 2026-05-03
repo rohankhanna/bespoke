@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 715,
-    "concepts": 346,
-    "observations": 346,
-    "repos": 82,
-    "terms": 345
+    "components": 735,
+    "concepts": 367,
+    "observations": 367,
+    "repos": 84,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
@@ -28,6 +28,7 @@
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
     "controlplaneio-fluxcd/distribution",
+    "davidanthoff/Electron.jl",
     "day8/re-frame-debux",
     "dotnet/wpf-test",
     "dwyl/elixir-auth-github-demo",
@@ -65,6 +66,7 @@
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
     "localstack/localstack-cli",
+    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "mlocati/pecl-info",
     "ocaml-tracing/ocaml-trace",

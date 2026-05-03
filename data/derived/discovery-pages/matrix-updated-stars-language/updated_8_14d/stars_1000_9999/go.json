@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1047,
-    "concepts": 981,
-    "observations": 986,
-    "repos": 112,
-    "terms": 981
+    "components": 1051,
+    "concepts": 990,
+    "observations": 995,
+    "repos": 113,
+    "terms": 990
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -125,6 +125,7 @@
     "tidwall/tile38",
     "tilt-dev/tilt",
     "tonistiigi/binfmt",
+    "trzsz/trzsz-ssh",
     "x-motemen/ghq"
   ]
 }

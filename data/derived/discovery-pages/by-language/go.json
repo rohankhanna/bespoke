@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 8743,
-    "concepts": 8602,
-    "observations": 8631,
-    "repos": 1470,
-    "terms": 8573
+    "components": 8761,
+    "concepts": 8621,
+    "observations": 8650,
+    "repos": 1473,
+    "terms": 8588
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -40,6 +40,7 @@
     "a-h/templ",
     "a2aproject/a2a-go",
     "a3chron/gith",
+    "aarondl/authboss",
     "abatilo/github-action-locks",
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -779,6 +780,7 @@
     "goreleaser/goreleaser",
     "goreleaser/nfpm",
     "goreleaser/sponsors",
+    "gorilla/schema",
     "gorilla/securecookie",
     "gorilla/sessions",
     "gorilla/websocket",
@@ -1289,6 +1291,7 @@
     "runfinch/finch",
     "runpod/runpodctl",
     "russross/blackfriday",
+    "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",
     "scaleway/serverless-examples",
     "scaleway/serverless-functions-go",

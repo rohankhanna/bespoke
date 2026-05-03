@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 573,
-    "concepts": 382,
-    "observations": 385,
+    "components": 574,
+    "concepts": 383,
+    "observations": 386,
     "repos": 67,
-    "terms": 381
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "actix/actix-net",
@@ -39,6 +39,7 @@
     "djkoloski/rust_serialization_benchmark",
     "dtolnay/proc-macro2",
     "eigenwallet/core",
+    "eitsupi/arf",
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "esp-rs/esp-idf-sys",
@@ -56,7 +57,6 @@
     "lambdaclass/ethrex",
     "LaurenzV/krilla",
     "lu-zero/cargo-c",
-    "messense/jieba-rs",
     "microsoft/python-environment-tools",
     "nix-community/harmonia",
     "NixOS/nix-installer",

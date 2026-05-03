@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
+    "components": 111,
     "concepts": 44,
     "observations": 44,
-    "repos": 28,
-    "terms": 51
+    "repos": 29,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -41,6 +41,7 @@
     "ROCm/rbuild",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
+    "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"
   ]
 }

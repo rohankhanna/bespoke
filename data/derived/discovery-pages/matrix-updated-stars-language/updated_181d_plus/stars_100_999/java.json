@@ -3,7 +3,7 @@
     "components": 62,
     "concepts": 122,
     "observations": 122,
-    "repos": 41,
+    "repos": 42,
     "terms": 122
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
@@ -46,6 +46,7 @@
     "mbosecke/template-benchmark",
     "MetaGLM/zhipuai-sdk-java-v4",
     "microsoft/botbuilder-java",
+    "minerllabs/minerl",
     "mukel/llama2.java",
     "netplex/json-smart-v2",
     "rpcx-ecosystem/rpcx-benchmark",

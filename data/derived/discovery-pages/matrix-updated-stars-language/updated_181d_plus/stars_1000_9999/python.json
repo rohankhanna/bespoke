@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 731,
-    "concepts": 3105,
-    "observations": 3107,
-    "repos": 788,
-    "terms": 3057
+    "concepts": 3140,
+    "observations": 3142,
+    "repos": 796,
+    "terms": 3088
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "abewley/sort",
@@ -327,6 +327,7 @@
     "HuCaoFighting/Swin-Unet",
     "hugapi/hug",
     "huggingface/distil-whisper",
+    "hustvl/MapTR",
     "hustvl/Vim",
     "hyperopt/hyperopt-sklearn",
     "hzwer/ECCV2022-RIFE",
@@ -386,6 +387,7 @@
     "jzhang38/TinyLlama",
     "kabachuha/sd-webui-text2video",
     "KaiDMML/FakeNewsNet",
+    "Kaixhin/Rainbow",
     "kakaobrain/coyo-dataset",
     "kakaobrain/nerf-factory",
     "karolpiczak/ESC-50",
@@ -488,6 +490,7 @@
     "mkocabas/VIBE",
     "mlfoundations/open_flamingo",
     "mmatl/pyrender",
+    "moojink/openvla-oft",
     "MoonshotAI/MoBA",
     "MooreThreads/Moore-AnimateAnyone",
     "mooz/percol",
@@ -532,6 +535,7 @@
     "NVlabs/stylegan2-ada",
     "NVlabs/stylegan2-ada-pytorch",
     "NVlabs/stylegan3",
+    "NVlabs/VoxFormer",
     "nwojke/deep_sort",
     "OFA-Sys/OFA",
     "OFA-Sys/ONE-PEACE",
@@ -573,6 +577,7 @@
     "OpenBMB/ToolBench",
     "OpenBMB/VisCPM",
     "OpenBMB/XAgent",
+    "opendatalab/DocLayout-YOLO",
     "OpenDriveLab/Birds-eye-view-Perception",
     "OpenDriveLab/UniAD",
     "OpenGVLab/Ask-Anything",
@@ -606,6 +611,7 @@
     "poloclub/diffusiondb",
     "predibase/lorax",
     "PRIME-RL/PRIME",
+    "princeton-nlp/tree-of-thought-llm",
     "princeton-vl/DROID-SLAM",
     "princeton-vl/RAFT",
     "project-baize/baize-chatbot",
@@ -633,6 +639,7 @@
     "real-stanford/diffusion_policy",
     "rhymes-ai/Allegro",
     "richzhang/PerceptualSimilarity",
+    "rlabbe/filterpy",
     "rlawjdghek/StableVITON",
     "rll/rllab",
     "rlworkgroup/garage",
@@ -779,6 +786,7 @@
     "young-geng/EasyLM",
     "YoYo000/MVSNet",
     "Yuanshi9815/OminiControl",
+    "yuchenlin/rebiber",
     "yulunzhang/RCAN",
     "YvanYin/Metric3D",
     "zai-org/CodeGeeX",

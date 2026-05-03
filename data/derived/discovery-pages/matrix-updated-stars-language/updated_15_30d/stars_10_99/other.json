@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 438,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 87,
-    "terms": 221
+    "components": 436,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 86,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AdaCore/gnatcoll-core",
     "adams85/acornima",
     "adrigzr/neotest-mocha",
-    "alfaix/neotest-gtest",
     "ankane/AnomalyDetection.rb",
     "ankane/gslr",
     "ankane/libmf-ruby",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1581,
-    "concepts": 2213,
-    "observations": 2219,
-    "repos": 729,
-    "terms": 2204
+    "components": 1604,
+    "concepts": 2261,
+    "observations": 2267,
+    "repos": 738,
+    "terms": 2252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "1runeberg/confichat",
@@ -24,6 +24,7 @@
     "abisee/attn_vis",
     "aboudoux/BlazorAnimation",
     "acids-ircam/diffusion_models",
+    "adobe-type-tools/cmap-resources",
     "agentica-project/rllm",
     "ahojnnes/local-feature-evaluation",
     "ai-forever/MoVQGAN",
@@ -225,6 +226,7 @@
     "denistakeda/posh",
     "denistakeda/re-posh",
     "denisyarats/drq",
+    "derric/cleanthesis",
     "detekt/sonar-detekt",
     "distantmagic/resonance",
     "djanderson/aho",
@@ -299,6 +301,7 @@
     "generalized-iou/g-darknet",
     "geomagical/lama-with-refiner",
     "gevtushenko/llm.c",
+    "GFA-spec/GFA-spec",
     "gfanto/fzf-lsp.nvim",
     "ggandor/flit.nvim",
     "girishji/vimcomplete",
@@ -323,6 +326,7 @@
     "harningt/luajson",
     "harvardnlp/namedtensor",
     "haskell/attoparsec",
+    "HaxeFoundation/dox",
     "haya14busa/is.vim",
     "helm/charts-repo-actions-demo",
     "Helsinki-NLP/Tatoeba-Challenge",
@@ -387,6 +391,9 @@
     "joonro/ConEmu-Color-Themes",
     "jordipons/musicnn",
     "jphall663/GWU_data_mining",
+    "JTAmos/Temporal.jl",
+    "JuliaData/IndexedTables.jl",
+    "JuliaData/TypedTables.jl",
     "JuliaDynamics/InteractiveDynamics.jl",
     "JuliaGraphics/Gtk.jl",
     "JuliaInterop/NBInclude.jl",
@@ -505,6 +512,7 @@
     "Muennighoff/sgpt",
     "multiarch/crossbuild",
     "mv-lab/AISP",
+    "MY1L/Unicode",
     "myrjola/diminish.el",
     "mzdluo123/MiraiAndroid",
     "nak1114/rbenv-win",
@@ -513,6 +521,7 @@
     "naver-ai/DenseDiffusion",
     "net2cn/Real-ESRGAN_GUI",
     "nextjournal/clerk-demo",
+    "nghorbani/soma",
     "nightrome/cocostuffapi",
     "nim-lang/c2nim",
     "NimParsers/parsetoml",

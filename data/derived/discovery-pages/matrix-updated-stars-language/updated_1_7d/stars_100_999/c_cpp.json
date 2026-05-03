@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 490,
-    "observations": 491,
-    "repos": 74,
-    "terms": 488
+    "components": 457,
+    "concepts": 504,
+    "observations": 505,
+    "repos": 75,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "Alpine-DAV/ascent",
     "antgroup/vsag",
@@ -42,6 +42,7 @@
     "grizzlypeak3d/tlRender",
     "HazyResearch/HipKittens",
     "HybridRobotics/motion_tracking_controller",
+    "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
     "intel/llm-scaler",
     "intel/ScalableVectorSearch",
@@ -49,12 +50,12 @@
     "istio/proxy",
     "j20001970/GDMP",
     "jellyfin/jellyfin-ffmpeg",
+    "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
-    "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
     "libsdl-org/SDL_image",
     "llnl/blt",

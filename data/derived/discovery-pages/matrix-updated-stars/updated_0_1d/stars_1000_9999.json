@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1034,
-    "concepts": 576,
-    "observations": 579,
-    "repos": 62,
-    "terms": 576
+    "components": 978,
+    "concepts": 555,
+    "observations": 558,
+    "repos": 58,
+    "terms": 555
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "apache/datafusion-ballista",
@@ -22,7 +22,6 @@
     "boxlite-ai/boxlite",
     "CakeML/cakeml",
     "countries/countries",
-    "coverlet-coverage/coverlet",
     "crc-org/crc",
     "databendlabs/databend",
     "databendlabs/openraft",
@@ -59,12 +58,9 @@
     "PoseLib/PoseLib",
     "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
-    "pytest-dev/pytest-asyncio",
     "pytorch/audio",
-    "redis/redis-om-python",
     "rescript-lang/rescript",
     "ron-rs/ron",
-    "rust-lang/rustup",
     "SilentVoid13/Templater",
     "sporkmonger/addressable",
     "stdlib-js/stdlib",
@@ -72,8 +68,8 @@
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
+    "validator/validator",
     "ViscousPot/GitSync",
-    "vuejs/babel-plugin-jsx",
     "web-platform-tests/wpt"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 473,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 17,
-    "terms": 38
+    "components": 505,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 18,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
+    "adevinta/actions-lighthouseci-compare",
     "atom-yang/aumi",
     "cahamilton/css-property-sort-order-smacss",
     "connectrpc/connect-playwright-es",

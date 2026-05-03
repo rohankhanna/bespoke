@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 49
+    "components": 125,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 8,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
@@ -19,6 +19,7 @@
     "anthropics/skills",
     "google-gemini/gemini-cli",
     "kubernetes/kubernetes",
+    "nodejs/node",
     "obra/superpowers"
   ]
 }

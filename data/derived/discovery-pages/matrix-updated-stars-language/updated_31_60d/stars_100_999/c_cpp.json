@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 288,
-    "observations": 289,
-    "repos": 55,
-    "terms": 287
+    "components": 191,
+    "concepts": 296,
+    "observations": 297,
+    "repos": 56,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -64,6 +64,7 @@
     "Tomas-M/iotop",
     "usnistgov/trec_eval",
     "uxlfoundation/oneMath",
+    "vcflib/vcflib",
     "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1029,
-    "concepts": 693,
-    "observations": 694,
-    "repos": 106,
-    "terms": 701
+    "components": 1031,
+    "concepts": 699,
+    "observations": 700,
+    "repos": 107,
+    "terms": 707
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -48,6 +48,7 @@
     "facebookresearch/dinov3",
     "fatih/vim-go",
     "FunAudioLLM/CosyVoice",
+    "githubnext/monaspace",
     "gitleaks/gitleaks",
     "glfw/glfw",
     "google/dopamine",

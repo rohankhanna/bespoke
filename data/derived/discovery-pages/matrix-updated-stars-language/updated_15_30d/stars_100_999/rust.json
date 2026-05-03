@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 269,
-    "observations": 272,
-    "repos": 61,
-    "terms": 279
+    "components": 410,
+    "concepts": 274,
+    "observations": 277,
+    "repos": 63,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -49,7 +49,9 @@
     "Kampfkarren/full-moon",
     "kylebarron/parquet-wasm",
     "LaurenzV/hayro",
+    "lbcb-sci/herro",
     "matrix-org/seshat",
+    "messense/jieba-rs",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
     "nix-community/lorri",

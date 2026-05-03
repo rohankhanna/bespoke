@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 64,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 16,
-    "terms": 95
+    "concepts": 105,
+    "observations": 105,
+    "repos": 17,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
+    "2KAbhishek/sway2k",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
     "alvistack/ansible-role-crun",

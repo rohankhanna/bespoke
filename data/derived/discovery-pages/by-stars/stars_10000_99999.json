@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28884,
-    "concepts": 13457,
-    "observations": 13507,
-    "repos": 1511,
-    "terms": 13443
+    "components": 28952,
+    "concepts": 13488,
+    "observations": 13539,
+    "repos": 1515,
+    "terms": 13457
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -35,6 +35,7 @@
     "accomplish-ai/accomplish",
     "acornjs/acorn",
     "actions/runner-images",
+    "actions/starter-workflows",
     "actix/actix-web",
     "adam-p/markdown-here",
     "adambard/learnxinyminutes-docs",
@@ -175,6 +176,7 @@
     "axolotl-ai-cloud/axolotl",
     "Azure/azure-quickstart-templates",
     "babel/babel",
+    "BabylonJS/Babylon.js",
     "badges/shields",
     "badlogic/pi-mono",
     "baldurk/renderdoc",
@@ -554,6 +556,7 @@
     "github-linguist/linguist",
     "github/copilot.vim",
     "github/spec-kit",
+    "githubnext/monaspace",
     "gitleaks/gitleaks",
     "GitoxideLabs/gitoxide",
     "gitui-org/gitui",
@@ -1319,6 +1322,7 @@
     "square/okhttp",
     "squidfunk/mkdocs-material",
     "srush/GPU-Puzzles",
+    "Stability-AI/generative-models",
     "Stability-AI/StableLM",
     "standard/standard",
     "stanfordnlp/dspy",

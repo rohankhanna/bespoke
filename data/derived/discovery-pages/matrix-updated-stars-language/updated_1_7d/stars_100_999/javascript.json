@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 853,
-    "concepts": 203,
-    "observations": 204,
-    "repos": 38,
-    "terms": 201
+    "components": 837,
+    "concepts": 201,
+    "observations": 202,
+    "repos": 37,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "all-contributors/app",
     "auth0/node-jwks-rsa",
     "auth0/node-jws",
     "avoidwork/tiny-lru",
     "Brooooooklyn/snappy",
-    "browserslist/caniuse-lite",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
     "csstools/cssdb",

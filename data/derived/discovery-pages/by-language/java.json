@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2457,
-    "concepts": 3024,
-    "observations": 3031,
-    "repos": 512,
-    "terms": 3005
+    "components": 2481,
+    "concepts": 3049,
+    "observations": 3056,
+    "repos": 516,
+    "terms": 3030
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -241,6 +241,7 @@
     "findbugsproject/findbugs",
     "finefuture/sentinel-dashboard-X",
     "firebase/firebase-android-sdk",
+    "fizzed/rocker",
     "fnproject/docs",
     "fnproject/fdk-java",
     "gchq/Gaffer",
@@ -389,6 +390,7 @@
     "mikesteglich/jcmpl",
     "milvus-io/milvus-sdk-java",
     "MineDojo/MineDojo",
+    "minerllabs/minerl",
     "mockingbot/react-native-zip-archive",
     "moyangzhan/langchain4j-aideepin",
     "msgpack/msgpack-java",
@@ -454,6 +456,7 @@
     "ronmamo/reflections",
     "rpcx-ecosystem/rpcx-benchmark",
     "ruby-processing/JRubyArt",
+    "saalfeldlab/n5",
     "SAP/SapMachine",
     "ScaCap/spring-auto-restdocs",
     "SeleniumHQ/selenium",
@@ -505,6 +508,7 @@
     "trustin/os-maven-plugin",
     "tushartushar/DesigniteJava",
     "U-Alberta/wned",
+    "validator/validator",
     "vegardit/vegardit-maven-parent",
     "venkat1701/research4j",
     "Vinhixus/TornadoVM-Ray-Tracer",

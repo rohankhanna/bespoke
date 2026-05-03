@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1520,
-    "concepts": 1292,
-    "observations": 1303,
-    "repos": 161,
-    "terms": 1288
+    "components": 1536,
+    "concepts": 1307,
+    "observations": 1318,
+    "repos": 162,
+    "terms": 1302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aaubry/YamlDotNet",
     "abapGit/abapGit",
@@ -44,6 +44,7 @@
     "commercialhaskell/stack",
     "confluentinc/confluent-kafka-go",
     "cortinico/kotlin-android-template",
+    "coverlet-coverage/coverlet",
     "csstools/postcss-plugins",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",

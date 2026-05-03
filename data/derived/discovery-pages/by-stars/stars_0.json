@@ -3,14 +3,14 @@
     "components": 2239,
     "concepts": 909,
     "observations": 912,
-    "repos": 627,
+    "repos": 629,
     "terms": 941
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -100,6 +100,7 @@
     "b2agi/exist-is-charter",
     "b2agi/exist-is-charter_kr",
     "babashka/homebrew-brew",
+    "barche/libcxxwrap_julia_jll.jl",
     "base24/.github",
     "Bearer/homebrew-tap",
     "begmyratb/floweye-yyyxxx.cc",
@@ -370,6 +371,7 @@
     "gopi2211/ralph",
     "grafana/cadvisor",
     "grubersjoe/react-activity-calendar-tests",
+    "guaguastandup/guaguastandup",
     "guoqingbao/candle",
     "gyf0311/lorekit",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",

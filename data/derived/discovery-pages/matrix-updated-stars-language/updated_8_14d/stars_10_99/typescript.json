@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1044,
-    "concepts": 183,
-    "observations": 185,
-    "repos": 35,
-    "terms": 189
+    "components": 1106,
+    "concepts": 197,
+    "observations": 199,
+    "repos": 36,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "adyscorpius/logseq-jira",
@@ -35,13 +35,14 @@
     "hashintel/labs",
     "jaegertracing/documentation",
     "jakoch/install-vulkan-sdk-action",
-    "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
     "KazariEX/dxup",
     "llamastack/llama-stack-client-typescript",
     "mcous/vitest-when",
+    "oclif/plugin-autocomplete",
     "oclif/plugin-help",
     "oclif/plugin-plugins",
+    "oclif/plugin-update",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

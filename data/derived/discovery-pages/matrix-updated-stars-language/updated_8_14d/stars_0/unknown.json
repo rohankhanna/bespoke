@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
+    "components": 5,
     "concepts": 15,
     "observations": 15,
-    "repos": 40,
-    "terms": 18
+    "repos": 38,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
@@ -26,8 +26,6 @@
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "Culmus/hebrew-fonts",
-    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",

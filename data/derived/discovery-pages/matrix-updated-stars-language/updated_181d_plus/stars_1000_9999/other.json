@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1093,
-    "concepts": 1215,
-    "observations": 1217,
-    "repos": 329,
-    "terms": 1209
+    "components": 1095,
+    "concepts": 1228,
+    "observations": 1230,
+    "repos": 333,
+    "terms": 1222
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "2d-inc/developer_quest",
@@ -78,6 +78,7 @@
     "csstools/postcss-preset-env",
     "cszn/DnCNN",
     "ctlllll/LLM-ToolMaker",
+    "cxli233/FriendsDontLetFriends",
     "DAMO-NLP-SG/VideoLLaMA3",
     "dashbitco/flow",
     "DatabaseCleaner/database_cleaner",
@@ -178,6 +179,7 @@
     "lewis6991/impatient.nvim",
     "Li-Chongyi/Zero-DCE",
     "LianjiaTech/BELLE",
+    "Lifelong-Robot-Learning/LIBERO",
     "lihaoyi/macropy",
     "Linaqruf/kohya-trainer",
     "liuchengxu/space-vim",
@@ -276,6 +278,7 @@
     "sjl/gundo.vim",
     "smartstore/SmartStoreNET",
     "sonph/onehalf",
+    "spullara/mustache.java",
     "srush/LLM-Training-Puzzles",
     "srush/Tensor-Puzzles",
     "StartBootstrap/startbootstrap-freelancer",
@@ -306,6 +309,7 @@
     "tianocore/tianocore.github.io",
     "tianzhi0549/CTPN",
     "Tiiiger/bert_score",
+    "tinghuiz/SfMLearner",
     "tjdevries/config_manager",
     "tonsky/datascript",
     "tonsky/rum",

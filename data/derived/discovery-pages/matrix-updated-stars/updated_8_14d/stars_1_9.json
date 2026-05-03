@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1232,
-    "concepts": 344,
-    "observations": 344,
-    "repos": 144,
-    "terms": 366
+    "components": 1224,
+    "concepts": 341,
+    "observations": 341,
+    "repos": 140,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "5sControl/5s-backend",
@@ -38,7 +38,6 @@
     "cake-contrib/Cake.Markdownlint",
     "caronc/apprise-docs",
     "celo-org/charts",
-    "celo-org/SocialConnect-Twitter-Server-Side",
     "certible/superagent-aws-sign",
     "cgrindel/swift_gazelle_plugin",
     "codelibs/fess-ds-atlassian",
@@ -92,10 +91,8 @@
     "gusztavvargadr/aws-vault-chocolatey",
     "hchiam/hchiam.github.io",
     "hermit-os/rust-std-hermit",
-    "ipfs/helia-remote-pinning",
     "j9t/htaccess-punk",
     "jhugestar/jhugestar.github.io",
-    "joinwell52-ai/codeflow-pwa",
     "juharris/optify",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/julia-buildkite",
@@ -119,6 +116,7 @@
     "newrelic/csec-node-agent",
     "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
+    "oclif/plugin-search",
     "octokit/auth-unauthenticated.js",
     "oobabooga/screenshots",
     "openssh/openssh-portable-selfhosted",
@@ -149,11 +147,9 @@
     "transparency-dev/distributor",
     "tremby/snapmixer",
     "tweag/gazelle_haskell_modules",
-    "ublacklist/ublacklist.github.io",
     "usbarmory/boot-transparency",
     "v-iashin/v-iashin.github.io",
     "vegardit/vegardit-maven-parent",
-    "verkyyi/tokenman",
     "walles/ftop",
     "wavelens/gobgp.nix",
     "web-platform-tests/results-analysis-cache"

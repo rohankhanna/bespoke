@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1762,
-    "concepts": 364,
-    "observations": 364,
-    "repos": 53,
-    "terms": 371
+    "components": 1782,
+    "concepts": 368,
+    "observations": 368,
+    "repos": 54,
+    "terms": 375
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
+    "alexlafroscia/vite-plugin-handlebars",
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
     "astral-sh/ruff-action",

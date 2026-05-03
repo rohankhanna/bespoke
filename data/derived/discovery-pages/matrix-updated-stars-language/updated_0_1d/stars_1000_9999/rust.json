@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 9,
-    "terms": 97
+    "components": 100,
+    "concepts": 93,
+    "observations": 94,
+    "repos": 8,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "databendlabs/databend",
@@ -21,7 +21,6 @@
     "godot-rust/gdext",
     "MaterializeInc/materialize",
     "nats-io/nats.rs",
-    "ron-rs/ron",
-    "rust-lang/rustup"
+    "ron-rs/ron"
   ]
 }

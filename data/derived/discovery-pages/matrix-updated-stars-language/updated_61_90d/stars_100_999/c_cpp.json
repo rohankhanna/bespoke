@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 122,
-    "concepts": 141,
-    "observations": 143,
-    "repos": 29,
-    "terms": 137
+    "concepts": 143,
+    "observations": 145,
+    "repos": 30,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
@@ -34,6 +34,7 @@
     "mongodb-js/kerberos",
     "numactl/numactl",
     "nvpro-samples/nvpro_core",
+    "openxrlab/xrslam",
     "proxy-wasm/proxy-wasm-cpp-sdk",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",

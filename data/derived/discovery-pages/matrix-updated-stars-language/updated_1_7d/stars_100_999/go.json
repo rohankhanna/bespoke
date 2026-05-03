@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 450,
-    "observations": 450,
-    "repos": 55,
-    "terms": 450
+    "components": 495,
+    "concepts": 458,
+    "observations": 458,
+    "repos": 56,
+    "terms": 458
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -61,6 +61,7 @@
     "pulumi/pulumi-azure",
     "pulumi/pulumi-gcp",
     "runpod/runpodctl",
+    "scaleway/scaleway-cli",
     "sigstore/fulcio",
     "SpecterOps/AzureHound",
     "suzuki-shunsuke/ghalint",

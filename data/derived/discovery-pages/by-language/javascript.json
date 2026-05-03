@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 30923,
-    "concepts": 6688,
-    "observations": 6712,
-    "repos": 1633,
-    "terms": 6699
+    "components": 31023,
+    "concepts": 6714,
+    "observations": 6739,
+    "repos": 1640,
+    "terms": 6720
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "0xPolygonHermez/pil2-compiler",
@@ -161,6 +161,7 @@
     "APIDevTools/swagger-cli",
     "APIDevTools/swagger-express-middleware",
     "APIDevTools/swagger-parser",
+    "apidoc/apidoc",
     "apollographql/connectors-community",
     "apollographql/eslint-plugin-graphql",
     "apollographql/gatsby-theme-apollo",
@@ -427,6 +428,7 @@
     "d3/d3-time-format",
     "d3x0r/JSON6",
     "d3x0r/JSOX",
+    "daerduoCarey/partnet_anno_system",
     "dangreenisrael/eslint-plugin-jest-formatting",
     "danielgindi/node-autodetect-decoder-stream",
     "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
@@ -580,6 +582,7 @@
     "expressjs/express",
     "external-secrets/kubernetes-external-secrets",
     "eyaltoledano/claude-task-master",
+    "fabmax/physx-js-webidl",
     "fabon-f/temporal-polyfill-comparison",
     "facebook/create-react-app",
     "facebook/fbjs",
@@ -630,6 +633,7 @@
     "FortAwesome/Font-Awesome",
     "forwardemail/superagent",
     "frandiox/vitedge",
+    "freddyaboulton/gradio-pdf",
     "fridays/next-routes",
     "frinyvonnick/gitmoji-changelog",
     "frostney/react-native-create-library",
@@ -692,6 +696,7 @@
     "gotwarlost/istanbul-middleware",
     "gr2m/before-after-hook",
     "gr2m/octokit-oauth-app-begin-example",
+    "gradio-app/fastrtc",
     "grahama1970/claude-code-mcp-enhanced",
     "graphql/community-wg",
     "graphql/composite-schemas-wg",
@@ -753,7 +758,9 @@
     "hchiam/trysterollup",
     "hectorm/chafa-wasm",
     "heineiuo/isomorphic-ws",
+    "helpers/handlebars-helpers",
     "heroku/facebook-template-nodejs",
+    "heshengtao/desktop-for-sap",
     "heshengtao/super-agent-party",
     "hexgrad/kokoro",
     "highlightjs/cdn-release",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 277,
-    "concepts": 415,
-    "observations": 417,
-    "repos": 95,
-    "terms": 417
+    "components": 288,
+    "concepts": 421,
+    "observations": 423,
+    "repos": 98,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -21,11 +21,13 @@
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
     "Alibaba-NLP/qqr",
+    "Alibaba-NLP/VRAG",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amaranth-lang/amaranth-boards",
     "angr/angrop",
     "astra-vision/MonoScene",
+    "Blosc/python-blosc",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
     "CatharsisFonts/Ysabeau",
@@ -86,6 +88,7 @@
     "python-hyper/brotlicffi",
     "ronaldoussoren/pyobjc",
     "rosetta-rs/argparse-rosetta-rs",
+    "RUC-NLPIR/Tool-Star",
     "sarugaku/resolvelib",
     "sarugaku/shellingham",
     "scottchiefbaker/dool",

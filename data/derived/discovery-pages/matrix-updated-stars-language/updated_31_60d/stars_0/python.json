@@ -3,7 +3,7 @@
     "components": 28,
     "concepts": 15,
     "observations": 15,
-    "repos": 7,
+    "repos": 6,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T05:56:37.358457+00:00",
+  "generated_at": "2026-05-03T07:46:29.058247+00:00",
   "repo_ids": [
     "adammes/voyanode",
     "CharlieFRuan/harbor",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
-    "samsja/dion",
     "Systemcluster/tokenizer-bench"
   ]
 }
