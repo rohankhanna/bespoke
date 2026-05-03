@@ -310,6 +310,42 @@
       "source_repo": "andrewmcodes/standardrb-action",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/fs",
+      "status": "candidate-context",
+      "text": "File System Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/fs",
+      "status": "candidate-context",
+      "text": "This repository hosts the [File System Standard](https://fs.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate-context",
+      "text": "Standard input."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "Standard output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +498,24 @@
       "source_repo": "andrewmcodes/standardrb-action",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/fs",
+      "status": "candidate",
+      "text": "This repository hosts the [File System Standard](https://fs.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -877,11 +931,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "whatwg/fs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/streams-node-stdin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/streams-node-stdout"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@nextest",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ig-all-test.yml",
       "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "helyim/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "risinglightdb/risinglight"
     }
   ]
 }

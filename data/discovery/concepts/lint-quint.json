@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Quint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "An executable specification language  with delightful tooling based on the temporal logic of actions (TLA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "Lint Quint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate",
+      "text": "Lint Quint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10590,
+      "status": "candidate",
+      "text": "tanka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10370,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10370,
+      "status": "candidate",
+      "text": "adversary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10370,
+      "status": "candidate",
+      "text": "afro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10370,
+      "status": "candidate",
+      "text": "ate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Quint",
+  "concept_id": "lint-quint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/lint-quint.yml",
+      "source_repo": "informalsystems/quint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Quint",
+      "sense_id": "lint-quint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

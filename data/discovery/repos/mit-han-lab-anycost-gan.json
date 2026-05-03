@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "mit-han-lab/once-for-all",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "junyanz/igan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan",
+      "target": "stylegan2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:48.212909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2021] Anycost GANs for Interactive Image Synthesis and Editing",
+    "fork": false,
+    "full_name": "mit-han-lab/anycost-gan",
+    "html_url": "https://github.com/mit-han-lab/anycost-gan",
+    "language": "Python",
+    "pushed_at": "2023-10-03T15:20:42Z",
+    "stargazers_count": 782,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "deep-learning",
+      "gan",
+      "gans",
+      "generative-adversarial-network",
+      "image-editing",
+      "image-generation",
+      "image-manipulation",
+      "pytorch",
+      "stylegan2"
+    ],
+    "updated_at": "2026-04-06T05:44:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junyanz/igan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/once-for-all",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan2"
+    }
+  ]
+}

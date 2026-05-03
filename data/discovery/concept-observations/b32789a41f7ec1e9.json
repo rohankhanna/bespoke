@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CSS Layout hack for Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030034,
+      "status": "candidate",
+      "text": "drawdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005768,
+      "status": "candidate",
+      "text": "reducing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005275,
+      "status": "candidate",
+      "text": "reduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998469,
+      "status": "candidate",
+      "text": "downsizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993793,
+      "status": "candidate",
+      "text": "mitigation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "markdown",
+      "sense_id": "markdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "markdown",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "markdown",
+  "observation_id": "b32789a41f7ec1e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "markdown",
+  "source_context_snippet": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026",
+  "source_file": null,
+  "source_repo": "efemkay/obsidian-modular-css-layout",
+  "source_repo_description": "CSS Layout hack for Obsidian.md"
+}

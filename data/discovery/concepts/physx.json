@@ -19,6 +19,18 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate-context",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "Java JNI bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "fabmax/physx-js-webidl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fabmax/physx-jni"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

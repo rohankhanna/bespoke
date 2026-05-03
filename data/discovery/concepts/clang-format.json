@@ -155,6 +155,18 @@
       "source_repo": "rhysd/vim-clang-format",
       "status": "candidate-context",
       "text": "Format your C family code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for the C++ programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "clang-format"
     }
   ],
   "candidate_glosses": [
@@ -229,6 +241,12 @@
       "source_repo": "rhysd/vim-clang-format",
       "status": "candidate",
       "text": "Format your C family code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate",
+      "text": "clang-format"
     }
   ],
   "candidate_related_terms": [
@@ -392,11 +410,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/xeus-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/blazer-docker",
+      "target": "oauth2-proxy/oauth2-proxy",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "ankane/blazer-docker"
+}

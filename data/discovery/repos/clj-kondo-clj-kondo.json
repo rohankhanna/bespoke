@@ -1,42 +1,42 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v4.2.0",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "DeLaGuardo/setup-clojure@12.5",
+      "component": "DeLaGuardo/setup-clojure@13.6.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "graalvm/setup-graalvm@v1.3.1",
+      "component": "graalvm/setup-graalvm@v1.5.2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "graalvm/setup-graalvm@v1.3.1",
+      "component": "graalvm/setup-graalvm@v1.5.2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clj-kondo.yml"
     },
@@ -46,42 +46,42 @@
       "source_file": ".github/workflows/clj-kondo.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml"
     },
     {
-      "component": "actions/setup-java@v2.4.0",
+      "component": "actions/setup-java@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml"
     },
     {
-      "component": "DeLaGuardo/setup-clojure@master",
+      "component": "DeLaGuardo/setup-clojure@13.6.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml"
     },
     {
-      "component": "actions/cache@v4.2.0",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml"
     },
     {
-      "component": "graalvm/setup-graalvm@v1.4.4",
+      "component": "graalvm/setup-graalvm@v1.5.2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml"
     },
     {
-      "component": "DeLaGuardo/setup-clojure@13.4",
+      "component": "DeLaGuardo/setup-clojure@13.6.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml"
     }
@@ -105,42 +105,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/cache@v4.2.0",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target": "DeLaGuardo/setup-clojure@13.6.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "graalvm/setup-graalvm@v1.3.1",
+      "target": "graalvm/setup-graalvm@v1.5.2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clj-kondo.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -161,28 +161,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/setup-java@v2.4.0",
+      "target": "actions/setup-java@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "DeLaGuardo/setup-clojure@master",
+      "target": "DeLaGuardo/setup-clojure@13.6.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/cache@v4.2.0",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
@@ -196,28 +196,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "graalvm/setup-graalvm@v1.4.4",
+      "target": "graalvm/setup-graalvm@v1.5.2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target": "DeLaGuardo/setup-clojure@13.6.0",
       "target_type": "component"
     },
     {
@@ -270,7 +270,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:47:51.515038+00:00",
+  "fetched_at": "2026-05-03T20:46:47.265781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -282,7 +282,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3045
+      "size": 2969
     },
     {
       "path": ".github/workflows/clj-kondo.yml",
@@ -290,11 +290,11 @@
     },
     {
       "path": ".github/workflows/diff.yml",
-      "size": 943
+      "size": 937
     },
     {
       "path": ".github/workflows/windows.yml",
-      "size": 1823
+      "size": 1788
     }
   ],
   "related_repositories": [],
@@ -306,7 +306,7 @@
     "full_name": "clj-kondo/clj-kondo",
     "html_url": "https://github.com/clj-kondo/clj-kondo",
     "language": "Clojure",
-    "pushed_at": "2026-05-01T21:43:13Z",
+    "pushed_at": "2026-05-03T19:06:50Z",
     "stargazers_count": 1833,
     "topics": [
       "clojure",
@@ -316,7 +316,7 @@
       "linter",
       "static-analysis"
     ],
-    "updated_at": "2026-05-02T15:40:54Z"
+    "updated_at": "2026-05-03T19:06:54Z"
   },
   "repo_links": [
     {

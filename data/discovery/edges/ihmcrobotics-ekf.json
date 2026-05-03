@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ekf",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ekf",
+      "target": "Gradle test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "ihmcrobotics/ekf"
+}

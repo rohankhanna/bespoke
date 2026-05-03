@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "archlinuxcn/repo",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "archlinuxcn/repo",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "archlinuxcn/repo",
+      "target": "Packaging consistency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo",
+      "target": "archlinuxcn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo",
+      "target": "packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo",
+      "target": "repository",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:23.796737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arch Linux CN Repository",
+    "fork": false,
+    "full_name": "archlinuxcn/repo",
+    "html_url": "https://github.com/archlinuxcn/repo",
+    "language": "Shell",
+    "pushed_at": "2026-05-03T17:14:51Z",
+    "stargazers_count": 1827,
+    "topics": [
+      "archlinux",
+      "archlinuxcn",
+      "packages",
+      "repository"
+    ],
+    "updated_at": "2026-05-03T17:14:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Packaging consistency check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Packaging consistency check"
+    },
+    {
+      "context_snippet": "Arch Linux Chinese Community Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "Arch Linux Chinese Community Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinuxcn"
+    },
+    {
+      "context_snippet": "Arch Linux Chinese Community Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packages"
+    },
+    {
+      "context_snippet": "Arch Linux Chinese Community Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository"
+    }
+  ]
+}

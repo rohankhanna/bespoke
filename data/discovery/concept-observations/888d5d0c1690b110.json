@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Jekyll plugin to cache the rendering of Liquid includes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jekyll-plugin",
+      "sense_id": "jekyll-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jekyll-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jekyll-plugin",
+  "observation_id": "888d5d0c1690b110",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "jekyll-plugin",
+  "source_context_snippet": "*A Jekyll plugin to cache the rendering of Liquid includes*",
+  "source_file": null,
+  "source_repo": "benbalter/jekyll-include-cache",
+  "source_repo_description": "A Jekyll plugin to cache the rendering of Liquid includes"
+}

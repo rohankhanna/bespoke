@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Sync issue comments to JIRA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate-context",
+      "text": "Latest ESP8266 SDK based on FreeRTOS, esp-idf style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate-context",
+      "text": "Sync issue comments to JIRA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate-context",
+      "text": "Espressif IoT Development Framework. Official development framework for Espressif SoCs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate-context",
+      "text": "Sync issue comments to JIRA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate",
+      "text": "Sync issue comments to JIRA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate",
+      "text": "Sync issue comments to JIRA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "agreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "censor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "discord"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync issue comments to JIRA",
+  "concept_id": "sync-issue-comments-to-jira",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/esp-idf"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync issue comments to JIRA",
+      "sense_id": "sync-issue-comments-to-jira#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

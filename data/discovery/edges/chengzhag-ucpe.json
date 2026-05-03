@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/UCPE",
+      "target": "junyaohu/common_metrics_on_video_quality",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/UCPE",
+      "target": "snap-research/ac3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/UCPE",
+      "target": "klingteam/recammaster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/UCPE",
+      "target": "liruilong940607/prope",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "chengzhag/UCPE"
+}

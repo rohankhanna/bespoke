@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly lints"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "Run Multithreaded Rust along with Dart VM (in isolate) \ud83c\udf00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "Nightly lints"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate",
+      "text": "Nightly lints"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "caddis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "bellybutton"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly lints",
+  "concept_id": "nightly-lints",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "shekohex/allo-isolate"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly lints",
+      "sense_id": "nightly-lints#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

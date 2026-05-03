@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "translation-management"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "Manage translation and localization with static analysis, for Ruby i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "translation-management",
+  "concept_id": "translation-management",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "glebm/i18n-tasks"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "translation-management",
+      "sense_id": "translation-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

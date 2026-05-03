@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GigaAI-research/ReconDreamer-RL",
+      "target": "nichaojun/nichaojun.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GigaAI-research/ReconDreamer-RL",
+      "target": "priest-yang/vadv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GigaAI-research/ReconDreamer-RL",
+      "target": "ziyc/drivestudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GigaAI-research/ReconDreamer-RL",
+      "target": "f1yfisher/drivedreamer2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:57.392069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4685
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "GigaAI-research/ReconDreamer-RL",
+    "html_url": "https://github.com/GigaAI-research/ReconDreamer-RL",
+    "language": "Python",
+    "pushed_at": "2025-11-03T14:24:25Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-25T23:50:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f1yfisher/drivedreamer2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nichaojun/nichaojun.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "priest-yang/vadv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ziyc/drivestudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

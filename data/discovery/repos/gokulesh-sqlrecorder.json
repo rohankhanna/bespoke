@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:47:18.422379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Log all jdbc queries going through the jdbc driver",
+    "fork": false,
+    "full_name": "gokulesh/SqlRecorder",
+    "html_url": "https://github.com/gokulesh/SqlRecorder",
+    "language": "Java",
+    "pushed_at": "2025-02-13T23:46:37Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-08-26T14:34:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

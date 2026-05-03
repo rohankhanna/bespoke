@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "doctrine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043779,
+      "status": "candidate",
+      "text": "school of thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041285,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033810,
+      "status": "candidate",
+      "text": "philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048566,
+      "status": "candidate",
+      "text": "doctrinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048248,
+      "status": "candidate",
+      "text": "creed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20051,
+      "status": "candidate",
+      "text": "philosophy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8053,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "school of thought"
+    }
+  ],
+  "canonical_name": "doctrine",
+  "concept_id": "doctrine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "doctrine",
+      "sense_id": "doctrine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

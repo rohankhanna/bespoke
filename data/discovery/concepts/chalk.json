@@ -19,6 +19,18 @@
       "source_repo": "chalk/chalk",
       "status": "candidate-context",
       "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": ":clapper: Colorful animations in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chalk/chalk",
       "status": "candidate",
       "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "chalk/chalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/chalk-animation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

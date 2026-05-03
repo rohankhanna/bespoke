@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cd\u00b7installer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/mash",
+      "status": "candidate-context",
+      "text": "Mash up millions of open source packages into monstrously powerful scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/mash",
+      "status": "candidate-context",
+      "text": "cd\u00b7installer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/mash",
+      "status": "candidate",
+      "text": "cd\u00b7installer"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cd\u00b7installer",
+  "concept_id": "cd-installer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cd.installer.yml",
+      "source_repo": "pkgxdev/mash"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cd\u00b7installer",
+      "sense_id": "cd-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

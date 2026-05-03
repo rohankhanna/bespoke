@@ -492,6 +492,54 @@
       "source_repo": "testing-library/dom-testing-library",
       "status": "candidate-context",
       "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apidoc/apidoc-core",
+      "status": "candidate-context",
+      "text": "Core parser library to generate apidoc.json result following the apidoc-spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apidoc/apidoc-core",
+      "status": "candidate-context",
+      "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicklockwood/SwiftFormat",
+      "status": "candidate-context",
+      "text": "A command-line tool and Xcode Extension for formatting Swift code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicklockwood/SwiftFormat",
+      "status": "candidate-context",
+      "text": "\"validate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FrontLabsOfficial/vue-tiny-validate",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaf Tiny Vue Validate Composition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FrontLabsOfficial/vue-tiny-validate",
+      "status": "candidate-context",
+      "text": "Tiny Vue Validate Composition"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/react-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83d\udc10 Simple and complete React DOM testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/react-testing-library",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -732,6 +780,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apidoc/apidoc-core",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicklockwood/SwiftFormat",
+      "status": "candidate",
+      "text": "\"validate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FrontLabsOfficial/vue-tiny-validate",
+      "status": "candidate",
+      "text": "Tiny Vue Validate Composition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/react-testing-library",
       "status": "candidate",
       "text": "validate"
     }
@@ -1337,11 +1409,59 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/validate.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validating.yml",
+      "source_repo": "apidoc/apidoc-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "FrontLabsOfficial/vue-tiny-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "testing-library/react-testing-library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "helidon-io/helidon"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

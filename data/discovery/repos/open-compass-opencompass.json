@@ -141,14 +141,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "internscience/scireason",
+      "target": "tonysy/opencompass",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "scicode-bench/scicode",
+      "target": "thudm/chatglm2-6b",
       "target_type": "repository"
     },
     {
@@ -162,7 +162,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "shark-nlp/openicl",
+      "target": "tigerresearch/tigerbot",
       "target_type": "repository"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:14:24.082341+00:00",
+  "fetched_at": "2026-05-03T19:32:38.546992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -383,7 +383,7 @@
     "html_url": "https://github.com/open-compass/opencompass",
     "language": "Python",
     "pushed_at": "2026-04-20T12:05:42Z",
-    "stargazers_count": 6954,
+    "stargazers_count": 6959,
     "topics": [
       "benchmark",
       "chatgpt",
@@ -394,7 +394,7 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-04-30T07:32:24Z"
+    "updated_at": "2026-05-03T08:57:18Z"
   },
   "repo_links": [
     {
@@ -404,17 +404,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "internscience/scireason",
+      "full_name": "thudm/chatglm2-6b",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scicode-bench/scicode",
+      "full_name": "tigerresearch/tigerbot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "shark-nlp/openicl",
+      "full_name": "tonysy/opencompass",
       "source_file": "README.md"
     }
   ],

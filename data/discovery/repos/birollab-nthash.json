@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "bloom-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "hash-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "hash-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash",
+      "target": "k-mer-hashing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:34.342532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast hash function for DNA/RNA sequences",
+    "fork": false,
+    "full_name": "BirolLab/ntHash",
+    "html_url": "https://github.com/BirolLab/ntHash",
+    "language": "C++",
+    "pushed_at": "2026-04-02T03:19:15Z",
+    "stargazers_count": 107,
+    "topics": [
+      "bioinformatics",
+      "bloom-filter",
+      "genomics",
+      "hash",
+      "hash-algorithm",
+      "hash-methods",
+      "k-mer-hashing"
+    ],
+    "updated_at": "2026-04-14T06:48:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-algorithm"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-methods"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k-mer-hashing"
+    }
+  ]
+}

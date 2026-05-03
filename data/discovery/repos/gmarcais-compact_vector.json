@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "gmarcais/compact_vector",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:15.161041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2981
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 1765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bit packed vector of integral values",
+    "fork": false,
+    "full_name": "gmarcais/compact_vector",
+    "html_url": "https://github.com/gmarcais/compact_vector",
+    "language": "C++",
+    "pushed_at": "2025-01-28T20:40:45Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-02-23T23:37:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

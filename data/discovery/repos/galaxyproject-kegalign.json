@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "galaxyproject/KegAlign",
+      "target": "gsneha26/segalign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "galaxyproject/KegAlign",
+      "target": "oneapi-src/onetbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "galaxyproject/KegAlign",
+      "target": "lastz/lastz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "galaxyproject/KegAlign",
+      "target": "ucscgenomebrowser/kent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:18.477000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8961
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fork of the GPU genome aligner",
+    "fork": true,
+    "full_name": "galaxyproject/KegAlign",
+    "html_url": "https://github.com/galaxyproject/KegAlign",
+    "language": "C",
+    "pushed_at": "2026-03-27T09:08:00Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-15T23:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gsneha26/segalign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lastz/lastz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/onetbb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucscgenomebrowser/kent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

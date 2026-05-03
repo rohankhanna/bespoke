@@ -571,6 +571,18 @@
       "source_repo": "google/litmus",
       "status": "candidate-context",
       "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "Flyway by Redgate \u2022 Database Migrations Made Easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +867,12 @@
       "source_repo": "google/litmus",
       "status": "candidate",
       "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
     }
   ],
   "candidate_related_terms": [
@@ -1347,11 +1365,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

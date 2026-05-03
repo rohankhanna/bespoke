@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KolmogorovLab/hapdiff",
+      "target": "eldariont/svim-asm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KolmogorovLab/hapdiff",
+      "target": "arq5x/bedtools2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "KolmogorovLab/hapdiff",
+      "target": "samtools/samtools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:28:52.044390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2848
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1045
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SV calling for diploid assemblies",
+    "fork": false,
+    "full_name": "KolmogorovLab/hapdiff",
+    "html_url": "https://github.com/KolmogorovLab/hapdiff",
+    "language": "Python",
+    "pushed_at": "2024-03-22T20:25:11Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-02-12T01:01:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arq5x/bedtools2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eldariont/svim-asm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/samtools",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

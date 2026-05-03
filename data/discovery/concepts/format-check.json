@@ -183,6 +183,42 @@
       "source_repo": "SciML/Static.jl",
       "status": "candidate-context",
       "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaParallel/DTables.jl",
+      "status": "candidate-context",
+      "text": "Distributed table structures and data manipulation operations built on top of Dagger.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaParallel/DTables.jl",
+      "status": "candidate-context",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays which also have a label for each element for easy scientific machine learning (SciML)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "Julia Animations and Visualizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "format-check"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +309,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SciML/Static.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaParallel/DTables.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
       "status": "candidate",
       "text": "format-check"
     }
@@ -468,11 +522,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "JuliaParallel/DTables.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/LabelledArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "JuliaAnimators/Javis.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

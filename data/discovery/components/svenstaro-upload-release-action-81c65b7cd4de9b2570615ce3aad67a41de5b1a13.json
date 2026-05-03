@@ -1,0 +1,12 @@
+{
+  "component": "svenstaro/upload-release-action@81c65b7cd4de9b2570615ce3aad67a41de5b1a13",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "sovrasov/flops-counter.pytorch"
+    }
+  ]
+}

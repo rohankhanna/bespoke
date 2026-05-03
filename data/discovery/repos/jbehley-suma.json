@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa",
+      "target": "kitti-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa",
+      "target": "rss2018",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa",
+      "target": "velodyne",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:12.839788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Surfel-based Mapping for 3d Laser Range Data (SuMa)",
+    "fork": false,
+    "full_name": "jbehley/SuMa",
+    "html_url": "https://github.com/jbehley/SuMa",
+    "language": "C++",
+    "pushed_at": "2024-05-06T11:44:32Z",
+    "stargazers_count": 594,
+    "topics": [
+      "kitti-dataset",
+      "opengl",
+      "rss2018",
+      "slam",
+      "velodyne"
+    ],
+    "updated_at": "2026-04-20T06:00:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti-dataset"
+    },
+    {
+      "context_snippet": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rss2018"
+    },
+    {
+      "context_snippet": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne"
+    }
+  ]
+}

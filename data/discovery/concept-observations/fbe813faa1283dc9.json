@@ -84,7 +84,7 @@
   "normalized_form": "clear-cache-weekly",
   "observation_id": "fbe813faa1283dc9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Clear cache weekly",
   "source_context_snippet": "Clear cache weekly",
   "source_file": ".github/workflows/call-clear-cache.yml",

@@ -79,6 +79,18 @@
       "source_repo": "HKU-BAL/Clair",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "HKU-BAL/Clair",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "HKU-BAL/Clair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

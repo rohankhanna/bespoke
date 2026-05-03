@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-xeus/xeus-nelson",
+      "target": "nelson-numerical-software/nelson-minimalist-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus-nelson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus-nelson",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:20.523073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3583
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jupyter kernel for Nelson",
+    "fork": false,
+    "full_name": "jupyter-xeus/xeus-nelson",
+    "html_url": "https://github.com/jupyter-xeus/xeus-nelson",
+    "language": "C++",
+    "pushed_at": "2025-04-01T10:42:31Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2024-07-12T11:07:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nelson-numerical-software/nelson-minimalist-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

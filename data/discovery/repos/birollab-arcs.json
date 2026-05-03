@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/arcs",
+      "target": "birollab/btllib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/arcs",
+      "target": "birollab/tigmint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/arcs",
+      "target": "warrenlr/links",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/arcs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/arcs",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "10xgenomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "genome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "nanopore-sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "oxford-nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "pacbio-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "scaffold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs",
+      "target": "science",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:07.085834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11423
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf08Scaffold genome sequence assemblies using linked or long read sequencing data",
+    "fork": false,
+    "full_name": "BirolLab/arcs",
+    "html_url": "https://github.com/BirolLab/arcs",
+    "language": "C++",
+    "pushed_at": "2026-04-01T17:56:45Z",
+    "stargazers_count": 95,
+    "topics": [
+      "10xgenomics",
+      "assembler",
+      "bioinformatics",
+      "c-plus-plus",
+      "genome",
+      "graph",
+      "nanopore-sequencing",
+      "oxford-nanopore",
+      "pacbio-data",
+      "scaffold",
+      "science"
+    ],
+    "updated_at": "2026-04-01T17:56:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birollab/btllib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birollab/tigmint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "warrenlr/links",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "10xgenomics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembler"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanopore-sequencing"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oxford-nanopore"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio-data"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaffold"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    }
+  ]
+}

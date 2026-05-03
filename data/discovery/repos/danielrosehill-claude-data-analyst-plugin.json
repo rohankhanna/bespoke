@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "target": "correlation-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "target": "data-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:37:14.972584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "First pass data analysis skills for Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Data-Analyst-plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Data-Analyst-plugin",
+    "language": null,
+    "pushed_at": "2026-04-23T14:53:13Z",
+    "stargazers_count": 3,
+    "topics": [
+      "claude-code",
+      "correlation-testing",
+      "data-analysis"
+    ],
+    "updated_at": "2026-05-03T01:28:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correlation-testing"
+    },
+    {
+      "context_snippet": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    }
+  ]
+}

@@ -238,6 +238,18 @@
       "source_repo": "allenai/cached_path",
       "status": "candidate-context",
       "text": "<!-- start tagline -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "A Jekyll plugin to cache the rendering of Liquid includes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +366,12 @@
       "source_repo": "allenai/cached_path",
       "status": "candidate",
       "text": "<!-- start tagline -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_related_terms": [
@@ -511,11 +529,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "allenai/cached_path"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-include-cache"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

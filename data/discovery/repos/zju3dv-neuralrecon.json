@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zju3dv/NeuralRecon",
+      "target": "wkentaro/gdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zju3dv/NeuralRecon",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zju3dv/NeuralRecon",
+      "target": "3d-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:30.185723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6906
+    },
+    {
+      "path": "requirements.txt",
+      "size": 207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video\", CVPR 2021 oral",
+    "fork": false,
+    "full_name": "zju3dv/NeuralRecon",
+    "html_url": "https://github.com/zju3dv/NeuralRecon",
+    "language": "Python",
+    "pushed_at": "2023-10-04T11:35:56Z",
+    "stargazers_count": 2267,
+    "topics": [
+      "3d-reconstruction",
+      "3d-vision"
+    ],
+    "updated_at": "2026-04-28T07:45:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wkentaro/gdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    }
+  ]
+}

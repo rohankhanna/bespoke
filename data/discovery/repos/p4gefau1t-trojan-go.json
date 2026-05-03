@@ -1,0 +1,590 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "qv2ray/qv2ray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "p4gefau1t/trojan-go-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "refraction-networking/utls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "liamhaworth/go-tproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "docker-nightly-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "nightly-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "release-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "china",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "transparent-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "trojan-gfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "trojan-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go",
+      "target": "tunnel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:05.410821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7675
+    },
+    {
+      "path": "Dockerfile",
+      "size": 961
+    },
+    {
+      "path": "go.mod",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1901
+    },
+    {
+      "path": ".github/workflows/docker-nightly-build.yml",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/nightly-build.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/release-build.yml",
+      "size": 865
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go\u5b9e\u73b0\u7684Trojan\u4ee3\u7406\uff0c\u652f\u6301\u591a\u8def\u590d\u7528/\u8def\u7531\u529f\u80fd/CDN\u4e2d\u8f6c/Shadowsocks\u6df7\u6dc6\u63d2\u4ef6\uff0c\u591a\u5e73\u53f0\uff0c\u65e0\u4f9d\u8d56\u3002A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/",
+    "fork": false,
+    "full_name": "p4gefau1t/trojan-go",
+    "html_url": "https://github.com/p4gefau1t/trojan-go",
+    "language": "Go",
+    "pushed_at": "2024-07-14T08:52:08Z",
+    "stargazers_count": 8372,
+    "topics": [
+      "anticensorship",
+      "china",
+      "gfw",
+      "go",
+      "golang",
+      "network",
+      "privacy",
+      "proxy",
+      "tls",
+      "transparent-proxy",
+      "trojan-gfw",
+      "trojan-go",
+      "tunnel"
+    ],
+    "updated_at": "2026-05-03T11:31:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liamhaworth/go-tproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p4gefau1t/trojan-go-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qv2ray/qv2ray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "refraction-networking/utls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "docker-build"
+    },
+    {
+      "context_snippet": "docker-nightly-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "term": "docker-nightly-build"
+    },
+    {
+      "context_snippet": "github-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "nightly-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "term": "nightly-build"
+    },
+    {
+      "context_snippet": "release-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "term": "release-build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "china"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparent-proxy"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan-gfw"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan-go"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tunnel"
+    }
+  ]
+}

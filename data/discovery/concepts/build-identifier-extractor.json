@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Identifier Extractor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "\"Build Identifier Extractor\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "\"Build Identifier Extractor\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15518,
+      "status": "candidate",
+      "text": "extractors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15274,
+      "status": "candidate",
+      "text": "forceps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14509,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14387,
+      "status": "candidate",
+      "text": "arthur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13744,
+      "status": "candidate",
+      "text": "hematocrit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Identifier Extractor",
+  "concept_id": "build-identifier-extractor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Identifier Extractor",
+      "sense_id": "build-identifier-extractor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

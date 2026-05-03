@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:42:57.903250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 95
+    },
+    {
+      "path": "go.mod",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "Chocolate4U/sing-geoip",
+    "html_url": "https://github.com/Chocolate4U/sing-geoip",
+    "language": "Go",
+    "pushed_at": "2024-01-08T07:14:36Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-25T03:36:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

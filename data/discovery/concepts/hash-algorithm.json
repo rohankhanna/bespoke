@@ -19,6 +19,18 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate-context",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "Fast hash function for DNA/RNA sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "avaneev/prvhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

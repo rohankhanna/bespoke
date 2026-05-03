@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate no translated strings.xml included"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate-context",
+      "text": "An open-source keyboard for Android which respects your privacy. Currently in beta."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate-context",
+      "text": "Validate no translated strings.xml included"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate",
+      "text": "Validate no translated strings.xml included"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37355,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37040,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35784,
+      "status": "candidate",
+      "text": "checksum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35739,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35739,
+      "status": "candidate",
+      "text": "effected"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate no translated strings.xml included",
+  "concept_id": "validate-no-translated-strings.xml-included",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/validate-strings-no-translations.yml",
+      "source_repo": "florisboard/florisboard"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate no translated strings.xml included",
+      "sense_id": "validate-no-translated-strings.xml-included#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

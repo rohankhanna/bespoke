@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:28:54.420397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Materials for tutorial for PyData Global 2025",
+    "fork": false,
+    "full_name": "Blosc/PyData-Global-2025-Tutorial",
+    "html_url": "https://github.com/Blosc/PyData-Global-2025-Tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-11T08:54:58Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-12-12T06:40:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

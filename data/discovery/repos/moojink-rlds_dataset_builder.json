@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moojink/rlds_dataset_builder",
+      "target": "teamdigitale/licenses",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:31.023770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An example RLDS dataset builder for X-embodiment dataset conversion.",
+    "fork": true,
+    "full_name": "moojink/rlds_dataset_builder",
+    "html_url": "https://github.com/moojink/rlds_dataset_builder",
+    "language": "Python",
+    "pushed_at": "2025-03-01T07:19:26Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-23T05:15:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teamdigitale/licenses",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

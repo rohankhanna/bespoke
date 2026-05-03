@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ritzz-ai/PACS",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:44.371659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6468
+    },
+    {
+      "path": "Dockerfile",
+      "size": 631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ritzz-ai/PACS",
+    "html_url": "https://github.com/ritzz-ai/PACS",
+    "language": "Python",
+    "pushed_at": "2025-09-12T04:08:26Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-12-28T03:03:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

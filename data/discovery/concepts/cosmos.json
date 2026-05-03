@@ -31,6 +31,42 @@
       "source_repo": "cosmos/ibc-go",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc",
+      "status": "candidate-context",
+      "text": "Interchain Standards (ICS) for the Cosmos network & interchain ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc",
+      "status": "candidate-context",
+      "text": "![banner](./assets/interchain-standards.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/ibc-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of the Inter-Blockchain Communication (IBC) protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/ibc-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "Advanced fuzzing via Model Based Testing for Cosmos blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "cosmos/ibc-go",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc",
+      "status": "candidate",
+      "text": "![banner](./assets/interchain-standards.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/ibc-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate",
+      "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +190,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cosmos/ibc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/atomkraft"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

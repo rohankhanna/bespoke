@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "deftruth/awesome-llm-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "deftruth/awesome-sd-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "deftruth/cuda-learn-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "deftruth/robustvideomatting.lite.ai.toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference",
+      "target": "robustvideomatting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:18.208754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd25Robust Video Matting C++ inference toolkit with ONNXRuntime\u3001MNN\u3001NCNN and TNN, via lite.ai.toolkit.",
+    "fork": false,
+    "full_name": "xlite-dev/RVM-Inference",
+    "html_url": "https://github.com/xlite-dev/RVM-Inference",
+    "language": "C++",
+    "pushed_at": "2024-07-29T01:07:58Z",
+    "stargazers_count": 141,
+    "topics": [
+      "cpp",
+      "matting",
+      "mnn",
+      "ncnn",
+      "onnx",
+      "onnxruntime",
+      "robustvideomatting",
+      "tnn"
+    ],
+    "updated_at": "2026-04-14T07:26:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/awesome-llm-inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/awesome-sd-inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/cuda-learn-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/robustvideomatting.lite.ai.toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align='left'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    },
+    {
+      "context_snippet": "<div align='left'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "<div align='left'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<div align='left'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "<div align='left'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robustvideomatting"
+    }
+  ]
+}

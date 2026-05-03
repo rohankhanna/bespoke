@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MenghaoGuo/PCT",
+      "target": "strawberry-eat-mango/pct_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MenghaoGuo/PCT",
+      "target": "qq456cvb/point-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:38.474041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jittor implementation of PCT:Point Cloud Transformer",
+    "fork": false,
+    "full_name": "MenghaoGuo/PCT",
+    "html_url": "https://github.com/MenghaoGuo/PCT",
+    "language": "Python",
+    "pushed_at": "2021-06-02T13:07:18Z",
+    "stargazers_count": 715,
+    "topics": [],
+    "updated_at": "2026-05-03T06:49:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qq456cvb/point-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strawberry-eat-mango/pct_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

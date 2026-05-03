@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "laverdet/alpine-arm64@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supported_llvm_versions.yml"
+    },
+    {
+      "component": "dlang-community/setup-dlang@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supported_llvm_versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "laverdet/alpine-arm64@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supported_llvm_versions.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supported_llvm_versions.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "dlang-community/setup-dlang@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/supported_llvm_versions.yml",
+      "source_repo": "ldc-developers/ldc",
+      "target": "Vanilla LLVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldc-developers/ldc",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldc-developers/ldc",
+      "target": "dlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldc-developers/ldc",
+      "target": "llvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:26.160839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5460
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 14841
+    },
+    {
+      "path": ".github/workflows/supported_llvm_versions.yml",
+      "size": 5619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The LLVM-based D Compiler.",
+    "fork": false,
+    "full_name": "ldc-developers/ldc",
+    "html_url": "https://github.com/ldc-developers/ldc",
+    "language": "D",
+    "pushed_at": "2026-04-30T04:50:54Z",
+    "stargazers_count": 1331,
+    "topics": [
+      "compiler",
+      "d",
+      "dlang",
+      "ldc",
+      "llvm"
+    ],
+    "updated_at": "2026-05-01T20:17:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Vanilla LLVM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/supported_llvm_versions.yml",
+      "term": "Vanilla LLVM"
+    },
+    {
+      "context_snippet": "LDC \u2013 the LLVM-based D Compiler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "LDC \u2013 the LLVM-based D Compiler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlang"
+    },
+    {
+      "context_snippet": "LDC \u2013 the LLVM-based D Compiler",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    }
+  ]
+}

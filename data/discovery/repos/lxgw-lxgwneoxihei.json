@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "lxgw/lxgwneoxizhi-screen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "aosp-mirror/platform_frameworks_base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "lxgw/lxgwneozhisong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "lxgw/lxgwwenkai-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "chinese-simplified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:56.839045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Chinese sans-serif font derived from IPAex Gothic. \u4e00\u6b3e\u884d\u751f\u4e8e\u300cIPAex\u30b4\u30b7\u30c3\u30af\u300d\u7684\u4e2d\u6587\u9ed1\u4f53\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwNeoXiHei",
+    "html_url": "https://github.com/lxgw/LxgwNeoXiHei",
+    "language": null,
+    "pushed_at": "2026-05-03T17:12:53Z",
+    "stargazers_count": 2456,
+    "topics": [
+      "chinese-simplified",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-03T17:05:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aosp-mirror/platform_frameworks_base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneoxizhi-screen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneozhisong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkai-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Simplified Chinese sans-serif font derived from IPAex Gothic.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-simplified"
+    },
+    {
+      "context_snippet": "A Simplified Chinese sans-serif font derived from IPAex Gothic.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "A Simplified Chinese sans-serif font derived from IPAex Gothic.<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

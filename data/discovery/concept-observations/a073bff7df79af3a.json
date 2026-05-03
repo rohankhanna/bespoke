@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extends Sinatra with ActiveRecord helper methods and Rake tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Extends [Sinatra](http://www.sinatrarb.com/) with extension methods and Rake"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Extends [Sinatra](http://www.sinatrarb.com/) with extension methods and Rake"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613868,
+      "status": "candidate",
+      "text": "sinagra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613867,
+      "status": "candidate",
+      "text": "sandler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613866,
+      "status": "candidate",
+      "text": "silberman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613865,
+      "status": "candidate",
+      "text": "salinger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613864,
+      "status": "candidate",
+      "text": "sint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sinatra",
+      "sense_id": "sinatra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sinatra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sinatra",
+  "observation_id": "a073bff7df79af3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "sinatra",
+  "source_context_snippet": "Extends [Sinatra](http://www.sinatrarb.com/) with extension methods and Rake",
+  "source_file": null,
+  "source_repo": "sinatra-activerecord/sinatra-activerecord",
+  "source_repo_description": "Extends Sinatra with ActiveRecord helper methods and Rake tasks."
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A clean and common C++ code base to build both executable and shared library of DTALite across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-traffic-assignment",
+      "sense_id": "dynamic-traffic-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dynamic-traffic-assignment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dynamic-traffic-assignment",
+  "observation_id": "01954cc67f358f73",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "dynamic-traffic-assignment",
+  "source_context_snippet": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026",
+  "source_file": null,
+  "source_repo": "jdlph/DTALite",
+  "source_repo_description": "A clean and common C++ code base to build both executable and shared library of DTALite across platforms."
+}

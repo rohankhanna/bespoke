@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Emmy Computer Algebra System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8583990,
+      "status": "candidate",
+      "text": "sussberg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8583989,
+      "status": "candidate",
+      "text": "suss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8583988,
+      "status": "candidate",
+      "text": "susskind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8583987,
+      "status": "candidate",
+      "text": "susman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8583986,
+      "status": "candidate",
+      "text": "suess"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sussman",
+      "sense_id": "sussman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sussman",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sussman",
+  "observation_id": "c31759da3ea50e2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "sussman",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "mentat-collective/emmy",
+  "source_repo_description": "The Emmy Computer Algebra System."
+}

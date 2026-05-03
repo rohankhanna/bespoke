@@ -265,6 +265,30 @@
       "source_repo": "derric/cleanthesis",
       "status": "candidate-context",
       "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate-context",
+      "text": "Fork of http://asciitex.sourceforge.net/ with several improvements. But you should really be using https://github.com/bartp5/libtexprintf!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate-context",
+      "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "translate scientific papers in latex, especially arxiv papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +423,18 @@
       "source_repo": "derric/cleanthesis",
       "status": "candidate",
       "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate",
+      "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +655,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "larseggert/asciiTeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "SUSYUSTC/MathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/Franklin.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "actions-cool/maintain-one-comment@909842216bc8e8658364c572ec52100f4c2cc50a",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml",
+      "source_repo": "apache/datafusion"
+    }
+  ]
+}

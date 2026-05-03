@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "dydxprotocol/v4-clients",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "asnefedovv/dydx-v4-client-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "kaloureyes3/v4-clients",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-dev.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-dev.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-dev.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "dydxprotocol/invoke-aws-lambda@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-dev.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "Deploy to Dev Environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-api-documentation-check.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-api-documentation-check.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer-api-documentation-check.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "Indexer API Documentation Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer-build-and-push-all-ecr-images.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "Indexer Build & Push ECR Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "aws-actions/amazon-ecr-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "Indexer Build and push Lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-docker-image-check.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-docker-image-check.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/indexer-build-test-coverage.yml",
+      "source_repo": "dydxprotocol/v4-chain",
+      "target": "Indexer Build, Test & Coverage",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "dydxprotocol/v4-chain"
+}

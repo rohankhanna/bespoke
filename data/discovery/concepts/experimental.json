@@ -31,6 +31,18 @@
       "source_repo": "pocojang/nuxt-realworld",
       "status": "candidate-context",
       "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-attic/reactive-streams-commons",
+      "status": "candidate-context",
+      "text": "A joint research effort for building highly optimized Reactive-Streams compliant operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-attic/reactive-streams-commons",
+      "status": "candidate-context",
+      "text": "A joint research effort for building highly optimized Reactive-Streams compliant operators."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "pocojang/nuxt-realworld",
       "status": "candidate",
       "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-attic/reactive-streams-commons",
+      "status": "candidate",
+      "text": "A joint research effort for building highly optimized Reactive-Streams compliant operators."
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "spring-attic/reactive-streams-commons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

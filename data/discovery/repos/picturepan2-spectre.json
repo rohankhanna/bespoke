@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-clean-css",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-csscomb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-pug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-rename",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jstransformer-highlight",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jstransformer-markdown-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-clean-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-csscomb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-pug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-rename",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "gulp-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "jstransformer-highlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "picturepan2/spectre",
+      "target": "jstransformer-markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "css-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "flexbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "modern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "responsive-grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "spectre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre",
+      "target": "utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:56.883060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6311
+    },
+    {
+      "path": "package.json",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spectre.css - A Lightweight, Responsive and Modern CSS Framework",
+    "fork": false,
+    "full_name": "picturepan2/spectre",
+    "html_url": "https://github.com/picturepan2/spectre",
+    "language": "CSS",
+    "pushed_at": "2024-04-11T16:20:19Z",
+    "stargazers_count": 11320,
+    "topics": [
+      "css",
+      "css-framework",
+      "flexbox",
+      "lightweight",
+      "modern",
+      "responsive-grid",
+      "spectre",
+      "utilities"
+    ],
+    "updated_at": "2026-05-02T10:00:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-framework"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexbox"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive-grid"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectre"
+    },
+    {
+      "context_snippet": "<a href=\"https://picturepan2.github.io/spectre\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utilities"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample project showing how to use Carbon components in Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "App Carbon11 Vue3 - E2E tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "App Carbon11 Vue3 - E2E tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12032,
+      "status": "candidate",
+      "text": "coder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11055,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11010,
+      "status": "candidate",
+      "text": "code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11010,
+      "status": "candidate",
+      "text": "game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11010,
+      "status": "candidate",
+      "text": "gpa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "App Carbon11 Vue3 - E2E tests",
+      "sense_id": "app-carbon11-vue3---e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "app-carbon11-vue3---e2e-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "app-carbon11-vue3---e2e-tests",
+  "observation_id": "7b741c96aaef6f8f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "App Carbon11 Vue3 - E2E tests",
+  "source_context_snippet": "App Carbon11 Vue3 - E2E tests",
+  "source_file": ".github/workflows/app-carbon11-e2e.yml",
+  "source_repo": "IBM/hello-carbon-vue3",
+  "source_repo_description": "Sample project showing how to use Carbon components in Vue3"
+}

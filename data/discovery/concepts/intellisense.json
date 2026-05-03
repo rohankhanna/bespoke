@@ -55,6 +55,18 @@
       "source_repo": "clojure-emacs/clj-suitable",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate-context",
+      "text": "CMake Tools provides a robust, convenient workflow for CMake projects in VS Code. It simplifies configurations with CMake presets, supports IntelliSense and built-in debugging for CMake scripts, and offers configurable tasks. Its customizable interface allows for efficient project control, while also simplifying test execution and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate-context",
+      "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "clojure-emacs/clj-suitable",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate",
+      "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "clojure-emacs/clj-suitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-cmake-tools"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

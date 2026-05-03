@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "virtual-threads",
+      "sense_id": "virtual-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "virtual-threads",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "virtual-threads",
+  "observation_id": "556affd49c241666",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "virtual-threads",
+  "source_context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+  "source_file": null,
+  "source_repo": "akarnokd/RxJavaFiberInterop",
+  "source_repo_description": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+}

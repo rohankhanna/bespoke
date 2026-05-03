@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HandaArchitect/obsidian-banner-snippet",
+      "target": "mgmeyers/obsidian-style-settings",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:26:28.881295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HandaArchitect/obsidian-banner-snippet",
+    "html_url": "https://github.com/HandaArchitect/obsidian-banner-snippet",
+    "language": null,
+    "pushed_at": "2025-09-18T06:27:45Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-04-20T03:18:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-style-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -910,6 +910,30 @@
       "source_repo": "cosmos/evm",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/os",
+      "status": "candidate-context",
+      "text": "A bleeding-edge forward-compatible EVM framework for fast blockchain development \ud83d\udd0c\u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/os",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "A Python package providing buffer compression and transformation codecs for use in data storage and communication applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1366,6 +1390,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/evm",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/os",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -1933,11 +1969,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "evmos/os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/needs-release-notes.yaml",
+      "source_repo": "zarr-developers/numcodecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

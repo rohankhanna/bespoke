@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Physics engine bridge for Python built upon Jolt Physics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045934,
+      "status": "candidate",
+      "text": "jounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045526,
+      "status": "candidate",
+      "text": "jerking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038461,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878790,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045872,
+      "status": "candidate",
+      "text": "shake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jolt",
+      "sense_id": "jolt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57053,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16027,
+      "status": "candidate",
+      "text": "jounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7023,
+      "status": "candidate",
+      "text": "jerking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2061,
+      "status": "candidate",
+      "text": "jar"
+    }
+  ],
+  "concept_id": "jolt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jolt",
+  "observation_id": "d11ccfb805aa5dc1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "jolt",
+  "source_context_snippet": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)",
+  "source_file": null,
+  "source_repo": "Evilpasture/Culverin",
+  "source_repo_description": "Physics engine bridge for Python built upon Jolt Physics"
+}

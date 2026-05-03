@@ -19,6 +19,42 @@
       "source_repo": "BirolLab/abyss",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08Scaffold genome sequence assemblies using linked or long read sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaBioinformatics Technology Lab common code library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepvariant",
+      "status": "candidate-context",
+      "text": "DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepvariant",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "BirolLab/abyss",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepvariant",
+      "status": "candidate",
+      "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "BirolLab/abyss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/btllib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google/deepvariant"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

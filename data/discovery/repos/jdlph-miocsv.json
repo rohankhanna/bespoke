@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/MIOCSV",
+      "target": "wxinix/wxlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/MIOCSV",
+      "target": "jdlph/transoms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/MIOCSV",
+      "target": "rsylvian/csvparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/MIOCSV",
+      "target": "csv-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/MIOCSV",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/MIOCSV",
+      "target": "memory-mapping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:21.582471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A suite of lightning-fast CSV parsers and writer built upon memory mapping",
+    "fork": false,
+    "full_name": "jdlph/MIOCSV",
+    "html_url": "https://github.com/jdlph/MIOCSV",
+    "language": "C++",
+    "pushed_at": "2024-12-06T02:08:37Z",
+    "stargazers_count": 3,
+    "topics": [
+      "cpp",
+      "csv-parser",
+      "header-only",
+      "memory-mapping",
+      "mio"
+    ],
+    "updated_at": "2025-02-01T22:32:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/transoms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rsylvian/csvparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wxinix/wxlib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-parser"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-mapping"
+    }
+  ]
+}

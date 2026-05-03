@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "commit-checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate-context",
+      "text": "The home of the Unicode Common Locale Data Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate-context",
+      "text": "commit-checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate",
+      "text": "commit-checker"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "commit-checker",
+  "concept_id": "commit-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/commit-checker.yml",
+      "source_repo": "unicode-org/cldr"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "commit-checker",
+      "sense_id": "commit-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

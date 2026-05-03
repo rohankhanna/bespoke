@@ -120,7 +120,7 @@
   "normalized_form": "maven",
   "observation_id": "bf3f44ec9419b56f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "maven",
   "source_context_snippet": "Transitive Maven artifact resolution and publishing rules for Bazel.",
   "source_file": null,

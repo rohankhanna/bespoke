@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "nix-community/namaka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "DeterminateSystems/nix-installer-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit",
+      "target": "Nix Flake actions",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "adisbladis/lix-unit"
+}

@@ -569,6 +569,30 @@
       "source_repo": "supabase/wrappers",
       "status": "candidate-context",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "Materialize Todoist tasks in Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "Interchain Security is an open sourced IBC application which allows cosmos blockchains to lease their proof-of-stake security to one another."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "Deploy docs"
     }
   ],
   "candidate_glosses": [
@@ -857,6 +881,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "supabase/wrappers",
+      "status": "candidate",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
       "status": "candidate",
       "text": "Deploy docs"
     }
@@ -1460,11 +1496,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "cosmos/interchain-security"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

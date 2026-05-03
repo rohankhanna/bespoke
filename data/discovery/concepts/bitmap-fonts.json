@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bitmap-fonts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bitmap-fonts",
+  "concept_id": "bitmap-fonts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TakWolf/fusion-pixel-font"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitmap-fonts",
+      "sense_id": "bitmap-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

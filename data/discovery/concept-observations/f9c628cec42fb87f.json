@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multiple cursors plugin for vim/neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "It's called ___vim-visual-multi___ in analogy with _visual-block_, but the plugin works mostly from normal mode."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "It's called ___vim-visual-multi___ in analogy with _visual-block_, but the plugin works mostly from normal mode."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiple-cursors",
+      "sense_id": "multiple-cursors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multiple-cursors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multiple-cursors",
+  "observation_id": "f9c628cec42fb87f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "multiple-cursors",
+  "source_context_snippet": "It's called ___vim-visual-multi___ in analogy with _visual-block_, but the plugin works mostly from normal mode.",
+  "source_file": null,
+  "source_repo": "mg979/vim-visual-multi",
+  "source_repo_description": "Multiple cursors plugin for vim/neovim"
+}

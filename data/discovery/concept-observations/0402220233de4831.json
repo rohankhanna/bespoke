@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ninja is a full stack web framework for Java. Rock solid, fast and super productive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_______ .___ _______ ____. _____"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_______ .___ _______ ____. _____"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043922,
+      "status": "candidate",
+      "text": "jujutsuka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043921,
+      "status": "candidate",
+      "text": "judoka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043920,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043919,
+      "status": "candidate",
+      "text": "sniper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043918,
+      "status": "candidate",
+      "text": "judoist"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ninja",
+      "sense_id": "ninja#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ninja",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ninja",
+  "observation_id": "0402220233de4831",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "ninja",
+  "source_context_snippet": "_______ .___ _______ ____. _____",
+  "source_file": null,
+  "source_repo": "ninjaframework/ninja",
+  "source_repo_description": "Ninja is a full stack web framework for Java. Rock solid, fast and super productive."
+}

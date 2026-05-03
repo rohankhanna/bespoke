@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-attic/reactive-streams-commons",
+      "target": "experimental",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-attic/reactive-streams-commons",
+      "target": "reactive-streams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:48.573755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A joint research effort for building highly optimized Reactive-Streams compliant operators.",
+    "fork": false,
+    "full_name": "spring-attic/reactive-streams-commons",
+    "html_url": "https://github.com/spring-attic/reactive-streams-commons",
+    "language": "Java",
+    "pushed_at": "2022-02-24T23:57:10Z",
+    "stargazers_count": 361,
+    "topics": [
+      "experimental",
+      "reactive-streams"
+    ],
+    "updated_at": "2026-04-09T01:31:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A joint research effort for building highly optimized Reactive-Streams compliant operators.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "experimental"
+    },
+    {
+      "context_snippet": "A joint research effort for building highly optimized Reactive-Streams compliant operators.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive-streams"
+    }
+  ]
+}

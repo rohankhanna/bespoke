@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@v4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-csi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm_chart_release.yml",
+      "source_repo": "seaweedfs/seaweedfs-operator"
     }
   ]
 }

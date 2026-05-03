@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:37:40.251167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RON syntax package for Sublime Text 3",
+    "fork": false,
+    "full_name": "ron-rs/sublime-ron",
+    "html_url": "https://github.com/ron-rs/sublime-ron",
+    "language": null,
+    "pushed_at": "2023-11-05T04:15:24Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-08-15T20:30:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

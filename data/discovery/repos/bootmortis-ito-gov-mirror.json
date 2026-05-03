@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "target": "domains-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "target": "iran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "target": "mirror",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:48.832052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"ito-gov-mirror\" is a repository that serves as a mirror of the publicly available website \"eservices.ito.gov.ir\". ",
+    "fork": false,
+    "full_name": "bootmortis/ito-gov-mirror",
+    "html_url": "https://github.com/bootmortis/ito-gov-mirror",
+    "language": "Python",
+    "pushed_at": "2026-02-19T23:33:06Z",
+    "stargazers_count": 15,
+    "topics": [
+      "domains-list",
+      "iran",
+      "mirror"
+    ],
+    "updated_at": "2026-04-29T14:05:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domains-list"
+    },
+    {
+      "context_snippet": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iran"
+    },
+    {
+      "context_snippet": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirror"
+    }
+  ]
+}

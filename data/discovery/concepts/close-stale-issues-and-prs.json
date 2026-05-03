@@ -1120,6 +1120,90 @@
       "source_repo": "carbon-design-system/carbon-components-vue",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "v2ray, xray, sing-box, clash, mihomo... GUI for Windows, macOS, Linux, Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08Scaffold genome sequence assemblies using linked or long read sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate-context",
+      "text": "\u26d3 Correct misassemblies using linked AND long reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/numexpr",
+      "status": "candidate-context",
+      "text": "Fast numerical array expression evaluator for Python, NumPy, Pandas, PyTables and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/numexpr",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldproxy/ldproxy",
+      "status": "candidate-context",
+      "text": "Share geospatial data via modern Web APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldproxy/ldproxy",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate-context",
+      "text": ":clock2: Immutable date and time library for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "\u26d3 Long Interval Nucleotide K-mer Scaffolder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -1672,6 +1756,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/numexpr",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldproxy/ldproxy",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
     }
@@ -2695,11 +2821,95 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "carbon-design-system/carbon-components-vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "AnyPortal/AnyPortal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/tigmint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "pydata/numexpr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ldproxy/ldproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cron.yaml",
+      "source_repo": "js-joda/js-joda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/LINKS"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "JS-DevTools/npm-publish@v1",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "IndexXuan/vue-cli-plugin-vite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-vue-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-env-compatible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "bokub/chalk-animation"
     }
   ]
 }

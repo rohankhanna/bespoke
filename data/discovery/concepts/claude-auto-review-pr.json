@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Auto Review PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate-context",
+      "text": "Open-source multimodal data annotation platform with AI auto-annotation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate-context",
+      "text": "'Claude Auto Review PR'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate",
+      "text": "'Claude Auto Review PR'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "structuralism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18763,
+      "status": "candidate",
+      "text": "rain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18692,
+      "status": "candidate",
+      "text": "club"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18683,
+      "status": "candidate",
+      "text": "accommodation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18683,
+      "status": "candidate",
+      "text": "loewi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Auto Review PR",
+  "concept_id": "claude-auto-review-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/claude-review-pr.yml",
+      "source_repo": "opendatalab/labelU"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Auto Review PR",
+      "sense_id": "claude-auto-review-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

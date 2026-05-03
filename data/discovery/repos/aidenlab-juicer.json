@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/juicer",
-      "target": "encode-dcc/hic-pipeline",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/juicer",
       "target": "theaidenlab/juicer",
       "target_type": "repository"
     },
@@ -20,13 +13,6 @@
       "source_file": "README.md",
       "source_repo": "aidenlab/juicer",
       "target": "theaidenlab/juicebox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/juicer",
-      "target": "aidenlab/straw",
       "target_type": "repository"
     },
     {
@@ -65,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:45:19.198717+00:00",
+  "fetched_at": "2026-05-03T21:50:50.569454+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -94,16 +80,6 @@
     "updated_at": "2026-04-24T12:25:23Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/straw",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "encode-dcc/hic-pipeline",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "theaidenlab/juicebox",

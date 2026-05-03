@@ -104,6 +104,18 @@
       "source_repo": "GoogleChromeLabs/jsvu",
       "status": "candidate-context",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/punycode.js",
+      "status": "candidate-context",
+      "text": "A robust Punycode converter that fully complies to RFC 3492 and RFC 5891."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/punycode.js",
+      "status": "candidate-context",
+      "text": "publish-on-tag"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleChromeLabs/jsvu",
+      "status": "candidate",
+      "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/punycode.js",
       "status": "candidate",
       "text": "publish-on-tag"
     }
@@ -251,11 +269,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-on-tag.yml",
       "source_repo": "GoogleChromeLabs/jsvu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "mathiasbynens/punycode.js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

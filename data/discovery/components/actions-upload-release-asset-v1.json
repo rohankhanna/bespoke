@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-release-asset@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -867,6 +867,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/TagIt.yml",
       "source_repo": "facebookarchive/fbzmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "larseggert/asciiTeX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "liamcain/obsidian-calendar-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_release.yml",
+      "source_repo": "Mara-Li/obsidian-snippet-downloader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Mara-Li/obsidian-snippet-downloader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "liamcain/obsidian-periodic-notes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bootmortis/sing-geosite"
     }
   ]
 }

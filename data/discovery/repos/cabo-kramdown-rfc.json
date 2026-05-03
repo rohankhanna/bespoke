@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "hildjj/grunt-kramdown-rfc2629",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "hildjj/grunt-init-rfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "miekg/mmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "metanorma/asciidoctor-rfc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:34:37.228154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An XML2RFC (RFC799x) backend for Thomas Leitner's kramdown markdown parser",
+    "fork": false,
+    "full_name": "cabo/kramdown-rfc",
+    "html_url": "https://github.com/cabo/kramdown-rfc",
+    "language": "XSLT",
+    "pushed_at": "2026-04-29T09:04:40Z",
+    "stargazers_count": 233,
+    "topics": [],
+    "updated_at": "2026-04-29T09:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hildjj/grunt-init-rfc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hildjj/grunt-kramdown-rfc2629",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metanorma/asciidoctor-rfc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miekg/mmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

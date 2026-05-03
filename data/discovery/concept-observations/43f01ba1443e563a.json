@@ -84,7 +84,7 @@
   "normalized_form": "scheduled-release",
   "observation_id": "43f01ba1443e563a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Scheduled Release",
   "source_context_snippet": "Scheduled Release",
   "source_file": ".github/workflows/scheduled-release.yml",

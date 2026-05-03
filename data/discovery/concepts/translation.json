@@ -238,6 +238,66 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate-context",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "translate scientific papers in latex, especially arxiv papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent \u2014 planning, spec and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "Experience, Learn and Code the latest breakthrough innovations with Microsoft AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +414,36 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate",
+      "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -559,11 +649,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "projectfluent/fluent.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "SUSYUSTC/MathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ngx-translate/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ailab"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

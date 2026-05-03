@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:43:27.575788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Direct agent-to-agent communication and coordination within a LAN. MCP relay server + Claude Code plugin.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Agent-Relay-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Agent-Relay-Plugin",
+    "language": "Python",
+    "pushed_at": "2026-05-03T18:35:38Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-03T18:35:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

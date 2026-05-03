@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "arkime"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate-context",
+      "text": "The website for arkime.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate-context",
+      "text": "> Arkime is a large scale, open source, indexed packet capture and search system."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate",
+      "text": "> Arkime is a large scale, open source, indexed packet capture and search system."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "arkime",
+  "concept_id": "arkime",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "arkime/arkimeweb"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arkime",
+      "sense_id": "arkime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

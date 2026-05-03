@@ -120,7 +120,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T01:16:45.275810+00:00",
+  "fetched_at": "2026-05-03T21:34:38.645459+00:00",
   "fetched_files": [
     {
       "path": "Dockerfile",
@@ -141,9 +141,9 @@
     "html_url": "https://github.com/python-mode/python-mode",
     "language": "Vim Script",
     "pushed_at": "2026-04-21T20:47:01Z",
-    "stargazers_count": 5474,
+    "stargazers_count": 5473,
     "topics": [],
-    "updated_at": "2026-04-18T23:35:17Z"
+    "updated_at": "2026-04-27T01:27:45Z"
   },
   "repo_links": [],
   "terms": []

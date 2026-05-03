@@ -84,7 +84,7 @@
   "normalized_form": "config-check",
   "observation_id": "9258335546c898c1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "config check",
   "source_context_snippet": "config check",
   "source_file": ".github/workflows/config_check.yml",

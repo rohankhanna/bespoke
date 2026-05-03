@@ -154,6 +154,30 @@
       "source_repo": "pytorch/functorch",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate-context",
+      "text": "Python wrapper for TA-Lib (http://ta-lib.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate-context",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "A Python package providing buffer compression and transformation codecs for use in data storage and communication applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +250,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pytorch/functorch",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -445,11 +481,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "pytorch/functorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/wheel.yaml",
+      "source_repo": "zarr-developers/numcodecs"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

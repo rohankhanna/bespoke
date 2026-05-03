@@ -32,6 +32,18 @@
       "source_repo": "4ian/GDevelop",
       "status": "candidate-context",
       "text": "Update translations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
+      "status": "candidate-context",
+      "text": "Repository of behaviors, actions, conditions and expressions to be used in GDevelop for creating games"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
+      "status": "candidate-context",
+      "text": "Update translations"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "4ian/GDevelop",
+      "status": "candidate",
+      "text": "Update translations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
       "status": "candidate",
       "text": "Update translations"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/update-translations.yml",
       "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "GDevelopApp/GDevelop-extensions"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

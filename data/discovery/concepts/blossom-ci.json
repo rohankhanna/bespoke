@@ -139,6 +139,18 @@
       "source_repo": "Project-MONAI/MONAI",
       "status": "candidate-context",
       "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "MONAI Model Zoo that hosts models in the MONAI Bundle format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "Blossom-CI"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate",
+      "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
       "status": "candidate",
       "text": "Blossom-CI"
     }
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/blossom-ci.yml",
       "source_repo": "Project-MONAI/MONAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

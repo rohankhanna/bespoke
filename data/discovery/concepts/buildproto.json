@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "BuildProto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "Open source file definition for storing rendering and physical data from 3D model assemblies ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "BuildProto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate",
+      "text": "BuildProto"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "BuildProto",
+  "concept_id": "buildproto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "source_repo": "HiceS/mirabuf"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BuildProto",
+      "sense_id": "buildproto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

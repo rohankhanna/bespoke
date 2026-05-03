@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spectre"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "picturepan2/spectre",
+      "status": "candidate-context",
+      "text": "Spectre.css - A Lightweight, Responsive and Modern CSS Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "picturepan2/spectre",
+      "status": "candidate-context",
+      "text": "<a href=\"https://picturepan2.github.io/spectre\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "picturepan2/spectre",
+      "status": "candidate",
+      "text": "<a href=\"https://picturepan2.github.io/spectre\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013228,
+      "status": "candidate",
+      "text": "specter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013190,
+      "status": "candidate",
+      "text": "phantom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013135,
+      "status": "candidate",
+      "text": "spook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012932,
+      "status": "candidate",
+      "text": "ghost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012567,
+      "status": "candidate",
+      "text": "wraith"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54035,
+      "status": "candidate",
+      "text": "wraith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52034,
+      "status": "candidate",
+      "text": "specter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39042,
+      "status": "candidate",
+      "text": "phantom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34039,
+      "status": "candidate",
+      "text": "apparition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "ghost"
+    }
+  ],
+  "canonical_name": "spectre",
+  "concept_id": "spectre",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "picturepan2/spectre"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spectre",
+      "sense_id": "spectre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

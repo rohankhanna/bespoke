@@ -979,6 +979,54 @@
       "source_repo": "flexivrobotics/flexiv_rdk",
       "status": "candidate-context",
       "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate-context",
+      "text": "Hierarchical Universal Language Conditioned Policies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate-context",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Command line tools for the Gazebo libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate-context",
+      "text": "Physics engine bridge for Python built upon Jolt Physics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate-context",
+      "text": "Imitation learning algorithms with Co-training for Mobile ALOHA: ACT, Diffusion Policy, VINN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate-context",
+      "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
     }
   ],
   "candidate_glosses": [
@@ -1467,6 +1515,30 @@
       "source_repo": "flexivrobotics/flexiv_rdk",
       "status": "candidate",
       "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate",
+      "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
     }
   ],
   "candidate_related_terms": [
@@ -2164,11 +2236,83 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Evilpasture/Culverin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MarkFzp/act-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

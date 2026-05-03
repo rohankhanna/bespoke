@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/audits",
+      "target": "informalsystems/quint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/audits",
+      "target": "informalsystems/atomkraft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/audits",
+      "target": "left-curve/left-curve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/audits",
+      "target": "dydxprotocol/v4-chain",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:30:01.349408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Security Audits by Informal Systems",
+    "fork": false,
+    "full_name": "informalsystems/audits",
+    "html_url": "https://github.com/informalsystems/audits",
+    "language": "TLA",
+    "pushed_at": "2026-02-27T14:46:24Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-26T16:03:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dydxprotocol/v4-chain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/atomkraft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/quint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "left-curve/left-curve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

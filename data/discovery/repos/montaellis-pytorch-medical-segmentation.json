@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "montaellis/pytorch-medical-classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "fepegar/highresnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "black0017/medicalzoopytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "fepegar/torchio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "medical-image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "torchio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:31.784955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository is an unoffical PyTorch implementation of Medical segmentation in 2D and 3D.",
+    "fork": false,
+    "full_name": "MontaEllis/Pytorch-Medical-Segmentation",
+    "html_url": "https://github.com/MontaEllis/Pytorch-Medical-Segmentation",
+    "language": "Python",
+    "pushed_at": "2025-12-09T01:37:12Z",
+    "stargazers_count": 925,
+    "topics": [
+      "medical-image-processing",
+      "pytorch",
+      "segmentation",
+      "torchio"
+    ],
+    "updated_at": "2026-05-01T07:39:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "black0017/medicalzoopytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fepegar/highresnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fepegar/torchio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "montaellis/pytorch-medical-classification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-processing"
+    },
+    {
+      "context_snippet": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchio"
+    }
+  ]
+}

@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JTAmos/Indicators.jl",
-      "target": "joshuaulrich/ttr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JTAmos/Indicators.jl",
       "target": "mrjbq7/ta-lib",
       "target_type": "repository"
     },
@@ -99,7 +92,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:42:07.680599+00:00",
+  "fetched_at": "2026-05-03T21:47:51.168620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,7 +113,7 @@
     "html_url": "https://github.com/JTAmos/Indicators.jl",
     "language": "Julia",
     "pushed_at": "2022-12-06T12:06:19Z",
-    "stargazers_count": 227,
+    "stargazers_count": 226,
     "topics": [
       "finance",
       "julia",
@@ -131,17 +124,12 @@
       "time-series",
       "timeseries"
     ],
-    "updated_at": "2026-02-24T12:38:53Z"
+    "updated_at": "2026-05-03T17:00:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dysonance/temporal.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "joshuaulrich/ttr",
       "source_file": "README.md"
     },
     {

@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/variant",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:28:58.517873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7203
+    },
+    {
+      "path": "package.json",
+      "size": 228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++11/C++14 Variant",
+    "fork": false,
+    "full_name": "mapbox/variant",
+    "html_url": "https://github.com/mapbox/variant",
+    "language": "C++",
+    "pushed_at": "2026-04-13T23:16:46Z",
+    "stargazers_count": 381,
+    "topics": [
+      "c-plus-plus"
+    ],
+    "updated_at": "2026-04-08T07:33:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An header-only alternative to `boost::variant` for C++11 and C++14",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    }
+  ]
+}

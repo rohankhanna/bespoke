@@ -127,6 +127,18 @@
       "source_repo": "JuliaData/JuliaDB.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"http://juliadb.org\" target=\"_blank\"><img width=\"128\" src=\"https://user-images.githubusercontent.com/25916/36773410-843e61b0-1c7f-11e8-818b-3edb08da8f41.png\" alt=\"JuliaDB logo\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-shared-buffer",
+      "status": "candidate-context",
+      "text": "SharedArrayBuffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-shared-buffer",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "JuliaData/JuliaDB.jl",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"http://juliadb.org\" target=\"_blank\"><img width=\"128\" src=\"https://user-images.githubusercontent.com/25916/36773410-843e61b0-1c7f-11e8-818b-3edb08da8f41.png\" alt=\"JuliaDB logo\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-shared-buffer",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -384,11 +402,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaData/JuliaDB.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-shared-buffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

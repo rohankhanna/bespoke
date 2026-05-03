@@ -48,7 +48,7 @@
   "normalized_form": "commit-message-check",
   "observation_id": "2e0e33b7f1af4bf4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "commit-message-check",
   "source_context_snippet": "'commit-message-check'",
   "source_file": ".github/workflows/commit-message-check.yml",

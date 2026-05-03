@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk-animation",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "figlet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gradient-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nanospinner",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "patorjk/figlet.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "usmanyunusov/nanospinner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "chalk-animation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "figlet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "gradient-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/javascript-millionaire",
+      "target": "nanospinner",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:47:00.140851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 623
+    },
+    {
+      "path": "package.json",
+      "size": 554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Who wants to be a JavaScript Millionaire terminal game",
+    "fork": false,
+    "full_name": "fireship-io/javascript-millionaire",
+    "html_url": "https://github.com/fireship-io/javascript-millionaire",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-17T02:17:30Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-28T19:32:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patorjk/figlet.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usmanyunusov/nanospinner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

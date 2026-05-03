@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Revive a JSON-serialized 64-bit complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034447,
+      "status": "candidate",
+      "text": "revivify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034446,
+      "status": "candidate",
+      "text": "resuscitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034396,
+      "status": "candidate",
+      "text": "recreate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034388,
+      "status": "candidate",
+      "text": "reanimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005822,
+      "status": "candidate",
+      "text": "animate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "revive",
+      "sense_id": "revive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19037,
+      "status": "candidate",
+      "text": "animate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13031,
+      "status": "candidate",
+      "text": "vivify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12029,
+      "status": "candidate",
+      "text": "revivify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "resuscitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3027,
+      "status": "candidate",
+      "text": "reanimate"
+    }
+  ],
+  "concept_id": "revive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "revive",
+  "observation_id": "70d0776c6763c922",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "revive",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "stdlib-js/complex-float32-reviver",
+  "source_repo_description": "Revive a JSON-serialized 64-bit complex number."
+}

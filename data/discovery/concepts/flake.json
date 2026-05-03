@@ -43,6 +43,18 @@
       "source_repo": "90-008/nix-cargo-integration",
       "status": "candidate-context",
       "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "Snapshot testing for Nix based on haumea [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "90-008/nix-cargo-integration",
       "status": "candidate",
       "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/namaka"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

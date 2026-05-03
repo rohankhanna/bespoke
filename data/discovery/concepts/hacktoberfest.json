@@ -8629,6 +8629,150 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate-context",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate-context",
+      "text": "High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Command line tools for the Gazebo libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate-context",
+      "text": "\ud83d\udc26 Friendly little instrumentation profiler for Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GDevelopApp/GDevelop-examples",
+      "status": "candidate-context",
+      "text": "Repository of examples and templates for GDevelop - the open-source, no-code game engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-examples",
+      "status": "candidate-context",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png 'GDevelop logo')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
+      "status": "candidate-context",
+      "text": "Repository of behaviors, actions, conditions and expressions to be used in GDevelop for creating games"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
+      "status": "candidate-context",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png 'GDevelop logo')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruntjs/grunt-contrib-watch",
+      "status": "candidate-context",
+      "text": "Run tasks whenever watched files change."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-watch",
+      "status": "candidate-context",
+      "text": "> Run predefined tasks whenever watched file patterns are added, changed or deleted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The React Native app we use to test and develop Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": ":bar_chart: :chart_with_upwards_trend:\u2800Robust dataviz framework implemented using D3 & typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typed-ember/glint",
+      "status": "candidate-context",
+      "text": "TypeScript powered tooling for Glimmer templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typed-ember/glint",
+      "status": "candidate-context",
+      "text": "TypeScript-powered tooling for Glimmer templates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For JuliaImages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "Julia Animations and Visualizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "A platform for building proxies to bypass network restrictions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -12969,6 +13113,78 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-examples",
+      "status": "candidate",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png 'GDevelop logo')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GDevelopApp/GDevelop-extensions",
+      "status": "candidate",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png 'GDevelop logo')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-watch",
+      "status": "candidate",
+      "text": "> Run predefined tasks whenever watched file patterns are added, changed or deleted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typed-ember/glint",
+      "status": "candidate",
+      "text": "TypeScript-powered tooling for Glimmer templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -19936,11 +20152,335 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "OpenLightingProject/ola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NeoApplications/Neo-Backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ignite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/puffin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gruntjs/grunt-contrib-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-tester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "typed-ember/glint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAnimators/Javis.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -316,6 +316,18 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "A pure Unix shell script ACME client for SSL / TLS certificate automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "FreeBSD"
     }
   ],
   "candidate_glosses": [
@@ -474,6 +486,12 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate",
+      "text": "FreeBSD"
     }
   ],
   "candidate_related_terms": [
@@ -666,11 +684,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heiher/hev-task-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

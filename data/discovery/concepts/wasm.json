@@ -923,6 +923,30 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate-context",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate-context",
+      "text": "A User-Defined Function Framework for Apache Arrow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate-context",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate-context",
+      "text": "Embedded property graph database built for speed. Vector search and full-text search built in. Implements Cypher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -1387,6 +1411,18 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [
@@ -2156,11 +2192,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "arrow-udf/arrow-udf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kuzudb/kuzu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

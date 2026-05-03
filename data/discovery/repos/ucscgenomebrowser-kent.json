@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent",
+      "target": "data-visualisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent",
+      "target": "genomics-visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:43.805191+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing. ",
+    "fork": false,
+    "full_name": "ucscGenomeBrowser/kent",
+    "html_url": "https://github.com/ucscGenomeBrowser/kent",
+    "language": "C",
+    "pushed_at": "2026-05-03T20:45:04Z",
+    "stargazers_count": 263,
+    "topics": [
+      "bioinformatics",
+      "computational-biology",
+      "data-visualisation",
+      "genomics-visualization"
+    ],
+    "updated_at": "2026-05-03T20:30:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "context_snippet": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualisation"
+    },
+    {
+      "context_snippet": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics-visualization"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "target": "tonyzhaozh/act",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MarkFzp/act-plus-plus",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MarkFzp/act-plus-plus",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:28.582810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Imitation learning algorithms with Co-training for Mobile ALOHA: ACT, Diffusion Policy, VINN",
+    "fork": false,
+    "full_name": "MarkFzp/act-plus-plus",
+    "html_url": "https://github.com/MarkFzp/act-plus-plus",
+    "language": "Python",
+    "pushed_at": "2024-05-15T12:53:19Z",
+    "stargazers_count": 3609,
+    "topics": [
+      "imitation-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-05-02T10:01:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonyzhaozh/act",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "misyltoad/VPhysics-Jolt",
+      "target": "joshua-ashton/vphysics-jolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "misyltoad/VPhysics-Jolt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "misyltoad/VPhysics-Jolt",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "misyltoad/VPhysics-Jolt",
+      "target": "Build Artifacts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:03.817962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6419
+    },
+    {
+      "path": ".github/workflows/artifacts.yml",
+      "size": 2882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Volt (VPhysics Jolt) is a replacement physics module for the Source Engine.",
+    "fork": false,
+    "full_name": "misyltoad/VPhysics-Jolt",
+    "html_url": "https://github.com/misyltoad/VPhysics-Jolt",
+    "language": "C++",
+    "pushed_at": "2025-05-18T22:14:27Z",
+    "stargazers_count": 1407,
+    "topics": [],
+    "updated_at": "2026-04-30T15:06:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshua-ashton/vphysics-jolt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yml",
+      "term": "Build Artifacts"
+    }
+  ]
+}

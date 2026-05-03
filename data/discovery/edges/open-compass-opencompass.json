@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "internscience/scireason",
+      "target": "tonysy/opencompass",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "scicode-bench/scicode",
+      "target": "thudm/chatglm2-6b",
       "target_type": "repository"
     },
     {
@@ -25,7 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-compass/opencompass",
-      "target": "shark-nlp/openicl",
+      "target": "tigerresearch/tigerbot",
       "target_type": "repository"
     },
     {
@@ -197,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "open-compass/opencompass"
 }

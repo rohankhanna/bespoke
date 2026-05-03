@@ -1,0 +1,258 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "allowlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "censorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "censorship-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "censorship-resistance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "cidr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "digital-rights",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "internet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "mobile-internet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "roskomnadzor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "russia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "sing-box",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "whitelist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "target": "xray-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:35:57.974509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a list of domains and ips that stay live in russia when the mobile internet gets restricted",
+    "fork": false,
+    "full_name": "hxehex/russia-mobile-internet-whitelist",
+    "html_url": "https://github.com/hxehex/russia-mobile-internet-whitelist",
+    "language": null,
+    "pushed_at": "2026-05-01T21:23:50Z",
+    "stargazers_count": 3048,
+    "topics": [
+      "allowlist",
+      "censorship",
+      "censorship-circumvention",
+      "censorship-resistance",
+      "cidr",
+      "digital-rights",
+      "internet",
+      "ip",
+      "ipv4",
+      "mobile-internet",
+      "proxy",
+      "rkn",
+      "roskomnadzor",
+      "russia",
+      "sing-box",
+      "t2",
+      "vpn",
+      "whitelist",
+      "xray",
+      "xray-core"
+    ],
+    "updated_at": "2026-05-03T17:01:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allowlist"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-circumvention"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-resistance"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cidr"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-rights"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv4"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-internet"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roskomnadzor"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "russia"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sing-box"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whitelist"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "<sup>BTC</sup>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray-core"
+    }
+  ]
+}

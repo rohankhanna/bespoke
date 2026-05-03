@@ -499,7 +499,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:58:49.372764+00:00",
+  "fetched_at": "2026-05-03T18:27:04.554340+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -543,14 +543,14 @@
     "full_name": "lumen-oss/nurr",
     "html_url": "https://github.com/lumen-oss/nurr",
     "language": "Lua",
-    "pushed_at": "2026-05-01T04:36:41Z",
+    "pushed_at": "2026-05-03T14:10:40Z",
     "stargazers_count": 42,
     "topics": [
       "luarocks",
       "neovim",
       "plugin-repo"
     ],
-    "updated_at": "2026-05-01T04:36:41Z"
+    "updated_at": "2026-05-03T14:10:45Z"
   },
   "repo_links": [
     {

@@ -2,7 +2,7 @@
   "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -189,6 +189,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "unjs/unplugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "left-curve/left-curve"
     }
   ]
 }

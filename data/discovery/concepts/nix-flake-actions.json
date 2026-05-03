@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Nix Flake actions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nix-unit",
+      "status": "candidate-context",
+      "text": "Unit testing for Nix code [maintainer=@adisbladis]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-unit",
+      "status": "candidate-context",
+      "text": "Nix Flake actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adisbladis/lix-unit",
+      "status": "candidate-context",
+      "text": "Unit testing for Nix code using Lix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adisbladis/lix-unit",
+      "status": "candidate-context",
+      "text": "Nix Flake actions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-unit",
+      "status": "candidate",
+      "text": "Nix Flake actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adisbladis/lix-unit",
+      "status": "candidate",
+      "text": "Nix Flake actions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22155,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22155,
+      "status": "candidate",
+      "text": "stet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21444,
+      "status": "candidate",
+      "text": "scrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21444,
+      "status": "candidate",
+      "text": "scraps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21444,
+      "status": "candidate",
+      "text": "tincture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nix Flake actions",
+  "concept_id": "nix-flake-actions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/nix-unit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/nix-github-actions.yml",
+      "source_repo": "adisbladis/lix-unit"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nix Flake actions",
+      "sense_id": "nix-flake-actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

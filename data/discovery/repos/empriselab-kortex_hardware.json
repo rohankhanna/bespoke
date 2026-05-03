@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "empriselab/kortex_hardware",
+      "target": "empriselab/kortex_description",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "empriselab/kortex_hardware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:07.410523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4300
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kinova Gen3 ros_control hardware interface",
+    "fork": false,
+    "full_name": "empriselab/kortex_hardware",
+    "html_url": "https://github.com/empriselab/kortex_hardware",
+    "language": "C++",
+    "pushed_at": "2023-12-25T07:11:01Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-11-23T11:56:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "empriselab/kortex_description",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

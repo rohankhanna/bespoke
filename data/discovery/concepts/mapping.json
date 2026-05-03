@@ -103,6 +103,30 @@
       "source_repo": "bryceco/GoMap",
       "status": "candidate-context",
       "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate-context",
+      "text": "\ud83c\udd94 The easy-to-use OpenStreetMap editor in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/openstreetmap/iD/workflows/build/badge.svg)](https://github.com/openstreetmap/iD/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "Easy to use OpenStreetMap editor for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "bryceco/GoMap",
       "status": "candidate",
       "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate",
+      "text": "[![build](https://github.com/openstreetmap/iD/workflows/build/badge.svg)](https://github.com/openstreetmap/iD/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
     }
   ],
   "candidate_related_terms": [
@@ -278,11 +314,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "bryceco/GoMap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "openstreetmap/iD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

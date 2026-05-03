@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml",
+      "source_repo": "dimforge/simba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml",
+      "source_repo": "dimforge/simba",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simba-ci-build.yml",
+      "source_repo": "dimforge/simba",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simba-ci-build.yml",
+      "source_repo": "dimforge/simba",
+      "target": "Simba CI build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:39:24.872335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 985
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1349
+    },
+    {
+      "path": ".github/workflows/simba-ci-build.yml",
+      "size": 2433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Set of mathematical traits to facilitate the use of SIMD-based AoSoA (Array of Struct of Array) storage pattern.",
+    "fork": false,
+    "full_name": "dimforge/simba",
+    "html_url": "https://github.com/dimforge/simba",
+    "language": "Rust",
+    "pushed_at": "2026-02-07T15:46:08Z",
+    "stargazers_count": 335,
+    "topics": [],
+    "updated_at": "2026-04-13T18:30:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Simba CI build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simba-ci-build.yml",
+      "term": "Simba CI build"
+    }
+  ]
+}

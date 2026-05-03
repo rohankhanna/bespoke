@@ -19,6 +19,18 @@
       "source_repo": "xlite-dev/lite.ai.toolkit",
       "status": "candidate-context",
       "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25Robust Video Matting C++ inference toolkit with ONNXRuntime\u3001MNN\u3001NCNN and TNN, via lite.ai.toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "status": "candidate-context",
+      "text": "<div align='left'>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "xlite-dev/lite.ai.toolkit",
       "status": "candidate",
       "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/RVM-Inference",
+      "status": "candidate",
+      "text": "<div align='left'>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

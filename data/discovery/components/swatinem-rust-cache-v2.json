@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v2",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2677,6 +2677,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "stefnotch/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iamazy/reqwest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/puffin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-native.yml",
+      "source_repo": "harlan-zw/mdream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "harlan-zw/mdream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "harlan-zw/mdream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "rukai/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rukai/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "shadowsocks/shadowsocks-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-msrv.yml",
+      "source_repo": "shadowsocks/shadowsocks-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "shadowsocks/shadowsocks-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sqlancer/sqlancer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/logforth"
     }
   ]
 }

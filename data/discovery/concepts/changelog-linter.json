@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Changelog Linter",
+    "changelog-linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evmos/os",
+      "status": "candidate-context",
+      "text": "A bleeding-edge forward-compatible EVM framework for fast blockchain development \ud83d\udd0c\u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/os",
+      "status": "candidate-context",
+      "text": "Changelog Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "'changelog-linter'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evmos/os",
+      "status": "candidate",
+      "text": "Changelog Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate",
+      "text": "'changelog-linter'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "constancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "stability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "status quo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "unchanged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Changelog Linter",
+  "concept_id": "changelog-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "evmos/os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/changelog-linter.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Changelog Linter",
+      "sense_id": "changelog-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

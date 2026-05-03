@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node.js's require('assert') for all engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021755,
+      "status": "candidate",
+      "text": "asseverate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021542,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021479,
+      "status": "candidate",
+      "text": "aver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020475,
+      "status": "candidate",
+      "text": "avow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017698,
+      "status": "candidate",
+      "text": "swear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assert",
+      "sense_id": "assert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52042,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26039,
+      "status": "candidate",
+      "text": "aver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15038,
+      "status": "candidate",
+      "text": "maintain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15037,
+      "status": "candidate",
+      "text": "avow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12032,
+      "status": "candidate",
+      "text": "insist"
+    }
+  ],
+  "concept_id": "assert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assert",
+  "observation_id": "1d1987b37d4a2f37",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "assert",
+  "source_context_snippet": "> The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser.",
+  "source_file": null,
+  "source_repo": "browserify/commonjs-assert",
+  "source_repo_description": "Node.js's require('assert') for all engines"
+}

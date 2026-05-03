@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarashakhurana/emergent-occ-forecasting",
+      "target": "peiyunh/ff",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:22.991258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the ECCV '22 paper, \"Differentiable Raycasting for Self-supervised Occupancy Forecasting\"",
+    "fork": false,
+    "full_name": "tarashakhurana/emergent-occ-forecasting",
+    "html_url": "https://github.com/tarashakhurana/emergent-occ-forecasting",
+    "language": "Python",
+    "pushed_at": "2022-12-04T04:49:17Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-01-13T05:01:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peiyunh/ff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

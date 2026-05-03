@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Julia implementation of the scikit-learn API https://cstjean.github.io/ScikitLearn.jl/dev/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"./examples/Classifier_Comparison_Julia.ipynb\"><img src=\"./docs/example_images/Classifier_Comparison_Julia.png\" alt=\"# Classifier Comparison (Julia classifiers)\" width=\"170\"> </a> <a href=\"./examples/Clustering_Comparison.ipynb\"><img src=\"./docs/example_images/Clustering\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"./examples/Classifier_Comparison_Julia.ipynb\"><img src=\"./docs/example_images/Classifier_Comparison_Julia.png\" alt=\"# Classifier Comparison (Julia classifiers)\" width=\"170\"> </a> <a href=\"./examples/Clustering_Comparison.ipynb\"><img src=\"./docs/example_images/Clustering\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19361135,
+      "status": "candidate",
+      "text": "julie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19346417,
+      "status": "candidate",
+      "text": "jules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19323882,
+      "status": "candidate",
+      "text": "kelly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18645031,
+      "status": "candidate",
+      "text": "julian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18616782,
+      "status": "candidate",
+      "text": "mrs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "julia",
+      "sense_id": "julia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "julia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "julia",
+  "observation_id": "8dde71e1baf5df17",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "julia",
+  "source_context_snippet": "<a href=\"./examples/Classifier_Comparison_Julia.ipynb\"><img src=\"./docs/example_images/Classifier_Comparison_Julia.png\" alt=\"# Classifier Comparison (Julia classifiers)\" width=\"170\"> </a> <a href=\"./examples/Clustering_Comparison.ipynb\"><img src=\"./docs/example_images/Clustering\u2026",
+  "source_file": null,
+  "source_repo": "cstjean/ScikitLearn.jl",
+  "source_repo_description": "Julia implementation of the scikit-learn API https://cstjean.github.io/ScikitLearn.jl/dev/"
+}

@@ -1,0 +1,607 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml"
+    },
+    {
+      "component": "webfactory/ssh-agent@836c84ec59a0e7bc0eabc79988384eb567561ee2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml"
+    },
+    {
+      "component": "webfactory/ssh-agent@836c84ec59a0e7bc0eabc79988384eb567561ee2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@d7543c93d881b35a8faa02e8e3605f69b7a1ce62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@d7543c93d881b35a8faa02e8e3605f69b7a1ce62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@d7543c93d881b35a8faa02e8e3605f69b7a1ce62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "left-curve/left-curve",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "Book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "webfactory/ssh-agent@836c84ec59a0e7bc0eabc79988384eb567561ee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "Cleanup Empty B2 Buckets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "Cleanup Old GHCR Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-pr.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "webfactory/ssh-agent@836c84ec59a0e7bc0eabc79988384eb567561ee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-pr.yaml",
+      "source_repo": "left-curve/left-curve",
+      "target": "Cleanup PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "sigstore/cosign-installer@d7543c93d881b35a8faa02e8e3605f69b7a1ce62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "github/codeql-action/upload-sarif@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve",
+      "target": "CometBFT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "left-curve/left-curve",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "left-curve/left-curve",
+      "target": "cryptocurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "left-curve/left-curve",
+      "target": "defi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "left-curve/left-curve",
+      "target": "smart-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "left-curve/left-curve",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:37:52.295383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4933
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 11310
+    },
+    {
+      "path": "package.json",
+      "size": 1962
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/book.yaml",
+      "size": 1453
+    },
+    {
+      "path": ".github/workflows/cleanup-b2-buckets.yaml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/cleanup-ghcr.yaml",
+      "size": 9085
+    },
+    {
+      "path": ".github/workflows/cleanup-pr.yaml",
+      "size": 10185
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3902
+    },
+    {
+      "path": ".github/workflows/cometbft.yml",
+      "size": 11862
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dango exchange",
+    "fork": false,
+    "full_name": "left-curve/left-curve",
+    "html_url": "https://github.com/left-curve/left-curve",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T21:38:23Z",
+    "stargazers_count": 134,
+    "topics": [
+      "blockchain",
+      "cryptocurrency",
+      "defi",
+      "smart-contracts",
+      "web3"
+    ],
+    "updated_at": "2026-05-02T21:26:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Book",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yaml",
+      "term": "Book"
+    },
+    {
+      "context_snippet": "Cleanup Empty B2 Buckets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "term": "Cleanup Empty B2 Buckets"
+    },
+    {
+      "context_snippet": "Cleanup Old GHCR Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml",
+      "term": "Cleanup Old GHCR Images"
+    },
+    {
+      "context_snippet": "Cleanup PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-pr.yaml",
+      "term": "Cleanup PR"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "CometBFT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cometbft.yml",
+      "term": "CometBFT"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrency"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defi"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-contracts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

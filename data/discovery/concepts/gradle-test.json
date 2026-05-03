@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Gradle test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/ekf",
+      "status": "candidate-context",
+      "text": "A EKF based state estimator for floating base robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ekf",
+      "status": "candidate-context",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "Vector math, geometry, reference frame, and shapes 2D & 3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "status": "candidate-context",
+      "text": "Composite build and IDE classpath seperation support for JVM Gradle projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "status": "candidate-context",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/ihmc-commons",
+      "status": "candidate-context",
+      "text": "Useful tools and utilities that extend Java, Apache Commons Lang, and Apache Commons IO to make them a little more accessible and non-intrusive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-commons",
+      "status": "candidate-context",
+      "text": "Gradle test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ekf",
+      "status": "candidate",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "status": "candidate",
+      "text": "Gradle test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-commons",
+      "status": "candidate",
+      "text": "Gradle test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gradle test",
+  "concept_id": "gradle-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ekf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/euclid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-commons"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gradle test",
+      "sense_id": "gradle-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Check build",
-    "check-build"
+    "check-build",
+    "check build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,30 @@
       "source_repo": "carbon-design-system/carbon-components-angular",
       "status": "candidate-context",
       "text": "Check build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elfmz/far2l",
+      "status": "candidate-context",
+      "text": "Linux port of FAR v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elfmz/far2l",
+      "status": "candidate-context",
+      "text": "check build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akruphi/far2l",
+      "status": "candidate-context",
+      "text": "Linux port of FAR v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akruphi/far2l",
+      "status": "candidate-context",
+      "text": "check build"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +89,18 @@
       "source_repo": "carbon-design-system/carbon-components-angular",
       "status": "candidate",
       "text": "Check build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elfmz/far2l",
+      "status": "candidate",
+      "text": "check build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akruphi/far2l",
+      "status": "candidate",
+      "text": "check build"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +162,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/check-build.yml",
       "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "elfmz/far2l"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "akruphi/far2l"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

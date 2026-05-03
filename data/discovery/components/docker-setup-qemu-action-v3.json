@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1272,6 +1272,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "murat-dogan/node-datachannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xjasonlyu/tun2socks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-qemu-cross.yml",
+      "source_repo": "luben/zstd-jni"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "ietf-tools/xml2rfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "ietf-tools/xml2rfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "seaweedfs/seaweedfs-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-ghcr-dev.yml.DISABLED",
+      "source_repo": "rqlite/rqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-ghcr.yml",
+      "source_repo": "rqlite/rqlite"
     }
   ]
 }

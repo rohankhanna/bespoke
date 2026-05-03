@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Scalable GPU-Based Whole Genome Aligner, published in SC20: https://doi.ieeecomputersociety.org/10.1109/SC41405.2020.00043"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whole-genome-alignment",
+      "sense_id": "whole-genome-alignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "whole-genome-alignment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "whole-genome-alignment",
+  "observation_id": "f6d95a290dd01844",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "whole-genome-alignment",
+  "source_context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+  "source_file": null,
+  "source_repo": "gsneha26/SegAlign",
+  "source_repo_description": "A Scalable GPU-Based Whole Genome Aligner, published in SC20: https://doi.ieeecomputersociety.org/10.1109/SC41405.2020.00043"
+}

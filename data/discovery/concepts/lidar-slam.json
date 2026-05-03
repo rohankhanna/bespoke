@@ -19,6 +19,18 @@
       "source_repo": "PRBonn/LiDAR-MOS",
       "status": "candidate-context",
       "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate-context",
+      "text": "Official page of ERASOR (Egocentric Ratio of pSeudo Occupancy-based Dynamic Object Removal), which is accepted @ RA-L'21 with ICRA'21"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate-context",
+      "text": "Official page of [*\"ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building\"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361109), which is accepted by RA-L with ICRA'21 option"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "PRBonn/LiDAR-MOS",
       "status": "candidate",
       "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate",
+      "text": "Official page of [*\"ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building\"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361109), which is accepted by RA-L with ICRA'21 option"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "LimHyungTae/ERASOR"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

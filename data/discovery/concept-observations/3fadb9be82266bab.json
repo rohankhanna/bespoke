@@ -48,7 +48,7 @@
   "normalized_form": "few-shot",
   "observation_id": "3fadb9be82266bab",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "few-shot",
   "source_context_snippet": "This is the implementation of our paper [**PFENet: Prior Guided Feature Enrichment Network for Few-shot Segmentation**](http://arxiv.org/abs/2008.01449) that has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).",
   "source_file": null,

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build AdGuard DNS filter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardSDNSFilter",
+      "status": "candidate-context",
+      "text": "AdGuard DNS filter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardSDNSFilter",
+      "status": "candidate-context",
+      "text": "Build AdGuard DNS filter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardSDNSFilter",
+      "status": "candidate",
+      "text": "Build AdGuard DNS filter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16066,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15318,
+      "status": "candidate",
+      "text": "domain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14318,
+      "status": "candidate",
+      "text": "adenine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14318,
+      "status": "candidate",
+      "text": "bacteroides"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14318,
+      "status": "candidate",
+      "text": "clone"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build AdGuard DNS filter",
+  "concept_id": "build-adguard-dns-filter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "AdguardTeam/AdGuardSDNSFilter"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build AdGuard DNS filter",
+      "sense_id": "build-adguard-dns-filter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

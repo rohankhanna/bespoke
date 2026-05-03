@@ -178,6 +178,18 @@
       "source_repo": "nodejs/llhttp",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/nodejs/llhttp/workflows/CI/badge.svg)](https://github.com/nodejs/llhttp/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldc-developers/ldc",
+      "status": "candidate-context",
+      "text": "The LLVM-based D Compiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldc-developers/ldc",
+      "status": "candidate-context",
+      "text": "LDC \u2013 the LLVM-based D Compiler"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "nodejs/llhttp",
       "status": "candidate",
       "text": "[![CI](https://github.com/nodejs/llhttp/workflows/CI/badge.svg)](https://github.com/nodejs/llhttp/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldc-developers/ldc",
+      "status": "candidate",
+      "text": "LDC \u2013 the LLVM-based D Compiler"
     }
   ],
   "candidate_related_terms": [
@@ -468,11 +486,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "nodejs/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ldc-developers/ldc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "seal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39606216,
+      "status": "candidate",
+      "text": "sealskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39529824,
+      "status": "candidate",
+      "text": "varnish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39423370,
+      "status": "candidate",
+      "text": "stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39397560,
+      "status": "candidate",
+      "text": "seal off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39367910,
+      "status": "candidate",
+      "text": "sealing wax"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19042,
+      "status": "candidate",
+      "text": "cachet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9053,
+      "status": "candidate",
+      "text": "stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4050,
+      "status": "candidate",
+      "text": "varnish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "sealskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "sealing wax"
+    }
+  ],
+  "canonical_name": "seal",
+  "concept_id": "seal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "seal",
+      "sense_id": "seal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Petit-Abba/Magisk-Modules-Template-ge20.4",
+      "target": "hana-ci-build-project/magisk-module-template",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:33:04.332294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9002\u7528\u4e8eMagisk\u7248\u672c20.4\u4ee5\u4e0a\u7684\u6a21\u5757\u6a21\u677f",
+    "fork": false,
+    "full_name": "Petit-Abba/Magisk-Modules-Template-ge20.4",
+    "html_url": "https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4",
+    "language": "Shell",
+    "pushed_at": "2022-03-14T03:11:46Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-03-13T08:22:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hana-ci-build-project/magisk-module-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

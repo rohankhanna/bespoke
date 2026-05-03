@@ -367,6 +367,18 @@
       "source_repo": "vibrantlabsai/ragas",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Assessing Generative Models via Precision and Recall (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "vibrantlabsai/ragas",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -799,11 +817,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "msmsajjadi/precision-recall-distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "vibrantlabsai/ragas"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

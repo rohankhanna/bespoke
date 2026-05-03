@@ -379,6 +379,150 @@
       "source_repo": "aidenlab/juicer",
       "status": "candidate-context",
       "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biod/sambamba",
+      "status": "candidate-context",
+      "text": "Tools for working with SAM/BAM data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biod/sambamba",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/biod/sambamba.svg?branch=master)](https://travis-ci.org/biod/sambamba) [![DL](https://anaconda.org/bioconda/sambamba/badges/downloads.svg)](https://anaconda.org/bioconda/sambamba) [![BrewBadge](https://img.shields.io/badge/%F0%9F%8D%BAbrew-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arshajii/ema",
+      "status": "candidate-context",
+      "text": "Fast & accurate alignment of barcoded short-reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arshajii/ema",
+      "status": "candidate-context",
+      "text": "EMA: An aligner for barcoded short-read sequencing data"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08Scaffold genome sequence assemblies using linked or long read sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaBioinformatics Technology Lab common code library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate-context",
+      "text": "\u26d3 Correct misassemblies using linked AND long reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "status": "candidate-context",
+      "text": "Pangenome structural variation (SV) merging and deduplication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "status": "candidate-context",
+      "text": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepvariant",
+      "status": "candidate-context",
+      "text": "DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepvariant",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "status": "candidate-context",
+      "text": "List of tools and resources related to the 10x Genomics GEMCode/Chromium system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "status": "candidate-context",
+      "text": "Awesome 10x Genomics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "Fast hash function for DNA/RNA sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate-context",
+      "text": "Structural variant toolkit for VCFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/Truvari.svg)](https://badge.fury.io/py/Truvari)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +711,78 @@
       "source_repo": "aidenlab/juicer",
       "status": "candidate",
       "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biod/sambamba",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/biod/sambamba.svg?branch=master)](https://travis-ci.org/biod/sambamba) [![DL](https://anaconda.org/bioconda/sambamba/badges/downloads.svg)](https://anaconda.org/bioconda/sambamba) [![BrewBadge](https://img.shields.io/badge/%F0%9F%8D%BAbrew-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arshajii/ema",
+      "status": "candidate",
+      "text": "EMA: An aligner for barcoded short-read sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/tigmint",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "status": "candidate",
+      "text": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepvariant",
+      "status": "candidate",
+      "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "status": "candidate",
+      "text": "Awesome 10x Genomics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/Truvari.svg)](https://badge.fury.io/py/Truvari)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
     }
   ],
   "candidate_related_terms": [
@@ -898,11 +1114,101 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "biod/sambamba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "arshajii/ema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/btllib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google/deepvariant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ACEnglish/truvari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

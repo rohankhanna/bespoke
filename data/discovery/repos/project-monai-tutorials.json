@@ -1,0 +1,322 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-modified.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-modified.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "project-monai/vista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "triton-inference-server/python_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "intel/openfl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-modified.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-modified.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-modified.yml",
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "premerge-notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "monai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "monai-tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "monai-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:39:28.534590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29087
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 434
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    },
+    {
+      "path": ".github/workflows/copyright.yml",
+      "size": 669
+    },
+    {
+      "path": ".github/workflows/guidelines.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/pep8.yml",
+      "size": 635
+    },
+    {
+      "path": ".github/workflows/test-modified.yml",
+      "size": 1914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MONAI Tutorials",
+    "fork": false,
+    "full_name": "Project-MONAI/tutorials",
+    "html_url": "https://github.com/Project-MONAI/tutorials",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-14T20:27:28Z",
+    "stargazers_count": 2448,
+    "topics": [
+      "jupyter-notebook",
+      "monai",
+      "monai-tutorials",
+      "monai-workflows",
+      "pytorch"
+    ],
+    "updated_at": "2026-05-03T04:33:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/openfl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-monai/vista",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/python_backend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pep8.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "premerge-notebooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-modified.yml",
+      "term": "premerge-notebooks"
+    },
+    {
+      "context_snippet": "This repository hosts the MONAI tutorials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "This repository hosts the MONAI tutorials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monai"
+    },
+    {
+      "context_snippet": "This repository hosts the MONAI tutorials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monai-tutorials"
+    },
+    {
+      "context_snippet": "This repository hosts the MONAI tutorials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monai-workflows"
+    },
+    {
+      "context_snippet": "This repository hosts the MONAI tutorials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

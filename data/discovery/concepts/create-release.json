@@ -1011,6 +1011,30 @@
       "source_repo": "kubernetes-sigs/cluster-api",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "Materialize Todoist tasks in Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arshajii/ema",
+      "status": "candidate-context",
+      "text": "Fast & accurate alignment of barcoded short-reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arshajii/ema",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1515,6 +1539,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arshajii/ema",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -2436,11 +2472,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/create_release.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create_source_release.yml",
+      "source_repo": "arshajii/ema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

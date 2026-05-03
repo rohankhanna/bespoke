@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "ignored"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate-context",
+      "text": "DNS-Blocklists: For a better internet - keep the internet clean!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate-context",
+      "text": "ignored"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate",
+      "text": "ignored"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "neglected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "unheeded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "unnoticed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "abandoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "avoided"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19025,
+      "status": "candidate",
+      "text": "neglected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16021,
+      "status": "candidate",
+      "text": "unnoticed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13019,
+      "status": "candidate",
+      "text": "unheeded"
+    }
+  ],
+  "canonical_name": "ignored",
+  "concept_id": "ignored",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ignored.yml",
+      "source_repo": "hagezi/dns-blocklists"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ignored",
+      "sense_id": "ignored#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "golden"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "Snapshot testing for Nix based on haumea [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038690,
+      "status": "candidate",
+      "text": "gilded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038483,
+      "status": "candidate",
+      "text": "aureate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038450,
+      "status": "candidate",
+      "text": "gilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037432,
+      "status": "candidate",
+      "text": "gold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034684,
+      "status": "candidate",
+      "text": "metal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 74025,
+      "status": "candidate",
+      "text": "aureate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61042,
+      "status": "candidate",
+      "text": "halcyon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58034,
+      "status": "candidate",
+      "text": "auspicious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48027,
+      "status": "candidate",
+      "text": "gilded"
+    }
+  ],
+  "canonical_name": "golden",
+  "concept_id": "golden",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/namaka"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golden",
+      "sense_id": "golden#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

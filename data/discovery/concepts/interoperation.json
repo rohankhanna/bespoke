@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "interoperation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863005,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907205,
+      "status": "candidate",
+      "text": "interop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907204,
+      "status": "candidate",
+      "text": "open system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907203,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907202,
+      "status": "candidate",
+      "text": "interface"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "interoperation",
+  "concept_id": "interoperation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interoperation",
+      "sense_id": "interoperation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

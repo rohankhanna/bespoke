@@ -115,6 +115,12 @@
       "source_repo": "yuanming-hu/taichi",
       "status": "candidate-context",
       "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
+      "status": "candidate-context",
+      "text": "Slash Command Dispatch"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +175,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yuanming-hu/taichi",
+      "status": "candidate",
+      "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
       "status": "candidate",
       "text": "Slash Command Dispatch"
     }
@@ -268,11 +280,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/issue_comment.yml",
       "source_repo": "yuanming-hu/taichi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "yuyang0/rrqlite"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

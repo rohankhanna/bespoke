@@ -48,7 +48,7 @@
   "normalized_form": "infersharp",
   "observation_id": "bc2ebe4aea6e0d26",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "InferSharp",
   "source_context_snippet": "InferSharp",
   "source_file": ".github/workflows/infersharp.yml",

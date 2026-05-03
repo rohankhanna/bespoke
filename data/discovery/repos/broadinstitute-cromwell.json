@@ -1,0 +1,689 @@
+{
+  "components": [
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "broadinstitute/repository-dispatch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "broadinstitute/repository-dispatch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml"
+    },
+    {
+      "component": "prince-chrismc/check-actor-permissions-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scalafmt-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scalafmt-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml"
+    },
+    {
+      "component": "broadinstitute/dsp-appsec-trivy-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr_name.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "openwdl/wdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "broadinstitute/repository-dispatch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "chart-update-on-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "Cromwell unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_test.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build_test.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "Docker Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "ravsamhq/notify-slack-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "prince-chrismc/check-actor-permissions-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "Release Community Cromwell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scalafmt-check.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scalafmt-check.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scalafmt-check.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "ScalaFmt Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "broadinstitute/dsp-appsec-trivy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "dsp-appsec-trivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr_name.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_pr_name.yml",
+      "source_repo": "broadinstitute/cromwell",
+      "target": "Validate PR name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "executor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "ga4gh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "workflow-description-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "broadinstitute/cromwell",
+      "target": "workflow-execution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:53.835399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/chart_update_on_merge.yml",
+      "size": 4141
+    },
+    {
+      "path": ".github/workflows/cromwell_unit_tests.yml",
+      "size": 1011
+    },
+    {
+      "path": ".github/workflows/docker_build_test.yml",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/integration_tests.yml",
+      "size": 6420
+    },
+    {
+      "path": ".github/workflows/release_community_cromwell.yml",
+      "size": 3697
+    },
+    {
+      "path": ".github/workflows/scalafmt-check.yml",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/trivy.yml",
+      "size": 1416
+    },
+    {
+      "path": ".github/workflows/validate_pr_name.yml",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments",
+    "fork": false,
+    "full_name": "broadinstitute/cromwell",
+    "html_url": "https://github.com/broadinstitute/cromwell",
+    "language": "Scala",
+    "pushed_at": "2026-05-01T21:05:12Z",
+    "stargazers_count": 1065,
+    "topics": [
+      "application",
+      "bioinformatics",
+      "cloud",
+      "containers",
+      "docker",
+      "executor",
+      "ga4gh",
+      "hpc",
+      "scala",
+      "wdl",
+      "workflow",
+      "workflow-description-language",
+      "workflow-execution"
+    ],
+    "updated_at": "2026-05-01T16:34:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openwdl/wdl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "chart-update-on-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "term": "chart-update-on-merge"
+    },
+    {
+      "context_snippet": "'Cromwell unit tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml",
+      "term": "Cromwell unit tests"
+    },
+    {
+      "context_snippet": "'Docker Build Test'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build_test.yml",
+      "term": "Docker Build Test"
+    },
+    {
+      "context_snippet": "'Integration Tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Release Community Cromwell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "term": "Release Community Cromwell"
+    },
+    {
+      "context_snippet": "'ScalaFmt Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scalafmt-check.yml",
+      "term": "ScalaFmt Check"
+    },
+    {
+      "context_snippet": "dsp-appsec-trivy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yml",
+      "term": "dsp-appsec-trivy"
+    },
+    {
+      "context_snippet": "Validate PR name",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_pr_name.yml",
+      "term": "Validate PR name"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "application"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "executor"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ga4gh"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-description-language"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-execution"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "presets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate-context",
+      "text": "\ud83c\udd94\ud83c\udff7 The presets and other tagging data used by the iD editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml) [![npm version](https://badge.fury.io/js/%40openstreetmap%2Fid-tagging-schema.svg)](https\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate",
+      "text": "[![test](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml) [![npm version](https://badge.fury.io/js/%40openstreetmap%2Fid-tagging-schema.svg)](https\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024868,
+      "status": "candidate",
+      "text": "predetermined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019828,
+      "status": "candidate",
+      "text": "planned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "adjustments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "broadcasters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "buttons"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "presets",
+  "concept_id": "presets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "openstreetmap/id-tagging-schema"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "presets",
+      "sense_id": "presets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

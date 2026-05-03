@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "First pass data analysis skills for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-analysis",
+      "sense_id": "data-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-analysis",
+  "observation_id": "265a4cbb4f76c180",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "data-analysis",
+  "source_context_snippet": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+  "source_repo_description": "First pass data analysis skills for Claude Code"
+}

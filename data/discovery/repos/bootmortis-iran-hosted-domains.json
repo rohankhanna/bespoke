@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "bootmortis/sing-geosite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "bootmortis/ito-gov-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "bootmortis/enamad-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "chocolate4u/iwmf.ir-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "domains-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "iran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "target": "v2ray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:35:47.722915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5220
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"Iran Hosted Domains\" is a comprehensive list of Iranian domains and services that are hosted within the country.",
+    "fork": false,
+    "full_name": "bootmortis/iran-hosted-domains",
+    "html_url": "https://github.com/bootmortis/iran-hosted-domains",
+    "language": "Python",
+    "pushed_at": "2026-04-27T01:19:12Z",
+    "stargazers_count": 980,
+    "topics": [
+      "domains-list",
+      "gfw",
+      "iran",
+      "v2ray"
+    ],
+    "updated_at": "2026-05-03T12:48:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootmortis/enamad-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootmortis/ito-gov-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootmortis/sing-geosite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chocolate4u/iwmf.ir-mirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domains-list"
+    },
+    {
+      "context_snippet": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iran"
+    },
+    {
+      "context_snippet": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    }
+  ]
+}

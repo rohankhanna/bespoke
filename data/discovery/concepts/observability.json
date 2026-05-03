@@ -385,6 +385,18 @@
       "source_repo": "BrunoBonacci/mulog",
       "status": "candidate-context",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -579,6 +591,12 @@
       "source_repo": "BrunoBonacci/mulog",
       "status": "candidate",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -886,11 +904,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

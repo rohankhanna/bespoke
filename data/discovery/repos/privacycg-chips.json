@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/CHIPS",
+      "target": "privacycg/first-party-sets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/CHIPS",
+      "target": "privacycg/storage-partitioning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/CHIPS",
+      "target": "michaelkleber/privacy-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/CHIPS",
+      "target": "mikewest/http-state-tokens",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:20.038127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A proposal for a cookie attribute to partition cross-site cookies by top-level site",
+    "fork": false,
+    "full_name": "privacycg/CHIPS",
+    "html_url": "https://github.com/privacycg/CHIPS",
+    "language": "Makefile",
+    "pushed_at": "2025-10-17T13:22:47Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-23T21:50:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelkleber/privacy-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikewest/http-state-tokens",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/first-party-sets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/storage-partitioning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

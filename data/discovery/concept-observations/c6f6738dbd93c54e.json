@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2024] Official implementation of \"ViTamin: Designing Scalable Vision Models in the Vision-language Era\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9918017,
+      "status": "candidate",
+      "text": "otc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vlms",
+      "sense_id": "vlms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vlms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vlms",
+  "observation_id": "c6f6738dbd93c54e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "vlms",
+  "source_context_snippet": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!",
+  "source_file": null,
+  "source_repo": "Beckschen/ViTamin",
+  "source_repo_description": "[CVPR 2024] Official implementation of \"ViTamin: Designing Scalable Vision Models in the Vision-language Era\""
+}

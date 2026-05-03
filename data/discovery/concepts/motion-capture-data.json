@@ -19,6 +19,18 @@
       "source_repo": "paulstarke/AnimationAuthoring",
       "status": "candidate-context",
       "text": "Animation Authoring for Neural Quadruped Controller"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset",
+      "status": "candidate-context",
+      "text": "Ubisoft La Forge Animation Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset",
+      "status": "candidate-context",
+      "text": "![LaFAN1](images/lafan1_1635_cropped.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "paulstarke/AnimationAuthoring",
       "status": "candidate",
       "text": "Animation Authoring for Neural Quadruped Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset",
+      "status": "candidate",
+      "text": "![LaFAN1](images/lafan1_1635_cropped.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "paulstarke/AnimationAuthoring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

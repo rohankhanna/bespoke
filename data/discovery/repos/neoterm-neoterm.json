@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "android-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "android-terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "ios-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "ios-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "linux-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "linux-terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "mac-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "mac-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "windows-software",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm",
+      "target": "windows-terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:33.819121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NeoTerm - The NEO Terminal Emulator Application For All Type Of OS With Variety Of Packages. Written In NEO Programming Language (NeoLang).",
+    "fork": false,
+    "full_name": "neoterm/neoterm",
+    "html_url": "https://github.com/neoterm/neoterm",
+    "language": null,
+    "pushed_at": "2024-12-18T19:00:30Z",
+    "stargazers_count": 71,
+    "topics": [
+      "android-app",
+      "android-terminal-emulator",
+      "ios-app",
+      "ios-terminal",
+      "linux-app",
+      "linux-terminal-emulator",
+      "mac-app",
+      "mac-terminal",
+      "terminal-emulator",
+      "windows-software",
+      "windows-terminal"
+    ],
+    "updated_at": "2026-04-21T16:40:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-app"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-terminal-emulator"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-app"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-terminal"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-app"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-terminal-emulator"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mac-app"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mac-terminal"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-software"
+    },
+    {
+      "context_snippet": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-terminal"
+    }
+  ]
+}

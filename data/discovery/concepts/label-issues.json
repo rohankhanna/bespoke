@@ -67,6 +67,18 @@
       "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate-context",
       "text": "Label issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for the C++ programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "Label issues"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate",
+      "text": "Label issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
       "status": "candidate",
       "text": "Label issues"
     }
@@ -286,11 +304,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/issue-untriaged.yml",
       "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/auto_labeller_new_issue.yml",
+      "source_repo": "compiler-research/xeus-cpp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

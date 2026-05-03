@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "azure/docker-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "outsidercsy/spconv",
+      "target": "cudpp/cudpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "outsidercsy/spconv",
+      "target": "louisdx/cxx-prettyprint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "outsidercsy/spconv",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "outsidercsy/spconv",
+      "target": "azure/docker-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "outsidercsy/spconv",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:39.737106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6535
+    },
+    {
+      "path": "Dockerfile",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spatial Sparse Convolution in PyTorch",
+    "fork": true,
+    "full_name": "outsidercsy/spconv",
+    "html_url": "https://github.com/outsidercsy/spconv",
+    "language": "C++",
+    "pushed_at": "2021-10-16T14:17:14Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-12-05T18:29:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cudpp/cudpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "louisdx/cxx-prettyprint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    }
+  ]
+}

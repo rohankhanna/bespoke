@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "anhttran/3dmm_cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "davidsandberg/facenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "juyong/3dface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "ipazc/mtcnn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:47.775313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019). A PyTorch implementation.",
+    "fork": false,
+    "full_name": "sicxu/Deep3DFaceRecon_pytorch",
+    "html_url": "https://github.com/sicxu/Deep3DFaceRecon_pytorch",
+    "language": "Python",
+    "pushed_at": "2024-11-26T07:13:38Z",
+    "stargazers_count": 1898,
+    "topics": [],
+    "updated_at": "2026-04-25T14:38:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anhttran/3dmm_cnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidsandberg/facenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipazc/mtcnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juyong/3dface",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

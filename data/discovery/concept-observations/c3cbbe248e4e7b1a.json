@@ -84,7 +84,7 @@
   "normalized_form": "tests-e2e",
   "observation_id": "c3cbbe248e4e7b1a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Tests e2e",
   "source_context_snippet": "Tests e2e",
   "source_file": ".github/workflows/e2e-tests.yml",

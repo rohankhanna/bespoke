@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengqili/Neural-Scene-Flow-Fields",
+      "target": "jkok005/dvrk-linear-interpolator-",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengqili/Neural-Scene-Flow-Fields",
+      "target": "intel-isl/midas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:32.119626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of paper \"Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes\"",
+    "fork": false,
+    "full_name": "zhengqili/Neural-Scene-Flow-Fields",
+    "html_url": "https://github.com/zhengqili/Neural-Scene-Flow-Fields",
+    "language": "Python",
+    "pushed_at": "2022-07-15T16:14:03Z",
+    "stargazers_count": 739,
+    "topics": [],
+    "updated_at": "2026-04-17T03:42:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-isl/midas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkok005/dvrk-linear-interpolator-",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

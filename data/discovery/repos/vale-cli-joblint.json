@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vale-cli/Joblint",
-      "target": "rowanmanning/joblint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vale-cli/Joblint",
       "target": "errata-ai/vale",
       "target_type": "repository"
     },
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:46:01.662598+00:00",
+  "fetched_at": "2026-05-03T19:30:10.676396+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -66,11 +59,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "errata-ai/vale",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rowanmanning/joblint",
       "source_file": "README.md"
     }
   ],

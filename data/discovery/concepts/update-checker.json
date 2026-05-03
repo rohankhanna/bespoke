@@ -43,6 +43,18 @@
       "source_repo": "ImranR98/Obtainium",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Collection of suggested apps for Obtainium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ImranR98/Obtainium",
       "status": "candidate",
       "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ImranR98/Obtainium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

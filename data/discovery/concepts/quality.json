@@ -166,6 +166,18 @@
       "source_repo": "ritchie46/simd-json",
       "status": "candidate-context",
       "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "StyleFlow: Attribute-conditioned Exploration of StyleGAN-generated Images using  Conditional Continuous Normalizing Flows (ACM TOG 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "ritchie46/simd-json",
       "status": "candidate",
       "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
     }
   ],
   "candidate_related_terms": [
@@ -445,11 +463,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

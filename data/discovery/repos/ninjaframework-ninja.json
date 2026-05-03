@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "Java 11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "Java 17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "Java 21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "ninjaframework/ninja",
+      "target": "Java 8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja",
+      "target": "ninja",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja",
+      "target": "ninjaframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja",
+      "target": "restful",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja",
+      "target": "webframework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:42:06.273357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1623
+    },
+    {
+      "path": ".github/workflows/java11.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java17.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java21.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java8.yaml",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Ninja is a full stack web framework for Java. Rock solid, fast and super productive.",
+    "fork": false,
+    "full_name": "ninjaframework/ninja",
+    "html_url": "https://github.com/ninjaframework/ninja",
+    "language": "Java",
+    "pushed_at": "2026-04-03T18:40:39Z",
+    "stargazers_count": 1902,
+    "topics": [
+      "java",
+      "ninja",
+      "ninjaframework",
+      "restful",
+      "webframework"
+    ],
+    "updated_at": "2026-04-16T11:06:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java 11",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java11.yaml",
+      "term": "Java 11"
+    },
+    {
+      "context_snippet": "Java 17",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17.yaml",
+      "term": "Java 17"
+    },
+    {
+      "context_snippet": "Java 21",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21.yaml",
+      "term": "Java 21"
+    },
+    {
+      "context_snippet": "Java 8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8.yaml",
+      "term": "Java 8"
+    },
+    {
+      "context_snippet": "_______ .___ _______ ____. _____",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "_______ .___ _______ ____. _____",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ninja"
+    },
+    {
+      "context_snippet": "_______ .___ _______ ____. _____",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ninjaframework"
+    },
+    {
+      "context_snippet": "_______ .___ _______ ____. _____",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restful"
+    },
+    {
+      "context_snippet": "_______ .___ _______ ____. _____",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webframework"
+    }
+  ]
+}

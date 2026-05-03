@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/blazer-docker",
+      "target": "oauth2-proxy/oauth2-proxy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:33:21.839444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4289
+    },
+    {
+      "path": "Dockerfile",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Docker image for Blazer",
+    "fork": false,
+    "full_name": "ankane/blazer-docker",
+    "html_url": "https://github.com/ankane/blazer-docker",
+    "language": "Ruby",
+    "pushed_at": "2026-04-21T18:36:51Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-21T18:36:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oauth2-proxy/oauth2-proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

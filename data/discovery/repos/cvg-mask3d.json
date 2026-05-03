@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:31:40.383344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mask3D predicts accurate 3D semantic instances achieving state-of-the-art on ScanNet, ScanNet200, S3DIS and STPLS3D.",
+    "fork": true,
+    "full_name": "cvg/Mask3D",
+    "html_url": "https://github.com/cvg/Mask3D",
+    "language": "Python",
+    "pushed_at": "2024-01-04T00:43:13Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-02-21T17:41:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

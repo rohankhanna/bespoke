@@ -83,34 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust",
-      "target": "rust-lang/cargo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust",
-      "target": "rust-lang/rustfmt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust",
-      "target": "rust-lang/rust-clippy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust",
-      "target": "rust-lang/rust-analyzer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "rust-lang/rust",
@@ -230,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T02:44:01.463824+00:00",
+  "fetched_at": "2026-05-03T20:44:47.340773+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -261,7 +233,6 @@
       "size": 1961
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:04:24.505587+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -271,37 +242,16 @@
     "full_name": "rust-lang/rust",
     "html_url": "https://github.com/rust-lang/rust",
     "language": "Rust",
-    "pushed_at": "2026-04-19T13:43:59Z",
-    "stargazers_count": 112127,
+    "pushed_at": "2026-05-03T19:22:25Z",
+    "stargazers_count": 112500,
     "topics": [
       "compiler",
       "language",
       "rust"
     ],
-    "updated_at": "2026-04-19T14:02:21Z"
+    "updated_at": "2026-05-03T19:42:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/cargo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/rust-analyzer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/rust-clippy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/rustfmt",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Bump dependencies in Cargo.lock",

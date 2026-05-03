@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release-builds"
+    "release-builds",
+    "Release Builds"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "actor-framework/actor-framework",
       "status": "candidate-context",
       "text": "release-builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "Release Builds"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "actor-framework/actor-framework",
       "status": "candidate",
       "text": "release-builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate",
+      "text": "Release Builds"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12071,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11192,
+      "status": "candidate",
+      "text": "fuel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11192,
+      "status": "candidate",
+      "text": "jerry-builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11192,
+      "status": "candidate",
+      "text": "loan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11066,
+      "status": "candidate",
+      "text": "bricklayer"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-builds",
   "concept_id": "release-builds",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release-builds.yml",
       "source_repo": "actor-framework/actor-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "getgrav/grav"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

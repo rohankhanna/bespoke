@@ -142,6 +142,18 @@
       "source_repo": "helmfile/vals",
       "status": "candidate-context",
       "text": "E2E test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate-context",
+      "text": "A shadowsocks client for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate-context",
+      "text": "E2E Test"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "helmfile/vals",
       "status": "candidate",
       "text": "E2E test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate",
+      "text": "E2E Test"
     }
   ],
   "candidate_related_terms": [
@@ -349,11 +367,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/e2e-test.yaml",
       "source_repo": "helmfile/vals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "shadowsocks/shadowsocks-android"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014693,
+      "status": "candidate",
+      "text": "perpendicular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965093,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902180,
+      "status": "candidate",
+      "text": "upright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898717,
+      "status": "candidate",
+      "text": "stand-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897614,
+      "status": "candidate",
+      "text": "standing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vertical",
+      "sense_id": "vertical#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16041,
+      "status": "candidate",
+      "text": "upright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14047,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9058,
+      "status": "candidate",
+      "text": "straight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8031,
+      "status": "candidate",
+      "text": "erectile"
+    }
+  ],
+  "concept_id": "vertical",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vertical",
+  "observation_id": "4b1dba01dc726e78",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "vertical",
+  "source_context_snippet": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002",
+  "source_file": null,
+  "source_repo": "MY1L/vert",
+  "source_repo_description": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c"
+}

@@ -19,6 +19,18 @@
       "source_repo": "Ha0Tang/AttentionGAN",
       "status": "candidate-context",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Assessing Generative Models via Precision and Recall (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Ha0Tang/AttentionGAN",
       "status": "candidate",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/AttentionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "msmsajjadi/precision-recall-distributions"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

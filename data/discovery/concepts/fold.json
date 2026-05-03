@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fold"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "Not UFO in the sky, but an ultra fold in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032169,
+      "status": "candidate",
+      "text": "fold up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031968,
+      "status": "candidate",
+      "text": "plication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028748,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026796,
+      "status": "candidate",
+      "text": "flexure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023330,
+      "status": "candidate",
+      "text": "pen up"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28039,
+      "status": "candidate",
+      "text": "congregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17053,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14049,
+      "status": "candidate",
+      "text": "crimp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11052,
+      "status": "candidate",
+      "text": "crease"
+    }
+  ],
+  "canonical_name": "fold",
+  "concept_id": "fold",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fold",
+      "sense_id": "fold#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

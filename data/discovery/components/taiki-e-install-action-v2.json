@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -637,6 +637,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "stefnotch/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "risinglightdb/sqllogictest-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iamazy/reqwest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "Nullus157/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "Nullus157/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/exhaustive.yml",
+      "source_repo": "Nullus157/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "Nullus157/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-native.yml",
+      "source_repo": "harlan-zw/mdream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "harlan-zw/mdream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rukai/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "informalsystems/quint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "datafuse-extras/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "datafuse-extras/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/exhaustive.yml",
+      "source_repo": "datafuse-extras/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "datafuse-extras/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/logforth"
     }
   ]
 }

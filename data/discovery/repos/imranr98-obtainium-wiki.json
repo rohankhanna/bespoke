@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml",
+      "source_repo": "ImranR98/Obtainium-Wiki",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml",
+      "source_repo": "ImranR98/Obtainium-Wiki",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wiki.yml",
+      "source_repo": "ImranR98/Obtainium-Wiki",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-wiki.yml",
+      "source_repo": "ImranR98/Obtainium-Wiki",
+      "target": "Deploy MkDocs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:31.785962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 301
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    },
+    {
+      "path": ".github/workflows/deploy-wiki.yml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ImranR98/Obtainium-Wiki",
+    "html_url": "https://github.com/ImranR98/Obtainium-Wiki",
+    "language": "HTML",
+    "pushed_at": "2025-07-06T17:36:16Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-09T03:38:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-wiki.yml",
+      "term": "Deploy MkDocs"
+    }
+  ]
+}

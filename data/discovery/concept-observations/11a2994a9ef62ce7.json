@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcac Vite plugin that provide checks of TypeScript, ESLint, vue-tsc, Stylelint and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Vite plugin that can run TypeScript, vue-tsc, ESLint, Biome, Stylelint in worker thread."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Vite plugin that can run TypeScript, vue-tsc, ESLint, Biome, Stylelint in worker thread."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16451223,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16234702,
+      "status": "candidate",
+      "text": "hurry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16224135,
+      "status": "candidate",
+      "text": "quickly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16216427,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8491190,
+      "status": "candidate",
+      "text": "ftj"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vite",
+      "sense_id": "vite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vite",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vite",
+  "observation_id": "11a2994a9ef62ce7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "vite",
+  "source_context_snippet": "A Vite plugin that can run TypeScript, vue-tsc, ESLint, Biome, Stylelint in worker thread.",
+  "source_file": null,
+  "source_repo": "fi3ework/vite-plugin-checker",
+  "source_repo_description": "\ud83d\udcac Vite plugin that provide checks of TypeScript, ESLint, vue-tsc, Stylelint and more."
+}

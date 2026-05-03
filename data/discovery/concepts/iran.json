@@ -43,6 +43,54 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "status": "candidate-context",
+      "text": "\"Iran Hosted Domains\" is a comprehensive list of Iranian domains and services that are hosted within the country."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "status": "candidate-context",
+      "text": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "Enhanced Clash and Clash.Meta routing rules with Iranian domains ruleset and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "Enhanced sing-box and sing-box-clients routing rules with built-in Iranian domains and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate-context",
+      "text": "\"ito-gov-mirror\" is a repository that serves as a mirror of the publicly available website \"eservices.ito.gov.ir\". "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate-context",
+      "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/iran-hosted-domains",
+      "status": "candidate",
+      "text": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate",
+      "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +204,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Chocolate4U/Iran-v2ray-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bootmortis/iran-hosted-domains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-clash-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-sing-box-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bootmortis/ito-gov-mirror"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

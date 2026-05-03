@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "JuliaAI/MLJ.jl",
-      "target": "julia-actions/setup-julia@v2",
+      "target": "julia-actions/setup-julia@v3",
       "target_type": "component"
     },
     {
@@ -162,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "JuliaAI/MLJ.jl"
 }

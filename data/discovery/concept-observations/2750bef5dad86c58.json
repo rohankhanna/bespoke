@@ -48,7 +48,7 @@
   "normalized_form": "codegenci",
   "observation_id": "2750bef5dad86c58",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "CodeGenCI",
   "source_context_snippet": "\"CodeGenCI\"",
   "source_file": ".github/workflows/codegen.yaml",

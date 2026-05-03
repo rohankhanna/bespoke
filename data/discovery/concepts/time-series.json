@@ -175,6 +175,30 @@
       "source_repo": "joshuaulrich/xts",
       "status": "candidate-context",
       "text": "xts is an [R](https://www.r-project.org) package that provides an extension of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joshuaulrich/quantmod",
+      "status": "candidate-context",
+      "text": "Quantitative Financial Modelling Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshuaulrich/quantmod",
+      "status": "candidate-context",
+      "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "joshuaulrich/xts",
       "status": "candidate",
       "text": "xts is an [R](https://www.r-project.org) package that provides an extension of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate",
+      "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshuaulrich/quantmod",
+      "status": "candidate",
+      "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "joshuaulrich/xts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "yzhao062/pyod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

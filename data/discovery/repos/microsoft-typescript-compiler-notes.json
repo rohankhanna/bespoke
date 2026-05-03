@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "markdown-magic",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "escape-regex-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/TypeScript-Compiler-Notes",
+      "target": "sandersn/mini-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/TypeScript-Compiler-Notes",
+      "target": "markdown-magic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/TypeScript-Compiler-Notes",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/TypeScript-Compiler-Notes",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/TypeScript-Compiler-Notes",
+      "target": "escape-regex-string",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:29:37.623823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8673
+    },
+    {
+      "path": "package.json",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repo containing notes about the TypeScript Compiler codebase",
+    "fork": false,
+    "full_name": "microsoft/TypeScript-Compiler-Notes",
+    "html_url": "https://github.com/microsoft/TypeScript-Compiler-Notes",
+    "language": "JavaScript",
+    "pushed_at": "2023-06-19T16:56:00Z",
+    "stargazers_count": 696,
+    "topics": [],
+    "updated_at": "2026-04-28T21:11:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sandersn/mini-typescript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

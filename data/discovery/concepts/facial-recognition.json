@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "facial-recognition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate-context",
+      "text": "Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate-context",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "facial-recognition",
+  "concept_id": "facial-recognition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facial-recognition",
+      "sense_id": "facial-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:32:43.002531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16376
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DataComp: In search of the next generation of multimodal datasets",
+    "fork": false,
+    "full_name": "mlfoundations/datacomp",
+    "html_url": "https://github.com/mlfoundations/datacomp",
+    "language": "Python",
+    "pushed_at": "2025-04-28T21:59:23Z",
+    "stargazers_count": 774,
+    "topics": [],
+    "updated_at": "2026-04-27T07:43:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

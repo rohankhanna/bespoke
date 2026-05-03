@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "librelane"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librelane/librelane",
+      "status": "candidate-context",
+      "text": "ASIC implementation flow infrastructure, successor to OpenLane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librelane/librelane",
+      "status": "candidate-context",
+      "text": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librelane/librelane",
+      "status": "candidate",
+      "text": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "librelane",
+  "concept_id": "librelane",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "librelane/librelane"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "librelane",
+      "sense_id": "librelane#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

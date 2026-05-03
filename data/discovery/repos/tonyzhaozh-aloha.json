@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:32:29.658834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tonyzhaozh/aloha",
+    "html_url": "https://github.com/tonyzhaozh/aloha",
+    "language": "Python",
+    "pushed_at": "2024-04-19T22:20:33Z",
+    "stargazers_count": 2219,
+    "topics": [],
+    "updated_at": "2026-05-01T16:37:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "dessant/lock-threads@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing",
+      "target": "processing/processing-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing",
+      "target": "processing/processing-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing",
+      "target": "processing/processing-sound",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing",
+      "target": "processing-js/processing-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "processing/processing",
+      "target": "dessant/lock-threads@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "processing/processing",
+      "target": "Lock Threads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:06.884111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3472
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a0\ufe0f Processing moved to processing/processing4 \u26a0\ufe0f",
+    "fork": false,
+    "full_name": "processing/processing",
+    "html_url": "https://github.com/processing/processing",
+    "language": "Java",
+    "pushed_at": "2025-05-18T21:02:16Z",
+    "stargazers_count": 6492,
+    "topics": [],
+    "updated_at": "2026-04-30T08:25:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing-js/processing-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing-sound",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    }
+  ]
+}

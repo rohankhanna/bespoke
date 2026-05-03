@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc",
+      "target": "cosmos/ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc",
+      "target": "confio/ts-relayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc",
+      "target": "cosmos/interchain-security",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/ibc",
+      "target": "bianjieai/nft-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "cosmos/ibc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "cosmos/ibc",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "cosmos/ibc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "cosmos/ibc",
+      "target": "tj-actions/changed-files@v41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "cosmos/ibc",
+      "target": "DavidAnson/markdownlint-cli2-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/ibc",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/ibc",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/ibc",
+      "target": "distributed-ledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cosmos/ibc",
+      "target": "interchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:29:59.503678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8610
+    },
+    {
+      "path": ".github/workflows/link-check-config.json",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 215
+    },
+    {
+      "path": ".github/workflows/markdown-lint.yml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interchain Standards (ICS) for the Cosmos network & interchain ecosystem.",
+    "fork": false,
+    "full_name": "cosmos/ibc",
+    "html_url": "https://github.com/cosmos/ibc",
+    "language": "TeX",
+    "pushed_at": "2026-04-13T09:00:03Z",
+    "stargazers_count": 1010,
+    "topics": [
+      "blockchain",
+      "cosmos",
+      "distributed-ledger",
+      "interchain"
+    ],
+    "updated_at": "2026-04-26T18:57:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bianjieai/nft-transfer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confio/ts-relayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ibc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/interchain-security",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![banner](./assets/interchain-standards.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "![banner](./assets/interchain-standards.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "![banner](./assets/interchain-standards.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-ledger"
+    },
+    {
+      "context_snippet": "![banner](./assets/interchain-standards.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interchain"
+    }
+  ]
+}

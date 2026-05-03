@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roy2220/osc52pty",
+      "target": "skaji/remote-pbcopy-iterm2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:25:46.843404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1777
+    },
+    {
+      "path": "go.mod",
+      "size": 246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OSC 52 workaround for Terminal.app",
+    "fork": false,
+    "full_name": "roy2220/osc52pty",
+    "html_url": "https://github.com/roy2220/osc52pty",
+    "language": "Go",
+    "pushed_at": "2026-02-07T14:55:24Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-19T14:50:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skaji/remote-pbcopy-iterm2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

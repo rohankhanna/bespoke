@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml"
+    },
+    {
+      "component": "stefanbuck/github-issue-parser@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "stefanbuck/github-issue-parser@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/complete-support-request-info.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "robotology/mesh-support",
+      "target": "Handle stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:52.582930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 655
+    },
+    {
+      "path": ".github/workflows/complete-support-request-info.yml",
+      "size": 4266
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Virtual repository that provides support requests for individual robots",
+    "fork": false,
+    "full_name": "robotology/mesh-support",
+    "html_url": "https://github.com/robotology/mesh-support",
+    "language": null,
+    "pushed_at": "2026-03-07T16:47:58Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-03-07T16:48:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Handle stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Handle stale issues"
+    }
+  ]
+}

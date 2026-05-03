@@ -1,0 +1,607 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "igabaydulin/helm-check-action@0.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml"
+    },
+    {
+      "component": "stefanprodan/helm-gh-pages@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "kubemod/kubemod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "igabaydulin/helm-check-action@0.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "dev Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "helm/chart-testing-action@v2.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "helm/kind-action@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "helm: lint and test charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "stefanprodan/helm-gh-pages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "helm: publish charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "helm/kind-action@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "CSI Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "Build & release Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "Sync SeaweedFS Dependency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "target": "Build & release Docker images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:46:26.044895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9388
+    },
+    {
+      "path": "go.mod",
+      "size": 3834
+    },
+    {
+      "path": ".github/workflows/dev.yaml",
+      "size": 3282
+    },
+    {
+      "path": ".github/workflows/helm_ci.yaml",
+      "size": 2644
+    },
+    {
+      "path": ".github/workflows/helm_release.yaml",
+      "size": 2568
+    },
+    {
+      "path": ".github/workflows/integration_test.yaml",
+      "size": 13469
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/sync-seaweedfs.yaml",
+      "size": 4632
+    },
+    {
+      "path": ".github/workflows/versioned_release.yaml",
+      "size": 3148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SeaweedFS CSI Driver https://github.com/seaweedfs/seaweedfs",
+    "fork": false,
+    "full_name": "seaweedfs/seaweedfs-csi-driver",
+    "html_url": "https://github.com/seaweedfs/seaweedfs-csi-driver",
+    "language": "Go",
+    "pushed_at": "2026-05-02T00:13:39Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-05-02T00:13:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubemod/kubemod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yaml",
+      "term": "dev Docker images"
+    },
+    {
+      "context_snippet": "\"helm: lint and test charts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_ci.yaml",
+      "term": "helm: lint and test charts"
+    },
+    {
+      "context_snippet": "\"helm: publish charts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm_release.yaml",
+      "term": "helm: publish charts"
+    },
+    {
+      "context_snippet": "CSI Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "term": "CSI Integration Tests"
+    },
+    {
+      "context_snippet": "Build & release Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Build & release Docker images"
+    },
+    {
+      "context_snippet": "Sync SeaweedFS Dependency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-seaweedfs.yaml",
+      "term": "Sync SeaweedFS Dependency"
+    },
+    {
+      "context_snippet": "Build & release Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioned_release.yaml",
+      "term": "Build & release Docker images"
+    }
+  ]
+}

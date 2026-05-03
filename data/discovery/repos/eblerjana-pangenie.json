@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eblerjana/pangenie",
+      "target": "pangenome/vcfbub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eblerjana/pangenie",
+      "target": "eblerjana/genotyping-pipelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eblerjana/pangenie",
+      "target": "eichlerlab/pav",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:47.956767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pangenome-based genome inference",
+    "fork": false,
+    "full_name": "eblerjana/pangenie",
+    "html_url": "https://github.com/eblerjana/pangenie",
+    "language": "C++",
+    "pushed_at": "2026-04-27T09:36:51Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-27T22:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eblerjana/genotyping-pipelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eichlerlab/pav",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pangenome/vcfbub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

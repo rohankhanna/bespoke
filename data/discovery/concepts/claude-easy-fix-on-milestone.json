@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Easy Fix on Milestone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "\"Claude Easy Fix on Milestone\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "\"Claude Easy Fix on Milestone\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31730,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31709,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30577,
+      "status": "candidate",
+      "text": "fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30538,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30538,
+      "status": "candidate",
+      "text": "slate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Easy Fix on Milestone",
+  "concept_id": "claude-easy-fix-on-milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/claude-easy-fix-on-milestone.yml",
+      "source_repo": "phpstan/phpstan"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Easy Fix on Milestone",
+      "sense_id": "claude-easy-fix-on-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

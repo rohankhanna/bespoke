@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "fitting-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/MICA",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:24.013406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MICA - Towards Metrical Reconstruction of Human Faces [ECCV2022]",
+    "fork": false,
+    "full_name": "Zielon/MICA",
+    "html_url": "https://github.com/Zielon/MICA",
+    "language": "Python",
+    "pushed_at": "2025-03-17T08:33:56Z",
+    "stargazers_count": 637,
+    "topics": [
+      "3dmm",
+      "computer-vision",
+      "fitting-algorithm",
+      "flame",
+      "machine-learning",
+      "neural-network",
+      "optimization"
+    ],
+    "updated_at": "2026-04-26T12:52:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fitting-algorithm"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

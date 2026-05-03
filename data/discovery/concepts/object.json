@@ -115,6 +115,30 @@
       "source_repo": "hassony2/obman_train",
       "status": "candidate-context",
       "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/proxy-ctor",
+      "status": "candidate-context",
+      "text": "Proxy object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/proxy-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions (RAL 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "hassony2/obman_train",
       "status": "candidate",
       "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/proxy-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -297,11 +333,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "hassony2/obman_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/proxy-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/4DMOS"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

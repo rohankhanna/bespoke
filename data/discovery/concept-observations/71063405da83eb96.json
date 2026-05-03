@@ -92,7 +92,7 @@
   "normalized_form": "arithmetic",
   "observation_id": "71063405da83eb96",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "arithmetic",
   "source_context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
   "source_file": null,

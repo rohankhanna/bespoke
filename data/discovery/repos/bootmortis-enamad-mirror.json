@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:42:48.376460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bootmortis/enamad-mirror",
+    "html_url": "https://github.com/bootmortis/enamad-mirror",
+    "language": "Python",
+    "pushed_at": "2025-08-08T12:29:07Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-08-08T12:29:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

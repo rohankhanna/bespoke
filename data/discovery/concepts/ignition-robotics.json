@@ -127,6 +127,18 @@
       "source_repo": "gazebosim/gz-transport",
       "status": "candidate-context",
       "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Command line tools for the Gazebo libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
       "status": "candidate",
       "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "gazebosim/gz-transport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-tools"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

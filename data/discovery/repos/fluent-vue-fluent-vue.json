@@ -201,28 +201,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fluent-vue/fluent-vue",
-      "target": "projectfluent/fluent.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "fluent-vue/examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fluent-vue/fluent-vue",
       "target": "demivan/fluent-vue",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "fluent-vue/unplugin-fluent-vue",
       "target_type": "repository"
     },
     {
@@ -555,7 +534,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:36:02.815283+00:00",
+  "fetched_at": "2026-05-03T20:34:34.161793+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -609,21 +588,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "demivan/fluent-vue",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fluent-vue/examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fluent-vue/unplugin-fluent-vue",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "projectfluent/fluent.js",
       "source_file": "README.md"
     }
   ],

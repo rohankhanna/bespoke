@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/lafan1-resolved",
+      "target": "orangeduck/motorica-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/lafan1-resolved",
+      "target": "orangeduck/interact-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/lafan1-resolved",
+      "target": "orangeduck/genoview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/lafan1-resolved",
+      "target": "orangeduck/genoviewpython",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "orangeduck/lafan1-resolved"
+}

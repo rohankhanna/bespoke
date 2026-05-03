@@ -19,12 +19,30 @@
       "source_repo": "maragudk/gomponents",
       "status": "candidate-context",
       "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maragudk/gomponents-starter-kit",
+      "status": "candidate-context",
+      "text": "A starter kit for building a web app with gomponents, HTMX, and TailwindCSS in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents-starter-kit",
+      "status": "candidate-context",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "maragudk/gomponents",
+      "status": "candidate",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents-starter-kit",
       "status": "candidate",
       "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "maragudk/gomponents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents-starter-kit"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

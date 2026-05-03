@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "@ts-morph/bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "@ts-morph/bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marionebl/ts-transformer-testing-library",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:37:18.784474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1322
+    },
+    {
+      "path": "package.json",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make testing custom TypeScript transformers a breeze",
+    "fork": false,
+    "full_name": "marionebl/ts-transformer-testing-library",
+    "html_url": "https://github.com/marionebl/ts-transformer-testing-library",
+    "language": "TypeScript",
+    "pushed_at": "2023-01-05T03:26:14Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-10-03T15:09:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

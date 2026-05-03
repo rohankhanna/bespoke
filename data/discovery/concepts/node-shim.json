@@ -19,6 +19,18 @@
       "source_repo": "iamogbz/nvshim",
       "status": "candidate-context",
       "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/commonjs-assert",
+      "status": "candidate-context",
+      "text": "Node.js's require('assert') for all engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/commonjs-assert",
+      "status": "candidate-context",
+      "text": "> The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "iamogbz/nvshim",
       "status": "candidate",
       "text": "![LOGO](https://i.ibb.co/PZTm9Sr/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/commonjs-assert",
+      "status": "candidate",
+      "text": "> The [`assert`](https://nodejs.org/api/assert.html) module from Node.js, for the browser."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "iamogbz/nvshim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "browserify/commonjs-assert"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

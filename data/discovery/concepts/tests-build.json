@@ -43,6 +43,30 @@
       "source_repo": "henryw374/time-literals",
       "status": "candidate-context",
       "text": "Tests build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "henryw374/cljs.java-time",
+      "status": "candidate-context",
+      "text": "jsr-310 (java.time) api in Clojurescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/cljs.java-time",
+      "status": "candidate-context",
+      "text": "Tests build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "henryw374/chronos",
+      "status": "candidate-context",
+      "text": "dependency-free clojure(script) time library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/chronos",
+      "status": "candidate-context",
+      "text": "Tests build"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "henryw374/time-literals",
+      "status": "candidate",
+      "text": "Tests build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/cljs.java-time",
+      "status": "candidate",
+      "text": "Tests build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/chronos",
       "status": "candidate",
       "text": "Tests build"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "henryw374/time-literals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "henryw374/cljs.java-time"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "henryw374/chronos"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

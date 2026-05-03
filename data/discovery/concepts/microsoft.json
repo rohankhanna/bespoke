@@ -331,6 +331,18 @@
       "source_repo": "microsoft/botbuilder-python",
       "status": "candidate-context",
       "text": "> We are in the process of archiving the Bot Framework Python SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate-context",
+      "text": "CMake Tools provides a robust, convenient workflow for CMake projects in VS Code. It simplifies configurations with CMake presets, supports IntelliSense and built-in debugging for CMake scripts, and offers configurable tasks. Its customizable interface allows for efficient project control, while also simplifying test execution and monitoring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate-context",
+      "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "microsoft/botbuilder-python",
       "status": "candidate",
       "text": "> We are in the process of archiving the Bot Framework Python SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate",
+      "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
     }
   ],
   "candidate_related_terms": [
@@ -813,11 +831,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-cmake-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

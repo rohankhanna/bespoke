@@ -19,6 +19,18 @@
       "source_repo": "jlblancoc/suitesparse-metis-for-windows",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "The official SuiteSparse library: a suite of sparse matrix algorithms authored or co-authored by Tim Davis, Texas A&M University. No AI generated code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jlblancoc/suitesparse-metis-for-windows",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jlblancoc/suitesparse-metis-for-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

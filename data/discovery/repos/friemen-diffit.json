@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:31:09.501830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure(Script) diff and patch implementations for vector and map.",
+    "fork": false,
+    "full_name": "friemen/diffit",
+    "html_url": "https://github.com/friemen/diffit",
+    "language": "Clojure",
+    "pushed_at": "2026-01-17T16:39:01Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-01-17T16:39:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

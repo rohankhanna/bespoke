@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:48:57.527599+00:00",
+  "fetched_at": "2026-05-03T20:40:28.239620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -410,15 +410,15 @@
     },
     {
       "path": ".github/workflows/benchmark.yml",
-      "size": 1045
+      "size": 1059
     },
     {
       "path": ".github/workflows/deploy.yml",
-      "size": 4143
+      "size": 4157
     },
     {
       "path": ".github/workflows/fuzz.yml",
-      "size": 556
+      "size": 570
     },
     {
       "path": ".github/workflows/labels.yml",
@@ -426,7 +426,7 @@
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 1226
+      "size": 1240
     },
     {
       "path": ".github/workflows/release-drafter.yml",
@@ -438,7 +438,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 3518
+      "size": 3532
     }
   ],
   "related_repositories": [],
@@ -450,7 +450,7 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-05-01T04:23:10Z",
+    "pushed_at": "2026-05-03T20:12:08Z",
     "stargazers_count": 4482,
     "topics": [
       "c",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-01T04:23:12Z"
+    "updated_at": "2026-05-03T20:12:12Z"
   },
   "repo_links": [],
   "terms": [

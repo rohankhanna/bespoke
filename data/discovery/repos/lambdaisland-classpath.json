@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:31:14.309128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Classpath/classloader/deps.edn related utilities",
+    "fork": false,
+    "full_name": "lambdaisland/classpath",
+    "html_url": "https://github.com/lambdaisland/classpath",
+    "language": "Clojure",
+    "pushed_at": "2024-12-04T15:16:25Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2025-05-01T13:51:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -223,6 +223,18 @@
       "source_repo": "stainless-steel/md5",
       "status": "candidate-context",
       "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "Fast hash function for DNA/RNA sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_glosses": [
@@ -327,6 +339,12 @@
       "source_repo": "stainless-steel/md5",
       "status": "candidate",
       "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -486,11 +504,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "stainless-steel/md5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

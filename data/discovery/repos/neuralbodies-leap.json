@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:38:23.140715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3745
+    },
+    {
+      "path": "requirements.txt",
+      "size": 139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'21] LEAP: Learning Articulated Occupancy of People https://neuralbodies.github.io/LEAP",
+    "fork": false,
+    "full_name": "neuralbodies/leap",
+    "html_url": "https://github.com/neuralbodies/leap",
+    "language": "Python",
+    "pushed_at": "2022-04-29T16:10:06Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2024-12-06T09:37:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

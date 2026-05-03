@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-base-action@beta",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "facebook/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cloud-docs-automation.yml",
+      "source_repo": "medusajs/medusa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-automation.yml",
+      "source_repo": "medusajs/medusa"
     }
   ]
 }

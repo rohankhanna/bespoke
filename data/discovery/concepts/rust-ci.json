@@ -195,6 +195,18 @@
       "source_repo": "image-rs/image-extras",
       "status": "candidate-context",
       "text": "Rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "penumbra-zone/tower-abci",
+      "status": "candidate-context",
+      "text": "Tower-based ABCI interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/tower-abci",
+      "status": "candidate-context",
+      "text": "Rust CI"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +303,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "image-rs/image-extras",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/tower-abci",
       "status": "candidate",
       "text": "Rust CI"
     }
@@ -492,11 +510,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "penumbra-zone/tower-abci"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,213 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/deepvariant",
+      "target": "google/deepsomatic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/deepvariant",
+      "target": "dnanexus-rnd/glnexus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/deepvariant",
+      "target": "google/nucleus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "deep-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "deepvariant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "genome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepvariant",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:20.104876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14001
+    },
+    {
+      "path": "Dockerfile",
+      "size": 8136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "r1.10",
+    "description": "DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data.",
+    "fork": false,
+    "full_name": "google/deepvariant",
+    "html_url": "https://github.com/google/deepvariant",
+    "language": "Python",
+    "pushed_at": "2026-03-19T04:57:17Z",
+    "stargazers_count": 3693,
+    "topics": [
+      "bioinformatics",
+      "deep-learning",
+      "deep-neural-network",
+      "deepvariant",
+      "dna",
+      "genome",
+      "genomics",
+      "machine-learning",
+      "ngs",
+      "science",
+      "sequencing",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-03T04:12:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dnanexus-rnd/glnexus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/deepsomatic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/nucleus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-network"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepvariant"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencing"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

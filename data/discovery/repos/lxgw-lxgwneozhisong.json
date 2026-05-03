@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "lxgw/lxgwneoxizhi-screen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "lxgw/lxgwxihei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "lxgw/lxgwwenkai-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "lxgw/lxgwwenkaigb-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "chinese-simplified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:57.767311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Chinese serif font derived from IPAmj Mincho. \u4e00\u6b3e\u884d\u751f\u4e8e\u300cIPAmj\u660e\u671d\u300d\u7684\u4e2d\u6587\u5b8b\u4f53\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwNeoZhiSong",
+    "html_url": "https://github.com/lxgw/LxgwNeoZhiSong",
+    "language": null,
+    "pushed_at": "2026-05-03T17:14:06Z",
+    "stargazers_count": 1109,
+    "topics": [
+      "chinese-simplified",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-03T16:42:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneoxizhi-screen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkai-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkaigb-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwxihei",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Chinese serif font derived from IPAex Mincho and IPAmj Mincho.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-simplified"
+    },
+    {
+      "context_snippet": "A Chinese serif font derived from IPAex Mincho and IPAmj Mincho.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "A Chinese serif font derived from IPAex Mincho and IPAmj Mincho.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

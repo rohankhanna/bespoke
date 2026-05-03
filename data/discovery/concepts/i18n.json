@@ -399,6 +399,30 @@
       "source_repo": "ruby-i18n/i18n",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/i18n.svg)](https://badge.fury.io/rb/i18n)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "Manage translation and localization with static analysis, for Ruby i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular."
     }
   ],
   "candidate_glosses": [
@@ -599,6 +623,18 @@
       "source_repo": "ruby-i18n/i18n",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/i18n.svg)](https://badge.fury.io/rb/i18n)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate",
+      "text": "The internationalization (i18n) library for Angular."
     }
   ],
   "candidate_related_terms": [
@@ -1068,11 +1104,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ruby-i18n/i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "glebm/i18n-tasks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ngx-translate/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

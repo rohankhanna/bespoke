@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "runes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31527,
+      "status": "candidate",
+      "text": "runic letter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "twig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31523,
+      "status": "candidate",
+      "text": "germanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31522,
+      "status": "candidate",
+      "text": "germanic toponymy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "north germanic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "runes",
+  "concept_id": "runes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "runes",
+      "sense_id": "runes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

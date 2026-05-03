@@ -84,7 +84,7 @@
   "normalized_form": "main-ci-workflow",
   "observation_id": "38c00443151d4176",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Main CI Workflow",
   "source_context_snippet": "Main CI Workflow",
   "source_file": ".github/workflows/gradle.yml",

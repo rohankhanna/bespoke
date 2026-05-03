@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "flokitv/gdevelop-autotile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "arthuro555/thnk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "flokitv/gdevelop-plane-projection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "gdevelopapp/gdevelop-extensions",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:39:47.430789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community-made extensions (objects, behaviors, features, etc...) for the GDevelop game engine and platform.",
+    "fork": false,
+    "full_name": "GDevelopApp/GDevelop-community-list",
+    "html_url": "https://github.com/GDevelopApp/GDevelop-community-list",
+    "language": null,
+    "pushed_at": "2026-04-16T10:54:41Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-30T13:33:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthuro555/thnk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flokitv/gdevelop-autotile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flokitv/gdevelop-plane-projection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdevelopapp/gdevelop-extensions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

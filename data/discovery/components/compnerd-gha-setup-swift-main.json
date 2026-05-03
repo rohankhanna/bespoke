@@ -1,7 +1,7 @@
 {
   "component": "compnerd/gha-setup-swift@main",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-swiftpm.yml",
       "source_repo": "Quick/Nimble"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
     }
   ]
 }

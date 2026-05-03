@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:37:59.337702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3953
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "NightWatcher314/npmctl",
+    "html_url": "https://github.com/NightWatcher314/npmctl",
+    "language": "Python",
+    "pushed_at": "2026-04-26T12:16:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-01T11:48:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

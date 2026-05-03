@@ -43,6 +43,18 @@
       "source_repo": "oumi-ai/oumi",
       "status": "candidate-context",
       "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beckschen/ViTamin",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Official implementation of \"ViTamin: Designing Scalable Vision Models in the Vision-language Era\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beckschen/ViTamin",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "oumi-ai/oumi",
       "status": "candidate",
       "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beckschen/ViTamin",
+      "status": "candidate",
+      "text": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!"
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +114,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Beckschen/ViTamin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

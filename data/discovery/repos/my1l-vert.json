@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/vert",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/vert",
+      "target": "manga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/vert",
+      "target": "vertical",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:53.989013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c",
+    "fork": false,
+    "full_name": "MY1L/vert",
+    "html_url": "https://github.com/MY1L/vert",
+    "language": null,
+    "pushed_at": "2022-08-23T14:53:58Z",
+    "stargazers_count": 25,
+    "topics": [
+      "fonts",
+      "manga",
+      "vertical"
+    ],
+    "updated_at": "2026-04-20T10:47:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    },
+    {
+      "context_snippet": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vertical"
+    }
+  ]
+}

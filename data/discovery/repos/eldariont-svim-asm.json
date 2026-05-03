@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "eldariont/svim-asm",
+      "target": "eldariont/svim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:23.037005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Structural Variant Identification Method using Genome Assemblies",
+    "fork": false,
+    "full_name": "eldariont/svim-asm",
+    "html_url": "https://github.com/eldariont/svim-asm",
+    "language": "Python",
+    "pushed_at": "2022-09-16T20:03:53Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-28T07:28:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eldariont/svim",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

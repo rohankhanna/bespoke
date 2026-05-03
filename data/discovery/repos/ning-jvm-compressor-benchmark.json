@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:33:20.437107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark suite for data compression library on the JVM",
+    "fork": false,
+    "full_name": "ning/jvm-compressor-benchmark",
+    "html_url": "https://github.com/ning/jvm-compressor-benchmark",
+    "language": "Java",
+    "pushed_at": "2024-06-12T01:32:01Z",
+    "stargazers_count": 219,
+    "topics": [],
+    "updated_at": "2026-03-30T03:29:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

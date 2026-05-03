@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml"
+    },
+    {
+      "component": "pozetroninc/github-action-get-latest-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "arduino/setup-protoc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "s0/git-publish-subdir-action@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "GenerateDocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "pozetroninc/github-action-get-latest-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "JS-DevTools/npm-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "NPM Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "arduino/setup-protoc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "source_repo": "HiceS/mirabuf",
+      "target": "BuildProto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:39:54.339759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2392
+    },
+    {
+      "path": ".github/workflows/docs_gen.yml",
+      "size": 1023
+    },
+    {
+      "path": ".github/workflows/npm_package.yml",
+      "size": 1322
+    },
+    {
+      "path": ".github/workflows/proto_compile.yml",
+      "size": 1286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open source file definition for storing rendering and physical data from 3D model assemblies .",
+    "fork": false,
+    "full_name": "HiceS/mirabuf",
+    "html_url": "https://github.com/HiceS/mirabuf",
+    "language": "Python",
+    "pushed_at": "2024-07-31T04:43:42Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-06-28T05:46:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GenerateDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "term": "GenerateDocs"
+    },
+    {
+      "context_snippet": "NPM Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_package.yml",
+      "term": "NPM Package"
+    },
+    {
+      "context_snippet": "BuildProto",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto_compile.yml",
+      "term": "BuildProto"
+    }
+  ]
+}

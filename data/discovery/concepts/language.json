@@ -451,6 +451,54 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate-context",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "translate scientific papers in latex, especially arxiv papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsonquerylang/jsonquery",
+      "status": "candidate-context",
+      "text": "A lightweight, flexible, and expandable JSON query language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonquerylang/jsonquery",
+      "status": "candidate-context",
+      "text": "![JSON Query Logo](https://jsonquerylang.org/frog-756900-100.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "An executable specification language  with delightful tooling based on the temporal logic of actions (TLA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "messageformat/messageformat",
+      "status": "candidate-context",
+      "text": "ICU MessageFormat and Unicode Messageformat for Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "messageformat/messageformat",
+      "status": "candidate-context",
+      "text": "<div class=\"main-title\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +723,30 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonquerylang/jsonquery",
+      "status": "candidate",
+      "text": "![JSON Query Logo](https://jsonquerylang.org/frog-756900-100.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "messageformat/messageformat",
+      "status": "candidate",
+      "text": "<div class=\"main-title\">"
     }
   ],
   "candidate_related_terms": [
@@ -1132,11 +1204,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "projectfluent/fluent.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "SUSYUSTC/MathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jsonquerylang/jsonquery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/quint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "messageformat/messageformat"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

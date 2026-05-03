@@ -1,21 +1,8 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bshepherdson/athens-export",
-      "target": "shepheb/athens-export",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-03T16:48:17.397990+00:00",
-  "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 2214
-    }
-  ],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:51:37.212615+00:00",
+  "fetched_files": [],
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -30,12 +17,6 @@
     "topics": [],
     "updated_at": "2025-09-04T17:54:28Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shepheb/athens-export",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

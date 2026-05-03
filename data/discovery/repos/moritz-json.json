@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moritz/json",
+      "target": "ugexe/zef",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:34:07.197538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny JSON parser and emitter for Perl 6 on Rakudo",
+    "fork": false,
+    "full_name": "moritz/json",
+    "html_url": "https://github.com/moritz/json",
+    "language": "Perl 6",
+    "pushed_at": "2023-09-21T13:16:01Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-02-13T12:22:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugexe/zef",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UCSC-nanopore-cgl/margin",
+      "target": "fenderglass/hapdup",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:22.107833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "UCSC-nanopore-cgl/margin",
+    "html_url": "https://github.com/UCSC-nanopore-cgl/margin",
+    "language": "C",
+    "pushed_at": "2022-11-06T01:25:22Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2025-10-28T06:46:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fenderglass/hapdup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

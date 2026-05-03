@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:32:48.053505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source for NomNaTong-regular Vietnamese ch\u1eef N\u00f4m font.",
+    "fork": false,
+    "full_name": "nomfoundation/font",
+    "html_url": "https://github.com/nomfoundation/font",
+    "language": "Python",
+    "pushed_at": "2025-11-27T01:26:34Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2026-03-26T06:46:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

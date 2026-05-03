@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnonSubm2021/TransStyleGAN",
+      "target": "siriusdemon/pytorch-dex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnonSubm2021/TransStyleGAN",
+      "target": "clovaai/generative-evaluation-prdc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:54.970689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AnonSubm2021/TransStyleGAN",
+    "html_url": "https://github.com/AnonSubm2021/TransStyleGAN",
+    "language": "Python",
+    "pushed_at": "2021-06-04T06:29:41Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-12-11T02:25:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/generative-evaluation-prdc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "siriusdemon/pytorch-dex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

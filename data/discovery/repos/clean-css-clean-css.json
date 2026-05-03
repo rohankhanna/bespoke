@@ -86,7 +86,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "shinnn/broccoli-clean-css",
+      "target": "clean-css/clean-css-cli.",
       "target_type": "repository"
     },
     {
@@ -107,7 +107,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "start-runner/clean-css",
+      "target": "poying/builder-clean-css",
       "target_type": "repository"
     },
     {
@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T00:39:17.401793+00:00",
+  "fetched_at": "2026-05-03T20:43:59.149178+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -287,7 +287,7 @@
     "html_url": "https://github.com/clean-css/clean-css",
     "language": "JavaScript",
     "pushed_at": "2024-10-18T06:34:43Z",
-    "stargazers_count": 4198,
+    "stargazers_count": 4200,
     "topics": [
       "clean-css",
       "css",
@@ -296,7 +296,7 @@
       "minification",
       "optimization"
     ],
-    "updated_at": "2026-04-28T13:21:03Z"
+    "updated_at": "2026-05-03T16:00:32Z"
   },
   "repo_links": [
     {
@@ -306,17 +306,17 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "full_name": "clean-css/clean-css-cli.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "component/builder2.js",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "shinnn/broccoli-clean-css",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "start-runner/clean-css",
+      "full_name": "poying/builder-clean-css",
       "source_file": "README.md"
     }
   ],

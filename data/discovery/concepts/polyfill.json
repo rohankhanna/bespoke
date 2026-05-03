@@ -127,6 +127,42 @@
       "source_repo": "que-etc/resize-observer-polyfill",
       "status": "candidate-context",
       "text": "ResizeObserver Polyfill"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate-context",
+      "text": "A polyfill for the ECMAScript Record and Tuple proposal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate-context",
+      "text": "The [Record and Tuple](https://github.com/tc39/proposal-record-tuple) ECMAScript proposal introduces new deeply immutable value types to JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ember-polyfills/ember-cached-decorator-polyfill",
+      "status": "candidate-context",
+      "text": "Polyfill for RFC 566: @cached"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-polyfills/ember-cached-decorator-polyfill",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ember-polyfills/ember-cached-decorator-polyfill/workflows/CI/badge.svg)](https://github.com/ember-polyfills/ember-cached-decorator-polyfill/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Web Streams, based on the WHATWG spec reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Web Streams, based on the WHATWG spec reference implementation."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "que-etc/resize-observer-polyfill",
       "status": "candidate",
       "text": "ResizeObserver Polyfill"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate",
+      "text": "The [Record and Tuple](https://github.com/tc39/proposal-record-tuple) ECMAScript proposal introduces new deeply immutable value types to JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-polyfills/ember-cached-decorator-polyfill",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ember-polyfills/ember-cached-decorator-polyfill/workflows/CI/badge.svg)](https://github.com/ember-polyfills/ember-cached-decorator-polyfill/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate",
+      "text": "Web Streams, based on the WHATWG spec reference implementation."
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +472,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/record-tuple-polyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ember-polyfills/ember-cached-decorator-polyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MattiasBuelens/web-streams-polyfill"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

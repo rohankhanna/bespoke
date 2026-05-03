@@ -1309,6 +1309,66 @@
       "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
       "status": "candidate-context",
       "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cstjean/ScikitLearn.jl",
+      "status": "candidate-context",
+      "text": "Julia implementation of the scikit-learn API https://cstjean.github.io/ScikitLearn.jl/dev/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cstjean/ScikitLearn.jl",
+      "status": "candidate-context",
+      "text": "<a href=\"./examples/Classifier_Comparison_Julia.ipynb\"><img src=\"./docs/example_images/Classifier_Comparison_Julia.png\" alt=\"# Classifier Comparison (Julia classifiers)\" width=\"170\"> </a> <a href=\"./examples/Clustering_Comparison.ipynb\"><img src=\"./docs/example_images/Clustering\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/FastAI.jl",
+      "status": "candidate-context",
+      "text": "Repository of best practices for deep learning in Julia, inspired by fastai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FastAI.jl",
+      "status": "candidate-context",
+      "text": "![](fastai-julia-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/AutoMLPipeline.jl",
+      "status": "candidate-context",
+      "text": "A package that makes it trivial to create and evaluate machine learning pipeline architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/AutoMLPipeline.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate-context",
+      "text": "Raster processing benchmarks for Python, R, and Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate-context",
+      "text": "This repository contains a collection of raster processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "Julia Animations and Visualizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
     }
   ],
   "candidate_glosses": [
@@ -1965,6 +2025,36 @@
       "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
       "status": "candidate",
       "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cstjean/ScikitLearn.jl",
+      "status": "candidate",
+      "text": "<a href=\"./examples/Classifier_Comparison_Julia.ipynb\"><img src=\"./docs/example_images/Classifier_Comparison_Julia.png\" alt=\"# Classifier Comparison (Julia classifiers)\" width=\"170\"> </a> <a href=\"./examples/Clustering_Comparison.ipynb\"><img src=\"./docs/example_images/Clustering\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FastAI.jl",
+      "status": "candidate",
+      "text": "![](fastai-julia-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/AutoMLPipeline.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate",
+      "text": "This repository contains a collection of raster processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
     }
   ],
   "candidate_related_terms": [
@@ -2824,11 +2914,113 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cstjean/ScikitLearn.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/FastAI.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "IBM/AutoMLPipeline.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAnimators/Javis.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

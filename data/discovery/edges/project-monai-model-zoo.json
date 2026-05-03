@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "project-monai/tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "peter-evans/slash-command-dispatch@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "chatops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "code-format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "premerge-cpu-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-model-info.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-model-info.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "update-model-info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "weekly-tests-cpu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "Project-MONAI/model-zoo"
+}

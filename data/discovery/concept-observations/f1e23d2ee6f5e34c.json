@@ -84,7 +84,7 @@
   "normalized_form": "homebrew",
   "observation_id": "f1e23d2ee6f5e34c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "homebrew",
   "source_context_snippet": "homebrew",
   "source_file": ".github/workflows/homebrew.yml",

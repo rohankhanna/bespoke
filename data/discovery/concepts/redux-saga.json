@@ -31,6 +31,18 @@
       "source_repo": "redux-saga/redux-saga",
       "status": "candidate-context",
       "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "redux-saga/redux-saga",
       "status": "candidate",
       "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "redux-saga/redux-saga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

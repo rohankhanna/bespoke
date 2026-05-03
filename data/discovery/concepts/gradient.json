@@ -31,6 +31,18 @@
       "source_repo": "FluxML/Zygote.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": ":rainbow:  Beautiful color gradients in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "FluxML/Zygote.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "FluxML/Zygote.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-string"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -93,6 +93,30 @@
       "source_repo": "sysadminsmedia/homebox",
       "status": "candidate-context",
       "text": "Docker publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate-context",
+      "text": "Builds a docker container wrapping higlass-server and higlass-client in nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate-context",
+      "text": "Docker publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "Interchain Security is an open sourced IBC application which allows cosmos blockchains to lease their proof-of-stake security to one another."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "Docker Publish"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +161,18 @@
       "source_repo": "sysadminsmedia/homebox",
       "status": "candidate",
       "text": "Docker publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate",
+      "text": "Docker publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate",
+      "text": "Docker Publish"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +258,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dockerpublish.yml",
+      "source_repo": "higlass/higlass-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "cosmos/interchain-security"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

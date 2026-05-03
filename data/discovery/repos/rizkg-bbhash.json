@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:29:17.201488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bloom-filter based minimal perfect hash function library",
+    "fork": false,
+    "full_name": "rizkg/BBHash",
+    "html_url": "https://github.com/rizkg/BBHash",
+    "language": "C++",
+    "pushed_at": "2025-07-16T18:12:42Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-05-01T14:10:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

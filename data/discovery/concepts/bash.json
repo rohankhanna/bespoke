@@ -817,6 +817,18 @@
       "source_repo": "aleskxyz/reality-ezpz",
       "status": "candidate-context",
       "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "A pure Unix shell script ACME client for SSL / TLS certificate automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1221,6 +1233,12 @@
       "source_repo": "aleskxyz/reality-ezpz",
       "status": "candidate",
       "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2044,11 +2062,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

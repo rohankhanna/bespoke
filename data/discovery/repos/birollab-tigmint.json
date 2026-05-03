@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "BirolLab/tigmint",
+      "target": "daler/pybedtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/tigmint",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "10xgenomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "bioinformatics-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "genome-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "genome-scaffolding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "linked-reads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/tigmint",
+      "target": "misassembly-correction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:12.269968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11008
+    },
+    {
+      "path": "Dockerfile",
+      "size": 360
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/jekyll-gh-pages.yml",
+      "size": 1232
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26d3 Correct misassemblies using linked AND long reads",
+    "fork": false,
+    "full_name": "BirolLab/tigmint",
+    "html_url": "https://github.com/BirolLab/tigmint",
+    "language": "Python",
+    "pushed_at": "2026-03-24T15:16:02Z",
+    "stargazers_count": 63,
+    "topics": [
+      "10xgenomics",
+      "bioinformatics",
+      "bioinformatics-tool",
+      "genome-assembly",
+      "genome-scaffolding",
+      "linked-reads",
+      "misassembly-correction"
+    ],
+    "updated_at": "2026-03-24T15:16:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daler/pybedtools",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "10xgenomics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics-tool"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-assembly"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-scaffolding"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-reads"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misassembly-correction"
+    }
+  ]
+}

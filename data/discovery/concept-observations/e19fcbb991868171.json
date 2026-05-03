@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kernel based root solution for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39838146,
+      "status": "candidate",
+      "text": "humanoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941074,
+      "status": "candidate",
+      "text": "mechanical man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941073,
+      "status": "candidate",
+      "text": "droid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29848409,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941077,
+      "status": "candidate",
+      "text": "manbot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "android",
+      "sense_id": "android#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7028,
+      "status": "candidate",
+      "text": "humanoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "mechanical man"
+    }
+  ],
+  "concept_id": "android",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android",
+  "observation_id": "e19fcbb991868171",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "android",
+  "source_context_snippet": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026",
+  "source_file": null,
+  "source_repo": "tiann/KernelSU",
+  "source_repo_description": "A Kernel based root solution for Android"
+}

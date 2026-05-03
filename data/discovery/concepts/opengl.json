@@ -607,6 +607,18 @@
       "source_repo": "kool-engine/kool",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate-context",
+      "text": "Surfel-based Mapping for 3d Laser Range Data (SuMa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate-context",
+      "text": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E."
     }
   ],
   "candidate_glosses": [
@@ -909,6 +921,12 @@
       "source_repo": "kool-engine/kool",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate",
+      "text": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E."
     }
   ],
   "candidate_related_terms": [
@@ -1414,11 +1432,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "kool-engine/kool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

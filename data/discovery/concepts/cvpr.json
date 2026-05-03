@@ -139,6 +139,18 @@
       "source_repo": "radekd91/emoca",
       "status": "candidate-context",
       "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate-context",
+      "text": "(CVPR 2024) Neural Refinement for Absolute Pose Regression with Feature Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate-context",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "radekd91/emoca",
       "status": "candidate",
       "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),"
     }
   ],
   "candidate_related_terms": [
@@ -396,11 +414,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

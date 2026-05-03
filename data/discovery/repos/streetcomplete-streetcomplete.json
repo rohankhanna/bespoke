@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled"
+    },
+    {
+      "component": "musichin/ktlint-check@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Gradle Android tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Build debug apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Generate quest list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "musichin/ktlint-check@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "Gradle unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete",
+      "target": "survey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:28:54.860092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7441
+    },
+    {
+      "path": ".github/workflows/android-test.yml",
+      "size": 2130
+    },
+    {
+      "path": ".github/workflows/build-debug-apk.yml",
+      "size": 1120
+    },
+    {
+      "path": ".github/workflows/generate-quest-list.yml",
+      "size": 605
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/lint.yml.disabled",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy to use OpenStreetMap editor for Android",
+    "fork": false,
+    "full_name": "streetcomplete/StreetComplete",
+    "html_url": "https://github.com/streetcomplete/StreetComplete",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-02T13:52:26Z",
+    "stargazers_count": 4540,
+    "topics": [
+      "android",
+      "editor",
+      "mapping",
+      "openstreetmap",
+      "osm",
+      "survey"
+    ],
+    "updated_at": "2026-05-03T17:26:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gradle Android tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-test.yml",
+      "term": "Gradle Android tests"
+    },
+    {
+      "context_snippet": "Build debug apk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "term": "Build debug apk"
+    },
+    {
+      "context_snippet": "Generate quest list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "term": "Generate quest list"
+    },
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "\"Lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Gradle unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "Gradle unit tests"
+    },
+    {
+      "context_snippet": "![StreetComplete](.github/images/feature_graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![StreetComplete](.github/images/feature_graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "![StreetComplete](.github/images/feature_graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "![StreetComplete](.github/images/feature_graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "![StreetComplete](.github/images/feature_graphic.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:36.541787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(Arxiv 2021) NeRF--: Neural Radiance Fields Without Known Camera Parameters",
+    "fork": false,
+    "full_name": "ActiveVisionLab/nerfmm",
+    "html_url": "https://github.com/ActiveVisionLab/nerfmm",
+    "language": "Python",
+    "pushed_at": "2023-08-08T21:56:38Z",
+    "stargazers_count": 576,
+    "topics": [
+      "nerf",
+      "neural-radiance-fields",
+      "novel-view-synthesis",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-04-18T15:16:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**[Project Page](https://nerfmm.active.vision/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "**[Project Page](https://nerfmm.active.vision/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    },
+    {
+      "context_snippet": "**[Project Page](https://nerfmm.active.vision/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    },
+    {
+      "context_snippet": "**[Project Page](https://nerfmm.active.vision/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

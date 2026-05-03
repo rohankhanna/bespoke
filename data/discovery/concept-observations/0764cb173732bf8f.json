@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Linux Transparent Proxy library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "0764cb173732bf8f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026",
+  "source_file": null,
+  "source_repo": "KatelynHaworth/go-tproxy",
+  "source_repo_description": "Linux Transparent Proxy library for Golang"
+}

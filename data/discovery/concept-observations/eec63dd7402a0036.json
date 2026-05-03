@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Additional optional modules for the Reactor project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967114,
+      "status": "candidate",
+      "text": "adaptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966145,
+      "status": "candidate",
+      "text": "arranger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971608,
+      "status": "candidate",
+      "text": "adaptation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971029,
+      "status": "candidate",
+      "text": "adapt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969118,
+      "status": "candidate",
+      "text": "adjusting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adapter",
+      "sense_id": "adapter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "arranger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "adaptor"
+    }
+  ],
+  "concept_id": "adapter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adapter",
+  "observation_id": "eec63dd7402a0036",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "adapter",
+  "source_context_snippet": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)",
+  "source_file": null,
+  "source_repo": "reactor/reactor-addons",
+  "source_repo_description": "Additional optional modules for the Reactor project"
+}

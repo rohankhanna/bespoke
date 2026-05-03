@@ -51,28 +51,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "imgui-rs/imgui-rs",
-      "target": "curldivergence/imgui-d3d12-renderer",
+      "target": "imgui-rs/imgui-glow-renderer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-gfx-renderer",
+      "target": "imgui-rs/imgui-winit-support",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-glium-renderer",
+      "target": "imgui-rs/imgui-sdl2-support",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-examples",
+      "target": "veykril/imgui-dx11-renderer",
       "target_type": "repository"
     },
     {
@@ -125,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T13:35:11.971607+00:00",
+  "fetched_at": "2026-05-03T20:44:42.667900+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,22 +162,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "curldivergence/imgui-d3d12-renderer",
+      "full_name": "imgui-rs/imgui-glow-renderer",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-examples",
+      "full_name": "imgui-rs/imgui-sdl2-support",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-gfx-renderer",
+      "full_name": "imgui-rs/imgui-winit-support",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-glium-renderer",
+      "full_name": "veykril/imgui-dx11-renderer",
       "source_file": "README.md"
     }
   ],

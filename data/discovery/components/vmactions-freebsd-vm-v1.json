@@ -1,7 +1,7 @@
 {
   "component": "vmactions/freebsd-vm@v1",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -232,6 +232,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh"
     }
   ]
 }

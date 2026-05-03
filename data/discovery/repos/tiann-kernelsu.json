@@ -1,0 +1,631 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ddk-lkm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ddk-lkm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-lkm.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build LKM for KernelSU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "android-actions/setup-android@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-manager.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "ClangFormat check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Clippy check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ddk-lkm.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ddk-lkm.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ddk-lkm.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build KernelSU Kernel Module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Deploy Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build ksud with cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksud.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build ksud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "source_repo": "tiann/KernelSU",
+      "target": "Build ksuinit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU",
+      "target": "kernelsu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU",
+      "target": "root",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:36.267535+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/build-lkm.yml",
+      "size": 869
+    },
+    {
+      "path": ".github/workflows/build-manager.yml",
+      "size": 12509
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 583
+    },
+    {
+      "path": ".github/workflows/clippy.yml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/ddk-lkm.yml",
+      "size": 2657
+    },
+    {
+      "path": ".github/workflows/deploy-website.yml",
+      "size": 1748
+    },
+    {
+      "path": ".github/workflows/ksud-extra.yml",
+      "size": 1652
+    },
+    {
+      "path": ".github/workflows/ksud.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/ksuinit.yml",
+      "size": 1002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Kernel based root solution for Android",
+    "fork": false,
+    "full_name": "tiann/KernelSU",
+    "html_url": "https://github.com/tiann/KernelSU",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-02T11:33:51Z",
+    "stargazers_count": 16218,
+    "topics": [
+      "android",
+      "kernel",
+      "kernelsu",
+      "root",
+      "su"
+    ],
+    "updated_at": "2026-05-03T18:55:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build LKM for KernelSU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-lkm.yml",
+      "term": "Build LKM for KernelSU"
+    },
+    {
+      "context_snippet": "Build Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-manager.yml",
+      "term": "Build Manager"
+    },
+    {
+      "context_snippet": "ClangFormat check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "ClangFormat check"
+    },
+    {
+      "context_snippet": "Clippy check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "term": "Clippy check"
+    },
+    {
+      "context_snippet": "Build KernelSU Kernel Module",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ddk-lkm.yml",
+      "term": "Build KernelSU Kernel Module"
+    },
+    {
+      "context_snippet": "Deploy Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "term": "Deploy Website"
+    },
+    {
+      "context_snippet": "Build ksud with cross",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksud-extra.yml",
+      "term": "Build ksud with cross"
+    },
+    {
+      "context_snippet": "Build ksud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksud.yml",
+      "term": "Build ksud"
+    },
+    {
+      "context_snippet": "Build ksuinit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksuinit.yml",
+      "term": "Build ksuinit"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernelsu"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "root"
+    }
+  ]
+}

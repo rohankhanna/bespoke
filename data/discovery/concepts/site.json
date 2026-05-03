@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -44,6 +46,18 @@
       "source_repo": "xoofx/markdig",
       "status": "candidate-context",
       "text": "site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "TestNG documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
     }
   ],
   "candidate_glosses": [
@@ -64,6 +78,12 @@
       "source_repo": "xoofx/markdig",
       "status": "candidate",
       "text": "site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +174,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "xoofx/markdig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

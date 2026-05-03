@@ -31,6 +31,18 @@
       "source_repo": "onnx/onnx",
       "status": "candidate-context",
       "text": "Post clang-tidy review comments"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for the C++ programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate-context",
+      "text": "Post clang-tidy review comments"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "onnx/onnx",
+      "status": "candidate",
+      "text": "Post clang-tidy review comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/xeus-cpp",
       "status": "candidate",
       "text": "Post clang-tidy review comments"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/clang_tidy_review_post.yml",
       "source_repo": "onnx/onnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "source_repo": "compiler-research/xeus-cpp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

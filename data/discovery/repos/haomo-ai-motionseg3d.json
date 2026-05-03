@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haomo-ai/MotionSeg3D",
+      "target": "alexandrosstergiou/softpool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haomo-ai/MotionSeg3D",
+      "target": "wkentaro/gdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haomo-ai/MotionSeg3D",
+      "target": "tusen-ai/rangedet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haomo-ai/MotionSeg3D",
+      "target": "mit-han-lab/spvnas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:19.650627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8781
+    },
+    {
+      "path": "requirements.txt",
+      "size": 270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IROS 2022] Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation",
+    "fork": false,
+    "full_name": "haomo-ai/MotionSeg3D",
+    "html_url": "https://github.com/haomo-ai/MotionSeg3D",
+    "language": "Python",
+    "pushed_at": "2022-12-09T16:38:24Z",
+    "stargazers_count": 262,
+    "topics": [],
+    "updated_at": "2026-02-23T15:06:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandrosstergiou/softpool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/spvnas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tusen-ai/rangedet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wkentaro/gdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

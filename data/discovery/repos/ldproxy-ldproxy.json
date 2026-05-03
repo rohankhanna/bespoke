@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/todo_check.yml"
+    },
+    {
+      "component": "phntmxyz/pr_todo_checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/todo_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "interactive-instruments/ldproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "interactive-instruments/ldproxy-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/todo_check.yml",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/todo_check.yml",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "phntmxyz/pr_todo_checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/todo_check.yml",
+      "source_repo": "ldproxy/ldproxy",
+      "target": "PR Todo Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldproxy/ldproxy",
+      "target": "ogcapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:29:04.140307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5217
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/todo_check.yml",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Share geospatial data via modern Web APIs",
+    "fork": false,
+    "full_name": "ldproxy/ldproxy",
+    "html_url": "https://github.com/ldproxy/ldproxy",
+    "language": "Java",
+    "pushed_at": "2026-05-03T10:57:19Z",
+    "stargazers_count": 101,
+    "topics": [
+      "ogc",
+      "ogcapi"
+    ],
+    "updated_at": "2026-04-29T11:24:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactive-instruments/ldproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactive-instruments/ldproxy-community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "PR Todo Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/todo_check.yml",
+      "term": "PR Todo Checker"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-MPL%202.0-blue.svg)](http://mozilla.org/MPL/2.0/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ogcapi"
+    }
+  ]
+}

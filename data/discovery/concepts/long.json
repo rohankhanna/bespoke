@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "long"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-int32",
+      "status": "candidate-context",
+      "text": "Int32Array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-int32",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-uint32",
+      "status": "candidate-context",
+      "text": "Uint32Array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-uint32",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-int32",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-uint32",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021871,
+      "status": "candidate",
+      "text": "longitudinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021583,
+      "status": "candidate",
+      "text": "oblong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011335,
+      "status": "candidate",
+      "text": "yearlong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010642,
+      "status": "candidate",
+      "text": "daylong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003815,
+      "status": "candidate",
+      "text": "overnight"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 63039,
+      "status": "candidate",
+      "text": "tenacious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52051,
+      "status": "candidate",
+      "text": "perennial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38034,
+      "status": "candidate",
+      "text": "languish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37031,
+      "status": "candidate",
+      "text": "abundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31024,
+      "status": "candidate",
+      "text": "prolonged"
+    }
+  ],
+  "canonical_name": "long",
+  "concept_id": "long",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-int32"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-uint32"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "long",
+      "sense_id": "long#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

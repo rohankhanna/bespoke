@@ -159,6 +159,30 @@
       "source_repo": "pola-rs/polars",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate-context",
+      "text": "A User-Defined Function Framework for Apache Arrow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate-context",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate-context",
+      "text": " Ergonomic bindings to duckdb for Rust "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/duckdb.svg)](https://crates.io/crates/duckdb)"
     }
   ],
   "candidate_glosses": [
@@ -239,6 +263,18 @@
       "source_repo": "pola-rs/polars",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arrow-udf/arrow-udf",
+      "status": "candidate",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/duckdb.svg)](https://crates.io/crates/duckdb)"
     }
   ],
   "candidate_related_terms": [
@@ -542,11 +578,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "arrow-udf/arrow-udf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

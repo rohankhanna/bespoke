@@ -67,6 +67,18 @@
       "source_repo": "emissary-ingress/emissary",
       "status": "candidate-context",
       "text": "Emissary-ingress"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YMFE/yapi",
+      "status": "candidate-context",
+      "text": "YApi \u662f\u4e00\u4e2a\u53ef\u672c\u5730\u90e8\u7f72\u7684\u3001\u6253\u901a\u524d\u540e\u7aef\u53caQA\u7684\u3001\u53ef\u89c6\u5316\u7684\u63a5\u53e3\u7ba1\u7406\u5e73\u53f0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YMFE/yapi",
+      "status": "candidate-context",
+      "text": "\u4f53\u9a8c\u5730\u5740\uff1a"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "emissary-ingress/emissary",
       "status": "candidate",
       "text": "Emissary-ingress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YMFE/yapi",
+      "status": "candidate",
+      "text": "\u4f53\u9a8c\u5730\u5740\uff1a"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "emissary-ingress/emissary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "YMFE/yapi"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

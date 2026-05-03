@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gogama/flatgeobuf",
+      "target": "gogama/incite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gogama/flatgeobuf",
+      "target": "gogama/httpx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "gogama/flatgeobuf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "gogama/flatgeobuf",
+      "target": "actions/setup-go@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "gogama/flatgeobuf",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/flatgeobuf",
+      "target": "flatgeobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/flatgeobuf",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/flatgeobuf",
+      "target": "geospatial-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/flatgeobuf",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:29:02.248879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4651
+    },
+    {
+      "path": "go.mod",
+      "size": 339
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flatgeobuf binary geospatial encoding Go library",
+    "fork": false,
+    "full_name": "gogama/flatgeobuf",
+    "html_url": "https://github.com/gogama/flatgeobuf",
+    "language": "Go",
+    "pushed_at": "2023-12-21T05:32:16Z",
+    "stargazers_count": 21,
+    "topics": [
+      "flatgeobuf",
+      "geospatial",
+      "geospatial-database",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-03-03T18:17:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gogama/httpx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gogama/incite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatgeobuf"
+    },
+    {
+      "context_snippet": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial-database"
+    },
+    {
+      "context_snippet": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

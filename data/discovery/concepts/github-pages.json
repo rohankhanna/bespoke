@@ -812,6 +812,42 @@
       "source_repo": "mmistakes/minimal-mistakes",
       "status": "candidate-context",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "Go\u5b9e\u73b0\u7684Trojan\u4ee3\u7406\uff0c\u652f\u6301\u591a\u8def\u590d\u7528/\u8def\u7531\u529f\u80fd/CDN\u4e2d\u8f6c/Shadowsocks\u6df7\u6dc6\u63d2\u4ef6\uff0c\u591a\u5e73\u53f0\uff0c\u65e0\u4f9d\u8d56\u3002A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "github-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate-context",
+      "text": "Main collector of ergoCub specific SW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate-context",
+      "text": "The Emmy Computer Algebra System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -1216,6 +1252,24 @@
       "source_repo": "mmistakes/minimal-mistakes",
       "status": "candidate",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate",
+      "text": "github-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -1871,11 +1925,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "mmistakes/minimal-mistakes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mesh-iit/ergocub-software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mentat-collective/emmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:36:23.164896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+    "fork": false,
+    "full_name": "idavidrein/gpqa",
+    "html_url": "https://github.com/idavidrein/gpqa",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-30T21:12:05Z",
+    "stargazers_count": 497,
+    "topics": [],
+    "updated_at": "2026-04-24T13:13:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

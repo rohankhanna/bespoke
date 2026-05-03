@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "aurora"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "Flyway by Redgate \u2022 Database Migrations Made Easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999550,
+      "status": "candidate",
+      "text": "sunrise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998386,
+      "status": "candidate",
+      "text": "sunup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996489,
+      "status": "candidate",
+      "text": "first light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994711,
+      "status": "candidate",
+      "text": "cockcrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994091,
+      "status": "candidate",
+      "text": "dayspring"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13024,
+      "status": "candidate",
+      "text": "dayspring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11035,
+      "status": "candidate",
+      "text": "sunrise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10024,
+      "status": "candidate",
+      "text": "dawning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7023,
+      "status": "candidate",
+      "text": "first light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6043,
+      "status": "candidate",
+      "text": "morning"
+    }
+  ],
+  "canonical_name": "aurora",
+  "concept_id": "aurora",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aurora",
+      "sense_id": "aurora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

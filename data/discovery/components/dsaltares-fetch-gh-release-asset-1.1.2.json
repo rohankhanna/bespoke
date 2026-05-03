@@ -1,7 +1,7 @@
 {
   "component": "dsaltares/fetch-gh-release-asset@1.1.2",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_changelog.yml",
       "source_repo": "OffchainLabs/nitro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
     }
   ]
 }

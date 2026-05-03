@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v3",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -892,6 +892,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/uat_deploy.yml",
       "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/debug_apk.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_brook.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_hysteria.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_mieru.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_pingtunnel.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_relaybaton.yml",
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yml",
+      "source_repo": "bianjieai/nft-transfer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bianjieai/nft-transfer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "informalsystems/atomkraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "informalsystems/atomkraft"
     }
   ]
 }

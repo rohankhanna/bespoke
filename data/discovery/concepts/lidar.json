@@ -67,6 +67,42 @@
       "source_repo": "PRBonn/LiDAR-MOS",
       "status": "candidate-context",
       "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate-context",
+      "text": "Official page of ERASOR (Egocentric Ratio of pSeudo Occupancy-based Dynamic Object Removal), which is accepted @ RA-L'21 with ICRA'21"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate-context",
+      "text": "Official page of [*\"ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building\"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361109), which is accepted by RA-L with ICRA'21 option"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TiagoCortinhal/SalsaNext",
+      "status": "candidate-context",
+      "text": "Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TiagoCortinhal/SalsaNext",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/salsanext-fast-semantic-segmentation-of-lidar/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=salsanext-fast-semantic-segmenta\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions (RAL 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "PRBonn/LiDAR-MOS",
       "status": "candidate",
       "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LimHyungTae/ERASOR",
+      "status": "candidate",
+      "text": "Official page of [*\"ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building\"*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361109), which is accepted by RA-L with ICRA'21 option"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TiagoCortinhal/SalsaNext",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/salsanext-fast-semantic-segmentation-of-lidar/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=salsanext-fast-semantic-segmenta\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +232,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "LimHyungTae/ERASOR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/4DMOS"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

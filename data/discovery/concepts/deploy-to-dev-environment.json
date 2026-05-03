@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Dev Environment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "dydx v4 protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "Deploy to Dev Environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate",
+      "text": "Deploy to Dev Environment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24204,
+      "status": "candidate",
+      "text": "surroundings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24194,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24194,
+      "status": "candidate",
+      "text": "nested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24194,
+      "status": "candidate",
+      "text": "nesting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24184,
+      "status": "candidate",
+      "text": "close"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Dev Environment",
+  "concept_id": "deploy-to-dev-environment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy-to-dev.yml",
+      "source_repo": "dydxprotocol/v4-chain"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Dev Environment",
+      "sense_id": "deploy-to-dev-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

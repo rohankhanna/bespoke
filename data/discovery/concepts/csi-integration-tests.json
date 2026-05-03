@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CSI Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "status": "candidate-context",
+      "text": "SeaweedFS CSI Driver https://github.com/seaweedfs/seaweedfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "status": "candidate-context",
+      "text": "CSI Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver",
+      "status": "candidate",
+      "text": "CSI Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25675,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17982,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17939,
+      "status": "candidate",
+      "text": "deodorant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CSI Integration Tests",
+  "concept_id": "csi-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/integration_test.yaml",
+      "source_repo": "seaweedfs/seaweedfs-csi-driver"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CSI Integration Tests",
+      "sense_id": "csi-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

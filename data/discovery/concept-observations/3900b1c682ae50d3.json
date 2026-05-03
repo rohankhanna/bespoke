@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fork of http://asciitex.sourceforge.net/ with several improvements. But you should really be using https://github.com/bartp5/libtexprintf!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "It is actively supported and produces better output than this."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "It is actively supported and produces better output than this."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899730,
+      "status": "candidate",
+      "text": "latex paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984368,
+      "status": "candidate",
+      "text": "rubber-base paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984367,
+      "status": "candidate",
+      "text": "rubber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041755,
+      "status": "candidate",
+      "text": "condoms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041754,
+      "status": "candidate",
+      "text": "caoutchouc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "latex",
+      "sense_id": "latex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "latex paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "rubber-base paint"
+    }
+  ],
+  "concept_id": "latex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "latex",
+  "observation_id": "3900b1c682ae50d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "latex",
+  "source_context_snippet": "It is actively supported and produces better output than this.",
+  "source_file": null,
+  "source_repo": "larseggert/asciiTeX",
+  "source_repo_description": "Fork of http://asciitex.sourceforge.net/ with several improvements. But you should really be using https://github.com/bartp5/libtexprintf!"
+}

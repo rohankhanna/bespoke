@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hk-zh/spil",
-      "target": "lukashermann/hulc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hk-zh/spil",
       "target": "ukplab/sentence-transformers",
       "target_type": "repository"
     },
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:36:11.709649+00:00",
+  "fetched_at": "2026-05-03T19:36:56.614200+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -73,11 +66,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "hongkuan-zhou/spil",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lukashermann/hulc",
       "source_file": "README.md"
     },
     {

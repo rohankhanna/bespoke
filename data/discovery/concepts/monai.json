@@ -31,6 +31,18 @@
       "source_repo": "Project-MONAI/MONAI",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate-context",
+      "text": "MONAI Tutorials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate-context",
+      "text": "This repository hosts the MONAI tutorials."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Project-MONAI/MONAI",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate",
+      "text": "This repository hosts the MONAI tutorials."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Project-MONAI/MONAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

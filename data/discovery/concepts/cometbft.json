@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cometbft"
+    "cometbft",
+    "CometBFT"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "cometbft/tendermint-rs",
       "status": "candidate-context",
       "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate-context",
+      "text": "Dango exchange"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate-context",
+      "text": "CometBFT"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "cometbft/tendermint-rs",
       "status": "candidate",
       "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate",
+      "text": "CometBFT"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

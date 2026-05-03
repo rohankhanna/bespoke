@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reactor/lite-rx-api-hands-on",
+      "target": "reactor/reactor-kotlin-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reactor/lite-rx-api-hands-on",
+      "target": "eddumelendez/reactor-kotlin-workshop",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "reactor/lite-rx-api-hands-on"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Indexer API Documentation Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "dydx v4 protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "Indexer API Documentation Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate",
+      "text": "Indexer API Documentation Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32700,
+      "status": "candidate",
+      "text": "preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32235,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32192,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22690,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21694,
+      "status": "candidate",
+      "text": "beehive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Indexer API Documentation Check",
+  "concept_id": "indexer-api-documentation-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/indexer-api-documentation-check.yml",
+      "source_repo": "dydxprotocol/v4-chain"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Indexer API Documentation Check",
+      "sense_id": "indexer-api-documentation-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

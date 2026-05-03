@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "seaweedfs/seaweedfs-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "seaweedfs/seaweedfs-csi-driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_dev.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_dev.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_dev.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_dev.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build dev binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release0.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release0.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_release0.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build versioned binaries for windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release1.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release1.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_release1.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build versioned binaries for linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release2.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release2.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_release2.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build versioned binaries for darwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release3.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release3.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_release3.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build versioned binaries for freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release4.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release4.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release5.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries_release5.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "wangyoucao577/go-release-action@279495102627de7960cbc33434ab01a12bae144b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries_release5.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "go: build versioned binaries for openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "Code Scanning - Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "blob-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "cloud-drive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "distributed-file-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "distributed-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "erasure-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "fuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "hadoop-hdfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "hdfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "object-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "replication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "s3-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "seaweedfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs",
+      "target": "tiered-file-system",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "seaweedfs/seaweedfs"
+}

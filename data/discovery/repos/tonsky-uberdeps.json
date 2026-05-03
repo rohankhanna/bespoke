@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "tonsky/uberdeps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "tonsky/uberdeps",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "tonsky/uberdeps",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "tonsky/uberdeps",
+      "target": "Build and deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:21.840110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9412
+    },
+    {
+      "path": ".github/workflows/build-deploy.yml",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Uberjar builder for deps.edn",
+    "fork": false,
+    "full_name": "tonsky/uberdeps",
+    "html_url": "https://github.com/tonsky/uberdeps",
+    "language": "Clojure",
+    "pushed_at": "2025-09-04T14:41:52Z",
+    "stargazers_count": 314,
+    "topics": [],
+    "updated_at": "2026-02-28T03:50:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "term": "Build and deploy"
+    }
+  ]
+}

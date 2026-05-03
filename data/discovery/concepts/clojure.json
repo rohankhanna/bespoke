@@ -1468,6 +1468,66 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-liberator/liberator",
+      "status": "candidate-context",
+      "text": "Liberator is a Clojure library for building RESTful applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-liberator/liberator",
+      "status": "candidate-context",
+      "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate-context",
+      "text": "The Emmy Computer Algebra System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate-context",
+      "text": "Clojure(Script) tools for clojure.spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate-context",
+      "text": "Unbundled Emacs configuration aimed at Clojure developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
     }
   ],
   "candidate_glosses": [
@@ -2202,6 +2262,36 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-liberator/liberator",
+      "status": "candidate",
+      "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mentat-collective/emmy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate",
+      "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
     }
   ],
   "candidate_related_terms": [
@@ -3433,11 +3523,107 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "juji-io/editscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clojure-liberator/liberator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/ola-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "sicmutils/sicmutils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mentat-collective/emmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "metosin/spec-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "corgi-emacs/corgi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

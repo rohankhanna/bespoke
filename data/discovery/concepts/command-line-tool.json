@@ -343,6 +343,18 @@
       "source_repo": "CITGuru/PyInquirer",
       "status": "candidate-context",
       "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Command line tools for the Gazebo libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "CITGuru/PyInquirer",
       "status": "candidate",
       "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
   ],
   "candidate_related_terms": [],
@@ -718,11 +736,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "CITGuru/PyInquirer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-tools"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

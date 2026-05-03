@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Package Paths"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Javascript SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "Test Package Paths"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate",
+      "text": "Test Package Paths"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18962,
+      "status": "candidate",
+      "text": "tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18962,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18962,
+      "status": "candidate",
+      "text": "tracks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18863,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18737,
+      "status": "candidate",
+      "text": "guide"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Package Paths",
+  "concept_id": "test-package-paths",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/check-pkg-paths.yml",
+      "source_repo": "firebase/firebase-js-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Package Paths",
+      "sense_id": "test-package-paths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

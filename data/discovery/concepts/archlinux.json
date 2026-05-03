@@ -142,6 +142,18 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate-context",
+      "text": "Arch Linux CN Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate-context",
+      "text": "Arch Linux Chinese Community Repository"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate",
+      "text": "Arch Linux Chinese Community Repository"
     }
   ],
   "candidate_related_terms": [],
@@ -289,11 +307,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

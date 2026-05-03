@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/higlass-manage",
+      "target": "hidivelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/higlass-manage",
+      "target": "higlass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:36.139966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5963
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A utility script to manage local docker instances of HiGlass",
+    "fork": false,
+    "full_name": "higlass/higlass-manage",
+    "html_url": "https://github.com/higlass/higlass-manage",
+    "language": "Python",
+    "pushed_at": "2023-07-06T00:55:30Z",
+    "stargazers_count": 24,
+    "topics": [
+      "hidivelab",
+      "higlass"
+    ],
+    "updated_at": "2025-06-25T18:02:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1308949.svg)](https://doi.org/10.5281/zenodo.1308949)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidivelab"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1308949.svg)](https://doi.org/10.5281/zenodo.1308949)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "higlass"
+    }
+  ]
+}

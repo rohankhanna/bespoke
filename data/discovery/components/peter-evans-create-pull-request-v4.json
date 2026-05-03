@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v4",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-esy-dependencies.yml",
       "source_repo": "melange-re/melange-esy-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cloud-docs-automation.yml",
+      "source_repo": "medusajs/medusa"
     }
   ]
 }

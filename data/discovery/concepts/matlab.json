@@ -82,6 +82,18 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate-context",
       "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "The official SuiteSparse library: a suite of sparse matrix algorithms authored or co-authored by Tim Davis, Texas A&M University. No AI generated code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate",
       "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -199,11 +217,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "iamaisim/ProjectAirSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

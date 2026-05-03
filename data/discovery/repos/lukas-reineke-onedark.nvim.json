@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:26:03.787631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My personal Onedark theme flavor, written in lua.",
+    "fork": false,
+    "full_name": "lukas-reineke/onedark.nvim",
+    "html_url": "https://github.com/lukas-reineke/onedark.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-03-17T12:28:51Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-03-17T12:28:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

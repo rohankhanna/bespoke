@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "gorhill/ublock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "julian-klode/dns66",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "adaway/adaway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "adblock-nocoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "filterlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "hosts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "target": "ublock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:56.296117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Block lists to prevent JavaScript miners ",
+    "fork": false,
+    "full_name": "hoshsadiq/adblock-nocoin-list",
+    "html_url": "https://github.com/hoshsadiq/adblock-nocoin-list",
+    "language": "Adblock Filter List",
+    "pushed_at": "2025-12-30T17:55:05Z",
+    "stargazers_count": 1518,
+    "topics": [
+      "adblock",
+      "adblock-nocoin",
+      "filterlist",
+      "hosts",
+      "ublock"
+    ],
+    "updated_at": "2026-04-29T04:43:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adaway/adaway",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gorhill/ublock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julian-klode/dns66",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock-nocoin"
+    },
+    {
+      "context_snippet": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filterlist"
+    },
+    {
+      "context_snippet": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosts"
+    },
+    {
+      "context_snippet": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock"
+    }
+  ]
+}

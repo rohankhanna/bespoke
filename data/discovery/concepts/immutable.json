@@ -43,6 +43,42 @@
       "source_repo": "tc39/proposal-record-tuple",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate-context",
+      "text": "A polyfill for the ECMAScript Record and Tuple proposal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate-context",
+      "text": "The [Record and Tuple](https://github.com/tc39/proposal-record-tuple) ECMAScript proposal introduces new deeply immutable value types to JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/immutable-json-patch",
+      "status": "candidate-context",
+      "text": "Immutable JSON patch with support for reverting operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/immutable-json-patch",
+      "status": "candidate-context",
+      "text": "Immutable JSON patch with support for reverting operations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate-context",
+      "text": ":clock2: Immutable date and time library for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "tc39/proposal-record-tuple",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/record-tuple-polyfill",
+      "status": "candidate",
+      "text": "The [Record and Tuple](https://github.com/tc39/proposal-record-tuple) ECMAScript proposal introduces new deeply immutable value types to JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/immutable-json-patch",
+      "status": "candidate",
+      "text": "Immutable JSON patch with support for reverting operations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-joda/js-joda",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +192,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-record-tuple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/record-tuple-polyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "immerjs/immer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/immutable-json-patch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "js-joda/js-joda"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

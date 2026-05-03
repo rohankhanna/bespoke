@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bytesize SVG icons as Vue functional components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015244,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012964,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012854,
+      "status": "candidate",
+      "text": "fractional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011378,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004472,
+      "status": "candidate",
+      "text": "factor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "component",
+      "sense_id": "component#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31079,
+      "status": "candidate",
+      "text": "element"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24043,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23055,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17072,
+      "status": "candidate",
+      "text": "factor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15041,
+      "status": "candidate",
+      "text": "portion"
+    }
+  ],
+  "concept_id": "component",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "component",
+  "observation_id": "7a9827e94e92258b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "component",
+  "source_context_snippet": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026",
+  "source_file": null,
+  "source_repo": "egoist/vue-bytesize-icons",
+  "source_repo_description": "Bytesize SVG icons as Vue functional components"
+}

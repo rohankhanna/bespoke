@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Smoke Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Javascript SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "E2E Smoke Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate",
+      "text": "E2E Smoke Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "fume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smoker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smoking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smolder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Smoke Tests",
+  "concept_id": "e2e-smoke-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "firebase/firebase-js-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Smoke Tests",
+      "sense_id": "e2e-smoke-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

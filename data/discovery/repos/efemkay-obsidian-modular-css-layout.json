@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "efemkay/obsidian-modular-css-layout",
+      "target": "mara-li/obsidian-snippet-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "efemkay/obsidian-modular-css-layout",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:26:27.574975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSS Layout hack for Obsidian.md",
+    "fork": false,
+    "full_name": "efemkay/obsidian-modular-css-layout",
+    "html_url": "https://github.com/efemkay/obsidian-modular-css-layout",
+    "language": "CSS",
+    "pushed_at": "2024-09-01T09:11:48Z",
+    "stargazers_count": 1693,
+    "topics": [
+      "css",
+      "markdown"
+    ],
+    "updated_at": "2026-05-03T12:32:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mara-li/obsidian-snippet-downloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

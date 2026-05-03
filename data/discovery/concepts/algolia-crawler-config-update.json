@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Algolia Crawler Config Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "\"Algolia Crawler Config Update\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "\"Algolia Crawler Config Update\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22416,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22416,
+      "status": "candidate",
+      "text": "suck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22257,
+      "status": "candidate",
+      "text": "bait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22257,
+      "status": "candidate",
+      "text": "slug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22190,
+      "status": "candidate",
+      "text": "refresh"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Algolia Crawler Config Update",
+  "concept_id": "algolia-crawler-config-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "source_repo": "phpstan/phpstan"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Crawler Config Update",
+      "sense_id": "algolia-crawler-config-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

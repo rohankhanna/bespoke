@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:33:58.680160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inference code to \"Adversarially-Guided Portrait Matting\"",
+    "fork": false,
+    "full_name": "chroneus/stylematte",
+    "html_url": "https://github.com/chroneus/stylematte",
+    "language": "Python",
+    "pushed_at": "2024-12-09T04:47:57Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-04-25T09:54:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

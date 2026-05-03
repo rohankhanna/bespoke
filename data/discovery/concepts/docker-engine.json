@@ -19,6 +19,18 @@
       "source_repo": "docker-archive/compose-cli",
       "status": "candidate-context",
       "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "Official Microsoft repository for SQL Server in Docker resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "docker-archive/compose-cli",
       "status": "candidate",
       "text": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "GitRML/delete-workflow-runs@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Delete.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "thedoctor0/zip-release@0.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "kt-yeh/mihomo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Delete.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "GitRML/delete-workflow-runs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Delete.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "Delete old workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "thedoctor0/zip-release@0.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "honkai-star-rail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "mihomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MetaCubeX/mihomo",
+      "target": "star-rail-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:01.662614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3626
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 545
+    },
+    {
+      "path": ".github/workflows/Delete.yml",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+    "fork": false,
+    "full_name": "MetaCubeX/mihomo",
+    "html_url": "https://github.com/MetaCubeX/mihomo",
+    "language": "Python",
+    "pushed_at": "2026-05-02T11:09:39Z",
+    "stargazers_count": 29682,
+    "topics": [
+      "honkai-star-rail",
+      "mihomo",
+      "python",
+      "star-rail-api"
+    ],
+    "updated_at": "2026-05-03T18:29:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kt-yeh/mihomo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Delete old workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Delete.yml",
+      "term": "Delete old workflow"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "honkai-star-rail"
+    },
+    {
+      "context_snippet": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mihomo"
+    },
+    {
+      "context_snippet": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "star-rail-api"
+    }
+  ]
+}

@@ -163,6 +163,18 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate-context",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailblazer/trailblazer",
+      "status": "candidate-context",
+      "text": "The advanced business logic framework for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/trailblazer",
+      "status": "candidate-context",
+      "text": "_Battle-tested Ruby framework to help structuring your business logic._"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/trailblazer",
+      "status": "candidate",
+      "text": "_Battle-tested Ruby framework to help structuring your business logic._"
     }
   ],
   "candidate_related_terms": [
@@ -504,11 +522,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "archguard/codedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "trailblazer/trailblazer"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

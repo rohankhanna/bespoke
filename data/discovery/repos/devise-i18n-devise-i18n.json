@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devise-i18n/devise-i18n",
+      "target": "plataformatec/devise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "devise-i18n/devise-i18n",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "devise-i18n/devise-i18n",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:42:01.260717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4094
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Translations for the devise gem",
+    "fork": true,
+    "full_name": "devise-i18n/devise-i18n",
+    "html_url": "https://github.com/devise-i18n/devise-i18n",
+    "language": "Ruby",
+    "pushed_at": "2026-02-19T15:56:46Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-19T15:56:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plataformatec/devise",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

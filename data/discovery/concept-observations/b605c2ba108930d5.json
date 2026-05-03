@@ -48,7 +48,7 @@
   "normalized_form": "bindgen",
   "observation_id": "b605c2ba108930d5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "bindgen",
   "source_context_snippet": "bindgen",
   "source_file": ".github/workflows/bindgen.yml",

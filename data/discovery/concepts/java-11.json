@@ -31,6 +31,18 @@
       "source_repo": "fizzed/blaze",
       "status": "candidate-context",
       "text": "Java 11"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninjaframework/ninja",
+      "status": "candidate-context",
+      "text": "Ninja is a full stack web framework for Java. Rock solid, fast and super productive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninjaframework/ninja",
+      "status": "candidate-context",
+      "text": "Java 11"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fizzed/blaze",
+      "status": "candidate",
+      "text": "Java 11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninjaframework/ninja",
       "status": "candidate",
       "text": "Java 11"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/linux-java11.yaml",
       "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "ninjaframework/ninja"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

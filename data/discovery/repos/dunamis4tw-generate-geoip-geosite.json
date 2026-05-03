@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "zapret-info/z-i",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "sm443/pi-hole-torrent-blocklist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "antizapret",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "downloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "geoip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "geosite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "rule-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "target": "sing-box",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:59.002686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11774
+    },
+    {
+      "path": "go.mod",
+      "size": 4371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+    "fork": false,
+    "full_name": "Dunamis4tw/generate-geoip-geosite",
+    "html_url": "https://github.com/Dunamis4tw/generate-geoip-geosite",
+    "language": "Go",
+    "pushed_at": "2024-03-02T16:48:48Z",
+    "stargazers_count": 61,
+    "topics": [
+      "antizapret",
+      "downloader",
+      "generator",
+      "geoip",
+      "geosite",
+      "parser",
+      "rule-set",
+      "sing-box"
+    ],
+    "updated_at": "2026-05-03T17:40:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sm443/pi-hole-torrent-blocklist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zapret-info/z-i",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antizapret"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "downloader"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geoip"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geosite"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rule-set"
+    },
+    {
+      "context_snippet": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sing-box"
+    }
+  ]
+}

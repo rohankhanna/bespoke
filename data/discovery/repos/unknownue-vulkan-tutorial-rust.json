@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "bwasty/vulkan-tutorial-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "adrien-ben/vulkan-tutorial-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:44:52.634861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8848
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Following the vulkan tutorial(https://vulkan-tutorial.com/) using the Rust programming language.",
+    "fork": false,
+    "full_name": "unknownue/vulkan-tutorial-rust",
+    "html_url": "https://github.com/unknownue/vulkan-tutorial-rust",
+    "language": "Rust",
+    "pushed_at": "2023-06-24T05:33:08Z",
+    "stargazers_count": 531,
+    "topics": [
+      "ash",
+      "rust",
+      "tutorial",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-21T06:20:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrien-ben/vulkan-tutorial-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwasty/vulkan-tutorial-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

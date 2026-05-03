@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build KernelSU Kernel Module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "A Kernel based root solution for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "Build KernelSU Kernel Module"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate",
+      "text": "Build KernelSU Kernel Module"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18309,
+      "status": "candidate",
+      "text": "combustion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18309,
+      "status": "candidate",
+      "text": "financier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18309,
+      "status": "candidate",
+      "text": "headstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18309,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18309,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build KernelSU Kernel Module",
+  "concept_id": "build-kernelsu-kernel-module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ddk-lkm.yml",
+      "source_repo": "tiann/KernelSU"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build KernelSU Kernel Module",
+      "sense_id": "build-kernelsu-kernel-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

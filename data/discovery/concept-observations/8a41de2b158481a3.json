@@ -84,7 +84,7 @@
   "normalized_form": "electron-nightly-canary",
   "observation_id": "8a41de2b158481a3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "electron-nightly Canary",
   "source_context_snippet": "electron-nightly Canary",
   "source_file": ".github/workflows/canary.yml",

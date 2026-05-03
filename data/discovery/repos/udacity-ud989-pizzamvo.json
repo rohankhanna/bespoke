@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml"
+    },
+    {
+      "component": "atlassian/gajira-login@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml"
+    },
+    {
+      "component": "atlassian/gajira-create@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "target": "atlassian/gajira-login@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "target": "atlassian/gajira-create@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "target": "Manual Workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:14.070950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 1736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "udacity/ud989-pizzamvo",
+    "html_url": "https://github.com/udacity/ud989-pizzamvo",
+    "language": "JavaScript",
+    "pushed_at": "2022-07-06T21:23:13Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2025-09-02T10:21:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Manual Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Manual Workflow"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
+      "target": "zhec/realtime_multi-person_pose_estimation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:36:45.503557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3228
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
+    "html_url": "https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
+    "language": "Python",
+    "pushed_at": "2023-02-07T01:46:17Z",
+    "stargazers_count": 1374,
+    "topics": [],
+    "updated_at": "2026-04-08T05:42:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhec/realtime_multi-person_pose_estimation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

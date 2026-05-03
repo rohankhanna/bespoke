@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-lint.yml"
+    },
+    {
+      "component": "ansible/ansible-lint-action@c00ea1b2ac047eaf7318275ac83a0cb846cea71a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-lint.yml"
+    },
+    {
+      "component": "toshimaru/auto-author-assign@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-author-assign.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "s4u/maven-settings-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-checker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-lint.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-lint.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "ansible/ansible-lint-action@c00ea1b2ac047eaf7318275ac83a0cb846cea71a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-lint.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "Ansible Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-author-assign.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "toshimaru/auto-author-assign@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-author-assign.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "Auto Author Assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "s4u/maven-settings-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-icu.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "Build ICU from CLDR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cldr-modify.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cldr-modify.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "CLDR Modify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-checker.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-checker.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-checker.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "commit-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "unicode-org/cldr",
+      "target": "gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/cldr",
+      "target": "cldr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/cldr",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:35:09.324165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3155
+    },
+    {
+      "path": ".github/workflows/ansible-lint.yml",
+      "size": 1571
+    },
+    {
+      "path": ".github/workflows/auto-author-assign.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/build-icu.yml",
+      "size": 8731
+    },
+    {
+      "path": ".github/workflows/cldr-modify-commit.sh",
+      "size": 629
+    },
+    {
+      "path": ".github/workflows/cldr-modify-push-if-needed.sh",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/cldr-modify.yml",
+      "size": 4575
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2944
+    },
+    {
+      "path": ".github/workflows/commit-checker.yml",
+      "size": 3817
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The home of the Unicode Common Locale Data Repository",
+    "fork": false,
+    "full_name": "unicode-org/cldr",
+    "html_url": "https://github.com/unicode-org/cldr",
+    "language": "Java",
+    "pushed_at": "2026-05-03T00:00:46Z",
+    "stargazers_count": 1090,
+    "topics": [
+      "cldr",
+      "unicode"
+    ],
+    "updated_at": "2026-05-02T20:04:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ansible Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-lint.yml",
+      "term": "Ansible Lint"
+    },
+    {
+      "context_snippet": "Auto Author Assign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-author-assign.yml",
+      "term": "Auto Author Assign"
+    },
+    {
+      "context_snippet": "Build ICU from CLDR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-icu.yml",
+      "term": "Build ICU from CLDR"
+    },
+    {
+      "context_snippet": "CLDR Modify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cldr-modify.yml",
+      "term": "CLDR Modify"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "commit-checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-checker.yml",
+      "term": "commit-checker"
+    },
+    {
+      "context_snippet": "gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "gh-pages"
+    },
+    {
+      "context_snippet": "For current CLDR release information, see [cldr.unicode.org](https://cldr.unicode.org/index/downloads/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cldr"
+    },
+    {
+      "context_snippet": "For current CLDR release information, see [cldr.unicode.org](https://cldr.unicode.org/index/downloads/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

@@ -189,6 +189,18 @@
       "source_repo": "RustCrypto/traits",
       "status": "candidate-context",
       "text": "crypto"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": " Fork of the Go standard TLS library, providing low-level access to the ClientHello for mimicry purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_glosses": [
@@ -287,6 +299,12 @@
       "source_repo": "RustCrypto/traits",
       "status": "candidate",
       "text": "crypto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +462,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/crypto.yml",
       "source_repo": "RustCrypto/traits"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "refraction-networking/utls"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

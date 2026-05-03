@@ -84,7 +84,7 @@
   "normalized_form": "zookeeper",
   "observation_id": "97d1b1749951f07e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "zookeeper",
   "source_context_snippet": "[![Build Status](https://github.com/karafka/example-app/actions/workflows/ci.yml/badge.svg)](https://github.com/karafka/example-app/actions/workflows/ci.yml)",
   "source_file": null,

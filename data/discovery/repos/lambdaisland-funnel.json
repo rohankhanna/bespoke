@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "turtlequeue/setup-babashka@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/download-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/download-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/funnel",
+      "target": "bhauman/certifiable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/funnel",
+      "target": "vi/websocat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/funnel",
+      "target": "lambdaisland/funnel-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "DeLaGuardo/setup-clojure@3.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "turtlequeue/setup-babashka@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "actions/download-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native_image.yml",
+      "source_repo": "lambdaisland/funnel",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:31:12.210005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15363
+    },
+    {
+      "path": ".github/workflows/add_to_project_board.yml",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/native_image.yml",
+      "size": 2986
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Transit-over-WebSocket Message Relay",
+    "fork": false,
+    "full_name": "lambdaisland/funnel",
+    "html_url": "https://github.com/lambdaisland/funnel",
+    "language": "Clojure",
+    "pushed_at": "2025-02-28T13:21:52Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-03-07T14:46:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/certifiable",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/funnel-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vi/websocat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

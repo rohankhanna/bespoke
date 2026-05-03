@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "FuncTests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate-context",
+      "text": "Structural variant toolkit for VCFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate-context",
+      "text": "FuncTests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACEnglish/truvari",
+      "status": "candidate",
+      "text": "FuncTests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "FuncTests",
+  "concept_id": "functests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/func_tests.yml",
+      "source_repo": "ACEnglish/truvari"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FuncTests",
+      "sense_id": "functests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

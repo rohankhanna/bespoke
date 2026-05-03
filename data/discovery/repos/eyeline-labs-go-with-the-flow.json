@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "pablerdo/zeptaframe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "kijai/comfyui-videonoisewarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "pablerdo/hexaframe-dark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:33:20.826246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8462
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official implementation of CVPR'25 Oral paper \"Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise\"",
+    "fork": false,
+    "full_name": "Eyeline-Labs/Go-with-the-Flow",
+    "html_url": "https://github.com/Eyeline-Labs/Go-with-the-Flow",
+    "language": "Python",
+    "pushed_at": "2025-10-13T17:04:31Z",
+    "stargazers_count": 1074,
+    "topics": [],
+    "updated_at": "2026-05-03T18:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-videonoisewarp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pablerdo/hexaframe-dark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pablerdo/zeptaframe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

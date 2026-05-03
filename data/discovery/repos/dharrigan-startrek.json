@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:46:22.786228+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A very simple demonstration of coding a reasonably simple API and UI using Clojure, Donut System, i18n support, error handling, HTMX and tests!",
+    "fork": false,
+    "full_name": "dharrigan/startrek",
+    "html_url": "https://github.com/dharrigan/startrek",
+    "language": "Clojure",
+    "pushed_at": "2026-03-28T19:37:05Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-12T14:15:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

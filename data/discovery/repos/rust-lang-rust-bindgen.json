@@ -223,13 +223,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust-bindgen",
-      "target": "kylemayes/clang-sys",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindgen.yml",
       "source_repo": "rust-lang/rust-bindgen",
@@ -412,7 +405,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:32:13.084660+00:00",
+  "fetched_at": "2026-05-03T21:46:56.204474+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -457,21 +450,15 @@
     "html_url": "https://github.com/rust-lang/rust-bindgen",
     "language": "Rust",
     "pushed_at": "2026-04-22T23:27:01Z",
-    "stargazers_count": 5175,
+    "stargazers_count": 5179,
     "topics": [
       "bindings",
       "codegen",
       "ffi"
     ],
-    "updated_at": "2026-04-23T03:54:19Z"
+    "updated_at": "2026-05-02T21:57:12Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kylemayes/clang-sys",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "bindgen",

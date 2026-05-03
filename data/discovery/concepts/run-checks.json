@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run checks"
+    "Run checks",
+    "run-checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "hashicorp/nomad",
       "status": "candidate-context",
       "text": "Run checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/punycode.js",
+      "status": "candidate-context",
+      "text": "A robust Punycode converter that fully complies to RFC 3492 and RFC 5891."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/punycode.js",
+      "status": "candidate-context",
+      "text": "run-checks"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "hashicorp/nomad",
       "status": "candidate",
       "text": "Run checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/punycode.js",
+      "status": "candidate",
+      "text": "run-checks"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mathiasbynens/punycode.js"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "sergelogvinov/karpenter-provider-proxmox",
       "status": "candidate-context",
       "text": "HelmChart Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes cloud controller manager for Proxmox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "HelmChart Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "status": "candidate",
+      "text": "HelmChart Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
       "status": "candidate",
       "text": "HelmChart Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/release-charts.yaml",
       "source_repo": "sergelogvinov/karpenter-provider-proxmox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

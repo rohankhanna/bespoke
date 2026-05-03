@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:47:50.089627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/FreeType2_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-03-24T20:57:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-24T20:57:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

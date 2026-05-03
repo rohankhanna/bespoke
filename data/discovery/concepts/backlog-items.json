@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "backlog-items"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czytelny/backlog",
+      "status": "candidate-context",
+      "text": "Simple desktop app for storing lists of items (todo, tasks, backlog items)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czytelny/backlog",
+      "status": "candidate-context",
+      "text": "> Simple multiplatform desktop app for storing TODOs, ideas or backlog items."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czytelny/backlog",
+      "status": "candidate",
+      "text": "> Simple multiplatform desktop app for storing TODOs, ideas or backlog items."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "backlog-items",
+  "concept_id": "backlog-items",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "czytelny/backlog"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backlog-items",
+      "sense_id": "backlog-items#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

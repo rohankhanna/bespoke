@@ -4,31 +4,31 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/juiceboxgui",
+      "target": "sa501428/eigenvector",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/hictools",
+      "target": "sa501428/hic-emt",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/juicertools",
+      "target": "theaidenlab/juicer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/java-straw",
+      "target": "theaidenlab/juicebox",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "aidenlab/Juicebox"
 }

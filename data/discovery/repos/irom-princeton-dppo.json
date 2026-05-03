@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "irom-princeton/dppo",
+      "target": "diffusion-ppo/diffusion-ppo.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "irom-princeton/dppo",
+      "target": "alrhub/d3il",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "irom-princeton/dppo",
+      "target": "clvrai/furniture-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "irom-princeton/dppo",
+      "target": "bellmantimehut/dipo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:59.469399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14801
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of Diffusion Policy Policy Optimization, arxiv 2024",
+    "fork": false,
+    "full_name": "irom-princeton/dppo",
+    "html_url": "https://github.com/irom-princeton/dppo",
+    "language": "Python",
+    "pushed_at": "2025-02-04T17:04:46Z",
+    "stargazers_count": 805,
+    "topics": [],
+    "updated_at": "2026-05-02T09:03:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alrhub/d3il",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bellmantimehut/dipo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clvrai/furniture-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffusion-ppo/diffusion-ppo.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

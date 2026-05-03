@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml"
+    },
+    {
+      "component": "luizm/action-sh-checker@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml"
+    },
+    {
+      "component": "docker://rockylinux:8.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml"
+    },
+    {
+      "component": "docker://archlinux:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "v2fly/docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "v2fly/v2ray-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "luizm/action-sh-checker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "docker://rockylinux:8.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sh-checker.yml",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "docker://archlinux:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "target": "v2ray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:46.715894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2427
+    },
+    {
+      "path": ".github/workflows/sh-checker.yml",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bash script for installing V2Ray in operating systems such as Debian / CentOS / Fedora / openSUSE that support systemd",
+    "fork": false,
+    "full_name": "v2fly/fhs-install-v2ray",
+    "html_url": "https://github.com/v2fly/fhs-install-v2ray",
+    "language": "Shell",
+    "pushed_at": "2024-11-05T11:40:15Z",
+    "stargazers_count": 6786,
+    "topics": [
+      "installer",
+      "script",
+      "v2ray"
+    ],
+    "updated_at": "2026-05-02T12:58:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "v2fly/docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "v2fly/v2ray-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    },
+    {
+      "context_snippet": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    }
+  ]
+}

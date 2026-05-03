@@ -79,6 +79,30 @@
       "source_repo": "HKU-BAL/ClairS-TO",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate-context",
+      "text": "Graph-based assembly phasing "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate-context",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate-context",
+      "text": "PEPPER-Margin-DeepVariant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "HKU-BAL/ClairS-TO",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "HKU-BAL/ClairS-TO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

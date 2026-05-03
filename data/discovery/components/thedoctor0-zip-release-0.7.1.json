@@ -1,0 +1,17 @@
+{
+  "component": "thedoctor0/zip-release@0.7.1",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "MetaCubeX/mihomo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "KT-Yeh/mihomo"
+    }
+  ]
+}

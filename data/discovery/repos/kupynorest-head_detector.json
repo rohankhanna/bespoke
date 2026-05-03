@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "face-mesh-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "head-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector",
+      "target": "mesh-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:33:59.285881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9727
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 121
+    },
+    {
+      "path": "requirements.txt",
+      "size": 197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repo for VGGHeads: 3D Multi Head Alignment with a Large-Scale Synthetic Dataset..",
+    "fork": false,
+    "full_name": "KupynOrest/head_detector",
+    "html_url": "https://github.com/KupynOrest/head_detector",
+    "language": "Python",
+    "pushed_at": "2025-04-15T11:40:28Z",
+    "stargazers_count": 201,
+    "topics": [
+      "3dmm",
+      "computer-vision",
+      "diffusion-models",
+      "face-detection",
+      "face-mesh-detection",
+      "generative-ai",
+      "head-detection",
+      "mesh-network"
+    ],
+    "updated_at": "2026-04-29T17:18:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-mesh-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-network"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY",
+      "target": "reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY",
+      "target": "xtls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY",
+      "target": "xudp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:39.611060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5863
+    },
+    {
+      "path": "go.mod",
+      "size": 446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "THE NEXT FUTURE",
+    "fork": false,
+    "full_name": "XTLS/REALITY",
+    "html_url": "https://github.com/XTLS/REALITY",
+    "language": "Go",
+    "pushed_at": "2026-05-01T09:48:41Z",
+    "stargazers_count": 5099,
+    "topics": [
+      "reality",
+      "vless",
+      "xray",
+      "xtls",
+      "xudp"
+    ],
+    "updated_at": "2026-05-03T15:25:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reality"
+    },
+    {
+      "context_snippet": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtls"
+    },
+    {
+      "context_snippet": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xudp"
+    }
+  ]
+}

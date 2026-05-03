@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jind11/MedQA",
+      "target": "allenai/aristo-mini",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:23.746866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code and data for MedQA",
+    "fork": false,
+    "full_name": "jind11/MedQA",
+    "html_url": "https://github.com/jind11/MedQA",
+    "language": "Python",
+    "pushed_at": "2022-12-01T18:23:49Z",
+    "stargazers_count": 376,
+    "topics": [],
+    "updated_at": "2026-04-28T05:47:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/aristo-mini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export to linear"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "\ud83d\ude95 Turn stories into executable tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "Export to linear"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate",
+      "text": "Export to linear"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11528,
+      "status": "candidate",
+      "text": "grain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11528,
+      "status": "candidate",
+      "text": "tulip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "alien"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "caviar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export to linear",
+  "concept_id": "export-to-linear",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/linear-export.yml",
+      "source_repo": "storybookjs/test-runner"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export to linear",
+      "sense_id": "export-to-linear#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

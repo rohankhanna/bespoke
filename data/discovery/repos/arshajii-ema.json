@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_source_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_source_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arshajii/ema",
+      "target": "johandahlberg/awesome-10x-genomics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arshajii/ema",
+      "target": "arshajii/ema-paper-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arshajii/ema",
+      "target": "madler/pigz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arshajii/ema",
+      "target": "samtools/samtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arshajii/ema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arshajii/ema",
+      "target": "EMA CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_source_release.yml",
+      "source_repo": "arshajii/ema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_source_release.yml",
+      "source_repo": "arshajii/ema",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_source_release.yml",
+      "source_repo": "arshajii/ema",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arshajii/ema",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arshajii/ema",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:04.933425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11301
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/create_source_release.yml",
+      "size": 1400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast & accurate alignment of barcoded short-reads",
+    "fork": false,
+    "full_name": "arshajii/ema",
+    "html_url": "https://github.com/arshajii/ema",
+    "language": "C++",
+    "pushed_at": "2023-06-29T18:48:12Z",
+    "stargazers_count": 32,
+    "topics": [
+      "bioinformatics",
+      "sequence-alignment"
+    ],
+    "updated_at": "2025-09-09T10:06:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arshajii/ema-paper-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johandahlberg/awesome-10x-genomics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madler/pigz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/samtools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "EMA CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "EMA CI"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_source_release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "EMA: An aligner for barcoded short-read sequencing data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "EMA: An aligner for barcoded short-read sequencing data",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    }
+  ]
+}

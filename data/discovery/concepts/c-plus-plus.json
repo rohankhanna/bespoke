@@ -1075,6 +1075,42 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate-context",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08Scaffold genome sequence assemblies using linked or long read sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "ACE and TAO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "[![Lastest release](https://img.shields.io/github/release/docgroup/ace_tao.svg)](https://github.com/DOCGroup/ACE_TAO/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/variant",
+      "status": "candidate-context",
+      "text": "C++11/C++14 Variant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/variant",
+      "status": "candidate-context",
+      "text": "An header-only alternative to `boost::variant` for C++11 and C++14"
     }
   ],
   "candidate_glosses": [
@@ -1611,6 +1647,24 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/arcs",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/arcs.svg)](https://github.com/BirolLab/arcs/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate",
+      "text": "[![Lastest release](https://img.shields.io/github/release/docgroup/ace_tao.svg)](https://github.com/DOCGroup/ACE_TAO/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/variant",
+      "status": "candidate",
+      "text": "An header-only alternative to `boost::variant` for C++11 and C++14"
     }
   ],
   "candidate_related_terms": [],
@@ -2554,11 +2608,65 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "OpenLightingProject/ola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DOCGroup/ACE_TAO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/variant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

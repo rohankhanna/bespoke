@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "kadyb/vector-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "perrygeo/python-rasterstats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "corteva/rioxarray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "isciences/exactextractr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark",
+      "target": "raster",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:45.805208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Raster processing benchmarks for Python, R, and Julia packages ",
+    "fork": false,
+    "full_name": "kadyb/raster-benchmark",
+    "html_url": "https://github.com/kadyb/raster-benchmark",
+    "language": "HTML",
+    "pushed_at": "2025-10-15T12:03:15Z",
+    "stargazers_count": 28,
+    "topics": [
+      "benchmark",
+      "geospatial",
+      "gis",
+      "julia",
+      "performance",
+      "python",
+      "r",
+      "raster"
+    ],
+    "updated_at": "2025-10-15T12:03:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corteva/rioxarray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isciences/exactextractr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kadyb/vector-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "perrygeo/python-rasterstats",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a collection of raster processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This repository contains a collection of raster processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "This repository contains a collection of raster processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "This repository contains a collection of raster processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "This repository contains a collection of raster processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    }
+  ]
+}

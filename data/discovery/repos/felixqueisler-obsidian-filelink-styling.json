@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:26:35.320899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Improves the way linked files are displayed in Obsidian, making them beautifully distinct from notes.",
+    "fork": false,
+    "full_name": "felixqueisler/Obsidian-FileLink-Styling",
+    "html_url": "https://github.com/felixqueisler/Obsidian-FileLink-Styling",
+    "language": "SCSS",
+    "pushed_at": "2025-09-26T12:44:54Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-18T00:40:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

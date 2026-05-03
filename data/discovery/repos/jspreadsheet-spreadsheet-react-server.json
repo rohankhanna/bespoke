@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:43:20.500369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jspreadsheet Server with React example",
+    "fork": false,
+    "full_name": "jspreadsheet/spreadsheet-react-server",
+    "html_url": "https://github.com/jspreadsheet/spreadsheet-react-server",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-02T18:04:45Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-02T18:04:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

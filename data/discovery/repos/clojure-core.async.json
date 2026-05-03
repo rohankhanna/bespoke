@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cljstest.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cljstest.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/release.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/core.async",
+      "target": "halgari/clojure-conj-2013-core.async-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cljstest.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cljstest.yml",
+      "source_repo": "clojure/core.async",
+      "target": "DeLaGuardo/setup-clojure@13.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cljstest.yml",
+      "source_repo": "clojure/core.async",
+      "target": "CLJS Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/core.async",
+      "target": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Build API Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "source_repo": "clojure/core.async",
+      "target": "DeLaGuardo/setup-clojure@13.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Build Codox Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/core.async",
+      "target": "clojure/build.ci/.github/workflows/release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.async",
+      "target": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml",
+      "source_repo": "clojure/core.async",
+      "target": "DeLaGuardo/setup-clojure@13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vthreads.yml",
+      "source_repo": "clojure/core.async",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vthreads.yml",
+      "source_repo": "clojure/core.async",
+      "target": "Test VThreads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:28.811982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16691
+    },
+    {
+      "path": ".github/workflows/cljstest.yml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 223
+    },
+    {
+      "path": ".github/workflows/generate-codox-docs.yml",
+      "size": 1119
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/snapshot.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 632
+    },
+    {
+      "path": ".github/workflows/vthreads.yml",
+      "size": 1058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Facilities for async programming and communication in Clojure",
+    "fork": false,
+    "full_name": "clojure/core.async",
+    "html_url": "https://github.com/clojure/core.async",
+    "language": "Clojure",
+    "pushed_at": "2026-04-10T18:06:24Z",
+    "stargazers_count": 2044,
+    "topics": [],
+    "updated_at": "2026-04-22T17:28:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halgari/clojure-conj-2013-core.async-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CLJS Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cljstest.yml",
+      "term": "CLJS Tests"
+    },
+    {
+      "context_snippet": "Build API Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Build API Docs"
+    },
+    {
+      "context_snippet": "Build Codox Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-codox-docs.yml",
+      "term": "Build Codox Docs"
+    },
+    {
+      "context_snippet": "Release on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on demand"
+    },
+    {
+      "context_snippet": "Snapshot on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "term": "Snapshot on demand"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Test VThreads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vthreads.yml",
+      "term": "Test VThreads"
+    }
+  ]
+}

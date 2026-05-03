@@ -231,6 +231,30 @@
       "source_repo": "j-hui/fidget.nvim",
       "status": "candidate-context",
       "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "Not UFO in the sky, but an ultra fold in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mg979/vim-visual-multi",
+      "status": "candidate-context",
+      "text": "Multiple cursors plugin for vim/neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mg979/vim-visual-multi",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +369,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mg979/vim-visual-multi",
       "status": "candidate",
       "text": "Push to Luarocks"
     }
@@ -714,11 +750,59 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "kevinhwang91/nvim-ufo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mg979/vim-visual-multi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

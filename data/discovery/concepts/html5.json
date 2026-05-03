@@ -127,6 +127,30 @@
       "source_repo": "jimmywarting/StreamSaver.js",
       "status": "candidate-context",
       "text": "StreamSaver.js (legacy-ish)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "Experience, Learn and Code the latest breakthrough innovations with Microsoft AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate-context",
+      "text": "Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate-context",
+      "text": "> Find broken links, missing images, etc within your HTML."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "jimmywarting/StreamSaver.js",
       "status": "candidate",
       "text": "StreamSaver.js (legacy-ish)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate",
+      "text": "> Find broken links, missing images, etc within your HTML."
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +358,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jimmywarting/StreamSaver.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ailab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stevenvachon/broken-link-checker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

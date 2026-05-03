@@ -19,6 +19,18 @@
       "source_repo": "nx-js/observer-util",
       "status": "candidate-context",
       "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate-context",
+      "text": "Simple React state management. Made with \u2764\ufe0f and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nx-js/observer-util",
       "status": "candidate",
       "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "nx-js/observer-util"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "RisingStack/react-easy-state"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

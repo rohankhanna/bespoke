@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fluent/bundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fluent/syntax",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babylon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-color",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "difflib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-diff",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "projectfluent/fluent",
+      "target": "blushingpenguin/fluent.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "projectfluent/fluent",
+      "target": "alabamenhu/fluent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "projectfluent/fluent",
+      "target": "demivan/fluent-vue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "projectfluent/fluent",
+      "target": "alerque/fluent-lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "@fluent/bundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "@fluent/syntax",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "babylon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "cli-color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "difflib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "projectfluent/fluent",
+      "target": "json-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "projectfluent/fluent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "projectfluent/fluent",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "projectfluent/fluent",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "projectfluent/fluent",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "projectfluent/fluent",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "asdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "ebnf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "globalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "internationalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "intl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "l10n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "translate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:34:46.390306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3766
+    },
+    {
+      "path": "package.json",
+      "size": 1542
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fluent \u2014 planning, spec and documentation",
+    "fork": false,
+    "full_name": "projectfluent/fluent",
+    "html_url": "https://github.com/projectfluent/fluent",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-21T10:28:57Z",
+    "stargazers_count": 1641,
+    "topics": [
+      "asdl",
+      "ebnf",
+      "ftl",
+      "globalization",
+      "internationalization",
+      "intl",
+      "l10n",
+      "localization",
+      "specification",
+      "translate",
+      "translation"
+    ],
+    "updated_at": "2026-05-03T07:51:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alabamenhu/fluent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alerque/fluent-lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blushingpenguin/fluent.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "demivan/fluent-vue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdl"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebnf"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "globalization"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internationalization"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intl"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "l10n"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translate"
+    },
+    {
+      "context_snippet": "Fluent is a localization system designed to unleash the expressive power of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

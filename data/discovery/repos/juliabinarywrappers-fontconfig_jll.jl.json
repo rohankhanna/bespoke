@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Fontconfig_jll.jl",
+      "target": "juliabinarywrappers/expat_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Fontconfig_jll.jl",
+      "target": "juliabinarywrappers/freetype2_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Fontconfig_jll.jl",
+      "target": "juliabinarywrappers/libuuid_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:47:49.689599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Fontconfig_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Fontconfig_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-08-19T16:54:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-08-19T16:54:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/expat_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/freetype2_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libuuid_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,12 +19,30 @@
       "source_repo": "carbon-design-system/carbon-components-svelte",
       "status": "candidate-context",
       "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-icons-svelte",
+      "status": "candidate-context",
+      "text": "Carbon Design System SVG icons as Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-icons-svelte",
+      "status": "candidate-context",
+      "text": "[![NPM][npm]][npm-url]"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate",
+      "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-icons-svelte",
       "status": "candidate",
       "text": "[![NPM][npm]][npm-url]"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "carbon-design-system/carbon-components-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-icons-svelte"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "npm-package",
-    "npm Package"
+    "npm Package",
+    "NPM Package"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -154,6 +155,54 @@
       "source_repo": "sindresorhus/modern-normalize",
       "status": "candidate-context",
       "text": "modern-normalize \u2014 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate-context",
+      "text": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "Open source file definition for storing rendering and physical data from 3D model assemblies ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "NPM Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": ":clapper: Colorful animations in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +277,30 @@
       "source_repo": "sindresorhus/modern-normalize",
       "status": "candidate",
       "text": "modern-normalize \u2014 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate",
+      "text": "NPM Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate",
+      "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -343,11 +416,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/modern-normalize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "LeDDGroup/typescript-transform-paths"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/npm_package.yml",
+      "source_repo": "HiceS/mirabuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ngx-translate/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/chalk-animation"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

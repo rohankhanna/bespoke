@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-approve.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-approve.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-assignme.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-assignees@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-assignme.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-help.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-welcome.yml"
+    },
+    {
+      "component": "devmasx/merge-branch@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-rs/toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-approve.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-approve.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-approve.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "approve-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-assignme.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-assignme.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions-ecosystem/action-add-assignees@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-assignme.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "assignme-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-help.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-help.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "help-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "issue welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-auto-merge.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "devmasx/merge-branch@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-merge.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "Merge branch with labeled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "peter-evans/slash-command-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "yuyang0/rrqlite",
+      "target": "Slash Command Dispatch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:46:36.527978+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 216
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2998
+    },
+    {
+      "path": ".github/workflows/command-approve.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/command-assignme.yml",
+      "size": 748
+    },
+    {
+      "path": ".github/workflows/command-help.yml",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/issue-welcome.yml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/pr-auto-merge.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/slash-command-dispatch.yml",
+      "size": 2836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "yuyang0/rrqlite",
+    "html_url": "https://github.com/yuyang0/rrqlite",
+    "language": "Rust",
+    "pushed_at": "2022-04-06T12:43:12Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-06-22T09:32:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "approve-command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-approve.yml",
+      "term": "approve-command"
+    },
+    {
+      "context_snippet": "assignme-command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-assignme.yml",
+      "term": "assignme-command"
+    },
+    {
+      "context_snippet": "help-command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-help.yml",
+      "term": "help-command"
+    },
+    {
+      "context_snippet": "issue welcome",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "term": "issue welcome"
+    },
+    {
+      "context_snippet": "Merge branch with labeled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-auto-merge.yml",
+      "term": "Merge branch with labeled"
+    },
+    {
+      "context_snippet": "Slash Command Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "term": "Slash Command Dispatch"
+    }
+  ]
+}

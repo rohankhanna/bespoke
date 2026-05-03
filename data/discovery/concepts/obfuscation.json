@@ -31,6 +31,18 @@
       "source_repo": "jchambers/id-obfuscator",
       "status": "candidate-context",
       "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": " Fork of the Go standard TLS library, providing low-level access to the ClientHello for mimicry purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jchambers/id-obfuscator",
       "status": "candidate",
       "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "jchambers/id-obfuscator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "refraction-networking/utls"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "o3de/PhysX",
+      "target": "o3de/sig-simulation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:39:41.747173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/104.1",
+    "description": "NVIDIA PhysX SDK",
+    "fork": true,
+    "full_name": "o3de/PhysX",
+    "html_url": "https://github.com/o3de/PhysX",
+    "language": "C++",
+    "pushed_at": "2026-02-18T16:24:39Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-09T07:11:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "o3de/sig-simulation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

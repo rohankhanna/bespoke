@@ -263,6 +263,24 @@
       "source_repo": "microsoft/vstest",
       "status": "candidate-context",
       "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzymejs/enzyme-matchers",
+      "status": "candidate-context",
+      "text": "Jasmine/Jest assertions for enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme-matchers",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform. Available in TypeScript!"
     }
   ],
   "candidate_glosses": [
@@ -391,6 +409,12 @@
       "source_repo": "microsoft/vstest",
       "status": "candidate",
       "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme-matchers",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -787,11 +811,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "microsoft/vstest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme-matchers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

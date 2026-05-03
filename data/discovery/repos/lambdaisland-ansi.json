@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:31:13.884046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parse ANSI color escape sequences to Hiccup syntax",
+    "fork": false,
+    "full_name": "lambdaisland/ansi",
+    "html_url": "https://github.com/lambdaisland/ansi",
+    "language": "Clojure",
+    "pushed_at": "2022-04-27T14:14:00Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2025-12-06T11:38:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1192,6 +1192,30 @@
       "source_repo": "ptsochantaris/emeltal",
       "status": "candidate-context",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/swift-sdk",
+      "status": "candidate-context",
+      "text": "The official Swift SDK for Model Context Protocol servers and clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/swift-sdk",
+      "status": "candidate-context",
+      "text": "Official Swift SDK for the [Model Context Protocol][mcp] (MCP)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/pop-timer",
+      "status": "candidate-context",
+      "text": "That debouncing timer that we've written 50 times already, in one place."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/pop-timer",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/PopTimerLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -1794,6 +1818,18 @@
       "source_repo": "ptsochantaris/emeltal",
       "status": "candidate",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/swift-sdk",
+      "status": "candidate",
+      "text": "Official Swift SDK for the [Model Context Protocol][mcp] (MCP)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/pop-timer",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/PopTimerLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -2887,11 +2923,65 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ptsochantaris/emeltal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "modelcontextprotocol/swift-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/pop-timer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

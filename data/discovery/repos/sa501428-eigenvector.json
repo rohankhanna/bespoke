@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:50:58.301823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R functions for very fast eigenvector calculation",
+    "fork": true,
+    "full_name": "sa501428/EigenVector",
+    "html_url": "https://github.com/sa501428/EigenVector",
+    "language": "C",
+    "pushed_at": "2025-05-29T19:13:27Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-05-29T19:13:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "amfe/lib-flexible",
+      "target": "uglify-js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:40:16.846855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1721
+    },
+    {
+      "path": "package.json",
+      "size": 628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2.0",
+    "description": "\u53ef\u4f38\u7f29\u5e03\u5c40\u65b9\u6848",
+    "fork": false,
+    "full_name": "amfe/lib-flexible",
+    "html_url": "https://github.com/amfe/lib-flexible",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-11T10:34:08Z",
+    "stargazers_count": 12534,
+    "topics": [],
+    "updated_at": "2026-05-03T04:45:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

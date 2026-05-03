@@ -170,6 +170,18 @@
       "source_repo": "crystal-lang/crystal",
       "status": "candidate-context",
       "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/samtools",
+      "status": "candidate-context",
+      "text": "Tools (written in C using htslib) for manipulating next-generation sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/samtools",
+      "status": "candidate-context",
+      "text": "Linux CI"
     }
   ],
   "candidate_glosses": [
@@ -254,6 +266,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crystal-lang/crystal",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/samtools",
       "status": "candidate",
       "text": "Linux CI"
     }
@@ -431,11 +449,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "samtools/samtools"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

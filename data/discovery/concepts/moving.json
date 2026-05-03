@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "moving"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions (RAL 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/4DMOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989779,
+      "status": "candidate",
+      "text": "on the move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989342,
+      "status": "candidate",
+      "text": "shifting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988089,
+      "status": "candidate",
+      "text": "mobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987183,
+      "status": "candidate",
+      "text": "self-propelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986227,
+      "status": "candidate",
+      "text": "turning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 111032,
+      "status": "candidate",
+      "text": "poignant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55029,
+      "status": "candidate",
+      "text": "agitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21035,
+      "status": "candidate",
+      "text": "fleeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20036,
+      "status": "candidate",
+      "text": "restless"
+    }
+  ],
+  "canonical_name": "moving",
+  "concept_id": "moving",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/4DMOS"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moving",
+      "sense_id": "moving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml"
+    },
+    {
+      "component": "DeLaGuardo/clojure-lint-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clojure-liberator/liberator",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clojure-liberator/liberator",
+      "target": "DeLaGuardo/clojure-lint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clojure-liberator/liberator",
+      "target": "CLJ-Kondo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "clojure-liberator/liberator",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "clojure-liberator/liberator",
+      "target": "Clojure CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-liberator/liberator",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-liberator/liberator",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-liberator/liberator",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-liberator/liberator",
+      "target": "server-side",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:32.072164+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/clj-kondo.yml",
+      "size": 263
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Liberator is a Clojure library for building RESTful applications.",
+    "fork": false,
+    "full_name": "clojure-liberator/liberator",
+    "html_url": "https://github.com/clojure-liberator/liberator",
+    "language": "Clojure",
+    "pushed_at": "2021-09-28T13:08:50Z",
+    "stargazers_count": 1260,
+    "topics": [
+      "clojure",
+      "http",
+      "rest",
+      "server-side"
+    ],
+    "updated_at": "2026-04-27T13:30:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLJ-Kondo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "term": "CLJ-Kondo"
+    },
+    {
+      "context_snippet": "Clojure CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Clojure CI"
+    },
+    {
+      "context_snippet": "CLJ-Kondo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "CLJ-Kondo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "CLJ-Kondo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "CLJ-Kondo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-side"
+    }
+  ]
+}

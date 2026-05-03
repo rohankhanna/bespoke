@@ -115,6 +115,18 @@
       "source_repo": "SOTAMak1r/GST",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "status": "candidate-context",
+      "text": "(Arxiv 2021) NeRF--: Neural Radiance Fields Without Known Camera Parameters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "status": "candidate-context",
+      "text": "**[Project Page](https://nerfmm.active.vision/) |"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "SOTAMak1r/GST",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/nerfmm",
+      "status": "candidate",
+      "text": "**[Project Page](https://nerfmm.active.vision/) |"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "SOTAMak1r/GST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/nerfmm"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

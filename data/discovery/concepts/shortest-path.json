@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "shortest-path"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/DTALite",
+      "status": "candidate-context",
+      "text": "A clean and common C++ code base to build both executable and shared library of DTALite across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/DTALite",
+      "status": "candidate-context",
+      "text": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/DTALite",
+      "status": "candidate",
+      "text": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "shortest-path",
+  "concept_id": "shortest-path",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/DTALite"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shortest-path",
+      "sense_id": "shortest-path#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

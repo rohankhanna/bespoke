@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Empty B2 Buckets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate-context",
+      "text": "Dango exchange"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate-context",
+      "text": "Cleanup Empty B2 Buckets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "left-curve/left-curve",
+      "status": "candidate",
+      "text": "Cleanup Empty B2 Buckets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18403,
+      "status": "candidate",
+      "text": "cupping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18403,
+      "status": "candidate",
+      "text": "ironer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18403,
+      "status": "candidate",
+      "text": "pus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "cure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Empty B2 Buckets",
+  "concept_id": "cleanup-empty-b2-buckets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Empty B2 Buckets",
+      "sense_id": "cleanup-empty-b2-buckets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

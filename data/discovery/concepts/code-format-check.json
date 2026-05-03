@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Code Format Check",
-    "Code-Format-Check"
+    "Code-Format-Check",
+    "code-format-check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "lightly-ai/lightly",
       "status": "candidate-context",
       "text": "Code Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "MONAI Model Zoo that hosts models in the MONAI Bundle format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "code-format-check"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "lightly-ai/lightly",
       "status": "candidate",
       "text": "Code Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate",
+      "text": "code-format-check"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +174,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/test_code_format.yml",
       "source_repo": "lightly-ai/lightly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

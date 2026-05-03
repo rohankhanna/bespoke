@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "weekly-tests-cpu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "MONAI Model Zoo that hosts models in the MONAI Bundle format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate-context",
+      "text": "weekly-tests-cpu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/model-zoo",
+      "status": "candidate",
+      "text": "weekly-tests-cpu"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "weekly-tests-cpu",
+  "concept_id": "weekly-tests-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "weekly-tests-cpu",
+      "sense_id": "weekly-tests-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

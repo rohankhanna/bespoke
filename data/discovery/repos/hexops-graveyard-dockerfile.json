@@ -10,6 +10,20 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "safe-waters/docker-lock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "krallin/tini.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "hexops-graveyard/dockerfile",
       "target": "hexops/dockerfile",
@@ -44,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:43:52.571414+00:00",
+  "fetched_at": "2026-05-03T20:27:06.934868+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,7 +97,17 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "full_name": "safe-waters/docker-lock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "hexops/dockerfile",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krallin/tini.",
       "source_file": "Dockerfile"
     }
   ],

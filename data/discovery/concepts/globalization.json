@@ -31,6 +31,18 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate-context",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent \u2014 planning, spec and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "projectfluent/fluent.js",
       "status": "candidate",
       "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "projectfluent/fluent.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset",
+      "target": "character-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-animation-dataset",
+      "target": "motion-capture-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:12.823101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ubisoft La Forge Animation Dataset",
+    "fork": false,
+    "full_name": "ubisoft/ubisoft-laforge-animation-dataset",
+    "html_url": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+    "language": "Python",
+    "pushed_at": "2022-09-10T09:16:51Z",
+    "stargazers_count": 1475,
+    "topics": [
+      "character-animation",
+      "motion-capture-data"
+    ],
+    "updated_at": "2026-05-02T17:12:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![LaFAN1](images/lafan1_1635_cropped.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-animation"
+    },
+    {
+      "context_snippet": "![LaFAN1](images/lafan1_1635_cropped.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-capture-data"
+    }
+  ]
+}

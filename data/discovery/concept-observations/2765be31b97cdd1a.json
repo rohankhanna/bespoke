@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "star-rail-api",
+      "sense_id": "star-rail-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "star-rail-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "star-rail-api",
+  "observation_id": "2765be31b97cdd1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "star-rail-api",
+  "source_context_snippet": "A simple python pydantic model (type hint and autocompletion support) for Honkai: Star Rail parsed data from the Mihomo API.",
+  "source_file": null,
+  "source_repo": "MetaCubeX/mihomo",
+  "source_repo_description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API."
+}

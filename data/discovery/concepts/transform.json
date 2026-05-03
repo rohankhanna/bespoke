@@ -43,6 +43,18 @@
       "source_repo": "anvaka/panzoom",
       "status": "candidate-context",
       "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate-context",
+      "text": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "anvaka/panzoom",
       "status": "candidate",
       "text": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeDDGroup/typescript-transform-paths",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "anvaka/panzoom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "LeDDGroup/typescript-transform-paths"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

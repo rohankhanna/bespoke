@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compile project With Maven"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "TestNG documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "Compile project With Maven"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate",
+      "text": "Compile project With Maven"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20596,
+      "status": "candidate",
+      "text": "mastering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20596,
+      "status": "candidate",
+      "text": "numb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20596,
+      "status": "candidate",
+      "text": "represent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20596,
+      "status": "candidate",
+      "text": "represented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20553,
+      "status": "candidate",
+      "text": "benumb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compile project With Maven",
+  "concept_id": "compile-project-with-maven",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/maven-build.yml",
+      "source_repo": "testng-team/testng-team.github.io"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile project With Maven",
+      "sense_id": "compile-project-with-maven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

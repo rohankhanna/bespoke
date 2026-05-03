@@ -43,6 +43,18 @@
       "source_repo": "tidyverse/ggplot2",
       "status": "candidate-context",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate-context",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "tidyverse/ggplot2",
       "status": "candidate",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ucscGenomeBrowser/kent",
+      "status": "candidate",
+      "text": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ucscGenomeBrowser/kent"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

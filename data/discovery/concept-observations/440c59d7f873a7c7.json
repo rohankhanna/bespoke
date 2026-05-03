@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pure Unix shell script ACME client for SSL / TLS certificate automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DNS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DNS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049790,
+      "status": "candidate",
+      "text": "https"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040531,
+      "status": "candidate",
+      "text": "dob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000696,
+      "status": "candidate",
+      "text": "dne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936895,
+      "status": "candidate",
+      "text": "dnd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29743011,
+      "status": "candidate",
+      "text": "dna"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DNS",
+      "sense_id": "dns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dns",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dns",
+  "observation_id": "440c59d7f873a7c7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "DNS",
+  "source_context_snippet": "DNS",
+  "source_file": ".github/workflows/DNS.yml",
+  "source_repo": "acmesh-official/acme.sh",
+  "source_repo_description": "A pure Unix shell script ACME client for SSL / TLS certificate automation"
+}

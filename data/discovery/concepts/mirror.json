@@ -70,6 +70,18 @@
       "source_repo": "MohammadYounes/rtlcss",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate-context",
+      "text": "\"ito-gov-mirror\" is a repository that serves as a mirror of the publicly available website \"eservices.ito.gov.ir\". "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate-context",
+      "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "MohammadYounes/rtlcss",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootmortis/ito-gov-mirror",
+      "status": "candidate",
+      "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
     }
   ],
   "candidate_related_terms": [
@@ -181,11 +199,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "MohammadYounes/rtlcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bootmortis/ito-gov-mirror"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

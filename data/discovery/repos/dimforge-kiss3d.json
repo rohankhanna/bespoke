@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.23.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dimforge/kiss3d",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dimforge/kiss3d",
+      "target": "crate-ci/typos@v1.23.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dimforge/kiss3d",
+      "target": "CI build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:39:29.765895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4107
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2431
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Keep it simple, stupid 3d graphics engine for Rust.",
+    "fork": false,
+    "full_name": "dimforge/kiss3d",
+    "html_url": "https://github.com/dimforge/kiss3d",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T20:40:17Z",
+    "stargazers_count": 1680,
+    "topics": [],
+    "updated_at": "2026-05-03T12:28:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CI build"
+    }
+  ]
+}

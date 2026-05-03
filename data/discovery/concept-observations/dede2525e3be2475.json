@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979730,
+      "status": "candidate",
+      "text": "novels"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979730,
+      "status": "candidate",
+      "text": "romans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979729,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979728,
+      "status": "candidate",
+      "text": "artbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979727,
+      "status": "candidate",
+      "text": "chapter book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "storybook",
+      "sense_id": "storybook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "storybook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "storybook",
+  "observation_id": "dede2525e3be2475",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "storybook",
+  "source_context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+  "source_file": null,
+  "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+  "source_repo_description": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+}

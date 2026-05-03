@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "cyanohao/warcraft-font-merger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "fontello/cubic2quad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "boostorg/nowide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "muellan/clipp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
+      "target": "world-of-warcraft",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "nowar-fonts/Warcraft-Font-Merger"
+}

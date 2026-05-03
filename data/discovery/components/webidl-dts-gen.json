@@ -1,12 +1,17 @@
 {
   "component": "webidl-dts-gen",
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "jrouwe/JoltPhysics.js"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HunterBarclay/JoltPhysics.js"
     }
   ]
 }

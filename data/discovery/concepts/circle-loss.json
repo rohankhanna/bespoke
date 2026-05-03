@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "circle-loss"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate-context",
+      "text": ":bouncing_ball_person: Pytorch ReID: A tiny, friendly, strong pytorch implement of person re-id / vehicle re-id baseline. Tutorial \ud83d\udc49https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "circle-loss",
+  "concept_id": "circle-loss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "circle-loss",
+      "sense_id": "circle-loss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

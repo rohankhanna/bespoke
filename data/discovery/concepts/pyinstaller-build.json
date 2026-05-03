@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pyinstaller build"
+    "Pyinstaller build",
+    "PyInstaller Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "angr/angr-management",
       "status": "candidate-context",
       "text": "Pyinstaller build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "translate scientific papers in latex, especially arxiv papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate-context",
+      "text": "PyInstaller Build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "angr/angr-management",
       "status": "candidate",
       "text": "Pyinstaller build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SUSYUSTC/MathTranslate",
+      "status": "candidate",
+      "text": "PyInstaller Build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pyinstaller-build.yml",
       "source_repo": "angr/angr-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "SUSYUSTC/MathTranslate"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

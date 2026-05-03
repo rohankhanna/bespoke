@@ -103,6 +103,54 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "Enhanced Clash and Clash.Meta routing rules with Iranian domains ruleset and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "Enhanced sing-box and sing-box-clients routing rules with built-in Iranian domains and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate-context",
+      "text": "DNS-Blocklists: For a better internet - keep the internet clean!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate-context",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate-context",
+      "text": "Block lists to prevent JavaScript miners "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate-context",
+      "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-blocklists",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate",
+      "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +316,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Chocolate4U/Iran-v2ray-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-clash-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-sing-box-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hagezi/dns-blocklists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

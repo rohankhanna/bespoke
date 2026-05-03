@@ -4655,6 +4655,90 @@
       "source_repo": "maragudk/gomponents",
       "status": "candidate-context",
       "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "Go\u5b9e\u73b0\u7684Trojan\u4ee3\u7406\uff0c\u652f\u6301\u591a\u8def\u590d\u7528/\u8def\u7531\u529f\u80fd/CDN\u4e2d\u8f6c/Shadowsocks\u6df7\u6dc6\u63d2\u4ef6\uff0c\u591a\u5e73\u53f0\uff0c\u65e0\u4f9d\u8d56\u3002A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate-context",
+      "text": "tun2socks - powered by gVisor TCP/IP stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate-context",
+      "text": "![tun2socks](docs/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maragudk/gomponents-starter-kit",
+      "status": "candidate-context",
+      "text": "A starter kit for building a web app with gomponents, HTMX, and TailwindCSS in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents-starter-kit",
+      "status": "candidate-context",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogama/flatgeobuf",
+      "status": "candidate-context",
+      "text": "Flatgeobuf binary geospatial encoding Go library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/flatgeobuf",
+      "status": "candidate-context",
+      "text": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "Interchain Security is an open sourced IBC application which allows cosmos blockchains to lease their proof-of-stake security to one another."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/cosmos/interchain-security)](https://goreportcard.com/report/github.com/cosmos/interchain-security)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate-context",
+      "text": "Linux Transparent Proxy library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate-context",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": " Fork of the Go standard TLS library, providing low-level access to the ClientHello for mimicry purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_glosses": [
@@ -6991,6 +7075,48 @@
       "source_repo": "maragudk/gomponents",
       "status": "candidate",
       "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate",
+      "text": "\u4f7f\u7528 Go \u5b9e\u73b0\u7684\u5b8c\u6574 Trojan \u4ee3\u7406\uff0c\u517c\u5bb9\u539f\u7248 Trojan \u534f\u8bae\u53ca\u914d\u7f6e\u6587\u4ef6\u683c\u5f0f\u3002\u5b89\u5168\u3001\u9ad8\u6548\u3001\u8f7b\u5de7\u3001\u6613\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate",
+      "text": "![tun2socks](docs/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents-starter-kit",
+      "status": "candidate",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/flatgeobuf",
+      "status": "candidate",
+      "text": "Native Go library implementing [FlatGeobuf](https://flatgeobuf.org/), a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/interchain-security",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/cosmos/interchain-security)](https://goreportcard.com/report/github.com/cosmos/interchain-security)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refraction-networking/utls",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/refraction-networking/utls/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/refraction-networking/utls/actions/workflows/go.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -10094,11 +10220,125 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "maragudk/gomponents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "xjasonlyu/tun2socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents-starter-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gogama/flatgeobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/interchain-security"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "KatelynHaworth/go-tproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "refraction-networking/utls"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

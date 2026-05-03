@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/DTALite",
+      "target": "jdlph/transoms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/DTALite",
+      "target": "dtalite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/DTALite",
+      "target": "dynamic-traffic-assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/DTALite",
+      "target": "shortest-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/DTALite",
+      "target": "traffic-assignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:20.168362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A clean and common C++ code base to build both executable and shared library of DTALite across platforms.",
+    "fork": true,
+    "full_name": "jdlph/DTALite",
+    "html_url": "https://github.com/jdlph/DTALite",
+    "language": "C++",
+    "pushed_at": "2024-10-13T18:38:59Z",
+    "stargazers_count": 6,
+    "topics": [
+      "dtalite",
+      "dynamic-traffic-assignment",
+      "shortest-path",
+      "traffic-assignment"
+    ],
+    "updated_at": "2024-11-17T05:39:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/transoms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtalite"
+    },
+    {
+      "context_snippet": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-traffic-assignment"
+    },
+    {
+      "context_snippet": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortest-path"
+    },
+    {
+      "context_snippet": "This repository has two branches: **main** and **feature/multimodal**. While branch feature/multimodal is set to track the upstream [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite), the main branch is an **independent development** from [asu-trans-ai-lab/D\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-assignment"
+    }
+  ]
+}

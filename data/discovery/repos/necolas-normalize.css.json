@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "necolas/normalize.css",
+      "target": "css-reset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "necolas/normalize.css",
+      "target": "normalize-css",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:31:05.799960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3212
+    },
+    {
+      "path": "package.json",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern alternative to CSS resets",
+    "fork": false,
+    "full_name": "necolas/normalize.css",
+    "html_url": "https://github.com/necolas/normalize.css",
+    "language": "CSS",
+    "pushed_at": "2024-06-12T20:36:06Z",
+    "stargazers_count": 53574,
+    "topics": [
+      "css",
+      "css-reset",
+      "normalize-css"
+    ],
+    "updated_at": "2026-05-03T16:33:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://github.com/necolas/normalize.css\"><img",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-reset"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/necolas/normalize.css\"><img",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalize-css"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Culverin Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate-context",
+      "text": "Physics engine bridge for Python built upon Jolt Physics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate-context",
+      "text": "Build Culverin Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Evilpasture/Culverin",
+      "status": "candidate",
+      "text": "Build Culverin Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18493,
+      "status": "candidate",
+      "text": "trailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "sledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "wheelbarrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16042,
+      "status": "candidate",
+      "text": "cannon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15359,
+      "status": "candidate",
+      "text": "bastard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Culverin Wheels",
+  "concept_id": "build-culverin-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "Evilpasture/Culverin"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Culverin Wheels",
+      "sense_id": "build-culverin-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:26:01.240328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Paste PNG into files, much like pbpaste does for text.",
+    "fork": false,
+    "full_name": "jcsalterego/pngpaste",
+    "html_url": "https://github.com/jcsalterego/pngpaste",
+    "language": "Objective-C",
+    "pushed_at": "2023-02-09T17:37:17Z",
+    "stargazers_count": 575,
+    "topics": [],
+    "updated_at": "2026-04-30T15:52:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

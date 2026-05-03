@@ -2302,6 +2302,60 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate-context",
+      "text": "A library for turning nebulous data into well-structured data, with a focus on composition, performance, generality, and ergonomics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays which also have a label for each element for easy scientific machine learning (SciML)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "\"Documentation\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For JuliaImages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TA-Lib/ta-lib",
+      "status": "candidate-context",
+      "text": "TA-Lib (Core C Library)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -3478,6 +3532,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dauxio/daux.io",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate",
+      "text": "\"Documentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib",
       "status": "candidate",
       "text": "Documentation"
     }
@@ -5358,11 +5442,113 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pointfreeco/swift-parsing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/LabelledArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TA-Lib/ta-lib"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

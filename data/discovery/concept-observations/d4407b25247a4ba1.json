@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "(Arxiv 2021) NeRF--: Neural Radiance Fields Without Known Camera Parameters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[Project Page](https://nerfmm.active.vision/) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[Project Page](https://nerfmm.active.vision/) |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-radiance-fields",
+      "sense_id": "neural-radiance-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-radiance-fields",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-radiance-fields",
+  "observation_id": "d4407b25247a4ba1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "neural-radiance-fields",
+  "source_context_snippet": "**[Project Page](https://nerfmm.active.vision/) |",
+  "source_file": null,
+  "source_repo": "ActiveVisionLab/nerfmm",
+  "source_repo_description": "(Arxiv 2021) NeRF--: Neural Radiance Fields Without Known Camera Parameters"
+}

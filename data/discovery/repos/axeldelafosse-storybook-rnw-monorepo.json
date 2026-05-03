@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "axeldelafosse/expo-next-monorepo-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "bycedric/eas-monorepo-example.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "expo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "react-native-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "storybook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "target": "storybook-addon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:37:00.080891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2614
+    },
+    {
+      "path": "package.json",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo",
+    "fork": false,
+    "full_name": "axeldelafosse/storybook-rnw-monorepo",
+    "html_url": "https://github.com/axeldelafosse/storybook-rnw-monorepo",
+    "language": "TypeScript",
+    "pushed_at": "2021-11-26T17:07:19Z",
+    "stargazers_count": 52,
+    "topics": [
+      "expo",
+      "monorepo",
+      "nextjs",
+      "react",
+      "react-native",
+      "react-native-web",
+      "storybook",
+      "storybook-addon"
+    ],
+    "updated_at": "2025-04-03T06:03:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axeldelafosse/expo-next-monorepo-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bycedric/eas-monorepo-example.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expo"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native-web"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storybook"
+    },
+    {
+      "context_snippet": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storybook-addon"
+    }
+  ]
+}

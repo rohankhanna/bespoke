@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "gaelgirodon/ci-badges-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "acenglish/truvari",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "samtools/bcftools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "pangenome/vcfbub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "eblerjana/pangenie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "gaelgirodon/ci-badges-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "pangenome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "structural-variation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "sv-merging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Han-Cao/collapse-bubble",
+      "target": "truvari",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:20.421975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16658
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 471
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pangenome structural variation (SV) merging and deduplication",
+    "fork": false,
+    "full_name": "Han-Cao/collapse-bubble",
+    "html_url": "https://github.com/Han-Cao/collapse-bubble",
+    "language": "Python",
+    "pushed_at": "2026-03-04T13:51:18Z",
+    "stargazers_count": 11,
+    "topics": [
+      "bioinformatics",
+      "genomics",
+      "pangenome",
+      "structural-variation",
+      "sv-merging",
+      "truvari"
+    ],
+    "updated_at": "2026-02-11T03:32:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acenglish/truvari",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eblerjana/pangenie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pangenome/vcfbub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/bcftools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pangenome"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structural-variation"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sv-merging"
+    },
+    {
+      "context_snippet": "[![pytest](https://github.com/Han-Cao/collapse-bubble/actions/workflows/pytest.yml/badge.svg)](https://github.com/Han-Cao/collapse-bubble/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truvari"
+    }
+  ]
+}

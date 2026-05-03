@@ -292,7 +292,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:05:27.860746+00:00",
+  "fetched_at": "2026-05-03T18:37:22.676806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -325,13 +325,13 @@
     "html_url": "https://github.com/littlefs-project/littlefs",
     "language": "C",
     "pushed_at": "2026-03-25T02:26:59Z",
-    "stargazers_count": 6626,
+    "stargazers_count": 6627,
     "topics": [
       "embedded",
       "filesystem",
       "microcontroller"
     ],
-    "updated_at": "2026-05-02T17:45:15Z"
+    "updated_at": "2026-05-03T07:16:06Z"
   },
   "repo_links": [
     {

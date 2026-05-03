@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/100style-retarget",
+      "target": "orangeduck/lafan1-resolved",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/100style-retarget",
+      "target": "orangeduck/interact-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/100style-retarget",
+      "target": "orangeduck/genoview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/100style-retarget",
+      "target": "orangeduck/genoviewpython",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:10.678872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Retargeting of the 100STYLE dataset onto a common skeleton ",
+    "fork": false,
+    "full_name": "orangeduck/100style-retarget",
+    "html_url": "https://github.com/orangeduck/100style-retarget",
+    "language": "Python",
+    "pushed_at": "2025-09-16T23:50:49Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-15T08:34:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/genoview",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/genoviewpython",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/interact-retarget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/lafan1-resolved",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

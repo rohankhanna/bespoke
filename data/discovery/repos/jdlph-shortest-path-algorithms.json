@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "target": "heap-dijkstra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "target": "label-correcting-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "target": "mlc-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "target": "shortest-path-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:22.589899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Boost Shortest Path Algorithm Performance using Proper Data Structures",
+    "fork": false,
+    "full_name": "jdlph/shortest-path-algorithms",
+    "html_url": "https://github.com/jdlph/shortest-path-algorithms",
+    "language": "Python",
+    "pushed_at": "2023-01-29T23:55:22Z",
+    "stargazers_count": 7,
+    "topics": [
+      "data-structures",
+      "heap-dijkstra",
+      "label-correcting-algorithms",
+      "mlc-algorithm",
+      "shortest-path-algorithm"
+    ],
+    "updated_at": "2025-04-10T11:06:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heap-dijkstra"
+    },
+    {
+      "context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "label-correcting-algorithms"
+    },
+    {
+      "context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlc-algorithm"
+    },
+    {
+      "context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortest-path-algorithm"
+    }
+  ]
+}

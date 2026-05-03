@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "target": "zpdesu/ii2s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow",
+      "target": "faces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow",
+      "target": "sequential-edits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow",
+      "target": "stylegan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:50.441520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8241
+    },
+    {
+      "path": "Dockerfile",
+      "size": 737
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StyleFlow: Attribute-conditioned Exploration of StyleGAN-generated Images using  Conditional Continuous Normalizing Flows (ACM TOG 2021)",
+    "fork": false,
+    "full_name": "RameenAbdal/StyleFlow",
+    "html_url": "https://github.com/RameenAbdal/StyleFlow",
+    "language": "Python",
+    "pushed_at": "2023-03-24T22:20:54Z",
+    "stargazers_count": 2453,
+    "topics": [
+      "faces",
+      "quality",
+      "sequential-edits",
+      "stylegan"
+    ],
+    "updated_at": "2026-05-03T06:47:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zpdesu/ii2s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faces"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequential-edits"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    }
+  ]
+}

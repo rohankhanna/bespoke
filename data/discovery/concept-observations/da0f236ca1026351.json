@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566956,
+      "status": "candidate",
+      "text": "enna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566955,
+      "status": "candidate",
+      "text": "sorrento"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566954,
+      "status": "candidate",
+      "text": "syracuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566953,
+      "status": "candidate",
+      "text": "nocera inferiore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566952,
+      "status": "candidate",
+      "text": "agrigento"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "noto",
+      "sense_id": "noto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "noto",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "noto",
+  "observation_id": "da0f236ca1026351",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "noto",
+  "source_context_snippet": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto",
+  "source_file": null,
+  "source_repo": "satbyy/go-noto-universal",
+  "source_repo_description": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas)."
+}

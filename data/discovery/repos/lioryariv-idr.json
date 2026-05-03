@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:38:22.227043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lioryariv/idr",
+    "html_url": "https://github.com/lioryariv/idr",
+    "language": "Python",
+    "pushed_at": "2021-07-05T08:32:29Z",
+    "stargazers_count": 735,
+    "topics": [],
+    "updated_at": "2026-04-27T09:55:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

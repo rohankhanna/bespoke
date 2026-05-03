@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face-recognition",
+      "sense_id": "face-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "face-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "face-recognition",
+  "observation_id": "fce109ccf09b5a2c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "face-recognition",
+  "source_context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+  "source_file": null,
+  "source_repo": "timesler/facenet-pytorch",
+  "source_repo_description": "Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models"
+}

@@ -31,6 +31,18 @@
       "source_repo": "bpkg/bpkg",
       "status": "candidate-context",
       "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "Download and install any dependency such as .NET, Visual C++ or SQL Server during your application's installation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "bpkg/bpkg",
       "status": "candidate",
       "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate",
+      "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "bpkg/bpkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

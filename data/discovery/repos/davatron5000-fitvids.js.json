@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:30:50.811585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight, easy-to-use jQuery plugin for fluid width video embeds.",
+    "fork": false,
+    "full_name": "davatron5000/FitVids.js",
+    "html_url": "https://github.com/davatron5000/FitVids.js",
+    "language": "HTML",
+    "pushed_at": "2022-05-06T07:42:30Z",
+    "stargazers_count": 4719,
+    "topics": [],
+    "updated_at": "2026-04-30T17:41:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

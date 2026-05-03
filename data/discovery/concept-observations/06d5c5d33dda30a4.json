@@ -84,7 +84,7 @@
   "normalized_form": "transifex-sync",
   "observation_id": "06d5c5d33dda30a4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Transifex sync",
   "source_context_snippet": "Transifex sync",
   "source_file": ".github/workflows/tx-pull.yml",

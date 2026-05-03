@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -199,6 +201,18 @@
       "source_repo": "Zielon/metrical-tracker",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "ACE and TAO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "face"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +311,12 @@
       "source_repo": "Zielon/metrical-tracker",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate",
+      "text": "face"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +510,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Zielon/metrical-tracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/face.yml",
+      "source_repo": "DOCGroup/ACE_TAO"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

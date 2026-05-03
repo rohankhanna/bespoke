@@ -161,6 +161,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "helidon-io/helidon",
+      "target": "heldon-io/helidon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helidon-io/helidon",
       "target": "oracle/helidon",
       "target_type": "repository"
     },
@@ -305,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:47:42.955033+00:00",
+  "fetched_at": "2026-05-03T20:46:38.796769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -353,6 +360,11 @@
     "updated_at": "2026-05-02T11:43:35Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heldon-io/helidon",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "oracle/helidon",

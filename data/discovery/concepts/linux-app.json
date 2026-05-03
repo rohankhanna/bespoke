@@ -31,6 +31,18 @@
       "source_repo": "electerm/electerm",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoterm/neoterm",
+      "status": "candidate-context",
+      "text": "NeoTerm - The NEO Terminal Emulator Application For All Type Of OS With Variety Of Packages. Written In NEO Programming Language (NeoLang)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoterm/neoterm",
+      "status": "candidate-context",
+      "text": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "electerm/electerm",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoterm/neoterm",
+      "status": "candidate",
+      "text": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "electerm/electerm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "neoterm/neoterm"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

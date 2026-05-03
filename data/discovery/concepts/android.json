@@ -1720,6 +1720,138 @@
       "source_repo": "pixielabs/cavy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "v2ray, xray, sing-box, clash, mihomo... GUI for Windows, macOS, Linux, Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate-context",
+      "text": "The universal proxy toolchain for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate-context",
+      "text": "A shadowsocks client for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/shadowsocks/shadowsocks-android.svg?style=shield)](https://circleci.com/gh/shadowsocks/shadowsocks-android)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/Matsuri",
+      "status": "candidate-context",
+      "text": "Matsuri (\u8309\u8389) / V2Ray / universal proxy toolchain for Android / Fork of SagerNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/Matsuri",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Collection of suggested apps for Obtainium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "A Magisk module template to systemlessly replace system fonts. Supports CJK Fonts. \u7528\u4e8e\u5236\u4f5c\u5b57\u4f53\u6a21\u5757\u7684 Magisk \u6a21\u5757\u6a21\u677f\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u5b57\u4f53\u7684\u66ff\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luben/zstd-jni",
+      "status": "candidate-context",
+      "text": "JNI binding for Zstd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luben/zstd-jni",
+      "status": "candidate-context",
+      "text": "Zstd-jni"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "Java JNI bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "Easy to use OpenStreetMap editor for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "A Kernel based root solution for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate-context",
+      "text": "An open-source keyboard for Android which respects your privacy. Currently in beta."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" width=\"80\" height=\"80\""
     }
   ],
   "candidate_glosses": [
@@ -2598,6 +2730,72 @@
       "source_repo": "pixielabs/cavy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-android",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/shadowsocks/shadowsocks-android.svg?style=shield)](https://circleci.com/gh/shadowsocks/shadowsocks-android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/Matsuri",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luben/zstd-jni",
+      "status": "candidate",
+      "text": "Zstd-jni"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florisboard/florisboard",
+      "status": "candidate",
+      "text": "<img align=\"left\" width=\"80\" height=\"80\""
     }
   ],
   "candidate_related_terms": [
@@ -3862,11 +4060,125 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "pixielabs/cavy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "AnyPortal/AnyPortal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "SagerNet/SagerNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "shadowsocks/shadowsocks-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MatsuriDayo/Matsuri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NeoApplications/Neo-Backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "luben/zstd-jni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fabmax/physx-jni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

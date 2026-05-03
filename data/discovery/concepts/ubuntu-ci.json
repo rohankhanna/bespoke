@@ -127,6 +127,18 @@
       "source_repo": "gazebosim/gz-transport",
       "status": "candidate-context",
       "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Command line tools for the Gazebo libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
+      "status": "candidate-context",
+      "text": "Ubuntu CI"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-tools",
       "status": "candidate",
       "text": "Ubuntu CI"
     }
@@ -298,11 +316,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "gazebosim/gz-transport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-tools"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

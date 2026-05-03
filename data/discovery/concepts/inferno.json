@@ -19,6 +19,18 @@
       "source_repo": "insin/nwb",
       "status": "candidate-context",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "insin/nwb",
       "status": "candidate",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "insin/nwb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "infernojs/inferno"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

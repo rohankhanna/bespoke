@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -5897,6 +5897,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/visual-tests.yml",
       "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/xeus-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-website.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "Evilpasture/Culverin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "Project-MONAI/tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guidelines.yml",
+      "source_repo": "Project-MONAI/tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pep8.yml",
+      "source_repo": "Project-MONAI/tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-modified.yml",
+      "source_repo": "Project-MONAI/tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "IBM/AutoMLPipeline.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/fs"
     }
   ]
 }

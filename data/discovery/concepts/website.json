@@ -448,6 +448,42 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate-context",
       "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 The website for storybook.js.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate-context",
+      "text": "The website for arkime.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate-context",
+      "text": "> Arkime is a large scale, open source, indexed packet capture and search system."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
     }
   ],
   "candidate_glosses": [
@@ -672,6 +708,24 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate",
       "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkimeweb",
+      "status": "candidate",
+      "text": "> Arkime is a large scale, open source, indexed packet capture and search system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
     }
   ],
   "candidate_related_terms": [
@@ -1195,11 +1249,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/frontpage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "arkime/arkimeweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

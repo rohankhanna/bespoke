@@ -43,6 +43,18 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate-context",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "The official SuiteSparse library: a suite of sparse matrix algorithms authored or co-authored by Tim Davis, Texas A&M University. No AI generated code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate-context",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate",
+      "text": "[![arch-emu](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml/badge.svg)](https://github.com/DrTimothyAldenDavis/SuiteSparse/actions/workflows/build-arch-emu.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "eigenteam/eigen-git-mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

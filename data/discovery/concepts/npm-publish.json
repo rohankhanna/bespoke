@@ -296,6 +296,30 @@
       "source_repo": "murat-dogan/node-datachannel",
       "status": "candidate-context",
       "text": "npm Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-vue-cli",
+      "status": "candidate-context",
+      "text": "the underlying support vite plugin for vue-cli-plugin-vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-vue-cli",
+      "status": "candidate-context",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-env-compatible",
+      "status": "candidate-context",
+      "text": "Environment Variables Compatible for vite(with vue-cli, create-react-app and so on)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-env-compatible",
+      "status": "candidate-context",
+      "text": "NPM-Publish"
     }
   ],
   "candidate_glosses": [
@@ -442,6 +466,18 @@
       "source_repo": "murat-dogan/node-datachannel",
       "status": "candidate",
       "text": "npm Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-vue-cli",
+      "status": "candidate",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-env-compatible",
+      "status": "candidate",
+      "text": "NPM-Publish"
     }
   ],
   "candidate_related_terms": [
@@ -659,11 +695,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/npm-publish-manual.yml",
       "source_repo": "murat-dogan/node-datachannel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-vue-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-env-compatible"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

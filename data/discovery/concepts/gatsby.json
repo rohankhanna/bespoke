@@ -103,6 +103,18 @@
       "source_repo": "BuilderIO/builder",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 The website for storybook.js.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "BuilderIO/builder",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "BuilderIO/builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/frontpage"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

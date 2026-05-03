@@ -19,6 +19,18 @@
       "source_repo": "DefinitelyTyped/DefinitelyTyped",
       "status": "candidate-context",
       "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typings/typings",
+      "status": "candidate-context",
+      "text": "*DEPRECATED* The TypeScript Definition Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typings/typings",
+      "status": "candidate-context",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DefinitelyTyped/DefinitelyTyped",
       "status": "candidate",
       "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typings/typings",
+      "status": "candidate",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "typings/typings"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

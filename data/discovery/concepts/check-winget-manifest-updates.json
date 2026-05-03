@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Winget Manifest Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "Download and install any dependency such as .NET, Visual C++ or SQL Server during your application's installation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "Check Winget Manifest Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate",
+      "text": "Check Winget Manifest Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23854,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23722,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23722,
+      "status": "candidate",
+      "text": "refresher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22607,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22483,
+      "status": "candidate",
+      "text": "points"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Winget Manifest Updates",
+  "concept_id": "check-winget-manifest-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Winget Manifest Updates",
+      "sense_id": "check-winget-manifest-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gallery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "Detects the direction a user enters or leaves an element allowing you to reveal or hide content based on this direction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "```javascript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate",
+      "text": "```javascript"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997373,
+      "status": "candidate",
+      "text": "art gallery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983564,
+      "status": "candidate",
+      "text": "heading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946110,
+      "status": "candidate",
+      "text": "verandah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944232,
+      "status": "candidate",
+      "text": "veranda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918336,
+      "status": "candidate",
+      "text": "drift"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32067,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29032,
+      "status": "candidate",
+      "text": "veranda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "art gallery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "verandah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2051,
+      "status": "candidate",
+      "text": "heading"
+    }
+  ],
+  "canonical_name": "gallery",
+  "concept_id": "gallery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gallery",
+      "sense_id": "gallery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -31,6 +31,18 @@
       "source_repo": "mathjax/MathJax",
       "status": "candidate-context",
       "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate-context",
+      "text": "Fork of http://asciitex.sourceforge.net/ with several improvements. But you should really be using https://github.com/bartp5/libtexprintf!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate-context",
+      "text": "It is actively supported and produces better output than this."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mathjax/MathJax",
       "status": "candidate",
       "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larseggert/asciiTeX",
+      "status": "candidate",
+      "text": "It is actively supported and produces better output than this."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mathjax/MathJax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "larseggert/asciiTeX"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

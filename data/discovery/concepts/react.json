@@ -2391,6 +2391,102 @@
       "source_repo": "jsx-eslint/eslint-plugin-react",
       "status": "candidate-context",
       "text": "==================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The React Native app we use to test and develop Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": ":bar_chart: :chart_with_upwards_trend:\u2800Robust dataviz framework implemented using D3 & typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate-context",
+      "text": "Build forms in React, without the tears \ud83d\ude2d "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate-context",
+      "text": "The world's most flexible commerce platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate-context",
+      "text": "Simple React state management. Made with \u2764\ufe0f and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
     }
   ],
   "candidate_glosses": [
@@ -3587,6 +3683,54 @@
       "source_repo": "jsx-eslint/eslint-plugin-react",
       "status": "candidate",
       "text": "==================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RisingStack/react-easy-state",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
     }
   ],
   "candidate_related_terms": [
@@ -5709,11 +5853,197 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "infernojs/inferno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-tester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "medusajs/medusa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "RisingStack/react-easy-state"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

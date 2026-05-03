@@ -1,0 +1,17 @@
+{
+  "component": "denoland/setup-deno@041b854f97b325bd60e53e9dc2de9cb9f9ac0cba",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_bundles.yml",
+      "source_repo": "stdlib-js/streams-node-stdin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_bundles.yml",
+      "source_repo": "stdlib-js/streams-node-stdout"
+    }
+  ]
+}

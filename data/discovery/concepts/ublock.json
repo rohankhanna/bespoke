@@ -19,6 +19,18 @@
       "source_repo": "AdguardTeam/AdguardFilters",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate-context",
+      "text": "Block lists to prevent JavaScript miners "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate-context",
+      "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AdguardTeam/AdguardFilters",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoshsadiq/adblock-nocoin-list",
+      "status": "candidate",
+      "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/AdguardFilters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hoshsadiq/adblock-nocoin-list"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

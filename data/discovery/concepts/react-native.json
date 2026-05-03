@@ -703,6 +703,66 @@
       "source_repo": "vercel/swr",
       "status": "candidate-context",
       "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The React Native app we use to test and develop Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate-context",
+      "text": "Build forms in React, without the tears \ud83d\ude2d "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Intellicode/eslint-plugin-react-native",
+      "status": "candidate-context",
+      "text": "React Native plugin for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellicode/eslint-plugin-react-native",
+      "status": "candidate-context",
+      "text": "Dear users, first of all, thanks for using the plugin! At the moment development activity is low, I've personally not worked with React Native for many years and have little time to continue updating the plugin. I'll do my best to update the plugin to ensure compatibility with n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1113,36 @@
       "source_repo": "vercel/swr",
       "status": "candidate",
       "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/formik",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Intellicode/eslint-plugin-react-native",
+      "status": "candidate",
+      "text": "Dear users, first of all, thanks for using the plugin! At the moment development activity is low, I've personally not worked with React Native for many years and have little time to continue updating the plugin. I'll do my best to update the plugin to ensure compatibility with n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
     }
   ],
   "candidate_related_terms": [],
@@ -1564,11 +1654,65 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "vercel/swr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-tester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Intellicode/eslint-plugin-react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

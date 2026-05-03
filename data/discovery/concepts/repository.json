@@ -79,6 +79,30 @@
       "source_repo": "theupdateframework/python-tuf",
       "status": "candidate-context",
       "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate-context",
+      "text": "Arch Linux CN Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate-context",
+      "text": "Arch Linux Chinese Community Repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Collection of suggested apps for Obtainium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate-context",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
     }
   ],
   "candidate_glosses": [
@@ -111,6 +135,18 @@
       "source_repo": "theupdateframework/python-tuf",
       "status": "candidate",
       "text": "[![CI badge](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml/badge.svg)](https://github.com/theupdateframework/python-tuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinuxcn/repo",
+      "status": "candidate",
+      "text": "Arch Linux Chinese Community Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "status": "candidate",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
     }
   ],
   "candidate_related_terms": [
@@ -219,11 +255,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "theupdateframework/python-tuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "archlinuxcn/repo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

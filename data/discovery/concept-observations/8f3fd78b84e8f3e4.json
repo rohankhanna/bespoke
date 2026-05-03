@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sends native desktop notifications if CLI apps fail"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040029,
+      "status": "candidate",
+      "text": "notification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038767,
+      "status": "candidate",
+      "text": "declaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031378,
+      "status": "candidate",
+      "text": "participant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026573,
+      "status": "candidate",
+      "text": "claimant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026027,
+      "status": "candidate",
+      "text": "declarant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notifier",
+      "sense_id": "notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notifier",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notifier",
+  "observation_id": "8f3fd78b84e8f3e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "notifier",
+  "source_context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+  "source_file": null,
+  "source_repo": "micromata/cli-error-notifier",
+  "source_repo_description": "Sends native desktop notifications if CLI apps fail"
+}

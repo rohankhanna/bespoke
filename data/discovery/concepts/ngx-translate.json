@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ngx-translate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate-context",
+      "text": "The internationalization (i18n) library for Angular."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ngx-translate/core",
+      "status": "candidate",
+      "text": "The internationalization (i18n) library for Angular."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ngx-translate",
+  "concept_id": "ngx-translate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ngx-translate/core"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ngx-translate",
+      "sense_id": "ngx-translate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

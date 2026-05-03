@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generating parsers in LLVM IR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://secure.travis-ci.org/nodejs/llparse.svg)](http://travis-ci.org/nodejs/llparse)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://secure.travis-ci.org/nodejs/llparse.svg)](http://travis-ci.org/nodejs/llparse)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finite-state-machine",
+      "sense_id": "finite-state-machine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "finite-state-machine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finite-state-machine",
+  "observation_id": "ff0cb79e3568bb48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "finite-state-machine",
+  "source_context_snippet": "[![Build Status](https://secure.travis-ci.org/nodejs/llparse.svg)](http://travis-ci.org/nodejs/llparse)",
+  "source_file": null,
+  "source_repo": "nodejs/llparse",
+  "source_repo_description": "Generating parsers in LLVM IR"
+}

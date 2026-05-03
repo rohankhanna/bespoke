@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mobile-internet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate-context",
+      "text": "a list of domains and ips that stay live in russia when the mobile internet gets restricted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate-context",
+      "text": "<sup>BTC</sup>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate",
+      "text": "<sup>BTC</sup>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mobile-internet",
+  "concept_id": "mobile-internet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile-internet",
+      "sense_id": "mobile-internet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

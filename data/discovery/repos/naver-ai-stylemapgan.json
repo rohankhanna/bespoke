@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/StyleMapGAN",
+      "target": "naver-ai/stylemapgan.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/StyleMapGAN",
+      "target": "quolc/neural-collage",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:55.380389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official pytorch implementation of StyleMapGAN (CVPR 2021)",
+    "fork": false,
+    "full_name": "naver-ai/StyleMapGAN",
+    "html_url": "https://github.com/naver-ai/StyleMapGAN",
+    "language": "Python",
+    "pushed_at": "2021-10-15T04:44:36Z",
+    "stargazers_count": 465,
+    "topics": [],
+    "updated_at": "2026-03-22T10:52:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver-ai/stylemapgan.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quolc/neural-collage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

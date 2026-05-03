@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "Gradle test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "euclid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid",
+      "target": "vector-math",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:56.345141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8520
+    },
+    {
+      "path": ".github/workflows/gradle-test.yml",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Vector math, geometry, reference frame, and shapes 2D & 3D",
+    "fork": false,
+    "full_name": "ihmcrobotics/euclid",
+    "html_url": "https://github.com/ihmcrobotics/euclid",
+    "language": "Java",
+    "pushed_at": "2025-10-03T16:19:43Z",
+    "stargazers_count": 33,
+    "topics": [
+      "euclid",
+      "geometry",
+      "shape",
+      "vector-math"
+    ],
+    "updated_at": "2026-01-08T07:03:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gradle test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "term": "Gradle test"
+    },
+    {
+      "context_snippet": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "euclid"
+    },
+    {
+      "context_snippet": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape"
+    },
+    {
+      "context_snippet": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-math"
+    }
+  ]
+}

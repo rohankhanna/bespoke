@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dependency-urls.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dependency-urls.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check Dependency URLs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check .NET Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check Winget Manifest Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-check.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-check.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Compile Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "3rd-party-installers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "dependency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "inno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "inno-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "installer-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "pascal",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "DomGries/InnoDependencyInstaller"
+}

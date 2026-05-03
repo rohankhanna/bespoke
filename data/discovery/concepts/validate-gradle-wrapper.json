@@ -193,6 +193,42 @@
       "source_repo": "Helium314/SCEE",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akarnokd/RxJavaJdk9Interop",
+      "status": "candidate-context",
+      "text": "RxJava 2/3 interop library for supporting Java 9 features such as Flow.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaJdk9Interop",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "Easy to use OpenStreetMap editor for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -289,6 +325,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Helium314/SCEE",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaJdk9Interop",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -496,11 +550,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "Helium314/SCEE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "akarnokd/RxJavaJdk9Interop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "streetcomplete/StreetComplete"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

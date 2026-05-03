@@ -84,7 +84,7 @@
   "normalized_form": "dependencies",
   "observation_id": "c4b3f899f1812f14",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Dependencies",
   "source_context_snippet": "Dependencies",
   "source_file": ".github/workflows/dependencies.yml",

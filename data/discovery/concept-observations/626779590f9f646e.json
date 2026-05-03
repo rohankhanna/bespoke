@@ -84,7 +84,7 @@
   "normalized_form": "post-merge-analysis",
   "observation_id": "626779590f9f646e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Post merge analysis",
   "source_context_snippet": "Post merge analysis",
   "source_file": ".github/workflows/post-merge.yml",

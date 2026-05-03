@@ -19,6 +19,18 @@
       "source_repo": "rgeirhos/texture-vs-shape",
       "status": "candidate-context",
       "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "Vector math, geometry, reference frame, and shapes 2D & 3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rgeirhos/texture-vs-shape",
       "status": "candidate",
       "text": "Plotting the shape bias of your model has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-human) supports all datasets reported here (e.g. texture-shape cue conflict, silhouettes-only, edges-only) and comes with co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate",
+      "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rgeirhos/texture-vs-shape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

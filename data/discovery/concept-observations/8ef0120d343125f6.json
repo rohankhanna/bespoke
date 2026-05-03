@@ -84,7 +84,7 @@
   "normalized_form": "build-on-macos",
   "observation_id": "8ef0120d343125f6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Build on Macos",
   "source_context_snippet": "Build on Macos",
   "source_file": ".github/workflows/ci-macos.yml",

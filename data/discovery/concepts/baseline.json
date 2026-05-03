@@ -21,6 +21,18 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate-context",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate-context",
+      "text": ":bouncing_ball_person: Pytorch ReID: A tiny, friendly, strong pytorch implement of person re-id / vehicle re-id baseline. Tutorial \ud83d\udc49https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
     }
   ],
   "candidate_glosses": [
@@ -29,6 +41,12 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

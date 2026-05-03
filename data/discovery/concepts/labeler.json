@@ -368,6 +368,30 @@
       "source_repo": "funstory-ai/BabelDOC",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gvisor",
+      "status": "candidate-context",
+      "text": "Application Kernel for Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gvisor",
+      "status": "candidate-context",
+      "text": "\"Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Apache Arrow DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -548,6 +572,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gvisor",
+      "status": "candidate",
+      "text": "\"Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
       "status": "candidate",
       "text": "Labeler"
     }
@@ -983,11 +1019,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google/gvisor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "cnosdb/arrow-datafusion"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

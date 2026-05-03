@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sequential-edits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "StyleFlow: Attribute-conditioned Exploration of StyleGAN-generated Images using  Conditional Continuous Normalizing Flows (ACM TOG 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sequential-edits",
+  "concept_id": "sequential-edits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequential-edits",
+      "sense_id": "sequential-edits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

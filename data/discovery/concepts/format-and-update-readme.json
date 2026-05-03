@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Format and Update Readme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs-community/solid-primitives",
+      "status": "candidate-context",
+      "text": "A library of high-quality primitives that extend SolidJS reactivity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs-community/solid-primitives",
+      "status": "candidate-context",
+      "text": "Format and Update Readme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs-community/solid-primitives",
+      "status": "candidate",
+      "text": "Format and Update Readme"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18482,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "abduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "absolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "instructions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Format and Update Readme",
+  "concept_id": "format-and-update-readme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "solidjs-community/solid-primitives"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Format and Update Readme",
+      "sense_id": "format-and-update-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Brook Plugin Release Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate-context",
+      "text": "The universal proxy toolchain for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate-context",
+      "text": "Brook Plugin Release Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SagerNet/SagerNet",
+      "status": "candidate",
+      "text": "Brook Plugin Release Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31997,
+      "status": "candidate",
+      "text": "omentum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31619,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31619,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31466,
+      "status": "candidate",
+      "text": "communicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31433,
+      "status": "candidate",
+      "text": "assisted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Brook Plugin Release Build",
+  "concept_id": "brook-plugin-release-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release_brook.yml",
+      "source_repo": "SagerNet/SagerNet"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Brook Plugin Release Build",
+      "sense_id": "brook-plugin-release-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

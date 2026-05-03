@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biod/sambamba",
+      "target": "guigolab/sambambench-nf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biod/sambamba",
+      "target": "ldc-developers/ldc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "biod/sambamba",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "biod/sambamba",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biod/sambamba",
+      "target": "bioinformatics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:28:57.038668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14846
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for working with SAM/BAM data",
+    "fork": false,
+    "full_name": "biod/sambamba",
+    "html_url": "https://github.com/biod/sambamba",
+    "language": "D",
+    "pushed_at": "2024-12-22T11:17:53Z",
+    "stargazers_count": 610,
+    "topics": [
+      "bam",
+      "bioinformatics",
+      "sam"
+    ],
+    "updated_at": "2026-04-17T19:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guigolab/sambambench-nf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldc-developers/ldc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/biod/sambamba.svg?branch=master)](https://travis-ci.org/biod/sambamba) [![DL](https://anaconda.org/bioconda/sambamba/badges/downloads.svg)](https://anaconda.org/bioconda/sambamba) [![BrewBadge](https://img.shields.io/badge/%F0%9F%8D%BAbrew-\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    }
+  ]
+}

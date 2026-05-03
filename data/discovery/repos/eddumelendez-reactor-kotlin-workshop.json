@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddumelendez/reactor-kotlin-workshop",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddumelendez/reactor-kotlin-workshop",
+      "target": "reactor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:43:23.845635+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hands-On Lab with Reactor and Kotlin",
+    "fork": false,
+    "full_name": "eddumelendez/reactor-kotlin-workshop",
+    "html_url": "https://github.com/eddumelendez/reactor-kotlin-workshop",
+    "language": "Kotlin",
+    "pushed_at": "2022-04-16T22:36:23Z",
+    "stargazers_count": 62,
+    "topics": [
+      "kotlin",
+      "reactor"
+    ],
+    "updated_at": "2025-08-29T07:51:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Hands-On Lab with Reactor and Kotlin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "Hands-On Lab with Reactor and Kotlin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactor"
+    }
+  ]
+}

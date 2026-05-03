@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/diffuser",
+      "target": "diffusion-planning/diffusion-planning.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/diffuser",
+      "target": "jannerm/trajectory-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:53.381224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12847
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the paper \"Planning with Diffusion for Flexible Behavior Synthesis\"",
+    "fork": false,
+    "full_name": "jannerm/diffuser",
+    "html_url": "https://github.com/jannerm/diffuser",
+    "language": "Python",
+    "pushed_at": "2024-07-18T05:31:52Z",
+    "stargazers_count": 1272,
+    "topics": [],
+    "updated_at": "2026-05-02T17:54:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffusion-planning/diffusion-planning.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jannerm/trajectory-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

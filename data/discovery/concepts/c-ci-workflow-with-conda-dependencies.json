@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "C++ CI Workflow with conda dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate-context",
+      "text": "Main collector of ergoCub specific SW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate-context",
+      "text": "C++ CI Workflow with conda dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/ergocub-software",
+      "status": "candidate",
+      "text": "C++ CI Workflow with conda dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22224,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22120,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22120,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14524,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14108,
+      "status": "candidate",
+      "text": "aire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "C++ CI Workflow with conda dependencies",
+  "concept_id": "c-ci-workflow-with-conda-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mesh-iit/ergocub-software"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C++ CI Workflow with conda dependencies",
+      "sense_id": "c-ci-workflow-with-conda-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

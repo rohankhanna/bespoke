@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "dydx v4 protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Indexer Build and push Lambda"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Indexer Build and push Lambda"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "autopsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "necropsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "overcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "postmortem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "postmortem examination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Indexer Build and push Lambda",
+      "sense_id": "indexer-build-and-push-lambda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "indexer-build-and-push-lambda",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "indexer-build-and-push-lambda",
+  "observation_id": "2849371f262101ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "Indexer Build and push Lambda",
+  "source_context_snippet": "Indexer Build and push Lambda",
+  "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+  "source_repo": "dydxprotocol/v4-chain",
+  "source_repo_description": "dydx v4 protocol"
+}

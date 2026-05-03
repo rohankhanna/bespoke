@@ -79,6 +79,30 @@
       "source_repo": "Zielon/metrical-tracker",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate-context",
+      "text": "Official repo for VGGHeads: 3D Multi Head Alignment with a Large-Scale Synthetic Dataset.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "MICA - Towards Metrical Reconstruction of Human Faces [ECCV2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "Zielon/metrical-tracker",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Zielon/metrical-tracker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/MICA"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

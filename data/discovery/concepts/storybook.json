@@ -88,6 +88,66 @@
       "source_repo": "nrwl/nx",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 The website for storybook.js.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate-context",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "\ud83d\ude95 Turn stories into executable tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate-context",
+      "text": "An expo template for react native storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate-context",
+      "text": "![picture of storybook](https://github.com/user-attachments/assets/cf98766d-8b90-44ab-b718-94ab16e63205)"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +192,36 @@
       "source_repo": "nrwl/nx",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/frontpage",
+      "status": "candidate",
+      "text": "Storybook is the most popular UI component explorer! This is the website for https://storybook.js.org/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate",
+      "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate",
+      "text": "![picture of storybook](https://github.com/user-attachments/assets/cf98766d-8b90-44ab-b718-94ab16e63205)"
     }
   ],
   "candidate_related_terms": [
@@ -259,11 +349,59 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/frontpage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dannyhw/expo-template-storybook"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

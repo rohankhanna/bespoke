@@ -19,6 +19,18 @@
       "source_repo": "fingerprintjs/fingerprintjs",
       "status": "candidate-context",
       "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "Python Outlier Detection (PyOD) 3"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fingerprintjs/fingerprintjs",
       "status": "candidate",
       "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate",
+      "text": "Python Outlier Detection (PyOD) 3"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "fingerprintjs/fingerprintjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "yzhao062/pyod"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

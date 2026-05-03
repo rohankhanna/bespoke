@@ -84,7 +84,7 @@
   "normalized_form": "cleanup-nuget-package-versions",
   "observation_id": "51afa9ad3278c412",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Cleanup NuGet Package Versions",
   "source_context_snippet": "Cleanup NuGet Package Versions",
   "source_file": ".github/workflows/cleanup-nuget-package-versions.yml",

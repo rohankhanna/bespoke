@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajevans99/SwiftFunctionToolsExperiment",
+      "target": "macpaw/openai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:29:37.658309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Type-safe Swift - OpenAI API function tool calling",
+    "fork": false,
+    "full_name": "ajevans99/SwiftFunctionToolsExperiment",
+    "html_url": "https://github.com/ajevans99/SwiftFunctionToolsExperiment",
+    "language": "Swift",
+    "pushed_at": "2024-12-15T07:29:33Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-05-22T01:48:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macpaw/openai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

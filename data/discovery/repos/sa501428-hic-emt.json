@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:50:58.753158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "sa501428/hic-emt",
+    "html_url": "https://github.com/sa501428/hic-emt",
+    "language": "Java",
+    "pushed_at": "2022-09-30T06:32:02Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-06-12T10:45:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

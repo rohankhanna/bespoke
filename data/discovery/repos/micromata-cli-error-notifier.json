@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "log-symbols",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "meow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-notifier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "update-notifier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-filenames",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-security",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-unicorn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "log-symbols",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "meow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "node-notifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "update-notifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "eslint-config-xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "eslint-plugin-filenames",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "eslint-plugin-security",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "eslint-plugin-unicorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "is-semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "cli-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "cli-error-notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "desktop-notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "error-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "node-notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "notification-center",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "npm-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier",
+      "target": "watch-files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:29:38.353496+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1583
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sends native desktop notifications if CLI apps fail",
+    "fork": false,
+    "full_name": "micromata/cli-error-notifier",
+    "html_url": "https://github.com/micromata/cli-error-notifier",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-19T22:29:02Z",
+    "stargazers_count": 72,
+    "topics": [
+      "cli",
+      "cli-apps",
+      "cli-error-notifier",
+      "desktop-notifications",
+      "error-handling",
+      "node-js",
+      "node-notifier",
+      "notification-center",
+      "notifier",
+      "notify",
+      "npm-scripts",
+      "watch-files"
+    ],
+    "updated_at": "2025-03-21T11:14:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-apps"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-error-notifier"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-notifications"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "error-handling"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-notifier"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notification-center"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notifier"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notify"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-scripts"
+    },
+    {
+      "context_snippet": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watch-files"
+    }
+  ]
+}

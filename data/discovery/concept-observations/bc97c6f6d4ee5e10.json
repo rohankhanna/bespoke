@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037277,
+      "status": "candidate",
+      "text": "continuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015321,
+      "status": "candidate",
+      "text": "sequel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037319,
+      "status": "candidate",
+      "text": "continued"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037308,
+      "status": "candidate",
+      "text": "ongoing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037290,
+      "status": "candidate",
+      "text": "continuity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "continuation",
+      "sense_id": "continuation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10043,
+      "status": "candidate",
+      "text": "sequel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4038,
+      "status": "candidate",
+      "text": "continuance"
+    }
+  ],
+  "concept_id": "continuation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuation",
+  "observation_id": "bc97c6f6d4ee5e10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "continuation",
+  "source_context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+  "source_file": null,
+  "source_repo": "akarnokd/RxJavaFiberInterop",
+  "source_repo_description": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+}

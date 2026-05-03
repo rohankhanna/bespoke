@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tangshitao/MVDiffusion",
+      "target": "andyzeng/tsdf-fusion-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tangshitao/MVDiffusion",
+      "target": "fuenwang/equirec2perspec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:33:22.856076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5408
+    },
+    {
+      "path": "requirements.txt",
+      "size": 206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion, NeurIPS 2023 (spotlight)",
+    "fork": false,
+    "full_name": "Tangshitao/MVDiffusion",
+    "html_url": "https://github.com/Tangshitao/MVDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-01-06T18:15:52Z",
+    "stargazers_count": 561,
+    "topics": [],
+    "updated_at": "2026-04-12T04:56:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andyzeng/tsdf-fusion-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuenwang/equirec2perspec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

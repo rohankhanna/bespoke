@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "@carbon/icon-helpers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@carbon/pictograms",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "culls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "carbon-design-system/carbon-preprocess-svelte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "@carbon/icon-helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "@carbon/pictograms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "culls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "carbon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "carbon-design-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "pictograms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "svelte-component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-pictograms-svelte",
+      "target": "typescript-definitions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:35:43.885468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3807
+    },
+    {
+      "path": "package.json",
+      "size": 1305
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 557
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Carbon Design System SVG pictograms as Svelte components",
+    "fork": false,
+    "full_name": "carbon-design-system/carbon-pictograms-svelte",
+    "html_url": "https://github.com/carbon-design-system/carbon-pictograms-svelte",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-26T19:03:45Z",
+    "stargazers_count": 135,
+    "topics": [
+      "carbon",
+      "carbon-design-system",
+      "pictograms",
+      "svelte",
+      "svelte-component",
+      "svg",
+      "typescript-definitions"
+    ],
+    "updated_at": "2026-04-19T20:45:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carbon-design-system/carbon-preprocess-svelte",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carbon"
+    },
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carbon-design-system"
+    },
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pictograms"
+    },
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte-component"
+    },
+    {
+      "context_snippet": "[![NPM][npm]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescript-definitions"
+    }
+  ]
+}

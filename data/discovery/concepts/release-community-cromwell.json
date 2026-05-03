@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Community Cromwell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "Release Community Cromwell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate",
+      "text": "Release Community Cromwell"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20872,
+      "status": "candidate",
+      "text": "commonwealth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "luther"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13088,
+      "status": "candidate",
+      "text": "ireton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12843,
+      "status": "candidate",
+      "text": "drogheda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12843,
+      "status": "candidate",
+      "text": "huntingdon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Community Cromwell",
+  "concept_id": "release-community-cromwell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Community Cromwell",
+      "sense_id": "release-community-cromwell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

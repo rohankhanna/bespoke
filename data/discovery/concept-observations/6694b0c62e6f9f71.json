@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26d3 Correct misassemblies using linked AND long reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genome-scaffolding",
+      "sense_id": "genome-scaffolding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "genome-scaffolding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "genome-scaffolding",
+  "observation_id": "6694b0c62e6f9f71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "genome-scaffolding",
+  "source_context_snippet": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)",
+  "source_file": null,
+  "source_repo": "BirolLab/tigmint",
+  "source_repo_description": "\u26d3 Correct misassemblies using linked AND long reads"
+}

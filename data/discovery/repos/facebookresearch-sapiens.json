@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:34:02.988794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-resolution models for human tasks.",
+    "fork": false,
+    "full_name": "facebookresearch/sapiens",
+    "html_url": "https://github.com/facebookresearch/sapiens",
+    "language": "Python",
+    "pushed_at": "2024-11-18T16:04:23Z",
+    "stargazers_count": 5350,
+    "topics": [],
+    "updated_at": "2026-05-02T02:15:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

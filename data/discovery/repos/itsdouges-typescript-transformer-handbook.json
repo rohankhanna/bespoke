@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-toc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-patch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "marionebl/ts-transformer-testing-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "facebook/jest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "ts-patch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "handbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "target": "ts-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:29:36.408629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47948
+    },
+    {
+      "path": "package.json",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcd8 A comprehensive handbook on how to create transformers for TypeScript with code examples.",
+    "fork": false,
+    "full_name": "itsdouges/typescript-transformer-handbook",
+    "html_url": "https://github.com/itsdouges/typescript-transformer-handbook",
+    "language": "TypeScript",
+    "pushed_at": "2025-02-14T07:06:22Z",
+    "stargazers_count": 1015,
+    "topics": [
+      "handbook",
+      "transformer",
+      "ts-transformer",
+      "typescript"
+    ],
+    "updated_at": "2026-04-26T23:43:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marionebl/ts-transformer-testing-library",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This document covers how to write a [TypeScript](https://typescriptlang.org/) [Transformer](https://basarat.gitbook.io/typescript/overview/ast).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handbook"
+    },
+    {
+      "context_snippet": "This document covers how to write a [TypeScript](https://typescriptlang.org/) [Transformer](https://basarat.gitbook.io/typescript/overview/ast).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "This document covers how to write a [TypeScript](https://typescriptlang.org/) [Transformer](https://basarat.gitbook.io/typescript/overview/ast).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ts-transformer"
+    }
+  ]
+}

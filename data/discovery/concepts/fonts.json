@@ -238,6 +238,54 @@
       "source_repo": "MY1L/Monu",
       "status": "candidate-context",
       "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/vert",
+      "status": "candidate-context",
+      "text": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/vert",
+      "status": "candidate-context",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +402,30 @@
       "source_repo": "MY1L/Monu",
       "status": "candidate",
       "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Ctrl",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/vert",
+      "status": "candidate",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
     }
   ],
   "candidate_related_terms": [
@@ -589,11 +661,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "MY1L/Monu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/vert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TakWolf/fusion-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "satbyy/go-noto-universal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

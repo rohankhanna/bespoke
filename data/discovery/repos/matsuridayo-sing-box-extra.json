@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:36:27.105962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 586
+    },
+    {
+      "path": "go.mod",
+      "size": 4421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Useless library",
+    "fork": false,
+    "full_name": "MatsuriDayo/sing-box-extra",
+    "html_url": "https://github.com/MatsuriDayo/sing-box-extra",
+    "language": "Go",
+    "pushed_at": "2024-06-06T06:12:04Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-03-22T07:11:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

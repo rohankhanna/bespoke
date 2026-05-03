@@ -2236,6 +2236,54 @@
       "source_repo": "flexivrobotics/flexiv_rdk",
       "status": "candidate-context",
       "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "Official Microsoft repository for SQL Server in Docker resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "v2ray, xray, sing-box, clash, mihomo... GUI for Windows, macOS, Linux, Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "ACE and TAO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate-context",
+      "text": "A public libevent repository.  The official repository is still at at  git://levent.git.sourceforge.net/gitroot/levent/libevent "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate-context",
+      "text": "windows"
     }
   ],
   "candidate_glosses": [
@@ -3366,6 +3414,30 @@
       "source_repo": "flexivrobotics/flexiv_rdk",
       "status": "candidate",
       "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyPortal/AnyPortal",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOCGroup/ACE_TAO",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate",
+      "text": "windows"
     }
   ],
   "candidate_related_terms": [
@@ -5185,11 +5257,83 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "AnyPortal/AnyPortal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "DOCGroup/ACE_TAO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "shadowsocks/libevent"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

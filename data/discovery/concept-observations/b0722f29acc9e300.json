@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Revive a JSON-serialized 64-bit complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020635,
+      "status": "candidate",
+      "text": "involved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020497,
+      "status": "candidate",
+      "text": "intricate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020424,
+      "status": "candidate",
+      "text": "complicated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005992,
+      "status": "candidate",
+      "text": "convoluted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003172,
+      "status": "candidate",
+      "text": "tortuous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "complex",
+      "sense_id": "complex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48037,
+      "status": "candidate",
+      "text": "byzantine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47038,
+      "status": "candidate",
+      "text": "intricate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47035,
+      "status": "candidate",
+      "text": "convoluted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19040,
+      "status": "candidate",
+      "text": "tortuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18071,
+      "status": "candidate",
+      "text": "compound"
+    }
+  ],
+  "concept_id": "complex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "complex",
+  "observation_id": "b0722f29acc9e300",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "complex",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "stdlib-js/complex-float32-reviver",
+  "source_repo_description": "Revive a JSON-serialized 64-bit complex number."
+}

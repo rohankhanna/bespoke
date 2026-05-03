@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmarcais/Jellyfish",
+      "target": "gmarcais/yaggo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "gmarcais/Jellyfish",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:28:52.735221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5134
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast multi-threaded k-mer counter",
+    "fork": false,
+    "full_name": "gmarcais/Jellyfish",
+    "html_url": "https://github.com/gmarcais/Jellyfish",
+    "language": "C++",
+    "pushed_at": "2024-03-20T09:39:28Z",
+    "stargazers_count": 538,
+    "topics": [],
+    "updated_at": "2026-04-29T15:56:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarcais/yaggo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

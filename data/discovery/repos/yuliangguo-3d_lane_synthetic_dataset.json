@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:32:30.924913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a synthetic dataset constructed to stimulate the development and evaluation of 3D lane detection methods.",
+    "fork": false,
+    "full_name": "yuliangguo/3D_Lane_Synthetic_Dataset",
+    "html_url": "https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset",
+    "language": "Python",
+    "pushed_at": "2026-03-13T17:46:08Z",
+    "stargazers_count": 147,
+    "topics": [],
+    "updated_at": "2026-03-13T17:46:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "robotology/gazebo-yarp-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "conda-forge/ergocub-software-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "mesh-iit/cad-libraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "mesh-iit/creo2urdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "C++ CI Workflow with conda dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mesh-iit/ergocub-software",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:54.476748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5335
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2093
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Main collector of ergoCub specific SW",
+    "fork": false,
+    "full_name": "mesh-iit/ergocub-software",
+    "html_url": "https://github.com/mesh-iit/ergocub-software",
+    "language": "MATLAB",
+    "pushed_at": "2026-04-30T11:54:11Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-30T11:52:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/ergocub-software-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mesh-iit/cad-libraries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mesh-iit/creo2urdf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/gazebo-yarp-plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "C++ CI Workflow with conda dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "C++ CI Workflow with conda dependencies"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "GitHub Pages"
+    }
+  ]
+}

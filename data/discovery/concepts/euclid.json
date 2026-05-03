@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "euclid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "Vector math, geometry, reference frame, and shapes 2D & 3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate-context",
+      "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/euclid",
+      "status": "candidate",
+      "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912806,
+      "status": "candidate",
+      "text": "euclid's algorithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912805,
+      "status": "candidate",
+      "text": "euclidean algorithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912804,
+      "status": "candidate",
+      "text": "euclideanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912803,
+      "status": "candidate",
+      "text": "euclidian space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19912802,
+      "status": "candidate",
+      "text": "diophantus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "euclid",
+  "concept_id": "euclid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/euclid"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "euclid",
+      "sense_id": "euclid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

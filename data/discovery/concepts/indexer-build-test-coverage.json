@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Indexer Build, Test & Coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "dydx v4 protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate-context",
+      "text": "Indexer Build, Test & Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-chain",
+      "status": "candidate",
+      "text": "Indexer Build, Test & Coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27887,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27807,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17840,
+      "status": "candidate",
+      "text": "digit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17342,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17342,
+      "status": "candidate",
+      "text": "tester"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Indexer Build, Test & Coverage",
+  "concept_id": "indexer-build-test-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/indexer-build-test-coverage.yml",
+      "source_repo": "dydxprotocol/v4-chain"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Indexer Build, Test & Coverage",
+      "sense_id": "indexer-build-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

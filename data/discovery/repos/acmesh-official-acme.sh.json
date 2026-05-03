@@ -1,0 +1,836 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/midnightbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/omnios-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/openindiana-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "vmactions/haiku-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml"
+    },
+    {
+      "component": "vmactions/haiku-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml"
+    },
+    {
+      "component": "vmactions/midnightbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml"
+    },
+    {
+      "component": "anyvm-org/cf-tunnel@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acmesh-official/letest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acmesh-official/acmetest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acmesh-official/get.acme.sh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "diafygi/acme-tiny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/midnightbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/solaris-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/omnios-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/openindiana-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/haiku-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "DNS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "DragonFlyBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/haiku-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "Haiku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/midnightbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "MidnightBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "NetBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acme-challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acme-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "acme-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "buypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "certbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "lets-encrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "posix-sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "ssl-certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "ssl-certificates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "tls-certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh",
+      "target": "zerossl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:41.749605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29783
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2403
+    },
+    {
+      "path": ".github/workflows/DNS.yml",
+      "size": 28808
+    },
+    {
+      "path": ".github/workflows/DragonFlyBSD.yml",
+      "size": 2132
+    },
+    {
+      "path": ".github/workflows/FreeBSD.yml",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/Haiku.yml",
+      "size": 2315
+    },
+    {
+      "path": ".github/workflows/Linux.yml",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/MacOS.yml",
+      "size": 1691
+    },
+    {
+      "path": ".github/workflows/MidnightBSD.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/NetBSD.yml",
+      "size": 2077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
+    "fork": false,
+    "full_name": "acmesh-official/acme.sh",
+    "html_url": "https://github.com/acmesh-official/acme.sh",
+    "language": "Shell",
+    "pushed_at": "2026-05-02T09:22:53Z",
+    "stargazers_count": 46457,
+    "topics": [
+      "acme",
+      "acme-challenge",
+      "acme-protocol",
+      "acme-v2",
+      "ash",
+      "bash",
+      "buypass",
+      "certbot",
+      "lets-encrypt",
+      "posix",
+      "posix-sh",
+      "shell",
+      "ssl",
+      "ssl-certificate",
+      "ssl-certificates",
+      "tls",
+      "tls-certificate",
+      "zerossl"
+    ],
+    "updated_at": "2026-05-03T21:29:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acmesh-official/acmetest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acmesh-official/get.acme.sh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acmesh-official/letest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diafygi/acme-tiny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DNS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DNS.yml",
+      "term": "DNS"
+    },
+    {
+      "context_snippet": "DragonFlyBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "term": "DragonFlyBSD"
+    },
+    {
+      "context_snippet": "FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "term": "FreeBSD"
+    },
+    {
+      "context_snippet": "Haiku",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Haiku.yml",
+      "term": "Haiku"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MacOS.yml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "MidnightBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "term": "MidnightBSD"
+    },
+    {
+      "context_snippet": "NetBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "term": "NetBSD"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-challenge"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-protocol"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-v2"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buypass"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certbot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lets-encrypt"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix-sh"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssl-certificate"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssl-certificates"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls-certificate"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zerossl"
+    }
+  ]
+}

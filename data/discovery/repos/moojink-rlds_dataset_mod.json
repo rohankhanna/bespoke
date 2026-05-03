@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:32:31.484952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficiently apply modification functions to RLDS/TFDS datasets.",
+    "fork": true,
+    "full_name": "moojink/rlds_dataset_mod",
+    "html_url": "https://github.com/moojink/rlds_dataset_mod",
+    "language": "Python",
+    "pushed_at": "2024-06-19T05:14:47Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-30T02:22:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

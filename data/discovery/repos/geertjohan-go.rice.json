@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:43:15.864439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6048
+    },
+    {
+      "path": "go.mod",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "go.rice is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy.",
+    "fork": false,
+    "full_name": "GeertJohan/go.rice",
+    "html_url": "https://github.com/GeertJohan/go.rice",
+    "language": "Go",
+    "pushed_at": "2022-11-16T19:08:28Z",
+    "stargazers_count": 2442,
+    "topics": [],
+    "updated_at": "2026-04-13T22:07:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

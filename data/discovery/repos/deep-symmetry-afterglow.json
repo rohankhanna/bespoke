@@ -61,7 +61,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
-      "target": "processing/processing",
+      "target": "aamedina/tools.usb",
       "target_type": "repository"
     },
     {
@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:47:12.442352+00:00",
+  "fetched_at": "2026-05-03T20:46:07.784654+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,7 +230,7 @@
     "html_url": "https://github.com/Deep-Symmetry/afterglow",
     "language": "Clojure",
     "pushed_at": "2025-12-21T05:12:00Z",
-    "stargazers_count": 470,
+    "stargazers_count": 471,
     "topics": [
       "clojure",
       "controller",
@@ -239,9 +239,14 @@
       "live-coding",
       "midi"
     ],
-    "updated_at": "2026-04-29T08:03:06Z"
+    "updated_at": "2026-05-03T18:20:45Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aamedina/tools.usb",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "d0kt0r0/espgrid",
@@ -255,11 +260,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "flatland/lein-protobuf",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "processing/processing",
       "source_file": "README.md"
     }
   ],

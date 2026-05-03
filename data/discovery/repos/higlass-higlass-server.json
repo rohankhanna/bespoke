@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "higlass/higlass-server",
+      "target": "flekschas/hipiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "higlass/higlass-server",
+      "target": "nvictus/pybbi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "higlass/higlass-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "higlass/higlass-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/higlass-server",
+      "target": "hi-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/higlass-server",
+      "target": "hidivelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/higlass-server",
+      "target": "higlass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:59.609918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3819
+    },
+    {
+      "path": "package.json",
+      "size": 372
+    },
+    {
+      "path": "requirements.txt",
+      "size": 462
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Server component for HiGlass that manages and serves tiled data",
+    "fork": false,
+    "full_name": "higlass/higlass-server",
+    "html_url": "https://github.com/higlass/higlass-server",
+    "language": "Python",
+    "pushed_at": "2023-05-23T02:03:39Z",
+    "stargazers_count": 21,
+    "topics": [
+      "hi-c",
+      "hidivelab",
+      "higlass"
+    ],
+    "updated_at": "2026-02-14T22:07:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flekschas/hipiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvictus/pybbi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The HiGlass Server supports [HiGlass](https://github.com/higlass/higlass) and [HiPiler](https://github.com/flekschas/hipiler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hi-c"
+    },
+    {
+      "context_snippet": "The HiGlass Server supports [HiGlass](https://github.com/higlass/higlass) and [HiPiler](https://github.com/flekschas/hipiler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidivelab"
+    },
+    {
+      "context_snippet": "The HiGlass Server supports [HiGlass](https://github.com/higlass/higlass) and [HiPiler](https://github.com/flekschas/hipiler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "higlass"
+    }
+  ]
+}

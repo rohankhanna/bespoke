@@ -1,0 +1,17 @@
+{
+  "component": "EndBug/discuss-on-discord@v1.1.0",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discord_issues.yml",
+      "source_repo": "pytorch/ignite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discord_pull_requests.yaml",
+      "source_repo": "pytorch/ignite"
+    }
+  ]
+}

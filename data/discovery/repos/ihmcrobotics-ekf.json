@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ekf",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ekf",
+      "target": "Gradle test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:55.567948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6064
+    },
+    {
+      "path": ".github/workflows/gradle-test.yml",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A EKF based state estimator for floating base robots.",
+    "fork": false,
+    "full_name": "ihmcrobotics/ekf",
+    "html_url": "https://github.com/ihmcrobotics/ekf",
+    "language": "Java",
+    "pushed_at": "2026-02-04T23:05:28Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-04T23:05:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gradle test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "term": "Gradle test"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Browser testing on Lambdatest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/mathjs",
+      "status": "candidate-context",
+      "text": "An extensive math library for JavaScript and Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/mathjs",
+      "status": "candidate-context",
+      "text": "Browser testing on Lambdatest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/mathjs",
+      "status": "candidate",
+      "text": "Browser testing on Lambdatest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "edit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Browser testing on Lambdatest",
+  "concept_id": "browser-testing-on-lambdatest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/lambdatest.yaml",
+      "source_repo": "josdejong/mathjs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Browser testing on Lambdatest",
+      "sense_id": "browser-testing-on-lambdatest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "yatsuki/v2manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "topjohnwu/magisk-module-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "yatsuki/v2ray",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "Magisk-Modules-Repo/v2ray"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19953550,
+      "status": "candidate",
+      "text": "mana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19918550,
+      "status": "candidate",
+      "text": "manna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907264,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892664,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019822,
+      "status": "candidate",
+      "text": "animanga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manga",
+      "sense_id": "manga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manga",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manga",
+  "observation_id": "48052dc9fbd05158",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "manga",
+  "source_context_snippet": "`vert`\u662f\u7ad6\u6392\uff08vertical\uff09\u7684OT\u7279\u6027\u3002",
+  "source_file": null,
+  "source_repo": "MY1L/vert",
+  "source_repo_description": "\u9002\u7528\u7ad6\u6392\u7684\u6f2b\u753b\u5d4c\u5b57\u5b57\u4f53\u6539\u4f5c"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clodius is a tool for breaking up large data sets into smaller tiles that can subsequently be displayed using an appropriate viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hidivelab",
+      "sense_id": "hidivelab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hidivelab",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hidivelab",
+  "observation_id": "af0080628891edde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "hidivelab",
+  "source_context_snippet": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)",
+  "source_file": null,
+  "source_repo": "higlass/clodius",
+  "source_repo_description": "Clodius is a tool for breaking up large data sets into smaller tiles that can subsequently be displayed using an appropriate viewer."
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-error",
+      "target": "error-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-error",
+      "target": "error-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-error",
+      "target": "errors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-error",
+      "target": "grav",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-error",
+      "target": "grav-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:50.689676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Grav Errors Plugin",
+    "fork": false,
+    "full_name": "getgrav/grav-plugin-error",
+    "html_url": "https://github.com/getgrav/grav-plugin-error",
+    "language": "PHP",
+    "pushed_at": "2025-08-28T17:34:32Z",
+    "stargazers_count": 5,
+    "topics": [
+      "error-handling",
+      "error-monitoring",
+      "errors",
+      "grav",
+      "grav-plugin"
+    ],
+    "updated_at": "2025-11-13T15:07:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GPM Installation](assets/readme_1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "error-handling"
+    },
+    {
+      "context_snippet": "![GPM Installation](assets/readme_1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "error-monitoring"
+    },
+    {
+      "context_snippet": "![GPM Installation](assets/readme_1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "errors"
+    },
+    {
+      "context_snippet": "![GPM Installation](assets/readme_1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav"
+    },
+    {
+      "context_snippet": "![GPM Installation](assets/readme_1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav-plugin"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "romanarzumanyan/vali",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "Jimver/cuda-toolkit@v0.2.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "auto-commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "Jimver/cuda-toolkit@v0.2.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:20.327667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7567
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/auto-commits.yml",
+      "size": 1847
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2966
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1415
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Set of Python bindings to C++ libraries which provides full HW acceleration for video decoding, encoding and GPU-accelerated color space and pixel format conversions",
+    "fork": false,
+    "full_name": "NVIDIA/VideoProcessingFramework",
+    "html_url": "https://github.com/NVIDIA/VideoProcessingFramework",
+    "language": "C++",
+    "pushed_at": "2024-06-10T14:16:44Z",
+    "stargazers_count": 1379,
+    "topics": [],
+    "updated_at": "2026-05-01T18:44:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romanarzumanyan/vali",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "term": "auto-commits"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "tests"
+    }
+  ]
+}

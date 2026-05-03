@@ -202,6 +202,18 @@
       "source_repo": "liquidz/dad",
       "status": "candidate-context",
       "text": "dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Apache Arrow DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Dependencies"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +312,12 @@
       "source_repo": "liquidz/dad",
       "status": "candidate",
       "text": "dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate",
+      "text": "Dependencies"
     }
   ],
   "candidate_related_terms": [
@@ -625,11 +643,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "cnosdb/arrow-datafusion"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

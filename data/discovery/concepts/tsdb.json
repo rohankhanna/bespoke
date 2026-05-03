@@ -19,6 +19,30 @@
       "source_repo": "bosun-monitor/bosun",
       "status": "candidate-context",
       "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/horaedb",
+      "status": "candidate-context",
+      "text": "Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/horaedb",
+      "status": "candidate-context",
+      "text": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bosun-monitor/bosun",
       "status": "candidate",
       "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/horaedb",
+      "status": "candidate",
+      "text": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bosun-monitor/bosun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

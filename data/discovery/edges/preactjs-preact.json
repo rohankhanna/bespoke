@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "preactjs/preact",
-      "target": "preactjs/awesome-preact",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
-      "target": "developit/preact-in-es3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
       "target": "dominictarr/hyperscript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
-      "target": "preactjs/preact-devtools",
       "target_type": "repository"
     },
     {
@@ -526,6 +505,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "preactjs/preact"
 }

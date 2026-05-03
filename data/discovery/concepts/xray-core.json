@@ -43,6 +43,18 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate-context",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate-context",
+      "text": "a list of domains and ips that stay live in russia when the mobile internet gets restricted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate-context",
+      "text": "<sup>BTC</sup>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hxehex/russia-mobile-internet-whitelist",
+      "status": "candidate",
+      "text": "<sup>BTC</sup>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "LorenEteval/Furious"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hxehex/russia-mobile-internet-whitelist"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

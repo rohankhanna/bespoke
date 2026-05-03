@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GTK4_jll.jl",
+      "target": "juliabinarywrappers/cairo_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GTK4_jll.jl",
+      "target": "juliabinarywrappers/fontconfig_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GTK4_jll.jl",
+      "target": "juliabinarywrappers/freetype2_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/GTK4_jll.jl",
+      "target": "juliabinarywrappers/fribidi_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:42:18.446421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/GTK4_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/GTK4_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-07-02T14:37:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-02T14:37:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/cairo_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/fontconfig_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/freetype2_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/fribidi_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

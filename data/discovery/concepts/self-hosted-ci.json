@@ -19,12 +19,30 @@
       "source_repo": "AdaptiveCpp/AdaptiveCpp",
       "status": "candidate-context",
       "text": "Self-hosted CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "refresh-bio/KMC",
+      "status": "candidate-context",
+      "text": "Fast and frugal disk based k-mer counter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refresh-bio/KMC",
+      "status": "candidate-context",
+      "text": "Self-hosted CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "AdaptiveCpp/AdaptiveCpp",
+      "status": "candidate",
+      "text": "Self-hosted CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "refresh-bio/KMC",
       "status": "candidate",
       "text": "Self-hosted CI"
     }
@@ -106,11 +124,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/linux-self-hosted.yml",
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "refresh-bio/KMC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/linux-self-hosted.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

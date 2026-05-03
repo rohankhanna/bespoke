@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timo/json_fast",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timo/json_fast",
+      "target": "perl6",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:34:07.580046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a naive imperative json parser in perl6, to evaluate performance against JSON::Tiny",
+    "fork": false,
+    "full_name": "timo/json_fast",
+    "html_url": "https://github.com/timo/json_fast",
+    "language": "Raku",
+    "pushed_at": "2026-03-02T20:47:56Z",
+    "stargazers_count": 27,
+    "topics": [
+      "json",
+      "perl6"
+    ],
+    "updated_at": "2026-03-02T20:48:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/timo/json_fast.svg?branch=master)](https://travis-ci.org/timo/json_fast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/timo/json_fast.svg?branch=master)](https://travis-ci.org/timo/json_fast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl6"
+    }
+  ]
+}

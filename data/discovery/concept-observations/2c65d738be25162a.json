@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of suggested apps for Obtainium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015128,
+      "status": "candidate",
+      "text": "upgrader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015127,
+      "status": "candidate",
+      "text": "upsizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015126,
+      "status": "candidate",
+      "text": "uplifter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015125,
+      "status": "candidate",
+      "text": "backdater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015124,
+      "status": "candidate",
+      "text": "rewriter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "updater",
+      "sense_id": "updater#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "updater",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "updater",
+  "observation_id": "2c65d738be25162a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "updater",
+  "source_context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+  "source_file": null,
+  "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+  "source_repo_description": "Collection of suggested apps for Obtainium."
+}

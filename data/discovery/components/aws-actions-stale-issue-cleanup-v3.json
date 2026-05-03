@@ -1,12 +1,17 @@
 {
   "component": "aws-actions/stale-issue-cleanup@v3",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale_issue.yml",
       "source_repo": "aws/aws-iot-device-sdk-js-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "source_repo": "aws/aws-sdk-cpp"
     }
   ]
 }

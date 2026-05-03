@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd25Robust Video Matting C++ inference toolkit with ONNXRuntime\u3001MNN\u3001NCNN and TNN, via lite.ai.toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align='left'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align='left'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016961,
+      "status": "candidate",
+      "text": "docking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947250,
+      "status": "candidate",
+      "text": "ganging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918159,
+      "status": "candidate",
+      "text": "coupling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040904,
+      "status": "candidate",
+      "text": "matmaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040903,
+      "status": "candidate",
+      "text": "chairmat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "matting",
+      "sense_id": "matting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9074,
+      "status": "candidate",
+      "text": "mat"
+    }
+  ],
+  "concept_id": "matting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "matting",
+  "observation_id": "e6c0d0a00baf5adc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "matting",
+  "source_context_snippet": "<div align='left'>",
+  "source_file": null,
+  "source_repo": "xlite-dev/RVM-Inference",
+  "source_repo_description": "\ud83d\udd25Robust Video Matting C++ inference toolkit with ONNXRuntime\u3001MNN\u3001NCNN and TNN, via lite.ai.toolkit."
+}

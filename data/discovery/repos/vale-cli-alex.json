@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vale-cli/alex",
-      "target": "get-alex/alex",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vale-cli/alex",
       "target": "errata-ai/vale",
       "target_type": "repository"
     },
@@ -30,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:45:59.641709+00:00",
+  "fetched_at": "2026-05-03T19:30:08.418012+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,11 +51,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "errata-ai/vale",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "get-alex/alex",
       "source_file": "README.md"
     }
   ],

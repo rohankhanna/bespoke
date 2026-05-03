@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshuaulrich/TTR",
+      "target": "joshuaulrich/quantmod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "joshuaulrich/TTR",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/TTR",
+      "target": "algorithmic-trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/TTR",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/TTR",
+      "target": "technical-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:42:22.575172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3015
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Technical analysis and other functions to construct technical trading rules with R",
+    "fork": false,
+    "full_name": "joshuaulrich/TTR",
+    "html_url": "https://github.com/joshuaulrich/TTR",
+    "language": "R",
+    "pushed_at": "2026-02-28T19:51:20Z",
+    "stargazers_count": 343,
+    "topics": [
+      "algorithmic-trading",
+      "finance",
+      "r",
+      "technical-analysis"
+    ],
+    "updated_at": "2026-04-21T18:06:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshuaulrich/quantmod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TTR is an [R](https://www.r-project.org) package that provides the most popular",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithmic-trading"
+    },
+    {
+      "context_snippet": "TTR is an [R](https://www.r-project.org) package that provides the most popular",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "TTR is an [R](https://www.r-project.org) package that provides the most popular",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technical-analysis"
+    }
+  ]
+}

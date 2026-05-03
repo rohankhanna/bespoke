@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corgi-emacs/corgi",
+      "target": "lambdaisland/corgi-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corgi-emacs/corgi",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corgi-emacs/corgi",
+      "target": "lambdaisland/corgi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "corgi-emacs/corgi",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "corgi-emacs/corgi",
+      "target": "emacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:31:13.102345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unbundled Emacs configuration aimed at Clojure developers",
+    "fork": false,
+    "full_name": "corgi-emacs/corgi",
+    "html_url": "https://github.com/corgi-emacs/corgi",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-11-27T11:00:45Z",
+    "stargazers_count": 186,
+    "topics": [
+      "clojure",
+      "emacs"
+    ],
+    "updated_at": "2025-12-03T18:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/corgi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/corgi-packages",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    }
+  ]
+}

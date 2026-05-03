@@ -262,6 +262,18 @@
       "source_repo": "Alpine-DAV/ascent",
       "status": "candidate-context",
       "text": "Ascent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +402,12 @@
       "source_repo": "Alpine-DAV/ascent",
       "status": "candidate",
       "text": "Ascent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate",
+      "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
     }
   ],
   "candidate_related_terms": [
@@ -641,11 +659,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

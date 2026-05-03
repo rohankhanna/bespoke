@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "crdt-implementations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "crdt-implementations",
+  "concept_id": "crdt-implementations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crdt-implementations",
+      "sense_id": "crdt-implementations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

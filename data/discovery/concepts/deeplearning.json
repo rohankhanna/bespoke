@@ -367,6 +367,18 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate-context",
       "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sovrasov/flops-counter.pytorch",
+      "status": "candidate-context",
+      "text": "Flops counter for neural networks in pytorch framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sovrasov/flops-counter.pytorch",
+      "status": "candidate-context",
+      "text": "[![Pypi version](https://img.shields.io/pypi/v/ptflops.svg)](https://pypi.org/project/ptflops/)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate",
       "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sovrasov/flops-counter.pytorch",
+      "status": "candidate",
+      "text": "[![Pypi version](https://img.shields.io/pypi/v/ptflops.svg)](https://pypi.org/project/ptflops/)"
     }
   ],
   "candidate_related_terms": [],
@@ -934,11 +952,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "sovrasov/flops-counter.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

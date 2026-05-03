@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "MunifTanjim/luver-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "MunifTanjim/luver-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "MunifTanjim/luver-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "MunifTanjim/luver-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "llhttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MunifTanjim/llhttp.lua",
+      "target": "luajit-ffi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:37.076191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3206
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lua interface for https://github.com/nodejs/llhttp",
+    "fork": false,
+    "full_name": "MunifTanjim/llhttp.lua",
+    "html_url": "https://github.com/MunifTanjim/llhttp.lua",
+    "language": "C",
+    "pushed_at": "2022-11-09T15:59:27Z",
+    "stargazers_count": 6,
+    "topics": [
+      "http",
+      "llhttp",
+      "lua",
+      "luajit",
+      "luajit-ffi"
+    ],
+    "updated_at": "2025-12-08T03:25:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GitHub Workflow Status: CI](https://img.shields.io/github/workflow/status/MunifTanjim/llhttp.lua/CI/main?label=CI&style=for-the-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status: CI](https://img.shields.io/github/workflow/status/MunifTanjim/llhttp.lua/CI/main?label=CI&style=for-the-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llhttp"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status: CI](https://img.shields.io/github/workflow/status/MunifTanjim/llhttp.lua/CI/main?label=CI&style=for-the-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status: CI](https://img.shields.io/github/workflow/status/MunifTanjim/llhttp.lua/CI/main?label=CI&style=for-the-badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit-ffi"
+    }
+  ]
+}

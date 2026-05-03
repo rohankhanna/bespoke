@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "espressif/github-actions/sync_issues_to_jira@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml"
+    },
+    {
+      "component": "espressif/github-actions/sync_issues_to_jira@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml"
+    },
+    {
+      "component": "espressif/github-actions/sync_issues_to_jira@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "espressif/esp-idf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "Sync issue comments to JIRA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "Sync issues to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "target": "Sync remain PRs to Jira",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:37:28.592012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8488
+    },
+    {
+      "path": "requirements.txt",
+      "size": 466
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 639
+    },
+    {
+      "path": ".github/workflows/new_issues.yml",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/new_prs.yml",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Latest ESP8266 SDK based on FreeRTOS, esp-idf style.",
+    "fork": false,
+    "full_name": "espressif/ESP8266_RTOS_SDK",
+    "html_url": "https://github.com/espressif/ESP8266_RTOS_SDK",
+    "language": "C",
+    "pushed_at": "2026-02-10T01:21:01Z",
+    "stargazers_count": 3540,
+    "topics": [],
+    "updated_at": "2026-04-30T13:24:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressif/esp-idf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync issue comments to JIRA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Sync issue comments to JIRA"
+    },
+    {
+      "context_snippet": "Sync issues to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issues.yml",
+      "term": "Sync issues to Jira"
+    },
+    {
+      "context_snippet": "Sync remain PRs to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_prs.yml",
+      "term": "Sync remain PRs to Jira"
+    }
+  ]
+}

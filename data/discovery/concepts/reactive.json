@@ -115,6 +115,30 @@
       "source_repo": "solidjs/solid",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate-context",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "Additional optional modules for the Reactor project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "solidjs/solid",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "status": "candidate",
+      "text": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +418,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "solidjs/solid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "reactor/reactor-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

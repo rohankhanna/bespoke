@@ -1,0 +1,12 @@
+{
+  "component": "manovotny/github-releases-for-automated-package-publishing-action@v2.0.1",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MattiasBuelens/web-streams-polyfill"
+    }
+  ]
+}

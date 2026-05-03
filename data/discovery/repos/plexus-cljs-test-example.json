@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:31:12.663314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "plexus/cljs-test-example",
+    "html_url": "https://github.com/plexus/cljs-test-example",
+    "language": "Clojure",
+    "pushed_at": "2022-04-27T14:44:50Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2022-09-29T14:16:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

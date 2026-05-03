@@ -469,6 +469,42 @@
       "source_repo": "ShichenLiu/SoftRas",
       "status": "candidate-context",
       "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate-context",
+      "text": "Code for \"NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video\", CVPR 2021 oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "status": "candidate-context",
+      "text": "[ECCV'20] Convolutional Occupancy Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate-context",
+      "text": "Implicit Geometric Regularization for Learning Shapes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -705,6 +741,24 @@
       "source_repo": "ShichenLiu/SoftRas",
       "status": "candidate",
       "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -952,11 +1006,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ShichenLiu/SoftRas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "zju3dv/NeuralRecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

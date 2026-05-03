@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/setup-julia@latest",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -392,6 +392,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "andyferris/Dictionaries.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaPlots/GraphRecipes.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "JuliaPlots/GraphRecipes.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "JuliaParallel/DTables.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml",
+      "source_repo": "FluxML/FastAI.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "JuliaAnimators/Javis.jl"
     }
   ]
 }

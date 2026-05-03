@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Jasmine/Jest assertions for enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046156,
+      "status": "candidate",
+      "text": "protein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046144,
+      "status": "candidate",
+      "text": "phosphatase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043693,
+      "status": "candidate",
+      "text": "enzymic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043636,
+      "status": "candidate",
+      "text": "enzymatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038707,
+      "status": "candidate",
+      "text": "trandolapril"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enzyme",
+      "sense_id": "enzyme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enzyme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enzyme",
+  "observation_id": "03d9b2df3f242717",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "enzyme",
+  "source_context_snippet": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)",
+  "source_file": null,
+  "source_repo": "enzymejs/enzyme-matchers",
+  "source_repo_description": "Jasmine/Jest assertions for enzyme"
+}

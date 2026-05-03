@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/specter",
+      "target": "allenai/paper-embedding-public-apis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "allenai/specter",
+      "target": "ibeltagy/allennlp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:35.299236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10564
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+    "fork": false,
+    "full_name": "allenai/specter",
+    "html_url": "https://github.com/allenai/specter",
+    "language": "Python",
+    "pushed_at": "2023-06-12T21:30:03Z",
+    "stargazers_count": 578,
+    "topics": [],
+    "updated_at": "2026-04-30T15:43:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/paper-embedding-public-apis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibeltagy/allennlp",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

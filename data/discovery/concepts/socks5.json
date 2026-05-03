@@ -151,6 +151,42 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate-context",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate-context",
+      "text": "tun2socks - powered by gVisor TCP/IP stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate-context",
+      "text": "![tun2socks](docs/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "A platform for building proxies to bypass network restrictions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/shadowsocks-rust",
+      "status": "candidate-context",
+      "text": "A Rust port of shadowsocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-rust",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xjasonlyu/tun2socks",
+      "status": "candidate",
+      "text": "![tun2socks](docs/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/shadowsocks-rust",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +358,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "LorenEteval/Furious"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "xjasonlyu/tun2socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "shadowsocks/shadowsocks-rust"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

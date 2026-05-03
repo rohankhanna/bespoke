@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reactive-streams/reactive-streams-jvm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reactive-streams/reactive-streams-jvm",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:45.419508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35371
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reactive Streams Specification for the JVM",
+    "fork": false,
+    "full_name": "reactive-streams/reactive-streams-jvm",
+    "html_url": "https://github.com/reactive-streams/reactive-streams-jvm",
+    "language": "Java",
+    "pushed_at": "2024-03-13T03:40:25Z",
+    "stargazers_count": 4874,
+    "topics": [],
+    "updated_at": "2026-05-01T15:41:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

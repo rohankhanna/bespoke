@@ -53,13 +53,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-signals",
-      "target": "tracked-tools/tracked-built-ins",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "tc39/proposal-signals",
       "target": "proposal-signals/proposal-signals",
@@ -129,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:40:09.631838+00:00",
+  "fetched_at": "2026-05-03T20:39:01.959628+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -171,11 +164,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "proposal-signals/proposal-signals",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tracked-tools/tracked-built-ins",
       "source_file": "README.md"
     },
     {

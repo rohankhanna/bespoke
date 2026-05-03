@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/Deploy.yml",
       "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "kuzudb/kuzu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "HunterBarclay/JoltPhysics.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "tonsky/uberdeps"
     }
   ],
   "term": "build-and-deploy"

@@ -187,6 +187,18 @@
       "source_repo": "JuliaInterop/NBInclude.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaInterop/NBInclude.jl/workflows/CI/badge.svg)](https://github.com/JuliaInterop/NBInclude.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate-context",
+      "text": "MONAI Tutorials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate-context",
+      "text": "This repository hosts the MONAI tutorials."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "JuliaInterop/NBInclude.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaInterop/NBInclude.jl/workflows/CI/badge.svg)](https://github.com/JuliaInterop/NBInclude.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/tutorials",
+      "status": "candidate",
+      "text": "This repository hosts the MONAI tutorials."
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +406,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Project-MONAI/tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

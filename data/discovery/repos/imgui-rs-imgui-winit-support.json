@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imgui-rs/imgui-winit-support",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:44:45.497659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3353
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Winit support for imgui-rs",
+    "fork": false,
+    "full_name": "imgui-rs/imgui-winit-support",
+    "html_url": "https://github.com/imgui-rs/imgui-winit-support",
+    "language": "Rust",
+    "pushed_at": "2025-01-19T17:33:30Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-10-05T09:27:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

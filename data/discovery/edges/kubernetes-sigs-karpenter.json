@@ -8,27 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "sergelogvinov/karpenter-provider-proxmox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "oracle/karpenter-provider-oci",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "zoom/karpenter-oci",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "kubernetes-sigs/karpenter",
@@ -204,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "kubernetes-sigs/karpenter"
 }

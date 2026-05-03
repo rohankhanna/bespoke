@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "App Vue3 - CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "status": "candidate-context",
+      "text": "Sample project showing how to use Carbon components in Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "status": "candidate-context",
+      "text": "App Vue3 - CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "status": "candidate",
+      "text": "App Vue3 - CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10435,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10435,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10385,
+      "status": "candidate",
+      "text": "non"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "App Vue3 - CI",
+  "concept_id": "app-vue3---ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/app-vue3-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "App Vue3 - CI",
+      "sense_id": "app-vue3---ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

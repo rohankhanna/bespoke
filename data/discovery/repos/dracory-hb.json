@@ -23,6 +23,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
+      "target": "stevelacy/daz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dracory/hb",
       "target": "julvo/htmlgo",
       "target_type": "repository"
     },
@@ -30,14 +37,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "maragudk/gomponents",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dracory/hb",
-      "target": "maddalax/htmgo",
+      "target": "mdigger/htmlx",
       "target_type": "repository"
     },
     {
@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:42:13.301513+00:00",
+  "fetched_at": "2026-05-03T19:42:17.330237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -104,12 +104,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "maddalax/htmgo",
+      "full_name": "mdigger/htmlx",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "maragudk/gomponents",
+      "full_name": "stevelacy/daz",
       "source_file": "README.md"
     }
   ],

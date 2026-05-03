@@ -46,6 +46,18 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate-context",
       "text": "Output"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "Standard output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate",
       "text": "Output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/streams-node-stdout"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod",
+      "target": "algorithmic-trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod",
+      "target": "charting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod",
+      "target": "data-import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/quantmod",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:47:52.914716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quantitative Financial Modelling Framework",
+    "fork": false,
+    "full_name": "joshuaulrich/quantmod",
+    "html_url": "https://github.com/joshuaulrich/quantmod",
+    "language": "R",
+    "pushed_at": "2025-08-07T20:57:12Z",
+    "stargazers_count": 891,
+    "topics": [
+      "algorithmic-trading",
+      "charting",
+      "data-import",
+      "finance",
+      "r",
+      "time-series"
+    ],
+    "updated_at": "2026-04-14T06:47:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithmic-trading"
+    },
+    {
+      "context_snippet": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charting"
+    },
+    {
+      "context_snippet": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-import"
+    },
+    {
+      "context_snippet": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

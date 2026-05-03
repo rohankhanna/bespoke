@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fossi-foundation/nix-eda/.github/actions/nix_sign_cache_s3@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fossi-foundation/nix-eda/.github/actions/nix_sign_cache_s3@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fossi-foundation/nix-eda/.github/actions/nix_sign_cache_s3@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tvdias/github-tagger@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "fossi-foundation/nix-eda/.github/actions/nix_sign_cache_s3@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "AdityaGarg8/remove-unwanted-software@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "tvdias/github-tagger@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librelane/librelane",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "asic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "asic-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "chip-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "digital-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "electronic-design-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "librelane",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librelane/librelane",
+      "target": "openlane",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:28.643982+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 2173
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 29367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ASIC implementation flow infrastructure, successor to OpenLane",
+    "fork": false,
+    "full_name": "librelane/librelane",
+    "html_url": "https://github.com/librelane/librelane",
+    "language": "Python",
+    "pushed_at": "2026-05-01T17:45:50Z",
+    "stargazers_count": 389,
+    "topics": [
+      "asic",
+      "asic-design",
+      "chip-design",
+      "digital-design",
+      "eda",
+      "electronic-design-automation",
+      "librelane",
+      "openlane"
+    ],
+    "updated_at": "2026-05-02T14:42:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asic"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asic-design"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chip-design"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-design"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electronic-design-automation"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librelane"
+    },
+    {
+      "context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openlane"
+    }
+  ]
+}

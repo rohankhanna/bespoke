@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:32:32.509323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80\ud83d\ude80\ud83d\ude80 [Journal Pre-print] Semantically-aware Neural Radiance Fields for Visual Scene Understanding: A Comprehensive Review",
+    "fork": false,
+    "full_name": "abourki/SoTA-Semantically-aware-NeRFs",
+    "html_url": "https://github.com/abourki/SoTA-Semantically-aware-NeRFs",
+    "language": null,
+    "pushed_at": "2025-10-13T17:53:07Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-11-01T10:58:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "lukka/get-cmake@v4.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-upload.yml"
+    },
+    {
+      "component": "crowdin/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-upload.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-strings-no-translations.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "florisboard/florisboard",
+      "target": "androidx/androidx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "florisboard/florisboard",
+      "target": "mikepenz/aboutlibraries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "florisboard/florisboard",
+      "target": "google/material-design-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "florisboard/florisboard",
+      "target": "patrickgold/jetpref",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "lukka/get-cmake@v4.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "FlorisBoard CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-upload.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-upload.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "crowdin/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin-upload.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "Crowdin Upload Sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-strings-no-translations.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-strings-no-translations.yml",
+      "source_repo": "florisboard/florisboard",
+      "target": "Validate no translated strings.xml included",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard",
+      "target": "input-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard",
+      "target": "keyboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "florisboard/florisboard",
+      "target": "kotlin-android",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:43:18.900637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8635
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/crowdin-upload.yml",
+      "size": 727
+    },
+    {
+      "path": ".github/workflows/validate-strings-no-translations.yml",
+      "size": 3345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source keyboard for Android which respects your privacy. Currently in beta.",
+    "fork": false,
+    "full_name": "florisboard/florisboard",
+    "html_url": "https://github.com/florisboard/florisboard",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-24T03:57:00Z",
+    "stargazers_count": 8273,
+    "topics": [
+      "android",
+      "input-method",
+      "keyboard",
+      "kotlin",
+      "kotlin-android"
+    ],
+    "updated_at": "2026-05-03T17:53:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "androidx/androidx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/material-design-icons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikepenz/aboutlibraries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrickgold/jetpref",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FlorisBoard CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "FlorisBoard CI"
+    },
+    {
+      "context_snippet": "Crowdin Upload Sources",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin-upload.yml",
+      "term": "Crowdin Upload Sources"
+    },
+    {
+      "context_snippet": "Validate no translated strings.xml included",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-strings-no-translations.yml",
+      "term": "Validate no translated strings.xml included"
+    },
+    {
+      "context_snippet": "<img align=\"left\" width=\"80\" height=\"80\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<img align=\"left\" width=\"80\" height=\"80\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "input-method"
+    },
+    {
+      "context_snippet": "<img align=\"left\" width=\"80\" height=\"80\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard"
+    },
+    {
+      "context_snippet": "<img align=\"left\" width=\"80\" height=\"80\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "<img align=\"left\" width=\"80\" height=\"80\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-android"
+    }
+  ]
+}

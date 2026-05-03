@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lawrence-laz/neotest-zig",
+      "target": "maxxnino/tree-sitter-zig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lawrence-laz/neotest-zig",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lawrence-laz/neotest-zig",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lawrence-laz/neotest-zig",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:35:32.161133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test runner for Zig in Neovim using Neotest backend.",
+    "fork": false,
+    "full_name": "lawrence-laz/neotest-zig",
+    "html_url": "https://github.com/lawrence-laz/neotest-zig",
+    "language": "Lua",
+    "pushed_at": "2025-03-16T21:55:59Z",
+    "stargazers_count": 43,
+    "topics": [
+      "lua",
+      "neotest",
+      "neovim",
+      "test",
+      "zig"
+    ],
+    "updated_at": "2026-05-02T02:43:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxxnino/tree-sitter-zig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Zig v0.14.0](https://img.shields.io/badge/Zig-v0.14-orange?logo=zig)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "![Zig v0.14.0](https://img.shields.io/badge/Zig-v0.14-orange?logo=zig)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![Zig v0.14.0](https://img.shields.io/badge/Zig-v0.14-orange?logo=zig)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    }
+  ]
+}

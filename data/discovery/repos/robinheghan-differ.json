@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:31:10.486313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A project for diffing and patching clojure data",
+    "fork": false,
+    "full_name": "robinheghan/differ",
+    "html_url": "https://github.com/robinheghan/differ",
+    "language": "Clojure",
+    "pushed_at": "2023-11-08T04:16:49Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-11T03:10:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

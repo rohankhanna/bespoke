@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/node22",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/eslint-config-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml"
+    },
+    {
+      "component": "mockoon/cli-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.34.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@tsconfig/node22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@vue/eslint-config-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "@vue/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-carbon11-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Carbon11 Vue3 - CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "cypress-io/github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Carbon11 Vue3 - E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Nuxt - CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-deploy.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-deploy.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "mockoon/cli-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "cypress-io/github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Nuxt - E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "aquasecurity/trivy-action@0.34.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Nuxt - Trivy vulnerability scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-vue3-ci.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Vue3 - CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "cypress-io/github-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3",
+      "target": "App Vue3 - E2E tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:35:34.633396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2749
+    },
+    {
+      "path": "package.json",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/app-carbon11-ci.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/app-carbon11-e2e.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/app-nuxt-ci.yml",
+      "size": 1360
+    },
+    {
+      "path": ".github/workflows/app-nuxt-deploy.yml",
+      "size": 2174
+    },
+    {
+      "path": ".github/workflows/app-nuxt-e2e.yml",
+      "size": 1505
+    },
+    {
+      "path": ".github/workflows/app-nuxt-trivy.yml",
+      "size": 1898
+    },
+    {
+      "path": ".github/workflows/app-vue3-ci.yml",
+      "size": 711
+    },
+    {
+      "path": ".github/workflows/app-vue3-e2e.yml",
+      "size": 816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample project showing how to use Carbon components in Vue3",
+    "fork": false,
+    "full_name": "IBM/hello-carbon-vue3",
+    "html_url": "https://github.com/IBM/hello-carbon-vue3",
+    "language": "Vue",
+    "pushed_at": "2026-05-03T13:53:12Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-03-04T14:14:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "App Carbon11 Vue3 - CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-carbon11-ci.yml",
+      "term": "App Carbon11 Vue3 - CI"
+    },
+    {
+      "context_snippet": "App Carbon11 Vue3 - E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "term": "App Carbon11 Vue3 - E2E tests"
+    },
+    {
+      "context_snippet": "App Nuxt - CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-ci.yml",
+      "term": "App Nuxt - CI"
+    },
+    {
+      "context_snippet": "App Nuxt - E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "term": "App Nuxt - E2E tests"
+    },
+    {
+      "context_snippet": "App Nuxt - Trivy vulnerability scanner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-nuxt-trivy.yml",
+      "term": "App Nuxt - Trivy vulnerability scanner"
+    },
+    {
+      "context_snippet": "App Vue3 - CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-vue3-ci.yml",
+      "term": "App Vue3 - CI"
+    },
+    {
+      "context_snippet": "App Vue3 - E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "term": "App Vue3 - E2E tests"
+    }
+  ]
+}

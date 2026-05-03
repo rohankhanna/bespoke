@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rust-bindgen",
-      "target": "kylemayes/clang-sys",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindgen.yml",
       "source_repo": "rust-lang/rust-bindgen",
@@ -190,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "rust-lang/rust-bindgen"
 }

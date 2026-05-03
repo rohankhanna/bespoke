@@ -81,13 +81,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plumatic/schema",
-      "target": "metosin/schema-tools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plumatic/schema",
       "target": "cddr/integrity",
       "target_type": "repository"
     },
@@ -96,6 +89,13 @@
       "source_file": "README.md",
       "source_repo": "plumatic/schema",
       "target": "gfredericks/schema-bijections",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plumatic/schema",
+      "target": "outpace/schema-transit",
       "target_type": "repository"
     },
     {
@@ -148,7 +148,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T13:37:38.979181+00:00",
+  "fetched_at": "2026-05-03T20:47:07.987565+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -191,7 +191,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "metosin/schema-tools",
+      "full_name": "outpace/schema-transit",
       "source_file": "README.md"
     }
   ],

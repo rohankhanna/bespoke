@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run Multithreaded Rust along with Dart VM (in isolate) \ud83c\udf00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Allo Isolate (Dart VM)</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Allo Isolate (Dart VM)</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044410,
+      "status": "candidate",
+      "text": "flit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043984,
+      "status": "candidate",
+      "text": "flap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043934,
+      "status": "candidate",
+      "text": "flapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043514,
+      "status": "candidate",
+      "text": "flopping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035837,
+      "status": "candidate",
+      "text": "flicker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flutter",
+      "sense_id": "flutter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31044,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25030,
+      "status": "candidate",
+      "text": "flitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "dart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18050,
+      "status": "candidate",
+      "text": "flap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17041,
+      "status": "candidate",
+      "text": "flicker"
+    }
+  ],
+  "concept_id": "flutter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flutter",
+  "observation_id": "f956e3e574aeb7c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "flutter",
+  "source_context_snippet": "<h1 align=\"center\">Allo Isolate (Dart VM)</h1>",
+  "source_file": null,
+  "source_repo": "shekohex/allo-isolate",
+  "source_repo_description": "Run Multithreaded Rust along with Dart VM (in isolate) \ud83c\udf00"
+}

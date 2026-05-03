@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Update Error Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "\"Claude Update Error Docs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "\"Claude Update Error Docs\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "monet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21987,
+      "status": "candidate",
+      "text": "mansart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21987,
+      "status": "candidate",
+      "text": "marat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21013,
+      "status": "candidate",
+      "text": "bergson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21013,
+      "status": "candidate",
+      "text": "daniel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Update Error Docs",
+  "concept_id": "claude-update-error-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/claude-update-error-docs-identifiers-change.yml",
+      "source_repo": "phpstan/phpstan"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Update Error Docs",
+      "sense_id": "claude-update-error-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

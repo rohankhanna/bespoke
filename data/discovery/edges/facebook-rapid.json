@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebook/Rapid",
-      "target": "facebookmicrosites/open-mapping-at-facebook",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "facebook/Rapid",
@@ -715,6 +708,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "facebook/Rapid"
 }

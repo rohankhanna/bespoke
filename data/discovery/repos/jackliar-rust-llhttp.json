@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:36:35.072052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "llhttp bindings for Rust",
+    "fork": false,
+    "full_name": "JackLiar/rust-llhttp",
+    "html_url": "https://github.com/JackLiar/rust-llhttp",
+    "language": "Rust",
+    "pushed_at": "2021-08-21T08:54:32Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-12-11T14:01:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

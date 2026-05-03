@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/btl_bloomfilter",
+      "target": "philsquared/catch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/btl_bloomfilter",
+      "target": "bcgsc/nthash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/btl_bloomfilter",
+      "target": "skystrife/cpptoml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:33.966527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The BTL C/C++ Common bloom filters for bioinformatics projects, as well as any APIs created for other programming languages.",
+    "fork": false,
+    "full_name": "BirolLab/btl_bloomfilter",
+    "html_url": "https://github.com/BirolLab/btl_bloomfilter",
+    "language": "C++",
+    "pushed_at": "2022-02-26T01:25:16Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-09T19:44:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcgsc/nthash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philsquared/catch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skystrife/cpptoml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

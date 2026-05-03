@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:50:31.615094+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A parallel implementation of gzip for modern multi-processor, multi-core machines.",
+    "fork": false,
+    "full_name": "madler/pigz",
+    "html_url": "https://github.com/madler/pigz",
+    "language": "C",
+    "pushed_at": "2025-08-16T19:33:08Z",
+    "stargazers_count": 2923,
+    "topics": [],
+    "updated_at": "2026-04-24T17:19:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "conventional-commits",
   "observation_id": "3007c24e4f55d04f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Conventional Commits",
   "source_context_snippet": "\"Conventional Commits\"",
   "source_file": ".github/workflows/conventional-commits.yml",

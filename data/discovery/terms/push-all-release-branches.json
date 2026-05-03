@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/push-all-release-branches.yml",
+      "source_repo": "storybookjs/frontpage"
+    }
+  ],
+  "term": "Push all release branches"
+}

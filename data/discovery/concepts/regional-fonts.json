@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Regional fonts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Regional fonts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate",
+      "text": "Regional fonts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "diversification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "localism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "algebra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "alveolar artery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Regional fonts",
+  "concept_id": "regional-fonts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regional fonts",
+      "sense_id": "regional-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

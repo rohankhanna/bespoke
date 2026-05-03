@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "martinRenou/xjson",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "martinRenou/xjson",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "martinRenou/xjson",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinRenou/xjson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinRenou/xjson",
+      "target": "nlohmann-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinRenou/xjson",
+      "target": "pybind11",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:22.284518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 264
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple Python JSON library, based on pybind11_json",
+    "fork": false,
+    "full_name": "martinRenou/xjson",
+    "html_url": "https://github.com/martinRenou/xjson",
+    "language": "Python",
+    "pushed_at": "2021-09-30T06:58:49Z",
+    "stargazers_count": 2,
+    "topics": [
+      "json",
+      "nlohmann-json",
+      "pybind11",
+      "python"
+    ],
+    "updated_at": "2021-11-09T18:21:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "The simplest JSON library for Python. Performances are decent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "The simplest JSON library for Python. Performances are decent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlohmann-json"
+    },
+    {
+      "context_snippet": "The simplest JSON library for Python. Performances are decent.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybind11"
+    }
+  ]
+}

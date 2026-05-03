@@ -2,7 +2,8 @@
   "aliases": [
     "Nightly build",
     "Nightly Build",
-    "Nightly-build"
+    "Nightly-build",
+    "nightly-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -225,6 +226,18 @@
       "source_repo": "pengx17/logseq-publish",
       "status": "candidate-context",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "Go\u5b9e\u73b0\u7684Trojan\u4ee3\u7406\uff0c\u652f\u6301\u591a\u8def\u590d\u7528/\u8def\u7531\u529f\u80fd/CDN\u4e2d\u8f6c/Shadowsocks\u6df7\u6dc6\u63d2\u4ef6\uff0c\u591a\u5e73\u53f0\uff0c\u65e0\u4f9d\u8d56\u3002A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate-context",
+      "text": "nightly-build"
     }
   ],
   "candidate_glosses": [
@@ -329,6 +342,12 @@
       "source_repo": "pengx17/logseq-publish",
       "status": "candidate",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p4gefau1t/trojan-go",
+      "status": "candidate",
+      "text": "nightly-build"
     }
   ],
   "candidate_related_terms": [
@@ -690,11 +709,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/building_nightly.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/building_nightly.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "helidon-io/helidon"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

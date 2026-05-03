@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:34:00.869753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Generalizable and Animatable Gaussian Head Avatar",
+    "fork": false,
+    "full_name": "xg-chu/GAGAvatar_track",
+    "html_url": "https://github.com/xg-chu/GAGAvatar_track",
+    "language": "Python",
+    "pushed_at": "2025-03-13T09:37:13Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-21T21:24:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

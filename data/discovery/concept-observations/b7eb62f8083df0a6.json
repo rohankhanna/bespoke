@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The React Native app we use to test and develop Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-native",
+      "sense_id": "react-native#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "react-native",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react-native",
+  "observation_id": "b7eb62f8083df0a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "react-native",
+  "source_context_snippet": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)",
+  "source_file": null,
+  "source_repo": "pixielabs/cavy-tester",
+  "source_repo_description": "The React Native app we use to test and develop Cavy"
+}

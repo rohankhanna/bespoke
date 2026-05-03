@@ -175,6 +175,12 @@
       "source_repo": "higlass/higlass",
       "status": "candidate-context",
       "text": "Node.js Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windsonR/vite-plugin-virtual-html",
+      "status": "candidate-context",
+      "text": "Node.js Package"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +265,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "higlass/higlass",
+      "status": "candidate",
+      "text": "Node.js Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windsonR/vite-plugin-virtual-html",
       "status": "candidate",
       "text": "Node.js Package"
     }
@@ -406,11 +418,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/npmpublish.yml",
       "source_repo": "higlass/higlass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "windsonR/vite-plugin-virtual-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

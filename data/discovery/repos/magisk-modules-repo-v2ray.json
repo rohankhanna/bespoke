@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "yatsuki/v2manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "topjohnwu/magisk-module-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Magisk-Modules-Repo/v2ray",
+      "target": "yatsuki/v2ray",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:34.874842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "v2ray core",
+    "fork": false,
+    "full_name": "Magisk-Modules-Repo/v2ray",
+    "html_url": "https://github.com/Magisk-Modules-Repo/v2ray",
+    "language": "Shell",
+    "pushed_at": "2022-02-10T15:36:49Z",
+    "stargazers_count": 340,
+    "topics": [],
+    "updated_at": "2026-05-02T20:14:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topjohnwu/magisk-module-installer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yatsuki/v2manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yatsuki/v2ray",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

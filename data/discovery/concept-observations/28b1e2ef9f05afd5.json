@@ -84,7 +84,7 @@
   "normalized_form": "pytorch",
   "observation_id": "28b1e2ef9f05afd5",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "pytorch",
   "source_context_snippet": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026",
   "source_file": null,

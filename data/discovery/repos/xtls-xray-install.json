@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-install",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-install",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-install",
+      "target": "xtls",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:47.518473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easiest way to install & upgrade Xray",
+    "fork": false,
+    "full_name": "XTLS/Xray-install",
+    "html_url": "https://github.com/XTLS/Xray-install",
+    "language": "Shell",
+    "pushed_at": "2026-01-18T22:07:49Z",
+    "stargazers_count": 3254,
+    "topics": [
+      "vless",
+      "xray",
+      "xtls"
+    ],
+    "updated_at": "2026-05-03T12:53:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_zh-Hans.md) | [\u7e41\u9ad4\u4e2d\u6587](README_zh-Hant.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_zh-Hans.md) | [\u7e41\u9ad4\u4e2d\u6587](README_zh-Hant.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_zh-Hans.md) | [\u7e41\u9ad4\u4e2d\u6587](README_zh-Hant.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtls"
+    }
+  ]
+}

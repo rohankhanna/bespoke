@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mlc-algorithm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "status": "candidate-context",
+      "text": "Boost Shortest Path Algorithm Performance using Proper Data Structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "status": "candidate-context",
+      "text": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/shortest-path-algorithms",
+      "status": "candidate",
+      "text": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mlc-algorithm",
+  "concept_id": "mlc-algorithm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/shortest-path-algorithms"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlc-algorithm",
+      "sense_id": "mlc-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

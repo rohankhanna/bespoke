@@ -55,6 +55,18 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "Easy to use OpenStreetMap editor for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate-context",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting",
       "status": "candidate",
       "text": "<h1 align=\"center\">Image Matting</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streetcomplete/StreetComplete",
+      "status": "candidate",
+      "text": "![StreetComplete](.github/images/feature_graphic.png)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Matting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

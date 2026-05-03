@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "continuedev/continue",
+      "target": "crmne/ruby_llm",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T15:48:27.433755+00:00",
+  "fetched_at": "2026-05-03T20:31:44.392935+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-03T03:46:36Z",
-    "stargazers_count": 170606,
+    "pushed_at": "2026-05-03T17:03:15Z",
+    "stargazers_count": 170615,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-03T15:37:19Z"
+    "updated_at": "2026-05-03T20:23:14Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "continuedev/continue",
+      "full_name": "crmne/ruby_llm",
       "source_file": "README.md"
     }
   ],

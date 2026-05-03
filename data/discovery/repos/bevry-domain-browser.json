@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "assert-helpers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "kava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "projectz",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "valid-directory",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    },
+    {
+      "component": "bevry-actions/npm@v1.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevry/domain-browser",
+      "target": "assert-helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevry/domain-browser",
+      "target": "kava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevry/domain-browser",
+      "target": "projectz",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bevry/domain-browser",
+      "target": "valid-directory",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml",
+      "source_repo": "bevry/domain-browser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml",
+      "source_repo": "bevry/domain-browser",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bevry.yml",
+      "source_repo": "bevry/domain-browser",
+      "target": "bevry-actions/npm@v1.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bevry.yml",
+      "source_repo": "bevry/domain-browser",
+      "target": "bevry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevry/domain-browser",
+      "target": "browserify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevry/domain-browser",
+      "target": "client-side",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevry/domain-browser",
+      "target": "error-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bevry/domain-browser",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:34:41.426737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10113
+    },
+    {
+      "path": "package.json",
+      "size": 7874
+    },
+    {
+      "path": ".github/workflows/bevry.yml",
+      "size": 2325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node's domain module for the web browser",
+    "fork": false,
+    "full_name": "bevry/domain-browser",
+    "html_url": "https://github.com/bevry/domain-browser",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-22T16:19:22Z",
+    "stargazers_count": 32,
+    "topics": [
+      "browserify",
+      "client-side",
+      "error-handling",
+      "nodejs"
+    ],
+    "updated_at": "2025-11-22T16:19:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bevry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bevry.yml",
+      "term": "bevry"
+    },
+    {
+      "context_snippet": "<!-- TITLE/ -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browserify"
+    },
+    {
+      "context_snippet": "<!-- TITLE/ -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client-side"
+    },
+    {
+      "context_snippet": "<!-- TITLE/ -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "error-handling"
+    },
+    {
+      "context_snippet": "<!-- TITLE/ -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

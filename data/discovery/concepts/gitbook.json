@@ -19,6 +19,18 @@
       "source_repo": "gchq/gaffer-doc",
       "status": "candidate-context",
       "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gchq/gaffer-doc",
       "status": "candidate",
       "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gchq/gaffer-doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

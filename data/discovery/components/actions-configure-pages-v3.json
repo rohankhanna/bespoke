@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v3",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs_deploy.yml",
       "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "BirolLab/tigmint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "AlexanderKhazatsky/DROID"
     }
   ]
 }

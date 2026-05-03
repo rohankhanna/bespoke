@@ -55,6 +55,18 @@
       "source_repo": "barisgecer/TBGAN",
       "status": "candidate-context",
       "text": "(Requires to sign End User License Agreement)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement\" (ICCV 2021) https://arxiv.org/abs/2104.02699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate-context",
+      "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "barisgecer/TBGAN",
       "status": "candidate",
       "text": "(Requires to sign End User License Agreement)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate",
+      "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

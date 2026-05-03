@@ -19,6 +19,30 @@
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
       "status": "candidate-context",
       "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "Detects the direction a user enters or leaves an element allowing you to reveal or hide content based on this direction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "```javascript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cferdinandi/gumshoe",
+      "status": "candidate-context",
+      "text": "A simple vanilla JS scrollspy script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cferdinandi/gumshoe",
+      "status": "candidate-context",
+      "text": "A simple vanilla JS scrollspy script. Gumshoe works great with [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
       "status": "candidate",
       "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate",
+      "text": "```javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cferdinandi/gumshoe",
+      "status": "candidate",
+      "text": "A simple vanilla JS scrollspy script. Gumshoe works great with [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cferdinandi/gumshoe"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

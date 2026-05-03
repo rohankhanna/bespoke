@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Sync remain PRs to Jira"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate-context",
+      "text": "Latest ESP8266 SDK based on FreeRTOS, esp-idf style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate-context",
+      "text": "Sync remain PRs to Jira"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate-context",
+      "text": "Espressif IoT Development Framework. Official development framework for Espressif SoCs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate-context",
+      "text": "Sync remain PRs to Jira"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/ESP8266_RTOS_SDK",
+      "status": "candidate",
+      "text": "Sync remain PRs to Jira"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf",
+      "status": "candidate",
+      "text": "Sync remain PRs to Jira"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21351,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21351,
+      "status": "candidate",
+      "text": "min"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13686,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13686,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13686,
+      "status": "candidate",
+      "text": "timed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync remain PRs to Jira",
+  "concept_id": "sync-remain-prs-to-jira",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/ESP8266_RTOS_SDK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/esp-idf"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync remain PRs to Jira",
+      "sense_id": "sync-remain-prs-to-jira#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

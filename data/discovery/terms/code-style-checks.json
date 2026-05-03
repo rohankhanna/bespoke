@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code-style-checks.yml",
+      "source_repo": "pytorch/ignite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openstreetmap/id-tagging-schema"
+    }
+  ],
+  "term": "Code Style Checks"
+}

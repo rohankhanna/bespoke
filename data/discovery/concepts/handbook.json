@@ -19,6 +19,18 @@
       "source_repo": "jamiebuilds/babel-handbook",
       "status": "candidate-context",
       "text": "Written by [Jamie Kyle](https://jamie.build/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd8 A comprehensive handbook on how to create transformers for TypeScript with code examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "status": "candidate-context",
+      "text": "This document covers how to write a [TypeScript](https://typescriptlang.org/) [Transformer](https://basarat.gitbook.io/typescript/overview/ast)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jamiebuilds/babel-handbook",
       "status": "candidate",
       "text": "Written by [Jamie Kyle](https://jamie.build/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itsdouges/typescript-transformer-handbook",
+      "status": "candidate",
+      "text": "This document covers how to write a [TypeScript](https://typescriptlang.org/) [Transformer](https://basarat.gitbook.io/typescript/overview/ast)."
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jamiebuilds/babel-handbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "itsdouges/typescript-transformer-handbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jamiebuilds/babel-handbook"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

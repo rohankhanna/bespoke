@@ -95,27 +95,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPy/PyCall.jl",
-      "target": "juliapy/pyplot.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPy/PyCall.jl",
-      "target": "juliapy/sympy.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPy/PyCall.jl",
-      "target": "juliapy/pyjulia",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaPy/PyCall.jl",
@@ -284,7 +263,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T15:04:53.784269+00:00",
+  "fetched_at": "2026-05-03T19:26:06.441159+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -331,21 +310,6 @@
     "updated_at": "2026-05-01T12:12:52Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliapy/pyjulia",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliapy/pyplot.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliapy/sympy.jl",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "luthaf/conda.jl",

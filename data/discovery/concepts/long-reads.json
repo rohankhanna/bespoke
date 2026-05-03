@@ -43,6 +43,42 @@
       "source_repo": "HKU-BAL/ClairS-TO",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate-context",
+      "text": "Graph-based assembly phasing "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate-context",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate-context",
+      "text": "PEPPER-Margin-DeepVariant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "\u26d3 Long Interval Nucleotide K-mer Scaffolder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "HKU-BAL/ClairS-TO",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katerinakazantseva/strainy",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kishwarshafin/pepper",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "HKU-BAL/ClairS-TO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "toplevel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate-context",
+      "text": "REPL environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29640281,
+      "status": "candidate",
+      "text": "widget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19819346,
+      "status": "candidate",
+      "text": "namespace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19819345,
+      "status": "candidate",
+      "text": "ocaml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19819344,
+      "status": "candidate",
+      "text": "metaobject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19819343,
+      "status": "candidate",
+      "text": "namespaces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "toplevel",
+  "concept_id": "toplevel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/repl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "toplevel",
+      "sense_id": "toplevel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

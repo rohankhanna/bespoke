@@ -19,12 +19,30 @@
       "source_repo": "golangci/golangci-lint",
       "status": "candidate-context",
       "text": "Check Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": "Check Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "Check Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate",
       "text": "Check Documentation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/pr-documentation.yml",
       "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "Breakthrough/PySceneDetect"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

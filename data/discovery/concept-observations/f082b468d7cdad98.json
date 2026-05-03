@@ -84,7 +84,7 @@
   "normalized_form": "onetbb-ci",
   "observation_id": "f082b468d7cdad98",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "oneTBB CI",
   "source_context_snippet": "oneTBB CI",
   "source_file": ".github/workflows/ci.yml",

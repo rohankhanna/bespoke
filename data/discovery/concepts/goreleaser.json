@@ -681,6 +681,18 @@
       "source_repo": "scaleway/scaleway-sdk-go",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skaji/remote-pbcopy-iterm2",
+      "status": "candidate-context",
+      "text": "remote pbcopy for iTerm2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skaji/remote-pbcopy-iterm2",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -1011,6 +1023,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "scaleway/scaleway-sdk-go",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skaji/remote-pbcopy-iterm2",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -1392,11 +1410,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "scaleway/scaleway-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "skaji/remote-pbcopy-iterm2"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

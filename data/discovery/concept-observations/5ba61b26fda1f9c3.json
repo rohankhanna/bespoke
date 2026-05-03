@@ -48,7 +48,7 @@
   "normalized_form": "deploy-to-modal",
   "observation_id": "5ba61b26fda1f9c3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "deploy-to-modal",
   "source_context_snippet": "deploy-to-modal",
   "source_file": ".github/workflows/deploy-to-modal.yml",

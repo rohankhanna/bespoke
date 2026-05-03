@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced fuzzing via Model Based Testing for Cosmos blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "E2E"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "E2E"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9991118,
+      "status": "candidate",
+      "text": "wireless network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989418,
+      "status": "candidate",
+      "text": "sign on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9988132,
+      "status": "candidate",
+      "text": "sign off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987870,
+      "status": "candidate",
+      "text": "read out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987484,
+      "status": "candidate",
+      "text": "back up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E",
+      "sense_id": "e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2e",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2e",
+  "observation_id": "f1e0fe387a45dbb3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "E2E",
+  "source_context_snippet": "E2E",
+  "source_file": ".github/workflows/e2e.yml",
+  "source_repo": "informalsystems/atomkraft",
+  "source_repo_description": "Advanced fuzzing via Model Based Testing for Cosmos blockchains"
+}

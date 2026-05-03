@@ -2,7 +2,7 @@
   "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -364,6 +364,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-latest-engine-container.yml",
       "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-ghcr.yaml",
+      "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve"
     }
   ]
 }

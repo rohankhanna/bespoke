@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Approve Command"
+    "Approve Command",
+    "approve-command"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "containers/ramalama",
       "status": "candidate-context",
       "text": "Approve Command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
+      "status": "candidate-context",
+      "text": "approve-command"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "containers/ramalama",
       "status": "candidate",
       "text": "Approve Command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
+      "status": "candidate",
+      "text": "approve-command"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +89,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/approve-command.yml",
       "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/command-approve.yml",
+      "source_repo": "yuyang0/rrqlite"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

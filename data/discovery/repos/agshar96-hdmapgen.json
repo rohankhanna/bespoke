@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agshar96/HDMapGen",
+      "target": "lrjconan/gran",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:32.842178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2960
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reimplementation of graph neural network based generation model, HDMapGen",
+    "fork": false,
+    "full_name": "agshar96/HDMapGen",
+    "html_url": "https://github.com/agshar96/HDMapGen",
+    "language": "Python",
+    "pushed_at": "2024-07-23T23:02:26Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-12-18T08:44:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lrjconan/gran",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

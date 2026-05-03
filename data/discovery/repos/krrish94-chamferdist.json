@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:34:22.412166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch package to compute Chamfer distance between point sets (pointclouds).",
+    "fork": false,
+    "full_name": "krrish94/chamferdist",
+    "html_url": "https://github.com/krrish94/chamferdist",
+    "language": "Cuda",
+    "pushed_at": "2024-04-10T03:54:56Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-04-15T11:36:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

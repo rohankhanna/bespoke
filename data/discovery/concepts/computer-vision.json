@@ -2845,6 +2845,90 @@
       "source_repo": "scikit-image/scikit-image",
       "status": "candidate-context",
       "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate-context",
+      "text": "Official repo for VGGHeads: 3D Multi Head Alignment with a Large-Scale Synthetic Dataset.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate-context",
+      "text": "Hierarchical Universal Language Conditioned Policies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate-context",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate-context",
+      "text": "(CVPR 2024) Neural Refinement for Absolute Pose Regression with Feature Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate-context",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Anycost GANs for Interactive Image Synthesis and Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "Experience, Learn and Code the latest breakthrough innovations with Microsoft AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate-context",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate-context",
+      "text": "Implicit Geometric Regularization for Learning Shapes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "MICA - Towards Metrical Reconstruction of Human Faces [ECCV2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -4269,6 +4353,48 @@
       "source_repo": "scikit-image/scikit-image",
       "status": "candidate",
       "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KupynOrest/head_detector",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukashermann/hulc",
+      "status": "candidate",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "status": "candidate",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ailab",
+      "status": "candidate",
+      "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amosgropp/IGR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -6472,11 +6598,161 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "scikit-image/scikit-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "KupynOrest/head_detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ailab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/MICA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

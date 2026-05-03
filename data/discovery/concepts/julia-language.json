@@ -247,6 +247,18 @@
       "source_repo": "sl-solution/DLMReader.jl",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For JuliaImages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "sl-solution/DLMReader.jl",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +562,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImages/juliaimages.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

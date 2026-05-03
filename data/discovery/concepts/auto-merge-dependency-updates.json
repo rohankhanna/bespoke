@@ -55,6 +55,18 @@
       "source_repo": "Mic92/direnv-instant",
       "status": "candidate-context",
       "text": "Auto Merge Dependency Updates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nix-unit",
+      "status": "candidate-context",
+      "text": "Unit testing for Nix code [maintainer=@adisbladis]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-unit",
+      "status": "candidate-context",
+      "text": "Auto Merge Dependency Updates"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Mic92/direnv-instant",
+      "status": "candidate",
+      "text": "Auto Merge Dependency Updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-unit",
       "status": "candidate",
       "text": "Auto Merge Dependency Updates"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "Mic92/direnv-instant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "nix-community/nix-unit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

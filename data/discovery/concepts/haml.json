@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "haml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k0kubun/hamlit",
+      "status": "candidate-context",
+      "text": "High Performance Haml Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k0kubun/hamlit",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/hamlit.svg)](http://badge.fury.io/rb/hamlit)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k0kubun/hamlit",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/hamlit.svg)](http://badge.fury.io/rb/hamlit)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8119617,
+      "status": "candidate",
+      "text": "semantic html"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8119616,
+      "status": "candidate",
+      "text": "html"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8119615,
+      "status": "candidate",
+      "text": "css framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8119614,
+      "status": "candidate",
+      "text": "tableless web design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8119613,
+      "status": "candidate",
+      "text": "lightweight markup language"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "haml",
+  "concept_id": "haml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "k0kubun/hamlit"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haml",
+      "sense_id": "haml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

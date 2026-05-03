@@ -55,6 +55,18 @@
       "source_repo": "tomekw/hikari-cp",
       "status": "candidate-context",
       "text": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate-context",
+      "text": "Converge is a set of libraries for working with convergent replicated"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "tomekw/hikari-cp",
       "status": "candidate",
       "text": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evidentsystems/converge",
+      "status": "candidate",
+      "text": "Converge is a set of libraries for working with convergent replicated"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "tomekw/hikari-cp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

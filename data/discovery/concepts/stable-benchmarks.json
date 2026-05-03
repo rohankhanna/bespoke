@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stable benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "Run Multithreaded Rust along with Dart VM (in isolate) \ud83c\udf00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "Stable benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate",
+      "text": "Stable benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "objectives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "baseline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11844,
+      "status": "candidate",
+      "text": "conditions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stable benchmarks",
+  "concept_id": "stable-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/performances.yml",
+      "source_repo": "shekohex/allo-isolate"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stable benchmarks",
+      "sense_id": "stable-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

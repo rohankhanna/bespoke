@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kishwarshafin/pepper",
+      "target": "ucsc-nanopore-cgl/margin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kishwarshafin/pepper",
+      "target": "google/deepvariant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "assembly-polishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "genome-variation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "long-reads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "oxford-nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "pacbio-ccs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "variant-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kishwarshafin/pepper",
+      "target": "variants",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:28:49.830639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8668
+    },
+    {
+      "path": "requirements.txt",
+      "size": 139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "r0.8",
+    "description": "PEPPER-Margin-DeepVariant",
+    "fork": false,
+    "full_name": "kishwarshafin/pepper",
+    "html_url": "https://github.com/kishwarshafin/pepper",
+    "language": "Python",
+    "pushed_at": "2024-01-12T21:48:10Z",
+    "stargazers_count": 258,
+    "topics": [
+      "assembly-polishing",
+      "genome-variation",
+      "long-reads",
+      "nanopore",
+      "oxford-nanopore",
+      "pacbio-ccs",
+      "variant-calling",
+      "variants"
+    ],
+    "updated_at": "2026-03-10T15:55:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/deepvariant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucsc-nanopore-cgl/margin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly-polishing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-variation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-reads"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanopore"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oxford-nanopore"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio-ccs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/kishwarshafin/pepper.svg?branch=master)](https://travis-ci.com/kishwarshafin/pepper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variants"
+    }
+  ]
+}

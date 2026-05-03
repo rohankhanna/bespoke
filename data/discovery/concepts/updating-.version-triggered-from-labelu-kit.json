@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Updating .version triggered from LabelU-Kit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate-context",
+      "text": "Open-source multimodal data annotation platform with AI auto-annotation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate-context",
+      "text": "'Updating .version triggered from LabelU-Kit'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU",
+      "status": "candidate",
+      "text": "'Updating .version triggered from LabelU-Kit'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "additive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "bacteriolysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "daybreak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "dayspring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Updating .version triggered from LabelU-Kit",
+  "concept_id": "updating-.version-triggered-from-labelu-kit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/trigger_from_labelu_kit.yml",
+      "source_repo": "opendatalab/labelU"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Updating .version triggered from LabelU-Kit",
+      "sense_id": "updating-.version-triggered-from-labelu-kit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

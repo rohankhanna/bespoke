@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Algolia Crawler Config Update\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Algolia Crawler Config Update\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22416,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22416,
+      "status": "candidate",
+      "text": "suck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22257,
+      "status": "candidate",
+      "text": "bait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22257,
+      "status": "candidate",
+      "text": "slug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22190,
+      "status": "candidate",
+      "text": "refresh"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Crawler Config Update",
+      "sense_id": "algolia-crawler-config-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "algolia-crawler-config-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algolia-crawler-config-update",
+  "observation_id": "21f0012251f51dd8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "Algolia Crawler Config Update",
+  "source_context_snippet": "\"Algolia Crawler Config Update\"",
+  "source_file": ".github/workflows/algolia-crawler-config.yml",
+  "source_repo": "phpstan/phpstan",
+  "source_repo_description": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+}

@@ -2734,6 +2734,54 @@
       "source_repo": "lz4/lz4-java",
       "status": "candidate-context",
       "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "TestNG documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "Java JNI bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninjaframework/ninja",
+      "status": "candidate-context",
+      "text": "Ninja is a full stack web framework for Java. Rock solid, fast and super productive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninjaframework/ninja",
+      "status": "candidate-context",
+      "text": "_______ .___ _______ ____. _____"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "Flyway by Redgate \u2022 Database Migrations Made Easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
     }
   ],
   "candidate_glosses": [
@@ -4098,6 +4146,30 @@
       "source_repo": "lz4/lz4-java",
       "status": "candidate",
       "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-jni",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninjaframework/ninja",
+      "status": "candidate",
+      "text": "_______ .___ _______ ____. _____"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
     }
   ],
   "candidate_related_terms": [
@@ -6357,11 +6429,101 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "lz4/lz4-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fabmax/physx-jni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ninjaframework/ninja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

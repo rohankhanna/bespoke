@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "abi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate-context",
+      "text": "A public libevent repository.  The official repository is still at at  git://levent.git.sourceforge.net/gitroot/levent/libevent "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate-context",
+      "text": "abi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/libevent",
+      "status": "candidate",
+      "text": "abi"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28249474,
+      "status": "candidate",
+      "text": "abby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28244504,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27646055,
+      "status": "candidate",
+      "text": "babu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27503908,
+      "status": "candidate",
+      "text": "amir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27503269,
+      "status": "candidate",
+      "text": "dad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "abi",
+  "concept_id": "abi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/abi.yml",
+      "source_repo": "shadowsocks/libevent"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "abi",
+      "sense_id": "abi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gitbook",
+      "sense_id": "gitbook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gitbook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gitbook",
+  "observation_id": "158991d7d57dec57",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "gitbook",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)",
+  "source_file": null,
+  "source_repo": "mskims/redux-saga-in-korean",
+  "source_repo_description": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8."
+}

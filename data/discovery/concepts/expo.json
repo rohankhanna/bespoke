@@ -91,6 +91,42 @@
       "source_repo": "reduxjs/redux-templates",
       "status": "candidate-context",
       "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Use Storybook (with React Native for Web) in your Expo + Next.js monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate-context",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate-context",
+      "text": "An expo template for react native storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate-context",
+      "text": "![picture of storybook](https://github.com/user-attachments/assets/cf98766d-8b90-44ab-b718-94ab16e63205)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "reduxjs/redux-templates",
       "status": "candidate",
       "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "A new docs site is being built for Storybook for React Native, you can find it at https://storybookjs.github.io/react-native/docs/intro/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo",
+      "status": "candidate",
+      "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dannyhw/expo-template-storybook",
+      "status": "candidate",
+      "text": "![picture of storybook](https://github.com/user-attachments/assets/cf98766d-8b90-44ab-b718-94ab16e63205)"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +289,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "reduxjs/redux-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/storybook-rnw-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dannyhw/expo-template-storybook"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Blosc/bcolz",
+      "target": "pydata/numexpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bcolz",
+      "target": "column-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bcolz",
+      "target": "compressed-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:26.064730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8456
+    },
+    {
+      "path": "requirements.txt",
+      "size": 11
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A columnar data container that can be compressed.",
+    "fork": false,
+    "full_name": "Blosc/bcolz",
+    "html_url": "https://github.com/Blosc/bcolz",
+    "language": "C",
+    "pushed_at": "2022-10-27T17:33:11Z",
+    "stargazers_count": 959,
+    "topics": [
+      "column-store",
+      "compressed-data",
+      "python"
+    ],
+    "updated_at": "2026-05-03T03:45:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pydata/numexpr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "===========================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "column-store"
+    },
+    {
+      "context_snippet": "===========================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressed-data"
+    }
+  ]
+}

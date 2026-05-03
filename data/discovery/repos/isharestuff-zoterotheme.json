@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "compressing",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crypto-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "replace-in-file",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "windingwind/zotero-pdf-translate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "q77190858/zotero-pdf-background",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "compressing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "replace-in-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iShareStuff/ZoteroTheme",
+      "target": "release-it",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:37:58.272980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1613
+    },
+    {
+      "path": "package.json",
+      "size": 863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ZoteroTheme Plugin",
+    "fork": false,
+    "full_name": "iShareStuff/ZoteroTheme",
+    "html_url": "https://github.com/iShareStuff/ZoteroTheme",
+    "language": "TypeScript",
+    "pushed_at": "2022-10-16T16:31:24Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-01-06T21:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "q77190858/zotero-pdf-background",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "windingwind/zotero-pdf-translate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

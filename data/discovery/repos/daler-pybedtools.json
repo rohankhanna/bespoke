@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "daler/pybedtools",
+      "target": "daler/pybedtools.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "daler/pybedtools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "daler/pybedtools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "daler/pybedtools",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:37.107060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2536
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 399
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 5440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python wrapper -- and more -- for BEDTools (bioinformatics tools for \"genome arithmetic\")",
+    "fork": false,
+    "full_name": "daler/pybedtools",
+    "html_url": "https://github.com/daler/pybedtools",
+    "language": "Python",
+    "pushed_at": "2025-03-16T14:28:10Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-04-01T13:52:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daler/pybedtools.",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

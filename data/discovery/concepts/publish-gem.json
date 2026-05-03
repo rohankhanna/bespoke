@@ -49,6 +49,18 @@
       "source_repo": "github/pages-gem",
       "status": "candidate-context",
       "text": "Publish Gem"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/pages-health-check",
+      "status": "candidate-context",
+      "text": "Checks your GitHub Pages site for common DNS configuration issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-health-check",
+      "status": "candidate-context",
+      "text": "Publish Gem"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "github/pages-gem",
+      "status": "candidate",
+      "text": "Publish Gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-health-check",
       "status": "candidate",
       "text": "Publish Gem"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/publish-gem.yml",
       "source_repo": "github/pages-gem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/pages-gem.yml",
+      "source_repo": "github/pages-health-check"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

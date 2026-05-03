@@ -445,6 +445,18 @@
       "source_repo": "metosin/schema-tools",
       "status": "candidate-context",
       "text": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate-context",
+      "text": "Clojure(Script) tools for clojure.spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -669,6 +681,12 @@
       "source_repo": "metosin/schema-tools",
       "status": "candidate",
       "text": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/spec-tools",
+      "status": "candidate",
+      "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -1138,11 +1156,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "metosin/schema-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "metosin/spec-tools"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

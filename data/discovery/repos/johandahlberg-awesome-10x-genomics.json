@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "abishara/athena_meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "aquaskyline/lrsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10xgenomics/supernova",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10xgenomics/vartrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10x-genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "genomics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:30.928933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of tools and resources related to the 10x Genomics GEMCode/Chromium system",
+    "fork": false,
+    "full_name": "johandahlberg/awesome-10x-genomics",
+    "html_url": "https://github.com/johandahlberg/awesome-10x-genomics",
+    "language": null,
+    "pushed_at": "2026-01-07T06:51:59Z",
+    "stargazers_count": 88,
+    "topics": [
+      "10x-genomics",
+      "bioinformatics",
+      "genomics"
+    ],
+    "updated_at": "2026-04-06T12:02:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10xgenomics/supernova",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10xgenomics/vartrix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abishara/athena_meta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquaskyline/lrsim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome 10x Genomics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "10x-genomics"
+    },
+    {
+      "context_snippet": "Awesome 10x Genomics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "Awesome 10x Genomics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    }
+  ]
+}

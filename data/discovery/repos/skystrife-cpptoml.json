@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skystrife/cpptoml",
+      "target": "burntsushi/toml-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skystrife/cpptoml",
+      "target": "evilncrazy/ctoml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skystrife/cpptoml",
+      "target": "ajwans/libtoml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skystrife/cpptoml",
+      "target": "mayah/tinytoml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:36.219805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cpptoml is a header-only library for parsing TOML",
+    "fork": false,
+    "full_name": "skystrife/cpptoml",
+    "html_url": "https://github.com/skystrife/cpptoml",
+    "language": "C++",
+    "pushed_at": "2023-10-07T16:28:09Z",
+    "stargazers_count": 607,
+    "topics": [],
+    "updated_at": "2026-03-06T06:55:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajwans/libtoml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/toml-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evilncrazy/ctoml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mayah/tinytoml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

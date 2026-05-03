@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T13:42:25.356845+00:00",
+  "fetched_at": "2026-05-03T21:34:08.351241+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,7 +128,7 @@
     "html_url": "https://github.com/eclipse-corrosion/corrosion",
     "language": "Java",
     "pushed_at": "2025-12-12T09:08:22Z",
-    "stargazers_count": 240,
+    "stargazers_count": 241,
     "topics": [
       "eclipse-ide",
       "hacktoberfest",
@@ -137,7 +137,7 @@
       "rust",
       "rust-language-server"
     ],
-    "updated_at": "2026-04-24T18:41:29Z"
+    "updated_at": "2026-05-03T14:45:11Z"
   },
   "repo_links": [
     {

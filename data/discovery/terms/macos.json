@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1001,6 +1001,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ptsochantaris/emeltal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "elfmz/far2l"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnyPortal/AnyPortal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/pop-timer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "DrTimothyAldenDavis/SuiteSparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acme.sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "shadowsocks/libevent"
     }
   ],
   "term": "macos"

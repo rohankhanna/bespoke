@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "hildjj/grunt-kramdown-rfc2629",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "hildjj/grunt-init-rfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "miekg/mmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cabo/kramdown-rfc",
+      "target": "metanorma/asciidoctor-rfc",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "cabo/kramdown-rfc"
+}

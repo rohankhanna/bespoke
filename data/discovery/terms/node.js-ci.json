@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -491,6 +491,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-test.yaml",
       "source_repo": "josdejong/svelte-jsoneditor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LeDDGroup/typescript-transform-paths"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "josdejong/mathjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "josdejong/immutable-json-patch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "josdejong/jsoneditor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "jsonquerylang/jsonquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ngx-translate-test.yml",
+      "source_repo": "ngx-translate/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "josdejong/typed-function"
     }
   ],
   "term": "Node.js CI"

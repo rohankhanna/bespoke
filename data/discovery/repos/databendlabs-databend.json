@@ -171,28 +171,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/opensrv",
+      "target": "datafuse-extras/async-compression",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/arrow-udf",
+      "target": "datafuse-extras/dtparse",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/async-backtrace",
+      "target": "datafuse-extras/logforth",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/sub-cache",
+      "target": "datafuse-extras/async-recursion",
       "target_type": "repository"
     },
     {
@@ -469,7 +469,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:08:10.690733+00:00",
+  "fetched_at": "2026-05-03T21:46:16.237644+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -521,7 +521,7 @@
     "full_name": "databendlabs/databend",
     "html_url": "https://github.com/databendlabs/databend",
     "language": "Rust",
-    "pushed_at": "2026-05-03T03:44:34Z",
+    "pushed_at": "2026-05-03T15:06:27Z",
     "stargazers_count": 9275,
     "topics": [
       "ai",
@@ -539,27 +539,27 @@
       "vector-database",
       "vector-search"
     ],
-    "updated_at": "2026-05-02T17:11:34Z"
+    "updated_at": "2026-05-03T15:06:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/opensrv",
+      "full_name": "datafuse-extras/async-compression",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/sub-cache",
+      "full_name": "datafuse-extras/async-recursion",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/arrow-udf",
+      "full_name": "datafuse-extras/dtparse",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/async-backtrace",
+      "full_name": "datafuse-extras/logforth",
       "source_file": "Cargo.toml"
     }
   ],

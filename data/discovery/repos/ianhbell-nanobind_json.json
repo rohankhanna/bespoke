@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ianhbell/nanobind_json",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ianhbell/nanobind_json",
+      "target": "prefix-dev/setup-pixi@v0.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ianhbell/nanobind_json",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:21.469339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3842
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nanobind wrappers of the nlohmann::json library",
+    "fork": false,
+    "full_name": "ianhbell/nanobind_json",
+    "html_url": "https://github.com/ianhbell/nanobind_json",
+    "language": "C++",
+    "pushed_at": "2024-11-04T14:19:05Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-06-25T06:46:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    }
+  ]
+}

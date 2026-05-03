@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cromwell unit tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate-context",
+      "text": "'Cromwell unit tests'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broadinstitute/cromwell",
+      "status": "candidate",
+      "text": "'Cromwell unit tests'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19823,
+      "status": "candidate",
+      "text": "george"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "agitator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15335,
+      "status": "candidate",
+      "text": "commonwealth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15335,
+      "status": "candidate",
+      "text": "protectorate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "cork"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cromwell unit tests",
+  "concept_id": "cromwell-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cromwell_unit_tests.yml",
+      "source_repo": "broadinstitute/cromwell"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cromwell unit tests",
+      "sense_id": "cromwell-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdown/clipmenu",
+      "target": "davedavenport/rofi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdown/clipmenu",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdown/clipmenu",
+      "target": "awalsh128/cache-apt-pkgs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "clipboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "clipboard-buffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "clipboard-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "dmenu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "simple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdown/clipmenu",
+      "target": "suckless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:25:38.728775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3360
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Clipboard management using dmenu",
+    "fork": false,
+    "full_name": "cdown/clipmenu",
+    "html_url": "https://github.com/cdown/clipmenu",
+    "language": "C",
+    "pushed_at": "2026-04-03T06:53:04Z",
+    "stargazers_count": 1243,
+    "topics": [
+      "c",
+      "clipboard",
+      "clipboard-buffer",
+      "clipboard-management",
+      "dmenu",
+      "simple",
+      "suckless"
+    ],
+    "updated_at": "2026-04-21T07:53:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davedavenport/rofi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard"
+    },
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard-buffer"
+    },
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard-management"
+    },
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dmenu"
+    },
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple"
+    },
+    {
+      "context_snippet": "clipmenu is a simple clipboard manager using [dmenu][], [rofi][] or similar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suckless"
+    }
+  ]
+}

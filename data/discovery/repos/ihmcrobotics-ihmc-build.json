@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "target": "ihmcrobotics/repository-group",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-build",
+      "target": "Gradle test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:57.989503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10341
+    },
+    {
+      "path": ".github/workflows/gradle-test.yml",
+      "size": 195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Composite build and IDE classpath seperation support for JVM Gradle projects.",
+    "fork": false,
+    "full_name": "ihmcrobotics/ihmc-build",
+    "html_url": "https://github.com/ihmcrobotics/ihmc-build",
+    "language": "Kotlin",
+    "pushed_at": "2026-02-19T18:17:29Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-11T15:09:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/repository-group",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gradle test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "term": "Gradle test"
+    }
+  ]
+}

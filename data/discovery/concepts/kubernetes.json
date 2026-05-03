@@ -2542,6 +2542,54 @@
       "source_repo": "sergelogvinov/karpenter-provider-proxmox",
       "status": "candidate-context",
       "text": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate-context",
+      "text": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-purple)](https://join.slack.com/t/seaweedfs/shared_invite/enQtMzI4MTMwMjU2MzA3LTEyYzZmZWYzOGQ3MDJlZWMzYmI0OTE4OTJiZjJjODBmMzUxNmYwODg0YjY3MTNlMjBmZDQ1NzQ5NDJhZWI2ZmY)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes cloud controller manager for Proxmox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "To me, it seems like Proxmox is a bit old-fashioned when it comes to creating virtual machines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gvisor",
+      "status": "candidate-context",
+      "text": "Application Kernel for Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gvisor",
+      "status": "candidate-context",
+      "text": "![gVisor](g3doc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -3810,6 +3858,30 @@
       "source_repo": "sergelogvinov/karpenter-provider-proxmox",
       "status": "candidate",
       "text": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-purple)](https://join.slack.com/t/seaweedfs/shared_invite/enQtMzI4MTMwMjU2MzA3LTEyYzZmZWYzOGQ3MDJlZWMzYmI0OTE4OTJiZjJjODBmMzUxNmYwODg0YjY3MTNlMjBmZDQ1NzQ5NDJhZWI2ZmY)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager",
+      "status": "candidate",
+      "text": "To me, it seems like Proxmox is a bit old-fashioned when it comes to creating virtual machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gvisor",
+      "status": "candidate",
+      "text": "![gVisor](g3doc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -5821,11 +5893,83 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "sergelogvinov/karpenter-provider-proxmox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "seaweedfs/seaweedfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "sergelogvinov/proxmox-cloud-controller-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google/gvisor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

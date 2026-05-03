@@ -31,6 +31,42 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "Enhanced Clash and Clash.Meta routing rules with Iranian domains ruleset and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "Enhanced sing-box and sing-box-clients routing rules with built-in Iranian domains and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate-context",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate-context",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "Chocolate4U/Iran-v2ray-rules",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-clash-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-sing-box-rules",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Chocolate4U/Iran-v2ray-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-clash-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-sing-box-rules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

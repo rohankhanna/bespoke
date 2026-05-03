@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-model-info.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "project-monai/tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "peter-evans/slash-command-dispatch@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "chatops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "code-format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "premerge-cpu-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-model-info.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-model-info.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "update-model-info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "source_repo": "Project-MONAI/model-zoo",
+      "target": "weekly-tests-cpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:39:26.219667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2871
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1502
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 3385
+    },
+    {
+      "path": ".github/workflows/chatops.yml",
+      "size": 727
+    },
+    {
+      "path": ".github/workflows/code-format-check.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/premerge-cpu.yml",
+      "size": 907
+    },
+    {
+      "path": ".github/workflows/update-model-info.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/weekly-tests-cpu.yml",
+      "size": 1644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "MONAI Model Zoo that hosts models in the MONAI Bundle format.",
+    "fork": false,
+    "full_name": "Project-MONAI/model-zoo",
+    "html_url": "https://github.com/Project-MONAI/model-zoo",
+    "language": "Python",
+    "pushed_at": "2026-05-02T00:06:05Z",
+    "stargazers_count": 315,
+    "topics": [],
+    "updated_at": "2026-05-02T21:46:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-monai/tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "chatops",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops.yml",
+      "term": "chatops"
+    },
+    {
+      "context_snippet": "code-format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "term": "code-format-check"
+    },
+    {
+      "context_snippet": "premerge-cpu-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/premerge-cpu.yml",
+      "term": "premerge-cpu-check"
+    },
+    {
+      "context_snippet": "update-model-info",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-model-info.yml",
+      "term": "update-model-info"
+    },
+    {
+      "context_snippet": "weekly-tests-cpu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-tests-cpu.yml",
+      "term": "weekly-tests-cpu"
+    }
+  ]
+}

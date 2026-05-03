@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "noto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate-context",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "satbyy/go-noto-universal",
+      "status": "candidate",
+      "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566956,
+      "status": "candidate",
+      "text": "enna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566955,
+      "status": "candidate",
+      "text": "sorrento"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566954,
+      "status": "candidate",
+      "text": "syracuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566953,
+      "status": "candidate",
+      "text": "nocera inferiore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8566952,
+      "status": "candidate",
+      "text": "agrigento"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "noto",
+  "concept_id": "noto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "satbyy/go-noto-universal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "noto",
+      "sense_id": "noto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

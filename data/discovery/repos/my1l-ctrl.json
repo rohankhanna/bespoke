@@ -1,0 +1,289 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/Ctrl",
+      "target": "my1l/icense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/Ctrl",
+      "target": "my1l/fontgame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/Ctrl",
+      "target": "my1l/nyushu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/Ctrl",
+      "target": "my1l/coqubeli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "cirth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "controls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "exastris",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "kana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "lisu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "runes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "runic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "seal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "tangut",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "tengwar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Ctrl",
+      "target": "variable-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:49.675890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts.",
+    "fork": false,
+    "full_name": "MY1L/Ctrl",
+    "html_url": "https://github.com/MY1L/Ctrl",
+    "language": "HTML",
+    "pushed_at": "2024-05-28T13:39:25Z",
+    "stargazers_count": 93,
+    "topics": [
+      "cirth",
+      "controls",
+      "emoji",
+      "exastris",
+      "fonts",
+      "kana",
+      "lisu",
+      "opentype",
+      "runes",
+      "runic",
+      "seal",
+      "tangut",
+      "tengwar",
+      "unicode",
+      "variable-fonts"
+    ],
+    "updated_at": "2026-04-30T13:50:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/coqubeli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/fontgame",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/icense",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/nyushu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cirth"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controls"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exastris"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kana"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lisu"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runes"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runic"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seal"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tangut"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tengwar"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variable-fonts"
+    }
+  ]
+}

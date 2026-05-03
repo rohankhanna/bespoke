@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml"
+    },
+    {
+      "component": "unity/renovate-workflows/.github/workflows/run.yml@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-validation.yml"
+    },
+    {
+      "component": "unity/renovate-workflows/.github/workflows/run.yml@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "Code Format (dotnet)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-validation.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "unity/renovate-workflows/.github/workflows/run.yml@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-validation.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "Renovate Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "unity/renovate-workflows/.github/workflows/run.yml@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "target": "Renovate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:05.050606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/dotnet-format.yml",
+      "size": 5423
+    },
+    {
+      "path": ".github/workflows/renovate-validation.yml",
+      "size": 1385
+    },
+    {
+      "path": ".github/workflows/renovate.yml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient glTF 3D import / export library for Unity",
+    "fork": true,
+    "full_name": "Unity-Technologies/com.unity.cloud.gltfast",
+    "html_url": "https://github.com/Unity-Technologies/com.unity.cloud.gltfast",
+    "language": "C#",
+    "pushed_at": "2026-04-28T14:08:18Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-04-17T13:45:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code Format (dotnet)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "term": "Code Format (dotnet)"
+    },
+    {
+      "context_snippet": "Renovate Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-validation.yml",
+      "term": "Renovate Validation"
+    },
+    {
+      "context_snippet": "Renovate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate.yml",
+      "term": "Renovate"
+    }
+  ]
+}

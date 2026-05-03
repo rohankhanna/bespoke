@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:21.403973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implicit Geometric Regularization for Learning Shapes",
+    "fork": false,
+    "full_name": "amosgropp/IGR",
+    "html_url": "https://github.com/amosgropp/IGR",
+    "language": "Python",
+    "pushed_at": "2021-12-09T19:57:54Z",
+    "stargazers_count": 446,
+    "topics": [
+      "3d-reconstruction",
+      "computer-vision",
+      "deep-learning"
+    ],
+    "updated_at": "2026-04-19T11:57:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

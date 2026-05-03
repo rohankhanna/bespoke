@@ -1,12 +1,17 @@
 {
   "component": "ruby/setup-ruby@eaecf785f6a34567a6d97f686bbb7bccc1ac1e5c",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/command_shell_acceptance.yml",
       "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k0kubun/hamlit"
     }
   ]
 }

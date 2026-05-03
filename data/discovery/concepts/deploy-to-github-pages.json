@@ -392,6 +392,30 @@
       "source_repo": "microsoft/Security-101",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent \u2014 planning, spec and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -590,6 +614,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/Security-101",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -953,11 +989,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/website-deploy.yml",
       "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "storybookjs/react-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "projectfluent/fluent"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

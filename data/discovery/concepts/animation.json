@@ -271,6 +271,30 @@
       "source_repo": "xuchen-ethz/snarf",
       "status": "candidate-context",
       "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "Julia Animations and Visualizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": ":clapper: Colorful animations in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "xuchen-ethz/snarf",
       "status": "candidate",
       "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAnimators/Javis.jl",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -616,11 +652,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "xuchen-ethz/snarf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAnimators/Javis.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/chalk-animation"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/UniMERNet",
+      "target": "opendatalab/vigc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:37:45.383126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10696
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UniMERNet: A Universal Network for Real-World Mathematical Expression Recognition",
+    "fork": false,
+    "full_name": "opendatalab/UniMERNet",
+    "html_url": "https://github.com/opendatalab/UniMERNet",
+    "language": "Python",
+    "pushed_at": "2025-09-28T11:15:13Z",
+    "stargazers_count": 471,
+    "topics": [],
+    "updated_at": "2026-05-02T01:07:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/vigc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

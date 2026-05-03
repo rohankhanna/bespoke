@@ -46,6 +46,18 @@
       "source_repo": "pyupio/safety",
       "status": "candidate-context",
       "text": "PR Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "Apache Arrow DataFusion SQL Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate-context",
+      "text": "PR Comment"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyupio/safety",
+      "status": "candidate",
+      "text": "PR Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/arrow-datafusion",
       "status": "candidate",
       "text": "PR Comment"
     }
@@ -133,11 +151,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/pr-comment.yml",
       "source_repo": "pyupio/safety"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/pr_comment.yml",
+      "source_repo": "cnosdb/arrow-datafusion"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

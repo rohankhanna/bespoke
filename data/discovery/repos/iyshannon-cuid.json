@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:41:55.926999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "collision-resistant hashes for the cloud, in Ruby",
+    "fork": false,
+    "full_name": "iyshannon/cuid",
+    "html_url": "https://github.com/iyshannon/cuid",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-18T07:54:54Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2024-09-07T13:10:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

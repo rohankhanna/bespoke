@@ -84,7 +84,7 @@
   "normalized_form": "transformers",
   "observation_id": "f47f1ff2cf286a12",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "transformers",
   "source_context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
   "source_file": null,

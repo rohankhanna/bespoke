@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Handle stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/mesh-support",
+      "status": "candidate-context",
+      "text": "Virtual repository that provides support requests for individual robots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/mesh-support",
+      "status": "candidate-context",
+      "text": "'Handle stale issues'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/mesh-support",
+      "status": "candidate",
+      "text": "'Handle stale issues'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27434,
+      "status": "candidate",
+      "text": "stele"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27267,
+      "status": "candidate",
+      "text": "steal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "steals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26801,
+      "status": "candidate",
+      "text": "stail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26058,
+      "status": "candidate",
+      "text": "school"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Handle stale issues",
+  "concept_id": "handle-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "robotology/mesh-support"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle stale issues",
+      "sense_id": "handle-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

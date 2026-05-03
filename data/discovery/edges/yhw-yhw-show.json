@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "amirbar/speech2gesture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "hongwenzhang/pymaf-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "leimao/deeplab-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "1adrianb/2d-and-3d-face-alignment",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "yhw-yhw/SHOW"
+}

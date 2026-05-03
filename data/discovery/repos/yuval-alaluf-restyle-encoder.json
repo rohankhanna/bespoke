@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "dvschultz/stylegan2-ada-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "generative-adversarial-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "iterative-refinement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "stylegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "target": "stylegan-encoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:51.478685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation for \"ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement\" (ICCV 2021) https://arxiv.org/abs/2104.02699",
+    "fork": false,
+    "full_name": "yuval-alaluf/restyle-encoder",
+    "html_url": "https://github.com/yuval-alaluf/restyle-encoder",
+    "language": "Python",
+    "pushed_at": "2022-10-01T11:24:16Z",
+    "stargazers_count": 1047,
+    "topics": [
+      "generative-adversarial-networks",
+      "iccv2021",
+      "iterative-refinement",
+      "stylegan",
+      "stylegan-encoder"
+    ],
+    "updated_at": "2026-04-24T10:02:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvschultz/stylegan2-ada-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-networks"
+    },
+    {
+      "context_snippet": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterative-refinement"
+    },
+    {
+      "context_snippet": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    },
+    {
+      "context_snippet": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan-encoder"
+    }
+  ]
+}

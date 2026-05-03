@@ -19,6 +19,18 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate-context",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/horaedb",
+      "status": "candidate-context",
+      "text": "Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/horaedb",
+      "status": "candidate-context",
+      "text": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/horaedb",
+      "status": "candidate",
+      "text": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "apache/horaedb"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

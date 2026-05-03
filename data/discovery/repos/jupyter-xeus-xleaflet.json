@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xleaflet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xleaflet",
+      "target": "SimenB/github-actions-cpu-cores@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xleaflet",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:25.258146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2372
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ backend for the jupyter leaflet widget",
+    "fork": false,
+    "full_name": "jupyter-xeus/xleaflet",
+    "html_url": "https://github.com/jupyter-xeus/xleaflet",
+    "language": "C++",
+    "pushed_at": "2026-03-06T13:56:06Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-03-06T13:56:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

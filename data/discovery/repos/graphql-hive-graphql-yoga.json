@@ -101,6 +101,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "babel-jest",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -460,13 +465,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql-hive/graphql-yoga",
-      "target": "the-guild-org/stack",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "graphql-hive/graphql-yoga",
@@ -604,6 +602,13 @@
       "source_file": "package.json",
       "source_repo": "graphql-hive/graphql-yoga",
       "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql-hive/graphql-yoga",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -1034,7 +1039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:07:03.322480+00:00",
+  "fetched_at": "2026-05-03T20:35:49.112123+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1042,7 +1047,7 @@
     },
     {
       "path": "package.json",
-      "size": 6174
+      "size": 6290
     },
     {
       "path": ".github/workflows/benchmark.yml",
@@ -1082,8 +1087,8 @@
     "full_name": "graphql-hive/graphql-yoga",
     "html_url": "https://github.com/graphql-hive/graphql-yoga",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T06:41:15Z",
-    "stargazers_count": 8517,
+    "pushed_at": "2026-04-28T16:16:10Z",
+    "stargazers_count": 8519,
     "topics": [
       "bun",
       "deno",
@@ -1097,17 +1102,12 @@
       "w3c",
       "whatwg"
     ],
-    "updated_at": "2026-04-22T20:08:35Z"
+    "updated_at": "2026-05-03T19:37:54Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "enisdenjo/graphql-http",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "the-guild-org/stack",
       "source_file": "README.md"
     }
   ],

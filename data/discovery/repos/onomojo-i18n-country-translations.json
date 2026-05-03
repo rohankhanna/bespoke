@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations",
+      "target": "onomojo/i18n-country-translations-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations",
+      "target": "onomojo/i18n_country_select",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations",
+      "target": "onomojo/i18n-timezones",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "onomojo/i18n-country-translations",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "onomojo/i18n-country-translations",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:42:04.548772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3063
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This just contains i18n country translations",
+    "fork": false,
+    "full_name": "onomojo/i18n-country-translations",
+    "html_url": "https://github.com/onomojo/i18n-country-translations",
+    "language": "Ruby",
+    "pushed_at": "2026-03-08T00:30:18Z",
+    "stargazers_count": 164,
+    "topics": [],
+    "updated_at": "2026-03-08T00:29:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n_country_select",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

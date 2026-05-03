@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is an unoffical PyTorch implementation of Medical segmentation in 2D and 3D."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torchio",
+      "sense_id": "torchio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "torchio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "torchio",
+  "observation_id": "251d28a059a7457e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "torchio",
+  "source_context_snippet": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />",
+  "source_file": null,
+  "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+  "source_repo_description": "This repository is an unoffical PyTorch implementation of Medical segmentation in 2D and 3D."
+}

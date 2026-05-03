@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scirepeval",
+      "target": "nasa-petal/petal-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scirepeval",
+      "target": "chanzuckerberg/drsm-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scirepeval",
+      "target": "lingo-iitgn/tweetpap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:34.374670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9995
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SciRepEval benchmark training and evaluation scripts",
+    "fork": false,
+    "full_name": "allenai/scirepeval",
+    "html_url": "https://github.com/allenai/scirepeval",
+    "language": "Python",
+    "pushed_at": "2026-04-21T03:09:02Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-04-23T02:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chanzuckerberg/drsm-corpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lingo-iitgn/tweetpap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nasa-petal/petal-db",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

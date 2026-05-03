@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -211,6 +211,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "testing-library/dom-testing-library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validating.yml",
+      "source_repo": "apidoc/apidoc-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "FrontLabsOfficial/vue-tiny-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "testing-library/react-testing-library"
     }
   ],
   "term": "validate"

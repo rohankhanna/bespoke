@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/LabelLLM",
+      "target": "daocloud/public-image-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/LabelLLM",
+      "target": "opendatalab/labelu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:37:42.068387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Open-Source Data Annotation Platform",
+    "fork": false,
+    "full_name": "opendatalab/LabelLLM",
+    "html_url": "https://github.com/opendatalab/LabelLLM",
+    "language": "TypeScript",
+    "pushed_at": "2025-02-19T01:41:46Z",
+    "stargazers_count": 1218,
+    "topics": [],
+    "updated_at": "2026-05-02T07:44:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daocloud/public-image-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/labelu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

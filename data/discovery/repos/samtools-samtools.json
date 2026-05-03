@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/samtools",
+      "target": "samtools/htslib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/samtools",
+      "target": "samtools/bcftools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "Mac OS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/samtools",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:23.774340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4055
+    },
+    {
+      "path": ".github/workflows/linux-build.yml",
+      "size": 4863
+    },
+    {
+      "path": ".github/workflows/macos-build.yml",
+      "size": 3868
+    },
+    {
+      "path": ".github/workflows/windows-build.yml",
+      "size": 1641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Tools (written in C using htslib) for manipulating next-generation sequencing data",
+    "fork": false,
+    "full_name": "samtools/samtools",
+    "html_url": "https://github.com/samtools/samtools",
+    "language": "C",
+    "pushed_at": "2026-04-30T15:32:08Z",
+    "stargazers_count": 1891,
+    "topics": [],
+    "updated_at": "2026-05-02T00:18:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/bcftools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/htslib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "Mac OS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-build.yml",
+      "term": "Mac OS CI"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjdk/jmh",
+      "target": "ktoso/sbt-jmh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjdk/jmh",
+      "target": "artyushov/idea-jmh-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjdk/jmh",
+      "target": "brianfromoregon/jmh-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjdk/jmh",
+      "target": "jzillmann/jmh-visualizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-integration.yml",
+      "source_repo": "openjdk/jmh",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-integration.yml",
+      "source_repo": "openjdk/jmh",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-integration.yml",
+      "source_repo": "openjdk/jmh",
+      "target": "JMH Pre-Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:20.982597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8398
+    },
+    {
+      "path": ".github/workflows/pre-integration.yml",
+      "size": 3290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "https://openjdk.org/projects/code-tools/jmh",
+    "fork": false,
+    "full_name": "openjdk/jmh",
+    "html_url": "https://github.com/openjdk/jmh",
+    "language": "Java",
+    "pushed_at": "2026-03-30T14:40:53Z",
+    "stargazers_count": 2622,
+    "topics": [],
+    "updated_at": "2026-05-01T16:08:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artyushov/idea-jmh-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brianfromoregon/jmh-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jzillmann/jmh-visualizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ktoso/sbt-jmh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "JMH Pre-Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-integration.yml",
+      "term": "JMH Pre-Integration Tests"
+    }
+  ]
+}

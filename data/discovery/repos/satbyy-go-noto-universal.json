@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "googlefonts/noto-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "googlefonts/noto-cjk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "Regional fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/temporal_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/temporal_fonts.yml",
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "Temporal fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "noto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "satbyy/go-noto-universal",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:37:37.870241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13319
+    },
+    {
+      "path": ".github/workflows/regional_fonts.yml",
+      "size": 1721
+    },
+    {
+      "path": ".github/workflows/temporal_fonts.yml",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Noto fonts go universal! Download pan-Unicode, merged Noto fonts according to time of usage (current, ancient) or geographical region (South Asia, SE Asia, Africa-MiddleEast, Europe-Americas).",
+    "fork": false,
+    "full_name": "satbyy/go-noto-universal",
+    "html_url": "https://github.com/satbyy/go-noto-universal",
+    "language": "Shell",
+    "pushed_at": "2023-08-01T05:19:33Z",
+    "stargazers_count": 272,
+    "topics": [
+      "fonts",
+      "noto",
+      "unicode"
+    ],
+    "updated_at": "2026-04-27T18:06:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-cjk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-fonts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Regional fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regional_fonts.yml",
+      "term": "Regional fonts"
+    },
+    {
+      "context_snippet": "Temporal fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/temporal_fonts.yml",
+      "term": "Temporal fonts"
+    },
+    {
+      "context_snippet": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "noto"
+    },
+    {
+      "context_snippet": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

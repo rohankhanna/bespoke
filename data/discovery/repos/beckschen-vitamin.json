@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beckschen/ViTamin",
+      "target": "scalable-vision-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beckschen/ViTamin",
+      "target": "vlms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:42.171014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official implementation of \"ViTamin: Designing Scalable Vision Models in the Vision-language Era\"",
+    "fork": false,
+    "full_name": "Beckschen/ViTamin",
+    "html_url": "https://github.com/Beckschen/ViTamin",
+    "language": "Python",
+    "pushed_at": "2024-06-09T09:04:52Z",
+    "stargazers_count": 211,
+    "topics": [
+      "scalable-vision-encoder",
+      "vlms"
+    ],
+    "updated_at": "2026-04-29T08:23:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalable-vision-encoder"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 Officially supported by [timm](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vitamin.py) and [OpenCLIP](https://github.com/mlfoundations/open_clip/tree/main). Thanks @rwightman!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlms"
+    }
+  ]
+}

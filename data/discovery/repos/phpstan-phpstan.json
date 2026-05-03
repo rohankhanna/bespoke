@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-config.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-config.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml"
+    },
+    {
+      "component": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-easy-fix-on-milestone.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-update-error-docs-identifiers-change.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phpstan/phpstan",
+      "target": "phpstan/phpstan-src",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Algolia Crawler Config Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Build Identifier Extractor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-easy-fix-on-milestone.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-easy-fix-on-milestone.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Claude Easy Fix on Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Claude React On Review Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Claude React On Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-update-error-docs-identifiers-change.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-update-error-docs-identifiers-change.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Claude Update Error Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Docker image nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan",
+      "target": "Docker image stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "php7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "phpstan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "static-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:43:53.392060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7280
+    },
+    {
+      "path": ".github/workflows/algolia-crawler-config.json",
+      "size": 6110
+    },
+    {
+      "path": ".github/workflows/algolia-crawler-config.yml",
+      "size": 1427
+    },
+    {
+      "path": ".github/workflows/build-identifier-extractor.yml",
+      "size": 1348
+    },
+    {
+      "path": ".github/workflows/claude-easy-fix-on-milestone.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/claude-react-on-review.yml",
+      "size": 857
+    },
+    {
+      "path": ".github/workflows/claude-update-error-docs-identifiers-change.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/docker-nightly.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/docker-stable.yml",
+      "size": 2800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2.2.x",
+    "description": "PHP Static Analysis Tool - discover bugs in your code without running it!",
+    "fork": false,
+    "full_name": "phpstan/phpstan",
+    "html_url": "https://github.com/phpstan/phpstan",
+    "language": "PHP",
+    "pushed_at": "2026-05-03T17:44:47Z",
+    "stargazers_count": 13926,
+    "topics": [
+      "php",
+      "php7",
+      "phpstan",
+      "static-analysis",
+      "static-analyzer",
+      "static-code-analysis",
+      "testing"
+    ],
+    "updated_at": "2026-05-03T16:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phpstan/phpstan-src",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Algolia Crawler Config Update\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "term": "Algolia Crawler Config Update"
+    },
+    {
+      "context_snippet": "\"Build Identifier Extractor\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "term": "Build Identifier Extractor"
+    },
+    {
+      "context_snippet": "\"Claude Easy Fix on Milestone\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-easy-fix-on-milestone.yml",
+      "term": "Claude Easy Fix on Milestone"
+    },
+    {
+      "context_snippet": "\"Claude React On Review Dispatch\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "term": "Claude React On Review Dispatch"
+    },
+    {
+      "context_snippet": "\"Claude React On Review\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "term": "Claude React On Review"
+    },
+    {
+      "context_snippet": "\"Claude Update Error Docs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-update-error-docs-identifiers-change.yml",
+      "term": "Claude Update Error Docs"
+    },
+    {
+      "context_snippet": "Docker image nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "term": "Docker image nightly"
+    },
+    {
+      "context_snippet": "Docker image stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "term": "Docker image stable"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php7"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phpstan"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analyzer"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

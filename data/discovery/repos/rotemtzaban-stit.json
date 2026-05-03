@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rotemtzaban/STIT",
+      "target": "evgenykashin/stylegan2-distillation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:47.384166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12171
+    },
+    {
+      "path": "requirements.txt",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "rotemtzaban/STIT",
+    "html_url": "https://github.com/rotemtzaban/STIT",
+    "language": "Python",
+    "pushed_at": "2022-05-17T21:13:09Z",
+    "stargazers_count": 1200,
+    "topics": [],
+    "updated_at": "2026-04-06T05:41:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evgenykashin/stylegan2-distillation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

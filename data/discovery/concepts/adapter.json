@@ -43,6 +43,18 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "Additional optional modules for the Reactor project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "czczup/ViT-Adapter",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "czczup/ViT-Adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "reactor/reactor-addons"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

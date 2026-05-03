@@ -385,6 +385,30 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Anycost GANs for Interactive Image Synthesis and Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Assessing Generative Models via Precision and Recall (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate-context",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -579,6 +603,18 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msmsajjadi/precision-recall-distributions",
+      "status": "candidate",
+      "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -940,11 +976,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rinongal/StyleGAN-nada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "msmsajjadi/precision-recall-distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

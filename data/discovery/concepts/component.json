@@ -103,6 +103,18 @@
       "source_repo": "TanStack/react-charts",
       "status": "candidate-context",
       "text": "![React Charts Header](https://github.com/TanStack/react-charts/raw/main/media/repo-dark.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "status": "candidate-context",
+      "text": "Bytesize SVG icons as Vue functional components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "TanStack/react-charts",
       "status": "candidate",
       "text": "![React Charts Header](https://github.com/TanStack/react-charts/raw/main/media/repo-dark.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +316,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "egoist/vue-bytesize-icons"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

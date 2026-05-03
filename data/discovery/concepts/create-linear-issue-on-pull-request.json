@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Create Linear Issue on Pull Request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate-context",
+      "text": "The world's most flexible commerce platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate-context",
+      "text": "Create Linear Issue on Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medusajs/medusa",
+      "status": "candidate",
+      "text": "Create Linear Issue on Pull Request"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Linear Issue on Pull Request",
+  "concept_id": "create-linear-issue-on-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/create-linear-issue-on-pr.yml",
+      "source_repo": "medusajs/medusa"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Linear Issue on Pull Request",
+      "sense_id": "create-linear-issue-on-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

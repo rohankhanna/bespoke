@@ -11,21 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JTAmos/Temporal.jl",
-      "target": "joshuaulrich/xts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JTAmos/Temporal.jl",
       "target": "dysonance/indicators.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JTAmos/Temporal.jl",
-      "target": "juliaplots/recipesbase.jl",
       "target_type": "repository"
     },
     {
@@ -141,7 +127,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T06:59:42.994912+00:00",
+  "fetched_at": "2026-05-03T18:42:19.433385+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,7 +148,7 @@
     "html_url": "https://github.com/JTAmos/Temporal.jl",
     "language": "Julia",
     "pushed_at": "2023-03-03T01:11:31Z",
-    "stargazers_count": 101,
+    "stargazers_count": 100,
     "topics": [
       "data-analysis",
       "data-structures",
@@ -180,22 +166,12 @@
       "time-series-analysis",
       "timeseries"
     ],
-    "updated_at": "2025-12-03T00:48:38Z"
+    "updated_at": "2026-05-03T17:00:56Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dysonance/indicators.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "joshuaulrich/xts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliaplots/recipesbase.jl",
       "source_file": "README.md"
     }
   ],

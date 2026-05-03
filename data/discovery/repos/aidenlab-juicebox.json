@@ -5,32 +5,32 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/juiceboxgui",
+      "target": "sa501428/eigenvector",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/hictools",
+      "target": "sa501428/hic-emt",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/juicertools",
+      "target": "theaidenlab/juicer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/Juicebox",
-      "target": "aidenlab/java-straw",
+      "target": "theaidenlab/juicebox",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T14:45:18.511002+00:00",
+  "fetched_at": "2026-05-03T21:50:50.001984+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +54,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/hictools",
+      "full_name": "sa501428/eigenvector",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/java-straw",
+      "full_name": "sa501428/hic-emt",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/juiceboxgui",
+      "full_name": "theaidenlab/juicebox",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/juicertools",
+      "full_name": "theaidenlab/juicer",
       "source_file": "README.md"
     }
   ],

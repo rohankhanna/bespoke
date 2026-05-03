@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:36:27.642928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 442
+    },
+    {
+      "path": "go.mod",
+      "size": 3049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "dev",
+    "description": "V2Ray library of Matsuri & Nekoray",
+    "fork": false,
+    "full_name": "MatsuriDayo/v2ray-core",
+    "html_url": "https://github.com/MatsuriDayo/v2ray-core",
+    "language": "Go",
+    "pushed_at": "2023-02-12T02:16:11Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-02-23T22:23:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

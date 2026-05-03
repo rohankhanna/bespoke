@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "translate scientific papers in latex, especially arxiv papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700394,
+      "status": "candidate",
+      "text": "side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "english language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "english people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859238,
+      "status": "candidate",
+      "text": "the english"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29859132,
+      "status": "candidate",
+      "text": "englishman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "english",
+      "sense_id": "english#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14063,
+      "status": "candidate",
+      "text": "side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "the english"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "english language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "english people"
+    }
+  ],
+  "concept_id": "english",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "english",
+  "observation_id": "4276834520a7d5fd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "english",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "SUSYUSTC/MathTranslate",
+  "source_repo_description": "translate scientific papers in latex, especially arxiv papers"
+}

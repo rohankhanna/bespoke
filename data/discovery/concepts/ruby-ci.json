@@ -31,6 +31,18 @@
       "source_repo": "barsoom/traco",
       "status": "candidate-context",
       "text": "Ruby CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "javan/whenever",
+      "status": "candidate-context",
+      "text": "Cron jobs in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javan/whenever",
+      "status": "candidate-context",
+      "text": "Ruby CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "barsoom/traco",
+      "status": "candidate",
+      "text": "Ruby CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javan/whenever",
       "status": "candidate",
       "text": "Ruby CI"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "barsoom/traco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "javan/whenever"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

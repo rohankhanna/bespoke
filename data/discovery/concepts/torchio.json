@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "torchio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "status": "candidate-context",
+      "text": "This repository is an unoffical PyTorch implementation of Medical segmentation in 2D and 3D."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "status": "candidate-context",
+      "text": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "status": "candidate",
+      "text": "<i>Read Chinese Introduction\uff1a<a href='https://github.com/MontaEllis/Pytorch-Medical-Segmentation/blob/master/README-zh.md'>Here\uff01</a></i><br />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "torchio",
+  "concept_id": "torchio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torchio",
+      "sense_id": "torchio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

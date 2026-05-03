@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/approve-command.yml",
       "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/command-approve.yml",
+      "source_repo": "yuyang0/rrqlite"
     }
   ],
   "term": "Approve Command"

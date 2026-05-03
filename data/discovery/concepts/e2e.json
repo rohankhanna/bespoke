@@ -350,6 +350,18 @@
       "source_repo": "tendermint/tendermint",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "Advanced fuzzing via Model Based Testing for Cosmos blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "E2E"
     }
   ],
   "candidate_glosses": [
@@ -526,6 +538,12 @@
       "source_repo": "tendermint/tendermint",
       "status": "candidate",
       "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate",
+      "text": "E2E"
     }
   ],
   "candidate_related_terms": [
@@ -1055,11 +1073,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "informalsystems/atomkraft"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

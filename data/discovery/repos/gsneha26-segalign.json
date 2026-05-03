@@ -1,0 +1,161 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "aws-ec2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "comparative-genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "genome-aligner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "genome-alignments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "lastz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign",
+      "target": "whole-genome-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:38.236588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4694
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Scalable GPU-Based Whole Genome Aligner, published in SC20: https://doi.ieeecomputersociety.org/10.1109/SC41405.2020.00043",
+    "fork": false,
+    "full_name": "gsneha26/SegAlign",
+    "html_url": "https://github.com/gsneha26/SegAlign",
+    "language": "C++",
+    "pushed_at": "2024-08-07T15:29:11Z",
+    "stargazers_count": 72,
+    "topics": [
+      "aws-ec2",
+      "comparative-genomics",
+      "cuda",
+      "genome-aligner",
+      "genome-alignments",
+      "genomics",
+      "gpu-acceleration",
+      "lastz",
+      "tbb",
+      "whole-genome-alignment"
+    ],
+    "updated_at": "2026-04-17T19:16:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-ec2"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comparative-genomics"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-aligner"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-alignments"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lastz"
+    },
+    {
+      "context_snippet": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whole-genome-alignment"
+    }
+  ]
+}

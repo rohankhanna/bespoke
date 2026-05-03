@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serverless",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vharmain/nbb-serverless-example",
+      "target": "nbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vharmain/nbb-serverless-example",
+      "target": "serverless",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:46.003789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1046
+    },
+    {
+      "path": "package.json",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deploying and running ClojureScript code on AWS Lambda NodeJS 14.x runtime using nbb and Serverless Framwork",
+    "fork": false,
+    "full_name": "vharmain/nbb-serverless-example",
+    "html_url": "https://github.com/vharmain/nbb-serverless-example",
+    "language": "Clojure",
+    "pushed_at": "2022-11-01T16:59:31Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-29T20:33:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

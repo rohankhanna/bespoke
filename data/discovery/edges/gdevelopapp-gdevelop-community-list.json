@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "flokitv/gdevelop-autotile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "arthuro555/thnk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "flokitv/gdevelop-plane-projection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GDevelopApp/GDevelop-community-list",
+      "target": "gdevelopapp/gdevelop-extensions",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "GDevelopApp/GDevelop-community-list"
+}

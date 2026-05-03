@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",
+      "target": "zhec/realtime_multi-person_pose_estimation",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation"
+}

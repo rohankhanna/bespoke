@@ -151,6 +151,42 @@
       "source_repo": "jimmywarting/StreamSaver.js",
       "status": "candidate-context",
       "text": "StreamSaver.js (legacy-ish)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Web Streams, based on the WHATWG spec reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Web Streams, based on the WHATWG spec reference implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate-context",
+      "text": "Standard input."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "Standard output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "jimmywarting/StreamSaver.js",
       "status": "candidate",
       "text": "StreamSaver.js (legacy-ish)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate",
+      "text": "Web Streams, based on the WHATWG spec reference implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdin",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/streams-node-stdout",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +472,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jimmywarting/StreamSaver.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MattiasBuelens/web-streams-polyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/streams-node-stdin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/streams-node-stdout"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

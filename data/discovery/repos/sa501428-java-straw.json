@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:50:49.440448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "sa501428/java-straw",
+    "html_url": "https://github.com/sa501428/java-straw",
+    "language": "Java",
+    "pushed_at": "2022-10-17T12:48:52Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-06-01T01:08:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:35:23.002264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "lapce/psp-types",
+    "html_url": "https://github.com/lapce/psp-types",
+    "language": "Rust",
+    "pushed_at": "2024-08-19T21:05:44Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-04-24T15:31:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

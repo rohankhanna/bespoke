@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:39:41.044809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA PhysX SDK",
+    "fork": false,
+    "full_name": "NVIDIA-Omniverse/PhysX",
+    "html_url": "https://github.com/NVIDIA-Omniverse/PhysX",
+    "language": "C++",
+    "pushed_at": "2026-04-13T10:02:10Z",
+    "stargazers_count": 4530,
+    "topics": [],
+    "updated_at": "2026-05-03T11:36:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

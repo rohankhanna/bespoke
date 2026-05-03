@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evidentsystems/converge",
+      "target": "ptaoussanis/nippy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evidentsystems/converge",
+      "target": "cognitect/transit-clj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evidentsystems/converge",
+      "target": "cognitect/transit-cljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evidentsystems/converge",
+      "target": "clojure/data.fressian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "clojure-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "clojurescript-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "crdt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "crdt-implementations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "crdts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evidentsystems/converge",
+      "target": "opsets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:31:07.627453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT",
+    "fork": false,
+    "full_name": "evidentsystems/converge",
+    "html_url": "https://github.com/evidentsystems/converge",
+    "language": "Clojure",
+    "pushed_at": "2023-08-09T08:38:00Z",
+    "stargazers_count": 64,
+    "topics": [
+      "clojure",
+      "clojure-library",
+      "clojurescript",
+      "clojurescript-library",
+      "crdt",
+      "crdt-implementations",
+      "crdts",
+      "opsets"
+    ],
+    "updated_at": "2026-02-07T05:16:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/data.fressian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognitect/transit-clj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognitect/transit-cljs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptaoussanis/nippy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-library"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript-library"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crdt"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crdt-implementations"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crdts"
+    },
+    {
+      "context_snippet": "Converge is a set of libraries for working with convergent replicated",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opsets"
+    }
+  ]
+}

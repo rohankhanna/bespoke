@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:42:50.840090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mirror of publicly available website \"iwmf.ir\"",
+    "fork": false,
+    "full_name": "Chocolate4U/iwmf.ir-Mirror",
+    "html_url": "https://github.com/Chocolate4U/iwmf.ir-Mirror",
+    "language": "TypeScript",
+    "pushed_at": "2024-02-24T09:24:53Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-11-03T08:16:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

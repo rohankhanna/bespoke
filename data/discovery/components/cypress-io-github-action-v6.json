@@ -1,7 +1,7 @@
 {
   "component": "cypress-io/github-action@v6",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-carbon11-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-nuxt-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-vue3-e2e.yml",
+      "source_repo": "IBM/hello-carbon-vue3"
     }
   ]
 }

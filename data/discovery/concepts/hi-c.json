@@ -31,6 +31,42 @@
       "source_repo": "higlass/higlass",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/clodius",
+      "status": "candidate-context",
+      "text": "Clodius is a tool for breaking up large data sets into smaller tiles that can subsequently be displayed using an appropriate viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/clodius",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate-context",
+      "text": "Builds a docker container wrapping higlass-server and higlass-client in nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1308947.svg)](https://doi.org/10.5281/zenodo.1308947)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/higlass-server",
+      "status": "candidate-context",
+      "text": "Server component for HiGlass that manages and serves tiled data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-server",
+      "status": "candidate-context",
+      "text": "The HiGlass Server supports [HiGlass](https://github.com/higlass/higlass) and [HiPiler](https://github.com/flekschas/hipiler)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "higlass/higlass",
       "status": "candidate",
       "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/clodius",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-docker",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1308947.svg)](https://doi.org/10.5281/zenodo.1308947)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass-server",
+      "status": "candidate",
+      "text": "The HiGlass Server supports [HiGlass](https://github.com/higlass/higlass) and [HiPiler](https://github.com/flekschas/hipiler)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "higlass/higlass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "higlass/clodius"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "higlass/higlass-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "higlass/higlass-server"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

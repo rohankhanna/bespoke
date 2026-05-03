@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "reactor-core"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "Additional optional modules for the Reactor project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate-context",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate-context",
+      "text": "Reactor Kotlin Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/reactor/reactor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reactor/reactor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-addons",
+      "status": "candidate",
+      "text": "[![CI on GHA](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml/badge.svg)](https://github.com/reactor/reactor-addons/actions/workflows/publish.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/reactor/reactor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reactor/reactor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "reactor-core",
+  "concept_id": "reactor-core",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "reactor/reactor-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "reactor/reactor-kotlin-extensions"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reactor-core",
+      "sense_id": "reactor-core#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

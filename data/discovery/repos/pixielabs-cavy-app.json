@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:34:19.382984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 314
+    },
+    {
+      "path": "Dockerfile",
+      "size": 148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation for Cavy",
+    "fork": false,
+    "full_name": "pixielabs/cavy-app",
+    "html_url": "https://github.com/pixielabs/cavy-app",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-03T20:21:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-10-03T20:19:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

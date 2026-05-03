@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -386,6 +386,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "cosmos/evm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "evmos/os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/needs-release-notes.yaml",
+      "source_repo": "zarr-developers/numcodecs"
     }
   ],
   "term": "Pull Request Labeler"

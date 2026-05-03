@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pangenome/vcfbub",
+      "target": "rust-bio/rust-htslib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:48.450111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1921
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "use variant nesting information to flter overlapping sites from vg deconstruct output",
+    "fork": false,
+    "full_name": "pangenome/vcfbub",
+    "html_url": "https://github.com/pangenome/vcfbub",
+    "language": "Rust",
+    "pushed_at": "2025-06-12T15:11:36Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-13T16:06:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-bio/rust-htslib",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependency.yml",
       "source_repo": "liquidz/dad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "cnosdb/arrow-datafusion"
     }
   ],
   "term": "dependencies"

@@ -139,6 +139,18 @@
       "source_repo": "xuchen-ethz/snarf",
       "status": "candidate-context",
       "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate-context",
+      "text": "Code for \"NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video\", CVPR 2021 oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "xuchen-ethz/snarf",
       "status": "candidate",
       "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/NeuralRecon",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "xuchen-ethz/snarf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "zju3dv/NeuralRecon"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

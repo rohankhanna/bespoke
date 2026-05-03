@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Issue Welcome"
+    "Issue Welcome",
+    "issue welcome"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "openxrlab/xrmocap",
       "status": "candidate-context",
       "text": "Issue Welcome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
+      "status": "candidate-context",
+      "text": "issue welcome"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "openxrlab/xrmocap",
       "status": "candidate",
       "text": "Issue Welcome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyang0/rrqlite",
+      "status": "candidate",
+      "text": "issue welcome"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +89,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/issue-welcome.yml",
       "source_repo": "openxrlab/xrmocap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "yuyang0/rrqlite"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

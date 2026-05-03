@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donut-party/system",
+      "target": "nextjournal/beholder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donut-party/system",
+      "target": "donut-party/endpoint-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donut-party/system",
+      "target": "stuartsierra/component",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donut-party/system",
+      "target": "juxt/clip",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:46:23.167500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 76902
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a dependency injection library for Clojure and ClojureScript \ud83c\udf69",
+    "fork": false,
+    "full_name": "donut-party/system",
+    "html_url": "https://github.com/donut-party/system",
+    "language": "Clojure",
+    "pushed_at": "2026-01-19T16:43:20Z",
+    "stargazers_count": 228,
+    "topics": [],
+    "updated_at": "2026-04-16T11:01:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donut-party/endpoint-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juxt/clip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nextjournal/beholder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stuartsierra/component",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,17 @@
+{
+  "component": "webfactory/ssh-agent@836c84ec59a0e7bc0eabc79988384eb567561ee2",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-pr.yaml",
+      "source_repo": "left-curve/left-curve"
+    }
+  ]
+}

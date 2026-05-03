@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TianxingChen/RoboTwin",
+      "target": "robotwin-platform/robotwin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:28.190628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TianxingChen/RoboTwin",
+    "html_url": "https://github.com/TianxingChen/RoboTwin",
+    "language": null,
+    "pushed_at": "2025-06-21T02:45:43Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-10-23T02:56:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotwin-platform/robotwin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

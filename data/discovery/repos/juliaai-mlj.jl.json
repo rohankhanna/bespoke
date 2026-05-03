@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "julia-actions/setup-julia@v2",
+      "component": "julia-actions/setup-julia@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "julia-actions/setup-julia@v2",
+      "component": "julia-actions/setup-julia@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "julia-actions/setup-julia@v2",
+      "component": "julia-actions/setup-julia@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     }
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "JuliaAI/MLJ.jl",
-      "target": "julia-actions/setup-julia@v2",
+      "target": "julia-actions/setup-julia@v3",
       "target_type": "component"
     },
     {
@@ -239,7 +239,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:42:14.835117+00:00",
+  "fetched_at": "2026-05-03T20:41:24.744397+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -267,8 +267,8 @@
     "full_name": "JuliaAI/MLJ.jl",
     "html_url": "https://github.com/JuliaAI/MLJ.jl",
     "language": "Julia",
-    "pushed_at": "2026-05-01T09:45:04Z",
-    "stargazers_count": 1914,
+    "pushed_at": "2026-05-03T20:40:19Z",
+    "stargazers_count": 1913,
     "topics": [
       "classification",
       "clustering",
@@ -285,7 +285,7 @@
       "tuning",
       "tuning-parameters"
     ],
-    "updated_at": "2026-04-26T18:00:51Z"
+    "updated_at": "2026-05-03T20:40:16Z"
   },
   "repo_links": [],
   "terms": [

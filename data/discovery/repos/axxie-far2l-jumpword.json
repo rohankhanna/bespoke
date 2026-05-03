@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:34:26.143795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Far2l editor plugin for quick searching the word under cursor",
+    "fork": false,
+    "full_name": "axxie/far2l-jumpword",
+    "html_url": "https://github.com/axxie/far2l-jumpword",
+    "language": "C++",
+    "pushed_at": "2023-08-27T14:10:53Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-09-10T11:30:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

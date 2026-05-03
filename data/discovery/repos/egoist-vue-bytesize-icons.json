@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "babel-helper-vue-jsx-merge-props",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-preval",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-vue-app",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bili",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bytesize-icons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-rem",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.kebabcase",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pascal-case",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "poi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prismjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typeface-nunito",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "v-tippy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-github-badge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "egoist/donate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "babel-helper-vue-jsx-merge-props",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "babel-plugin-preval",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "babel-preset-vue-app",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "bili",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "bytesize-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "eslint-config-rem",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "lodash.kebabcase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "marked3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "pascal-case",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "poi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "prismjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "rollup-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "typeface-nunito",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "v-tippy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "vue-github-badge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "egoist/vue-bytesize-icons",
+      "target": "tiny",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:47:19.425132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1337
+    },
+    {
+      "path": "package.json",
+      "size": 1657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bytesize SVG icons as Vue functional components",
+    "fork": false,
+    "full_name": "egoist/vue-bytesize-icons",
+    "html_url": "https://github.com/egoist/vue-bytesize-icons",
+    "language": "Vue",
+    "pushed_at": "2022-12-07T01:01:25Z",
+    "stargazers_count": 55,
+    "topics": [
+      "component",
+      "icon",
+      "svg",
+      "tiny",
+      "vue"
+    ],
+    "updated_at": "2025-08-09T15:51:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "egoist/donate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny"
+    }
+  ]
+}

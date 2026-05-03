@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cavy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The React Native app we use to test and develop Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate-context",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-tester",
+      "status": "candidate",
+      "text": "The `CavyTester` app exercises the [Cavy API](https://github.com/pixielabs/cavy)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29486133,
+      "status": "candidate",
+      "text": "patagonian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014411,
+      "status": "candidate",
+      "text": "restless cavy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014410,
+      "status": "candidate",
+      "text": "guinea-pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014409,
+      "status": "candidate",
+      "text": "guineapig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014408,
+      "status": "candidate",
+      "text": "guinea pig"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cavy",
+  "concept_id": "cavy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-tester"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cavy",
+      "sense_id": "cavy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

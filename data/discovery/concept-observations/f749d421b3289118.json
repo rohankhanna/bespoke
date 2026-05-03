@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'changelog-linter'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'changelog-linter'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "changelog-linter",
+      "sense_id": "changelog-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "changelog-linter",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "changelog-linter",
+  "observation_id": "f749d421b3289118",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "changelog-linter",
+  "source_context_snippet": "'changelog-linter'",
+  "source_file": ".github/workflows/changelog-linter.yml",
+  "source_repo": "VictoriaMetrics/VictoriaMetrics",
+  "source_repo_description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+}

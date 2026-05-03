@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A User-Defined Function Framework for Apache Arrow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Easily create and run user-defined functions (UDF) on Apache Arrow."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025842,
+      "status": "candidate",
+      "text": "pointer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044058,
+      "status": "candidate",
+      "text": "archer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043997,
+      "status": "candidate",
+      "text": "archery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043692,
+      "status": "candidate",
+      "text": "dart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042591,
+      "status": "candidate",
+      "text": "arrowhead"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arrow",
+      "sense_id": "arrow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1049,
+      "status": "candidate",
+      "text": "pointer"
+    }
+  ],
+  "concept_id": "arrow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arrow",
+  "observation_id": "d7fb2cf0c7410a8f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "arrow",
+  "source_context_snippet": "Easily create and run user-defined functions (UDF) on Apache Arrow.",
+  "source_file": null,
+  "source_repo": "arrow-udf/arrow-udf",
+  "source_repo_description": "A User-Defined Function Framework for Apache Arrow."
+}

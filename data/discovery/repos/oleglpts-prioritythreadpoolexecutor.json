@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:37:50.982855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Thread pool executor with priority queue: little hack of ThreadPoolExecutor from concurrent.futures.thread",
+    "fork": false,
+    "full_name": "oleglpts/PriorityThreadPoolExecutor",
+    "html_url": "https://github.com/oleglpts/PriorityThreadPoolExecutor",
+    "language": "Python",
+    "pushed_at": "2022-12-27T15:34:28Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-11-26T14:43:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

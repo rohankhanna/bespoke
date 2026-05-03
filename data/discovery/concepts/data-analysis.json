@@ -283,6 +283,18 @@
       "source_repo": "wyyazlz/sheetnext",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "status": "candidate-context",
+      "text": "First pass data analysis skills for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "status": "candidate-context",
+      "text": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative."
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "wyyazlz/sheetnext",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin",
+      "status": "candidate",
+      "text": "First-pass data analysis toolkit for Claude Code. Point it at a CSV, Parquet, or Excel file and get an initial impression \u2014 correlations, PII audit, anomalies, hypothesis checks, a data dictionary, or a trend narrative."
     }
   ],
   "candidate_related_terms": [],
@@ -622,11 +640,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "wyyazlz/sheetnext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Analyst-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hover-effects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "Detects the direction a user enters or leaves an element allowing you to reveal or hide content based on this direction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "```javascript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate",
+      "text": "```javascript"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hover-effects",
+  "concept_id": "hover-effects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hover-effects",
+      "sense_id": "hover-effects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

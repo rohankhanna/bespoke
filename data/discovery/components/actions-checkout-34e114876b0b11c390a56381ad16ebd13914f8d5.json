@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -1109,6 +1109,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/smoke.yml",
       "source_repo": "cognizant-ai-lab/neuro-san"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/algolia-crawler-config.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-identifier-extractor.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-b2-buckets.yaml",
+      "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve"
     }
   ]
 }

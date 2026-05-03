@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "pablerdo/zeptaframe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "kijai/comfyui-videonoisewarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "pablerdo/hexaframe-dark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Eyeline-Labs/Go-with-the-Flow",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "Eyeline-Labs/Go-with-the-Flow"
+}

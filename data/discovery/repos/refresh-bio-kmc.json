@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-hosted.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "refresh-bio/KMC",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "refresh-bio/KMC",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "refresh-bio/KMC",
+      "target": "GitHub Actions CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "refresh-bio/KMC",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "refresh-bio/KMC",
+      "target": "Self-hosted CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:16.164221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9294
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1637
+    },
+    {
+      "path": ".github/workflows/self-hosted.yml",
+      "size": 1910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and frugal disk based k-mer counter",
+    "fork": false,
+    "full_name": "refresh-bio/KMC",
+    "html_url": "https://github.com/refresh-bio/KMC",
+    "language": "C++",
+    "pushed_at": "2026-03-10T10:26:23Z",
+    "stargazers_count": 332,
+    "topics": [],
+    "updated_at": "2026-05-02T04:39:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "GitHub Actions CI"
+    },
+    {
+      "context_snippet": "Self-hosted CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "term": "Self-hosted CI"
+    }
+  ]
+}

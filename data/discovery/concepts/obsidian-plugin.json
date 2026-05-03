@@ -265,6 +265,54 @@
       "source_repo": "deathau/sliding-panes-obsidian",
       "status": "candidate-context",
       "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deathau/sliding-panes-obsidian?style=for-the-badge&sort=semver)](https://github.com/deathau/sliding-panes-obsidian/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "Materialize Todoist tasks in Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "![Sync with Todoist Plugin for Obsidian](./docs/static/img/social-card.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liamcain/obsidian-calendar-plugin",
+      "status": "candidate-context",
+      "text": "Simple calendar widget for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liamcain/obsidian-calendar-plugin",
+      "status": "candidate-context",
+      "text": "This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view for visualizing and navigating between your daily notes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate-context",
+      "text": "Create markdown-backed Kanban boards in Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate-context",
+      "text": "**The Kanban plugin is looking for new maintainers.** Interested? [Read more here.](https://github.com/mgmeyers/obsidian-kanban/blob/main/MAINTAINERS.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liamcain/obsidian-periodic-notes",
+      "status": "candidate-context",
+      "text": "Create/manage your daily, weekly, and monthly notes in Obsidian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liamcain/obsidian-periodic-notes",
+      "status": "candidate-context",
+      "text": "The Periodic Notes plugin expands on the idea of daily notes and introduces weekly and monthly notes."
     }
   ],
   "candidate_glosses": [
@@ -399,6 +447,30 @@
       "source_repo": "deathau/sliding-panes-obsidian",
       "status": "candidate",
       "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deathau/sliding-panes-obsidian?style=for-the-badge&sort=semver)](https://github.com/deathau/sliding-panes-obsidian/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate",
+      "text": "![Sync with Todoist Plugin for Obsidian](./docs/static/img/social-card.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liamcain/obsidian-calendar-plugin",
+      "status": "candidate",
+      "text": "This plugin for [Obsidian](https://obsidian.md/) creates a simple Calendar view for visualizing and navigating between your daily notes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate",
+      "text": "**The Kanban plugin is looking for new maintainers.** Interested? [Read more here.](https://github.com/mgmeyers/obsidian-kanban/blob/main/MAINTAINERS.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liamcain/obsidian-periodic-notes",
+      "status": "candidate",
+      "text": "The Periodic Notes plugin expands on the idea of daily notes and introduces weekly and monthly notes."
     }
   ],
   "candidate_related_terms": [],
@@ -580,11 +652,59 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "liamcain/obsidian-calendar-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-kanban"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "liamcain/obsidian-periodic-notes"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

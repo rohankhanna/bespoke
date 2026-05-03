@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TRI-ML/packnet-sfm",
+      "target": "tri-ml/vidar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:31.252824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TRI-ML Monocular Depth Estimation Repository",
+    "fork": false,
+    "full_name": "TRI-ML/packnet-sfm",
+    "html_url": "https://github.com/TRI-ML/packnet-sfm",
+    "language": "Python",
+    "pushed_at": "2023-07-16T22:02:53Z",
+    "stargazers_count": 1275,
+    "topics": [],
+    "updated_at": "2026-04-22T02:35:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/vidar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "gradle-dependency-submission",
   "observation_id": "51ee58bf6478adf3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Gradle Dependency Submission",
   "source_context_snippet": "Gradle Dependency Submission",
   "source_file": ".github/workflows/gradle-dependency-graph.yml",

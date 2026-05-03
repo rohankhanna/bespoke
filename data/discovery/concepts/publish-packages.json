@@ -140,6 +140,18 @@
       "source_repo": "ionide/tree-sitter-fsharp",
       "status": "candidate-context",
       "text": "Publish packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Storybook for React Native!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate-context",
+      "text": "Publish Packages"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +220,12 @@
       "source_repo": "ionide/tree-sitter-fsharp",
       "status": "candidate",
       "text": "Publish packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/react-native",
+      "status": "candidate",
+      "text": "Publish Packages"
     }
   ],
   "candidate_related_terms": [
@@ -317,11 +335,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "ionide/tree-sitter-fsharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "storybookjs/react-native"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

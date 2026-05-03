@@ -271,28 +271,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "databendlabs/openraft",
-      "target": "cnosdb/cnosdb",
+      "target": "yuyang0/rrqlite",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "databendlabs/openraft",
-      "target": "raymondshe/matchengine-raft",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "databendlabs/openraft",
-      "target": "helyim/helyim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "databendlabs/openraft",
-      "target": "robustmq/robustmq",
+      "target": "rqlite/rqlite",
       "target_type": "repository"
     },
     {
@@ -499,7 +485,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:08:05.225944+00:00",
+  "fetched_at": "2026-05-03T21:46:12.556530+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -551,34 +537,24 @@
     "full_name": "databendlabs/openraft",
     "html_url": "https://github.com/databendlabs/openraft",
     "language": "Rust",
-    "pushed_at": "2026-05-03T00:10:00Z",
-    "stargazers_count": 1895,
+    "pushed_at": "2026-05-03T16:23:25Z",
+    "stargazers_count": 1896,
     "topics": [
       "consensus",
       "distributed-systems",
       "raft"
     ],
-    "updated_at": "2026-05-01T07:23:37Z"
+    "updated_at": "2026-05-03T08:10:36Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cnosdb/cnosdb",
+      "full_name": "rqlite/rqlite",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "helyim/helyim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "raymondshe/matchengine-raft",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "robustmq/robustmq",
+      "full_name": "yuyang0/rrqlite",
       "source_file": "README.md"
     }
   ],

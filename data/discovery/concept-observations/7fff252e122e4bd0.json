@@ -84,7 +84,7 @@
   "normalized_form": "cleanup-caches-on-closed-prs",
   "observation_id": "7fff252e122e4bd0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Cleanup caches on closed PRs",
   "source_context_snippet": "Cleanup caches on closed PRs",
   "source_file": ".github/workflows/cleanup-cache.yml",

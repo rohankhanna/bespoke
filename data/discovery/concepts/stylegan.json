@@ -73,6 +73,30 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "StyleFlow: Attribute-conditioned Exploration of StyleGAN-generated Images using  Conditional Continuous Normalizing Flows (ACM TOG 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement\" (ICCV 2021) https://arxiv.org/abs/2104.02699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate-context",
+      "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +135,18 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RameenAbdal/StyleFlow",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/restyle-encoder",
+      "status": "candidate",
+      "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +226,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rinongal/StyleGAN-nada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "RameenAbdal/StyleFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/restyle-encoder"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

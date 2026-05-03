@@ -643,6 +643,30 @@
       "source_repo": "JuliaImages/Images.jl",
       "status": "candidate-context",
       "text": "[![][action-img]][action-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate-context",
+      "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For JuliaImages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate-context",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
     }
   ],
   "candidate_glosses": [
@@ -963,6 +987,18 @@
       "source_repo": "JuliaImages/Images.jl",
       "status": "candidate",
       "text": "[![][action-img]][action-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate",
+      "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/juliaimages.github.io",
+      "status": "candidate",
+      "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
     }
   ],
   "candidate_related_terms": [],
@@ -1498,11 +1534,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaImages/Images.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImages/juliaimages.github.io"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

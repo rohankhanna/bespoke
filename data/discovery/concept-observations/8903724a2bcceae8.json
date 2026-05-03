@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Not UFO in the sky, but an ultra fold in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032169,
+      "status": "candidate",
+      "text": "fold up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031968,
+      "status": "candidate",
+      "text": "plication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028748,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026796,
+      "status": "candidate",
+      "text": "flexure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023330,
+      "status": "candidate",
+      "text": "pen up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fold",
+      "sense_id": "fold#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28039,
+      "status": "candidate",
+      "text": "congregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17053,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14049,
+      "status": "candidate",
+      "text": "crimp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11052,
+      "status": "candidate",
+      "text": "crease"
+    }
+  ],
+  "concept_id": "fold",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fold",
+  "observation_id": "8903724a2bcceae8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "fold",
+  "source_context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+  "source_file": null,
+  "source_repo": "kevinhwang91/nvim-ufo",
+  "source_repo_description": "Not UFO in the sky, but an ultra fold in Neovim."
+}

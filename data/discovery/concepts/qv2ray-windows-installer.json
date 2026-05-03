@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Qv2ray Windows Installer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Qv2ray/Qv2ray",
+      "status": "candidate-context",
+      "text": ":star: Linux / Windows / macOS \u8de8\u5e73\u53f0 V2Ray \u5ba2\u6237\u7aef | \u652f\u6301 VMess / VLESS / SSR / Trojan / Trojan-Go / NaiveProxy / HTTP / HTTPS / SOCKS5 | \u4f7f\u7528 C++ / Qt \u5f00\u53d1 | \u53ef\u62d3\u5c55\u63d2\u4ef6\u5f0f\u8bbe\u8ba1 :star:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Qv2ray/Qv2ray",
+      "status": "candidate-context",
+      "text": "Qv2ray Windows Installer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Qv2ray/Qv2ray",
+      "status": "candidate",
+      "text": "Qv2ray Windows Installer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "clerestory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "glaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "glazier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "leaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "msn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Qv2ray Windows Installer",
+  "concept_id": "qv2ray-windows-installer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Qv2ray Windows Installer",
+      "sense_id": "qv2ray-windows-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -375,6 +375,18 @@
       "source_repo": "JetBrains/intellij-ui-test-robot",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Web Streams, based on the WHATWG spec reference implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate-context",
+      "text": "Publish release"
     }
   ],
   "candidate_glosses": [
@@ -563,6 +575,12 @@
       "source_repo": "JetBrains/intellij-ui-test-robot",
       "status": "candidate",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MattiasBuelens/web-streams-polyfill",
+      "status": "candidate",
+      "text": "Publish release"
     }
   ],
   "candidate_related_terms": [
@@ -900,11 +918,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "sanic-org/sanic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "MattiasBuelens/web-streams-polyfill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "davatorium/rofi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

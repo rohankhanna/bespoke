@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017034,
+      "status": "candidate",
+      "text": "unconditioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016737,
+      "status": "candidate",
+      "text": "unconditional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016315,
+      "status": "candidate",
+      "text": "unquestioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016301,
+      "status": "candidate",
+      "text": "undiluted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016286,
+      "status": "candidate",
+      "text": "unmixed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "absolute",
+      "sense_id": "absolute#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46041,
+      "status": "candidate",
+      "text": "implicit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36036,
+      "status": "candidate",
+      "text": "unequivocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35052,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35048,
+      "status": "candidate",
+      "text": "arbitrary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30032,
+      "status": "candidate",
+      "text": "inviolable"
+    }
+  ],
+  "concept_id": "absolute",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "absolute",
+  "observation_id": "188249324dfb722b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "absolute",
+  "source_context_snippet": "<h1 align=\"center\">typescript-transform-paths</h1>",
+  "source_file": null,
+  "source_repo": "LeDDGroup/typescript-transform-paths",
+  "source_repo_description": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+}

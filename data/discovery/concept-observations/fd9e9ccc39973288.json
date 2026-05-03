@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MONAI Model Zoo that hosts models in the MONAI Bundle format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "update-model-info"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "update-model-info"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update-model-info",
+      "sense_id": "update-model-info#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-model-info",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-model-info",
+  "observation_id": "fd9e9ccc39973288",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "update-model-info",
+  "source_context_snippet": "update-model-info",
+  "source_file": ".github/workflows/update-model-info.yml",
+  "source_repo": "Project-MONAI/model-zoo",
+  "source_repo_description": "MONAI Model Zoo that hosts models in the MONAI Bundle format."
+}

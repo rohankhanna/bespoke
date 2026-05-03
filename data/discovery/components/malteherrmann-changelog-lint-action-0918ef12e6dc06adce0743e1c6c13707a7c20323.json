@@ -1,0 +1,12 @@
+{
+  "component": "MalteHerrmann/changelog-lint-action@0918ef12e6dc06adce0743e1c6c13707a7c20323",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "evmos/os"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

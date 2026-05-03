@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js-light",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js-light",
+      "target": "bigdecimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js-light",
+      "target": "bignumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js-light",
+      "target": "significant-digits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:35:22.462781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3492
+    },
+    {
+      "path": "package.json",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The light version of decimal.js, an arbitrary-precision Decimal type for JavaScript.",
+    "fork": false,
+    "full_name": "MikeMcl/decimal.js-light",
+    "html_url": "https://github.com/MikeMcl/decimal.js-light",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-24T06:36:44Z",
+    "stargazers_count": 407,
+    "topics": [
+      "arbitrary-precision",
+      "bigdecimal",
+      "bignumber",
+      "javascript",
+      "significant-digits"
+    ],
+    "updated_at": "2026-04-08T06:35:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![decimal.js-light](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/decimaljslight.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "![decimal.js-light](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/decimaljslight.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigdecimal"
+    },
+    {
+      "context_snippet": "![decimal.js-light](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/decimaljslight.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bignumber"
+    },
+    {
+      "context_snippet": "![decimal.js-light](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/decimaljslight.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "significant-digits"
+    }
+  ]
+}

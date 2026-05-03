@@ -151,6 +151,18 @@
       "source_repo": "Canjie-Luo/MORAN_v2",
       "status": "candidate-context",
       "text": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/DALLE-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation / replication of DALL-E, OpenAI's Text to Image Transformer, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE-pytorch",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Canjie-Luo/MORAN_v2",
       "status": "candidate",
       "text": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE-pytorch",
+      "status": "candidate",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +328,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Canjie-Luo/MORAN_v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/DALLE-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

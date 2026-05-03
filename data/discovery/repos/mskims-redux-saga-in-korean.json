@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gitbook-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gitbook-plugin-edit-link",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gitbook-plugin-ga",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "gitbook-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "gitbook-plugin-edit-link",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "gitbook-plugin-ga",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "gitbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "korean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "redux-saga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mskims/redux-saga-in-korean",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:29:13.850181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 813
+    },
+    {
+      "path": "package.json",
+      "size": 844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "redux-saga \uacf5\uc2dd\ubb38\uc11c\uc758 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud504\ub85c\uc81d\ud2b8.",
+    "fork": false,
+    "full_name": "mskims/redux-saga-in-korean",
+    "html_url": "https://github.com/mskims/redux-saga-in-korean",
+    "language": "Shell",
+    "pushed_at": "2021-09-04T05:11:17Z",
+    "stargazers_count": 71,
+    "topics": [
+      "gitbook",
+      "korean",
+      "redux-saga",
+      "translation"
+    ],
+    "updated_at": "2026-01-01T12:42:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitbook"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "korean"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux-saga"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mskims/redux-saga-in-korean.svg?branch=master)](https://travis-ci.org/mskims/redux-saga-in-korean)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

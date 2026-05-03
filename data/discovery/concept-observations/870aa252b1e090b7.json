@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The agent engineering platform"
+      "text": "The agent engineering platform. Available in TypeScript!"
     },
     {
       "source_kind": "source-snippet",
@@ -48,10 +48,10 @@
   "normalized_form": "generative-ai",
   "observation_id": "870aa252b1e090b7",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "generative-ai",
   "source_context_snippet": "<div align=\"center\">",
   "source_file": null,
   "source_repo": "langchain-ai/langchain",
-  "source_repo_description": "The agent engineering platform"
+  "source_repo_description": "The agent engineering platform. Available in TypeScript!"
 }

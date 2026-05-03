@@ -48,7 +48,7 @@
   "normalized_form": "lung-ultrasound",
   "observation_id": "f99e4758f613c271",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "lung-ultrasound",
   "source_context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
   "source_file": null,

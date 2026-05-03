@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/blazer-dev",
+      "target": "ankane/movielens.sql",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:33:21.365606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dev app for Blazer",
+    "fork": false,
+    "full_name": "ankane/blazer-dev",
+    "html_url": "https://github.com/ankane/blazer-dev",
+    "language": "HTML",
+    "pushed_at": "2026-04-24T17:12:33Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-24T17:12:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/movielens.sql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

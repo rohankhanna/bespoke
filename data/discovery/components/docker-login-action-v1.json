@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -497,6 +497,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "TRI-ML/dgp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly-build.yml",
+      "source_repo": "p4gefau1t/trojan-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart_update_on_merge.yml",
+      "source_repo": "broadinstitute/cromwell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_community_cromwell.yml",
+      "source_repo": "broadinstitute/cromwell"
     }
   ]
 }

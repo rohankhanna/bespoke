@@ -721,6 +721,18 @@
       "source_repo": "aaronjensen/eslintd-fix",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate-context",
+      "text": "Unbundled Emacs configuration aimed at Clojure developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
     }
   ],
   "candidate_glosses": [
@@ -1083,6 +1095,12 @@
       "source_repo": "aaronjensen/eslintd-fix",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corgi-emacs/corgi",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
     }
   ],
   "candidate_related_terms": [
@@ -1540,11 +1558,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "corgi-emacs/corgi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

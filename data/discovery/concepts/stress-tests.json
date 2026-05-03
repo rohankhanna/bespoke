@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stress Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "\ud83d\ude95 Turn stories into executable tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "Stress Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate",
+      "text": "Stress Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73113,
+      "status": "candidate",
+      "text": "stressors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73112,
+      "status": "candidate",
+      "text": "stressor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73111,
+      "status": "candidate",
+      "text": "stresses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73110,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73109,
+      "status": "candidate",
+      "text": "regression testing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stress Tests",
+  "concept_id": "stress-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/stress-test.yml",
+      "source_repo": "storybookjs/test-runner"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stress Tests",
+      "sense_id": "stress-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

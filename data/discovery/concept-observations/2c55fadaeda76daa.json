@@ -84,7 +84,7 @@
   "normalized_form": "sync-theme-to-readmes",
   "observation_id": "2c55fadaeda76daa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Sync Theme to READMEs",
   "source_context_snippet": "Sync Theme to READMEs",
   "source_file": ".github/workflows/sync-theme-to-readme.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Boost Shortest Path Algorithm Performance using Proper Data Structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "label-correcting-algorithms",
+      "sense_id": "label-correcting-algorithms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-correcting-algorithms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-correcting-algorithms",
+  "observation_id": "10f8e62dea111c9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "label-correcting-algorithms",
+  "source_context_snippet": "This project will concentrate on the modified label correcting (MLC) algorithm and its three special implementations, and demonstrate how to boost their",
+  "source_file": null,
+  "source_repo": "jdlph/shortest-path-algorithms",
+  "source_repo_description": "Boost Shortest Path Algorithm Performance using Proper Data Structures"
+}

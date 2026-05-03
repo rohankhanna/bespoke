@@ -1411,6 +1411,90 @@
       "source_repo": "cnosdb/cnosdb",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "Official Microsoft repository for SQL Server in Docker resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate-context",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate-context",
+      "text": " Ergonomic bindings to duckdb for Rust "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/duckdb.svg)](https://crates.io/crates/duckdb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate-context",
+      "text": "Embedded property graph database built for speed. Vector search and full-text search built in. Implements Cypher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "Flyway by Redgate \u2022 Database Migrations Made Easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate-context",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risinglightdb/risinglight",
+      "status": "candidate-context",
+      "text": "An educational OLAP database system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risinglightdb/risinglight",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/risinglightdb/risinglight/workflows/CI/badge.svg?branch=main)](https://github.com/risinglightdb/risinglight/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate-context",
+      "text": "The lightweight, fault-tolerant database built on SQLite. Designed to keep your data highly available with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate-context",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2115,6 +2199,48 @@
       "source_repo": "cnosdb/cnosdb",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mssql-docker",
+      "status": "candidate",
+      "text": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb-rs",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/duckdb.svg)](https://crates.io/crates/duckdb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuzudb/kuzu",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway",
+      "status": "candidate",
+      "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risinglightdb/risinglight",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/risinglightdb/risinglight/workflows/CI/badge.svg?branch=main)](https://github.com/risinglightdb/risinglight/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "status": "candidate",
+      "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3220,11 +3346,95 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kuzudb/kuzu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "risinglightdb/risinglight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rqlite/rqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -172,6 +172,18 @@
       "source_repo": "gafniguy/4D-Facial-Avatars",
       "status": "candidate-context",
       "text": "pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "Pages"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +270,12 @@
       "source_repo": "gafniguy/4D-Facial-Avatars",
       "status": "candidate",
       "text": "pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "Pages"
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +403,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "gafniguy/4D-Facial-Avatars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "TakWolf/fusion-pixel-font"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "facebook/Rapid"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

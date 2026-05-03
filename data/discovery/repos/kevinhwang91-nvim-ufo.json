@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "fold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:34:28.915641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15878
+    },
+    {
+      "path": "package.json",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Not UFO in the sky, but an ultra fold in Neovim.",
+    "fork": false,
+    "full_name": "kevinhwang91/nvim-ufo",
+    "html_url": "https://github.com/kevinhwang91/nvim-ufo",
+    "language": "Lua",
+    "pushed_at": "2026-01-11T10:47:32Z",
+    "stargazers_count": 2911,
+    "topics": [
+      "fold",
+      "lsp",
+      "lua",
+      "neovim",
+      "neovim-lua",
+      "neovim-plugin",
+      "nvim"
+    ],
+    "updated_at": "2026-05-01T15:22:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fold"
+    },
+    {
+      "context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "Heapy/awesome-kotlin",
       "status": "candidate-context",
       "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate-context",
+      "text": "Reactor Kotlin Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/reactor/reactor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reactor/reactor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Heapy/awesome-kotlin",
       "status": "candidate",
       "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-kotlin-extensions",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/reactor/reactor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reactor/reactor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Heapy/awesome-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "reactor/reactor-kotlin-extensions"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

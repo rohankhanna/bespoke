@@ -641,6 +641,42 @@
       "source_repo": "ajevans99/swift-json-schema",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/GraphRecipes.jl",
+      "status": "candidate-context",
+      "text": "Graph-related recipes to be used with Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/GraphRecipes.jl",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajevans99/swift-mcp-toolkit",
+      "status": "candidate-context",
+      "text": "Strongly typed MCP tools in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajevans99/swift-mcp-toolkit",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate-context",
+      "text": "A library for turning nebulous data into well-structured data, with a focus on composition, performance, generality, and ergonomics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -959,6 +995,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ajevans99/swift-json-schema",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/GraphRecipes.jl",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajevans99/swift-mcp-toolkit",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-parsing",
       "status": "candidate",
       "text": "Format"
     }
@@ -1723,11 +1777,53 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "JuliaPlots/GraphRecipes.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ajevans99/swift-mcp-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pointfreeco/swift-parsing"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

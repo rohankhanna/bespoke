@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "target": "petit-abba/magisk-modules-template-ge20.4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "target": "magisk-module",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:33:03.337657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Magisk module template to systemlessly replace system fonts. Supports CJK Fonts. \u7528\u4e8e\u5236\u4f5c\u5b57\u4f53\u6a21\u5757\u7684 Magisk \u6a21\u5757\u6a21\u677f\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u5b57\u4f53\u7684\u66ff\u6362\u3002",
+    "fork": false,
+    "full_name": "lxgw/simple-cjk-font-magisk-module-template",
+    "html_url": "https://github.com/lxgw/simple-cjk-font-magisk-module-template",
+    "language": "Shell",
+    "pushed_at": "2023-01-20T04:15:48Z",
+    "stargazers_count": 249,
+    "topics": [
+      "android",
+      "font",
+      "magisk-module"
+    ],
+    "updated_at": "2026-04-24T11:51:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petit-abba/magisk-modules-template-ge20.4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **\u91cd\u8981\u63d0\u9192\uff1a**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "> **\u91cd\u8981\u63d0\u9192\uff1a**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "> **\u91cd\u8981\u63d0\u9192\uff1a**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magisk-module"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/removert",
+      "target": "gisbi-kim/sc-lio-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/removert",
+      "target": "gisbi-kim/sc-a-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/removert",
+      "target": "irapkaist/removert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:31:20.741820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Remove then revert (IROS 2020) ",
+    "fork": false,
+    "full_name": "gisbi-kim/removert",
+    "html_url": "https://github.com/gisbi-kim/removert",
+    "language": "C++",
+    "pushed_at": "2026-04-25T22:50:25Z",
+    "stargazers_count": 634,
+    "topics": [],
+    "updated_at": "2026-04-25T14:24:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gisbi-kim/sc-a-loam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gisbi-kim/sc-lio-sam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/removert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

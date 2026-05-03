@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review/post@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review/upload@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "conda-forge/xeus-cpp-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "compiler-research/cppinterop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_labeller_new_issue.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "Label issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "ZedThree/clang-tidy-review/post@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "Post clang-tidy review comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "ZedThree/clang-tidy-review@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "ZedThree/clang-tidy-review/upload@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "clang-tidy-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/xeus-cpp",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:30:15.599591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9665
+    },
+    {
+      "path": ".github/workflows/auto_labeller_new_issue.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 2046
+    },
+    {
+      "path": ".github/workflows/clang-tidy-review-post.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/clang-tidy-review.yml",
+      "size": 1916
+    },
+    {
+      "path": ".github/workflows/deploy-github-page.yml",
+      "size": 6963
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 15242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jupyter kernel for the C++ programming language",
+    "fork": false,
+    "full_name": "compiler-research/xeus-cpp",
+    "html_url": "https://github.com/compiler-research/xeus-cpp",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T08:55:07Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-04-30T08:55:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compiler-research/cppinterop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/xeus-cpp-feedstock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Label issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_labeller_new_issue.yml",
+      "term": "Label issues"
+    },
+    {
+      "context_snippet": "clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "Post clang-tidy review comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "term": "Post clang-tidy review comments"
+    },
+    {
+      "context_snippet": "clang-tidy-review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "term": "clang-tidy-review"
+    },
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "term": "Build and Deploy"
+    }
+  ]
+}

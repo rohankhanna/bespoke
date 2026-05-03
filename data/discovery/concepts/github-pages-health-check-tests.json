@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GitHub Pages Health Check Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/pages-health-check",
+      "status": "candidate-context",
+      "text": "Checks your GitHub Pages site for common DNS configuration issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-health-check",
+      "status": "candidate-context",
+      "text": "\"GitHub Pages Health Check Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-health-check",
+      "status": "candidate",
+      "text": "\"GitHub Pages Health Check Tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33492,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33092,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33092,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28153,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28125,
+      "status": "candidate",
+      "text": "dummy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GitHub Pages Health Check Tests",
+  "concept_id": "github-pages-health-check-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/push-cibuild.yml",
+      "source_repo": "github/pages-health-check"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Pages Health Check Tests",
+      "sense_id": "github-pages-health-check-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

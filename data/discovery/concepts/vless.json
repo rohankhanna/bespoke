@@ -79,6 +79,42 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate-context",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "A platform for building proxies to bypass network restrictions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/REALITY",
+      "status": "candidate-context",
+      "text": "THE NEXT FUTURE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/REALITY",
+      "status": "candidate-context",
+      "text": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/Xray-install",
+      "status": "candidate-context",
+      "text": "Easiest way to install & upgrade Xray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-install",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_zh-Hans.md) | [\u7e41\u9ad4\u4e2d\u6587](README_zh-Hant.md)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "LorenEteval/Furious",
       "status": "candidate",
       "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-core",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/REALITY",
+      "status": "candidate",
+      "text": "Server side implementation of REALITY protocol, a fork of package tls in latest [Go](https://github.com/golang/go/tree/master/src/crypto/tls)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-install",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_zh-Hans.md) | [\u7e41\u9ad4\u4e2d\u6587](README_zh-Hant.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "LorenEteval/Furious"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/REALITY"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-install"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

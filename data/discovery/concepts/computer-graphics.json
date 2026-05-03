@@ -421,6 +421,18 @@
       "source_repo": "karimnaaji/voxelizer",
       "status": "candidate-context",
       "text": "_Header only mesh voxelizer in ANSI C_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Anycost GANs for Interactive Image Synthesis and Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate-context",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
     }
   ],
   "candidate_glosses": [
@@ -633,6 +645,12 @@
       "source_repo": "karimnaaji/voxelizer",
       "status": "candidate",
       "text": "_Header only mesh voxelizer in ANSI C_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/anycost-gan",
+      "status": "candidate",
+      "text": "[Anycost GANs for Interactive Image Synthesis and Editing](https://arxiv.org/abs/2103.03243)"
     }
   ],
   "candidate_related_terms": [],
@@ -910,11 +928,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "karimnaaji/voxelizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/anycost-gan"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

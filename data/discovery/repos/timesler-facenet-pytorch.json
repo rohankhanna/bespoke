@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "davidsandberg/facenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "timesler/docker-jupyter-dl-gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "face-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "face-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "facial-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "inception-resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "mtcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch",
+      "target": "resnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:59.671723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11357
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models",
+    "fork": false,
+    "full_name": "timesler/facenet-pytorch",
+    "html_url": "https://github.com/timesler/facenet-pytorch",
+    "language": "Python",
+    "pushed_at": "2025-09-16T22:04:42Z",
+    "stargazers_count": 5145,
+    "topics": [
+      "face-detection",
+      "face-identification",
+      "face-recognition",
+      "face-tracking",
+      "facial-recognition",
+      "inception-resnet",
+      "mtcnn",
+      "pretrained-models",
+      "pytorch",
+      "resnet"
+    ],
+    "updated_at": "2026-05-02T17:09:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidsandberg/facenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timesler/docker-jupyter-dl-gpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-identification"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-tracking"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-recognition"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception-resnet"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mtcnn"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    }
+  ]
+}

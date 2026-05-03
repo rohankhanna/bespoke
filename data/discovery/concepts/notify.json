@@ -70,6 +70,18 @@
       "source_repo": "box/box-openapi",
       "status": "candidate-context",
       "text": "Notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate-context",
+      "text": "Sends native desktop notifications if CLI apps fail"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate-context",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
     }
   ],
   "candidate_glosses": [
@@ -108,6 +120,12 @@
       "source_repo": "box/box-openapi",
       "status": "candidate",
       "text": "Notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +241,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/notify.yml",
       "source_repo": "box/box-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

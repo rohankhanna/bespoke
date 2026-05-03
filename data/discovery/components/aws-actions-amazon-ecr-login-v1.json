@@ -1,12 +1,17 @@
 {
   "component": "aws-actions/amazon-ecr-login@v1",
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "aws-cloudformation/aws-guard-rules-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/indexer-build-and-push-lambda.yml",
+      "source_repo": "dydxprotocol/v4-chain"
     }
   ]
 }

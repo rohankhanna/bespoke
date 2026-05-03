@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "montaellis/pytorch-medical-classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "fepegar/highresnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "black0017/medicalzoopytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "fepegar/torchio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "medical-image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MontaEllis/Pytorch-Medical-Segmentation",
+      "target": "torchio",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "MontaEllis/Pytorch-Medical-Segmentation"
+}

@@ -103,6 +103,18 @@
       "source_repo": "cvg/nice-slam",
       "status": "candidate-context",
       "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate-context",
+      "text": "Surfel-based Mapping for 3d Laser Range Data (SuMa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate-context",
+      "text": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "cvg/nice-slam",
       "status": "candidate",
       "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbehley/SuMa",
+      "status": "candidate",
+      "text": "Mapping of 3d laser range data from a rotating laser range scanner, e.g., the Velodyne HDL-64E."
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cvg/nice-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jbehley/SuMa"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

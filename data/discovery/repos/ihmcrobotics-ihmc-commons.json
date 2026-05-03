@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-commons",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "source_repo": "ihmcrobotics/ihmc-commons",
+      "target": "Gradle test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:38:58.751095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2227
+    },
+    {
+      "path": ".github/workflows/gradle-test.yml",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Useful tools and utilities that extend Java, Apache Commons Lang, and Apache Commons IO to make them a little more accessible and non-intrusive.",
+    "fork": false,
+    "full_name": "ihmcrobotics/ihmc-commons",
+    "html_url": "https://github.com/ihmcrobotics/ihmc-commons",
+    "language": "Java",
+    "pushed_at": "2025-10-03T16:19:43Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-03T16:19:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gradle test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yml",
+      "term": "Gradle test"
+    }
+  ]
+}

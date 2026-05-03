@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iaolo/iA-Fonts",
+      "target": "ibm/type",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:26:17.988868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Free variable writing fonts from iA",
+    "fork": false,
+    "full_name": "iaolo/iA-Fonts",
+    "html_url": "https://github.com/iaolo/iA-Fonts",
+    "language": null,
+    "pushed_at": "2023-06-16T16:21:57Z",
+    "stargazers_count": 4066,
+    "topics": [],
+    "updated_at": "2026-05-02T08:14:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm/type",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

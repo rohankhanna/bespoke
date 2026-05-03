@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">typescript-transform-paths</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037723,
+      "status": "candidate",
+      "text": "comparative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035455,
+      "status": "candidate",
+      "text": "proportionate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034850,
+      "status": "candidate",
+      "text": "relational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031741,
+      "status": "candidate",
+      "text": "relation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030148,
+      "status": "candidate",
+      "text": "qualifying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "relative",
+      "sense_id": "relative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25052,
+      "status": "candidate",
+      "text": "relation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8040,
+      "status": "candidate",
+      "text": "comparative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8030,
+      "status": "candidate",
+      "text": "relational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "proportionate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "congener"
+    }
+  ],
+  "concept_id": "relative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "relative",
+  "observation_id": "7d5ef63a36ad71a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "relative",
+  "source_context_snippet": "<h1 align=\"center\">typescript-transform-paths</h1>",
+  "source_file": null,
+  "source_repo": "LeDDGroup/typescript-transform-paths",
+  "source_repo_description": "Transforms module resolution paths using TypeScript path mapping and/or custom paths"
+}

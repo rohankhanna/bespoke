@@ -175,6 +175,18 @@
       "source_repo": "MarkFzp/mobile-aloha",
       "status": "candidate-context",
       "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate-context",
+      "text": "Imitation learning algorithms with Co-training for Mobile ALOHA: ACT, Diffusion Policy, VINN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate-context",
+      "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "MarkFzp/mobile-aloha",
       "status": "candidate",
       "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/act-plus-plus",
+      "status": "candidate",
+      "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +418,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "MarkFzp/mobile-aloha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "hk-zh/spil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MarkFzp/act-plus-plus"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

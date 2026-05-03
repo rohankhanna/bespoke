@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/motorica-retarget",
+      "target": "orangeduck/zeroeggs-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/motorica-retarget",
+      "target": "orangeduck/interact-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/motorica-retarget",
+      "target": "orangeduck/genoview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/motorica-retarget",
+      "target": "orangeduck/genoviewpython",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:40:12.039385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Retargeting of the Motorica Dance dataset onto a common skeleton",
+    "fork": false,
+    "full_name": "orangeduck/motorica-retarget",
+    "html_url": "https://github.com/orangeduck/motorica-retarget",
+    "language": "Python",
+    "pushed_at": "2025-09-16T23:50:32Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-15T05:28:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/genoview",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/genoviewpython",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/interact-retarget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/zeroeggs-retarget",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

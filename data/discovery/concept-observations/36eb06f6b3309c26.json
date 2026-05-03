@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cjk-fonts",
+      "sense_id": "cjk-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cjk-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cjk-fonts",
+  "observation_id": "36eb06f6b3309c26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "cjk-fonts",
+  "source_context_snippet": "![Logo](docs/logo@2x.png)",
+  "source_file": null,
+  "source_repo": "TakWolf/fusion-pixel-font",
+  "source_repo_description": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+}

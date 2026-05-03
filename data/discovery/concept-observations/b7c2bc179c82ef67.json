@@ -48,7 +48,7 @@
   "normalized_form": "kind-perf-e2e",
   "observation_id": "b7c2bc179c82ef67",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "kind-perf-e2e",
   "source_context_snippet": "kind-perf-e2e",
   "source_file": ".github/workflows/kind-perf-e2e.yaml",

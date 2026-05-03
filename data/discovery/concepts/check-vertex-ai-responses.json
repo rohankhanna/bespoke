@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Vertex AI Responses"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Javascript SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate-context",
+      "text": "Check Vertex AI Responses"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-js-sdk",
+      "status": "candidate",
+      "text": "Check Vertex AI Responses"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18200,
+      "status": "candidate",
+      "text": "centrality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18193,
+      "status": "candidate",
+      "text": "cardioinhibitory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17825,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17825,
+      "status": "candidate",
+      "text": "trouble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17825,
+      "status": "candidate",
+      "text": "troubled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Vertex AI Responses",
+  "concept_id": "check-vertex-ai-responses",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/check-vertexai-responses.yml",
+      "source_repo": "firebase/firebase-js-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Vertex AI Responses",
+      "sense_id": "check-vertex-ai-responses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

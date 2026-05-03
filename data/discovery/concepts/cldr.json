@@ -19,6 +19,18 @@
       "source_repo": "unicode-org/icu4x",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate-context",
+      "text": "The home of the Unicode Common Locale Data Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate-context",
+      "text": "For current CLDR release information, see [cldr.unicode.org](https://cldr.unicode.org/index/downloads/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "unicode-org/icu4x",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/cldr",
+      "status": "candidate",
+      "text": "For current CLDR release information, see [cldr.unicode.org](https://cldr.unicode.org/index/downloads/)."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/cldr"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

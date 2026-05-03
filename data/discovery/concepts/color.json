@@ -193,6 +193,30 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate-context",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": ":clapper: Colorful animations in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": ":rainbow:  Beautiful color gradients in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +315,18 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +586,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rose-pine/rose-pine-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/chalk-animation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-string"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-palette"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

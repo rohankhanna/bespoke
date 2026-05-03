@@ -7,16 +7,9 @@
       "source_repo": "EarlhamInst/KAT",
       "target": "tgac/kat",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EarlhamInst/KAT",
-      "target": "gmarcais/jellyfish",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T14:44:56.921200+00:00",
+  "fetched_at": "2026-05-03T21:50:25.116434+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -38,11 +31,6 @@
     "updated_at": "2026-04-20T11:55:10Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gmarcais/jellyfish",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tgac/kat",

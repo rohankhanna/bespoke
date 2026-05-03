@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "haya14busa/vim-asterisk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "kevinhwang91/nvim-ufo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "mg979/vim-visual-multi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:25:51.417229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hlsearch Lens for Neovim",
+    "fork": false,
+    "full_name": "kevinhwang91/nvim-hlslens",
+    "html_url": "https://github.com/kevinhwang91/nvim-hlslens",
+    "language": "Lua",
+    "pushed_at": "2026-01-11T07:17:56Z",
+    "stargazers_count": 901,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-lua",
+      "neovim-plugin",
+      "nvim"
+    ],
+    "updated_at": "2026-04-28T05:26:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haya14busa/vim-asterisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kevinhwang91/nvim-ufo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mg979/vim-visual-multi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

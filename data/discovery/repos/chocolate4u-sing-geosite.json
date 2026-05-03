@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:42:58.437100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 98
+    },
+    {
+      "path": "go.mod",
+      "size": 774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "Chocolate4U/sing-geosite",
+    "html_url": "https://github.com/Chocolate4U/sing-geosite",
+    "language": "Go",
+    "pushed_at": "2024-01-08T07:14:11Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-25T03:36:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

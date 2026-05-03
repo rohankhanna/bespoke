@@ -19,6 +19,18 @@
       "source_repo": "sindresorhus/modern-normalize",
       "status": "candidate-context",
       "text": "modern-normalize \u2014 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "necolas/normalize.css",
+      "status": "candidate-context",
+      "text": "A modern alternative to CSS resets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "necolas/normalize.css",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/necolas/normalize.css\"><img"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sindresorhus/modern-normalize",
       "status": "candidate",
       "text": "modern-normalize \u2014 Normalize browsers' default style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "necolas/normalize.css",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/necolas/normalize.css\"><img"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/modern-normalize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "necolas/normalize.css"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

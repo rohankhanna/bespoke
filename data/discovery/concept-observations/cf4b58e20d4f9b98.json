@@ -48,7 +48,7 @@
   "normalized_form": "ci-cd-base",
   "observation_id": "cf4b58e20d4f9b98",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "ci-cd-base",
   "source_context_snippet": "ci-cd-base",
   "source_file": ".github/workflows/base.yml",

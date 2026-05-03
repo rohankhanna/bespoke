@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "abishara/athena_meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "aquaskyline/lrsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10xgenomics/supernova",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10xgenomics/vartrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "10x-genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "johandahlberg/awesome-10x-genomics",
+      "target": "genomics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "johandahlberg/awesome-10x-genomics"
+}

@@ -1159,6 +1159,66 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/vim-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Vim Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/vim-markdown",
+      "status": "candidate-context",
+      "text": "[![Vint](https://github.com/preservim/vim-markdown/workflows/Vint/badge.svg)](https://github.com/preservim/vim-markdown/actions?workflow=Vint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "efemkay/obsidian-modular-css-layout",
+      "status": "candidate-context",
+      "text": "CSS Layout hack for Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "efemkay/obsidian-modular-css-layout",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate-context",
+      "text": "Zotero plugin that links your Markdown database to Zotero. Jump directly from Zotero Items to connected Markdown files. Automatically tags Zotero Items so you can easily see which papers you've made notes for."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnSundell/Ink",
+      "status": "candidate-context",
+      "text": "A fast and flexible Markdown parser written in Swift."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnSundell/Ink",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate-context",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
     }
   ],
   "candidate_glosses": [
@@ -1737,6 +1797,36 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/vim-markdown",
+      "status": "candidate",
+      "text": "[![Vint](https://github.com/preservim/vim-markdown/workflows/Vint/badge.svg)](https://github.com/preservim/vim-markdown/actions?workflow=Vint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "efemkay/obsidian-modular-css-layout",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/v/release/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/release-date/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/license/efemkay/obsidian-modular-css-layout) ![](https://img.shields.io/github/d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnSundell/Ink",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav",
+      "status": "candidate",
+      "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
     }
   ],
   "candidate_related_terms": [
@@ -2590,11 +2680,59 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "preservim/vim-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "efemkay/obsidian-modular-css-layout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "daeh/zotero-markdb-connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "JohnSundell/Ink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

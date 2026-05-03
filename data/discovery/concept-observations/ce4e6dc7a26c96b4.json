@@ -84,7 +84,7 @@
   "normalized_form": "contribution-triage---proposal-not-pursuing",
   "observation_id": "ce4e6dc7a26c96b4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Contribution triage - proposal not pursuing",
   "source_context_snippet": "Contribution triage - proposal not pursuing",
   "source_file": ".github/workflows/contribution-proposal-not-pursuing.yml",

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "svgo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Ximik/tex2svg",
+      "target": "svgo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Ximik/tex2svg",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:34:37.862504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3340
+    },
+    {
+      "path": "package.json",
+      "size": 812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compiles (La)TeX code to responsive SVGs",
+    "fork": false,
+    "full_name": "Ximik/tex2svg",
+    "html_url": "https://github.com/Ximik/tex2svg",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-28T20:28:21Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-06-12T11:17:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

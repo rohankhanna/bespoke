@@ -43,6 +43,30 @@
       "source_repo": "carbon-design-system/carbon-components-angular",
       "status": "candidate-context",
       "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibm-telemetry/telemetry-js",
+      "status": "candidate-context",
+      "text": "JavaScript telemetry tooling for open/inner source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibm-telemetry/telemetry-js",
+      "status": "candidate-context",
+      "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": ":bar_chart: :chart_with_upwards_trend:\u2800Robust dataviz framework implemented using D3 & typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate-context",
+      "text": "'DCO Assistant'"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate",
+      "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibm-telemetry/telemetry-js",
+      "status": "candidate",
+      "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-charts",
       "status": "candidate",
       "text": "'DCO Assistant'"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "ibm-telemetry/telemetry-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "carbon-design-system/carbon-charts"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

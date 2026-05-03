@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/opensrv",
+      "target": "datafuse-extras/async-compression",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/arrow-udf",
+      "target": "datafuse-extras/dtparse",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/async-backtrace",
+      "target": "datafuse-extras/logforth",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/sub-cache",
+      "target": "datafuse-extras/async-recursion",
       "target_type": "repository"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "databendlabs/databend"
 }

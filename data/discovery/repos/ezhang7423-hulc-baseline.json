@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ezhang7423/hulc-baseline",
+      "target": "lukashermann/hulc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ezhang7423/hulc-baseline",
+      "target": "mees/hulc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ezhang7423/hulc-baseline",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:36:52.155396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9112
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 287
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Forked from https://github.com/lukashermann/hulc/tree/fb14d5461ae54f919d52c0c30131b38f806ef8db with some modifications",
+    "fork": false,
+    "full_name": "ezhang7423/hulc-baseline",
+    "html_url": "https://github.com/ezhang7423/hulc-baseline",
+    "language": "Python",
+    "pushed_at": "2023-11-13T12:35:23Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-03-25T00:20:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukashermann/hulc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mees/hulc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

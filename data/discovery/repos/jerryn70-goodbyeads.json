@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jerryn70/GoodbyeAds",
+      "target": "blokadaorg/blokada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jerryn70/GoodbyeAds",
+      "target": "ch4t4r/nebulo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jerryn70/GoodbyeAds",
+      "target": "celzero/rethink-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jerryn70/GoodbyeAds",
+      "target": "2ndalpha/gasmask",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:57.404057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "jerryn70/GoodbyeAds",
+    "html_url": "https://github.com/jerryn70/GoodbyeAds",
+    "language": "Adblock Filter List",
+    "pushed_at": "2024-11-22T07:43:23Z",
+    "stargazers_count": 1429,
+    "topics": [],
+    "updated_at": "2026-05-03T11:20:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2ndalpha/gasmask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blokadaorg/blokada",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celzero/rethink-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ch4t4r/nebulo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

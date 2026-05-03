@@ -495,14 +495,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "carbon-design-system/carbon",
-      "target": "carbon-design-system/carbon-components-vue",
+      "target": "ibm/carbon-icons-svelte",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "carbon-design-system/carbon",
-      "target": "carbon-design-system/carbon-icons-angular",
+      "target": "carbon-design-system/carbon-website.",
       "target_type": "repository"
     },
     {
@@ -1024,7 +1024,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T12:41:43.568569+00:00",
+  "fetched_at": "2026-05-03T20:35:29.245546+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1076,8 +1076,8 @@
     "full_name": "carbon-design-system/carbon",
     "html_url": "https://github.com/carbon-design-system/carbon",
     "language": "JavaScript",
-    "pushed_at": "2026-05-02T14:26:53Z",
-    "stargazers_count": 9093,
+    "pushed_at": "2026-05-03T14:26:21Z",
+    "stargazers_count": 9094,
     "topics": [
       "design-system",
       "hacktoberfest",
@@ -1085,17 +1085,12 @@
       "react",
       "scss"
     ],
-    "updated_at": "2026-05-03T09:01:20Z"
+    "updated_at": "2026-05-03T17:12:54Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-components-vue",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-icons-angular",
+      "full_name": "carbon-design-system/carbon-website.",
       "source_file": "README.md"
     },
     {
@@ -1106,6 +1101,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ibm/carbon-components-svelte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm/carbon-icons-svelte",
       "source_file": "README.md"
     }
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "check-release-notes-in-the-description",
   "observation_id": "3d9ca5f38f3f5bf8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Check Release Notes in the description",
   "source_context_snippet": "Check Release Notes in the description",
   "source_file": ".github/workflows/check-release-notes.yml",

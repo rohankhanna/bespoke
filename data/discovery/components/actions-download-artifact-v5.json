@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v5",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -427,6 +427,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly-wheel-build.yaml",
       "source_repo": "scikit-image/scikit-image"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notarize.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "nicklockwood/SwiftFormat"
     }
   ]
 }

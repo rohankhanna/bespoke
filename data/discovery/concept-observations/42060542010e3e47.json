@@ -84,7 +84,7 @@
   "normalized_form": "linter",
   "observation_id": "42060542010e3e47",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "linter",
   "source_context_snippet": "This plugin provides [ALE](https://github.com/w0rp/ale) indicator for the [lightline](https://github.com/itchyny/lightline.vim) vim plugin.",
   "source_file": null,

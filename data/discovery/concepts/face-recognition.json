@@ -127,6 +127,18 @@
       "source_repo": "pion/mediadevices",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate-context",
+      "text": "Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate-context",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "pion/mediadevices",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timesler/facenet-pytorch",
+      "status": "candidate",
+      "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "timesler/facenet-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

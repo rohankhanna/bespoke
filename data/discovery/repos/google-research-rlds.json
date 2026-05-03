@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/rlds",
+      "target": "rail-berkeley/d4rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/rlds",
+      "target": "deepmind/deepmind-research",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:30.074590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/rlds",
+    "html_url": "https://github.com/google-research/rlds",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-26T16:40:01Z",
+    "stargazers_count": 481,
+    "topics": [],
+    "updated_at": "2026-05-02T08:00:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/deepmind-research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rail-berkeley/d4rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

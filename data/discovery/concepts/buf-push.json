@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Buf-Push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bianjieai/nft-transfer",
+      "status": "candidate-context",
+      "text": "ICS721 Golang Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/nft-transfer",
+      "status": "candidate-context",
+      "text": "Buf-Push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bianjieai/nft-transfer",
+      "status": "candidate",
+      "text": "Buf-Push"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Buf-Push",
+  "concept_id": "buf-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/proto-registry.yml",
+      "source_repo": "bianjieai/nft-transfer"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Buf-Push",
+      "sense_id": "buf-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -139,6 +139,18 @@
       "source_repo": "mmistakes/minimal-mistakes",
       "status": "candidate-context",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "A Jekyll plugin to cache the rendering of Liquid includes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "mmistakes/minimal-mistakes",
       "status": "candidate",
       "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +400,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "mmistakes/minimal-mistakes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-include-cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

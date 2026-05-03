@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_auto_response.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_auto_response.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_auto_response.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "florisboard/florisboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_auto_response.yml",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discussion_auto_response.yml",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discussion_auto_response.yml",
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "Auto Respond to App Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "apk-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "apk-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "app-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "foss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "github-apk-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "obtainium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "update-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/apps.obtainium.imranr.dev",
+      "target": "updater",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:28.705959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3010
+    },
+    {
+      "path": ".github/workflows/discussion_auto_response.yml",
+      "size": 3908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of suggested apps for Obtainium.",
+    "fork": false,
+    "full_name": "ImranR98/apps.obtainium.imranr.dev",
+    "html_url": "https://github.com/ImranR98/apps.obtainium.imranr.dev",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T04:20:01Z",
+    "stargazers_count": 496,
+    "topics": [
+      "android",
+      "apk",
+      "apk-update",
+      "apk-updater",
+      "app-updater",
+      "automation",
+      "foss",
+      "github",
+      "github-apk-updater",
+      "gitlab",
+      "obtainium",
+      "privacy",
+      "repository",
+      "security",
+      "update-checker",
+      "updater"
+    ],
+    "updated_at": "2026-05-03T07:20:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "florisboard/florisboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Respond to App Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discussion_auto_response.yml",
+      "term": "Auto Respond to App Requests"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apk-update"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apk-updater"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-updater"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foss"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-apk-updater"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obtainium"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "update-checker"
+    },
+    {
+      "context_snippet": "Crowdsourced App Configurations website for [Obtainium](https://github.com/ImranR98/Obtainium).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "updater"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vue-tsc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fi3ework/vite-plugin-checker",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Vite plugin that provide checks of TypeScript, ESLint, vue-tsc, Stylelint and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fi3ework/vite-plugin-checker",
+      "status": "candidate-context",
+      "text": "A Vite plugin that can run TypeScript, vue-tsc, ESLint, Biome, Stylelint in worker thread."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fi3ework/vite-plugin-checker",
+      "status": "candidate",
+      "text": "A Vite plugin that can run TypeScript, vue-tsc, ESLint, Biome, Stylelint in worker thread."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vue-tsc",
+  "concept_id": "vue-tsc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "fi3ework/vite-plugin-checker"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vue-tsc",
+      "sense_id": "vue-tsc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

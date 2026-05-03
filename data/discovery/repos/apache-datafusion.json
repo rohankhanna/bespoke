@@ -6,9 +6,39 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml"
+    },
+    {
+      "component": "taiki-e/install-action@94cb46f8d6e437890146ffbd78a778b78e623fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@909842216bc8e8658364c572ec52100f4c2cc50a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@909842216bc8e8658364c572ec52100f4c2cc50a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml"
     },
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -56,6 +86,16 @@
       "source_file": ".github/workflows/dev.yml"
     },
     {
+      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev.yml"
@@ -74,71 +114,9 @@
       "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docs_pr.yaml"
-    },
-    {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docs_pr.yaml"
-    },
-    {
-      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/datafusion",
-      "target": "apache/datafusion-comet",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
@@ -150,7 +128,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "apache/datafusion",
-      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "target_type": "component"
     },
     {
@@ -158,6 +136,55 @@
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "apache/datafusion",
       "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml",
+      "source_repo": "apache/datafusion",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml",
+      "source_repo": "apache/datafusion",
+      "target": "taiki-e/install-action@94cb46f8d6e437890146ffbd78a778b78e623fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector.yml",
+      "source_repo": "apache/datafusion",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking_changes_detector.yml",
+      "source_repo": "apache/datafusion",
+      "target": "Detect breaking changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml",
+      "source_repo": "apache/datafusion",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml",
+      "source_repo": "apache/datafusion",
+      "target": "actions-cool/maintain-one-comment@909842216bc8e8658364c572ec52100f4c2cc50a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml",
+      "source_repo": "apache/datafusion",
+      "target": "Detect breaking changes - Comment",
       "target_type": "term"
     },
     {
@@ -217,6 +244,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion",
+      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "apache/datafusion",
@@ -242,55 +276,6 @@
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "apache/datafusion",
       "target": "Deploy DataFusion site",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docs_pr.yaml",
-      "source_repo": "apache/datafusion",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docs_pr.yaml",
-      "source_repo": "apache/datafusion",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/docs_pr.yaml",
-      "source_repo": "apache/datafusion",
-      "target": "Docs",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml",
-      "source_repo": "apache/datafusion",
-      "target": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml",
-      "source_repo": "apache/datafusion",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/extended.yml",
-      "source_repo": "apache/datafusion",
-      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/extended.yml",
-      "source_repo": "apache/datafusion",
-      "target": "Datafusion extended tests",
       "target_type": "term"
     },
     {
@@ -343,7 +328,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:56:07.914200+00:00",
+  "fetched_at": "2026-05-03T21:45:59.794024+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,7 +336,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 11915
+      "size": 11933
     },
     {
       "path": "pyproject.toml",
@@ -359,7 +344,15 @@
     },
     {
       "path": ".github/workflows/audit.yml",
-      "size": 1650
+      "size": 1679
+    },
+    {
+      "path": ".github/workflows/breaking_changes_detector.yml",
+      "size": 6046
+    },
+    {
+      "path": ".github/workflows/breaking_changes_detector_comment.yml",
+      "size": 5572
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -367,23 +360,15 @@
     },
     {
       "path": ".github/workflows/dependencies.yml",
-      "size": 2159
+      "size": 2109
     },
     {
       "path": ".github/workflows/dev.yml",
-      "size": 2784
+      "size": 3427
     },
     {
       "path": ".github/workflows/docs.yaml",
-      "size": 2534
-    },
-    {
-      "path": ".github/workflows/docs_pr.yaml",
-      "size": 2030
-    },
-    {
-      "path": ".github/workflows/extended.yml",
-      "size": 7377
+      "size": 2573
     }
   ],
   "related_repositories": [],
@@ -395,8 +380,8 @@
     "full_name": "apache/datafusion",
     "html_url": "https://github.com/apache/datafusion",
     "language": "Rust",
-    "pushed_at": "2026-04-24T04:31:37Z",
-    "stargazers_count": 8637,
+    "pushed_at": "2026-05-03T18:00:26Z",
+    "stargazers_count": 8710,
     "topics": [
       "arrow",
       "big-data",
@@ -408,21 +393,27 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-04-24T04:53:09Z"
+    "updated_at": "2026-05-03T18:36:16Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/datafusion-comet",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Security audit",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "term": "Security audit"
+    },
+    {
+      "context_snippet": "\"Detect breaking changes\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking_changes_detector.yml",
+      "term": "Detect breaking changes"
+    },
+    {
+      "context_snippet": "\"Detect breaking changes - Comment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking_changes_detector_comment.yml",
+      "term": "Detect breaking changes - Comment"
     },
     {
       "context_snippet": "\"CodeQL\"",
@@ -447,18 +438,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docs.yaml",
       "term": "Deploy DataFusion site"
-    },
-    {
-      "context_snippet": "Docs",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/docs_pr.yaml",
-      "term": "Docs"
-    },
-    {
-      "context_snippet": "Datafusion extended tests",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/extended.yml",
-      "term": "Datafusion extended tests"
     },
     {
       "context_snippet": "<!---",

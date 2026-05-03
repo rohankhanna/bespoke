@@ -48,7 +48,7 @@
   "normalized_form": "redis-client",
   "observation_id": "a06708898398252e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "redis-client",
   "source_context_snippet": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)",
   "source_file": null,

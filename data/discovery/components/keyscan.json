@@ -1,0 +1,12 @@
+{
+  "component": "keyscan",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stevenvachon/broken-link-checker"
+    }
+  ]
+}

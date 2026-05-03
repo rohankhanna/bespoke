@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "layumi/3d-magic-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "layumi/a_reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "layumi/aicity-reid-2020",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "layumi/2016_person_re-id",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "awesome-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "circle-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "cuhk-np",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "market-1501",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "metric-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "msmt17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "object-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "open-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "random-erasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "re-ranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Person_reID_baseline_pytorch",
+      "target": "vehicle-reid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:36:42.114820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29496
+    },
+    {
+      "path": "requirements.txt",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":bouncing_ball_person: Pytorch ReID: A tiny, friendly, strong pytorch implement of person re-id / vehicle re-id baseline. Tutorial \ud83d\udc49https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial",
+    "fork": false,
+    "full_name": "layumi/Person_reID_baseline_pytorch",
+    "html_url": "https://github.com/layumi/Person_reID_baseline_pytorch",
+    "language": "Python",
+    "pushed_at": "2026-02-16T05:58:23Z",
+    "stargazers_count": 4423,
+    "topics": [
+      "awesome-reid",
+      "baseline",
+      "circle-loss",
+      "cuhk-np",
+      "image-retrieval",
+      "image-search",
+      "market-1501",
+      "metric-learning",
+      "msmt17",
+      "object-reid",
+      "open-reid",
+      "person-reid",
+      "person-reidentification",
+      "pytorch",
+      "random-erasing",
+      "re-ranking",
+      "tutorial",
+      "vehicle-reid"
+    ],
+    "updated_at": "2026-05-01T08:46:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/2016_person_re-id",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/3d-magic-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/a_reid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/aicity-reid-2020",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-reid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baseline"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circle-loss"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuhk-np"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "market-1501"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msmt17"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-reid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-reid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-erasing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-ranking"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Pytorch ReID </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle-reid"
+    }
+  ]
+}

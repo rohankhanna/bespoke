@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:29:22.058223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Program for aligning DNA sequences, a pairwise aligner.",
+    "fork": false,
+    "full_name": "lastz/lastz",
+    "html_url": "https://github.com/lastz/lastz",
+    "language": "C",
+    "pushed_at": "2026-03-27T12:20:22Z",
+    "stargazers_count": 245,
+    "topics": [],
+    "updated_at": "2026-04-30T02:35:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

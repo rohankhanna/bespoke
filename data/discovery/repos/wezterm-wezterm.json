@@ -669,7 +669,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:53:47.405167+00:00",
+  "fetched_at": "2026-05-03T18:25:48.254965+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -721,8 +721,8 @@
     "full_name": "wezterm/wezterm",
     "html_url": "https://github.com/wezterm/wezterm",
     "language": "Rust",
-    "pushed_at": "2026-04-23T00:58:26Z",
-    "stargazers_count": 25689,
+    "pushed_at": "2026-05-01T01:05:12Z",
+    "stargazers_count": 25903,
     "topics": [
       "rust",
       "serial",
@@ -731,7 +731,7 @@
       "terminal-emulator",
       "terminal-emulators"
     ],
-    "updated_at": "2026-04-23T17:35:45Z"
+    "updated_at": "2026-05-03T17:24:28Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,17 +1,7 @@
 {
-  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "kwea123/nerf_pl"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "kxhit/vMAP"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -20,12 +10,17 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "cvg/nice-slam"
+      "source_repo": "zju3dv/NeuralRecon"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "ShichenLiu/SoftRas"
+      "source_repo": "autonomousvision/convolutional_occupancy_networks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "amosgropp/IGR"
     }
   ],
   "term": "3d-reconstruction"

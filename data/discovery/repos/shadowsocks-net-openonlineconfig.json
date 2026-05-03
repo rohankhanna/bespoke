@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:43:18.080196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open protocols for distribution of censorship circumvention services.",
+    "fork": false,
+    "full_name": "Shadowsocks-NET/OpenOnlineConfig",
+    "html_url": "https://github.com/Shadowsocks-NET/OpenOnlineConfig",
+    "language": null,
+    "pushed_at": "2021-09-05T09:39:52Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2025-09-01T08:57:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

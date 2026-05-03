@@ -1,0 +1,380 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-header.yml"
+    },
+    {
+      "component": "korandoru/hawkeye@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-header.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-header.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asf-header.yml",
+      "source_repo": "apache/horaedb",
+      "target": "korandoru/hawkeye@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-header.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Check ASF check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-pr.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-pr.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-pr.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Auto Label PRs Based on Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Check PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/horaedb",
+      "target": "HoraeDB CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Publish Github Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "horaedb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "iot-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "prometheus-remote-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "timeseries-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "timeseries-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/horaedb",
+      "target": "tsdb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:46:50.694714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2318
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2805
+    },
+    {
+      "path": ".github/workflows/asf-header.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/auto-label-pr.yml",
+      "size": 2017
+    },
+    {
+      "path": ".github/workflows/check-pr-title.yml",
+      "size": 1437
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2503
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 1376
+    },
+    {
+      "path": ".github/workflows/publish-github-release.yml",
+      "size": 1265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.",
+    "fork": false,
+    "full_name": "apache/horaedb",
+    "html_url": "https://github.com/apache/horaedb",
+    "language": "Rust",
+    "pushed_at": "2026-02-05T18:30:54Z",
+    "stargazers_count": 2836,
+    "topics": [
+      "cloud-native",
+      "distributed-database",
+      "horaedb",
+      "iot-database",
+      "prometheus-remote-storage",
+      "rust",
+      "timeseries-analysis",
+      "timeseries-database",
+      "tsdb"
+    ],
+    "updated_at": "2026-05-03T14:13:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check ASF check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asf-header.yml",
+      "term": "Check ASF check"
+    },
+    {
+      "context_snippet": "Auto Label PRs Based on Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-pr.yml",
+      "term": "Auto Label PRs Based on Title"
+    },
+    {
+      "context_snippet": "Check PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "term": "Check PR Title"
+    },
+    {
+      "context_snippet": "HoraeDB CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "HoraeDB CI"
+    },
+    {
+      "context_snippet": "Publish Github Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "term": "Publish Github Release"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "horaedb"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iot-database"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus-remote-storage"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeseries-analysis"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeseries-database"
+    },
+    {
+      "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsdb"
+    }
+  ]
+}

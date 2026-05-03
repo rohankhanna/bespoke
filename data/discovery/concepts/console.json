@@ -307,6 +307,42 @@
       "source_repo": "tokio-rs/console",
       "status": "candidate-context",
       "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate-context",
+      "text": "REPL environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": ":clapper: Colorful animations in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": ":rainbow:  Beautiful color gradients in terminal output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +495,24 @@
       "source_repo": "tokio-rs/console",
       "status": "candidate",
       "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/repl",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/chalk-animation",
+      "status": "candidate",
+      "text": "[![Build Status](https://flat.badgen.net/github/checks/bokub/chalk-animation?label=tests)](https://github.com/bokub/chalk-animation/actions/workflows/run.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/gradient-string",
+      "status": "candidate",
+      "text": "[![Build Status][build-src]][build-href]"
     }
   ],
   "candidate_related_terms": [
@@ -700,11 +754,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "tokio-rs/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/repl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/chalk-animation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "bokub/gradient-string"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

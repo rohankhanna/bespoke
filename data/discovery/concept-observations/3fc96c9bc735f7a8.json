@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The agent engineering platform"
+      "text": "The agent engineering platform. Available in TypeScript!"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "auto-label-issues-by-package",
   "observation_id": "3fc96c9bc735f7a8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Auto Label Issues by Package",
   "source_context_snippet": "Auto Label Issues by Package",
   "source_file": ".github/workflows/auto-label-by-package.yml",
   "source_repo": "langchain-ai/langchain",
-  "source_repo_description": "The agent engineering platform"
+  "source_repo_description": "The agent engineering platform. Available in TypeScript!"
 }

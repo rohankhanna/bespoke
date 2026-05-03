@@ -19,12 +19,30 @@
       "source_repo": "NimParsers/parsetoml",
       "status": "candidate-context",
       "text": "GenerateDocs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "Open source file definition for storing rendering and physical data from 3D model assemblies ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
+      "status": "candidate-context",
+      "text": "GenerateDocs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NimParsers/parsetoml",
+      "status": "candidate",
+      "text": "GenerateDocs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HiceS/mirabuf",
       "status": "candidate",
       "text": "GenerateDocs"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "NimParsers/parsetoml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/docs_gen.yml",
+      "source_repo": "HiceS/mirabuf"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

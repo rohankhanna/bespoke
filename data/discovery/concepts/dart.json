@@ -538,6 +538,18 @@
       "source_repo": "fzyzcjy/flutter_rust_bridge",
       "status": "candidate-context",
       "text": "[![Rust Package](https://img.shields.io/crates/v/flutter_rust_bridge.svg?color=blue)](https://crates.io/crates/flutter_rust_bridge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "Run Multithreaded Rust along with Dart VM (in isolate) \ud83c\udf00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Allo Isolate (Dart VM)</h1>"
     }
   ],
   "candidate_glosses": [
@@ -810,6 +822,12 @@
       "source_repo": "fzyzcjy/flutter_rust_bridge",
       "status": "candidate",
       "text": "[![Rust Package](https://img.shields.io/crates/v/flutter_rust_bridge.svg?color=blue)](https://crates.io/crates/flutter_rust_bridge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shekohex/allo-isolate",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Allo Isolate (Dart VM)</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1375,11 +1393,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

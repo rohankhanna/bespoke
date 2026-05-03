@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Discuss \"help-wanted\" issue on Discord"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Discuss \"help-wanted\" issue on Discord"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36529,
+      "status": "candidate",
+      "text": "debate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35729,
+      "status": "candidate",
+      "text": "debated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27028,
+      "status": "candidate",
+      "text": "discussion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26628,
+      "status": "candidate",
+      "text": "deliberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26615,
+      "status": "candidate",
+      "text": "powwow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discuss \"help-wanted\" issue on Discord",
+      "sense_id": "discuss-help-wanted-issue-on-discord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "discuss-help-wanted-issue-on-discord",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "discuss-help-wanted-issue-on-discord",
+  "observation_id": "10a788eb8bc7773e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "Discuss \"help-wanted\" issue on Discord",
+  "source_context_snippet": "Discuss \"help-wanted\" issue on Discord",
+  "source_file": ".github/workflows/discord_issues.yml",
+  "source_repo": "pytorch/ignite",
+  "source_repo_description": "High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently."
+}

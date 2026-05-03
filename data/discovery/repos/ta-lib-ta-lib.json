@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-nightly-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-nightly-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-nightly-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-nightly-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "ta-lib/ta-lib-proposal-drafts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "dev nightly tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-nightly-tests.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "main nightly tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-1.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-step-1.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "Release (step 1)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-step-2.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-step-2.yml",
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "Release (step 2)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "financial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "series-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "ta-lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib",
+      "target": "technical-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:47:55.770126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 871
+    },
+    {
+      "path": ".github/workflows/dev-nightly-tests.yml",
+      "size": 3890
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/main-nightly-tests.yml",
+      "size": 2972
+    },
+    {
+      "path": ".github/workflows/release-step-1.yml",
+      "size": 8252
+    },
+    {
+      "path": ".github/workflows/release-step-2.yml",
+      "size": 2688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TA-Lib (Core C Library)",
+    "fork": false,
+    "full_name": "TA-Lib/ta-lib",
+    "html_url": "https://github.com/TA-Lib/ta-lib",
+    "language": "C",
+    "pushed_at": "2026-04-01T06:23:41Z",
+    "stargazers_count": 1553,
+    "topics": [
+      "financial",
+      "series-analysis",
+      "ta-lib",
+      "technical-analysis"
+    ],
+    "updated_at": "2026-05-03T15:02:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ta-lib/ta-lib-proposal-drafts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev nightly tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-nightly-tests.yml",
+      "term": "dev nightly tests"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "main nightly tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-nightly-tests.yml",
+      "term": "main nightly tests"
+    },
+    {
+      "context_snippet": "Release (step 1)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-step-1.yml",
+      "term": "Release (step 1)"
+    },
+    {
+      "context_snippet": "Release (step 2)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-step-2.yml",
+      "term": "Release (step 2)"
+    },
+    {
+      "context_snippet": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "financial"
+    },
+    {
+      "context_snippet": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "series-analysis"
+    },
+    {
+      "context_snippet": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ta-lib"
+    },
+    {
+      "context_snippet": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technical-analysis"
+    }
+  ]
+}

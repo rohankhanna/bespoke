@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "autonomousvision/occupancy_networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "3d-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "eccv-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "implicit-representions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "neural-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "point-clouds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "scene-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/convolutional_occupancy_networks",
+      "target": "surface-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:38.039150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV'20] Convolutional Occupancy Networks",
+    "fork": false,
+    "full_name": "autonomousvision/convolutional_occupancy_networks",
+    "html_url": "https://github.com/autonomousvision/convolutional_occupancy_networks",
+    "language": "Python",
+    "pushed_at": "2023-07-31T20:30:37Z",
+    "stargazers_count": 899,
+    "topics": [
+      "3d-deep-learning",
+      "3d-reconstruction",
+      "eccv-2020",
+      "implicit-representions",
+      "neural-fields",
+      "point-clouds",
+      "scene-representations",
+      "surface-reconstruction"
+    ],
+    "updated_at": "2026-03-03T14:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/occupancy_networks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-deep-learning"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv-2020"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-representions"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-fields"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-clouds"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-representations"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-reconstruction"
+    }
+  ]
+}

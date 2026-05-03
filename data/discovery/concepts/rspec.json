@@ -58,6 +58,18 @@
       "source_repo": "pundit-community/pundit-matchers",
       "status": "candidate-context",
       "text": "[![Gem Version][version-badge]][rubygems]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sinatra-activerecord/sinatra-activerecord",
+      "status": "candidate-context",
+      "text": "Extends Sinatra with ActiveRecord helper methods and Rake tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sinatra-activerecord/sinatra-activerecord",
+      "status": "candidate-context",
+      "text": "rspec"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "pundit-community/pundit-matchers",
       "status": "candidate",
       "text": "[![Gem Version][version-badge]][rubygems]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sinatra-activerecord/sinatra-activerecord",
+      "status": "candidate",
+      "text": "rspec"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pundit-community/pundit-matchers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sinatra-activerecord/sinatra-activerecord"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:36:31.670986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19261
+    },
+    {
+      "path": "requirements.txt",
+      "size": 47
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning",
+    "fork": false,
+    "full_name": "facebookresearch/contriever",
+    "html_url": "https://github.com/facebookresearch/contriever",
+    "language": "Python",
+    "pushed_at": "2023-04-07T10:14:11Z",
+    "stargazers_count": 777,
+    "topics": [],
+    "updated_at": "2026-04-21T20:35:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ta-lib"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate-context",
+      "text": "Python wrapper for TA-Lib (http://ta-lib.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate-context",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TA-Lib/ta-lib",
+      "status": "candidate-context",
+      "text": "TA-Lib (Core C Library)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib",
+      "status": "candidate-context",
+      "text": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib-python",
+      "status": "candidate",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TA-Lib/ta-lib",
+      "status": "candidate",
+      "text": "[![Discord chat](https://img.shields.io/discord/1038616996062953554.svg?logo=discord&style=flat-square)](https://discord.gg/Erb6SwsVbH)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ta-lib",
+  "concept_id": "ta-lib",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TA-Lib/ta-lib"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ta-lib",
+      "sense_id": "ta-lib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

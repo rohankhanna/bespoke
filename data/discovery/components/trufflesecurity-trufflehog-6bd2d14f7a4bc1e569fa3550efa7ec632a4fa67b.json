@@ -1,7 +1,7 @@
 {
   "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trufflehog.yml",
       "source_repo": "huggingface/smolagents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "rwightman/timm"
     }
   ]
 }

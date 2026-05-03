@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "docker-ghcr-release-build-and-push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate-context",
+      "text": "The lightweight, fault-tolerant database built on SQLite. Designed to keep your data highly available with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate-context",
+      "text": "docker-ghcr-release-build-and-push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rqlite/rqlite",
+      "status": "candidate",
+      "text": "docker-ghcr-release-build-and-push"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "docker-ghcr-release-build-and-push",
+  "concept_id": "docker-ghcr-release-build-and-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build-docker-ghcr.yml",
+      "source_repo": "rqlite/rqlite"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-ghcr-release-build-and-push",
+      "sense_id": "docker-ghcr-release-build-and-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

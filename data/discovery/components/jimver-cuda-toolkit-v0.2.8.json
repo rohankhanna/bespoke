@@ -1,12 +1,22 @@
 {
   "component": "Jimver/cuda-toolkit@v0.2.8",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-commits.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/VideoProcessingFramework"
     }
   ]
 }

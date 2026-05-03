@@ -19,12 +19,30 @@
       "source_repo": "xerial/snappy-java",
       "status": "candidate-context",
       "text": "Build Native"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harlan-zw/mdream",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f The fastest HTML to markdown convertor on GitHub. Optimized for LLMs and supports streaming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harlan-zw/mdream",
+      "status": "candidate-context",
+      "text": "Build Native"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "xerial/snappy-java",
+      "status": "candidate",
+      "text": "Build Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harlan-zw/mdream",
       "status": "candidate",
       "text": "Build Native"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/build-native.yml",
       "source_repo": "xerial/snappy-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/release-native.yml",
+      "source_repo": "harlan-zw/mdream"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

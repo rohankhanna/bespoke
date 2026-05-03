@@ -43,6 +43,18 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate-context",
+      "text": "Sends native desktop notifications if CLI apps fail"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate-context",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromata/cli-error-notifier",
+      "status": "candidate",
+      "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hoodie/toastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "micromata/cli-error-notifier"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

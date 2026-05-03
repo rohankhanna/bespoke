@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "higlass/clodius",
+      "target": "higlass/higlass-manage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "higlass/clodius",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "higlass/clodius",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "higlass/clodius",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "higlass/clodius",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "higlass/clodius",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/clodius",
+      "target": "hi-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/clodius",
+      "target": "hidivelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "higlass/clodius",
+      "target": "higlass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:30.882272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3206
+    },
+    {
+      "path": "Dockerfile",
+      "size": 564
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clodius is a tool for breaking up large data sets into smaller tiles that can subsequently be displayed using an appropriate viewer.",
+    "fork": false,
+    "full_name": "higlass/clodius",
+    "html_url": "https://github.com/higlass/clodius",
+    "language": "Python",
+    "pushed_at": "2026-04-20T04:14:59Z",
+    "stargazers_count": 39,
+    "topics": [
+      "hi-c",
+      "hidivelab",
+      "higlass"
+    ],
+    "updated_at": "2026-04-20T04:15:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "higlass/higlass-manage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hi-c"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidivelab"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/v/clodius)](https://pypi.org/project/clodius)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "higlass"
+    }
+  ]
+}

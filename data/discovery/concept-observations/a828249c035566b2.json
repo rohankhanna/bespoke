@@ -48,7 +48,7 @@
   "normalized_form": "language-server-protocol",
   "observation_id": "a828249c035566b2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "language-server-protocol",
   "source_context_snippet": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol).",
   "source_file": null,

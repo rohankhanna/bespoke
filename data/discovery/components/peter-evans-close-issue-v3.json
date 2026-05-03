@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/close-issue@v3",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label-support.yml",
       "source_repo": "actions/starter-workflows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deaddomain.yml",
+      "source_repo": "hagezi/dns-blocklists"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ignored.yml",
+      "source_repo": "hagezi/dns-blocklists"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notworthit.yml",
+      "source_repo": "hagezi/dns-blocklists"
     }
   ]
 }

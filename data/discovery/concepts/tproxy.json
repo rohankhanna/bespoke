@@ -19,6 +19,18 @@
       "source_repo": "heiher/hev-socks5-tproxy",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate-context",
+      "text": "Linux Transparent Proxy library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate-context",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "heiher/hev-socks5-tproxy",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KatelynHaworth/go-tproxy",
+      "status": "candidate",
+      "text": "Golang TProxy [![GoDoc](https://godoc.org/github.com/LiamHaworth/go-tproxy?status.svg)](https://godoc.org/github.com/LiamHaworth/go-tproxy) [![Go Report Card](https://goreportcard.com/badge/github.com/LiamHaworth/go-tproxy)](https://goreportcard.com/report/github.com/LiamHaworth\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heiher/hev-socks5-tproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "KatelynHaworth/go-tproxy"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -349,6 +349,42 @@
       "source_repo": "SlRvb/Obsidian--ITS-Theme",
       "status": "candidate-context",
       "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "Materialize Todoist tasks in Obsidian notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate-context",
+      "text": "![Sync with Todoist Plugin for Obsidian](./docs/static/img/social-card.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate-context",
+      "text": "Create markdown-backed Kanban boards in Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate-context",
+      "text": "**The Kanban plugin is looking for new maintainers.** Interested? [Read more here.](https://github.com/mgmeyers/obsidian-kanban/blob/main/MAINTAINERS.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate-context",
+      "text": "Zotero plugin that links your Markdown database to Zotero. Jump directly from Zotero Items to connected Markdown files. Automatically tags Zotero Items so you can easily see which papers you've made notes for."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +561,24 @@
       "source_repo": "SlRvb/Obsidian--ITS-Theme",
       "status": "candidate",
       "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin",
+      "status": "candidate",
+      "text": "![Sync with Todoist Plugin for Obsidian](./docs/static/img/social-card.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-kanban",
+      "status": "candidate",
+      "text": "**The Kanban plugin is looking for new maintainers.** Interested? [Read more here.](https://github.com/mgmeyers/obsidian-kanban/blob/main/MAINTAINERS.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daeh/zotero-markdb-connect",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -772,11 +826,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jamiebrynes7/obsidian-todoist-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-kanban"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "daeh/zotero-markdb-connect"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

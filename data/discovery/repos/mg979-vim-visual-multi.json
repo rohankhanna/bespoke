@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mg979/vim-visual-multi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mg979/vim-visual-multi",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mg979/vim-visual-multi",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mg979/vim-visual-multi",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mg979/vim-visual-multi",
+      "target": "multiple-cursors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:34:30.476465+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3639
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multiple cursors plugin for vim/neovim",
+    "fork": false,
+    "full_name": "mg979/vim-visual-multi",
+    "html_url": "https://github.com/mg979/vim-visual-multi",
+    "language": "Vim Script",
+    "pushed_at": "2024-09-01T18:09:22Z",
+    "stargazers_count": 4835,
+    "topics": [
+      "cursor",
+      "multiple-cursors",
+      "vim"
+    ],
+    "updated_at": "2026-05-03T08:44:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "It's called ___vim-visual-multi___ in analogy with _visual-block_, but the plugin works mostly from normal mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "It's called ___vim-visual-multi___ in analogy with _visual-block_, but the plugin works mostly from normal mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiple-cursors"
+    }
+  ]
+}

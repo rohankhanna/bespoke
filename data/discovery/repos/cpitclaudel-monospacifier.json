@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T18:25:54.259044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert variable-pitch fonts to monospace (useful for unicode and indentation-friendly programming) ",
+    "fork": false,
+    "full_name": "cpitclaudel/monospacifier",
+    "html_url": "https://github.com/cpitclaudel/monospacifier",
+    "language": "Python",
+    "pushed_at": "2024-01-30T10:26:19Z",
+    "stargazers_count": 421,
+    "topics": [],
+    "updated_at": "2026-04-27T05:55:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

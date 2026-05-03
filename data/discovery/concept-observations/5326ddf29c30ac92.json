@@ -84,7 +84,7 @@
   "normalized_form": "pull-request-labeler",
   "observation_id": "5326ddf29c30ac92",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Pull Request Labeler",
   "source_context_snippet": "\"Pull Request Labeler\"",
   "source_file": ".github/workflows/labeler.yml",

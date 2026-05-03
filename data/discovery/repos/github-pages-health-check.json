@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-gem.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-cibuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-gem.yml",
+      "source_repo": "github/pages-health-check",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-gem.yml",
+      "source_repo": "github/pages-health-check",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages-gem.yml",
+      "source_repo": "github/pages-health-check",
+      "target": "Publish Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-cibuild.yml",
+      "source_repo": "github/pages-health-check",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-cibuild.yml",
+      "source_repo": "github/pages-health-check",
+      "target": "GitHub Pages Health Check Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:30:46.419304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3077
+    },
+    {
+      "path": "Dockerfile",
+      "size": 496
+    },
+    {
+      "path": ".github/workflows/pages-gem.yml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/push-cibuild.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Checks your GitHub Pages site for common DNS configuration issues",
+    "fork": false,
+    "full_name": "github/pages-health-check",
+    "html_url": "https://github.com/github/pages-health-check",
+    "language": "Ruby",
+    "pushed_at": "2026-04-27T16:56:49Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-04-27T16:56:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages-gem.yml",
+      "term": "Publish Gem"
+    },
+    {
+      "context_snippet": "\"GitHub Pages Health Check Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-cibuild.yml",
+      "term": "GitHub Pages Health Check Tests"
+    }
+  ]
+}

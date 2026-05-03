@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "fenderglass/flye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "rrwick/bandage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "benedekrozemberczki/karateclub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "fenderglass/flye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "hifi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "long-read-sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "long-reads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "metagenomic-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "metagenomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "katerinakazantseva/strainy",
+      "target": "sequencing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:28:47.884836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15397
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2096
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 1395
+    },
+    {
+      "path": ".github/workflows/toy.py",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graph-based assembly phasing ",
+    "fork": false,
+    "full_name": "katerinakazantseva/strainy",
+    "html_url": "https://github.com/katerinakazantseva/strainy",
+    "language": "Python",
+    "pushed_at": "2025-11-25T13:30:03Z",
+    "stargazers_count": 94,
+    "topics": [
+      "assembly",
+      "hifi",
+      "long-read-sequencing",
+      "long-reads",
+      "metagenomic-analysis",
+      "metagenomics",
+      "nanopore",
+      "sequencing"
+    ],
+    "updated_at": "2026-04-16T11:11:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benedekrozemberczki/karateclub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fenderglass/flye",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rrwick/bandage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fenderglass/flye",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hifi"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-read-sequencing"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-reads"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metagenomic-analysis"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metagenomics"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanopore"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencing"
+    }
+  ]
+}

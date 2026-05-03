@@ -1,0 +1,356 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "lukesampson/scoop-extras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ashutoshvarma/setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "DuckSoft/create-7z-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-qv2ray-cmake.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "Qv2ray build matrix - cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ashutoshvarma/setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "DuckSoft/create-7z-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-qv2ray-qt6.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "Qv2ray build matrix - Qt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deb.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "webfactory/ssh-agent@v0.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deb.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "Qv2ray build debian package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hashfile.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hashfile.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hashfile.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "Update release files hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "ashutoshvarma/setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nsis.yml",
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "Qv2ray Windows Installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "qv2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "qv2ray-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "trojan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "trojan-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "v2fly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qv2ray/Qv2ray",
+      "target": "v2ray",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "Qv2ray/Qv2ray"
+}

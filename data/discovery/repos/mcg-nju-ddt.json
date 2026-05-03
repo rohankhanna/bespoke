@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/DDT",
+      "target": "mcg-nju/flowdcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/DDT",
+      "target": "sihyun-yu/repa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:32:41.039255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5310
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2026] DDT: Decoupled Diffusion Transformer",
+    "fork": false,
+    "full_name": "MCG-NJU/DDT",
+    "html_url": "https://github.com/MCG-NJU/DDT",
+    "language": "Python",
+    "pushed_at": "2025-08-22T02:49:18Z",
+    "stargazers_count": 387,
+    "topics": [],
+    "updated_at": "2026-04-24T17:50:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcg-nju/flowdcn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sihyun-yu/repa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml"
+    },
+    {
+      "component": "espressif/shared-github-dangerjs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "espressif/sync-jira-actions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml"
+    },
+    {
+      "component": "espressif/sync-jira-actions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml"
+    },
+    {
+      "component": "espressif/github-actions/sync_issues_to_jira@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_approved.yml"
+    },
+    {
+      "component": "espressif/github-actions/github_pr_to_internal_pr@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_approved.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit_check.yml"
+    },
+    {
+      "component": "actions/setup-python@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit_check.yml"
+    },
+    {
+      "component": "espressif/release-zips-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_zips.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerability_scan.yml"
+    },
+    {
+      "component": "espressif/esp-idf-sbom-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerability_scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/esp-idf-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/esp-idf-monitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/shared-github-dangerjs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "DangerJS Pull Request review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "peter-evans/dockerhub-description@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/sync-jira-actions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Sync issue comments to JIRA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/sync-jira-actions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Sync issues to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Sync remain PRs to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_approved.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_approved.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/github-actions/github_pr_to_internal_pr@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_approved.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Sync approved PRs to internal codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit_check.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit_check.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/setup-python@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre_commit_check.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Check pre-commit rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_zips.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/release-zips-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerability_scan.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerability_scan.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "espressif/esp-idf-sbom-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulnerability_scan.yml",
+      "source_repo": "espressif/esp-idf",
+      "target": "Vulnerability scan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:43:36.240974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6564
+    },
+    {
+      "path": ".github/workflows/dangerjs.yml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3364
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/new_issues.yml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/new_prs.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/pr_approved.yml",
+      "size": 890
+    },
+    {
+      "path": ".github/workflows/pre_commit_check.yml",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/release_zips.yml",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/vulnerability_scan.yml",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+    "fork": false,
+    "full_name": "espressif/esp-idf",
+    "html_url": "https://github.com/espressif/esp-idf",
+    "language": "C",
+    "pushed_at": "2026-05-01T03:43:48Z",
+    "stargazers_count": 17964,
+    "topics": [],
+    "updated_at": "2026-05-03T21:40:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressif/esp-idf-monitor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressif/esp-idf-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DangerJS Pull Request review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "term": "DangerJS Pull Request review"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Sync issue comments to JIRA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Sync issue comments to JIRA"
+    },
+    {
+      "context_snippet": "Sync issues to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issues.yml",
+      "term": "Sync issues to Jira"
+    },
+    {
+      "context_snippet": "Sync remain PRs to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_prs.yml",
+      "term": "Sync remain PRs to Jira"
+    },
+    {
+      "context_snippet": "Sync approved PRs to internal codebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_approved.yml",
+      "term": "Sync approved PRs to internal codebase"
+    },
+    {
+      "context_snippet": "Check pre-commit rules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre_commit_check.yml",
+      "term": "Check pre-commit rules"
+    },
+    {
+      "context_snippet": "Vulnerability scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulnerability_scan.yml",
+      "term": "Vulnerability scan"
+    }
+  ]
+}

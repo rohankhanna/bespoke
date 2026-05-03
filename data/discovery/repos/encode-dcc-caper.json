@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:50:57.851680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cromwell/WDL wrapper for Python",
+    "fork": false,
+    "full_name": "ENCODE-DCC/caper",
+    "html_url": "https://github.com/ENCODE-DCC/caper",
+    "language": "Python",
+    "pushed_at": "2026-02-13T23:09:11Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-02-13T22:37:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locuslab/deq",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locuslab/deq",
+      "target": "akbir/deq-jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locuslab/deq",
+      "target": "kimiyoung/transformer-xl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:22.630268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS'19] Deep Equilibrium Models",
+    "fork": false,
+    "full_name": "locuslab/deq",
+    "html_url": "https://github.com/locuslab/deq",
+    "language": "Python",
+    "pushed_at": "2022-07-04T02:25:25Z",
+    "stargazers_count": 797,
+    "topics": [],
+    "updated_at": "2026-04-02T04:37:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akbir/deq-jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kimiyoung/transformer-xl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

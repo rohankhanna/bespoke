@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-intl-numberformat-v3",
+      "target": "tc39/proposal-unified-intl-numberformat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-intl-numberformat-v3",
+      "target": "tc39/proposal-intl-datetimeformat-formatrange",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-intl-numberformat-v3",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-intl-numberformat-v3",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-intl-numberformat-v3",
+      "target": "mkdirp",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:41:56.403777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13498
+    },
+    {
+      "path": "package.json",
+      "size": 1360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Additional features for Intl.NumberFormat to solve key pain points.",
+    "fork": false,
+    "full_name": "tc39/proposal-intl-numberformat-v3",
+    "html_url": "https://github.com/tc39/proposal-intl-numberformat-v3",
+    "language": "HTML",
+    "pushed_at": "2023-07-09T18:46:48Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-04-30T17:39:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-intl-datetimeformat-formatrange",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-unified-intl-numberformat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

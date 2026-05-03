@@ -250,6 +250,54 @@
       "source_repo": "JuliaAI/LearnAPI.jl",
       "status": "candidate-context",
       "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate-context",
+      "text": "\ud83d\udc26 Friendly little instrumentation profiler for Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tedsteen/puffin",
+      "status": "candidate-context",
+      "text": "\ud83d\udc26 Friendly little instrumentation profiler for Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tedsteen/puffin",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/LearnDataFrontEnds.jl",
+      "status": "candidate-context",
+      "text": "Tool for developers writing LearnAPI.jl interfaces for algorithms in machine learning and statistics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/LearnDataFrontEnds.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays which also have a label for each element for easy scientific machine learning (SciML)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +418,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaAI/LearnAPI.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/puffin",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tedsteen/puffin",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/LearnDataFrontEnds.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/LabelledArrays.jl",
       "status": "candidate",
       "text": "Spell Check"
     }
@@ -576,11 +648,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/SpellCheck.yml",
       "source_repo": "JuliaAI/LearnAPI.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "EmbarkStudios/puffin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "tedsteen/puffin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "JuliaAI/LearnDataFrontEnds.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/LabelledArrays.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

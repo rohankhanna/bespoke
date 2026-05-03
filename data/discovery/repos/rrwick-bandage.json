@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rrwick/Bandage",
+      "target": "asl/bandageng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rrwick/Bandage",
+      "target": "voutcn/megahit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:19.538809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily",
+    "fork": false,
+    "full_name": "rrwick/Bandage",
+    "html_url": "https://github.com/rrwick/Bandage",
+    "language": "C++",
+    "pushed_at": "2022-12-03T10:06:20Z",
+    "stargazers_count": 669,
+    "topics": [],
+    "updated_at": "2026-04-21T18:11:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asl/bandageng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voutcn/megahit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

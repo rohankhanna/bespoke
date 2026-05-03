@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "bichenwuucb/squeezeseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "xuanyuzhou98/squeezesegv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "bernwang/latte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "prbonn/lidar-bonnetal",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "chenfengxu714/SqueezeSegV3"
+}

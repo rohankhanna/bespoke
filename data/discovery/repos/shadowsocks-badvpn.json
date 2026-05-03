@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:43:10.991463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "shadowsocks-android",
+    "description": "NCD scripting language, tun2socks proxifier, P2P VPN",
+    "fork": true,
+    "full_name": "shadowsocks/badvpn",
+    "html_url": "https://github.com/shadowsocks/badvpn",
+    "language": "C",
+    "pushed_at": "2025-01-19T04:51:45Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-03-15T20:23:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

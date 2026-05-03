@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Discuss \"help-wanted\" PR on Discord"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate-context",
+      "text": "High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate-context",
+      "text": "Discuss \"help-wanted\" PR on Discord"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/ignite",
+      "status": "candidate",
+      "text": "Discuss \"help-wanted\" PR on Discord"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9882,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9776,
+      "status": "candidate",
+      "text": "debate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9776,
+      "status": "candidate",
+      "text": "debated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9685,
+      "status": "candidate",
+      "text": "agitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9685,
+      "status": "candidate",
+      "text": "argue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Discuss \"help-wanted\" PR on Discord",
+  "concept_id": "discuss-help-wanted-pr-on-discord",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/discord_pull_requests.yaml",
+      "source_repo": "pytorch/ignite"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discuss \"help-wanted\" PR on Discord",
+      "sense_id": "discuss-help-wanted-pr-on-discord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

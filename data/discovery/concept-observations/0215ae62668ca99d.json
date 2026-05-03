@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044190,
+      "status": "candidate",
+      "text": "perdition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041605,
+      "status": "candidate",
+      "text": "nether region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039893,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918917,
+      "status": "candidate",
+      "text": "hell on earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910565,
+      "status": "candidate",
+      "text": "the pits"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inferno",
+      "sense_id": "inferno#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29031,
+      "status": "candidate",
+      "text": "conflagration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25036,
+      "status": "candidate",
+      "text": "perdition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11011,
+      "status": "candidate",
+      "text": "nether region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10058,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "hell on earth"
+    }
+  ],
+  "concept_id": "inferno",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inferno",
+  "observation_id": "0215ae62668ca99d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "inferno",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>",
+  "source_file": null,
+  "source_repo": "infernojs/inferno",
+  "source_repo_description": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces"
+}

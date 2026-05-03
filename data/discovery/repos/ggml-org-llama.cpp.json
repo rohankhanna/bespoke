@@ -191,7 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "phronmophobic/llama.clj",
+      "target": "quasarbyte/llama-cpp-jna",
       "target_type": "repository"
     },
     {
@@ -212,7 +212,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ptsochantaris/emeltal",
+      "target": "pythops/tenere",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:34:25.352095+00:00",
+  "fetched_at": "2026-05-03T20:33:27.453620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-03T15:22:00Z",
-    "stargazers_count": 108084,
+    "pushed_at": "2026-05-03T19:51:21Z",
+    "stargazers_count": 108110,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-03T16:30:18Z"
+    "updated_at": "2026-05-03T20:33:17Z"
   },
   "repo_links": [
     {
@@ -505,12 +505,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "phronmophobic/llama.clj",
+      "full_name": "pythops/tenere",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ptsochantaris/emeltal",
+      "full_name": "quasarbyte/llama-cpp-jna",
       "source_file": "README.md"
     }
   ],

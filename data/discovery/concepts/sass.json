@@ -277,6 +277,18 @@
       "source_repo": "linkedin/eyeglass",
       "status": "candidate-context",
       "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "Detects the direction a user enters or leaves an element allowing you to reveal or hide content based on this direction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate-context",
+      "text": "```javascript"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +429,12 @@
       "source_repo": "linkedin/eyeglass",
       "status": "candidate",
       "text": "Eyeglass provides a way to distribute Sass files and their associated assets and javascript extensions via npm such that any build system can be adapted to automatically expose those Sass files to Sass's `@import` directive by just installing the code. If the imported files have\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NigelOToole/direction-reveal",
+      "status": "candidate",
+      "text": "```javascript"
     }
   ],
   "candidate_related_terms": [
@@ -627,11 +645,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "linkedin/eyeglass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

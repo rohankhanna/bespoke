@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "Java CI with Gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "continuation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "fiber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "interoperation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "reactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "rxjava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "virtual-thread",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akarnokd/RxJavaFiberInterop",
+      "target": "virtual-threads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:42.278888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3984
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 223
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 1096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library for interoperation between RxJava 3 and JDK 21+ Virtual Threads",
+    "fork": false,
+    "full_name": "akarnokd/RxJavaFiberInterop",
+    "html_url": "https://github.com/akarnokd/RxJavaFiberInterop",
+    "language": "Java",
+    "pushed_at": "2026-03-26T08:31:13Z",
+    "stargazers_count": 40,
+    "topics": [
+      "continuation",
+      "fiber",
+      "interoperation",
+      "reactive",
+      "rxjava",
+      "virtual-thread",
+      "virtual-threads"
+    ],
+    "updated_at": "2026-04-03T12:06:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Java CI with Gradle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "Java CI with Gradle"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuation"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fiber"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interoperation"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rxjava"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-thread"
+    },
+    {
+      "context_snippet": "Library for interoperation between RxJava 3 and JDK 21's Virtual Threads (aka Fibers, Project Loom).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-threads"
+    }
+  ]
+}

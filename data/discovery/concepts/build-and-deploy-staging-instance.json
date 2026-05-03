@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Build and Deploy Staging Instance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate-context",
+      "text": "\ud83c\udd94 The easy-to-use OpenStreetMap editor in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate-context",
+      "text": "Build and Deploy Staging Instance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate-context",
+      "text": "\ud83c\udd94\ud83c\udff7 The presets and other tagging data used by the iD editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate-context",
+      "text": "Build and Deploy Staging Instance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/iD",
+      "status": "candidate",
+      "text": "Build and Deploy Staging Instance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate",
+      "text": "Build and Deploy Staging Instance"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34931,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34783,
+      "status": "candidate",
+      "text": "segregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34757,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34757,
+      "status": "candidate",
+      "text": "muster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34731,
+      "status": "candidate",
+      "text": "have"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Deploy Staging Instance",
+  "concept_id": "build-and-deploy-staging-instance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "openstreetmap/iD"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "openstreetmap/id-tagging-schema"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy Staging Instance",
+      "sense_id": "build-and-deploy-staging-instance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

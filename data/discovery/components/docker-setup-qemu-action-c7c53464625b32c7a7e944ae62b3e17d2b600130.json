@@ -2,7 +2,7 @@
   "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -179,6 +179,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "mitmproxy/mitmproxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cometbft.yml",
+      "source_repo": "left-curve/left-curve"
     }
   ]
 }

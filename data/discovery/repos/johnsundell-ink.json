@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JohnSundell/Ink",
+      "target": "apple/swift-package-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnSundell/Ink",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnSundell/Ink",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnSundell/Ink",
+      "target": "static-site-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:33:33.344502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast and flexible Markdown parser written in Swift.",
+    "fork": false,
+    "full_name": "JohnSundell/Ink",
+    "html_url": "https://github.com/JohnSundell/Ink",
+    "language": "Swift",
+    "pushed_at": "2024-03-27T17:32:49Z",
+    "stargazers_count": 2520,
+    "topics": [
+      "markdown",
+      "parser",
+      "static-site-generation"
+    ],
+    "updated_at": "2026-04-24T17:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-package-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-site-generation"
+    }
+  ]
+}

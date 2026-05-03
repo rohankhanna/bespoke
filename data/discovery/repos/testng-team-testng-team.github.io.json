@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml",
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml",
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-build.yml",
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-build.yml",
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "Compile project With Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "test-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io",
+      "target": "testng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:24:44.094883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 908
+    },
+    {
+      "path": ".github/workflows/maven-build.yml",
+      "size": 576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TestNG documentation",
+    "fork": false,
+    "full_name": "testng-team/testng-team.github.io",
+    "html_url": "https://github.com/testng-team/testng-team.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-01-01T07:15:48Z",
+    "stargazers_count": 6,
+    "topics": [
+      "java",
+      "site",
+      "test-framework",
+      "testng"
+    ],
+    "updated_at": "2026-02-11T11:26:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile project With Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-build.yml",
+      "term": "Compile project With Maven"
+    },
+    {
+      "context_snippet": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "site"
+    },
+    {
+      "context_snippet": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-framework"
+    },
+    {
+      "context_snippet": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testng"
+    }
+  ]
+}

@@ -487,6 +487,18 @@
       "source_repo": "jdlph/OpenDTA",
       "status": "candidate-context",
       "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "MICA - Towards Metrical Reconstruction of Human Faces [ECCV2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "jdlph/OpenDTA",
       "status": "candidate",
       "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/MICA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
     }
   ],
   "candidate_related_terms": [
@@ -1264,11 +1282,41 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/MICA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clean-css/clean-css"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/bcftools",
+      "target": "samtools/htslib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/bcftools",
+      "target": "samtools/tabix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/bcftools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/bcftools",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:49.000810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3431
+    },
+    {
+      "path": ".github/workflows/windows-build.yml",
+      "size": 1520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "This is the official development repository for BCFtools. See installation instructions and other documentation here http://samtools.github.io/bcftools/howtos/install.html",
+    "fork": false,
+    "full_name": "samtools/bcftools",
+    "html_url": "https://github.com/samtools/bcftools",
+    "language": "C",
+    "pushed_at": "2026-04-07T12:39:40Z",
+    "stargazers_count": 861,
+    "topics": [],
+    "updated_at": "2026-04-28T14:44:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/htslib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/tabix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kernelsu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "A Kernel based root solution for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate-context",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiann/KernelSU",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kernelsu",
+  "concept_id": "kernelsu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "tiann/KernelSU"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kernelsu",
+      "sense_id": "kernelsu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

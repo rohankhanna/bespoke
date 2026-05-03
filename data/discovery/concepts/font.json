@@ -631,6 +631,114 @@
       "source_repo": "lxgw/FusionKai",
       "status": "candidate-context",
       "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivodolenc/aspekta",
+      "status": "candidate-context",
+      "text": "Modern sans-serif font family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivodolenc/aspekta",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/QuQi",
+      "status": "candidate-context",
+      "text": "Monu fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/QuQi",
+      "status": "candidate-context",
+      "text": "\u5206\u4e3a\u9ed8\u8ba4\u5b57\u4f53**Monu**\u548c\u5047\u540d\u5b57\u4f53**QuQi**\u3002\u8be5\u5b57\u4f53\u8bbe\u8ba1\u4e3a\u9002\u5408\u7cfb\u7edf\u6b63\u6587/\u7f51\u9875\u663e\u793a\uff08\u63d0\u4f9b\u538b\u7f29\u7684woff2\u7f51\u9875\u5b57\u4f53\uff0c\u4e14\u505a\u4e86\u5fae\u8c03\uff08hinting\uff09\uff09\uff0c\u7279\u522b\u4e0e\u5fae\u8f6f\u96c5\u9ed1\uff08\u53ca\u7c97\u4f53\uff09\u642d\u914d\u3002\u5b9e\u9645\u4e0a\u8fd9\u662f\u6211\u81ea\u7528\u7684\u9ed8\u8ba4\u5b57\u4f53\uff08\u624d\u4f1a\u66f4\u65b0\u8fd9\u4e48\u52e4\uff09"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "status": "candidate-context",
+      "text": "A Chinese sans-serif font derived from IPAex Gothic. \u4e00\u6b3e\u884d\u751f\u4e8e\u300cIPAex\u30b4\u30b7\u30c3\u30af\u300d\u7684\u4e2d\u6587\u9ed1\u4f53\u5b57\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "status": "candidate-context",
+      "text": "A Simplified Chinese sans-serif font derived from IPAex Gothic.<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "status": "candidate-context",
+      "text": "A Chinese serif font derived from IPAmj Mincho. \u4e00\u6b3e\u884d\u751f\u4e8e\u300cIPAmj\u660e\u671d\u300d\u7684\u4e2d\u6587\u5b8b\u4f53\u5b57\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "status": "candidate-context",
+      "text": "A Chinese serif font derived from IPAex Mincho and IPAmj Mincho."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai-Lite",
+      "status": "candidate-context",
+      "text": "The lite edition of LXGW WenKai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai-Lite",
+      "status": "candidate-context",
+      "text": "fontmake>=2.4 fontbakery>=0.7 gftools>=0.7 ufomerge tzdata"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenkaiGB-Lite",
+      "status": "candidate-context",
+      "text": "The lite edition of LXGW WenKai GB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenkaiGB-Lite",
+      "status": "candidate-context",
+      "text": "An open-source Simplified Chinese font derived from Klee One. \u4e00\u6b3e\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "A Magisk module template to systemlessly replace system fonts. Supports CJK Fonts. \u7528\u4e8e\u5236\u4f5c\u5b57\u4f53\u6a21\u5757\u7684 Magisk \u6a21\u5757\u6a21\u677f\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u5b57\u4f53\u7684\u66ff\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "\u5f00\u6e90\u7684\u6cdb\u4e2d\u65e5\u97e9\u50cf\u7d20\u5b57\u4f53\uff0c\u9ed1\u4f53\u98ce\u683c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/plex",
+      "status": "candidate-context",
+      "text": "The package of IBM\u2019s typeface, IBM Plex."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/plex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +1053,60 @@
       "source_repo": "lxgw/FusionKai",
       "status": "candidate",
       "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivodolenc/aspekta",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/QuQi",
+      "status": "candidate",
+      "text": "\u5206\u4e3a\u9ed8\u8ba4\u5b57\u4f53**Monu**\u548c\u5047\u540d\u5b57\u4f53**QuQi**\u3002\u8be5\u5b57\u4f53\u8bbe\u8ba1\u4e3a\u9002\u5408\u7cfb\u7edf\u6b63\u6587/\u7f51\u9875\u663e\u793a\uff08\u63d0\u4f9b\u538b\u7f29\u7684woff2\u7f51\u9875\u5b57\u4f53\uff0c\u4e14\u505a\u4e86\u5fae\u8c03\uff08hinting\uff09\uff09\uff0c\u7279\u522b\u4e0e\u5fae\u8f6f\u96c5\u9ed1\uff08\u53ca\u7c97\u4f53\uff09\u642d\u914d\u3002\u5b9e\u9645\u4e0a\u8fd9\u662f\u6211\u81ea\u7528\u7684\u9ed8\u8ba4\u5b57\u4f53\uff08\u624d\u4f1a\u66f4\u65b0\u8fd9\u4e48\u52e4\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwNeoXiHei",
+      "status": "candidate",
+      "text": "A Simplified Chinese sans-serif font derived from IPAex Gothic.<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwNeoZhiSong",
+      "status": "candidate",
+      "text": "A Chinese serif font derived from IPAex Mincho and IPAmj Mincho."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai-Lite",
+      "status": "candidate",
+      "text": "fontmake>=2.4 fontbakery>=0.7 gftools>=0.7 ufomerge tzdata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenkaiGB-Lite",
+      "status": "candidate",
+      "text": "An open-source Simplified Chinese font derived from Klee One. \u4e00\u6b3e\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template",
+      "status": "candidate",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/plex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1402,11 +1564,71 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "lxgw/FusionKai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "ivodolenc/aspekta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/QuQi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoXiHei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwNeoZhiSong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenKai-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenkaiGB-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/simple-cjk-font-magisk-module-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "TakWolf/fusion-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "IBM/plex"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

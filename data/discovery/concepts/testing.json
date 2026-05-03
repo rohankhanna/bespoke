@@ -1631,6 +1631,138 @@
       "source_repo": "stefnotch/winit_input_helper",
       "status": "candidate-context",
       "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "\ud83d\ude95 Turn stories into executable tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate-context",
+      "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/angular-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83d\udc19 Simple and complete Angular testing utilities that encourage good testing practices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/angular-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/react-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83d\udc10 Simple and complete React DOM testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/react-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rukai/winit_input_helper",
+      "status": "candidate-context",
+      "text": "Processes winit events, allowing input state to be queried at any time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rukai/winit_input_helper",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "Snapshot testing for Nix based on haumea [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/jest-playwright",
+      "status": "candidate-context",
+      "text": "Running tests using Jest & Playwright "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/jest-playwright",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/playwright-community/jest-playwright/workflows/Node.js/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "Advanced fuzzing via Model Based Testing for Cosmos blockchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate-context",
+      "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sqlancer/sqlancer",
+      "status": "candidate-context",
+      "text": "Automated testing to find logic and performance bugs in database systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sqlancer/sqlancer",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/sqlancer/sqlancer/workflows/ci/badge.svg)](https://github.com/sqlancer/sqlancer/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pappasam/jedi-language-server",
+      "status": "candidate-context",
+      "text": "A Python language server exclusively for Jedi. If Jedi supports it well, this language server should too."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pappasam/jedi-language-server",
+      "status": "candidate-context",
+      "text": "Testing"
     }
   ],
   "candidate_glosses": [
@@ -2441,6 +2573,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stefnotch/winit_input_helper",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/test-runner",
+      "status": "candidate",
+      "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/angular-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/react-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yzhao062/pyod",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rukai/winit_input_helper",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/namaka",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/jest-playwright",
+      "status": "candidate",
+      "text": "![CI](https://github.com/playwright-community/jest-playwright/workflows/Node.js/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/atomkraft",
+      "status": "candidate",
+      "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sqlancer/sqlancer",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/sqlancer/sqlancer/workflows/ci/badge.svg)](https://github.com/sqlancer/sqlancer/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pappasam/jedi-language-server",
       "status": "candidate",
       "text": "Testing"
     }
@@ -3723,11 +3921,125 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "stefnotch/winit_input_helper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "testing-library/angular-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "testing-library/react-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "yzhao062/pyod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rukai/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/namaka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "playwright-community/jest-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/atomkraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "sqlancer/sqlancer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/testing.yaml",
+      "source_repo": "pappasam/jedi-language-server"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

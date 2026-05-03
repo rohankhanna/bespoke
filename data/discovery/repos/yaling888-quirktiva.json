@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T21:43:10.504121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quirktiva",
+    "fork": false,
+    "full_name": "yaling888/quirktiva",
+    "html_url": "https://github.com/yaling888/quirktiva",
+    "language": "Go",
+    "pushed_at": "2026-04-08T19:05:35Z",
+    "stargazers_count": 275,
+    "topics": [],
+    "updated_at": "2026-04-21T08:40:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

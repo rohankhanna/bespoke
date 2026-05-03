@@ -127,6 +127,18 @@
       "source_repo": "NVIDIA/warp",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/warp-lang.svg)](https://badge.fury.io/py/warp-lang)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gsneha26/SegAlign",
+      "status": "candidate-context",
+      "text": "A Scalable GPU-Based Whole Genome Aligner, published in SC20: https://doi.ieeecomputersociety.org/10.1109/SC41405.2020.00043"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsneha26/SegAlign",
+      "status": "candidate-context",
+      "text": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "NVIDIA/warp",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/warp-lang.svg)](https://badge.fury.io/py/warp-lang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsneha26/SegAlign",
+      "status": "candidate",
+      "text": "[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "gsneha26/SegAlign"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

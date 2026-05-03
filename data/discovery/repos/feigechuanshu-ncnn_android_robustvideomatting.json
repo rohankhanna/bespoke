@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:38:19.352206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Android human segmentation by ncnn",
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn_Android_RobustVideoMatting",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting",
+    "language": "C++",
+    "pushed_at": "2024-08-23T00:16:04Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-02-05T10:01:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

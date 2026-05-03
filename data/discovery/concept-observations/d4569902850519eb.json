@@ -84,7 +84,7 @@
   "normalized_form": "create-and-publish-a-docker-image",
   "observation_id": "d4569902850519eb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Create and publish a Docker image",
   "source_context_snippet": "Create and publish a Docker image",
   "source_file": ".github/workflows/deploy-image.yml",

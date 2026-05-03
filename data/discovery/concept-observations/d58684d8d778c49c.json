@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Converge is a set of libraries for working with convergent replicated"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clojurescript",
+      "sense_id": "clojurescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clojurescript",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clojurescript",
+  "observation_id": "d58684d8d778c49c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "clojurescript",
+  "source_context_snippet": "Converge is a set of libraries for working with convergent replicated",
+  "source_file": null,
+  "source_repo": "evidentsystems/converge",
+  "source_repo_description": "A convergent reference type for Clojure(Script) via on an OpSets-based CRDT"
+}

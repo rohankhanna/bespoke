@@ -84,7 +84,7 @@
   "normalized_form": "ossf-scorecard",
   "observation_id": "3846c8287e29a2f9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "OSSF Scorecard",
   "source_context_snippet": "OSSF Scorecard",
   "source_file": ".github/workflows/ossf-scorecard.yml",

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/dtparse",
+      "target": "dateutil/dateutil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/dtparse",
+      "target": "bspeice/dtparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datafuse-extras/dtparse",
+      "target": "bspeice/dtparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "datafuse-extras/dtparse",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "datafuse-extras/dtparse",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:46:48.251399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dateutil-compatible timestamp parser for Rust",
+    "fork": true,
+    "full_name": "datafuse-extras/dtparse",
+    "html_url": "https://github.com/datafuse-extras/dtparse",
+    "language": "Rust",
+    "pushed_at": "2026-03-30T07:40:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-30T07:41:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bspeice/dtparse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dateutil/dateutil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bspeice/dtparse",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

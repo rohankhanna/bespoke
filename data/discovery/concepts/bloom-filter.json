@@ -43,6 +43,42 @@
       "source_repo": "BirolLab/abyss",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaBioinformatics Technology Lab common code library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "\u26d3 Long Interval Nucleotide K-mer Scaffolder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "Fast hash function for DNA/RNA sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "BirolLab/abyss",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/btllib",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/ntHash",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "BirolLab/abyss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/btllib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

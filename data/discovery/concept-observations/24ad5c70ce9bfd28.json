@@ -84,7 +84,7 @@
   "normalized_form": "code-coverage",
   "observation_id": "24ad5c70ce9bfd28",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Code Coverage",
   "source_context_snippet": "Code Coverage",
   "source_file": ".github/workflows/coverage.yml",

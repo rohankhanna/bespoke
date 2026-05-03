@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sonatype: manual close+release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReactiveX/RxAndroid",
+      "status": "candidate-context",
+      "text": "RxJava bindings for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxAndroid",
+      "status": "candidate-context",
+      "text": "'Sonatype: manual close+release'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxAndroid",
+      "status": "candidate",
+      "text": "'Sonatype: manual close+release'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25747,
+      "status": "candidate",
+      "text": "divorce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19762,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19602,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18682,
+      "status": "candidate",
+      "text": "clap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sonatype: manual close+release",
+  "concept_id": "sonatype-manual-close-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/manual_drop.yaml",
+      "source_repo": "ReactiveX/RxAndroid"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sonatype: manual close+release",
+      "sense_id": "sonatype-manual-close-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

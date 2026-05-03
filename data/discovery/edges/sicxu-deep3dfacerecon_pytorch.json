@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "anhttran/3dmm_cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "davidsandberg/facenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "juyong/3dface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sicxu/Deep3DFaceRecon_pytorch",
+      "target": "ipazc/mtcnn",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "source_repo": "sicxu/Deep3DFaceRecon_pytorch"
+}

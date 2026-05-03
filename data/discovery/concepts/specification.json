@@ -247,6 +247,30 @@
       "source_repo": "zephyr-data-specs/GMNS",
       "status": "candidate-context",
       "text": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent \u2014 planning, spec and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate-context",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "An executable specification language  with delightful tooling based on the temporal logic of actions (TLA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "zephyr-data-specs/GMNS",
       "status": "candidate",
       "text": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent",
+      "status": "candidate",
+      "text": "Fluent is a localization system designed to unleash the expressive power of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/quint",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +589,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "zephyr-data-specs/GMNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/quint"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-transform-modules-umd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browser-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "del",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-load-plugins",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-plumber",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-rename",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sourcemaps",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "@babel/plugin-transform-modules-umd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "browser-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "del",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-load-plugins",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-plumber",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-rename",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gulp-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "es6-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "gallery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "hover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "hover-effects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "reveal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "vanilla-javascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NigelOToole/direction-reveal",
+      "target": "vanilla-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:40:18.658735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5354
+    },
+    {
+      "path": "package.json",
+      "size": 1410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Detects the direction a user enters or leaves an element allowing you to reveal or hide content based on this direction.",
+    "fork": false,
+    "full_name": "NigelOToole/direction-reveal",
+    "html_url": "https://github.com/NigelOToole/direction-reveal",
+    "language": "CSS",
+    "pushed_at": "2023-01-27T04:26:26Z",
+    "stargazers_count": 519,
+    "topics": [
+      "es6",
+      "es6-modules",
+      "gallery",
+      "hover",
+      "hover-effects",
+      "javascript",
+      "reveal",
+      "sass",
+      "vanilla-javascript",
+      "vanilla-js"
+    ],
+    "updated_at": "2026-04-01T19:26:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "es6-modules"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gallery"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hover"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hover-effects"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reveal"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vanilla-javascript"
+    },
+    {
+      "context_snippet": "```javascript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vanilla-js"
+    }
+  ]
+}

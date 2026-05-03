@@ -1,7 +1,17 @@
 {
-  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/repl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -20,22 +30,17 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "holman/dotfiles"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "git-quick-stats/git-quick-stats"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
       "source_repo": "spaceship-prompt/spaceship-prompt"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "acmesh-official/acme.sh"
     }
   ],
   "term": "shell"

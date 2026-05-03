@@ -26,11 +26,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM-6B",
-      "target": "thudm/chatglm-6b",
+      "target": "initialencounter/glm-bot",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T15:48:56.086907+00:00",
+  "fetched_at": "2026-05-03T20:31:57.721828+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "l15y/wenda",
+      "full_name": "initialencounter/glm-bot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thudm/chatglm-6b",
+      "full_name": "l15y/wenda",
       "source_file": "README.md"
     }
   ],

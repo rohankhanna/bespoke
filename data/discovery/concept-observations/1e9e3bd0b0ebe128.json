@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\"Iran Hosted Domains\" is a comprehensive list of Iranian domains and services that are hosted within the country."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "domains-list",
+      "sense_id": "domains-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "domains-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "domains-list",
+  "observation_id": "1e9e3bd0b0ebe128",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "domains-list",
+  "source_context_snippet": "- [\u0641\u0627\u0631\u0633\u06cc](README.fa.md)",
+  "source_file": null,
+  "source_repo": "bootmortis/iran-hosted-domains",
+  "source_repo_description": "\"Iran Hosted Domains\" is a comprehensive list of Iranian domains and services that are hosted within the country."
+}

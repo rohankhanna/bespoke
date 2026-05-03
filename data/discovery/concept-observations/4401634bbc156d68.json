@@ -120,7 +120,7 @@
   "normalized_form": "test",
   "observation_id": "4401634bbc156d68",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Test",
   "source_context_snippet": "Test",
   "source_file": ".github/workflows/test.yml",

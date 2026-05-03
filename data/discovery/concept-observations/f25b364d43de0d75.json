@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "quenya"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "reformed esperanto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "ogham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "slovio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "script"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cirth",
+      "sense_id": "cirth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cirth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cirth",
+  "observation_id": "f25b364d43de0d75",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "cirth",
+  "source_context_snippet": "<a href=\"https://github.com/MY1L/icense\"><img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"https://github.com/MY1L/icense/raw/main/Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/></a>",
+  "source_file": null,
+  "source_repo": "MY1L/Ctrl",
+  "source_repo_description": "\u7dbf\u98f4\u539f\u521b\u5b57\u4f53\u3002MY1L original fonts."
+}

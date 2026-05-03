@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dependency-urls.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dependency-urls.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dependency-urls.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check Dependency URLs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check .NET Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Check Winget Manifest Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-check.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-check.yml",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "Compile Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "3rd-party-installers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "dependency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "inno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "inno-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "installer-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "target": "pascal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:42:19.752851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4800
+    },
+    {
+      "path": ".github/workflows/check-dependency-urls.yml",
+      "size": 3103
+    },
+    {
+      "path": ".github/workflows/check-dotnet-updates.yml",
+      "size": 14630
+    },
+    {
+      "path": ".github/workflows/check-winget-updates.yml",
+      "size": 5689
+    },
+    {
+      "path": ".github/workflows/compile-check.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Download and install any dependency such as .NET, Visual C++ or SQL Server during your application's installation!",
+    "fork": false,
+    "full_name": "DomGries/InnoDependencyInstaller",
+    "html_url": "https://github.com/DomGries/InnoDependencyInstaller",
+    "language": "Inno Setup",
+    "pushed_at": "2026-04-23T22:58:31Z",
+    "stargazers_count": 715,
+    "topics": [
+      "3rd-party-installers",
+      "dependency",
+      "inno",
+      "inno-setup",
+      "installer",
+      "installer-script",
+      "iss",
+      "pascal"
+    ],
+    "updated_at": "2026-04-30T05:53:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Dependency URLs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dependency-urls.yml",
+      "term": "Check Dependency URLs"
+    },
+    {
+      "context_snippet": "Check .NET Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dotnet-updates.yml",
+      "term": "Check .NET Updates"
+    },
+    {
+      "context_snippet": "Check Winget Manifest Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-winget-updates.yml",
+      "term": "Check Winget Manifest Updates"
+    },
+    {
+      "context_snippet": "Compile Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-check.yml",
+      "term": "Compile Check"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3rd-party-installers"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inno"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inno-setup"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer-script"
+    },
+    {
+      "context_snippet": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "docker-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "sql-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mssql-docker",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:26:13.819735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Microsoft repository for SQL Server in Docker resources",
+    "fork": false,
+    "full_name": "microsoft/mssql-docker",
+    "html_url": "https://github.com/microsoft/mssql-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-01-27T14:26:41Z",
+    "stargazers_count": 1871,
+    "topics": [
+      "database",
+      "docker",
+      "docker-engine",
+      "linux",
+      "sql-server",
+      "windows"
+    ],
+    "updated_at": "2026-04-28T20:04:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-engine"
+    },
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sql-server"
+    },
+    {
+      "context_snippet": "This GitHub repository aims to provide a centralized location for community engagement. In here you will find documentation, Dockerfiles and additional developer resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -321,28 +321,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "preactjs/preact",
-      "target": "preactjs/awesome-preact",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
-      "target": "developit/preact-in-es3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
       "target": "dominictarr/hyperscript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preactjs/preact",
-      "target": "preactjs/preact-devtools",
       "target_type": "repository"
     },
     {
@@ -843,7 +822,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:40:38.339375+00:00",
+  "fetched_at": "2026-05-03T20:34:12.834992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -895,8 +874,8 @@
     "full_name": "preactjs/preact",
     "html_url": "https://github.com/preactjs/preact",
     "language": "JavaScript",
-    "pushed_at": "2026-04-08T06:05:26Z",
-    "stargazers_count": 38571,
+    "pushed_at": "2026-05-02T05:15:56Z",
+    "stargazers_count": 38592,
     "topics": [
       "components",
       "dom",
@@ -906,27 +885,12 @@
       "vdom",
       "virtual-dom"
     ],
-    "updated_at": "2026-04-24T01:08:36Z"
+    "updated_at": "2026-05-03T18:38:41Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "developit/preact-in-es3",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dominictarr/hyperscript",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "preactjs/awesome-preact",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "preactjs/preact-devtools",
       "source_file": "README.md"
     }
   ],

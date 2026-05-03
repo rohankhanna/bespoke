@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "renovate-validation"
+    "renovate-validation",
+    "Renovate Validation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate-context",
       "text": "renovate-validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "status": "candidate-context",
+      "text": "Efficient glTF 3D import / export library for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "status": "candidate-context",
+      "text": "Renovate Validation"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate",
       "text": "renovate-validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast",
+      "status": "candidate",
+      "text": "Renovate Validation"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "revive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10607,
+      "status": "candidate",
+      "text": "revived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "improve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "redo"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "renovate-validation",
   "concept_id": "renovate-validation",
@@ -52,11 +107,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/renovate-validation.yml",
       "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/renovate-validation.yml",
+      "source_repo": "Unity-Technologies/com.unity.cloud.gltfast"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

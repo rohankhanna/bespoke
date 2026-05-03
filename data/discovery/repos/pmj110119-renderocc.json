@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pmj110119/RenderOcc",
+      "target": "pmj110119/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pmj110119/RenderOcc",
+      "target": "dzcgaara/ovo-open-vocabulary-occupancy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:28.286306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3448
+    },
+    {
+      "path": "requirements.txt",
+      "size": 336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICRA 2024] RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision. (Early version: UniOcc)",
+    "fork": false,
+    "full_name": "pmj110119/RenderOcc",
+    "html_url": "https://github.com/pmj110119/RenderOcc",
+    "language": "Python",
+    "pushed_at": "2025-01-07T06:33:57Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-05-02T22:31:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dzcgaara/ovo-open-vocabulary-occupancy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmj110119/storage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

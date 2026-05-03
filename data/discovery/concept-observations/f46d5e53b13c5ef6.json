@@ -84,7 +84,7 @@
   "normalized_form": "neotest-workflow",
   "observation_id": "f46d5e53b13c5ef6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "neotest Workflow",
   "source_context_snippet": "neotest Workflow",
   "source_file": ".github/workflows/workflow.yaml",

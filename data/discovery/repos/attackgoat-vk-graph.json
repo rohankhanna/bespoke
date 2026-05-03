@@ -42,20 +42,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "attackgoat/vk-graph",
-      "target": "expenses/vk-sync-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "attackgoat/vk-graph",
-      "target": "stefnotch/winit_input_helper",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-clippy.yml",
       "source_repo": "attackgoat/vk-graph",
@@ -147,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:45:36.280747+00:00",
+  "fetched_at": "2026-05-03T20:44:40.703067+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -197,16 +183,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "attackgoat/screen-13",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "expenses/vk-sync-rs",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stefnotch/winit_input_helper",
       "source_file": "Cargo.toml"
     }
   ],

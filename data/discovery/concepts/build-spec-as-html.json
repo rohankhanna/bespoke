@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build spec as HTML"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/message-format-wg",
+      "status": "candidate-context",
+      "text": "Developing a standard for localizable message strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/message-format-wg",
+      "status": "candidate-context",
+      "text": "Build spec as HTML"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/message-format-wg",
+      "status": "candidate",
+      "text": "Build spec as HTML"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22243,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21494,
+      "status": "candidate",
+      "text": "castilian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21494,
+      "status": "candidate",
+      "text": "conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17905,
+      "status": "candidate",
+      "text": "markup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14307,
+      "status": "candidate",
+      "text": "alcazar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build spec as HTML",
+  "concept_id": "build-spec-as-html",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/build_spec.yml",
+      "source_repo": "unicode-org/message-format-wg"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build spec as HTML",
+      "sense_id": "build-spec-as-html#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

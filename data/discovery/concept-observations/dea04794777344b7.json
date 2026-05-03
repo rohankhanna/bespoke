@@ -84,7 +84,7 @@
   "normalized_form": "check-run-tests.sh-sanity",
   "observation_id": "dea04794777344b7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "Check run-tests.sh Sanity",
   "source_context_snippet": "Check run-tests.sh Sanity",
   "source_file": ".github/workflows/check-run-tests-sh-sanity.yml",

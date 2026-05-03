@@ -31,6 +31,18 @@
       "source_repo": "github/pages-gem",
       "status": "candidate-context",
       "text": "A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "A Jekyll plugin to cache the rendering of Liquid includes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate-context",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "github/pages-gem",
       "status": "candidate",
       "text": "A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-include-cache",
+      "status": "candidate",
+      "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "github/pages-gem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-include-cache"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

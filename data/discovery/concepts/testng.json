@@ -43,6 +43,18 @@
       "source_repo": "testng-team/testng",
       "status": "candidate-context",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "TestNG documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate-context",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "testng-team/testng",
       "status": "candidate",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng-team.github.io",
+      "status": "candidate",
+      "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "testng-team/testng-team.github.io"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

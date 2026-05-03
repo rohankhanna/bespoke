@@ -476,13 +476,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/react-native",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "storybookjs/storybook",
       "target": "storybookjs/addon-graphql",
       "target_type": "repository"
     },
@@ -491,13 +484,6 @@
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
       "target": "storybookjs/addon-queryparams",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/test-runner",
       "target_type": "repository"
     },
     {
@@ -879,7 +865,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T13:46:07.087127+00:00",
+  "fetched_at": "2026-05-03T21:37:09.454268+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -931,7 +917,7 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-02T07:12:42Z",
+    "pushed_at": "2026-05-03T19:06:30Z",
     "stargazers_count": 89842,
     "topics": [
       "angular",
@@ -955,7 +941,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-03T11:52:11Z"
+    "updated_at": "2026-05-03T21:05:40Z"
   },
   "repo_links": [
     {
@@ -966,16 +952,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "storybookjs/addon-queryparams",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/react-native",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/test-runner",
       "source_file": "README.md"
     }
   ],

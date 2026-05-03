@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/java-straw",
+      "target": "sa501428/java-straw",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:29:23.314593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "aidenlab/java-straw",
+    "html_url": "https://github.com/aidenlab/java-straw",
+    "language": "Java",
+    "pushed_at": "2022-09-29T01:18:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-12-31T07:48:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sa501428/java-straw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

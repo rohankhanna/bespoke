@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "bichenwuucb/squeezeseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "xuanyuzhou98/squeezesegv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "bernwang/latte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenfengxu714/SqueezeSegV3",
+      "target": "prbonn/lidar-bonnetal",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:16.857323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5808
+    },
+    {
+      "path": "requirements.txt",
+      "size": 139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chenfengxu714/SqueezeSegV3",
+    "html_url": "https://github.com/chenfengxu714/SqueezeSegV3",
+    "language": "Python",
+    "pushed_at": "2022-11-22T04:21:25Z",
+    "stargazers_count": 247,
+    "topics": [],
+    "updated_at": "2026-03-30T08:09:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bernwang/latte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bichenwuucb/squeezeseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/lidar-bonnetal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuanyuzhou98/squeezesegv2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

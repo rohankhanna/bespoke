@@ -27,11 +27,11 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T07:38:16.079922+00:00",
+  "fetched_at": "2026-05-03T21:46:54.841706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2886
+      "size": 2841
     },
     {
       "path": "Cargo.toml",
@@ -51,10 +51,10 @@
     "full_name": "rust-lang/pkg-config-rs",
     "html_url": "https://github.com/rust-lang/pkg-config-rs",
     "language": "Rust",
-    "pushed_at": "2026-04-13T08:57:16Z",
+    "pushed_at": "2026-04-24T07:27:36Z",
     "stargazers_count": 188,
     "topics": [],
-    "updated_at": "2026-04-16T02:45:36Z"
+    "updated_at": "2026-04-24T07:27:41Z"
   },
   "repo_links": [],
   "terms": []

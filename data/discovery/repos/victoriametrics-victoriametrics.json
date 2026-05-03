@@ -1,0 +1,630 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signed.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4.35.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4.35.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4.35.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml"
+    },
+    {
+      "component": "ataylorme/eslint-annotate-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-linter.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-linter.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "changelog-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signed.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signed.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "check-commit-signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "license-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "github/codeql-action/init@v4.35.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "github/codeql-action/autobuild@v4.35.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "github/codeql-action/analyze@v4.35.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "CodeQL Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "crazy-max/ghaction-import-gpg@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "publish-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vmui.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "ataylorme/eslint-annotate-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vmui.yml",
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "vmui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "grafana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "graphite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "influxdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "opentsdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "prometheus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "promql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "thanos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/VictoriaMetrics",
+      "target": "tsdb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:46:39.424319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13690
+    },
+    {
+      "path": "go.mod",
+      "size": 9606
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1829
+    },
+    {
+      "path": ".github/workflows/changelog-linter.yml",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/check-commit-signed.yml",
+      "size": 1614
+    },
+    {
+      "path": ".github/workflows/check-licenses.yml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/codeql-analysis-go.yml",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1782
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2180
+    },
+    {
+      "path": ".github/workflows/vmui.yml",
+      "size": 2352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+    "fork": false,
+    "full_name": "VictoriaMetrics/VictoriaMetrics",
+    "html_url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+    "language": "Go",
+    "pushed_at": "2026-04-30T18:46:40Z",
+    "stargazers_count": 16933,
+    "topics": [
+      "database",
+      "grafana",
+      "graphite",
+      "influxdb",
+      "kubernetes",
+      "monitoring",
+      "observability",
+      "opentelemetry",
+      "opentsdb",
+      "prometheus",
+      "promql",
+      "thanos",
+      "tsdb"
+    ],
+    "updated_at": "2026-05-03T21:32:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "'changelog-linter'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-linter.yml",
+      "term": "changelog-linter"
+    },
+    {
+      "context_snippet": "check-commit-signed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signed.yml",
+      "term": "check-commit-signed"
+    },
+    {
+      "context_snippet": "license-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-licenses.yml",
+      "term": "license-check"
+    },
+    {
+      "context_snippet": "'CodeQL Go'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis-go.yml",
+      "term": "CodeQL Go"
+    },
+    {
+      "context_snippet": "publish-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "publish-docs"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "vmui",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vmui.yml",
+      "term": "vmui"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphite"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "influxdb"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentsdb"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "promql"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thanos"
+    },
+    {
+      "context_snippet": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsdb"
+    }
+  ]
+}

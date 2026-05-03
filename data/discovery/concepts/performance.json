@@ -874,6 +874,30 @@
       "source_repo": "jgpc42/jmh-clojure",
       "status": "candidate-context",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/jmh-clojure.svg)](https://clojars.org/jmh-clojure)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate-context",
+      "text": "Raster processing benchmarks for Python, R, and Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate-context",
+      "text": "This repository contains a collection of raster processing benchmarks for Python and R packages."
     }
   ],
   "candidate_glosses": [
@@ -1308,6 +1332,18 @@
       "source_repo": "jgpc42/jmh-clojure",
       "status": "candidate",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/jmh-clojure.svg)](https://clojars.org/jmh-clojure)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infernojs/inferno",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/raster-benchmark",
+      "status": "candidate",
+      "text": "This repository contains a collection of raster processing benchmarks for Python and R packages."
     }
   ],
   "candidate_related_terms": [
@@ -2119,11 +2155,47 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jgpc42/jmh-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "infernojs/inferno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kadyb/raster-benchmark"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

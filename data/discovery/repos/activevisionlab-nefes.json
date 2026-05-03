@@ -1,0 +1,233 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "nvlabs/geomapnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "tsattler/visloc_pseudo_gt_limitations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "activevisionlab/direct-posenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "yolish/multi-scene-pose-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "6dof-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "camera-relocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "cvpr2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "neural-feature-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/NeFeS",
+      "target": "visual-relocalization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:32:34.488360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2024) Neural Refinement for Absolute Pose Regression with Feature Synthesis",
+    "fork": false,
+    "full_name": "ActiveVisionLab/NeFeS",
+    "html_url": "https://github.com/ActiveVisionLab/NeFeS",
+    "language": "Python",
+    "pushed_at": "2024-12-24T23:30:11Z",
+    "stargazers_count": 34,
+    "topics": [
+      "6dof-pose",
+      "camera-relocalization",
+      "computer-vision",
+      "cvpr",
+      "cvpr2024",
+      "machine-learning",
+      "nerf",
+      "neural-feature-fields",
+      "neural-radiance-fields",
+      "pose-estimation",
+      "visual-relocalization"
+    ],
+    "updated_at": "2026-04-07T08:40:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activevisionlab/direct-posenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/geomapnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsattler/visloc_pseudo_gt_limitations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yolish/multi-scene-pose-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "6dof-pose"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-relocalization"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2024"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-feature-fields"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-relocalization"
+    }
+  ]
+}

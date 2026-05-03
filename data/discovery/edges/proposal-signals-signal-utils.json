@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "solidjs/solid",
+      "target": "tracked-tools/tracked-toolbox",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "tracked-tools/ember-async-data",
+      "target": "universal-ember/reactiveweb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "robbiespeed/metron",
+      "target": "vue-reactivity/use",
       "target_type": "repository"
     },
     {
@@ -218,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "proposal-signals/signal-utils"
 }

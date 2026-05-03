@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashawkey/diff-gaussian-rasterization",
+      "target": "graphdeco-inria/diff-gaussian-rasterization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T19:34:02.159437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ashawkey/diff-gaussian-rasterization",
+    "html_url": "https://github.com/ashawkey/diff-gaussian-rasterization",
+    "language": "Cuda",
+    "pushed_at": "2024-07-24T18:13:58Z",
+    "stargazers_count": 485,
+    "topics": [],
+    "updated_at": "2026-05-01T21:50:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphdeco-inria/diff-gaussian-rasterization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T19:41:43.784130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 261
+    },
+    {
+      "path": "go.mod",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides gorilla based session and cookie handling for authboss",
+    "fork": false,
+    "full_name": "aarondl/authboss-clientstate",
+    "html_url": "https://github.com/aarondl/authboss-clientstate",
+    "language": "Go",
+    "pushed_at": "2025-06-26T06:09:18Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-06-26T06:09:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

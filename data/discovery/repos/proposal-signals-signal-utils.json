@@ -158,21 +158,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "solidjs/solid",
+      "target": "tracked-tools/tracked-toolbox",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "tracked-tools/ember-async-data",
+      "target": "universal-ember/reactiveweb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "robbiespeed/metron",
+      "target": "vue-reactivity/use",
       "target_type": "repository"
     },
     {
@@ -365,7 +365,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:40:07.981247+00:00",
+  "fetched_at": "2026-05-03T20:39:03.322419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -410,17 +410,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "robbiespeed/metron",
+      "full_name": "tracked-tools/tracked-toolbox",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "solidjs/solid",
+      "full_name": "universal-ember/reactiveweb",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tracked-tools/ember-async-data",
+      "full_name": "vue-reactivity/use",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ASIC implementation flow infrastructure, successor to OpenLane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "librelane",
+      "sense_id": "librelane#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "librelane",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "librelane",
+  "observation_id": "a538a0b8d01b5cf4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "librelane",
+  "source_context_snippet": "[project] name = \"librelane\" version = \"3.0.3\" description = \"An infrastructure for implementing chip design flows\" maintainers = [ {name = \"Mohamed Gaber\", email = \"donn@fossi-foundation.org\"}, {name = \"Leo Moser\", email = \"leo@fossi-foundation.org\"} ] readme = \"Readme.md\" lice\u2026",
+  "source_file": null,
+  "source_repo": "librelane/librelane",
+  "source_repo_description": "ASIC implementation flow infrastructure, successor to OpenLane"
+}

@@ -443,6 +443,30 @@
       "source_repo": "rubocop/rubocop-rails",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "Manage translation and localization with static analysis, for Ruby i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "PHP Static Analysis Tool - discover bugs in your code without running it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>"
     }
   ],
   "candidate_glosses": [
@@ -661,6 +685,18 @@
       "source_repo": "rubocop/rubocop-rails",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glebm/i18n-tasks",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">PHPStan - PHP Static Analysis Tool</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1100,11 +1136,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "glebm/i18n-tasks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "phpstan/phpstan"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "amirbar/speech2gesture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "hongwenzhang/pymaf-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "leimao/deeplab-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yhw-yhw/SHOW",
+      "target": "1adrianb/2d-and-3d-face-alignment",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:38:23.653807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9775
+    },
+    {
+      "path": "requirements.txt",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the codebase for SHOW in Generating Holistic 3D Human Motion from Speech [CVPR2023],",
+    "fork": false,
+    "full_name": "yhw-yhw/SHOW",
+    "html_url": "https://github.com/yhw-yhw/SHOW",
+    "language": "Python",
+    "pushed_at": "2024-09-08T05:19:30Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-03-30T08:25:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/2d-and-3d-face-alignment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amirbar/speech2gesture",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongwenzhang/pymaf-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leimao/deeplab-v3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

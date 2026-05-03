@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reactor/lite-rx-api-hands-on",
+      "target": "reactor/reactor-kotlin-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reactor/lite-rx-api-hands-on",
+      "target": "eddumelendez/reactor-kotlin-workshop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:36:48.045938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lite Rx API Hands-On with Reactor Core 3",
+    "fork": false,
+    "full_name": "reactor/lite-rx-api-hands-on",
+    "html_url": "https://github.com/reactor/lite-rx-api-hands-on",
+    "language": "Java",
+    "pushed_at": "2025-09-26T18:12:15Z",
+    "stargazers_count": 1069,
+    "topics": [],
+    "updated_at": "2026-04-23T06:58:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddumelendez/reactor-kotlin-workshop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reactor/reactor-kotlin-extensions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

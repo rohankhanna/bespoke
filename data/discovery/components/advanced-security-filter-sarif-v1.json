@@ -1,7 +1,7 @@
 {
   "component": "advanced-security/filter-sarif@v1",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/misra-regressions-check.yml",
       "source_repo": "eclipse-cyclonedds/cyclonedds"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "solidjs-community/solid-primitives"
     }
   ]
 }

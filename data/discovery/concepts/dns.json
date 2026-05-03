@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "DNS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "A pure Unix shell script ACME client for SSL / TLS certificate automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate-context",
+      "text": "DNS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate",
+      "text": "DNS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049790,
+      "status": "candidate",
+      "text": "https"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040531,
+      "status": "candidate",
+      "text": "dob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000696,
+      "status": "candidate",
+      "text": "dne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936895,
+      "status": "candidate",
+      "text": "dnd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29743011,
+      "status": "candidate",
+      "text": "dna"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "DNS",
+  "concept_id": "dns",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/DNS.yml",
+      "source_repo": "acmesh-official/acme.sh"
+    }
+  ],
+  "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DNS",
+      "sense_id": "dns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

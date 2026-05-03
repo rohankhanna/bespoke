@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_spec.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_spec.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_spec.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "Build spec as HTML",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "Deploy spec to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_tests.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_tests.yml",
+      "source_repo": "unicode-org/message-format-wg",
+      "target": "Validate test data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:41:59.159042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4044
+    },
+    {
+      "path": ".github/workflows/build_spec.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/deploy_pages.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/validate_tests.yml",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Developing a standard for localizable message strings",
+    "fork": false,
+    "full_name": "unicode-org/message-format-wg",
+    "html_url": "https://github.com/unicode-org/message-format-wg",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T12:11:42Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-29T04:40:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build spec as HTML",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_spec.yml",
+      "term": "Build spec as HTML"
+    },
+    {
+      "context_snippet": "Deploy spec to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "term": "Deploy spec to GitHub Pages"
+    },
+    {
+      "context_snippet": "Validate test data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_tests.yml",
+      "term": "Validate test data"
+    }
+  ]
+}

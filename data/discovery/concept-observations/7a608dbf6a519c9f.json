@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a list of domains and ips that stay live in russia when the mobile internet gets restricted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<sup>BTC</sup>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<sup>BTC</sup>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990347,
+      "status": "candidate",
+      "text": "waiting list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990346,
+      "status": "candidate",
+      "text": "wanted list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990345,
+      "status": "candidate",
+      "text": "free list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990344,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990343,
+      "status": "candidate",
+      "text": "placard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whitelist",
+      "sense_id": "whitelist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "whitelist",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "whitelist",
+  "observation_id": "7a608dbf6a519c9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_text": "whitelist",
+  "source_context_snippet": "<sup>BTC</sup>",
+  "source_file": null,
+  "source_repo": "hxehex/russia-mobile-internet-whitelist",
+  "source_repo_description": "a list of domains and ips that stay live in russia when the mobile internet gets restricted"
+}

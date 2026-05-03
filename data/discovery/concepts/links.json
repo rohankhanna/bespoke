@@ -178,6 +178,18 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate-context",
       "text": "Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate-context",
+      "text": "Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate-context",
+      "text": "> Find broken links, missing images, etc within your HTML."
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate",
       "text": "Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevenvachon/broken-link-checker",
+      "status": "candidate",
+      "text": "> Find broken links, missing images, etc within your HTML."
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +430,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "stevenvachon/broken-link-checker"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

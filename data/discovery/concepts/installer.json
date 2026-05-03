@@ -301,6 +301,42 @@
       "source_repo": "bpkg/bpkg",
       "status": "candidate-context",
       "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "Download and install any dependency such as .NET, Visual C++ or SQL Server during your application's installation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate-context",
+      "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrsoftware/issrc",
+      "status": "candidate-context",
+      "text": "Inno Setup is an open-source installation builder for Windows applications by Jordan Russell and Martijn Laan. Since its introduction in 1997, Inno Setup has been trusted by developers and organizations of all sizes to reliably deploy software to millions of PCs worldwide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/issrc",
+      "status": "candidate-context",
+      "text": "Inno Setup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "status": "candidate-context",
+      "text": "Bash script for installing V2Ray in operating systems such as Debian / CentOS / Fedora / openSUSE that support systemd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "status": "candidate-context",
+      "text": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +489,24 @@
       "source_repo": "bpkg/bpkg",
       "status": "candidate",
       "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DomGries/InnoDependencyInstaller",
+      "status": "candidate",
+      "text": "![Inno Setup Dependency Installer](https://user-images.githubusercontent.com/341158/122873592-3e2e9d80-d332-11eb-8055-8a4c6064ac4e.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/issrc",
+      "status": "candidate",
+      "text": "Inno Setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/fhs-install-v2ray",
+      "status": "candidate",
+      "text": "> \u6b32\u67e5\u9605\u4ee5\u7b80\u4f53\u4e2d\u6587\u64b0\u5199\u7684\u4ecb\u7ecd\uff0c\u8bf7\u8bbf\u95ee\uff1a[README.zh-Hans-CN.md](README.zh-Hans-CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +832,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "DomGries/InnoDependencyInstaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "jrsoftware/issrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/fhs-install-v2ray"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

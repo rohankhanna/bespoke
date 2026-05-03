@@ -1657,6 +1657,42 @@
       "source_repo": "jasonjmcghee/ron-lsp",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate-context",
+      "text": "Hlsearch Lens for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate-context",
+      "text": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate-context",
+      "text": ":new: :stopwatch: A simple, customizable pomodoro timer for Neovim, written in Lua, with nvim-notify, lualine, and telescope integrations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">pomo.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "Not UFO in the sky, but an ultra fold in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
     }
   ],
   "candidate_glosses": [
@@ -2487,6 +2523,24 @@
       "source_repo": "jasonjmcghee/ron-lsp",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate",
+      "text": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">pomo.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
     }
   ],
   "candidate_related_terms": [],
@@ -3892,11 +3946,95 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jasonjmcghee/ron-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.pick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "epwalsh/pomo.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/oci-go-sdk",
+      "target": "sony/gobreaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/oci-go-sdk",
+      "target": "gofrs/flock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/oci-go-sdk",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/oci-go-sdk",
+      "target": "oracle-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/oci-go-sdk",
+      "target": "oracle-cloud-infrastructure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:33:43.978052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10530
+    },
+    {
+      "path": "go.mod",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go SDK for Oracle Cloud Infrastructure ",
+    "fork": false,
+    "full_name": "oracle/oci-go-sdk",
+    "html_url": "https://github.com/oracle/oci-go-sdk",
+    "language": "Go",
+    "pushed_at": "2026-04-28T16:46:33Z",
+    "stargazers_count": 206,
+    "topics": [
+      "cloud",
+      "go",
+      "oracle-cloud",
+      "oracle-cloud-infrastructure",
+      "sdk"
+    ],
+    "updated_at": "2026-04-28T16:44:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gofrs/flock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/gobreaker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![wercker status](https://app.wercker.com/status/09bc4818e7b1d70b04285331a9bdbc41/s/master \"wercker status\")](https://app.wercker.com/project/byKey/09bc4818e7b1d70b04285331a9bdbc41)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![wercker status](https://app.wercker.com/status/09bc4818e7b1d70b04285331a9bdbc41/s/master \"wercker status\")](https://app.wercker.com/project/byKey/09bc4818e7b1d70b04285331a9bdbc41)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oracle-cloud"
+    },
+    {
+      "context_snippet": "[![wercker status](https://app.wercker.com/status/09bc4818e7b1d70b04285331a9bdbc41/s/master \"wercker status\")](https://app.wercker.com/project/byKey/09bc4818e7b1d70b04285331a9bdbc41)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oracle-cloud-infrastructure"
+    }
+  ]
+}

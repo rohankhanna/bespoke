@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/LINKS",
+      "target": "warrenlr/links",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BirolLab/LINKS",
+      "target": "birollab/bloomfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/LINKS",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/LINKS",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "bloom-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "draft-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "extract-kmer-pairs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "genome-assemblies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "long-reads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "scaffold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS",
+      "target": "scaffold-layout",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T21:50:32.339389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30320
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26d3 Long Interval Nucleotide K-mer Scaffolder",
+    "fork": false,
+    "full_name": "BirolLab/LINKS",
+    "html_url": "https://github.com/BirolLab/LINKS",
+    "language": "Perl",
+    "pushed_at": "2026-03-27T14:46:35Z",
+    "stargazers_count": 73,
+    "topics": [
+      "bloom-filter",
+      "draft-assembly",
+      "extract-kmer-pairs",
+      "genome-assemblies",
+      "long-reads",
+      "scaffold",
+      "scaffold-layout"
+    ],
+    "updated_at": "2026-03-27T14:46:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birollab/bloomfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "warrenlr/links",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "draft-assembly"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract-kmer-pairs"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-assemblies"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-reads"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaffold"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaffold-layout"
+    }
+  ]
+}

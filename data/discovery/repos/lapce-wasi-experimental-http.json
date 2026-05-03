@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lapce/wasi-experimental-http",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lapce/wasi-experimental-http",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T20:35:23.705361+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1064
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Experimental outbound HTTP support for WebAssembly and WASI",
+    "fork": true,
+    "full_name": "lapce/wasi-experimental-http",
+    "html_url": "https://github.com/lapce/wasi-experimental-http",
+    "language": "Rust",
+    "pushed_at": "2024-03-24T18:00:13Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2023-07-14T18:24:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:37:48.547532+00:00",
+  "fetched_at": "2026-05-03T21:44:01.419702+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -469,13 +469,13 @@
   "repo": {
     "archived": false,
     "default_branch": "master",
-    "description": "The agent engineering platform",
+    "description": "The agent engineering platform. Available in TypeScript!",
     "fork": false,
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-05-03T12:07:39Z",
-    "stargazers_count": 135676,
+    "pushed_at": "2026-05-03T18:54:52Z",
+    "stargazers_count": 135696,
     "topics": [
       "agents",
       "ai",
@@ -495,9 +495,10 @@
       "openai",
       "pydantic",
       "python",
-      "rag"
+      "rag",
+      "typescript"
     ],
-    "updated_at": "2026-05-03T14:36:15Z"
+    "updated_at": "2026-05-03T21:33:50Z"
   },
   "repo_links": [],
   "terms": [

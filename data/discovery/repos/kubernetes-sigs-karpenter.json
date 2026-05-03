@@ -110,27 +110,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "sergelogvinov/karpenter-provider-proxmox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "oracle/karpenter-provider-oci",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubernetes-sigs/karpenter",
-      "target": "zoom/karpenter-oci",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "kubernetes-sigs/karpenter",
@@ -306,7 +285,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:34:42.276624+00:00",
+  "fetched_at": "2026-05-03T20:33:38.328953+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,21 +346,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "aws/karpenter-core",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oracle/karpenter-provider-oci",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sergelogvinov/karpenter-provider-proxmox",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zoom/karpenter-oci",
       "source_file": "README.md"
     }
   ],

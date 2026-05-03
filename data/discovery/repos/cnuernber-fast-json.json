@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T20:46:22.506270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cnuernber/fast-json",
+    "html_url": "https://github.com/cnuernber/fast-json",
+    "language": "Clojure",
+    "pushed_at": "2023-04-18T23:14:00Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2023-09-05T12:00:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

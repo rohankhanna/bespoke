@@ -187,6 +187,42 @@
       "source_repo": "epwalsh/obsidian.nvim",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate-context",
+      "text": "Hlsearch Lens for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate-context",
+      "text": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate-context",
+      "text": ":new: :stopwatch: A simple, customizable pomodoro timer for Neovim, written in Lua, with nvim-notify, lualine, and telescope integrations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">pomo.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "Not UFO in the sky, but an ultra fold in Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate-context",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "epwalsh/obsidian.nvim",
       "status": "candidate",
       "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-hlslens",
+      "status": "candidate",
+      "text": "nvim-hlslens helps you better glance at matched information, seamlessly jump between matched"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/pomo.nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">pomo.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinhwang91/nvim-ufo",
+      "status": "candidate",
+      "text": "The goal of nvim-ufo is to make Neovim's fold look modern and keep high performance."
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +460,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "epwalsh/obsidian.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-hlslens"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "epwalsh/pomo.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "kevinhwang91/nvim-ufo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

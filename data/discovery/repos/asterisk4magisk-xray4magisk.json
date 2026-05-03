@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "magisk-modules-repo/v2ray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "asterisk4magisk/xrayhelper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "tiann/kernelsu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "5ec1cff/ksuwebuistandalone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Asterisk4Magisk/Xray4Magisk",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T18:35:42.044899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5721
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Xray core with service scripts for Android",
+    "fork": false,
+    "full_name": "Asterisk4Magisk/Xray4Magisk",
+    "html_url": "https://github.com/Asterisk4Magisk/Xray4Magisk",
+    "language": "Shell",
+    "pushed_at": "2024-11-11T15:04:38Z",
+    "stargazers_count": 444,
+    "topics": [],
+    "updated_at": "2026-04-27T13:05:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5ec1cff/ksuwebuistandalone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asterisk4magisk/xrayhelper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magisk-modules-repo/v2ray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiann/kernelsu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

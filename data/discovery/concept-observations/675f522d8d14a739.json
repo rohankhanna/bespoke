@@ -84,7 +84,7 @@
   "normalized_form": "abac",
   "observation_id": "675f522d8d14a739",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-03T18:24:01.791245+00:00",
   "observed_text": "abac",
   "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
   "source_file": null,

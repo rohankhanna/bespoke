@@ -319,6 +319,18 @@
       "source_repo": "vutran/zel",
       "status": "candidate-context",
       "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate-context",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate-context",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "vutran/zel",
       "status": "candidate",
       "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dunamis4tw/generate-geoip-geosite",
+      "status": "candidate",
+      "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
     }
   ],
   "candidate_related_terms": [
@@ -757,11 +775,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": null,
+      "source_repo": "Dunamis4tw/generate-geoip-geosite"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

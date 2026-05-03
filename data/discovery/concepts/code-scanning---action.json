@@ -458,6 +458,30 @@
       "source_repo": "Blosc/python-blosc",
       "status": "candidate-context",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate-context",
+      "text": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "A Python package providing buffer compression and transformation codecs for use in data storage and communication applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -692,6 +716,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Blosc/python-blosc",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seaweedfs/seaweedfs",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/numcodecs",
       "status": "candidate",
       "text": "\"Code Scanning - Action\""
     }
@@ -1139,11 +1175,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "seaweedfs/seaweedfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "zarr-developers/numcodecs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

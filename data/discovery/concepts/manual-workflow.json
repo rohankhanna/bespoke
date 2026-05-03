@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Manual workflow"
+    "Manual workflow",
+    "Manual Workflow"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "baskeboler/clj-karaoke-lyrics",
       "status": "candidate-context",
       "text": "Manual workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "status": "candidate-context",
+      "text": "Manual Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udacity/ud989-retain",
+      "status": "candidate-context",
+      "text": "Manual Workflow"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,18 @@
       "source_repo": "baskeboler/clj-karaoke-lyrics",
       "status": "candidate",
       "text": "Manual workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udacity/ud989-pizzamvo",
+      "status": "candidate",
+      "text": "Manual Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "udacity/ud989-retain",
+      "status": "candidate",
+      "text": "Manual Workflow"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +149,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/subtitles.yml",
       "source_repo": "baskeboler/clj-karaoke-lyrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-pizzamvo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "udacity/ud989-retain"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

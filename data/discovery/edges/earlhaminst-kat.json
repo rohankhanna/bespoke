@@ -6,15 +6,8 @@
       "source_repo": "EarlhamInst/KAT",
       "target": "tgac/kat",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EarlhamInst/KAT",
-      "target": "gmarcais/jellyfish",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-03T18:24:01.791245+00:00",
   "source_repo": "EarlhamInst/KAT"
 }

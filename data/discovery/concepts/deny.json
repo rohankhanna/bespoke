@@ -31,6 +31,30 @@
       "source_repo": "MaterializeInc/async-compression",
       "status": "candidate-context",
       "text": "deny"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nullus157/async-compression",
+      "status": "candidate-context",
+      "text": "Adaptors between compression crates and Rust's async IO types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nullus157/async-compression",
+      "status": "candidate-context",
+      "text": "deny"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafuse-extras/async-compression",
+      "status": "candidate-context",
+      "text": "Adaptors between compression crates and Rust's async IO types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/async-compression",
+      "status": "candidate-context",
+      "text": "deny"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nullus157/async-compression",
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/async-compression",
       "status": "candidate",
       "text": "deny"
     }
@@ -115,11 +151,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/deny.yml",
       "source_repo": "MaterializeInc/async-compression"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "Nullus157/async-compression"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "datafuse-extras/async-compression"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

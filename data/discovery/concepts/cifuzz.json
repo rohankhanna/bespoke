@@ -962,6 +962,18 @@
       "source_repo": "cisco/libsrtp",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alembic/alembic",
+      "status": "candidate-context",
+      "text": "Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alembic/alembic",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -1448,6 +1460,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cisco/libsrtp",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alembic/alembic",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -2201,11 +2219,35 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "alembic/alembic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T18:24:01.791245+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "lexical_providers": [
     "datamuse"
   ],
