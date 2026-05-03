@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Muennighoff/sentence-transformers",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:25:07.440172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10136
+    },
+    {
+      "path": "requirements.txt",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multilingual Sentence & Image Embeddings with BERT",
+    "fork": true,
+    "full_name": "Muennighoff/sentence-transformers",
+    "html_url": "https://github.com/Muennighoff/sentence-transformers",
+    "language": "Python",
+    "pushed_at": "2022-07-09T16:50:00Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-10-22T09:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

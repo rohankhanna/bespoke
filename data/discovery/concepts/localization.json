@@ -273,6 +273,30 @@
       "source_repo": "unicode-org/icu4x",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mercury13/utranslator",
+      "status": "candidate-context",
+      "text": "Translation tool for Unicodia. Someday it will be more universal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mercury13/utranslator",
+      "status": "candidate-context",
+      "text": "A simple offline tool for: a) making original text; b) translating it."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnando/i18n",
+      "status": "candidate-context",
+      "text": "A small library to provide the I18n translations on the JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnando/i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "unicode-org/icu4x",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mercury13/utranslator",
+      "status": "candidate",
+      "text": "A simple offline tool for: a) making original text; b) translating it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnando/i18n",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -617,11 +653,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "fnando/i18n"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

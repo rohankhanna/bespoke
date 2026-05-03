@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:19:31.629953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1760
+    },
+    {
+      "path": "Dockerfile",
+      "size": 666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphical User Interface for aclpubcheck",
+    "fork": false,
+    "full_name": "teelinsan/aclpubcheck-gui",
+    "html_url": "https://github.com/teelinsan/aclpubcheck-gui",
+    "language": "Python",
+    "pushed_at": "2025-01-08T16:16:37Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-19T05:40:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

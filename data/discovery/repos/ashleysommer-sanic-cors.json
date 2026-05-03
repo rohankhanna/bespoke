@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "corydolphin/flask-cors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "cors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "cross-origin-resource-sharing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "python-3-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "python-3-6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-cors",
+      "target": "sanic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:29:03.979413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6559
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Sanic extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible. Based on flask-cors by Cory Dolphin.",
+    "fork": false,
+    "full_name": "ashleysommer/sanic-cors",
+    "html_url": "https://github.com/ashleysommer/sanic-cors",
+    "language": "Python",
+    "pushed_at": "2023-01-30T14:51:08Z",
+    "stargazers_count": 162,
+    "topics": [
+      "cors",
+      "cross-origin-resource-sharing",
+      "plugin",
+      "python-3",
+      "python-3-5",
+      "python-3-6",
+      "sanic"
+    ],
+    "updated_at": "2025-10-12T06:58:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corydolphin/flask-cors",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cors"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-origin-resource-sharing"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3-5"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3-6"
+    },
+    {
+      "context_snippet": "Sanic-CORS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanic"
+    }
+  ]
+}

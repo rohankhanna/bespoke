@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "large-scale-dataset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "large-scale-dataset",
+  "concept_id": "large-scale-dataset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-scale-dataset",
+      "sense_id": "large-scale-dataset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

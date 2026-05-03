@@ -9911,6 +9911,66 @@
       "source_repo": "esbuild-kit/esm-loader",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-widgets/ipywidgets",
+      "status": "candidate-context",
+      "text": "Interactive Widgets for the Jupyter Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipywidgets",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/bloscpack",
+      "status": "candidate-context",
+      "text": "Command line interface to and serialization format for Blosc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/bloscpack",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/hdf5-blosc",
+      "status": "candidate-context",
+      "text": "Filter for HDF5 that uses Blosc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/hdf5-blosc",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aarondl/authboss",
+      "status": "candidate-context",
+      "text": "The boss of http auth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarondl/authboss",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/schema",
+      "status": "candidate-context",
+      "text": "Package gorilla/schema fills a struct with form values."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/schema",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -14921,6 +14981,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipywidgets",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/bloscpack",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/hdf5-blosc",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarondl/authboss",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/schema",
       "status": "candidate",
       "text": "Test"
     }
@@ -22267,11 +22357,65 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jupyter-widgets/ipywidgets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blosc/hdf5-blosc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aarondl/authboss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gorilla/schema"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

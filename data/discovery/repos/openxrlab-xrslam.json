@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrslam",
+      "target": "argument-reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrslam",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:28.599016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5108
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenXRLab Visual-inertial SLAM Toolbox and Benchmark",
+    "fork": false,
+    "full_name": "openxrlab/xrslam",
+    "html_url": "https://github.com/openxrlab/xrslam",
+    "language": "C++",
+    "pushed_at": "2026-02-10T21:58:38Z",
+    "stargazers_count": 565,
+    "topics": [
+      "argument-reality",
+      "slam",
+      "vio"
+    ],
+    "updated_at": "2026-05-02T03:31:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-reality"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

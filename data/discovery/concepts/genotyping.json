@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "genotyping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": " C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019471,
+      "status": "candidate",
+      "text": "genetic constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005871,
+      "status": "candidate",
+      "text": "drug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29784229,
+      "status": "candidate",
+      "text": "throughput"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29494047,
+      "status": "candidate",
+      "text": "scoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019568,
+      "status": "candidate",
+      "text": "genotypization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "genotyping",
+  "concept_id": "genotyping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genotyping",
+      "sense_id": "genotyping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

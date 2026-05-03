@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/VISO",
+      "target": "yang7879/3d-bonet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO",
+      "target": "satellite-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:22.980533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IEEE TGRS 2021] Detecting and Tracking Small and Dense Moving Objects in Satellite Videos: A Benchmark",
+    "fork": false,
+    "full_name": "QingyongHu/VISO",
+    "html_url": "https://github.com/QingyongHu/VISO",
+    "language": null,
+    "pushed_at": "2021-12-22T06:47:19Z",
+    "stargazers_count": 166,
+    "topics": [
+      "dataset",
+      "detection",
+      "satellite-video",
+      "tracking"
+    ],
+    "updated_at": "2026-05-02T07:07:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yang7879/3d-bonet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "satellite-video"
+    },
+    {
+      "context_snippet": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

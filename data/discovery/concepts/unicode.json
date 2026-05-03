@@ -271,6 +271,30 @@
       "source_repo": "Kolaru/MathTeXEngine.jl",
       "status": "candidate-context",
       "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mercury13/unicodia-sesh",
+      "status": "candidate-context",
+      "text": "The best JSesh based Egyptian font ever"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mercury13/unicodia-sesh",
+      "status": "candidate-context",
+      "text": "\ufeff# What is UnicodiaSesh?"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "Kolaru/MathTeXEngine.jl",
       "status": "candidate",
       "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mercury13/unicodia-sesh",
+      "status": "candidate",
+      "text": "\ufeff# What is UnicodiaSesh?"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +778,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

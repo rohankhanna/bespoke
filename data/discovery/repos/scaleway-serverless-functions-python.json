@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "function-as-a-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "scaleway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:35:18.166106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5779
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2423
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Utilities for testing your Python functions for Scaleway Serverless Functions.",
+    "fork": false,
+    "full_name": "scaleway/serverless-functions-python",
+    "html_url": "https://github.com/scaleway/serverless-functions-python",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:57:51Z",
+    "stargazers_count": 15,
+    "topics": [
+      "cloud",
+      "faas",
+      "function-as-a-service",
+      "scaleway",
+      "serverless"
+    ],
+    "updated_at": "2026-04-07T16:58:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-as-a-service"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaleway"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/diff-gaussian-rasterization-modified",
+      "target": "chrixtar/latent-gaussian-rasterization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:53.819895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dcharatan/diff-gaussian-rasterization-modified",
+    "html_url": "https://github.com/dcharatan/diff-gaussian-rasterization-modified",
+    "language": "Cuda",
+    "pushed_at": "2024-04-26T19:07:53Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-02-27T11:36:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrixtar/latent-gaussian-rasterization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

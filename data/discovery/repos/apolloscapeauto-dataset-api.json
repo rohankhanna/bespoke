@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "3d-car-instance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "3d-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "apolloscape-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "trajectory-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "target": "video-inpainting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:05.739122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5172
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The ApolloScape Open Dataset for Autonomous Driving and its Application.",
+    "fork": false,
+    "full_name": "ApolloScapeAuto/dataset-api",
+    "html_url": "https://github.com/ApolloScapeAuto/dataset-api",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-04T07:56:26Z",
+    "stargazers_count": 615,
+    "topics": [
+      "3d-car-instance",
+      "3d-lidar",
+      "apolloscape-dataset",
+      "autonomous-driving",
+      "dataset",
+      "trajectory-prediction",
+      "video-inpainting"
+    ],
+    "updated_at": "2026-04-29T07:29:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-car-instance"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-lidar"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apolloscape-dataset"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-prediction"
+    },
+    {
+      "context_snippet": "Welcome to Apolloscape's GitHub page!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-inpainting"
+    }
+  ]
+}

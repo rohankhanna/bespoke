@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MacOS arm64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MacOS arm64"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "windows"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MacOS arm64",
+      "sense_id": "macos-arm64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos-arm64",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos-arm64",
+  "observation_id": "d0c090d7ae4c65b3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "MacOS arm64",
+  "source_context_snippet": "MacOS arm64",
+  "source_file": ".github/workflows/macos-arm64.yaml",
+  "source_repo": "fizzed/rocker",
+  "source_repo_description": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+}

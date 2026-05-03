@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "lifelong-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "multitask-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "robot-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "Lifelong-Robot-Learning/LIBERO"
+}

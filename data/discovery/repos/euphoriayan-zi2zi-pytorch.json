@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "kaonashi-tyc/zi2zi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "jasonlo0509/font2font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "buriburisuri/ac-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "carpedm20/dcgan-tensorflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:55.737821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "zi2zi implement with pytorch",
+    "fork": false,
+    "full_name": "EuphoriaYan/zi2zi-pytorch",
+    "html_url": "https://github.com/EuphoriaYan/zi2zi-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-04-07T07:27:33Z",
+    "stargazers_count": 222,
+    "topics": [],
+    "updated_at": "2026-04-16T12:33:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buriburisuri/ac-gan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carpedm20/dcgan-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasonlo0509/font2font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaonashi-tyc/zi2zi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Emissary-ingress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Emissary-ingress"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048495,
+      "status": "candidate",
+      "text": "embassador"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048494,
+      "status": "candidate",
+      "text": "diplomat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048467,
+      "status": "candidate",
+      "text": "envoy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048279,
+      "status": "candidate",
+      "text": "embassy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047018,
+      "status": "candidate",
+      "text": "emissary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ambassador",
+      "sense_id": "ambassador#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "embassador"
+    }
+  ],
+  "concept_id": "ambassador",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ambassador",
+  "observation_id": "3794a4d763972175",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "ambassador",
+  "source_context_snippet": "Emissary-ingress",
+  "source_file": null,
+  "source_repo": "emissary-ingress/emissary",
+  "source_repo_description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy"
+}

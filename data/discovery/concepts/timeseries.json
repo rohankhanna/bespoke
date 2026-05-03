@@ -43,6 +43,18 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate-context",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "Time series implementation for the Julia language focused on efficiency and flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "avaneev/r8brain-free-src"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

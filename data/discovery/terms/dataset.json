@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -376,6 +376,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "meidachen/STPLS3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/Occ4cast"
     }
   ],
   "term": "dataset"

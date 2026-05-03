@@ -283,6 +283,18 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate-context",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-xeus/xeus-python",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for the Python programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-xeus/xeus-python",
+      "status": "candidate-context",
+      "text": "[![GitHub Action CI](https://github.com/jupyter-xeus/xeus-python/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus-python/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-xeus/xeus-python",
+      "status": "candidate",
+      "text": "[![GitHub Action CI](https://github.com/jupyter-xeus/xeus-python/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus-python/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -742,11 +760,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "eigenteam/eigen-git-mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

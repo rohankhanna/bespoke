@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RaindragonD/FACTR",
+      "target": "raindragond/factr_teleop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RaindragonD/FACTR",
+      "target": "sudeepdasari/data4robotics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RaindragonD/FACTR",
+      "target": "agi-labs/robobuf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:33:09.242776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "RaindragonD/FACTR",
+    "html_url": "https://github.com/RaindragonD/FACTR",
+    "language": "Python",
+    "pushed_at": "2025-07-28T23:06:25Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-25T09:43:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agi-labs/robobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raindragond/factr_teleop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sudeepdasari/data4robotics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

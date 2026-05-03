@@ -379,6 +379,18 @@
       "source_repo": "bdd100k/bdd100k",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate-context",
+      "text": "[IEEE TGRS 2021] Detecting and Tracking Small and Dense Moving Objects in Satellite Videos: A Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate-context",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "bdd100k/bdd100k",
       "status": "candidate",
       "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
     }
   ],
   "candidate_related_terms": [
@@ -958,11 +976,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -115,6 +115,18 @@
       "source_repo": "skforecast/skforecast",
       "status": "candidate-context",
       "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "Time series implementation for the Julia language focused on efficiency and flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "skforecast/skforecast",
       "status": "candidate",
       "text": "<h1 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

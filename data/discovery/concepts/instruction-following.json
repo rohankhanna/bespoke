@@ -67,6 +67,18 @@
       "source_repo": "bigcode-project/bigcodebench",
       "status": "candidate-context",
       "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "bigcode-project/bigcodebench",
       "status": "candidate",
       "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OptimalScale/LMFlow"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

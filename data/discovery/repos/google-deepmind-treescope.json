@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "google-deepmind/treescope",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "google-deepmind/treescope",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "google-deepmind/treescope",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "google-deepmind/treescope",
+      "target": "Unittests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope",
+      "target": "ndarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope",
+      "target": "pretty-printing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:08:03.491879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4325
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2251
+    },
+    {
+      "path": ".github/workflows/unittests.yml",
+      "size": 1301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An interactive HTML pretty-printer for machine learning research in IPython notebooks.",
+    "fork": false,
+    "full_name": "google-deepmind/treescope",
+    "html_url": "https://github.com/google-deepmind/treescope",
+    "language": "Python",
+    "pushed_at": "2025-08-08T05:45:27Z",
+    "stargazers_count": 468,
+    "topics": [
+      "machine-learning",
+      "ndarray",
+      "neural-networks",
+      "pretty-printing",
+      "visualization"
+    ],
+    "updated_at": "2026-04-21T01:15:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests.yml",
+      "term": "Unittests"
+    },
+    {
+      "context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndarray"
+    },
+    {
+      "context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-printing"
+    },
+    {
+      "context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

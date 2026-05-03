@@ -4903,6 +4903,102 @@
       "source_repo": "JuliaML/MLDatasets.jl",
       "status": "candidate-context",
       "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate-context",
+      "text": "PIX is an image processing library in JAX, for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/treescope",
+      "status": "candidate-context",
+      "text": "An interactive HTML pretty-printer for machine learning research in IPython notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/treescope",
+      "status": "candidate-context",
+      "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate-context",
+      "text": "PointCNN: Convolution On X-Transformed Points (NeurIPS 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "A simple tool to update bib entries with their official information (e.g., DBLP or the ACL anthology)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate-context",
+      "text": "Occ4cast: LiDAR-based 4D Occupancy Completion and Forecasting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of VoxFormer [CVPR 2023 Highlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate-context",
+      "text": "ScienceWorld is a text-based virtual environment centered around accomplishing tasks from the standardized elementary science curriculum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -7353,6 +7449,54 @@
       "source_repo": "JuliaML/MLDatasets.jl",
       "status": "candidate",
       "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/treescope",
+      "status": "candidate",
+      "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -11716,11 +11860,155 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/treescope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "yangyanli/PointCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/Occ4cast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/VoxFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "allenai/ScienceWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

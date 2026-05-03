@@ -19,6 +19,30 @@
       "source_repo": "AmberSahdev/Open-Interface",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate-context",
+      "text": "[CoRL'22] PlanT: Explainable Planning Transformers via Object-Level Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate-context",
+      "text": "**News**: \\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/navsim",
+      "status": "candidate-context",
+      "text": "[CoRL '25] Pseudo-Simulation for Autonomous Driving; [NeurIPS '24] NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/navsim",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "AmberSahdev/Open-Interface",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate",
+      "text": "**News**: \\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/navsim",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/navsim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

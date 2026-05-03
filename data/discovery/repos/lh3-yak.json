@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/yak",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/yak",
+      "target": "k-mer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:31.931427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet another k-mer analyzer",
+    "fork": false,
+    "full_name": "lh3/yak",
+    "html_url": "https://github.com/lh3/yak",
+    "language": "C",
+    "pushed_at": "2025-12-30T19:05:14Z",
+    "stargazers_count": 169,
+    "topics": [
+      "bioinformatics",
+      "k-mer"
+    ],
+    "updated_at": "2026-04-29T13:38:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k-mer"
+    }
+  ]
+}

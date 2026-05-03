@@ -506,6 +506,18 @@
       "source_repo": "queryverse/CSVFiles.jl",
       "status": "candidate-context",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/TextParse.jl",
+      "status": "candidate-context",
+      "text": "Fast generated functions for text parsing. Implements a CSV parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/TextParse.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_glosses": [
@@ -758,6 +770,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/TextParse.jl",
       "status": "candidate",
       "text": "Deploy documentation"
     }
@@ -1259,11 +1277,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
       "source_repo": "queryverse/CSVFiles.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "queryverse/TextParse.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKPLab/useb",
+      "target": "taolei87/askubuntu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKPLab/useb",
+      "target": "d1doris/cqadupstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKPLab/useb",
+      "target": "allenai/scidocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKPLab/useb",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "paraphrase-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "reranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "sbert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "sentence-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UKPLab/useb",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:25:21.465041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heterogenous, Task- and Domain-Specific Benchmark for Unsupervised Sentence Embeddings used in the TSDAE paper: https://arxiv.org/abs/2104.06979.",
+    "fork": false,
+    "full_name": "UKPLab/useb",
+    "html_url": "https://github.com/UKPLab/useb",
+    "language": "Python",
+    "pushed_at": "2022-01-04T22:22:44Z",
+    "stargazers_count": 29,
+    "topics": [
+      "benchmark",
+      "domain-adaptation",
+      "information-retrieval",
+      "nlp",
+      "paraphrase-identification",
+      "pytorch",
+      "reranking",
+      "sbert",
+      "sentence-embeddings",
+      "transformer",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-01-06T20:48:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/scidocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d1doris/cqadupstack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taolei87/askubuntu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paraphrase-identification"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reranking"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbert"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-embeddings"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

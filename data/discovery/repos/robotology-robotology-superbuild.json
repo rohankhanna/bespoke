@@ -1,0 +1,585 @@
+{
+  "components": [
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mathio/gha-cleanup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v10.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml"
+    },
+    {
+      "component": "matlab-actions/setup-matlab@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml"
+    },
+    {
+      "component": "matlab-actions/run-command@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-latest-releases.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-latest-releases.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "robotology/ycm-cmake-modules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "robotology/yarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Webhook trigger for code repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "mathio/gha-cleanup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v3.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "EndBug/add-and-commit@v10.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Generate conda packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Generate non periodical conda packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "matlab-actions/setup-matlab@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matlab-one-line-install-test.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "matlab-actions/run-command@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi-ci.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Pixi CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi-update-lock.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi-update-lock.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Update pixi lock file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Create a new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-latest-releases.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-latest-releases.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-latest-releases.yml",
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "Update latest releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "robotology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/robotology-superbuild",
+      "target": "superbuild",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:31:30.347674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21488
+    },
+    {
+      "path": ".github/workflows/build-docker-images.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 18669
+    },
+    {
+      "path": ".github/workflows/generate-conda-packages.yaml",
+      "size": 11629
+    },
+    {
+      "path": ".github/workflows/generate-non-periodical-conda-package.yaml",
+      "size": 2650
+    },
+    {
+      "path": ".github/workflows/matlab-one-line-install-test.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/pixi-ci.yml",
+      "size": 2769
+    },
+    {
+      "path": ".github/workflows/pixi-update-lock.yml",
+      "size": 742
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5339
+    },
+    {
+      "path": ".github/workflows/update-latest-releases.yml",
+      "size": 2262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMake/YCM-based superbuild to simplify the build process of robotology projects. ",
+    "fork": false,
+    "full_name": "robotology/robotology-superbuild",
+    "html_url": "https://github.com/robotology/robotology-superbuild",
+    "language": "CMake",
+    "pushed_at": "2026-05-03T00:31:18Z",
+    "stargazers_count": 57,
+    "topics": [
+      "cmake",
+      "robotics",
+      "robotology",
+      "superbuild",
+      "ycm"
+    ],
+    "updated_at": "2026-04-28T01:41:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/yarp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/ycm-cmake-modules",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Webhook trigger for code repository",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "term": "Webhook trigger for code repository"
+    },
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "Generate conda packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-conda-packages.yaml",
+      "term": "Generate conda packages"
+    },
+    {
+      "context_snippet": "Generate non periodical conda packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-non-periodical-conda-package.yaml",
+      "term": "Generate non periodical conda packages"
+    },
+    {
+      "context_snippet": "Pixi CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi-ci.yml",
+      "term": "Pixi CI Workflow"
+    },
+    {
+      "context_snippet": "Update pixi lock file",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi-update-lock.yml",
+      "term": "Update pixi lock file"
+    },
+    {
+      "context_snippet": "Create a new release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create a new release"
+    },
+    {
+      "context_snippet": "Update latest releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-latest-releases.yml",
+      "term": "Update latest releases"
+    },
+    {
+      "context_snippet": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotology"
+    },
+    {
+      "context_snippet": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superbuild"
+    }
+  ]
+}

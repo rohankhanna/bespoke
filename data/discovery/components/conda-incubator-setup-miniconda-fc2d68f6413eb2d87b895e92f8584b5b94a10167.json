@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/numba_win-64_conda_builder.yml",
       "source_repo": "numba/numba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "conda/conda-libmamba-solver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/performance.yml",
+      "source_repo": "conda/conda-libmamba-solver"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Javascript WASM bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PhysX-JS-WebIDL - Build Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PhysX-JS-WebIDL - Build Library"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11630,
+      "status": "candidate",
+      "text": "temple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stacked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "collect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PhysX-JS-WebIDL - Build Library",
+      "sense_id": "physx-js-webidl---build-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "physx-js-webidl---build-library",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "physx-js-webidl---build-library",
+  "observation_id": "5268d16664839cb4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "PhysX-JS-WebIDL - Build Library",
+  "source_context_snippet": "PhysX-JS-WebIDL - Build Library",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "fabmax/physx-js-webidl",
+  "source_repo_description": "Javascript WASM bindings for Nvidia PhysX"
+}

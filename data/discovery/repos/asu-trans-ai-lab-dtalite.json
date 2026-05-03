@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "zephyr-data-specs/gmns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "jdlph/path4gmns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "jdlph/transoms",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:12.331781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "asu-trans-ai-lab/DTALite",
+    "html_url": "https://github.com/asu-trans-ai-lab/DTALite",
+    "language": "C++",
+    "pushed_at": "2024-10-14T00:09:17Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-28T21:57:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/path4gmns",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/transoms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zephyr-data-specs/gmns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

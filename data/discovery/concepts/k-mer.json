@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "k-mer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lh3/yak",
+      "status": "candidate-context",
+      "text": "Yet another k-mer analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/yak",
+      "status": "candidate-context",
+      "text": "```sh"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/yak",
+      "status": "candidate",
+      "text": "```sh"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "expressed sequence tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "dna sequencing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "shotgun sequencing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "suffix array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gene mapping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "k-mer",
+  "concept_id": "k-mer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "lh3/yak"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k-mer",
+      "sense_id": "k-mer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

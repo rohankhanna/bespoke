@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Occ4cast: LiDAR-based 4D Occupancy Completion and Forecasting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012946,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006326,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005185,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972786,
+      "status": "candidate",
+      "text": "together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906553,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dataset",
+      "sense_id": "dataset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dataset",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dataset",
+  "observation_id": "c428d21d2c7ec2df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "dataset",
+  "source_context_snippet": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026",
+  "source_file": null,
+  "source_repo": "ai4ce/Occ4cast",
+  "source_repo_description": "Occ4cast: LiDAR-based 4D Occupancy Completion and Forecasting"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -862,6 +862,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/comment-issue.yml",
       "source_repo": "faker-js/faker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builds-review.yaml",
+      "source_repo": "conda/conda-libmamba-solver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-simplifier.lock.yml",
+      "source_repo": "BabylonJS/Babylon.js"
     }
   ]
 }

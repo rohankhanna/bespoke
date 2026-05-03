@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/lxgw",
+      "target": "lxgw/advanced-cjk-font-magisk-module-template",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:05.371300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "lxgw \u5728 GitHub \u7684\u4e2a\u4eba\u9875\u3002\u8bf7\u4e0d\u8981\u5728\u672c repo \u63d0 issue\u3002lxgw's profile. Please do not submit issues in this repo.",
+    "fork": false,
+    "full_name": "lxgw/lxgw",
+    "html_url": "https://github.com/lxgw/lxgw",
+    "language": null,
+    "pushed_at": "2026-02-23T12:11:44Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-05-01T05:35:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/advanced-cjk-font-magisk-module-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

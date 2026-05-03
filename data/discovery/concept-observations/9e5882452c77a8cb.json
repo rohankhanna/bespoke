@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Serverless API Gateway running on Scaleway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tests with deployed gateway"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tests with deployed gateway"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17779,
+      "status": "candidate",
+      "text": "bias"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17779,
+      "status": "candidate",
+      "text": "common entrance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17779,
+      "status": "candidate",
+      "text": "dropper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17779,
+      "status": "candidate",
+      "text": "jalousie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17779,
+      "status": "candidate",
+      "text": "sluice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tests with deployed gateway",
+      "sense_id": "tests-with-deployed-gateway#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tests-with-deployed-gateway",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tests-with-deployed-gateway",
+  "observation_id": "9e5882452c77a8cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "tests with deployed gateway",
+  "source_context_snippet": "tests with deployed gateway",
+  "source_file": ".github/workflows/test-integration.yml",
+  "source_repo": "scaleway/serverless-gateway",
+  "source_repo_description": "Serverless API Gateway running on Scaleway"
+}

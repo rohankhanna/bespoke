@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cjk-characters",
+      "sense_id": "cjk-characters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cjk-characters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cjk-characters",
+  "observation_id": "099947d4088be330",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "cjk-characters",
+  "source_context_snippet": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+  "source_file": null,
+  "source_repo": "ichitenfont/inheritedglyphs",
+  "source_repo_description": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+}

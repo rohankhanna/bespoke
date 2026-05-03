@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "wanghuanphd/mdvsfa_cgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "jiwoon-ahn/psa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "mrgiovanni/unetplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:27.791936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "YeRen123455/Infrared-Small-Target-Detection",
+    "html_url": "https://github.com/YeRen123455/Infrared-Small-Target-Detection",
+    "language": "Python",
+    "pushed_at": "2024-10-06T14:11:33Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-05-01T21:58:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiwoon-ahn/psa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrgiovanni/unetplusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wanghuanphd/mdvsfa_cgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "wanghuanphd/mdvsfa_cgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "jiwoon-ahn/psa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "mrgiovanni/unetplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YeRen123455/Infrared-Small-Target-Detection",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "YeRen123455/Infrared-Small-Target-Detection"
+}

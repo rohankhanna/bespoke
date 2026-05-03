@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration tests with Pytest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate-context",
+      "text": "Framework for writing serverless APIs in Python, using Scaleway functions and containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate-context",
+      "text": "Integration tests with Pytest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate",
+      "text": "Integration tests with Pytest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27945,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "amalgamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "fusion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration tests with Pytest",
+  "concept_id": "integration-tests-with-pytest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/pytest-integration.yml",
+      "source_repo": "scaleway/serverless-api-framework-python"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration tests with Pytest",
+      "sense_id": "integration-tests-with-pytest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

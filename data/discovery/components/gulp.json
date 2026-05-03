@@ -1,7 +1,7 @@
 {
   "component": "gulp",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -332,6 +332,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ElemeFE/element"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "helpers/handlebars-helpers"
     }
   ]
 }

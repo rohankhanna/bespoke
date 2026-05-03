@@ -259,6 +259,18 @@
       "source_repo": "kwea123/Unity_live_caption",
       "status": "candidate-context",
       "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate-context",
+      "text": "The python library for real-time communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate-context",
+      "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "kwea123/Unity_live_caption",
       "status": "candidate",
       "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate",
+      "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +676,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "kwea123/Unity_live_caption"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gradio-app/fastrtc"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "zephyr-data-specs/gmns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "jdlph/path4gmns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asu-trans-ai-lab/DTALite",
+      "target": "jdlph/transoms",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "asu-trans-ai-lab/DTALite"
+}

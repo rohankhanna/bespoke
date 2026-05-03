@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "huixiancheng/cenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "edwardzhou130/panoptic-polarnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "hobbitlong/repdistiller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "lidar-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "point-cloud-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "range-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "semantickitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "target": "waymo-dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:02.428862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+    "fork": false,
+    "full_name": "cardwing/Codes-for-PVKD",
+    "html_url": "https://github.com/cardwing/Codes-for-PVKD",
+    "language": "Python",
+    "pushed_at": "2024-05-31T08:22:02Z",
+    "stargazers_count": 500,
+    "topics": [
+      "cvpr2022",
+      "lidar-segmentation",
+      "nuscenes",
+      "point-cloud-segmentation",
+      "pytorch",
+      "range-image",
+      "semantickitti",
+      "waymo-dataset"
+    ],
+    "updated_at": "2026-04-24T02:05:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edwardzhou130/panoptic-polarnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hobbitlong/repdistiller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huixiancheng/cenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-segmentation"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-segmentation"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range-image"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantickitti"
+    },
+    {
+      "context_snippet": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waymo-dataset"
+    }
+  ]
+}

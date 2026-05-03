@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "kde/breeze-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "elementary/icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "gnome/adwaita-icon-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "csharris/faience-icon-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "cleaner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RazrFalcon/svgcleaner",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:51.075641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6032
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "svgcleaner could help you to clean up your SVG files from the unnecessary data.",
+    "fork": false,
+    "full_name": "RazrFalcon/svgcleaner",
+    "html_url": "https://github.com/RazrFalcon/svgcleaner",
+    "language": "Rust",
+    "pushed_at": "2021-10-30T13:53:34Z",
+    "stargazers_count": 1669,
+    "topics": [
+      "cleaner",
+      "rust",
+      "svg"
+    ],
+    "updated_at": "2026-04-27T15:02:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csharris/faience-icon-theme",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elementary/icons",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnome/adwaita-icon-theme",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kde/breeze-icons",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "=========================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cleaner"
+    },
+    {
+      "context_snippet": "=========================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

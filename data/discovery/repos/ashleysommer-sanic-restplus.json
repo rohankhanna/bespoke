@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "swagger-ui-dist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typeface-droid-sans",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "ashleysommer/sanicpluginsframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "channelcat/sanic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "swagger-ui-dist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "typeface-droid-sans",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "python3-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "python3-6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus",
+      "target": "sanic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:29:10.992084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4721
+    },
+    {
+      "path": "package.json",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fully featured framework for fast, easy and documented API development with Sanic",
+    "fork": true,
+    "full_name": "ashleysommer/sanic-restplus",
+    "html_url": "https://github.com/ashleysommer/sanic-restplus",
+    "language": "Python",
+    "pushed_at": "2022-10-07T03:29:25Z",
+    "stargazers_count": 105,
+    "topics": [
+      "python",
+      "python-3",
+      "python3",
+      "python3-5",
+      "python3-6",
+      "rest",
+      "rest-api",
+      "sanic"
+    ],
+    "updated_at": "2025-08-27T12:11:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleysommer/sanicpluginsframework",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "channelcat/sanic",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3-5"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3-6"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "==============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanic"
+    }
+  ]
+}

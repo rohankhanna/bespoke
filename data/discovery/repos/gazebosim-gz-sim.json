@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml"
+    },
+    {
+      "component": "gazebo-tooling/pr-collection-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebosim/gz-rendering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebosim/gz-sensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebosim/gz-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebosim/gz-transport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "Bazel CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebo-tooling/action-gz-ci@noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "Ubuntu CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "nightly docker image builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "Validate package.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebo-tooling/pr-collection-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "PR Collection Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-sim",
+      "target": "Ticket opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "gazebosim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "graphical-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "ignition-gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "ignition-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "robot-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "robot-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "simulated-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:30:22.404350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7524
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 554
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1586
+    },
+    {
+      "path": ".github/workflows/docker-nightly.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/package_xml.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/pr-collection-labeler.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2027
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open source robotics simulator. The latest version of Gazebo.",
+    "fork": false,
+    "full_name": "gazebosim/gz-sim",
+    "html_url": "https://github.com/gazebosim/gz-sim",
+    "language": "C++",
+    "pushed_at": "2026-05-02T00:23:54Z",
+    "stargazers_count": 1317,
+    "topics": [
+      "cpp",
+      "gazebo",
+      "gazebosim",
+      "graphical-interface",
+      "hacktoberfest",
+      "ignition-gazebo",
+      "ignition-libraries",
+      "ignition-robotics",
+      "physics",
+      "rendering",
+      "robot-simulation",
+      "robot-simulator",
+      "robotics",
+      "robotics-simulation",
+      "ros",
+      "ros2",
+      "simulated-robots",
+      "simulation"
+    ],
+    "updated_at": "2026-05-02T18:31:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-rendering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-sensors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-transport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel CI"
+    },
+    {
+      "context_snippet": "Ubuntu CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ubuntu CI"
+    },
+    {
+      "context_snippet": "nightly docker image builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "term": "nightly docker image builds"
+    },
+    {
+      "context_snippet": "Validate package.xml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "term": "Validate package.xml"
+    },
+    {
+      "context_snippet": "PR Collection Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "term": "PR Collection Labeler"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebosim"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphical-interface"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-libraries"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-simulation"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-simulator"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulated-robots"
+    },
+    {
+      "context_snippet": "**Maintainer:** arjoc AT intrinsic DOT ai",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

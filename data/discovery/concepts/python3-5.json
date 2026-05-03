@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "python3-5"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "status": "candidate-context",
+      "text": "Fully featured framework for fast, easy and documented API development with Sanic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "status": "candidate-context",
+      "text": "=============="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleysommer/sanic-restplus",
+      "status": "candidate",
+      "text": "=============="
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "python3-5",
+  "concept_id": "python3-5",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-restplus"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3-5",
+      "sense_id": "python3-5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -55,6 +55,18 @@
       "source_repo": "google-deepmind/recurrentgemma",
       "status": "candidate-context",
       "text": "Unittests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/treescope",
+      "status": "candidate-context",
+      "text": "An interactive HTML pretty-printer for machine learning research in IPython notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/treescope",
+      "status": "candidate-context",
+      "text": "Unittests"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google-deepmind/recurrentgemma",
+      "status": "candidate",
+      "text": "Unittests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/treescope",
       "status": "candidate",
       "text": "Unittests"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "google-deepmind/recurrentgemma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "google-deepmind/treescope"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

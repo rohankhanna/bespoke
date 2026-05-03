@@ -55,6 +55,30 @@
       "source_repo": "HKU-BAL/Clair3-RNA",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": " C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "ClairS-TO - a deep-learning method for tumor-only somatic variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HKU-BAL/Clair3-RNA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "HKU-BAL/Clair3-RNA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/ClairS-TO"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

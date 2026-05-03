@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichitenfont/inheritedglyphs",
+      "target": "cjk-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichitenfont/inheritedglyphs",
+      "target": "cjk-font-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ichitenfont/inheritedglyphs",
+      "target": "cjkv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:40.602656+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+    "fork": false,
+    "full_name": "ichitenfont/inheritedglyphs",
+    "html_url": "https://github.com/ichitenfont/inheritedglyphs",
+    "language": null,
+    "pushed_at": "2024-05-08T21:13:28Z",
+    "stargazers_count": 298,
+    "topics": [
+      "cjk-characters",
+      "cjk-font-development",
+      "cjkv"
+    ],
+    "updated_at": "2026-04-20T07:04:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-characters"
+    },
+    {
+      "context_snippet": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-font-development"
+    },
+    {
+      "context_snippet": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjkv"
+    }
+  ]
+}

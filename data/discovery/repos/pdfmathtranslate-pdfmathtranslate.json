@@ -353,7 +353,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
-      "target": "guaguastandup/zotero-pdf2zh",
+      "target": "pdfmathtranslate/pdfmathtranslate-next",
       "target_type": "repository"
     },
     {
@@ -728,7 +728,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:00:56.450604+00:00",
+  "fetched_at": "2026-05-03T07:28:12.341224+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -777,7 +777,7 @@
     "html_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
     "language": "Python",
     "pushed_at": "2026-04-20T15:08:23Z",
-    "stargazers_count": 33473,
+    "stargazers_count": 33479,
     "topics": [
       "chinese",
       "document",
@@ -799,7 +799,7 @@
       "translation",
       "zotero"
     ],
-    "updated_at": "2026-05-03T01:29:19Z"
+    "updated_at": "2026-05-03T05:25:53Z"
   },
   "repo_links": [
     {
@@ -814,12 +814,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "guaguastandup/zotero-pdf2zh",
+      "full_name": "opendatalab/doclayout-yolo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "opendatalab/doclayout-yolo",
+      "full_name": "pdfmathtranslate/pdfmathtranslate-next",
       "source_file": "README.md"
     }
   ],

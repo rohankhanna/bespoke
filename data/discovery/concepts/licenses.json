@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "licenses"
+    "licenses",
+    "Licenses"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "EmbarkStudios/cargo-deny",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate-context",
+      "text": "This is an ExpressJS reference implementation for the Ory Hydra User Login and Consent interface written in TypeScript and ExpressJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate-context",
+      "text": "Licenses"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "EmbarkStudios/cargo-deny",
       "status": "candidate",
       "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate",
+      "text": "Licenses"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EmbarkStudios/cargo-deny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/licenses.yml",
+      "source_repo": "ory/hydra-login-consent-node"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

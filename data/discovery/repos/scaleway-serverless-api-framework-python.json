@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-gateway.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-gateway.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-gateway.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "scaleway/serverless-functions-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-gateway.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-gateway.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "API Gateway integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-integration.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-integration.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "Integration tests with Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "scaleway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:35:08.803151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3142
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3079
+    },
+    {
+      "path": ".github/workflows/integration-gateway.yml",
+      "size": 2069
+    },
+    {
+      "path": ".github/workflows/pytest-integration.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Framework for writing serverless APIs in Python, using Scaleway functions and containers.",
+    "fork": false,
+    "full_name": "scaleway/serverless-api-framework-python",
+    "html_url": "https://github.com/scaleway/serverless-api-framework-python",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:58:01Z",
+    "stargazers_count": 9,
+    "topics": [
+      "faas",
+      "python",
+      "scaleway",
+      "serverless"
+    ],
+    "updated_at": "2025-11-26T15:08:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/serverless-functions-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "API Gateway integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-gateway.yml",
+      "term": "API Gateway integration tests"
+    },
+    {
+      "context_snippet": "Integration tests with Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-integration.yml",
+      "term": "Integration tests with Pytest"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaleway"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

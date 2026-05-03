@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis",
+      "target": "thesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:38.404504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clean Thesis is a clean, simple, and elegant LaTeX style (or template) for thesis documents.",
+    "fork": false,
+    "full_name": "derric/cleanthesis",
+    "html_url": "https://github.com/derric/cleanthesis",
+    "language": "TeX",
+    "pushed_at": "2024-02-15T13:44:17Z",
+    "stargazers_count": 920,
+    "topics": [
+      "latex",
+      "style",
+      "template",
+      "theme",
+      "thesis"
+    ],
+    "updated_at": "2026-04-16T21:53:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*-- A Clean LaTeX Style for Thesis Documents --*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "*-- A Clean LaTeX Style for Thesis Documents --*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "*-- A Clean LaTeX Style for Thesis Documents --*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "*-- A Clean LaTeX Style for Thesis Documents --*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "*-- A Clean LaTeX Style for Thesis Documents --*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thesis"
+    }
+  ]
+}

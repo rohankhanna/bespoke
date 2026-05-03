@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-prerelease"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate-context",
+      "text": "Package to make C++ libraries available in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate-context",
+      "text": "test-prerelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate",
+      "text": "test-prerelease"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-prerelease",
+  "concept_id": "test-prerelease",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/test-prerelease.yml",
+      "source_repo": "JuliaInterop/CxxWrap.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-prerelease",
+      "sense_id": "test-prerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

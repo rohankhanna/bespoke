@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kana"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034127,
+      "status": "candidate",
+      "text": "cana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861085,
+      "status": "candidate",
+      "text": "interlinear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048220,
+      "status": "candidate",
+      "text": "hiragana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048218,
+      "status": "candidate",
+      "text": "katakana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048216,
+      "status": "candidate",
+      "text": "kanji"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kana",
+  "concept_id": "kana",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kana",
+      "sense_id": "kana#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

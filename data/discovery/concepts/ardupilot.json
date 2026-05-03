@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ardupilot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "status": "candidate-context",
+      "text": "Project AirSim is Microsoft's evolution of AirSim, an advanced simulation platform for building, training, and testing autonomous systems in high-fidelity virtual environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "status": "candidate-context",
+      "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "status": "candidate",
+      "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ardupilot",
+  "concept_id": "ardupilot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ardupilot",
+      "sense_id": "ardupilot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

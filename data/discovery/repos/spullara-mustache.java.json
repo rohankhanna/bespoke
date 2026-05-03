@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "spullara/mustache.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "spullara/mustache.java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "spullara/mustache.java",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:38:57.335769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8510
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of mustache.js for Java",
+    "fork": false,
+    "full_name": "spullara/mustache.java",
+    "html_url": "https://github.com/spullara/mustache.java",
+    "language": "HTML",
+    "pushed_at": "2024-09-19T23:06:56Z",
+    "stargazers_count": 1949,
+    "topics": [],
+    "updated_at": "2026-04-30T05:53:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    }
+  ]
+}

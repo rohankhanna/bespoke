@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Framework for writing serverless APIs in Python, using Scaleway functions and containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26729500,
+      "status": "candidate",
+      "text": "bia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26724007,
+      "status": "candidate",
+      "text": "aif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26710175,
+      "status": "candidate",
+      "text": "asf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26690469,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26633834,
+      "status": "candidate",
+      "text": "law"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faas",
+      "sense_id": "faas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "faas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "faas",
+  "observation_id": "7ddddaaef18f2575",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "faas",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)",
+  "source_file": null,
+  "source_repo": "scaleway/serverless-api-framework-python",
+  "source_repo_description": "Framework for writing serverless APIs in Python, using Scaleway functions and containers."
+}

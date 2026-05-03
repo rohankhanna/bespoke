@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/Google",
+      "target": "errata-ai/vale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/Google",
+      "target": "errata-ai/google",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google",
+      "target": "Build + Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/Google",
+      "target": "vale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/Google",
+      "target": "vale-linter-style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/Google",
+      "target": "vale-style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:09:22.791495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1581
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vale-compatible implementation of the Google Developer Documentation Style Guide.",
+    "fork": false,
+    "full_name": "vale-cli/Google",
+    "html_url": "https://github.com/vale-cli/Google",
+    "language": "Gherkin",
+    "pushed_at": "2025-04-11T04:43:53Z",
+    "stargazers_count": 84,
+    "topics": [
+      "vale",
+      "vale-linter-style",
+      "vale-style"
+    ],
+    "updated_at": "2026-03-18T00:29:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/google",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/vale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build + Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build + Test"
+    },
+    {
+      "context_snippet": "> **NOTE**: This project is neither maintained nor endorsed by Google.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale"
+    },
+    {
+      "context_snippet": "> **NOTE**: This project is neither maintained nor endorsed by Google.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale-linter-style"
+    },
+    {
+      "context_snippet": "> **NOTE**: This project is neither maintained nor endorsed by Google.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale-style"
+    }
+  ]
+}

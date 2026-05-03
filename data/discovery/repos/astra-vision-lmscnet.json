@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astra-vision/LMSCNet",
+      "target": "cv-rits/lmscnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet",
+      "target": "reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet",
+      "target": "semantickitti",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:13.488715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LMSCNet: Lightweight Multiscale 3D Semantic Completion. Rold\u00e3o, L., de Charette, R., & Verroust-Blondet, A. International Conference on 3D Vision (3DV). 2020",
+    "fork": false,
+    "full_name": "astra-vision/LMSCNet",
+    "html_url": "https://github.com/astra-vision/LMSCNet",
+    "language": "Python",
+    "pushed_at": "2022-06-02T13:31:34Z",
+    "stargazers_count": 99,
+    "topics": [
+      "3d-reconstruction",
+      "computer-vision",
+      "reconstruction",
+      "semantickitti"
+    ],
+    "updated_at": "2026-03-25T08:40:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cv-rits/lmscnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Official repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Official repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    },
+    {
+      "context_snippet": "Official repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantickitti"
+    }
+  ]
+}

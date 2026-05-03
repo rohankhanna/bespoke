@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "junchengyan/groundedsam_occnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "fang2896/groundedsam_gaussianocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "linshan-bin/occnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "mcg-nju/sparseocc",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "GANWANSHUI/GaussianOcc"
+}

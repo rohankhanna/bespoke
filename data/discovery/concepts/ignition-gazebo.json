@@ -31,6 +31,18 @@
       "source_repo": "osrf/homebrew-simulation",
       "status": "candidate-context",
       "text": "Build | Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "Open source robotics simulator. The latest version of Gazebo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "osrf/homebrew-simulation",
       "status": "candidate",
       "text": "Build | Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "savers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "Main Package for IO, loading all different kind of files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029721,
+      "status": "candidate",
+      "text": "rescuer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31527,
+      "status": "candidate",
+      "text": "recoverer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "depositors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "gaiters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "investors"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "savers",
+  "concept_id": "savers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaIO/FileIO.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "savers",
+      "sense_id": "savers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

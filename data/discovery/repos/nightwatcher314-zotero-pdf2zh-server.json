@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NightWatcher314/zotero-pdf2zh-server",
+      "target": "nightwatcher314/homebrew-formula",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:28:40.164996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "zotero-pdf2zh \u7684 Homebrew \u5b89\u88c5\u811a\u672c\uff0c\u8ba9\u4f60\u53ef\u4ee5\u8f7b\u677e\u5728\u672c\u5730\u90e8\u7f72 Zotero PDF \u7ffb\u8bd1\u670d\u52a1\u5668",
+    "fork": false,
+    "full_name": "NightWatcher314/zotero-pdf2zh-server",
+    "html_url": "https://github.com/NightWatcher314/zotero-pdf2zh-server",
+    "language": null,
+    "pushed_at": "2026-05-01T18:24:01Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-05-01T18:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightwatcher314/homebrew-formula",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

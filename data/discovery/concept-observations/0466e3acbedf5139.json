@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[IEEE TGRS 2021] Detecting and Tracking Small and Dense Moving Objects in Satellite Videos: A Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "satellite-video",
+      "sense_id": "satellite-video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "satellite-video",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "satellite-video",
+  "observation_id": "0466e3acbedf5139",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "satellite-video",
+  "source_context_snippet": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)",
+  "source_file": null,
+  "source_repo": "QingyongHu/VISO",
+  "source_repo_description": "[IEEE TGRS 2021] Detecting and Tracking Small and Dense Moving Objects in Satellite Videos: A Benchmark"
+}

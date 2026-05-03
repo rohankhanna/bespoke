@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jekyll-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate-context",
+      "text": "Silently sets default layouts for Jekyll pages and posts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate-context",
+      "text": "*Silently sets default layouts for Jekyll pages and posts*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate",
+      "text": "*Silently sets default layouts for Jekyll pages and posts*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jekyll-plugin",
+  "concept_id": "jekyll-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-default-layout"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jekyll-plugin",
+      "sense_id": "jekyll-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

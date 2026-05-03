@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Push a new Docker image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "The Nu Html Checker (vnu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "Push a new Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate",
+      "text": "Push a new Docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "bell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17525,
+      "status": "candidate",
+      "text": "dub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17525,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17498,
+      "status": "candidate",
+      "text": "abuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17498,
+      "status": "candidate",
+      "text": "abused"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push a new Docker image",
+  "concept_id": "push-a-new-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "validator/validator"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push a new Docker image",
+      "sense_id": "push-a-new-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

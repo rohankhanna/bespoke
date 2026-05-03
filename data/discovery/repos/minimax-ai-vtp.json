@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/VTP",
+      "target": "foundationvision/unitok",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/VTP",
+      "target": "bytetriper/rae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/VTP",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/VTP",
+      "target": "visual-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/VTP",
+      "target": "visual-tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:54.944117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13979
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Towards Scalable Pre-training of Visual Tokenizers for Generation",
+    "fork": false,
+    "full_name": "MiniMax-AI/VTP",
+    "html_url": "https://github.com/MiniMax-AI/VTP",
+    "language": "Python",
+    "pushed_at": "2026-04-15T07:09:46Z",
+    "stargazers_count": 475,
+    "topics": [
+      "diffusion-model",
+      "visual-generation",
+      "visual-tokenizer"
+    ],
+    "updated_at": "2026-04-29T02:52:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytetriper/rae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foundationvision/unitok",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-tokenizer"
+    }
+  ]
+}

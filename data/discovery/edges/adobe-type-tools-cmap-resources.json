@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-type-tools/cmap-resources",
+      "target": "adobe-type-tools/adobe-cns1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-type-tools/cmap-resources",
+      "target": "adobe-type-tools/adobe-gb1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-type-tools/cmap-resources",
+      "target": "adobe-type-tools/adobe-kr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-type-tools/cmap-resources",
+      "target": "adobe-type-tools/adobe-manga1",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "adobe-type-tools/cmap-resources"
+}

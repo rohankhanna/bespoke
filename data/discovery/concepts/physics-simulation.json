@@ -139,6 +139,18 @@
       "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate-context",
       "text": "![gallery of_environments](docs/images/gallery.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate-context",
+      "text": "OpenXRLab GPU Cloth Simulation Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ARISE-Initiative/robosuite",
       "status": "candidate",
       "text": "![gallery of_environments](docs/images/gallery.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "openxrlab/xrtailor"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

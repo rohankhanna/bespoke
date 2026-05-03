@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6df7\u83dc\u5beb\u6977\uff0c\u53ea\u662f\u628a\u971e\u9da9\u6587\u6977\u3001\u971e\u9da9\u6587\u6977TC\u3001\u82ab\u837d\u6df7\u4e00\u8d77\uff0c\u90fd\u662f\u7528Klee One\u6539\u7684\uff0c\u6211\u4e00\u76f4\u559c\u6b61\u82ab\u837d\uff0c\u4e0d\u904e\u5b83\u6c92\u6709\u7c21\u9ad4\uff0c\u5207\u63db\u5b57\u9ad4\u5f88\u9ebb\u7169\uff0c\u6240\u4ee5\u6211\u628a\u4ed6\u5011\u6df7\u548c  Mixed VsWeKai, just mix LXGW WenKai, LXGW WenKai TC, and iansui, all changed with Klee One, I have always liked Coriander, but it does not have simplified characters, it is troublesome to switch fonts, so I mixed them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy static content to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29176,
+      "status": "candidate",
+      "text": "dual scan display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29043,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29043,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29014,
+      "status": "candidate",
+      "text": "flip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy static content to Pages",
+      "sense_id": "deploy-static-content-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-static-content-to-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-static-content-to-pages",
+  "observation_id": "a9322434b0e84e13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "Deploy static content to Pages",
+  "source_context_snippet": "Deploy static content to Pages",
+  "source_file": ".github/workflows/static.yml",
+  "source_repo": "FWHP-Enfun/Mixed-VsWeKai",
+  "source_repo_description": "\u6df7\u83dc\u5beb\u6977\uff0c\u53ea\u662f\u628a\u971e\u9da9\u6587\u6977\u3001\u971e\u9da9\u6587\u6977TC\u3001\u82ab\u837d\u6df7\u4e00\u8d77\uff0c\u90fd\u662f\u7528Klee One\u6539\u7684\uff0c\u6211\u4e00\u76f4\u559c\u6b61\u82ab\u837d\uff0c\u4e0d\u904e\u5b83\u6c92\u6709\u7c21\u9ad4\uff0c\u5207\u63db\u5b57\u9ad4\u5f88\u9ebb\u7169\uff0c\u6240\u4ee5\u6211\u628a\u4ed6\u5011\u6df7\u548c  Mixed VsWeKai, just mix LXGW WenKai, LXGW WenKai TC, and iansui, all changed with Klee One, I have always liked Coriander, but it does not have simplified characters, it is troublesome to switch fonts, so I mixed them"
+}

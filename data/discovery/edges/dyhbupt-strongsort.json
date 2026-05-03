@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dyhBUPT/StrongSORT",
+      "target": "mikel-brostrom/yolo_tracking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dyhBUPT/StrongSORT",
+      "target": "dyhbupt/giaotracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dyhBUPT/StrongSORT",
+      "target": "ifzhang/bytetrack",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "dyhBUPT/StrongSORT"
+}

@@ -2375,6 +2375,66 @@
       "source_repo": "crazy-max/WindowsSpyBlocker",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate-context",
+      "text": "The libmamba based solver for conda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate-context",
+      "text": "The python library for real-time communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "status": "candidate-context",
+      "text": "PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "The Ory documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory Documentation</h1>"
     }
   ],
   "candidate_glosses": [
@@ -3565,6 +3625,36 @@
       "source_repo": "crazy-max/WindowsSpyBlocker",
       "status": "candidate",
       "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/fastrtc",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory Documentation</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -5580,11 +5670,65 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/_docs.yml",
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "conda/conda-libmamba-solver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "gradio-app/fastrtc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "OptimalScale/LMFlow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ory/docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

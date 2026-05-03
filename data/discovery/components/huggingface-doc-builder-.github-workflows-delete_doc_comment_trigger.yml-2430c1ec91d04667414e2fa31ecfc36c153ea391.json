@@ -1,7 +1,7 @@
 {
   "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment_trigger.yml@2430c1ec91d04667414e2fa31ecfc36c153ea391",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

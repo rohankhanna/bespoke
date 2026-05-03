@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:25:00.524069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8129
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/1.0",
+    "description": "This reference can be used with any existing OpenAI integrated apps to run with TRT-LLM inference locally on GeForce GPU on Windows instead of cloud.",
+    "fork": false,
+    "full_name": "NVIDIA/trt-llm-as-openai-windows",
+    "html_url": "https://github.com/NVIDIA/trt-llm-as-openai-windows",
+    "language": "Python",
+    "pushed_at": "2024-02-29T06:29:55Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-03T17:25:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

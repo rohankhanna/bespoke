@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/ext-characters",
+      "target": "eisoch/irg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/ext-characters",
+      "target": "nightfurysl2001/cjktables",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/ext-characters",
+      "target": "ichitenfont/suppchara",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/ext-characters",
+      "target": "buernia/waizi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:57.693863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u971e\u9e5c\u5f00\u6e90\u5b57\u4f53\u5916\u5b57\u521d\u6b65\u6574\u7406\u4e00\u89c8\u8868",
+    "fork": false,
+    "full_name": "lxgw/ext-characters",
+    "html_url": "https://github.com/lxgw/ext-characters",
+    "language": null,
+    "pushed_at": "2025-11-26T06:59:25Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-11-26T06:59:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buernia/waizi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eisoch/irg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ichitenfont/suppchara",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightfurysl2001/cjktables",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

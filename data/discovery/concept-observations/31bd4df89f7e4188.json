@@ -79,7 +79,7 @@
   "normalized_form": "lint",
   "observation_id": "31bd4df89f7e4188",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "lint",
   "source_context_snippet": "lint",
   "source_file": ".github/workflows/lint.yml.disabled",

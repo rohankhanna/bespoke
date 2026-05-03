@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "rlabbe/filterpy",
+      "target": "rlabbe/kalman-and-bayesian-filters-in-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:04.583199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10804
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python Kalman filtering and optimal estimation library. Implements Kalman filter, particle filter, Extended Kalman filter, Unscented Kalman filter, g-h (alpha-beta), least squares, H Infinity, smoothers, and more. Has companion book 'Kalman and Bayesian Filters in Python'.",
+    "fork": false,
+    "full_name": "rlabbe/filterpy",
+    "html_url": "https://github.com/rlabbe/filterpy",
+    "language": "Python",
+    "pushed_at": "2024-02-07T10:05:31Z",
+    "stargazers_count": 3822,
+    "topics": [],
+    "updated_at": "2026-05-03T06:54:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rlabbe/kalman-and-bayesian-filters-in-python",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

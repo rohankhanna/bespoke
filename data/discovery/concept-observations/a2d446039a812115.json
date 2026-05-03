@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Main Package for IO, loading all different kind of files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049597,
+      "status": "candidate",
+      "text": "pantomimist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049586,
+      "status": "candidate",
+      "text": "pantomimer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049568,
+      "status": "candidate",
+      "text": "pantomime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049556,
+      "status": "candidate",
+      "text": "dumb show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028492,
+      "status": "candidate",
+      "text": "mummer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mime",
+      "sense_id": "mime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15035,
+      "status": "candidate",
+      "text": "pantomime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5018,
+      "status": "candidate",
+      "text": "pantomimist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3034,
+      "status": "candidate",
+      "text": "mummer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "pantomimer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "dumb show"
+    }
+  ],
+  "concept_id": "mime",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mime",
+  "observation_id": "a2d446039a812115",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "mime",
+  "source_context_snippet": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "JuliaIO/FileIO.jl",
+  "source_repo_description": "Main Package for IO, loading all different kind of files"
+}

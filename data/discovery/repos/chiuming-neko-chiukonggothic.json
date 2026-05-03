@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "hfhchan/hkcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "ichitenfont/inheritedglyphs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "redchenjs/source-han-sans-classic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "monemizuno/genne-gothic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:38.280293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Chinese language font family project derived from Source Han Sans and integrated with Ideographic variation sequence. \u4e00\u6b3e\u57fa\u65bc\u601d\u6e90\u9ed1\u9ad4\uff0c\u540c\u6642\u6574\u5408\u7570\u9ad4\u5b57\u9078\u64c7\u5668\u529f\u80fd\u7684\u4e2d\u6587\u5370\u5237\u9ad4\u98a8\u683c\u5b57\u9ad4\u5bb6\u65cf\u5c08\u6848\u3002",
+    "fork": false,
+    "full_name": "ChiuMing-Neko/ChiuKongGothic",
+    "html_url": "https://github.com/ChiuMing-Neko/ChiuKongGothic",
+    "language": null,
+    "pushed_at": "2022-10-31T17:17:08Z",
+    "stargazers_count": 163,
+    "topics": [
+      "font"
+    ],
+    "updated_at": "2026-04-24T18:00:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hfhchan/hkcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ichitenfont/inheritedglyphs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monemizuno/genne-gothic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redchenjs/source-han-sans-classic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/ChiuMing-Neko/ChiuKongGothic?include_prereleases=&sort=semver)](https://github.com/ChiuMing-Neko/ChiuKongGothic/releases/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    }
+  ]
+}

@@ -55,6 +55,18 @@
       "source_repo": "Computer-use-agents/dart-gui",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate-context",
+      "text": " Official implementation of GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate-context",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Computer-use-agents/dart-gui",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Computer-use-agents/dart-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ritzz-ai/GUI-R1"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

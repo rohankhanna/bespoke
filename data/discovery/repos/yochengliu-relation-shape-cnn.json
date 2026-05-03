@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "3d-convolutional-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "3d-point-clouds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "3d-shape-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "3d-shape-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "convolutional-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "geometric-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "target": "normal-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:11:53.515695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis (CVPR 2019 Oral & Best paper finalist)",
+    "fork": false,
+    "full_name": "Yochengliu/Relation-Shape-CNN",
+    "html_url": "https://github.com/Yochengliu/Relation-Shape-CNN",
+    "language": "Python",
+    "pushed_at": "2021-09-30T11:36:21Z",
+    "stargazers_count": 426,
+    "topics": [
+      "3d-convolutional-network",
+      "3d-graphics",
+      "3d-point-clouds",
+      "3d-shape-recognition",
+      "3d-shape-segmentation",
+      "artificial-intelligence",
+      "convolutional-neural-network",
+      "deep-learning",
+      "geometric-deep-learning",
+      "normal-estimation"
+    ],
+    "updated_at": "2026-04-30T12:56:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-convolutional-network"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-point-clouds"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-shape-recognition"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-shape-segmentation"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-network"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometric-deep-learning"
+    },
+    {
+      "context_snippet": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normal-estimation"
+    }
+  ]
+}

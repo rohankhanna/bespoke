@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CoRL'22] PlanT: Explainable Planning Transformers via Object-Level Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**News**: \\"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**News**: \\"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carla-simulator",
+      "sense_id": "carla-simulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carla-simulator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carla-simulator",
+  "observation_id": "98179abf9d9a51b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "carla-simulator",
+  "source_context_snippet": "**News**: \\",
+  "source_file": null,
+  "source_repo": "autonomousvision/plant",
+  "source_repo_description": "[CoRL'22] PlanT: Explainable Planning Transformers via Object-Level Representations"
+}

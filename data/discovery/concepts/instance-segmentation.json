@@ -199,6 +199,18 @@
       "source_repo": "QingyongHu/SoTA-Point-Cloud",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Synthetic and real-world 2d/3d dataset for semantic and instance segmentation (BMVC 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "QingyongHu/SoTA-Point-Cloud",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +460,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meidachen/STPLS3D"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

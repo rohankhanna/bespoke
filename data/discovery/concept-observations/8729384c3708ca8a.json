@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582284,
+      "status": "candidate",
+      "text": "kitan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582283,
+      "status": "candidate",
+      "text": "khotanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582282,
+      "status": "candidate",
+      "text": "middle mongol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582281,
+      "status": "candidate",
+      "text": "xong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19582280,
+      "status": "candidate",
+      "text": "tungusic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "khitan",
+      "sense_id": "khitan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "khitan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "khitan",
+  "observation_id": "8729384c3708ca8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "khitan",
+  "source_context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+  "source_file": null,
+  "source_repo": "MY1L/Unicode",
+  "source_repo_description": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848"
+}

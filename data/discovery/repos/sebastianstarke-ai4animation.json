@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastianstarke/AI4Animation",
+      "target": "facebookresearch/ai4animationpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastianstarke/AI4Animation",
+      "target": "pauzii/phasebetweener",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sebastianstarke/AI4Animation",
+      "target": "pauzii/animationauthoring",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:33:12.748768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bringing Characters to Life with Computer Brains in Unity",
+    "fork": false,
+    "full_name": "sebastianstarke/AI4Animation",
+    "html_url": "https://github.com/sebastianstarke/AI4Animation",
+    "language": "C++",
+    "pushed_at": "2026-04-17T17:03:39Z",
+    "stargazers_count": 8671,
+    "topics": [],
+    "updated_at": "2026-05-03T01:31:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/ai4animationpy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pauzii/animationauthoring",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pauzii/phasebetweener",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

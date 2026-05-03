@@ -1,0 +1,379 @@
+{
+  "components": [
+    {
+      "component": "pozil/auto-assign-issue@v1.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    },
+    {
+      "component": "kentaro-m/auto-assign-action@v1.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-feature.yml"
+    },
+    {
+      "component": "peter-evans/close-issue@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-support.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ghes.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ghes.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-data.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-data.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/starter-workflows",
+      "target": "github/linguist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/starter-workflows",
+      "target": "github-starter-workflows/repo-analysis-partner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "pozil/auto-assign-issue@v1.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Issue assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "kentaro-m/auto-assign-action@v1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Auto Assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-feature.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "peter-evans/close-issue@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-feature.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Close as a feature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-support.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "peter-evans/close-issue@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-support.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Close as a support issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-triage.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-triage.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ghes.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ghes.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-ghes.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Sync workflows for GHES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-data.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-data.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-data.yaml",
+      "source_repo": "actions/starter-workflows",
+      "target": "Validate Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions/starter-workflows",
+      "target": "actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:38:00.822210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5140
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/auto-assign.yml",
+      "size": 195
+    },
+    {
+      "path": ".github/workflows/label-feature.yml",
+      "size": 860
+    },
+    {
+      "path": ".github/workflows/label-support.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/labeler-triage.yml",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/sync-ghes.yaml",
+      "size": 930
+    },
+    {
+      "path": ".github/workflows/validate-data.yaml",
+      "size": 514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accelerating new GitHub Actions workflows ",
+    "fork": false,
+    "full_name": "actions/starter-workflows",
+    "html_url": "https://github.com/actions/starter-workflows",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-14T18:47:40Z",
+    "stargazers_count": 11525,
+    "topics": [
+      "actions"
+    ],
+    "updated_at": "2026-05-02T21:57:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github-starter-workflows/repo-analysis-partner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/linguist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Issue assignment"
+    },
+    {
+      "context_snippet": "'Auto Assign'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "term": "Auto Assign"
+    },
+    {
+      "context_snippet": "Close as a feature",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-feature.yml",
+      "term": "Close as a feature"
+    },
+    {
+      "context_snippet": "Close as a support issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-support.yml",
+      "term": "Close as a support issue"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-triage.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Sync workflows for GHES",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-ghes.yaml",
+      "term": "Sync workflows for GHES"
+    },
+    {
+      "context_snippet": "Validate Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-data.yaml",
+      "term": "Validate Data"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    }
+  ]
+}

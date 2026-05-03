@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Setup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "Scalabel: A versatile web-based visual data annotation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "Test Setup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate",
+      "text": "Test Setup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12695,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12695,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12695,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12272,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12272,
+      "status": "candidate",
+      "text": "date"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Setup",
+  "concept_id": "test-setup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "scalabel/scalabel"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Setup",
+      "sense_id": "test-setup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

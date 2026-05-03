@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cxli233/FriendsDontLetFriends",
+      "target": "eclarke/ggbeeswarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cxli233/FriendsDontLetFriends",
+      "target": "data-visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:37.315794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Friends don't let friends make certain types of data visualization - What are they and why are they bad. ",
+    "fork": false,
+    "full_name": "cxli233/FriendsDontLetFriends",
+    "html_url": "https://github.com/cxli233/FriendsDontLetFriends",
+    "language": "R",
+    "pushed_at": "2025-09-03T15:32:50Z",
+    "stargazers_count": 7049,
+    "topics": [
+      "data-visualization",
+      "r"
+    ],
+    "updated_at": "2026-04-30T09:14:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclarke/ggbeeswarm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7542491.svg)](https://doi.org/10.5281/zenodo.7542491)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    }
+  ]
+}

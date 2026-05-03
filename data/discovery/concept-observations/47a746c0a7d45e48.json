@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LMSCNet: Lightweight Multiscale 3D Semantic Completion. Rold\u00e3o, L., de Charette, R., & Verroust-Blondet, A. International Conference on 3D Vision (3DV). 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official repository."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official repository."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-reconstruction",
+      "sense_id": "3d-reconstruction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-reconstruction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-reconstruction",
+  "observation_id": "47a746c0a7d45e48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "3d-reconstruction",
+  "source_context_snippet": "Official repository.",
+  "source_file": null,
+  "source_repo": "astra-vision/LMSCNet",
+  "source_repo_description": "LMSCNet: Lightweight Multiscale 3D Semantic Completion. Rold\u00e3o, L., de Charette, R., & Verroust-Blondet, A. International Conference on 3D Vision (3DV). 2020"
+}

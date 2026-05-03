@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/neat",
+      "target": "autonomousvision/transfuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/neat",
+      "target": "carla-simulator/leaderboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/neat",
+      "target": "bradyz/2020_carla_challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/neat",
+      "target": "autonomousvision/plant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat",
+      "target": "birds-eye-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat",
+      "target": "implicit-representations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:22.590625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV'21] NEAT: Neural Attention Fields for End-to-End Autonomous Driving",
+    "fork": false,
+    "full_name": "autonomousvision/neat",
+    "html_url": "https://github.com/autonomousvision/neat",
+    "language": "Python",
+    "pushed_at": "2022-10-22T15:35:54Z",
+    "stargazers_count": 326,
+    "topics": [
+      "autonomous-driving",
+      "birds-eye-view",
+      "iccv2021",
+      "imitation-learning",
+      "implicit-representations"
+    ],
+    "updated_at": "2026-04-18T15:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/plant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/transfuser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradyz/2020_carla_challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/leaderboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "birds-eye-view"
+    },
+    {
+      "context_snippet": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-representations"
+    }
+  ]
+}

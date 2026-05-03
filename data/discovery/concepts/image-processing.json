@@ -607,6 +607,18 @@
       "source_repo": "jphall663/GWU_data_mining",
       "status": "candidate-context",
       "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate-context",
+      "text": "PIX is an image processing library in JAX, for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +921,12 @@
       "source_repo": "jphall663/GWU_data_mining",
       "status": "candidate",
       "text": "**DNSC 6279 (\"Data Mining\")** provides exposure to various data preprocessing, statistics, and machine learning techniques that can be used both to discover relationships in large data sets and to build predictive models. Techniques covered will include basic and analytical data\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_pix",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
     }
   ],
   "candidate_related_terms": [],
@@ -1390,11 +1408,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

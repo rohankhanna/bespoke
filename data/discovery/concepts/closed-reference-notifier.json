@@ -55,6 +55,30 @@
       "source_repo": "ory/oathkeeper",
       "status": "candidate-context",
       "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "The Ory documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate-context",
+      "text": "This is an ExpressJS reference implementation for the Ory Hydra User Login and Consent interface written in TypeScript and ExpressJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ory/oathkeeper",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra-login-consent-node",
       "status": "candidate",
       "text": "Closed Reference Notifier"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/closed_references.yml",
       "source_repo": "ory/oathkeeper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/hydra-login-consent-node"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

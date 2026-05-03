@@ -19,6 +19,18 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate-context",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "WeikaiTan/Toronto-3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

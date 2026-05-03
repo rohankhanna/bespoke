@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dspinellis/bibtools",
+      "target": "plk/biber",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:41.672234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extract BibTeX records to standalone file for sharing with others",
+    "fork": false,
+    "full_name": "dspinellis/bibtools",
+    "html_url": "https://github.com/dspinellis/bibtools",
+    "language": "Perl",
+    "pushed_at": "2026-02-04T19:50:15Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-02-22T12:45:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plk/biber",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

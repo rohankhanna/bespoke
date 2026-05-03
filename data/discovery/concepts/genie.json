@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "genie"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FLAIROx/jafar",
+      "status": "candidate-context",
+      "text": "JAX reimplementation of the DeepMind paper \"Genie: Generative Interactive Environments\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FLAIROx/jafar",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FLAIROx/jafar",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930916,
+      "status": "candidate",
+      "text": "jinni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930348,
+      "status": "candidate",
+      "text": "djinni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929267,
+      "status": "candidate",
+      "text": "jinnee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980703,
+      "status": "candidate",
+      "text": "djinny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980702,
+      "status": "candidate",
+      "text": "jinn"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "jinni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "djinni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "jinnee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "djinny"
+    }
+  ],
+  "canonical_name": "genie",
+  "concept_id": "genie",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "FLAIROx/jafar"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genie",
+      "sense_id": "genie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

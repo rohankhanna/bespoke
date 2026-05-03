@@ -17,13 +17,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FoundationVision/ByteTrack",
-      "target": "samylee/towards-realtime-mot-cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "FoundationVision/ByteTrack",
       "target": "ifzhang/bytetrack",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T02:56:30.274417+00:00",
+  "fetched_at": "2026-05-03T07:13:50.176576+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,11 +94,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "peizesun/transtrack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "samylee/towards-realtime-mot-cpp",
       "source_file": "README.md"
     },
     {

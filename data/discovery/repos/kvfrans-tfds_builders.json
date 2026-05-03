@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:14:58.981534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of TFDS dataset builders for common datasets",
+    "fork": false,
+    "full_name": "kvfrans/tfds_builders",
+    "html_url": "https://github.com/kvfrans/tfds_builders",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-31T20:45:23Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-12-22T05:37:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

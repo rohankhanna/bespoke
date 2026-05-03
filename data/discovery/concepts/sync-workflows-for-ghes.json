@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync workflows for GHES"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "Accelerating new GitHub Actions workflows "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "Sync workflows for GHES"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate",
+      "text": "Sync workflows for GHES"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11157,
+      "status": "candidate",
+      "text": "chromatography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11157,
+      "status": "candidate",
+      "text": "snowmelt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11084,
+      "status": "candidate",
+      "text": "taylorism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11035,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10914,
+      "status": "candidate",
+      "text": "action"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync workflows for GHES",
+  "concept_id": "sync-workflows-for-ghes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/sync-ghes.yaml",
+      "source_repo": "actions/starter-workflows"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync workflows for GHES",
+      "sense_id": "sync-workflows-for-ghes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -6883,6 +6883,138 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate-context",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate-context",
+      "text": "ClairS - a deep-learning method for long-read somatic small variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "ClairS-TO - a deep-learning method for tumor-only somatic variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaixhin/Rainbow",
+      "status": "candidate-context",
+      "text": "Rainbow: Combining Improvements in Deep Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaixhin/Rainbow",
+      "status": "candidate-context",
+      "text": "Rainbow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "status": "candidate-context",
+      "text": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis (CVPR 2019 Oral & Best paper finalist)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "status": "candidate-context",
+      "text": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate-context",
+      "text": "[ECCV 2022 Oral] OpenLane: Large-scale Realistic 3D Lane Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "status": "candidate-context",
+      "text": "[ECCV 2022 Oral] Perspective Transformer on 3D Lane Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "An unsupervised learning framework for depth and ego-motion estimation from monocular videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of VoxFormer [CVPR 2023 Highlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "CALVIN - A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_glosses": [
@@ -10329,6 +10461,72 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaixhin/Rainbow",
+      "status": "candidate",
+      "text": "Rainbow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yochengliu/Relation-Shape-CNN",
+      "status": "candidate",
+      "text": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -15934,11 +16132,215 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Algolzw/daclip-uir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/ClairS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/ClairS-TO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Kaixhin/Rainbow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Yochengliu/Relation-Shape-CNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/VoxFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "mees/calvin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OptimalScale/LMFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**The project has moved to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**The project has moved to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pacbio",
+      "sense_id": "pacbio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pacbio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pacbio",
+  "observation_id": "6345e63b82b5f9a2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "pacbio",
+  "source_context_snippet": "**The project has moved to",
+  "source_file": null,
+  "source_repo": "chanzuckerberg/shasta",
+  "source_repo_description": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads"
+}

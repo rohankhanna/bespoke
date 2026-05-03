@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/sap-ai-mermaid",
+      "target": "super-agent-party",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:18:52.060816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 110
+    },
+    {
+      "path": "package.json",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Super Agent Party\u7684mermaid\u7f16\u8f91\u5668\u63d2\u4ef6\uff01This is a mermaid editor extension for the Super Agent Party\uff01",
+    "fork": false,
+    "full_name": "heshengtao/sap-ai-mermaid",
+    "html_url": "https://github.com/heshengtao/sap-ai-mermaid",
+    "language": "HTML",
+    "pushed_at": "2026-01-02T17:19:31Z",
+    "stargazers_count": 1,
+    "topics": [
+      "sap",
+      "super-agent-party"
+    ],
+    "updated_at": "2026-01-10T12:33:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Super Agent Party\u7684mermaid\u7f16\u8f91\u5668\u63d2\u4ef6\uff01This is a mermaid editor extension for the Super Agent Party\uff01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-agent-party"
+    }
+  ]
+}

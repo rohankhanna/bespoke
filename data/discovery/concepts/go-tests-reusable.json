@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Go Tests (Reusable)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate-context",
+      "text": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate-context",
+      "text": "Go Tests (Reusable)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate",
+      "text": "Go Tests (Reusable)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Go Tests (Reusable)",
+  "concept_id": "go-tests-reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/gotest.yaml",
+      "source_repo": "emissary-ingress/emissary"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Tests (Reusable)",
+      "sense_id": "go-tests-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

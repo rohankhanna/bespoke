@@ -1,0 +1,225 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/Unicode",
+      "target": "my1l/monu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "arabic-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "chinese-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "chinese-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "cjk-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "cyrillic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "hanzi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "kaktovik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "kana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "kanji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "khitan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "latin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:28.814716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848",
+    "fork": false,
+    "full_name": "MY1L/Unicode",
+    "html_url": "https://github.com/MY1L/Unicode",
+    "language": "HTML",
+    "pushed_at": "2024-04-02T23:41:44Z",
+    "stargazers_count": 152,
+    "topics": [
+      "arabic-font",
+      "chinese-characters",
+      "chinese-translation",
+      "cjk-font",
+      "cyrillic",
+      "fonts",
+      "hanzi",
+      "kaktovik",
+      "kana",
+      "kanji",
+      "khitan",
+      "latin",
+      "unicode"
+    ],
+    "updated_at": "2026-04-25T17:52:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/monu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arabic-font"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-characters"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-translation"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-font"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyrillic"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hanzi"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaktovik"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kana"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kanji"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "khitan"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latin"
+    },
+    {
+      "context_snippet": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

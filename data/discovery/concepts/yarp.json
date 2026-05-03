@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "yarp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate-context",
+      "text": "Official URDF and SDF models of the iCub humanoid robot. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate-context",
+      "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate",
+      "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yarp",
+  "concept_id": "yarp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "robotology/icub-models"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yarp",
+      "sense_id": "yarp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

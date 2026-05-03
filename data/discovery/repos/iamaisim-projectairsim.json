@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-docs.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx-docs.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "Build and Deploy Sphinx Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "Windows Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "airsim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "ardupilot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "drones",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "jsbsim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "simulink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamaisim/ProjectAirSim",
+      "target": "unreal-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:37.534062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7548
+    },
+    {
+      "path": ".github/workflows/sphinx-docs.yml",
+      "size": 1574
+    },
+    {
+      "path": ".github/workflows/test_windows.yml",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Project AirSim is Microsoft's evolution of AirSim, an advanced simulation platform for building, training, and testing autonomous systems in high-fidelity virtual environments",
+    "fork": false,
+    "full_name": "iamaisim/ProjectAirSim",
+    "html_url": "https://github.com/iamaisim/ProjectAirSim",
+    "language": "C++",
+    "pushed_at": "2026-04-27T21:06:03Z",
+    "stargazers_count": 632,
+    "topics": [
+      "ai",
+      "airsim",
+      "ardupilot",
+      "autonomous-vehicles",
+      "drones",
+      "jsbsim",
+      "matlab",
+      "px4",
+      "ros",
+      "simulator",
+      "simulink",
+      "unity",
+      "unreal-engine"
+    ],
+    "updated_at": "2026-05-03T05:12:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Sphinx Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx-docs.yml",
+      "term": "Build and Deploy Sphinx Docs"
+    },
+    {
+      "context_snippet": "Windows Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "term": "Windows Build"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airsim"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ardupilot"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drones"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsbsim"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulink"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine"
+    }
+  ]
+}

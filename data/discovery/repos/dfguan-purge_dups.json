@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dfguan/purge_dups",
+      "target": "dfguan/runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dfguan/purge_dups",
+      "target": "dfguan/kmc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dfguan/purge_dups",
+      "target": "tgac/kat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:06:53.260048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "haplotypic duplication identification tool",
+    "fork": false,
+    "full_name": "dfguan/purge_dups",
+    "html_url": "https://github.com/dfguan/purge_dups",
+    "language": "C",
+    "pushed_at": "2025-10-30T07:23:42Z",
+    "stargazers_count": 284,
+    "topics": [],
+    "updated_at": "2026-05-02T13:26:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfguan/kmc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfguan/runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tgac/kat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

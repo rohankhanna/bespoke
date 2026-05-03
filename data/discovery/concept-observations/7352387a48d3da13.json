@@ -84,7 +84,7 @@
   "normalized_form": "check-project",
   "observation_id": "7352387a48d3da13",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "Check project",
   "source_context_snippet": "Check project",
   "source_file": ".github/workflows/check-project.yml",

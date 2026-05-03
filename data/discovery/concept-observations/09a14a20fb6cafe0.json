@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Vale-compatible implementation of the guidelines enforced by the alex linter: catch insensitive, inconsiderate writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vale-style",
+      "sense_id": "vale-style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vale-style",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vale-style",
+  "observation_id": "09a14a20fb6cafe0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "vale-style",
+  "source_context_snippet": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing.",
+  "source_file": null,
+  "source_repo": "vale-cli/alex",
+  "source_repo_description": "A Vale-compatible implementation of the guidelines enforced by the alex linter: catch insensitive, inconsiderate writing."
+}

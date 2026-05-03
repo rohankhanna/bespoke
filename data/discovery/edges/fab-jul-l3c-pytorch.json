@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fab-jul/L3C-PyTorch",
+      "target": "fab-jul/fjcommon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fab-jul/L3C-PyTorch",
+      "target": "cvdfoundation/open-images-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "fab-jul/L3C-PyTorch"
+}

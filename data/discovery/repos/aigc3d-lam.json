@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM",
+      "target": "aigc3d/lam_webrender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM",
+      "target": "3dtopia/openlrm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM",
+      "target": "xg-chu/gagavatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM",
+      "target": "aigc3d/lhm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:18:57.544657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7689
+    },
+    {
+      "path": "requirements.txt",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[SIGGRAPH 2025] LAM: Large Avatar Model for One-shot Animatable Gaussian Head",
+    "fork": false,
+    "full_name": "aigc3d/LAM",
+    "html_url": "https://github.com/aigc3d/LAM",
+    "language": "Python",
+    "pushed_at": "2026-04-30T11:53:44Z",
+    "stargazers_count": 974,
+    "topics": [],
+    "updated_at": "2026-05-02T17:34:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3dtopia/openlrm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/lam_webrender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/lhm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xg-chu/gagavatar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

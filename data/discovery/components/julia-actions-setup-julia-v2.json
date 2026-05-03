@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/setup-julia@v2",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -777,6 +777,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Deploy.yml",
       "source_repo": "JuliaDocs/FranklinTemplates.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-master-workflow.yml",
+      "source_repo": "queryverse/TextParse.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jlpkgbutler-ci-pr-workflow.yml",
+      "source_repo": "queryverse/TextParse.jl"
     }
   ]
 }

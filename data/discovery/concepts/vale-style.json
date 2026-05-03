@@ -19,6 +19,42 @@
       "source_repo": "vale-cli/Microsoft",
       "status": "candidate-context",
       "text": "> **NOTE**: This project is neither maintained nor endorsed by Microsoft."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/alex",
+      "status": "candidate-context",
+      "text": "A Vale-compatible implementation of the guidelines enforced by the alex linter: catch insensitive, inconsiderate writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/alex",
+      "status": "candidate-context",
+      "text": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate-context",
+      "text": "A Vale-compatible implementation of the Google Developer Documentation Style Guide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate-context",
+      "text": "> **NOTE**: This project is neither maintained nor endorsed by Google."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/Joblint",
+      "status": "candidate-context",
+      "text": "A Vale-compatible implementation of the Joblint linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Joblint",
+      "status": "candidate-context",
+      "text": "> [`Joblint`](https://github.com/rowanmanning/joblint): Test tech job posts for issues with sexism, culture, expectations, and recruiter fails."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "vale-cli/Microsoft",
       "status": "candidate",
       "text": "> **NOTE**: This project is neither maintained nor endorsed by Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/alex",
+      "status": "candidate",
+      "text": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate",
+      "text": "> **NOTE**: This project is neither maintained nor endorsed by Google."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Joblint",
+      "status": "candidate",
+      "text": "> [`Joblint`](https://github.com/rowanmanning/joblint): Test tech job posts for issues with sexism, culture, expectations, and recruiter fails."
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +106,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/alex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Joblint"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1171,6 +1171,18 @@
       "source_repo": "openai/chatgpt-retrieval-plugin",
       "status": "candidate-context",
       "text": "Build Custom GPTs with a Retrieval Plugin backend to give ChatGPT access to personal documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_glosses": [
@@ -1755,6 +1767,12 @@
       "source_repo": "openai/chatgpt-retrieval-plugin",
       "status": "candidate",
       "text": "Build Custom GPTs with a Retrieval Plugin backend to give ChatGPT access to personal documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -3472,11 +3490,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OptimalScale/LMFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

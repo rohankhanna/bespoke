@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:19:27.404285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "official code for \"Large Language Models as Optimizers\"",
+    "fork": false,
+    "full_name": "google-deepmind/opro",
+    "html_url": "https://github.com/google-deepmind/opro",
+    "language": "Python",
+    "pushed_at": "2024-12-04T21:04:50Z",
+    "stargazers_count": 739,
+    "topics": [],
+    "updated_at": "2026-05-03T02:23:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

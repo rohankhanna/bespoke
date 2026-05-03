@@ -199,6 +199,18 @@
       "source_repo": "lxgw/LxgwWenkaiTC",
       "status": "candidate-context",
       "text": "The Traditional Chinese Version of LXGW WenKai. \u971e\u9da9\u6587\u6977\u7e41\u9ad4\u4e2d\u6587\u7248\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/kose-font",
+      "status": "candidate-context",
+      "text": "A Chinese handwriting font derived from SetoFont. \u4e00\u6b3e\u884d\u751f\u4e8e\u300c\u6fd1\u6237\u5b57\u4f53\u300d\u7684\u4e2d\u6587\u624b\u5199\u5b57\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/kose-font",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "lxgw/LxgwWenkaiTC",
       "status": "candidate",
       "text": "The Traditional Chinese Version of LXGW WenKai. \u971e\u9da9\u6587\u6977\u7e41\u9ad4\u4e2d\u6587\u7248\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/kose-font",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -458,11 +476,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "lxgw/LxgwWenkaiTC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/kose-font"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

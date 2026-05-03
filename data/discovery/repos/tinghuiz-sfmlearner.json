@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "clementpinard/sfmlearner-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner",
+      "target": "visual-odometry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:09.987702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An unsupervised learning framework for depth and ego-motion estimation from monocular videos",
+    "fork": false,
+    "full_name": "tinghuiz/SfMLearner",
+    "html_url": "https://github.com/tinghuiz/SfMLearner",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-10-26T05:58:09Z",
+    "stargazers_count": 2016,
+    "topics": [
+      "deep-learning",
+      "depth-prediction",
+      "self-supervised-learning",
+      "unsupervised-learning",
+      "visual-odometry"
+    ],
+    "updated_at": "2026-04-26T12:05:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementpinard/sfmlearner-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-odometry"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenPerceptionX/ST-P3",
+      "target": "opendrivelab/st-p3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:46.384938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] ST-P3, an end-to-end vision-based autonomous driving framework via spatial-temporal feature learning.",
+    "fork": false,
+    "full_name": "OpenPerceptionX/ST-P3",
+    "html_url": "https://github.com/OpenPerceptionX/ST-P3",
+    "language": null,
+    "pushed_at": "2023-06-01T07:35:25Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-03-11T12:11:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/st-p3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

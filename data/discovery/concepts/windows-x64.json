@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "windows-x64"
+    "windows-x64",
+    "Windows x64"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "YosysHQ/oss-cad-suite-build",
       "status": "candidate-context",
       "text": "windows-x64"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate-context",
+      "text": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate-context",
+      "text": "Windows x64"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,44 @@
       "source_repo": "YosysHQ/oss-cad-suite-build",
       "status": "candidate",
       "text": "windows-x64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate",
+      "text": "Windows x64"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "x86"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "balcony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "barred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4424,
+      "status": "candidate",
+      "text": "bunker"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "windows-x64",
   "concept_id": "windows-x64",
@@ -40,11 +88,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/windows-x64.yml",
       "source_repo": "YosysHQ/oss-cad-suite-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/rocker"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

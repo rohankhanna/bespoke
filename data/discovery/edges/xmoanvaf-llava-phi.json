@@ -4,24 +4,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xmoanvaf/llava-phi",
-      "target": "zhuyiche/mipha",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xmoanvaf/llava-phi",
       "target": "hiyouga/llama-factory",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "xmoanvaf/llava-phi",
-      "target": "zhuyiche/mipha",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
   "source_repo": "xmoanvaf/llava-phi"
 }

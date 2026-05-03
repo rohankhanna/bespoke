@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jamiebuilds/babel-handbook",
-      "target": "thejameskyle/babel-handbotree",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jamiebuilds/babel-handbook",
       "target": "thejameskyle/babel-plugin-handbook",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:03:21.138121+00:00",
+  "fetched_at": "2026-05-03T07:34:43.049010+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,11 +69,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "thejameskyle/babel-handbook",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thejameskyle/babel-handbotree",
       "source_file": "README.md"
     },
     {

@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_doxygen_awesome_version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mpi4py/setup-mpi@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_file.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_doxygen_awesome_version.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_doxygen_awesome_version.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "Auto-update doxygen-awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "mpi4py/setup-mpi@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_format.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "ClangFormat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_trigger.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "Integration Test Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_file.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_file.yml",
+      "source_repo": "highfive-devs/highfive",
+      "target": "HighFive Check Version File",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:10:08.776702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10784
+    },
+    {
+      "path": ".github/workflows/check_doxygen_awesome_version.yml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12619
+    },
+    {
+      "path": ".github/workflows/clang_format.yml",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 2379
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/integration_trigger.yml",
+      "size": 651
+    },
+    {
+      "path": ".github/workflows/version_file.yml",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User-friendly, header-only, C++14 wrapper for HDF5.",
+    "fork": false,
+    "full_name": "highfive-devs/highfive",
+    "html_url": "https://github.com/highfive-devs/highfive",
+    "language": "C++",
+    "pushed_at": "2026-04-20T19:13:18Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-04-28T21:10:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-update doxygen-awesome",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_doxygen_awesome_version.yml",
+      "term": "Auto-update doxygen-awesome"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "ClangFormat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_format.yml",
+      "term": "ClangFormat"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Integration Test Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_trigger.yml",
+      "term": "Integration Test Trigger"
+    },
+    {
+      "context_snippet": "HighFive Check Version File",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_file.yml",
+      "term": "HighFive Check Version File"
+    }
+  ]
+}

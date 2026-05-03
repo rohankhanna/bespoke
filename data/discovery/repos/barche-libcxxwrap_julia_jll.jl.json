@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:10:13.143372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "barche/libcxxwrap_julia_jll.jl",
+    "html_url": "https://github.com/barche/libcxxwrap_julia_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2024-06-09T15:09:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-06-09T15:09:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -4326,6 +4326,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "esbuild-kit/esm-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jupyter-widgets/ipywidgets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blosc/hdf5-blosc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aarondl/authboss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gorilla/schema"
     }
   ],
   "term": "Test"

@@ -634,6 +634,30 @@
       "source_repo": "ory/hydra",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seung-lab/cloud-volume",
+      "status": "candidate-context",
+      "text": "Read and write Neuroglancer datasets programmatically."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seung-lab/cloud-volume",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate-context",
+      "text": "Utilities for testing your Python functions for Scaleway Serverless Functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
     }
   ],
   "candidate_glosses": [
@@ -948,6 +972,18 @@
       "source_repo": "ory/hydra",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seung-lab/cloud-volume",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
     }
   ],
   "candidate_related_terms": [
@@ -1429,11 +1465,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/cloud.yml",
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-volume"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

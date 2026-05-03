@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:28:23.957256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5520
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source code of the gradio_pdf custom component.",
+    "fork": false,
+    "full_name": "freddyaboulton/gradio-pdf",
+    "html_url": "https://github.com/freddyaboulton/gradio-pdf",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-26T21:30:59Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-15T11:20:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

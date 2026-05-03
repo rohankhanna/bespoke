@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/plant",
+      "target": "autonomousvision/plant2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/plant",
+      "target": "autonomousvision/transfuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "carla-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "corl22",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "self-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:25.857409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7568
+    },
+    {
+      "path": "requirements.txt",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL'22] PlanT: Explainable Planning Transformers via Object-Level Representations",
+    "fork": false,
+    "full_name": "autonomousvision/plant",
+    "html_url": "https://github.com/autonomousvision/plant",
+    "language": "Python",
+    "pushed_at": "2025-11-25T13:19:26Z",
+    "stargazers_count": 296,
+    "topics": [
+      "autonomous-driving",
+      "carla-simulator",
+      "corl22",
+      "planning",
+      "self-driving",
+      "transformer"
+    ],
+    "updated_at": "2026-04-15T12:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/plant2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/transfuser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla-simulator"
+    },
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corl22"
+    },
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    },
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving"
+    },
+    {
+      "context_snippet": "**News**: \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "jshttp/mime-types",
       "status": "candidate-context",
       "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "Main Package for IO, loading all different kind of files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jshttp/mime-types",
       "status": "candidate",
       "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jshttp/mime-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaIO/FileIO.jl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-charts.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-charts.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-charts.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-charts.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "Charts (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "Build Docker Images (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "Go Tests (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "Lint (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "emissary-ingress/emissary",
+      "target": "Release (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "ambassador",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "api-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "api-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "envoy-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "gateway-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "kubernetes-annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "kubernetes-ingress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary",
+      "target": "microservice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:37:39.767739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6909
+    },
+    {
+      "path": "go.mod",
+      "size": 13580
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6919
+    },
+    {
+      "path": ".github/workflows/build-charts.yaml",
+      "size": 2399
+    },
+    {
+      "path": ".github/workflows/build-images.yaml",
+      "size": 8151
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3791
+    },
+    {
+      "path": ".github/workflows/gotest.yaml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 674
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 9312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+    "fork": false,
+    "full_name": "emissary-ingress/emissary",
+    "html_url": "https://github.com/emissary-ingress/emissary",
+    "language": "Python",
+    "pushed_at": "2026-05-01T19:38:39Z",
+    "stargazers_count": 4500,
+    "topics": [
+      "ambassador",
+      "api-gateway",
+      "api-management",
+      "cloud-native",
+      "docker",
+      "envoy",
+      "envoy-proxy",
+      "gateway-api",
+      "kubernetes",
+      "kubernetes-annotations",
+      "kubernetes-ingress",
+      "microservice"
+    ],
+    "updated_at": "2026-05-01T18:53:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Charts (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-charts.yaml",
+      "term": "Charts (Reusable)"
+    },
+    {
+      "context_snippet": "Build Docker Images (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yaml",
+      "term": "Build Docker Images (Reusable)"
+    },
+    {
+      "context_snippet": "Go Tests (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yaml",
+      "term": "Go Tests (Reusable)"
+    },
+    {
+      "context_snippet": "Lint (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint (Reusable)"
+    },
+    {
+      "context_snippet": "Release (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release (Reusable)"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ambassador"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-gateway"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-management"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy-proxy"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway-api"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-annotations"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-ingress"
+    },
+    {
+      "context_snippet": "Emissary-ingress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    }
+  ]
+}

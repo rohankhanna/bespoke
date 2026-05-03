@@ -19,6 +19,18 @@
       "source_repo": "microsoft/TextWorld",
       "status": "candidate-context",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate-context",
+      "text": "ScienceWorld is a text-based virtual environment centered around accomplishing tasks from the standardized elementary science curriculum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/TextWorld",
       "status": "candidate",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/textworld.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/textworld)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ScienceWorld",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/TextWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "allenai/ScienceWorld"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

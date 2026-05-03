@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "vimwiki/vimwiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "chipsenkbeil/vimwiki-server.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "supports-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "vimwiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsenkbeil/vimwiki-rs",
+      "target": "vimwiki-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:39:58.227660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4498
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 186
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Rust library and tooling to parse, render, and modify vimwiki text and files.",
+    "fork": false,
+    "full_name": "chipsenkbeil/vimwiki-rs",
+    "html_url": "https://github.com/chipsenkbeil/vimwiki-rs",
+    "language": "Rust",
+    "pushed_at": "2023-01-10T18:24:52Z",
+    "stargazers_count": 59,
+    "topics": [
+      "language",
+      "macros",
+      "supports-parsing",
+      "vimwiki",
+      "vimwiki-server"
+    ],
+    "updated_at": "2025-10-03T13:15:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chipsenkbeil/vimwiki-server.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vimwiki/vimwiki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macros"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supports-parsing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimwiki"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimwiki-server"
+    }
+  ]
+}

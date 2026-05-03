@@ -987,6 +987,18 @@
       "source_repo": "nodemcu/nodemcu-firmware",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "githubnext/monaspace",
+      "status": "candidate-context",
+      "text": "An innovative superfamily of fonts for code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubnext/monaspace",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1479,6 +1491,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubnext/monaspace",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -2352,11 +2370,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/AutoCreateRelease.yml",
       "source_repo": "nodemcu/nodemcu-firmware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "githubnext/monaspace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

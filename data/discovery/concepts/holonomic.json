@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "holonomic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimmyyhwu/tidybot2",
+      "status": "candidate-context",
+      "text": "TidyBot++: An Open-Source Holonomic Mobile Manipulator for Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimmyyhwu/tidybot2",
+      "status": "candidate-context",
+      "text": "This code release accompanies the following project:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimmyyhwu/tidybot2",
+      "status": "candidate",
+      "text": "This code release accompanies the following project:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754988,
+      "status": "candidate",
+      "text": "hyperholomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754987,
+      "status": "candidate",
+      "text": "homeomorphous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754986,
+      "status": "candidate",
+      "text": "pseudoholomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754985,
+      "status": "candidate",
+      "text": "homotopical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754984,
+      "status": "candidate",
+      "text": "ultraholomorphic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "holonomic",
+  "concept_id": "holonomic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jimmyyhwu/tidybot2"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "holonomic",
+      "sense_id": "holonomic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

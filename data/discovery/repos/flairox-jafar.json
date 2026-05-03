@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FLAIROx/jafar",
+      "target": "deepmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FLAIROx/jafar",
+      "target": "genie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FLAIROx/jafar",
+      "target": "icml-2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FLAIROx/jafar",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:54.970743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3315
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JAX reimplementation of the DeepMind paper \"Genie: Generative Interactive Environments\"",
+    "fork": false,
+    "full_name": "FLAIROx/jafar",
+    "html_url": "https://github.com/FLAIROx/jafar",
+    "language": "Python",
+    "pushed_at": "2025-01-23T19:50:03Z",
+    "stargazers_count": 105,
+    "topics": [
+      "deepmind",
+      "genie",
+      "icml-2024",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-22T16:33:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepmind"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genie"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2024"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

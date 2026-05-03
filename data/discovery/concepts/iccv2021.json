@@ -91,6 +91,30 @@
       "source_repo": "mlvlab/PointWOLF",
       "status": "candidate-context",
       "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate-context",
+      "text": "[ICCV'21] NEAT: Neural Attention Fields for End-to-End Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate-context",
+      "text": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofeixu/flow1d",
+      "status": "candidate-context",
+      "text": "[ICCV'21 Oral] High-Resolution Optical Flow from 1D Attention and Correlation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofeixu/flow1d",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of paper:"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "mlvlab/PointWOLF",
       "status": "candidate",
       "text": "This repository is the implementation of [PointWOLF](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Point_Cloud_Augmentation_With_Weighted_Local_Transformations_ICCV_2021_paper.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate",
+      "text": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofeixu/flow1d",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +304,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

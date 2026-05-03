@@ -76,11 +76,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/deploy-build-fonts.yml",
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/deploy-build-fonts.yml",
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "kaonashi-tyc/zi2zi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "jasonlo0509/font2font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "buriburisuri/ac-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EuphoriaYan/zi2zi-pytorch",
+      "target": "carpedm20/dcgan-tensorflow",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "EuphoriaYan/zi2zi-pytorch"
+}

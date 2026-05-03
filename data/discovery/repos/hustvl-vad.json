@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/VAD",
+      "target": "hustvl/rad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/VAD",
+      "target": "hustvl/diffusiondrive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/VAD",
+      "target": "hustvl/senna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/VAD",
+      "target": "hustvl/maptr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/VAD",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/VAD",
+      "target": "end-to-end",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:13:36.217046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7026
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023 & ICLR 2026] VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+    "fork": false,
+    "full_name": "hustvl/VAD",
+    "html_url": "https://github.com/hustvl/VAD",
+    "language": "Python",
+    "pushed_at": "2026-01-31T08:13:44Z",
+    "stargazers_count": 1298,
+    "topics": [
+      "autonomous-driving",
+      "end-to-end"
+    ],
+    "updated_at": "2026-04-29T11:16:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/diffusiondrive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/maptr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/rad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/senna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[project page](https://hgao-cv.github.io/VADv2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[project page](https://hgao-cv.github.io/VADv2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end"
+    }
+  ]
+}

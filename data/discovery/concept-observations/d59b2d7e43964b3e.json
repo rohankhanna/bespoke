@@ -48,7 +48,7 @@
   "normalized_form": "openai-function-calli",
   "observation_id": "d59b2d7e43964b3e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "openai-function-calli",
   "source_context_snippet": "Get reliable JSON from any LLM. Built on Pydantic for validation, type safety, and IDE support.",
   "source_file": null,

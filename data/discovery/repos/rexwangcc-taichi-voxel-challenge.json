@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:32:25.566784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1148
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My repo for taichi voxel challenge",
+    "fork": false,
+    "full_name": "rexwangcc/taichi-voxel-challenge",
+    "html_url": "https://github.com/rexwangcc/taichi-voxel-challenge",
+    "language": "Python",
+    "pushed_at": "2022-04-18T14:31:38Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-08-08T12:02:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

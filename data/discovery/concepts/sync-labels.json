@@ -140,6 +140,18 @@
       "source_repo": "getsops/community",
       "status": "candidate-context",
       "text": "Sync labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate-context",
+      "text": "The libmamba based solver for conda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate-context",
+      "text": "Sync Labels"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +220,12 @@
       "source_repo": "getsops/community",
       "status": "candidate",
       "text": "Sync labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-libmamba-solver",
+      "status": "candidate",
+      "text": "Sync Labels"
     }
   ],
   "candidate_related_terms": [
@@ -365,11 +383,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/sync-labels.yaml",
       "source_repo": "getsops/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "conda/conda-libmamba-solver"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

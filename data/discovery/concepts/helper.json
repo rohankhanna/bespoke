@@ -43,6 +43,18 @@
       "source_repo": "actions-cool/issues-helper",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helpers/handlebars-helpers",
+      "status": "candidate-context",
+      "text": "188 handlebars helpers in ~20 categories. Can be used with Assemble, Ghost, YUI, express.js etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helpers/handlebars-helpers",
+      "status": "candidate-context",
+      "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "actions-cool/issues-helper",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helpers/handlebars-helpers",
+      "status": "candidate",
+      "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "actions-cool/issues-helper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "helpers/handlebars-helpers"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

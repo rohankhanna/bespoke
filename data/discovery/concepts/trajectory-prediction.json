@@ -31,6 +31,18 @@
       "source_repo": "agrimgupta92/sgan",
       "status": "candidate-context",
       "text": "This is the code for the paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate-context",
+      "text": "The ApolloScape Open Dataset for Autonomous Driving and its Application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate-context",
+      "text": "Welcome to Apolloscape's GitHub page!"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "agrimgupta92/sgan",
       "status": "candidate",
       "text": "This is the code for the paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate",
+      "text": "Welcome to Apolloscape's GitHub page!"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "agrimgupta92/sgan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

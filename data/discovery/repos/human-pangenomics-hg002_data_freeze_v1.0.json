@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:06:45.945076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Human Pangenome Reference Consortium - HG002 Data Freeze (v1.0)",
+    "fork": false,
+    "full_name": "human-pangenomics/HG002_Data_Freeze_v1.0",
+    "html_url": "https://github.com/human-pangenomics/HG002_Data_Freeze_v1.0",
+    "language": null,
+    "pushed_at": "2022-06-10T21:35:49Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2025-11-05T03:40:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

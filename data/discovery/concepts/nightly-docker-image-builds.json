@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nightly docker image builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "Open source robotics simulator. The latest version of Gazebo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "nightly docker image builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate",
+      "text": "nightly docker image builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26309,
+      "status": "candidate",
+      "text": "tomograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "mac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "miner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22019,
+      "status": "candidate",
+      "text": "planetarium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nightly docker image builds",
+  "concept_id": "nightly-docker-image-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nightly docker image builds",
+      "sense_id": "nightly-docker-image-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

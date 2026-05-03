@@ -163,6 +163,18 @@
       "source_repo": "cvg/GlueStick",
       "status": "candidate-context",
       "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Unifying Short and Long-Term Tracking with Graph Hierarchies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate-context",
+      "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "cvg/GlueStick",
       "status": "candidate",
       "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate",
+      "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "dvl-tum/SUSHI"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

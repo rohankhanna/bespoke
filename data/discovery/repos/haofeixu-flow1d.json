@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d",
+      "target": "correlation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/flow1d",
+      "target": "optical-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:50.478200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV'21 Oral] High-Resolution Optical Flow from 1D Attention and Correlation",
+    "fork": false,
+    "full_name": "haofeixu/flow1d",
+    "html_url": "https://github.com/haofeixu/flow1d",
+    "language": "Python",
+    "pushed_at": "2022-11-15T01:46:11Z",
+    "stargazers_count": 117,
+    "topics": [
+      "attention",
+      "correlation",
+      "high-resolution",
+      "iccv2021",
+      "optical-flow"
+    ],
+    "updated_at": "2026-04-17T03:31:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correlation"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    }
+  ]
+}

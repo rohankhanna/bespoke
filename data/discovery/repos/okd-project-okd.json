@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/s2i-ruby-container",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "okd-project/okd",
       "target": "openshift-s2i/s2i-wildfly",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T02:52:45.588409+00:00",
+  "fetched_at": "2026-05-03T07:01:32.040703+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,11 +72,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "openshift/okd",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sclorg/s2i-ruby-container",
       "source_file": "README.md"
     }
   ],

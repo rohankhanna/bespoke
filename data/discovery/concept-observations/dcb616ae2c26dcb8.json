@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An interactive HTML pretty-printer for machine learning research in IPython notebooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9914702,
+      "status": "candidate",
+      "text": "plain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9705067,
+      "status": "candidate",
+      "text": "unformatted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9688772,
+      "status": "candidate",
+      "text": "unstyled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9673024,
+      "status": "candidate",
+      "text": "raw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "ugly-print"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretty-printing",
+      "sense_id": "pretty-printing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pretty-printing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pretty-printing",
+  "observation_id": "dcb616ae2c26dcb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "pretty-printing",
+  "source_context_snippet": "Treescope is an interactive HTML pretty-printer and N-dimensional array",
+  "source_file": null,
+  "source_repo": "google-deepmind/treescope",
+  "source_repo_description": "An interactive HTML pretty-printer for machine learning research in IPython notebooks."
+}

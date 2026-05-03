@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-zhou/yahs",
+      "target": "arimagenomics/mapping_pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-zhou/yahs",
+      "target": "aidenlab/juicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-zhou/yahs",
+      "target": "aidenlab/juicebox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-zhou/yahs",
+      "target": "higlass/higlass",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:48.638067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yet another Hi-C scaffolding tool",
+    "fork": false,
+    "full_name": "c-zhou/yahs",
+    "html_url": "https://github.com/c-zhou/yahs",
+    "language": "C",
+    "pushed_at": "2024-11-04T19:25:13Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-04-28T11:42:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/juicebox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/juicer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arimagenomics/mapping_pipeline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "higlass/higlass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appl-team/ExplErr",
+      "target": "debugging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:24.979061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 518
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using LLM to explain exceptions with traceback and error message",
+    "fork": false,
+    "full_name": "appl-team/ExplErr",
+    "html_url": "https://github.com/appl-team/ExplErr",
+    "language": "Python",
+    "pushed_at": "2025-08-26T01:42:56Z",
+    "stargazers_count": 3,
+    "topics": [
+      "debugging",
+      "llm",
+      "python"
+    ],
+    "updated_at": "2025-08-26T01:42:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Python package that provides LLM-powered exception explanations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    }
+  ]
+}

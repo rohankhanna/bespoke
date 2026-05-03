@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**The project has moved to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**The project has moved to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991826,
+      "status": "candidate",
+      "text": "assemblage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991236,
+      "status": "candidate",
+      "text": "fabrication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983250,
+      "status": "candidate",
+      "text": "meeting place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978472,
+      "status": "candidate",
+      "text": "forum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974176,
+      "status": "candidate",
+      "text": "gathering"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assembly",
+      "sense_id": "assembly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26057,
+      "status": "candidate",
+      "text": "forum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26043,
+      "status": "candidate",
+      "text": "assemblage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16042,
+      "status": "candidate",
+      "text": "gathering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14038,
+      "status": "candidate",
+      "text": "fabrication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "meeting place"
+    }
+  ],
+  "concept_id": "assembly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assembly",
+  "observation_id": "111b60c4336976f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "assembly",
+  "source_context_snippet": "**The project has moved to",
+  "source_file": null,
+  "source_repo": "chanzuckerberg/shasta",
+  "source_repo_description": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads"
+}

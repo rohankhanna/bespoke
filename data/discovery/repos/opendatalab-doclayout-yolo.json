@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/DocLayout-YOLO",
+      "target": "opendatalab/pdf-extract-kit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:28:25.575965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10540
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception",
+    "fork": false,
+    "full_name": "opendatalab/DocLayout-YOLO",
+    "html_url": "https://github.com/opendatalab/DocLayout-YOLO",
+    "language": "Python",
+    "pushed_at": "2025-04-14T07:18:01Z",
+    "stargazers_count": 2137,
+    "topics": [],
+    "updated_at": "2026-05-03T02:53:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/pdf-extract-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

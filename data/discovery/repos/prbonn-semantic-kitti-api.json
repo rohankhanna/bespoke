@@ -1,0 +1,175 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "prbonn/lidar-mos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "prbonn/auto-mos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "large-scale-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:02.233068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16430
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4029
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results.",
+    "fork": false,
+    "full_name": "PRBonn/semantic-kitti-api",
+    "html_url": "https://github.com/PRBonn/semantic-kitti-api",
+    "language": "Python",
+    "pushed_at": "2025-04-03T07:55:17Z",
+    "stargazers_count": 896,
+    "topics": [
+      "dataset",
+      "deep-learning",
+      "evaluation",
+      "labels",
+      "large-scale-dataset",
+      "machine-learning",
+      "semantic-scene-completion",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-27T09:17:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/auto-mos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/lidar-mos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labels"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale-dataset"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    },
+    {
+      "context_snippet": "This repository contains helper scripts to open, visualize, process, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

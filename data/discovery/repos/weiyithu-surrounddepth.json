@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "weiyithu/weiyithu.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "tri-ml/dgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "tri-ml/ddad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "multi-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiyithu/SurroundDepth",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:30.907939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6509
+    },
+    {
+      "path": "requirements.txt",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL 2022] SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation",
+    "fork": false,
+    "full_name": "weiyithu/SurroundDepth",
+    "html_url": "https://github.com/weiyithu/SurroundDepth",
+    "language": "Python",
+    "pushed_at": "2023-02-09T11:32:12Z",
+    "stargazers_count": 289,
+    "topics": [
+      "depth-estimation",
+      "multi-camera",
+      "self-supervised-learning",
+      "transformer"
+    ],
+    "updated_at": "2026-04-26T07:02:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/ddad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/dgp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiyithu/weiyithu.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-camera"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "html-validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "The Nu Html Checker (vnu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "With the Nu Html Checker (vnu), you can:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate",
+      "text": "With the Nu Html Checker (vnu), you can:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "html-validation",
+  "concept_id": "html-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "validator/validator"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html-validation",
+      "sense_id": "html-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

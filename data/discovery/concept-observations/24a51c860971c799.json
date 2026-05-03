@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official URDF and SDF models of the iCub humanoid robot. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pip installation CI Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pip installation CI Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21570,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21570,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "jet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "nipple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "orientation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pip installation CI Workflow",
+      "sense_id": "pip-installation-ci-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pip-installation-ci-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pip-installation-ci-workflow",
+  "observation_id": "24a51c860971c799",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "pip installation CI Workflow",
+  "source_context_snippet": "pip installation CI Workflow",
+  "source_file": ".github/workflows/pip-ci.yml",
+  "source_repo": "robotology/icub-models",
+  "source_repo_description": "Official URDF and SDF models of the iCub humanoid robot. "
+}

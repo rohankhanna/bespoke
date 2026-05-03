@@ -115,6 +115,54 @@
       "source_repo": "lo-th/phy",
       "status": "candidate-context",
       "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate-context",
+      "text": "OpenXRLab GPU Cloth Simulation Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "Open source robotics simulator. The latest version of Gazebo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "Javascript WASM bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate-context",
+      "text": "Port of JoltPhysics to JavaScript using emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "lo-th/phy",
       "status": "candidate",
       "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrtailor",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate",
+      "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +379,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "lo-th/phy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "openxrlab/xrtailor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "fabmax/physx-js-webidl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jrouwe/JoltPhysics.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

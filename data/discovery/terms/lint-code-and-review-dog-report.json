@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-lint.yml",
       "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next"
     }
   ],
   "term": "Lint Code and Review Dog Report"

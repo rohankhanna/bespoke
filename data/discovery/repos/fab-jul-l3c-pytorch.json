@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fab-jul/L3C-PyTorch",
+      "target": "fab-jul/fjcommon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fab-jul/L3C-PyTorch",
+      "target": "cvdfoundation/open-images-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:17:07.006868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Implementation of the CVPR'19 Paper \"Practical Full Resolution Learned Lossless Image Compression\"",
+    "fork": false,
+    "full_name": "fab-jul/L3C-PyTorch",
+    "html_url": "https://github.com/fab-jul/L3C-PyTorch",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:26:31Z",
+    "stargazers_count": 409,
+    "topics": [],
+    "updated_at": "2026-03-23T01:57:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvdfoundation/open-images-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fab-jul/fjcommon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

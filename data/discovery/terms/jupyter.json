@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -181,6 +181,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jupyter-xeus/xeus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus-python"
     }
   ],
   "term": "jupyter"

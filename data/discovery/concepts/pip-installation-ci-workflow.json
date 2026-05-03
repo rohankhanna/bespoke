@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pip installation CI Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate-context",
+      "text": "Official URDF and SDF models of the iCub humanoid robot. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate-context",
+      "text": "pip installation CI Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/icub-models",
+      "status": "candidate",
+      "text": "pip installation CI Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21570,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21570,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "jet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "nipple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21519,
+      "status": "candidate",
+      "text": "orientation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pip installation CI Workflow",
+  "concept_id": "pip-installation-ci-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/pip-ci.yml",
+      "source_repo": "robotology/icub-models"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pip installation CI Workflow",
+      "sense_id": "pip-installation-ci-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

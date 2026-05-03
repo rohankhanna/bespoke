@@ -691,6 +691,30 @@
       "source_repo": "xinge008/Cylinder3D",
       "status": "candidate-context",
       "text": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Synthetic and real-world 2d/3d dataset for semantic and instance segmentation (BMVC 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1059,18 @@
       "source_repo": "xinge008/Cylinder3D",
       "status": "candidate",
       "text": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
     }
   ],
   "candidate_related_terms": [],
@@ -1696,11 +1732,59 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "xinge008/Cylinder3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meidachen/STPLS3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

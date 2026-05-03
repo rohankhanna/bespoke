@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml"
+    },
+    {
+      "component": "pmeier/pytest-results-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "stability-ai/datapipelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "stability-ai/modelspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "Run black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "Build package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-inference.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "pmeier/pytest-results-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-inference.yml",
+      "source_repo": "Stability-AI/generative-models",
+      "target": "Test inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:17:02.680232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23497
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1284
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/test-build.yaml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/test-inference.yml",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative Models by Stability AI",
+    "fork": false,
+    "full_name": "Stability-AI/generative-models",
+    "html_url": "https://github.com/Stability-AI/generative-models",
+    "language": "Python",
+    "pushed_at": "2025-12-16T08:36:18Z",
+    "stargazers_count": 27124,
+    "topics": [],
+    "updated_at": "2026-05-03T04:01:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/datapipelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/modelspec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run black",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Run black"
+    },
+    {
+      "context_snippet": "Build package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yaml",
+      "term": "Build package"
+    },
+    {
+      "context_snippet": "Test inference",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-inference.yml",
+      "term": "Test inference"
+    }
+  ]
+}

@@ -127,6 +127,18 @@
       "source_repo": "andyzeng/3dmatch-toolbox",
       "status": "candidate-context",
       "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "CALVIN - A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "andyzeng/3dmatch-toolbox",
       "status": "candidate",
       "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "andyzeng/3dmatch-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "mees/calvin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

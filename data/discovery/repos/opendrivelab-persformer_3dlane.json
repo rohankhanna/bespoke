@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "openperceptionx/openlane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "once-3dlanes/once_3dlanes_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "yuliangguo/pytorch_generalized_3d_lane_detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "lucastabelini/laneatt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "3d-lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/PersFormer_3DLane",
+      "target": "lane-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:39.979548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7808
+    },
+    {
+      "path": "requirements.txt",
+      "size": 282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022 Oral] Perspective Transformer on 3D Lane Detection",
+    "fork": false,
+    "full_name": "OpenDriveLab/PersFormer_3DLane",
+    "html_url": "https://github.com/OpenDriveLab/PersFormer_3DLane",
+    "language": "Python",
+    "pushed_at": "2025-07-02T05:33:10Z",
+    "stargazers_count": 501,
+    "topics": [
+      "3d-lane-detection",
+      "autonomous-driving",
+      "computer-vision",
+      "deep-learning",
+      "lane-detection"
+    ],
+    "updated_at": "2026-04-27T04:12:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucastabelini/laneatt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "once-3dlanes/once_3dlanes_benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openperceptionx/openlane",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliangguo/pytorch_generalized_3d_lane_detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-lane-detection"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    }
+  ]
+}

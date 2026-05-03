@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeromq/cppzmq",
+      "target": "zeromq/zmqpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeromq/cppzmq",
+      "target": "zeromq/czmqpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zeromq/cppzmq",
+      "target": "facebook/fbzmq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zeromq/cppzmq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zeromq/cppzmq",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq",
+      "target": "libzmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq",
+      "target": "zeromq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:09:40.297077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7652
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Header-only C++ binding for libzmq",
+    "fork": false,
+    "full_name": "zeromq/cppzmq",
+    "html_url": "https://github.com/zeromq/cppzmq",
+    "language": "C++",
+    "pushed_at": "2026-03-23T08:54:08Z",
+    "stargazers_count": 2295,
+    "topics": [
+      "0mq",
+      "binding",
+      "c-plus-plus",
+      "header-only",
+      "libzmq",
+      "zeromq"
+    ],
+    "updated_at": "2026-04-29T04:37:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/fbzmq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeromq/czmqpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeromq/zmqpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libzmq"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zeromq"
+    }
+  ]
+}

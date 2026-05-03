@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonkhler/s2cnn",
+      "target": "jonas-koehler/s2cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonkhler/s2cnn",
+      "target": "tscohen/groupy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonkhler/s2cnn",
+      "target": "amlab-amsterdam/lie_learn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonkhler/s2cnn",
+      "target": "nvidia/pynvrtc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:33.378718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spherical CNNs",
+    "fork": false,
+    "full_name": "jonkhler/s2cnn",
+    "html_url": "https://github.com/jonkhler/s2cnn",
+    "language": "Python",
+    "pushed_at": "2024-11-11T15:58:19Z",
+    "stargazers_count": 973,
+    "topics": [],
+    "updated_at": "2026-04-24T08:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amlab-amsterdam/lie_learn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonas-koehler/s2cnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/pynvrtc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tscohen/groupy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

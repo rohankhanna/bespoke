@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:32:26.801009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1977
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "victoriacity/voxel-challenge",
+    "html_url": "https://github.com/victoriacity/voxel-challenge",
+    "language": "Python",
+    "pushed_at": "2022-05-08T02:42:56Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-03-21T13:42:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

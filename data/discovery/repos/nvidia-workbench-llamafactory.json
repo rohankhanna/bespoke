@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/workbench-llamafactory",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:25:01.761871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 720
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory. ",
+    "fork": false,
+    "full_name": "NVIDIA/workbench-llamafactory",
+    "html_url": "https://github.com/NVIDIA/workbench-llamafactory",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-17T02:30:19Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-12-30T08:41:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

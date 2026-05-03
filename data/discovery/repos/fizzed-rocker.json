@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java25.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java25.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fizzed/rocker",
+      "target": "fizzed/template-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fizzed/rocker",
+      "target": "fizzed/ninja-rocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fizzed/rocker",
+      "target": "fizzed/blaze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fizzed/rocker",
+      "target": "etiennestuder/gradle-rocker-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java11.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Java 11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Java 17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Java 21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java25.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java25.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java25.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Java 25",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Java 8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "MacOS arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/rocker",
+      "target": "Windows x64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/rocker",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/rocker",
+      "target": "templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:38:51.584034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25086
+    },
+    {
+      "path": ".github/workflows/java11.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java17.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java21.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java25.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/java8.yaml",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/macos-arm64.yaml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/windows-x64.yaml",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects",
+    "fork": false,
+    "full_name": "fizzed/rocker",
+    "html_url": "https://github.com/fizzed/rocker",
+    "language": "Java",
+    "pushed_at": "2026-01-21T15:33:27Z",
+    "stargazers_count": 781,
+    "topics": [
+      "java",
+      "templating",
+      "web"
+    ],
+    "updated_at": "2026-04-12T09:45:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etiennestuder/gradle-rocker-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzed/blaze",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzed/ninja-rocker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzed/template-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java 11",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java11.yaml",
+      "term": "Java 11"
+    },
+    {
+      "context_snippet": "Java 17",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java17.yaml",
+      "term": "Java 17"
+    },
+    {
+      "context_snippet": "Java 21",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java21.yaml",
+      "term": "Java 21"
+    },
+    {
+      "context_snippet": "Java 25",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java25.yaml",
+      "term": "Java 25"
+    },
+    {
+      "context_snippet": "Java 8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8.yaml",
+      "term": "Java 8"
+    },
+    {
+      "context_snippet": "MacOS arm64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "term": "MacOS arm64"
+    },
+    {
+      "context_snippet": "Windows x64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "term": "Windows x64"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templating"
+    }
+  ]
+}

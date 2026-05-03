@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/LiT5",
+      "target": "facebookresearch/fid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/LiT5",
+      "target": "facebookresearch/atlas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:25:03.649305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4882
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "castorini/LiT5",
+    "html_url": "https://github.com/castorini/LiT5",
+    "language": "Python",
+    "pushed_at": "2024-08-09T01:49:45Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-02-14T06:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/atlas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

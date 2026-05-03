@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tulerfeng/OneThinker",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tulerfeng/OneThinker",
+      "target": "internlm/polar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tulerfeng/OneThinker",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:51.067985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd25 OneThinker: All-in-one Reasoning Model for Image and Video [CVPR 2026]",
+    "fork": false,
+    "full_name": "tulerfeng/OneThinker",
+    "html_url": "https://github.com/tulerfeng/OneThinker",
+    "language": "Python",
+    "pushed_at": "2026-02-28T08:16:27Z",
+    "stargazers_count": 435,
+    "topics": [],
+    "updated_at": "2026-04-28T03:33:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/polar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

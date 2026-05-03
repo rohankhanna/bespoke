@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "conda/conda-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "conda/conda-libmamba-solver"
     }
   ]
 }

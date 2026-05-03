@@ -19,6 +19,30 @@
       "source_repo": "carla-simulator/carla",
       "status": "candidate-context",
       "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/carla_garage",
+      "status": "candidate-context",
+      "text": "[ICCV'23] Hidden Biases of End-to-End Driving Models & A starter kit for the CARLA leaderboard 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/carla_garage",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate-context",
+      "text": "[CoRL'22] PlanT: Explainable Planning Transformers via Object-Level Representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate-context",
+      "text": "**News**: \\"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "carla-simulator/carla",
       "status": "candidate",
       "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/carla_garage",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant",
+      "status": "candidate",
+      "text": "**News**: \\"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "carla-simulator/carla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/carla_garage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

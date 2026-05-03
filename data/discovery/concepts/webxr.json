@@ -19,6 +19,18 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate-context",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate-context",
+      "text": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate-context",
+      "text": "@babylonjs/root"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate",
+      "text": "@babylonjs/root"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "BabylonJS/Babylon.js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

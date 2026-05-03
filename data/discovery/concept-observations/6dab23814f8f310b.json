@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Java 25"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Java 25"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11478,
+      "status": "candidate",
+      "text": "asia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "benzoin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "sunda strait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "caffeine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "homer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java 25",
+      "sense_id": "java-25#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "java-25",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java-25",
+  "observation_id": "6dab23814f8f310b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "Java 25",
+  "source_context_snippet": "Java 25",
+  "source_file": ".github/workflows/java25.yaml",
+  "source_repo": "fizzed/rocker",
+  "source_repo_description": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+}

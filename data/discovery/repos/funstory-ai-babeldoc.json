@@ -163,13 +163,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
-      "target": "guaguastandup/zotero-pdf2zh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "funstory-ai/BabelDOC",
       "target": "funstory-ai/yadt",
       "target_type": "repository"
     },
@@ -178,6 +171,13 @@
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
       "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "multimeric/asynchronize",
       "target_type": "repository"
     },
     {
@@ -405,7 +405,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:01:02.484301+00:00",
+  "fetched_at": "2026-05-03T07:28:31.564000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -471,12 +471,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "guaguastandup/zotero-pdf2zh",
+      "full_name": "immersive-translate/zotero-immersivetranslate",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "immersive-translate/zotero-immersivetranslate",
+      "full_name": "multimeric/asynchronize",
       "source_file": "README.md"
     }
   ],

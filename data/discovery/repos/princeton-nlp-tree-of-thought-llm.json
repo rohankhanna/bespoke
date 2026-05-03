@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/tree-of-thought-llm",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/tree-of-thought-llm",
+      "target": "prompting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/tree-of-thought-llm",
+      "target": "tree-of-thoughts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-nlp/tree-of-thought-llm",
+      "target": "tree-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:28.800707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5021
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2023] Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "fork": false,
+    "full_name": "princeton-nlp/tree-of-thought-llm",
+    "html_url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+    "language": "Python",
+    "pushed_at": "2025-01-16T20:02:00Z",
+    "stargazers_count": 5935,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "prompting",
+      "tree-of-thoughts",
+      "tree-search"
+    ],
+    "updated_at": "2026-05-03T01:44:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompting"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-of-thoughts"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-search"
+    }
+  ]
+}

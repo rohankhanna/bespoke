@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "bibliography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "bibtex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "publication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber",
+      "target": "research-paper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:33.086830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10447
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple tool to update bib entries with their official information (e.g., DBLP or the ACL anthology).",
+    "fork": false,
+    "full_name": "yuchenlin/rebiber",
+    "html_url": "https://github.com/yuchenlin/rebiber",
+    "language": "Python",
+    "pushed_at": "2025-07-09T02:02:23Z",
+    "stargazers_count": 3008,
+    "topics": [
+      "bibliography",
+      "bibtex",
+      "latex",
+      "machine-learning",
+      "natural-language-processing",
+      "publication",
+      "research-paper"
+    ],
+    "updated_at": "2026-05-02T23:15:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibliography"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibtex"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publication"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research-paper"
+    }
+  ]
+}

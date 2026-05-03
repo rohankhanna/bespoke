@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/aqt",
+      "target": "google/maxtext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:08:07.711858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16960
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/aqt",
+    "html_url": "https://github.com/google/aqt",
+    "language": "Python",
+    "pushed_at": "2026-04-13T16:10:19Z",
+    "stargazers_count": 354,
+    "topics": [],
+    "updated_at": "2026-04-30T20:42:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maxtext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

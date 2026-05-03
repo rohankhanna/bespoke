@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib"
+    }
+  ],
+  "term": "Close support issues"
+}

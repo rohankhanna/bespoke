@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minerllabs/minerl",
+      "target": "openai/video-pre-training",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:08:16.714557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "MineRL Competition for Sample Efficient Reinforcement Learning - Python Package",
+    "fork": false,
+    "full_name": "minerllabs/minerl",
+    "html_url": "https://github.com/minerllabs/minerl",
+    "language": "Java",
+    "pushed_at": "2025-01-22T20:22:41Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-04-29T17:02:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/video-pre-training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

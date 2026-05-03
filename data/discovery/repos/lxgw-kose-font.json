@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/kose-font",
+      "target": "lxgw/lxgwfasmartgothic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/kose-font",
+      "target": "lxgw/lxgwheartserif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/kose-font",
+      "target": "lxgw/lxgwmarkergothic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/kose-font",
+      "target": "lxgw/lxgw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/kose-font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/kose-font",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:03.544146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Chinese handwriting font derived from SetoFont. \u4e00\u6b3e\u884d\u751f\u4e8e\u300c\u6fd1\u6237\u5b57\u4f53\u300d\u7684\u4e2d\u6587\u624b\u5199\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/kose-font",
+    "html_url": "https://github.com/lxgw/kose-font",
+    "language": null,
+    "pushed_at": "2025-09-10T06:15:38Z",
+    "stargazers_count": 2168,
+    "topics": [
+      "cjk",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-01T17:44:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwfasmartgothic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwheartserif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwmarkergothic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

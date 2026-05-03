@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "junchengyan/groundedsam_occnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "fang2896/groundedsam_gaussianocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "linshan-bin/occnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/GaussianOcc",
+      "target": "mcg-nju/sparseocc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:29.094656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8364
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(ICCV 2025) GaussianOcc: Fully Self-supervised and Efficient 3D Occupancy Estimation with Gaussian Splatting",
+    "fork": false,
+    "full_name": "GANWANSHUI/GaussianOcc",
+    "html_url": "https://github.com/GANWANSHUI/GaussianOcc",
+    "language": "Python",
+    "pushed_at": "2026-02-17T13:41:47Z",
+    "stargazers_count": 366,
+    "topics": [],
+    "updated_at": "2026-04-25T09:35:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fang2896/groundedsam_gaussianocc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junchengyan/groundedsam_occnerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linshan-bin/occnerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcg-nju/sparseocc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

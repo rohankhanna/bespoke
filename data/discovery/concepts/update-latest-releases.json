@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update latest releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate-context",
+      "text": "CMake/YCM-based superbuild to simplify the build process of robotology projects. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate-context",
+      "text": "Update latest releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate",
+      "text": "Update latest releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18930,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18840,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17993,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17873,
+      "status": "candidate",
+      "text": "updates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17873,
+      "status": "candidate",
+      "text": "updating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update latest releases",
+  "concept_id": "update-latest-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/update-latest-releases.yml",
+      "source_repo": "robotology/robotology-superbuild"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update latest releases",
+      "sense_id": "update-latest-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

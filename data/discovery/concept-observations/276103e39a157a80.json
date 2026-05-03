@@ -48,7 +48,7 @@
   "normalized_form": "video-interpolation",
   "observation_id": "276103e39a157a80",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "video-interpolation",
   "source_context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
   "source_file": null,

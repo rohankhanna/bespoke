@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v2",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1067,6 +1067,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/preview-build.yml",
       "source_repo": "ElemeFE/element"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publishing.yml",
+      "source_repo": "apidoc/apidoc"
     }
   ]
 }

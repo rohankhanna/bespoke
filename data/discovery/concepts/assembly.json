@@ -79,6 +79,30 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chanzuckerberg/shasta",
+      "status": "candidate-context",
+      "text": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chanzuckerberg/shasta",
+      "status": "candidate-context",
+      "text": "**The project has moved to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GFA-spec/GFA-spec",
+      "status": "candidate-context",
+      "text": "Graphical Fragment Assembly (GFA) Format Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFA-spec/GFA-spec",
+      "status": "candidate-context",
+      "text": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chanzuckerberg/shasta",
+      "status": "candidate",
+      "text": "**The project has moved to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFA-spec/GFA-spec",
+      "status": "candidate",
+      "text": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests."
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +352,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "GFA-spec/GFA-spec"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -367,6 +367,30 @@
       "source_repo": "attackgoat/vk-graph",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate-context",
+      "text": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate-context",
+      "text": "@babylonjs/root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate-context",
+      "text": "Port of JoltPhysics to JavaScript using emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "attackgoat/vk-graph",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BabylonJS/Babylon.js",
+      "status": "candidate",
+      "text": "@babylonjs/root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics.js",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
     }
   ],
   "candidate_related_terms": [],
@@ -838,11 +874,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "BabylonJS/Babylon.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "jrouwe/JoltPhysics.js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

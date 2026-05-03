@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/sap-ai-drawio",
+      "target": "super-agent-party",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:18:50.710978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 165
+    },
+    {
+      "path": "package.json",
+      "size": 436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e00\u4e2aSuper Agent Party \u7684 AI drawio\u6269\u5c55\uff01an AI drawio extension for the Super Agent Party\uff01",
+    "fork": false,
+    "full_name": "heshengtao/sap-ai-drawio",
+    "html_url": "https://github.com/heshengtao/sap-ai-drawio",
+    "language": "HTML",
+    "pushed_at": "2026-01-02T17:10:42Z",
+    "stargazers_count": 2,
+    "topics": [
+      "sap",
+      "super-agent-party"
+    ],
+    "updated_at": "2026-01-10T12:33:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u4e00\u4e2aSuper Agent Party \u7684 AI drawio\u6269\u5c55\uff01an AI drawio extension for the Super Agent Party\uff01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-agent-party"
+    }
+  ]
+}

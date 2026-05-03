@@ -1069,6 +1069,66 @@
       "source_repo": "JuliaData/Tables.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "Main Package for IO, loading all different kind of files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "Time series implementation for the Julia language focused on efficiency and flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/IndexedTables.jl",
+      "status": "candidate-context",
+      "text": "Flexible tables with ordered indices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/IndexedTables.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/CSV.jl",
+      "status": "candidate-context",
+      "text": "Utility library for working with CSV and other delimited files in the Julia programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CSV.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaData/CSV.jl/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JuliaData/CSV.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate-context",
+      "text": "Package to make C++ libraries available in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate-context",
+      "text": "This package aims to provide a Boost.Python-like wrapping for C++ types and functions to Julia."
     }
   ],
   "candidate_glosses": [
@@ -1605,6 +1665,36 @@
       "source_repo": "JuliaData/Tables.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/FileIO.jl",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Temporal.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/IndexedTables.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CSV.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaData/CSV.jl/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JuliaData/CSV.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/CxxWrap.jl",
+      "status": "candidate",
+      "text": "This package aims to provide a Boost.Python-like wrapping for C++ types and functions to Julia."
     }
   ],
   "candidate_related_terms": [
@@ -2296,11 +2386,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaIO/FileIO.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/IndexedTables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/CSV.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/CxxWrap.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

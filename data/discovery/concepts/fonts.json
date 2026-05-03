@@ -178,6 +178,30 @@
       "source_repo": "adobe-type-tools/Adobe-Japan1",
       "status": "candidate-context",
       "text": "[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [\u65e5\u672c\u8a9e](README-JP.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u7edf\u4e00\u7801\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate-context",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "githubnext/monaspace",
+      "status": "candidate-context",
+      "text": "An innovative superfamily of fonts for code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubnext/monaspace",
+      "status": "candidate-context",
+      "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +288,18 @@
       "source_repo": "adobe-type-tools/Adobe-Japan1",
       "status": "candidate",
       "text": "[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [\u65e5\u672c\u8a9e](README-JP.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Unicode",
+      "status": "candidate",
+      "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "githubnext/monaspace",
+      "status": "candidate",
+      "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -457,11 +493,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "adobe-type-tools/Adobe-Japan1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Unicode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "githubnext/monaspace"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

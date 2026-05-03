@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1222,6 +1222,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "hufrea/byedpi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "gazebosim/gz-sim"
     }
   ]
 }

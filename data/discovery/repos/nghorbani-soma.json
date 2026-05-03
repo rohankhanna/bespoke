@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nghorbani/soma",
+      "target": "nghorbani/body_visualizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nghorbani/soma",
+      "target": "nghorbani/configer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:33:15.566698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4927
+    },
+    {
+      "path": "requirements.txt",
+      "size": 514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Solving Optical MoCap Automatically",
+    "fork": false,
+    "full_name": "nghorbani/soma",
+    "html_url": "https://github.com/nghorbani/soma",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-18T05:40:02Z",
+    "stargazers_count": 248,
+    "topics": [],
+    "updated_at": "2026-04-27T11:38:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/body_visualizer",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/configer",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

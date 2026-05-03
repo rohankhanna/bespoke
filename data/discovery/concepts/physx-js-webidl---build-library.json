@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PhysX-JS-WebIDL - Build Library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "Javascript WASM bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "PhysX-JS-WebIDL - Build Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate",
+      "text": "PhysX-JS-WebIDL - Build Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11630,
+      "status": "candidate",
+      "text": "temple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stacked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11546,
+      "status": "candidate",
+      "text": "stacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "collect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PhysX-JS-WebIDL - Build Library",
+  "concept_id": "physx-js-webidl---build-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fabmax/physx-js-webidl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PhysX-JS-WebIDL - Build Library",
+      "sense_id": "physx-js-webidl---build-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

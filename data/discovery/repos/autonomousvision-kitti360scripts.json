@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:14:13.235247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains utility scripts for the KITTI-360 dataset.",
+    "fork": false,
+    "full_name": "autonomousvision/kitti360Scripts",
+    "html_url": "https://github.com/autonomousvision/kitti360Scripts",
+    "language": "Python",
+    "pushed_at": "2025-08-14T04:47:23Z",
+    "stargazers_count": 439,
+    "topics": [],
+    "updated_at": "2026-04-24T15:18:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

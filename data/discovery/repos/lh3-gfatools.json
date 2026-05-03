@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/gfatools",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/gfatools",
+      "target": "genome-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/gfatools",
+      "target": "genomics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:52.832305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for manipulating sequence graphs in the GFA and rGFA formats",
+    "fork": false,
+    "full_name": "lh3/gfatools",
+    "html_url": "https://github.com/lh3/gfatools",
+    "language": "C",
+    "pushed_at": "2025-12-16T18:06:21Z",
+    "stargazers_count": 250,
+    "topics": [
+      "bioinformatics",
+      "genome-graph",
+      "genomics"
+    ],
+    "updated_at": "2026-05-02T23:22:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-graph"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    }
+  ]
+}

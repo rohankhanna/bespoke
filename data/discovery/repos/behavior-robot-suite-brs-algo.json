@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "behavior-robot-suite/brs-algo",
+      "target": "behavior-robot-suite/brs-ctrl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:26:01.206885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4003
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Algorithm Codebase for the Paper \"BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities\"",
+    "fork": false,
+    "full_name": "behavior-robot-suite/brs-algo",
+    "html_url": "https://github.com/behavior-robot-suite/brs-algo",
+    "language": "Python",
+    "pushed_at": "2025-08-24T21:42:57Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-14T02:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behavior-robot-suite/brs-ctrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

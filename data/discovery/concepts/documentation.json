@@ -2170,6 +2170,30 @@
       "source_repo": "danielrosehill/MCP-Projects-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "highfive-devs/highfive",
+      "status": "candidate-context",
+      "text": "User-friendly, header-only, C++14 wrapper for HDF5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highfive-devs/highfive",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "The Ory documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory Documentation</h1>"
     }
   ],
   "candidate_glosses": [
@@ -3282,6 +3306,18 @@
       "source_repo": "danielrosehill/MCP-Projects-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "highfive-devs/highfive",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory Documentation</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -4998,11 +5034,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/MCP-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "highfive-devs/highfive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ory/docs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

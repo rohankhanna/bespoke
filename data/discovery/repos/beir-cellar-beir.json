@@ -9,27 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beir-cellar/beir",
-      "target": "allenai/scifact",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beir-cellar/beir",
-      "target": "tensorflow/datasets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beir-cellar/beir",
-      "target": "huggingface/datasets",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "beir-cellar/beir",
@@ -135,7 +114,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:07:35.158712+00:00",
+  "fetched_at": "2026-05-03T07:25:09.285096+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,7 +135,7 @@
     "html_url": "https://github.com/beir-cellar/beir",
     "language": "Python",
     "pushed_at": "2025-10-16T06:38:03Z",
-    "stargazers_count": 2159,
+    "stargazers_count": 2167,
     "topics": [
       "benchmark",
       "bert",
@@ -178,27 +157,12 @@
       "sentence-transformers",
       "zero-shot-retrieval"
     ],
-    "updated_at": "2026-04-22T12:43:22Z"
+    "updated_at": "2026-05-02T14:22:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "allenai/scifact",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "huggingface/datasets",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "iai-group/dbpedia-entity",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tensorflow/datasets",
       "source_file": "README.md"
     }
   ],

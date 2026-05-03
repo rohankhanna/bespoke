@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daerduoCarey/partnet_anno_system",
+      "target": "daerduocarey/partnet_seg_exps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:37.330985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PartNet 3D Web-based Shape Parts Annotation System",
+    "fork": false,
+    "full_name": "daerduoCarey/partnet_anno_system",
+    "html_url": "https://github.com/daerduoCarey/partnet_anno_system",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-08T17:34:17Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-02-03T21:17:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daerduocarey/partnet_seg_exps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

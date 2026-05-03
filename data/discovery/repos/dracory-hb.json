@@ -30,14 +30,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "joncalhoun/form",
+      "target": "maragudk/gomponents",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "jpincas/htmlfunc",
+      "target": "maddalax/htmgo",
       "target_type": "repository"
     },
     {
@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:48:36.322150+00:00",
+  "fetched_at": "2026-05-03T07:39:26.523149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -99,17 +99,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "joncalhoun/form",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jpincas/htmlfunc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "julvo/htmlgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maddalax/htmgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maragudk/gomponents",
       "source_file": "README.md"
     }
   ],

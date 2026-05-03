@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "chiron-fonts/chiron-hei-hk",
+      "target": "tkykmori/gothic-nguyen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "mercury13/unicodia",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "guiwonder/shanggu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "fitzgerald-porthmouth-koenigsegg/planschrift_project",
+      "target": "warren2060/chillduansans",
       "target_type": "repository"
     },
     {
@@ -141,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
   "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
 }

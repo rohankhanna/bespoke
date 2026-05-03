@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "paraphrase-identification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate-context",
+      "text": "Heterogenous, Task- and Domain-Specific Benchmark for Unsupervised Sentence Embeddings used in the TSDAE paper: https://arxiv.org/abs/2104.06979."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate-context",
+      "text": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate",
+      "text": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "paraphrase-identification",
+  "concept_id": "paraphrase-identification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "UKPLab/useb"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paraphrase-identification",
+      "sense_id": "paraphrase-identification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

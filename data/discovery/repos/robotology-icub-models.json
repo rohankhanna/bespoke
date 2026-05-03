@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx-ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "trilom/file-changes-action@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/icub-models",
+      "target": "robotology/robotology-superbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/icub-models",
+      "target": "ami-iit/resolve-robotics-uri-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/icub-models",
+      "target": "ihmcrobotics/ihmc-open-robotics-software",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "C++ CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "pip installation CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "trilom/file-changes-action@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_bru.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_bru.yml",
+      "source_repo": "robotology/icub-models",
+      "target": "Webhook trigger for blender-robotics-utils repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "gazebo-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "gazebo-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "icub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "urdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/icub-models",
+      "target": "yarp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:31:20.037438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8486
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/cxx-ci.yml",
+      "size": 3794
+    },
+    {
+      "path": ".github/workflows/pip-ci.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/pypi-ci.yml",
+      "size": 1897
+    },
+    {
+      "path": ".github/workflows/trigger_bru.yml",
+      "size": 2400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official URDF and SDF models of the iCub humanoid robot. ",
+    "fork": false,
+    "full_name": "robotology/icub-models",
+    "html_url": "https://github.com/robotology/icub-models",
+    "language": "CMake",
+    "pushed_at": "2026-02-26T14:55:58Z",
+    "stargazers_count": 48,
+    "topics": [
+      "gazebo",
+      "gazebo-models",
+      "gazebo-simulator",
+      "icub",
+      "ros",
+      "urdf",
+      "yarp"
+    ],
+    "updated_at": "2026-04-30T18:01:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ami-iit/resolve-robotics-uri-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/ihmc-open-robotics-software",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/robotology-superbuild",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "C++ CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx-ci.yml",
+      "term": "C++ CI Workflow"
+    },
+    {
+      "context_snippet": "pip installation CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pip-ci.yml",
+      "term": "pip installation CI Workflow"
+    },
+    {
+      "context_snippet": "Webhook trigger for blender-robotics-utils repository",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_bru.yml",
+      "term": "Webhook trigger for blender-robotics-utils repository"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo-models"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo-simulator"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icub"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf"
+    },
+    {
+      "context_snippet": "Repository containing URDF and SDF models of iCub humanoid robots.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarp"
+    }
+  ]
+}

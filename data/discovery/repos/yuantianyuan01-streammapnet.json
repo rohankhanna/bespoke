@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:13:40.575328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4283
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yuantianyuan01/StreamMapNet",
+    "html_url": "https://github.com/yuantianyuan01/StreamMapNet",
+    "language": "Python",
+    "pushed_at": "2024-03-03T15:34:04Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-24T10:18:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

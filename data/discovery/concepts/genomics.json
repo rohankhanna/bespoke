@@ -115,6 +115,54 @@
       "source_repo": "chhylp123/hifiasm",
       "status": "candidate-context",
       "text": "```sh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": " C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate-context",
+      "text": "ClairS - a deep-learning method for long-read somatic small variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "ClairS-TO - a deep-learning method for tumor-only somatic variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lh3/gfatools",
+      "status": "candidate-context",
+      "text": "Tools for manipulating sequence graphs in the GFA and rGFA formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/gfatools",
+      "status": "candidate-context",
+      "text": "```sh"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +217,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chhylp123/hifiasm",
+      "status": "candidate",
+      "text": "```sh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate",
+      "text": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/ClairS-TO",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/gfatools",
       "status": "candidate",
       "text": "```sh"
     }
@@ -268,11 +340,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "chhylp123/hifiasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/ClairS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/ClairS-TO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "lh3/gfatools"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

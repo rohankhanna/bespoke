@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh",
+      "target": "egyptian-hieroglyphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh",
+      "target": "jsesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia-sesh",
+      "target": "unicode-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:42.895728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The best JSesh based Egyptian font ever",
+    "fork": false,
+    "full_name": "Mercury13/unicodia-sesh",
+    "html_url": "https://github.com/Mercury13/unicodia-sesh",
+    "language": "Python",
+    "pushed_at": "2026-03-23T13:21:58Z",
+    "stargazers_count": 3,
+    "topics": [
+      "egyptian-hieroglyphics",
+      "font",
+      "jsesh",
+      "unicode",
+      "unicode-font"
+    ],
+    "updated_at": "2026-03-06T09:43:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# What is UnicodiaSesh?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "egyptian-hieroglyphics"
+    },
+    {
+      "context_snippet": "\ufeff# What is UnicodiaSesh?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "\ufeff# What is UnicodiaSesh?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsesh"
+    },
+    {
+      "context_snippet": "\ufeff# What is UnicodiaSesh?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "\ufeff# What is UnicodiaSesh?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode-font"
+    }
+  ]
+}

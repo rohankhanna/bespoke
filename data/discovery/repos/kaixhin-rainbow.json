@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaixhin/Rainbow",
+      "target": "floringogianu/categorical-dqn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaixhin/Rainbow",
+      "target": "jaara/ai-blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaixhin/Rainbow",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaixhin/Rainbow",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:08:14.427292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3490
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rainbow: Combining Improvements in Deep Reinforcement Learning",
+    "fork": false,
+    "full_name": "Kaixhin/Rainbow",
+    "html_url": "https://github.com/Kaixhin/Rainbow",
+    "language": "Python",
+    "pushed_at": "2022-01-13T01:24:38Z",
+    "stargazers_count": 1671,
+    "topics": [
+      "deep-learning",
+      "deep-reinforcement-learning"
+    ],
+    "updated_at": "2026-05-02T18:44:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "floringogianu/categorical-dqn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaara/ai-blog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rainbow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Rainbow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    }
+  ]
+}

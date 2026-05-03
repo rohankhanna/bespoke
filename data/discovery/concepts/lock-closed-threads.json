@@ -55,6 +55,18 @@
       "source_repo": "python-telegram-bot/python-telegram-bot",
       "status": "candidate-context",
       "text": "'Lock Closed Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-widgets/ipywidgets",
+      "status": "candidate-context",
+      "text": "Interactive Widgets for the Jupyter Notebook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipywidgets",
+      "status": "candidate-context",
+      "text": "'Lock Closed Threads'"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "'Lock Closed Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipywidgets",
       "status": "candidate",
       "text": "'Lock Closed Threads'"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "jupyter-widgets/ipywidgets"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

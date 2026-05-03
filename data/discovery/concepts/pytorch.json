@@ -6739,6 +6739,90 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate-context",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Unifying Short and Long-Term Tracking with Graph Hierarchies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate-context",
+      "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate-context",
+      "text": "Pointcept: Perceive the world with sparse points, a codebase for point cloud perception research. Latest works: Utonia, Concerto (NeurIPS'25), Sonata (CVPR'25 Highlight), PTv3 (CVPR'24 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npurson/tmpl",
+      "status": "candidate-context",
+      "text": "\u26a1 A template for rapid & flexible DL experimentation development, powered by Lightning & Hydra following best practice."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/tmpl",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/badge/Python-3.9%2B-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate-context",
+      "text": "Heterogenous, Task- and Domain-Specific Benchmark for Unsupervised Sentence Embeddings used in the TSDAE paper: https://arxiv.org/abs/2104.06979."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate-context",
+      "text": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "CALVIN - A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_glosses": [
@@ -10107,6 +10191,48 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dvl-tum/SUSHI",
+      "status": "candidate",
+      "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/tmpl",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/Python-3.9%2B-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKPLab/useb",
+      "status": "candidate",
+      "text": "This repository hosts the data and the evaluation script for reproducing the results reported in the paper: \"[TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning](https://arxiv.org/abs/2104.06979)\" (EMNLP 2021 Findings). \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate",
+      "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptimalScale/LMFlow",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"50%\">"
     }
   ],
   "candidate_related_terms": [
@@ -15676,11 +15802,197 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Algolzw/daclip-uir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "dvl-tum/SUSHI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Pointcept/Pointcept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "npurson/tmpl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "UKPLab/useb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "mees/calvin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OptimalScale/LMFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

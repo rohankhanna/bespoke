@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NJU-PCALab/AddSR",
+      "target": "autonomousvision/stylegan-t",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NJU-PCALab/AddSR",
+      "target": "stability-ai/generative-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:53.050076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6264
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "NJU-PCALab/AddSR",
+    "html_url": "https://github.com/NJU-PCALab/AddSR",
+    "language": "Python",
+    "pushed_at": "2025-01-08T16:59:23Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-03-15T09:35:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/stylegan-t",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/generative-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

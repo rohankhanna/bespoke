@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "access-token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "permissions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "refresh-token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "sanic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahopkins/sanic-jwt",
+      "target": "scopes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:28:59.650376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2279
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Authentication, JWT, and permission scoping for Sanic",
+    "fork": false,
+    "full_name": "ahopkins/sanic-jwt",
+    "html_url": "https://github.com/ahopkins/sanic-jwt",
+    "language": "Python",
+    "pushed_at": "2024-10-13T21:58:06Z",
+    "stargazers_count": 246,
+    "topics": [
+      "access-token",
+      "authentication",
+      "jwt",
+      "permissions",
+      "python",
+      "refresh-token",
+      "sanic",
+      "scopes"
+    ],
+    "updated_at": "2026-02-20T01:44:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "access-token"
+    },
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permissions"
+    },
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refresh-token"
+    },
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanic"
+    },
+    {
+      "context_snippet": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scopes"
+    }
+  ]
+}

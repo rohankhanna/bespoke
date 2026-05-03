@@ -8460,6 +8460,66 @@
       "source_repo": "reactor/BlockHound",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "CALVIN - A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Scaleway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate-context",
+      "text": "Silently sets default layouts for Jekyll pages and posts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexlafroscia/vite-plugin-handlebars",
+      "status": "candidate-context",
+      "text": "Vite support for Handlebars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexlafroscia/vite-plugin-handlebars",
+      "status": "candidate-context",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "The Nu Html Checker (vnu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -12720,6 +12780,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "reactor/BlockHound",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mees/calvin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexlafroscia/vite-plugin-handlebars",
+      "status": "candidate",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
       "status": "candidate",
       "text": "\"CodeQL\""
     }
@@ -18915,11 +19005,53 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "reactor/BlockHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mees/calvin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "scaleway/scaleway-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alexlafroscia/vite-plugin-handlebars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "validator/validator"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

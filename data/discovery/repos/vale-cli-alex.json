@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/alex",
+      "target": "get-alex/alex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/alex",
+      "target": "errata-ai/vale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/alex",
+      "target": "vale-linter-style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/alex",
+      "target": "vale-style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:09:20.673015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vale-compatible implementation of the guidelines enforced by the alex linter: catch insensitive, inconsiderate writing.",
+    "fork": false,
+    "full_name": "vale-cli/alex",
+    "html_url": "https://github.com/vale-cli/alex",
+    "language": "Gherkin",
+    "pushed_at": "2024-11-21T05:50:03Z",
+    "stargazers_count": 25,
+    "topics": [
+      "vale-linter-style",
+      "vale-style"
+    ],
+    "updated_at": "2026-04-22T17:10:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/vale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "get-alex/alex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale-linter-style"
+    },
+    {
+      "context_snippet": "> [`alex`](https://github.com/get-alex/alex): Catch insensitive, inconsiderate writing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale-style"
+    }
+  ]
+}

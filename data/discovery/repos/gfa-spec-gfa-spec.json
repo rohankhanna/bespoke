@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "bcgsc/abyss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "combine-lab/cuttlefish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "bioinfologics/w2rap-contigger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "comparativegenomicstoolkit/cactus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "file-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GFA-spec/GFA-spec",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:43.157664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphical Fragment Assembly (GFA) Format Specification",
+    "fork": false,
+    "full_name": "GFA-spec/GFA-spec",
+    "html_url": "https://github.com/GFA-spec/GFA-spec",
+    "language": "Makefile",
+    "pushed_at": "2024-08-21T04:45:07Z",
+    "stargazers_count": 219,
+    "topics": [
+      "assembly",
+      "file-format",
+      "gfa",
+      "graph",
+      "specification"
+    ],
+    "updated_at": "2026-04-16T13:41:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcgsc/abyss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bioinfologics/w2rap-contigger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "combine-lab/cuttlefish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comparativegenomicstoolkit/cactus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-format"
+    },
+    {
+      "context_snippet": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "We are developing the specification of the Graphical Fragment Assembly (GFA) format. Your contribution is welcome. Please open up issues or submit pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

@@ -446,6 +446,18 @@
       "source_repo": "microsoft/botframework-solutions",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/python-blosc",
+      "status": "candidate-context",
+      "text": "A Python wrapper for the extremely fast Blosc compression library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/python-blosc",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -676,6 +688,12 @@
       "source_repo": "microsoft/botframework-solutions",
       "status": "candidate",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/python-blosc",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_related_terms": [
@@ -1097,11 +1115,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Blosc/python-blosc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

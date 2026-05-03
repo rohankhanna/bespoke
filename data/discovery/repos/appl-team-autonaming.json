@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:19:23.819308+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1434
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using LLM to name your experiments from cli args",
+    "fork": false,
+    "full_name": "appl-team/AutoNaming",
+    "html_url": "https://github.com/appl-team/AutoNaming",
+    "language": "Python",
+    "pushed_at": "2025-08-26T01:28:06Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-01-02T01:58:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

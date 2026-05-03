@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "paoloshasta/shasta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "de-novo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "long-read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "pacbio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chanzuckerberg/shasta",
+      "target": "sequencing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:06:47.728816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 798
+    },
+    {
+      "path": ".github/workflows/Build.yml",
+      "size": 2504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[MOVED] Moved to paoloshasta/shasta. De novo assembly from Oxford Nanopore reads",
+    "fork": false,
+    "full_name": "chanzuckerberg/shasta",
+    "html_url": "https://github.com/chanzuckerberg/shasta",
+    "language": "C++",
+    "pushed_at": "2022-10-13T15:46:13Z",
+    "stargazers_count": 273,
+    "topics": [
+      "assembly",
+      "de-novo",
+      "dna",
+      "long-read",
+      "nanopore",
+      "pacbio",
+      "sequencing"
+    ],
+    "updated_at": "2026-03-16T02:48:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paoloshasta/shasta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "de-novo"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-read"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanopore"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    },
+    {
+      "context_snippet": "**The project has moved to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencing"
+    }
+  ]
+}

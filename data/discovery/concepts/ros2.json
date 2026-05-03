@@ -103,6 +103,18 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate-context",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "Open source robotics simulator. The latest version of Gazebo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate-context",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +177,12 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sim",
+      "status": "candidate",
+      "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "MichaelGrupp/evo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

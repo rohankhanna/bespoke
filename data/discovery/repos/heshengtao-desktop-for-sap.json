@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "@electron/remote",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-progress",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-dl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-updater",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "form-data",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "osc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "@electron/remote",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "cli-progress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "electron-dl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "electron-updater",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "form-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "osc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "electron-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/desktop-for-sap",
+      "target": "super-agent-party",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:18:49.101987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 668
+    },
+    {
+      "path": "package.json",
+      "size": 3595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The desktop client component of Super Agent Party can turn your Docker-based Super Agent Party into a desktop version!Super Agent Party\u7684\u684c\u9762\u5ba2\u6237\u7aef\u90e8\u5206\uff0c\u53ef\u4ee5\u5c06\u4f60\u7684docker\u7248\u672c\u7684Super Agent Party\u8f6c\u6362\u6210\u684c\u9762\u7248\u672c\uff01",
+    "fork": false,
+    "full_name": "heshengtao/desktop-for-sap",
+    "html_url": "https://github.com/heshengtao/desktop-for-sap",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-02T10:50:21Z",
+    "stargazers_count": 3,
+    "topics": [
+      "sap",
+      "super-agent-party"
+    ],
+    "updated_at": "2026-03-02T10:34:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![img](https://github.com/heshengtao/super-agent-party/blob/main/static/source/cover.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-agent-party"
+    }
+  ]
+}

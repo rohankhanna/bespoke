@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PhysX-JS-WebIDL - Release Library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "Javascript WASM bindings for Nvidia PhysX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate-context",
+      "text": "PhysX-JS-WebIDL - Release Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabmax/physx-js-webidl",
+      "status": "candidate",
+      "text": "PhysX-JS-WebIDL - Release Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "circulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "discharging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "readership"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PhysX-JS-WebIDL - Release Library",
+  "concept_id": "physx-js-webidl---release-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fabmax/physx-js-webidl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PhysX-JS-WebIDL - Release Library",
+      "sense_id": "physx-js-webidl---release-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

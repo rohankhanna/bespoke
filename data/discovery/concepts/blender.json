@@ -103,6 +103,18 @@
       "source_repo": "allenai/objaverse-rendering",
       "status": "candidate-context",
       "text": "Scripts to perform distributed rendering of Objaverse objects in Blender across many GPUs and processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrfeitoria",
+      "status": "candidate-context",
+      "text": "OpenXRLab Synthetic Data Rendering Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrfeitoria",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "allenai/objaverse-rendering",
       "status": "candidate",
       "text": "Scripts to perform distributed rendering of Objaverse objects in Blender across many GPUs and processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrfeitoria",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [
@@ -318,11 +336,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "openxrlab/xrfeitoria"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

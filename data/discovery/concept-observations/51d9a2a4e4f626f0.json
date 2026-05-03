@@ -84,7 +84,7 @@
   "normalized_form": "build-fonts-and-deploy",
   "observation_id": "51d9a2a4e4f626f0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "Build Fonts and Deploy",
   "source_context_snippet": "Build Fonts and Deploy",
   "source_file": ".github/workflows/deploy-build-fonts.yml",

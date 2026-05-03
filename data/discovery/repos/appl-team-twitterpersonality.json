@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:19:26.465123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementing Wordware's Twitter Personality Analysis (https://twitter.wordware.ai/) using APPL: A Prompt Programming Language (https://appl-team.github.io/appl/)",
+    "fork": false,
+    "full_name": "appl-team/TwitterPersonality",
+    "html_url": "https://github.com/appl-team/TwitterPersonality",
+    "language": "Python",
+    "pushed_at": "2024-08-13T20:18:03Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-01-15T14:42:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

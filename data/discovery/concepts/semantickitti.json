@@ -43,6 +43,42 @@
       "source_repo": "xinge008/Cylinder3D",
       "status": "candidate-context",
       "text": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate-context",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astra-vision/LMSCNet",
+      "status": "candidate-context",
+      "text": "LMSCNet: Lightweight Multiscale 3D Semantic Completion. Rold\u00e3o, L., de Charette, R., & Verroust-Blondet, A. International Conference on 3D Vision (3DV). 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/LMSCNet",
+      "status": "candidate-context",
+      "text": "Official repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of VoxFormer [CVPR 2023 Highlight]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "xinge008/Cylinder3D",
       "status": "candidate",
       "text": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cardwing/Codes-for-PVKD",
+      "status": "candidate",
+      "text": "Point-to-Voxel Knowledge Distillation for LiDAR Semantic Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/LMSCNet",
+      "status": "candidate",
+      "text": "Official repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/VoxFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "xinge008/Cylinder3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "cardwing/Codes-for-PVKD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/VoxFormer"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

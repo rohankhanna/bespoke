@@ -1,0 +1,610 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "jakejarvis/cloudflare-purge-action@eee6dba0236093358f25bb1581bd615dc8b3d8e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "funstory-ai/babeldoc-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "multimeric/asynchronize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "sebastiangrans/rich-multiprocess-logging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "jakejarvis/cloudflare-purge-action@eee6dba0236093358f25bb1581bd615dc8b3d8e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/cache@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "windows exe Release Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "fork-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-test.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "fork-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "huacnlee/autocorrect-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "Lint Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "Lint Code and Review Dog Report",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:28:44.668126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8934
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1458
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3918
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4298
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2349
+    },
+    {
+      "path": ".github/workflows/exe-build.yml",
+      "size": 6418
+    },
+    {
+      "path": ".github/workflows/fork-build.yml",
+      "size": 11294
+    },
+    {
+      "path": ".github/workflows/fork-test.yml",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/pr-lint.yml",
+      "size": 1353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/Docker",
+    "fork": true,
+    "full_name": "PDFMathTranslate-next/PDFMathTranslate-next",
+    "html_url": "https://github.com/PDFMathTranslate-next/PDFMathTranslate-next",
+    "language": "Python",
+    "pushed_at": "2026-04-08T12:00:26Z",
+    "stargazers_count": 2545,
+    "topics": [],
+    "updated_at": "2026-05-02T20:39:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byaidu/pdfmathtranslate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "funstory-ai/babeldoc-assets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multimeric/asynchronize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sebastiangrans/rich-multiprocess-logging",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "windows exe Release Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/exe-build.yml",
+      "term": "windows exe Release Workflow"
+    },
+    {
+      "context_snippet": "fork-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-build.yml",
+      "term": "fork-build"
+    },
+    {
+      "context_snippet": "fork-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-test.yml",
+      "term": "fork-test"
+    },
+    {
+      "context_snippet": "Lint Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Code"
+    },
+    {
+      "context_snippet": "Lint Code and Review Dog Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "term": "Lint Code and Review Dog Report"
+    }
+  ]
+}

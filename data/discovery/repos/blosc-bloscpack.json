@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Blosc/bloscpack",
+      "target": "conda-forge/bloscpack-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Blosc/bloscpack",
+      "target": "continuumio/blaze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Blosc/bloscpack",
+      "target": "continuumio/blz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "Blosc/bloscpack",
+      "target": "esc/euroscipy2013-talk-bloscpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "source_repo": "Blosc/bloscpack",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bloscpack",
+      "target": "blosc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bloscpack",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bloscpack",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/bloscpack",
+      "target": "numpy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:09:57.747578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 58597
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/testbloscpack.yml",
+      "size": 1048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Command line interface to and serialization format for Blosc",
+    "fork": false,
+    "full_name": "Blosc/bloscpack",
+    "html_url": "https://github.com/Blosc/bloscpack",
+    "language": "Python",
+    "pushed_at": "2022-11-03T11:26:29Z",
+    "stargazers_count": 123,
+    "topics": [
+      "blosc",
+      "command-line",
+      "compression",
+      "numpy",
+      "python"
+    ],
+    "updated_at": "2025-03-27T15:39:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/bloscpack-feedstock",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continuumio/blaze",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continuumio/blz",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esc/euroscipy2013-talk-bloscpack",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testbloscpack.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Bloscpack",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blosc"
+    },
+    {
+      "context_snippet": "Bloscpack",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "Bloscpack",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "Bloscpack",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    }
+  ]
+}

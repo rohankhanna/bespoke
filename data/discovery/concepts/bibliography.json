@@ -19,6 +19,18 @@
       "source_repo": "ali-ramadhan/DocumenterCitations.jl",
       "status": "candidate-context",
       "text": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "A simple tool to update bib entries with their official information (e.g., DBLP or the ACL anthology)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ali-ramadhan/DocumenterCitations.jl",
       "status": "candidate",
       "text": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "ali-ramadhan/DocumenterCitations.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

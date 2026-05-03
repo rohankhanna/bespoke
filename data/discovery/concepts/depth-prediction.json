@@ -67,6 +67,18 @@
       "source_repo": "kwea123/MVSNet_pl",
       "status": "candidate-context",
       "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "An unsupervised learning framework for depth and ego-motion estimation from monocular videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "kwea123/MVSNet_pl",
       "status": "candidate",
       "text": "Unofficial implementation of [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "kwea123/MVSNet_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

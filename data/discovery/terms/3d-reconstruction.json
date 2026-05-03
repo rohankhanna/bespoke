@@ -1,26 +1,16 @@
 {
-  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "georgeretsi/smirk"
+      "source_repo": "meidachen/STPLS3D"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "naver/multi-hmr"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nv-tlabs/DIB-R"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "radekd91/emoca"
+      "source_repo": "astra-vision/LMSCNet"
     }
   ],
   "term": "3d-reconstruction"

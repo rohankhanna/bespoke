@@ -514,6 +514,18 @@
       "source_repo": "actions-cool/.github",
       "status": "candidate-context",
       "text": "\ud83e\udd16 GitHub Actions workflow template."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "Accelerating new GitHub Actions workflows "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -768,6 +780,12 @@
       "source_repo": "actions-cool/.github",
       "status": "candidate",
       "text": "\ud83e\udd16 GitHub Actions workflow template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1183,11 +1201,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "actions-cool/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "actions/starter-workflows"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

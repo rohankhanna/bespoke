@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM",
+      "target": "aigc3d/lhm-plusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM",
+      "target": "aigc3d/lhm_track",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM",
+      "target": "3dtopia/openlrm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM",
+      "target": "aigc3d/anigs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/LHM",
+      "target": "aicg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/LHM",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/LHM",
+      "target": "digitalhuman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:19:00.577265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13991
+    },
+    {
+      "path": "requirements.txt",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2025] LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds",
+    "fork": false,
+    "full_name": "aigc3d/LHM",
+    "html_url": "https://github.com/aigc3d/LHM",
+    "language": "Python",
+    "pushed_at": "2026-03-17T05:17:23Z",
+    "stargazers_count": 2597,
+    "topics": [
+      "aicg",
+      "aigc",
+      "digitalhuman"
+    ],
+    "updated_at": "2026-04-30T10:02:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3dtopia/openlrm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/anigs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/lhm-plusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/lhm_track",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aicg"
+    },
+    {
+      "context_snippet": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digitalhuman"
+    }
+  ]
+}

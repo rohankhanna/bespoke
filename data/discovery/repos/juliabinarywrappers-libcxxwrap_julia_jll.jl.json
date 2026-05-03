@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:10:14.071031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-02-07T12:31:46Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-07T12:31:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

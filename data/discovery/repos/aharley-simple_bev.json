@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "aharley/simple_bev",
+      "target": "lyft/nuscenes-devkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:25.852531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5451
+    },
+    {
+      "path": "requirements.txt",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Simple Baseline for BEV Perception",
+    "fork": false,
+    "full_name": "aharley/simple_bev",
+    "html_url": "https://github.com/aharley/simple_bev",
+    "language": "Python",
+    "pushed_at": "2023-08-28T03:07:14Z",
+    "stargazers_count": 632,
+    "topics": [],
+    "updated_at": "2026-04-29T07:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyft/nuscenes-devkit",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

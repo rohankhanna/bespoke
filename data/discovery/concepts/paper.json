@@ -139,6 +139,18 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/large-scale-curiosity",
+      "status": "candidate-context",
+      "text": "Code for the paper \"Large-Scale Study of Curiosity-Driven Learning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/large-scale-curiosity",
+      "status": "candidate-context",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/large-scale-curiosity",
+      "status": "candidate",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "openai/large-scale-curiosity"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

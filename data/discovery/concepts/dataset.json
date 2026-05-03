@@ -903,6 +903,78 @@
       "source_repo": "JuliaML/MLDatasets.jl",
       "status": "candidate-context",
       "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "SemanticKITTI API for visualizing dataset, processing data, and evaluating results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate-context",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate-context",
+      "text": "[IEEE TGRS 2021] Detecting and Tracking Small and Dense Moving Objects in Satellite Videos: A Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate-context",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 Synthetic and real-world 2d/3d dataset for semantic and instance segmentation (BMVC 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate-context",
+      "text": "The ApolloScape Open Dataset for Autonomous Driving and its Application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate-context",
+      "text": "Welcome to Apolloscape's GitHub page!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate-context",
+      "text": "[ECCV 2022 Oral] OpenLane: Large-scale Realistic 3D Lane Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate-context",
+      "text": "Occ4cast: LiDAR-based 4D Occupancy Completion and Forecasting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1355,6 +1427,42 @@
       "source_repo": "JuliaML/MLDatasets.jl",
       "status": "candidate",
       "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/semantic-kitti-api",
+      "status": "candidate",
+      "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/VISO",
+      "status": "candidate",
+      "text": "This is the official website of the **VISO** (VIdeo Satellite Objects) dataset. [[Google Drive](https://drive.google.com/file/d/11G0pqEMletzPtueGbgD-Pq9stQAcvpWw/view?usp=sharing)][[BaiduYun](https://pan.baidu.com/s/1N7PocwTZC9SEA0fEymPOPA)](Sharing code: viso)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meidachen/STPLS3D",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloScapeAuto/dataset-api",
+      "status": "candidate",
+      "text": "Welcome to Apolloscape's GitHub page!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/OpenLane",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/Occ4cast",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1890,11 +1998,53 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/VISO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "meidachen/STPLS3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ApolloScapeAuto/dataset-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/OpenLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/Occ4cast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "beir-cellar/beir"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "clean-source-cache",
   "observation_id": "fad44a56902f97a2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "Clean Source Cache",
   "source_context_snippet": "Clean Source Cache",
   "source_file": ".github/workflows/clean-src-cache.yml",

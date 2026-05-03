@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:33:13.627202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Personal pipeline for batch retargeting kinematic motions (BVH) between different skeletons with the help of Auto-Rig Pro in Blender.",
+    "fork": false,
+    "full_name": "Shimingyi/ARP-Batch-Retargeting",
+    "html_url": "https://github.com/Shimingyi/ARP-Batch-Retargeting",
+    "language": "Python",
+    "pushed_at": "2024-10-10T07:13:58Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-04-28T22:34:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

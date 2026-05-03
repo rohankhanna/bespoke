@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "funstory-ai/babeldoc-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "multimeric/asynchronize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "sebastiangrans/rich-multiprocess-logging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "jakejarvis/cloudflare-purge-action@eee6dba0236093358f25bb1581bd615dc8b3d8e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/cache@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "windows exe Release Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/setup-uv@ed21f2f24f8dd64503750218de024bcf64c7250a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "fork-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-test.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "fork-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "huacnlee/autocorrect-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "Lint Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next",
+      "target": "Lint Code and Review Dog Report",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "PDFMathTranslate-next/PDFMathTranslate-next"
+}

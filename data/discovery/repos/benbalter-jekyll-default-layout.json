@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benbalter/jekyll-default-layout",
+      "target": "jekyll-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:38:08.011627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/ci.rubocop.yml",
+      "size": 178
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 559
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Silently sets default layouts for Jekyll pages and posts",
+    "fork": false,
+    "full_name": "benbalter/jekyll-default-layout",
+    "html_url": "https://github.com/benbalter/jekyll-default-layout",
+    "language": "Ruby",
+    "pushed_at": "2025-05-23T14:50:59Z",
+    "stargazers_count": 63,
+    "topics": [
+      "github-pages",
+      "jekyll",
+      "jekyll-plugin"
+    ],
+    "updated_at": "2026-04-22T04:51:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "*Silently sets default layouts for Jekyll pages and posts*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "*Silently sets default layouts for Jekyll pages and posts*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "*Silently sets default layouts for Jekyll pages and posts*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll-plugin"
+    }
+  ]
+}

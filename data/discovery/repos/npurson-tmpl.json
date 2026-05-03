@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npurson/tmpl",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npurson/tmpl",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npurson/tmpl",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npurson/tmpl",
+      "target": "pytorch-lightning-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:20:33.397327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1989
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1 A template for rapid & flexible DL experimentation development, powered by Lightning & Hydra following best practice.",
+    "fork": false,
+    "full_name": "npurson/tmpl",
+    "html_url": "https://github.com/npurson/tmpl",
+    "language": "Python",
+    "pushed_at": "2025-07-25T13:01:47Z",
+    "stargazers_count": 23,
+    "topics": [
+      "hydra",
+      "pytorch",
+      "pytorch-lightning",
+      "pytorch-lightning-template"
+    ],
+    "updated_at": "2026-03-02T02:51:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/badge/Python-3.9%2B-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hydra"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/Python-3.9%2B-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/Python-3.9%2B-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/Python-3.9%2B-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning-template"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "mit-han-lab/pvcnn",
       "status": "candidate-context",
       "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate-context",
+      "text": "PointCNN: Convolution On X-Transformed Points (NeurIPS 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate-context",
+      "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mit-han-lab/pvcnn",
       "status": "candidate",
       "text": "[NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangyanli/PointCNN",
+      "status": "candidate",
+      "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "mit-han-lab/pvcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "yangyanli/PointCNN"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

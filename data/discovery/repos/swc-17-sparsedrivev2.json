@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDriveV2",
+      "target": "autonomousvision/navsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDriveV2",
+      "target": "hustvl/diffusiondrivev2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDriveV2",
+      "target": "nvlabs/gtrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "swc-17/SparseDriveV2",
+      "target": "motional/nuplan-devkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:13:39.447062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5037
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "swc-17/SparseDriveV2",
+    "html_url": "https://github.com/swc-17/SparseDriveV2",
+    "language": "Python",
+    "pushed_at": "2026-04-07T04:25:17Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-05-02T10:22:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/navsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/diffusiondrivev2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/gtrs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "motional/nuplan-devkit",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

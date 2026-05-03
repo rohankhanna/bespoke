@@ -241,6 +241,30 @@
       "source_repo": "Kolaru/MathTeXEngine.jl",
       "status": "candidate-context",
       "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "A simple tool to update bib entries with their official information (e.g., DBLP or the ACL anthology)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derric/cleanthesis",
+      "status": "candidate-context",
+      "text": "Clean Thesis is a clean, simple, and elegant LaTeX style (or template) for thesis documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derric/cleanthesis",
+      "status": "candidate-context",
+      "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
     }
   ],
   "candidate_glosses": [
@@ -363,6 +387,18 @@
       "source_repo": "Kolaru/MathTeXEngine.jl",
       "status": "candidate",
       "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuchenlin/rebiber",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derric/cleanthesis",
+      "status": "candidate",
+      "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +589,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "yuchenlin/rebiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "derric/cleanthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gbionics/idyntree",
-      "target": "gazebosim/gz-physics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gbionics/idyntree",
-      "target": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/idyntree",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "gbionics/idyntree",
       "target": "ami-iit/adam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gbionics/idyntree",
+      "target": "robotology/qa",
       "target_type": "repository"
     },
     {
@@ -267,6 +267,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
   "source_repo": "gbionics/idyntree"
 }

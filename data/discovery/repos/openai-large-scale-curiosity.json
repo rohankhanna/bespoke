@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/large-scale-curiosity",
+      "target": "paper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:08:09.594454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for the paper \"Large-Scale Study of Curiosity-Driven Learning\"",
+    "fork": false,
+    "full_name": "openai/large-scale-curiosity",
+    "html_url": "https://github.com/openai/large-scale-curiosity",
+    "language": "Python",
+    "pushed_at": "2021-08-12T16:38:18Z",
+    "stargazers_count": 830,
+    "topics": [
+      "paper"
+    ],
+    "updated_at": "2026-04-08T00:56:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    }
+  ]
+}

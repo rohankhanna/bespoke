@@ -43,6 +43,18 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/cppzmq",
+      "status": "candidate-context",
+      "text": "Header-only C++ binding for libzmq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/cppzmq",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "zeromq/libzmq",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/cppzmq",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "zeromq/libzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/cppzmq"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

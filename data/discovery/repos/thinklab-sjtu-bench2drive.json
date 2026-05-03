@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Thinklab-SJTU/Bench2Drive",
+      "target": "thinklab-sjtu/bench2drivezoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Thinklab-SJTU/Bench2Drive",
+      "target": "thinklab-sjtu/bench2drive-speed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Thinklab-SJTU/Bench2Drive",
+      "target": "thinklab-sjtu/bench2drive-vl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Thinklab-SJTU/Bench2Drive",
+      "target": "qjfoidnh/baidupcs-go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:48.666516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024 Datasets and Benchmarks Track] Closed-Loop E2E-AD Benchmark Enhanced by World Model RL Expert",
+    "fork": false,
+    "full_name": "Thinklab-SJTU/Bench2Drive",
+    "html_url": "https://github.com/Thinklab-SJTU/Bench2Drive",
+    "language": "Python",
+    "pushed_at": "2026-03-26T18:29:47Z",
+    "stargazers_count": 1855,
+    "topics": [],
+    "updated_at": "2026-04-29T09:09:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qjfoidnh/baidupcs-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinklab-sjtu/bench2drive-speed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinklab-sjtu/bench2drive-vl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinklab-sjtu/bench2drivezoo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator",
+      "target": "internationalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator",
+      "target": "localization-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/utranslator",
+      "target": "localization-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:15:45.589733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Translation tool for Unicodia. Someday it will be more universal.",
+    "fork": false,
+    "full_name": "Mercury13/utranslator",
+    "html_url": "https://github.com/Mercury13/utranslator",
+    "language": "C++",
+    "pushed_at": "2025-12-20T18:21:29Z",
+    "stargazers_count": 7,
+    "topics": [
+      "i18n",
+      "internationalization",
+      "localization",
+      "localization-editor",
+      "localization-tool"
+    ],
+    "updated_at": "2026-04-08T15:57:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A simple offline tool for: a) making original text; b) translating it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "A simple offline tool for: a) making original text; b) translating it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internationalization"
+    },
+    {
+      "context_snippet": "A simple offline tool for: a) making original text; b) translating it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "A simple offline tool for: a) making original text; b) translating it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization-editor"
+    },
+    {
+      "context_snippet": "A simple offline tool for: a) making original text; b) translating it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization-tool"
+    }
+  ]
+}

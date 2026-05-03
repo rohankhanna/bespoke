@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "hfhchan/hkcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "ichitenfont/inheritedglyphs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "redchenjs/source-han-sans-classic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "monemizuno/genne-gothic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChiuMing-Neko/ChiuKongGothic",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "source_repo": "ChiuMing-Neko/ChiuKongGothic"
+}

@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_on_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squash_for_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/navsim",
+      "target": "autonomousvision/sledge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/navsim",
+      "target": "autonomousvision/tuplan_garage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/navsim",
+      "target": "opendrivelab/end-to-end-autonomous-driving",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/navsim",
+      "target": "autonomousvision/transfuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_on_merge.yml",
+      "source_repo": "autonomousvision/navsim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squash_for_release.yml",
+      "source_repo": "autonomousvision/navsim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/navsim",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/navsim",
+      "target": "planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/navsim",
+      "target": "self-driving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:44.384567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12569
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/release_on_merge.yml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/squash_for_release.yml",
+      "size": 2421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL '25] Pseudo-Simulation for Autonomous Driving; [NeurIPS '24] NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking",
+    "fork": false,
+    "full_name": "autonomousvision/navsim",
+    "html_url": "https://github.com/autonomousvision/navsim",
+    "language": "Python",
+    "pushed_at": "2025-10-27T21:19:43Z",
+    "stargazers_count": 966,
+    "topics": [
+      "autonomous-driving",
+      "planning",
+      "self-driving"
+    ],
+    "updated_at": "2026-05-01T23:11:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/sledge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/transfuser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/tuplan_garage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/end-to-end-autonomous-driving",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving"
+    }
+  ]
+}

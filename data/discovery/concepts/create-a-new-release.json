@@ -31,6 +31,18 @@
       "source_repo": "aaubry/YamlDotNet",
       "status": "candidate-context",
       "text": "Create a new release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate-context",
+      "text": "CMake/YCM-based superbuild to simplify the build process of robotology projects. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate-context",
+      "text": "Create a new release"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate",
+      "text": "Create a new release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/robotology-superbuild",
       "status": "candidate",
       "text": "Create a new release"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "aaubry/YamlDotNet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "robotology/robotology-superbuild"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

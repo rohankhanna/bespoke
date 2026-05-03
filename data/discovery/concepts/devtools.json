@@ -383,6 +383,18 @@
       "source_repo": "zalmoxisus/remote-redux-devtools",
       "status": "candidate-context",
       "text": "Remote Redux DevTools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "The Nu Html Checker (vnu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate-context",
+      "text": "With the Nu Html Checker (vnu), you can:"
     }
   ],
   "candidate_glosses": [
@@ -559,6 +571,12 @@
       "source_repo": "zalmoxisus/remote-redux-devtools",
       "status": "candidate",
       "text": "Remote Redux DevTools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/validator",
+      "status": "candidate",
+      "text": "With the Nu Html Checker (vnu), you can:"
     }
   ],
   "candidate_related_terms": [],
@@ -848,11 +866,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/devtools.yml",
       "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "validator/validator"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

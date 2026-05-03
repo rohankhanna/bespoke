@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofeixu/aanet",
+      "target": "xy-guo/gwcnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofeixu/aanet",
+      "target": "feihuzhang/ganet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofeixu/aanet",
+      "target": "lyken17/pytorch-opcounter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofeixu/aanet",
+      "target": "haofeixu/rdn4depth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "cost-aggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "cost-volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "deformable-convolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "edge-preserving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "stereo-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/aanet",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:16:46.181620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR'20] AANet: Adaptive Aggregation Network for Efficient Stereo Matching",
+    "fork": false,
+    "full_name": "haofeixu/aanet",
+    "html_url": "https://github.com/haofeixu/aanet",
+    "language": "Python",
+    "pushed_at": "2022-11-15T01:45:00Z",
+    "stargazers_count": 555,
+    "topics": [
+      "cost-aggregation",
+      "cost-volume",
+      "cvpr2020",
+      "deformable-convolution",
+      "edge-preserving",
+      "stereo-matching",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-04-17T03:41:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feihuzhang/ganet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofeixu/rdn4depth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyken17/pytorch-opcounter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xy-guo/gwcnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-aggregation"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-volume"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deformable-convolution"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-preserving"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-matching"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

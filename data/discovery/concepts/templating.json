@@ -79,6 +79,18 @@
       "source_repo": "hadolint/language-docker",
       "status": "candidate-context",
       "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate-context",
+      "text": "Java 8 optimized, memory efficient, speedy template engine producing statically typed, plain java objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "hadolint/language-docker",
       "status": "candidate",
       "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/rocker",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "askama-rs/askama-old"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "fizzed/rocker"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

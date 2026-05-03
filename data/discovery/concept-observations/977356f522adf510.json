@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Official implementation of GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gui-agent",
+      "sense_id": "gui-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gui-agent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gui-agent",
+  "observation_id": "977356f522adf510",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "gui-agent",
+  "source_context_snippet": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\".",
+  "source_file": null,
+  "source_repo": "ritzz-ai/GUI-R1",
+  "source_repo_description": " Official implementation of GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents"
+}

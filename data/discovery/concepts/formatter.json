@@ -718,6 +718,18 @@
       "source_repo": "eslint-stylistic/eslint-stylistic",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate-context",
+      "text": "Pointcept: Perceive the world with sparse points, a codebase for point cloud perception research. Latest works: Utonia, Concerto (NeurIPS'25), Sonata (CVPR'25 Highlight), PTv3 (CVPR'24 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate-context",
+      "text": "Formatter"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1086,12 @@
       "source_repo": "eslint-stylistic/eslint-stylistic",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pointcept/Pointcept",
+      "status": "candidate",
+      "text": "Formatter"
     }
   ],
   "candidate_related_terms": [
@@ -1729,11 +1747,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/formatter.yml",
+      "source_repo": "Pointcept/Pointcept"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

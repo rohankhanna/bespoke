@@ -19,12 +19,30 @@
       "source_repo": "Blosc/c-blosc",
       "status": "candidate-context",
       "text": "CI Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/c-blosc2",
+      "status": "candidate-context",
+      "text": "A fast, compressed, persistent binary data store library for C."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc2",
+      "status": "candidate-context",
+      "text": "CI Fuzz"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Blosc/c-blosc",
+      "status": "candidate",
+      "text": "CI Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc2",
       "status": "candidate",
       "text": "CI Fuzz"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "Blosc/c-blosc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Blosc/c-blosc2"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

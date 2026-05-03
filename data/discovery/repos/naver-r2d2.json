@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/r2d2",
+      "target": "tsattler/visuallocalizationbenchmark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:12:34.939003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "naver/r2d2",
+    "html_url": "https://github.com/naver/r2d2",
+    "language": "Python",
+    "pushed_at": "2023-12-17T18:50:23Z",
+    "stargazers_count": 519,
+    "topics": [],
+    "updated_at": "2026-04-29T12:59:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsattler/visuallocalizationbenchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

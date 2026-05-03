@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
-      "target": "guaguastandup/zotero-pdf2zh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "funstory-ai/BabelDOC",
       "target": "funstory-ai/yadt",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
       "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "multimeric/asynchronize",
       "target_type": "repository"
     },
     {
@@ -253,6 +253,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T06:58:35.245846+00:00",
   "source_repo": "funstory-ai/BabelDOC"
 }

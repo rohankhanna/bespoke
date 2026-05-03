@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blosc/hdf5-blosc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blosc/hdf5-blosc",
+      "target": "prefix-dev/setup-pixi@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blosc/hdf5-blosc",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:10:04.290723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4771
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Filter for HDF5 that uses Blosc",
+    "fork": false,
+    "full_name": "Blosc/hdf5-blosc",
+    "html_url": "https://github.com/Blosc/hdf5-blosc",
+    "language": "C",
+    "pushed_at": "2025-11-19T12:27:33Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-02-24T16:12:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

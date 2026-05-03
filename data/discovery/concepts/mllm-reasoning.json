@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mllm-reasoning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate-context",
+      "text": " Official implementation of GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate-context",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritzz-ai/GUI-R1",
+      "status": "candidate",
+      "text": "The official repo for \"GUI-R1: A Generalist R1-style Vision-Language Action Model For GUI Agents\"."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mllm-reasoning",
+  "concept_id": "mllm-reasoning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "ritzz-ai/GUI-R1"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mllm-reasoning",
+      "sense_id": "mllm-reasoning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

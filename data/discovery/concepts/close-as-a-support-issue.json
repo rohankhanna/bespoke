@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close as a support issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "Accelerating new GitHub Actions workflows "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate-context",
+      "text": "Close as a support issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/starter-workflows",
+      "status": "candidate",
+      "text": "Close as a support issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33373,
+      "status": "candidate",
+      "text": "tactical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33152,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31985,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31512,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26415,
+      "status": "candidate",
+      "text": "corset"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close as a support issue",
+  "concept_id": "close-as-a-support-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/label-support.yml",
+      "source_repo": "actions/starter-workflows"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close as a support issue",
+      "sense_id": "close-as-a-support-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "moojink/openvla-oft",
+      "target": "moojink/transformers-openvla-oft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "moojink/openvla-oft",
+      "target": "moojink/dlimp_openvla",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:26:19.173836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3491
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "fork": true,
+    "full_name": "moojink/openvla-oft",
+    "html_url": "https://github.com/moojink/openvla-oft",
+    "language": "Python",
+    "pushed_at": "2025-09-09T06:25:07Z",
+    "stargazers_count": 1172,
+    "topics": [],
+    "updated_at": "2026-05-02T18:13:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moojink/dlimp_openvla",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moojink/transformers-openvla-oft",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

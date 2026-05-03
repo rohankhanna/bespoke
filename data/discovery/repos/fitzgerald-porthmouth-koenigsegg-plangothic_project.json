@@ -46,28 +46,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "chiron-fonts/chiron-hei-hk",
+      "target": "tkykmori/gothic-nguyen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "mercury13/unicodia",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "guiwonder/shanggu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
-      "target": "fitzgerald-porthmouth-koenigsegg/planschrift_project",
+      "target": "warren2060/chillduansans",
       "target_type": "repository"
     },
     {
@@ -183,7 +169,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:48:17.031850+00:00",
+  "fetched_at": "2026-05-03T07:15:21.441306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,22 +214,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chiron-fonts/chiron-hei-hk",
+      "full_name": "tkykmori/gothic-nguyen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fitzgerald-porthmouth-koenigsegg/planschrift_project",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "guiwonder/shanggu",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mercury13/unicodia",
+      "full_name": "warren2060/chillduansans",
       "source_file": "README.md"
     }
   ],

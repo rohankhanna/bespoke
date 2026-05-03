@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "lifelong-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "multitask-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lifelong-Robot-Learning/LIBERO",
+      "target": "robot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:26:02.391758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8128
+    },
+    {
+      "path": "requirements.txt",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarking Knowledge Transfer in Lifelong Robot Learning",
+    "fork": false,
+    "full_name": "Lifelong-Robot-Learning/LIBERO",
+    "html_url": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-03-15T12:14:04Z",
+    "stargazers_count": 1797,
+    "topics": [
+      "benchmark",
+      "imitation-learning",
+      "lifelong-learning",
+      "manipulation",
+      "multitask-learning",
+      "robot-learning"
+    ],
+    "updated_at": "2026-05-03T04:21:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lifelong-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manipulation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multitask-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    }
+  ]
+}

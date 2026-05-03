@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close support issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": " C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate-context",
+      "text": "\"Close support issues\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vcflib/vcflib",
+      "status": "candidate",
+      "text": "\"Close support issues\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34604,
+      "status": "candidate",
+      "text": "tactical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34176,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26389,
+      "status": "candidate",
+      "text": "corset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19448,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19368,
+      "status": "candidate",
+      "text": "spring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close support issues",
+  "concept_id": "close-support-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close support issues",
+      "sense_id": "close-support-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Simple-Efficient/RL-Factory",
+      "target": "osu-nlp-group/travelplanner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Simple-Efficient/RL-Factory",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:26:28.232525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11182
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2659
+    },
+    {
+      "path": "requirements.txt",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Train your Agent model via our easy and efficient framework",
+    "fork": false,
+    "full_name": "Simple-Efficient/RL-Factory",
+    "html_url": "https://github.com/Simple-Efficient/RL-Factory",
+    "language": "Python",
+    "pushed_at": "2025-12-05T03:25:56Z",
+    "stargazers_count": 1745,
+    "topics": [],
+    "updated_at": "2026-05-02T19:44:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osu-nlp-group/travelplanner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

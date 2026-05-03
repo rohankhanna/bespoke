@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy Docker"
+    "Deploy Docker",
+    "deploy docker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "schollz/croc",
       "status": "candidate-context",
       "text": "Deploy Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "Scalabel: A versatile web-based visual data annotation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "deploy docker"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "schollz/croc",
       "status": "candidate",
       "text": "Deploy Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate",
+      "text": "deploy docker"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "schollz/croc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "scalabel/scalabel"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "implicit-representations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate-context",
+      "text": "[ICCV'21] NEAT: Neural Attention Fields for End-to-End Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate-context",
+      "text": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/neat",
+      "status": "candidate",
+      "text": "<img src=\"neat/assets/neat_clip.GIF\" height=\"270\" hspace=30>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "implicit-representations",
+  "concept_id": "implicit-representations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/neat"
+    }
+  ],
+  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "implicit-representations",
+      "sense_id": "implicit-representations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lbcb-sci/herro",
+      "target": "dominikstanojevic/herro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lbcb-sci/herro",
+      "target": "dominikstanojevic/herro",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:51.852869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6275
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1048
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HERRO is a highly-accurate, haplotype-aware, deep-learning tool for error correction of Nanopore R10.4.1 or R9.4.1 reads (read length of >= 10 kbps is recommended).",
+    "fork": false,
+    "full_name": "lbcb-sci/herro",
+    "html_url": "https://github.com/lbcb-sci/herro",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T03:19:18Z",
+    "stargazers_count": 251,
+    "topics": [],
+    "updated_at": "2026-05-02T06:28:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominikstanojevic/herro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominikstanojevic/herro",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -268,14 +268,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "project-numina/kimina-prover-rl",
+      "target": "ritzz-ai/gui-r1",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "prime-rl/simplevla-rl",
+      "target": "ragen-ai/vagen",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-03T03:00:13.518583+00:00",
+  "fetched_at": "2026-05-03T07:25:58.214690+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,9 +584,9 @@
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
     "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21050,
+    "stargazers_count": 21051,
     "topics": [],
-    "updated_at": "2026-05-03T02:42:09Z"
+    "updated_at": "2026-05-03T03:58:20Z"
   },
   "repo_links": [
     {
@@ -601,12 +601,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "prime-rl/simplevla-rl",
+      "full_name": "ragen-ai/vagen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "project-numina/kimina-prover-rl",
+      "full_name": "ritzz-ai/gui-r1",
       "source_file": "README.md"
     }
   ],

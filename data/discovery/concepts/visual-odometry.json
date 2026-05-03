@@ -19,6 +19,18 @@
       "source_repo": "Huangying-Zhan/DF-VO",
       "status": "candidate-context",
       "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "An unsupervised learning framework for depth and ego-motion estimation from monocular videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Huangying-Zhan/DF-VO",
       "status": "candidate",
       "text": "This repo implements the system described in the ICRA-2020 paper and the extended report:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinghuiz/SfMLearner",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "Huangying-Zhan/DF-VO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "tinghuiz/SfMLearner"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

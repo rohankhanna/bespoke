@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "willisma/SiT",
+      "target": "rtqichen/torchdiffeq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "willisma/SiT",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:14:58.104331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch Implementation of \"SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers\"",
+    "fork": false,
+    "full_name": "willisma/SiT",
+    "html_url": "https://github.com/willisma/SiT",
+    "language": "Python",
+    "pushed_at": "2025-12-22T02:48:45Z",
+    "stargazers_count": 1159,
+    "topics": [],
+    "updated_at": "2026-04-27T04:47:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtqichen/torchdiffeq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

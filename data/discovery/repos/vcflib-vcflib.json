@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/support-tracker-bot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/vcflib",
+      "target": "brewsci/homebrew-bio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/vcflib",
+      "target": "smarco/wfa2-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/vcflib",
+      "target": "vcflib/bio-vcf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/vcflib",
+      "target": "freebayes/freebayes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "vcflib/vcflib",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "vcflib/vcflib",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "vcflib/vcflib",
+      "target": "Vcflib CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "vcflib/vcflib",
+      "target": "Close support issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib",
+      "target": "genotyping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib",
+      "target": "haplotypecaller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib",
+      "target": "variant-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vcflib/vcflib",
+      "target": "vcf-manipulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:06.885235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33012
+    },
+    {
+      "path": ".github/workflows/ci_test.yml",
+      "size": 2009
+    },
+    {
+      "path": ".github/workflows/issue-tracker-bot.yaml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/support-tracker-bot.yaml",
+      "size": 803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings",
+    "fork": false,
+    "full_name": "vcflib/vcflib",
+    "html_url": "https://github.com/vcflib/vcflib",
+    "language": "C++",
+    "pushed_at": "2026-03-20T10:33:33Z",
+    "stargazers_count": 676,
+    "topics": [
+      "genomics",
+      "genotyping",
+      "haplotypecaller",
+      "variant-calling",
+      "vcf-manipulation"
+    ],
+    "updated_at": "2026-05-02T13:20:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brewsci/homebrew-bio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freebayes/freebayes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smarco/wfa2-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vcflib/bio-vcf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Vcflib CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_test.yml",
+      "term": "Vcflib CI"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "\"Close support issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "term": "Close support issues"
+    },
+    {
+      "context_snippet": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genotyping"
+    },
+    {
+      "context_snippet": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haplotypecaller"
+    },
+    {
+      "context_snippet": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    },
+    {
+      "context_snippet": "[![Github-CI](https://github.com/vcflib/vcflib/actions/workflows/ci_test.yml/badge.svg?branch=master)](https://github.com/vcflib/vcflib/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vcf-manipulation"
+    }
+  ]
+}

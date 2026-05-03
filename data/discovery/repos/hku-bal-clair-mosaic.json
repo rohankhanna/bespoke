@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-Mosaic",
+      "target": "hku-bal/clairs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-Mosaic",
+      "target": "hku-bal/clairs-to",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T07:07:13.470592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12632
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clair-Mosaic - a deep-learning method for long-read mosaic small variant calling",
+    "fork": false,
+    "full_name": "HKU-BAL/Clair-Mosaic",
+    "html_url": "https://github.com/HKU-BAL/Clair-Mosaic",
+    "language": "Python",
+    "pushed_at": "2025-11-13T09:29:03Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-16T13:29:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clairs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clairs-to",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

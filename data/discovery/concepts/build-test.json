@@ -633,6 +633,30 @@
       "source_repo": "zonyitoo/rust-ini",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate-context",
+      "text": "A Vale-compatible implementation of the Google Developer Documentation Style Guide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate-context",
+      "text": "Build + Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "Scalabel: A versatile web-based visual data annotation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -951,6 +975,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zonyitoo/rust-ini",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/Google",
+      "status": "candidate",
+      "text": "Build + Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalabel/scalabel",
       "status": "candidate",
       "text": "Build & Test"
     }
@@ -1752,11 +1788,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "scalabel/scalabel"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

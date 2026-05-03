@@ -2506,6 +2506,18 @@
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "status": "candidate-context",
       "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate-context",
+      "text": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate-context",
+      "text": "Emissary-ingress"
     }
   ],
   "candidate_glosses": [
@@ -3756,6 +3768,12 @@
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "status": "candidate",
       "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emissary-ingress/emissary",
+      "status": "candidate",
+      "text": "Emissary-ingress"
     }
   ],
   "candidate_related_terms": [
@@ -5671,11 +5689,47 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "emissary-ingress/emissary"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

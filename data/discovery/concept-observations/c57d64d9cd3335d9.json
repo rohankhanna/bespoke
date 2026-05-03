@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840312,
+      "status": "candidate",
+      "text": "chinese character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840311,
+      "status": "candidate",
+      "text": "east asian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840310,
+      "status": "candidate",
+      "text": "far east"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840309,
+      "status": "candidate",
+      "text": "chinese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840308,
+      "status": "candidate",
+      "text": "east asia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cjkv",
+      "sense_id": "cjkv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cjkv",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cjkv",
+  "observation_id": "c57d64d9cd3335d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_text": "cjkv",
+  "source_context_snippet": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6",
+  "source_file": null,
+  "source_repo": "ichitenfont/inheritedglyphs",
+  "source_repo_description": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+}

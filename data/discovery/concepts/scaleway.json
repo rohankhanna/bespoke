@@ -79,6 +79,54 @@
       "source_repo": "scaleway/scaleway-sdk-go",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/static_files/sdk-artwork.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Scaleway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/static_files/cli-artwork.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate-context",
+      "text": "Framework for writing serverless APIs in Python, using Scaleway functions and containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-gateway",
+      "status": "candidate-context",
+      "text": "Serverless API Gateway running on Scaleway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-gateway",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate-context",
+      "text": "Utilities for testing your Python functions for Scaleway Serverless Functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "scaleway/scaleway-sdk-go",
       "status": "candidate",
       "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/static_files/sdk-artwork.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-cli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/static_files/cli-artwork.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-api-framework-python",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/scw-serverless.svg)](https://badge.fury.io/py/scw-serverless)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-gateway",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-python",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +268,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "scaleway/scaleway-sdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/scaleway-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-api-framework-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T06:58:35.245846+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-python"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "lexical_providers": [
     "datamuse"
   ],

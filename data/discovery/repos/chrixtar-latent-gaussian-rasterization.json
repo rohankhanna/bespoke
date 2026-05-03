@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T07:17:05.428880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modified 3D Gaussian rasterizer for latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction",
+    "fork": false,
+    "full_name": "Chrixtar/latent-gaussian-rasterization",
+    "html_url": "https://github.com/Chrixtar/latent-gaussian-rasterization",
+    "language": "Cuda",
+    "pushed_at": "2024-04-10T12:04:03Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-19T10:56:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

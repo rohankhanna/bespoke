@@ -84,7 +84,7 @@
   "normalized_form": "cla-assistant",
   "observation_id": "992d5a0995d06f32",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T06:58:35.245846+00:00",
   "observed_text": "CLA Assistant",
   "source_context_snippet": "\"CLA Assistant\"",
   "source_file": ".github/workflows/cla.yml",
