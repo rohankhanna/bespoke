@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 68,
-    "terms": 223
+    "components": 322,
+    "concepts": 250,
+    "observations": 250,
+    "repos": 77,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
     "0x2a-42/nvim-lelwel",
     "0xPolygonHermez/pil2-compiler",
@@ -41,8 +40,13 @@
     "baskeboler/clj-karaoke-lyrics",
     "birdofpreyru/js-utils",
     "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+    "chaoss/grimoirelab-perceval-mozilla",
+    "chaoss/grimoirelab-perceval-opnfv",
+    "chaoss/grimoirelab-perceval-puppet",
+    "chaoss/grimoirelab-perceval-weblate",
     "coderaiser/escover",
     "Coral-Protocol/coral-rs",
+    "countries/countries-data-yaml",
     "cpojer/js-codemod",
     "dart4e/dart4e-studio",
     "DavidKinder/Libraries",
@@ -55,12 +59,17 @@
     "genius-harry/neural-chat",
     "gost-dom/webref",
     "haya14busa/github-used-by",
+    "hchiam/chat-app-fcc-react-redux",
     "hchiam/learning-https-server",
+    "hchiam/learning-ngrok",
+    "hchiam/learning-redux",
+    "hchiam/react-jexcel-redux",
     "hermit-os/hermit-gcc",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jsdom/.github",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "kornia/data",
+    "Layr-Labs/incredible-squaring-avs-rs",
     "leaktk/gitleaks",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "mlfoundations/SkyRL",
@@ -70,7 +79,6 @@
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
     "RobertBeckebans/DOOM-3",
-    "shesek/electrumd",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",
@@ -79,6 +87,7 @@
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+    "yamachu/VoicevoxCoreSwift",
     "yoshoku/numo-libsvm",
     "zen-eth/multiformats-zig"
   ]

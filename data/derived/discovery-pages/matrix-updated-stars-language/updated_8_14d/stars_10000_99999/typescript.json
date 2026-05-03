@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5966,
-    "concepts": 595,
-    "observations": 602,
-    "repos": 63,
-    "terms": 611
+    "components": 5918,
+    "concepts": 594,
+    "observations": 601,
+    "repos": 62,
+    "terms": 603
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "apache/superset",
@@ -27,7 +27,6 @@
     "cline/cline",
     "conventional-changelog/commitlint",
     "DefinitelyTyped/DefinitelyTyped",
-    "diegomura/react-pdf",
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "elastic/kibana",
@@ -54,12 +53,14 @@
     "nvidia/nemoclaw",
     "openai/openai-node",
     "pnpm/pnpm",
+    "privatenumber/tsx",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "react-navigation/react-navigation",
     "recharts/recharts",
     "redis/node-redis",
     "reduxjs/redux",
+    "reduxjs/redux-toolkit",
     "renovatebot/renovate",
     "ryoppippi/ccusage",
     "sass/sass",
@@ -69,11 +70,9 @@
     "sindresorhus/type-fest",
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
-    "upstash/context7",
     "vitejs/vite",
     "VSCodeVim/Vim",
     "vuejs/core",
-    "withastro/astro",
     "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

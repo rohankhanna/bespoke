@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 10,
-    "terms": 58
+    "components": 77,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 13,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "avast/retry-go",
     "dagger/container-use",
@@ -21,8 +21,11 @@
     "gobwas/ws",
     "isaacphi/mcp-language-server",
     "jtblin/kube2iam",
+    "liquidmetal-dev/flintlock",
     "markbates/goth",
     "nutsdb/nutsdb",
-    "opencontainers/image-spec"
+    "OffchainLabs/arbitrum-classic",
+    "opencontainers/image-spec",
+    "tidwall/btree"
   ]
 }

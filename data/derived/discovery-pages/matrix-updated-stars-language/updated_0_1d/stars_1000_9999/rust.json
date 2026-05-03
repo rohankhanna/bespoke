@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 75,
-    "observations": 76,
-    "repos": 7,
-    "terms": 74
+    "components": 109,
+    "concepts": 97,
+    "observations": 98,
+    "repos": 9,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "boxlite-ai/boxlite",
-    "crate-ci/cargo-release",
+    "databendlabs/databend",
+    "databendlabs/openraft",
     "dmtrKovalenko/fff",
-    "facebook/sapling",
-    "prefix-dev/pixi",
-    "unicode-org/icu4x"
+    "godot-rust/gdext",
+    "MaterializeInc/materialize",
+    "nats-io/nats.rs",
+    "ron-rs/ron",
+    "rust-lang/rustup"
   ]
 }

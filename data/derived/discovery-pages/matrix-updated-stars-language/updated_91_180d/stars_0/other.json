@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 5,
-    "terms": 0
+    "concepts": 1,
+    "observations": 1,
+    "repos": 8,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "babashka/homebrew-brew",
+    "danielrosehill/Failover-Internet-Israel-Notes",
+    "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+    "Hitesh-Aggarwal/dotfiles",
     "KSXGitHub/aur-packages-builder-1",
     "KSXGitHub/aur-packages-builder-2",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking"

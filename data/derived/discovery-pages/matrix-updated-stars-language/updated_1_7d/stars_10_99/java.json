@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 11,
-    "terms": 36
+    "components": 66,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 15,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "BerkleyTechnologyServices/restdocs-spec",
+    "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
     "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
+    "heroku/heroku-jvm-application-deployer",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "opensim-org/opensim-gui",
+    "qdrant/java-client",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe"
   ]

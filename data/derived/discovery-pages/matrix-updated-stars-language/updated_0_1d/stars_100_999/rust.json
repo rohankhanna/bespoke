@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 4,
-    "terms": 31
+    "components": 34,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 3,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "conda/rattler",
-    "Dicklesworthstone/asupersync",
-    "huggingface/xet-core",
-    "servo/stylo"
+    "alloy-rs/svm-rs",
+    "servo/stylo",
+    "z-galaxy/zbus"
   ]
 }

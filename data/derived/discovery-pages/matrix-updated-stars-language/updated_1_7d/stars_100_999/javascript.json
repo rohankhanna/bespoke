@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 34,
-    "terms": 175
+    "components": 853,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 38,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "all-contributors/app",
     "auth0/node-jwks-rsa",
@@ -25,21 +25,24 @@
     "csstools/cssdb",
     "digitalocean/openapi",
     "electerm/electerm-web",
-    "GordonChen19/Prompt-Relay",
+    "ember-cli/ember-cli-update",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
+    "lo-th/phy",
+    "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
+    "mdn/fred",
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "octokit/graphql-schema",
     "postcss/postcss-cli",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
-    "rooklift/ogatak",
+    "ruby/setup-ruby",
     "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
@@ -47,6 +50,7 @@
     "vllm-project/recipes",
     "w3c/webref",
     "webtorrent/bittorrent-protocol",
-    "webtorrent/ut_metadata"
+    "webtorrent/ut_metadata",
+    "ztoben/assets-webpack-plugin"
   ]
 }

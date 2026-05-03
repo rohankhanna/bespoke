@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1058,
-    "concepts": 617,
-    "observations": 620,
+    "components": 1051,
+    "concepts": 630,
+    "observations": 633,
     "repos": 63,
-    "terms": 622
+    "terms": 635
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abpframework/abp",
     "Alamofire/Alamofire",
     "AlDanial/cloc",
     "antlr/grammars-v4",
-    "apache/spark",
     "App-vNext/Polly",
+    "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
     "Azure/azure-quickstart-templates",
     "composer/composer",
@@ -36,6 +36,7 @@
     "dotnet/orleans",
     "dotnet/roslyn",
     "dotnet/runtime",
+    "drduh/YubiKey-Guide",
     "elixir-lang/elixir",
     "fastlane/fastlane",
     "ghostty-org/ghostty",
@@ -72,7 +73,6 @@
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
-    "swiftlang/swift-evolution",
     "tc39/ecma262",
     "teamcapybara/capybara",
     "vim/vim",

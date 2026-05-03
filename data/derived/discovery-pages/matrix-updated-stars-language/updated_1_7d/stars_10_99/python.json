@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 44,
-    "terms": 181
+    "components": 259,
+    "concepts": 192,
+    "observations": 192,
+    "repos": 48,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
     "All-Hands-AI/OpenHands-Cloud",
+    "allenai/cached_path",
+    "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
     "autodeployai/pypmml",
     "autowarefoundation/autoware_launch",
@@ -24,9 +26,7 @@
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
     "bghira/CaptionFlow",
-    "caketop/python-starlark-go",
     "carstencodes/pdm-bump",
-    "castorini/anserini-tools",
     "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
@@ -37,26 +37,30 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "instadeepai/fastpbrl",
     "intel-staging/text-generation-webui",
+    "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
+    "NeilGirdhar/tjax",
+    "neo4j/neo4j-python-driver-rust-ext",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
     "pdm-project/tox-pdm",
     "pipecat-ai/pipecat-cli",
-    "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
     "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",
+    "scipy/scipy.org",
     "sigstore/sigstore-conformance",
+    "sublimelsp/LSP-volar",
     "symgraph/BinAssistMCP",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
     "TigreGotico/phoonnx",
-    "xhluca/bm25-benchmarks"
+    "xhluca/bm25-benchmarks",
+    "zen-xu/pytest-modern"
   ]
 }

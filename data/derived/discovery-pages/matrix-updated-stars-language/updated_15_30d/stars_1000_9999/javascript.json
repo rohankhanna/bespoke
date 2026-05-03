@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 794,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 31,
-    "terms": 163
+    "components": 890,
+    "concepts": 191,
+    "observations": 191,
+    "repos": 36,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -29,9 +29,13 @@
     "gautamkrishnar/motrix-webextension",
     "google/closure-compiler",
     "GoogleChromeLabs/ProjectVisBug",
+    "hotoo/pinyin",
     "igorshubovych/markdownlint-cli",
     "istanbuljs/istanbuljs",
     "kpdecker/jsdiff",
+    "mantoni/eslint_d.js",
+    "mapbox/maki",
+    "mourner/rbush",
     "npm/cli",
     "npm/node-semver",
     "piebald-ai/claude-code-system-prompts",
@@ -41,6 +45,7 @@
     "serverless-operations/serverless-step-functions",
     "sindresorhus/hyper-snazzy",
     "tc39/agendas",
+    "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",
     "webtorrent/webtorrent-cli",

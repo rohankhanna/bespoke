@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 6,
-    "terms": 14
+    "components": 39,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 7,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "aldernero/debugui",
     "amoniacou/external-dns-digitalocean-webhook",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "ethpandaops/xatu-cbt",
-    "foundry-rs/optimism"
+    "foundry-rs/optimism",
+    "hyper-mcp-rs/crypto-price-plugin"
   ]
 }

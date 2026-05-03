@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 586,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 21,
-    "terms": 110
+    "components": 727,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 27,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
+    "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",
     "celo-org/celo-composer",
+    "cocos/cocos-test-projects",
     "enisdenjo/graphql-sse",
     "gajus/eslint-plugin-sql",
     "hyperbrew/bolt-cep",
     "jezweb/roo-commander",
+    "kepano/obsidian-hider",
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
+    "microsoft/botbuilder-js",
     "morrys/react-relay-offline",
     "nanbingxyz/mcpsvr",
+    "Obsidian-TTRPG-Community/fantasy-statblocks",
     "posthtml/posthtml-parser",
     "PrismLibrary/Prism-Documentation",
+    "SassNinja/postcss-extract-media-query",
     "scopecraft/command",
     "snapcast/snapweb",
     "TanStack/ranger",

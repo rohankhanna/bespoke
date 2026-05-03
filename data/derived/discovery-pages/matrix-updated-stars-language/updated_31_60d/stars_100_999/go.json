@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 34,
-    "terms": 162
+    "components": 220,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 38,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ecs-cni-plugins",
@@ -26,6 +26,7 @@
     "docker-library/bashbrew",
     "erigontech/interfaces",
     "ethereum-optimism/superchain-registry",
+    "GFW-knocker/Xray-core",
     "go-chi/docgen",
     "go-gl/glow",
     "google/triage-party",
@@ -34,9 +35,12 @@
     "gpustack/gguf-parser-go",
     "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
+    "imjasonh/kontain.me",
+    "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
+    "lightninglabs/neutrino",
     "medama-io/medama",
     "mholt/acmez",
     "minio/directpv",

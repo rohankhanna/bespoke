@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 9,
-    "observations": 9,
+    "components": 11,
+    "concepts": 11,
+    "observations": 11,
     "repos": 14,
-    "terms": 9
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "danielrosehill/AI-Safety-Projects-Index",
+    "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",

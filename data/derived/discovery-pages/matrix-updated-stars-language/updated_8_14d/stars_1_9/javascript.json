@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
+    "components": 337,
     "concepts": 28,
     "observations": 28,
-    "repos": 13,
-    "terms": 37
+    "repos": 12,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
@@ -25,7 +25,6 @@
     "locize/locize-lastused",
     "newrelic/csec-node-agent",
     "recap-utr/arg-services",
-    "seunghunbae-3svs/solo-cto-agent",
     "stealabra5019/grok-enhancer"
   ]
 }

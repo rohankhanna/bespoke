@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 503,
-    "observations": 503,
-    "repos": 44,
-    "terms": 499
+    "components": 430,
+    "concepts": 536,
+    "observations": 536,
+    "repos": 47,
+    "terms": 532
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/iceberg",
     "apache/ignite",
     "apache/parquet-java",
     "apache/phoenix",
@@ -32,6 +33,7 @@
     "dlew/joda-time-android",
     "dropwizard/dropwizard",
     "dylibso/chicory",
+    "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
@@ -40,6 +42,7 @@
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
+    "helidon-io/helidon",
     "iterate-ch/cyberduck",
     "JetBrains/JetBrainsRuntime",
     "jhipster/prettier-java",
@@ -47,13 +50,13 @@
     "JodaOrg/joda-time",
     "junit-team/junit-examples",
     "junit-team/junit-framework",
-    "junit-team/junit4",
     "karatelabs/karate",
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",
     "lightbend/config",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
+    "reactor/BlockHound",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",

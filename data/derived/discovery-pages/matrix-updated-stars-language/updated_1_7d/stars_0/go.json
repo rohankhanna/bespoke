@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "components": 5,
+    "concepts": 6,
+    "observations": 6,
     "repos": 1,
-    "terms": 0
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "kdubbo/xds-api"
+    "lakekeeper/lakekeeper-operator"
   ]
 }

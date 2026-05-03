@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 86,
-    "observations": 87,
-    "repos": 41,
-    "terms": 80
+    "components": 47,
+    "concepts": 97,
+    "observations": 98,
+    "repos": 43,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -23,6 +23,7 @@
     "2KAbhishek/entry",
     "2KAbhishek/git-sync",
     "2KAbhishek/shelly",
+    "ashleykleynhans/hallo-docker",
     "aws-samples/sample-vllm-on-eks-with-dlc",
     "beehive-lab/docker-gpullama3.java",
     "bellini666/asdf-lua-language-server",
@@ -49,10 +50,11 @@
     "junkblocker/calibre-zaw-source",
     "Kong/official-images",
     "llllvvuu/efm-tool-definitions.yaml",
+    "mathew-fleisch/asdf-semver",
     "rigellute/scoop-bucket",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "unixorn/autoupdate-zgenom",
     "videojs/admin"
   ]

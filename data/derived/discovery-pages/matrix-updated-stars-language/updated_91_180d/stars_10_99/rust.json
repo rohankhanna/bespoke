@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 97,
+    "components": 104,
     "concepts": 66,
     "observations": 67,
-    "repos": 25,
+    "repos": 27,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
     "AndersTrier/reed-solomon-simd",
     "apache/opendal-ofs",
+    "ArjunNair/egui_sdl2_gl",
     "ashvardanian/StringTape",
     "bincode-org/virtue",
     "BoltzExchange/hold",
@@ -34,6 +35,7 @@
     "lindera/lindera-tantivy",
     "linebender/simplecss",
     "LuisaGroup/luisa-compute-rs",
+    "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
     "spacemeshos/post-rs",
     "suo/lintrunner",

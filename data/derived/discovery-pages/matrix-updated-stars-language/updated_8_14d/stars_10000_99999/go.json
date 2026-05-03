@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 771,
-    "concepts": 755,
-    "observations": 759,
-    "repos": 65,
-    "terms": 743
+    "components": 736,
+    "concepts": 710,
+    "observations": 714,
+    "repos": 60,
+    "terms": 701
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
-    "ahmetb/kubectx",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
     "Billionmail/BillionMail",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
-    "charmbracelet/crush",
-    "charmbracelet/lipgloss",
     "cli/cli",
     "coder/coder",
     "containerd/nerdctl",
@@ -69,15 +66,13 @@
     "opentofu/opentofu",
     "prometheus/node_exporter",
     "prometheus/prometheus",
-    "router-for-me/cliproxyapi",
+    "quic-go/quic-go",
     "rs/zerolog",
     "shirou/gopsutil",
     "slackhq/nebula",
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",
-    "urfave/cli",
-    "valyala/fasthttp",
-    "wader/fq"
+    "valyala/fasthttp"
   ]
 }

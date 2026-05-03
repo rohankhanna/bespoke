@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 353,
-    "concepts": 355,
-    "observations": 355,
-    "repos": 70,
-    "terms": 352
+    "components": 367,
+    "concepts": 361,
+    "observations": 361,
+    "repos": 73,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
@@ -29,6 +29,7 @@
     "boazsegev/iodine",
     "BoosterRobotics/booster_robotics_sdk",
     "cjlin1/libmf",
+    "cloudflare/cloudflare-workers-wasm-demo",
     "coin-or/Cbc",
     "corporateshark/lightweightvk",
     "cygwin/cygwin",
@@ -37,26 +38,25 @@
     "Ezibenroc/PyRoaringBitMap",
     "facil-io/cstl",
     "flatpak/xdg-desktop-portal",
-    "freebsd/kyua",
     "Frommi/miniz_oxide",
     "ganelson/inweb",
     "google/dawn",
     "google/fuzztest",
     "google/riegeli",
     "hajimes/mmh3",
-    "hamcrest/OCHamcrest",
     "intel/intel-ipsec-mb",
+    "jcmvbkbc/gcc-xtensa",
+    "jupyter-xeus/xwidgets",
     "KhronosGroup/SPIRV-Headers",
     "KhronosGroup/VK-GL-CTS",
+    "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
-    "luvit/luv",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "marton78/pffft",
     "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
-    "mitsuba-renderer/drjit-core",
     "mysql/mysql-workbench",
     "NetHack-LE/nle",
     "nss-dev/nss",
@@ -67,6 +67,7 @@
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "pantoniou/libfyaml",
+    "pbatard/Mosby",
     "powturbo/TurboBench",
     "proxytunnel/proxytunnel",
     "pyg-team/pyg-lib",
@@ -82,7 +83,9 @@
     "samdauwe/webgpu-native-examples",
     "SaschaWillems/HowToVulkan",
     "secretflow/heu",
+    "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
-    "uxlfoundation/oneCCL"
+    "uxlfoundation/oneCCL",
+    "VectorDB-NTU/RaBitQ-Library"
   ]
 }

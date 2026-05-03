@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 304,
-    "concepts": 240,
-    "observations": 243,
-    "repos": 44,
-    "terms": 242
+    "components": 329,
+    "concepts": 244,
+    "observations": 247,
+    "repos": 46,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
     "adrg/xdg",
     "andybalholm/brotli",
@@ -41,7 +42,6 @@
     "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hazelcast/hazelcast-go-client",
-    "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "jaegertracing/jaeger-idl",
@@ -49,12 +49,14 @@
     "kubernetes-sigs/boskos",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
-    "lightninglabs/neutrino",
     "mailru/go-clickhouse",
+    "microsoft/cognitive-services-speech-sdk-go",
+    "open-telemetry/opentelemetry-collector-releases",
     "phiat/claude-esp",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
     "prometheus/exporter-toolkit",
+    "skenetechnologies/skene",
     "stefanlogue/meteor",
     "toml-lang/toml-test",
     "usbarmory/GoTEE"

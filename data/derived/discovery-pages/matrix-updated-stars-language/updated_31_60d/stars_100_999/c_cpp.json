@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 238,
-    "observations": 238,
-    "repos": 48,
-    "terms": 237
+    "components": 188,
+    "concepts": 288,
+    "observations": 289,
+    "repos": 55,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -21,21 +21,25 @@
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
     "ARM-software/EndpointAI",
+    "ashvardanian/ForkUnion",
     "avaneev/r8brain-free-src",
     "btzy/nativefiledialog-extended",
+    "containers/conmon",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
-    "douglascrockford/JSMin",
+    "eclipse-cyclonedds/cyclonedds-cxx",
     "eliemichel/LearnWebGPU",
     "eyalz800/zpp_bits",
     "frankmorgner/vsmartcard",
     "freebsd/atf",
     "fujitsu/xbyak_aarch64",
+    "gbionics/idyntree",
     "google/kmsan",
     "intel/gmmlib",
+    "intel/opencl-clang",
     "KhronosGroup/OpenCL-Headers",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
@@ -53,14 +57,17 @@
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",
+    "RoaringBitmap/croaring-rs",
     "rusty1s/pytorch_cluster",
     "sheredom/ubench.h",
     "stardot/beebasm",
     "Tomas-M/iotop",
+    "usnistgov/trec_eval",
     "uxlfoundation/oneMath",
     "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",
-    "websockets/bufferutil"
+    "websockets/bufferutil",
+    "xtensor-stack/xtensor-python"
   ]
 }

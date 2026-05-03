@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 99,
-    "observations": 100,
-    "repos": 24,
-    "terms": 104
+    "components": 207,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 28,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
     "andelf/picc",
@@ -21,6 +21,8 @@
     "bencevans/camtrap-detector",
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
+    "cloudllm-ai/mentisdb",
+    "cometbft/cometbft-rs",
     "crate-ci/imperative",
     "google/safe-mmio",
     "hagan/claudia-statusline",
@@ -36,7 +38,9 @@
     "psmux/omp-manager",
     "quininer/x11-clipboard",
     "sophus-vision/sophus-rs",
+    "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
+    "tombelieber/claude-view",
     "tracel-ai/burn-bench"
   ]
 }

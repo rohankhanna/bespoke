@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 11,
-    "terms": 19
+    "components": 13,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 15,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "Biscuit-Theme/biscuit",
     "docker-library/faq",
     "googleapis/python-logging",
+    "GuiWonder/MoonStarsKai",
     "hashicorp/vault-examples",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",
     "libp2p/js-libp2p-examples",
+    "lintool/guide",
     "microsoft/foss-fund",
+    "pbatard/UEFI-Shell",
     "shadowspawn/node-version-usage",
     "snwfdhmp/awesome-ralph",
-    "TencentCloudADP/youtu-vl"
+    "TencentCloudADP/youtu-vl",
+    "TimoBolkart/FLAME-Universe"
   ]
 }

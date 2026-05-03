@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 25,
-    "terms": 45
+    "components": 117,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 29,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "angular/angular-build-builds",
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
-    "danielrosehill/AI-Safety-Projects-Index",
+    "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
+    "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
@@ -27,7 +29,6 @@
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Israel-Projects-Index",
-    "danielrosehill/Responsible-Agent-Skill-Development",
     "flagos-ai/verl-FL",
     "getlantern/guide",
     "hermit-os/.github",
@@ -35,6 +36,9 @@
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
+    "kalavai-net/kalavai-templates",
+    "lakekeeper/lakekeeper-operator",
+    "netdur/imaged-sdk-examples",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves",
     "squidowl/iced"

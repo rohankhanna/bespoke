@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 35,
-    "terms": 280
+    "components": 267,
+    "concepts": 295,
+    "observations": 295,
+    "repos": 38,
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "apache/commons-jexl",
     "apache/ignite-3",
@@ -23,6 +23,7 @@
     "aws/smithy-go",
     "bazel-contrib/rules_jvm_external",
     "bndtools/bnd",
+    "cloudfoundry/credhub",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
@@ -32,11 +33,13 @@
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
+    "heroku/webapp-runner",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
+    "microsoft/LangChain4j-for-Beginners",
     "microsoft/vscode-java-test",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",

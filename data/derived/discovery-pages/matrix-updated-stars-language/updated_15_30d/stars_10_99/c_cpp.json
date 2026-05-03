@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 18,
-    "terms": 72
+    "components": 116,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 22,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "8144225309/SuperScalar",
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
     "aifoundry-org/et-platform",
     "ankane/stl-cpp",
     "barak/minidjvu",
+    "DavidKinder/Windows-Inform7",
     "fcambus/bdf2sfd",
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
@@ -30,7 +32,9 @@
     "mybigday/llama.node",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
+    "ROCm/roctracer",
     "theimpossibleastronaut/rmw",
-    "uael/sv"
+    "uael/sv",
+    "yquake2/ref_vk"
   ]
 }

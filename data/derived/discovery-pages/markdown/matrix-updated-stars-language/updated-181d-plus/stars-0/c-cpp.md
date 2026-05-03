@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 20
-- components: 43
-- concepts: 20
-- observations: 21
+- repos: 13
+- terms: 23
+- components: 46
+- concepts: 23
+- observations: 24
 
 ## Static behavior
 
@@ -32,9 +32,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [spacemeshos/app-spacemesh](https://github.com/spacemeshos/app-spacemesh) | 0 | 2025-04-23T15:52:48Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [eaplatanios/triton](https://github.com/eaplatanios/triton) | 0 | 2024-08-01T01:35:50Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 7 |
-| [afd-illinois/eht-babel](https://github.com/AFD-Illinois/EHT-babel) | 0 | 2024-03-06T17:02:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [tipi-deps/example-mapmap_cpu](https://github.com/tipi-deps/example-mapmap_cpu) | 0 | 2022-05-27T15:34:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
+| [mindreframer/sqlean](https://github.com/mindreframer/sqlean) | 0 | 2021-10-16T10:46:38Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [acts-project/opendatadetector](https://github.com/acts-project/OpenDataDetector) | 0 | 2021-08-30T13:31:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [comit-network/hash_edwards_to_edwards](https://github.com/comit-network/hash_edwards_to_edwards) | 0 | 2021-05-25T05:21:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -49,9 +50,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [spacemeshos/app-spacemesh](https://github.com/spacemeshos/app-spacemesh) | 0 | 2025-04-23T15:52:48Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [eaplatanios/triton](https://github.com/eaplatanios/triton) | 0 | 2024-08-01T01:35:50Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 7 |
-| [afd-illinois/eht-babel](https://github.com/AFD-Illinois/EHT-babel) | 0 | 2024-03-06T17:02:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [tipi-deps/example-mapmap_cpu](https://github.com/tipi-deps/example-mapmap_cpu) | 0 | 2022-05-27T15:34:51Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
+| [mindreframer/sqlean](https://github.com/mindreframer/sqlean) | 0 | 2021-10-16T10:46:38Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [acts-project/opendatadetector](https://github.com/acts-project/OpenDataDetector) | 0 | 2021-08-30T13:31:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [comit-network/hash_edwards_to_edwards](https://github.com/comit-network/hash_edwards_to_edwards) | 0 | 2021-05-25T05:21:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

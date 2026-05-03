@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 25,
-    "terms": 122
+    "components": 676,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 30,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aksakalli/gtop",
     "alexmojaki/birdseye",
@@ -21,6 +21,8 @@
     "architect/architect",
     "Blizzard/node-rdkafka",
     "broccolijs/broccoli",
+    "cristianbote/goober",
+    "developit/microbundle",
     "facebook/fbjs",
     "fengari-lua/fengari",
     "file-icons/atom",
@@ -34,10 +36,13 @@
     "jasongin/nvs",
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "microsoft/botframework-sdk",
+    "pburtchaell/redux-promise-middleware",
     "reactjs/react-a11y",
     "sindresorhus/execa",
+    "sindresorhus/trash-cli",
     "songquanpeng/message-pusher",
     "steipete/claude-code-mcp",
-    "TritonDataCenter/node-verror"
+    "TritonDataCenter/node-verror",
+    "webpack/style-loader"
   ]
 }

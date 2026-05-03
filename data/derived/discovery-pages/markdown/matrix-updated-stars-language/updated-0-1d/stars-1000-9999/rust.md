@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 74
-- components: 125
-- concepts: 75
-- observations: 76
+- repos: 9
+- terms: 97
+- components: 109
+- concepts: 97
+- observations: 98
 
 ## Static behavior
 
@@ -26,22 +26,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5689 | 2026-05-01T17:23:40Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [unicode-org/icu4x](https://github.com/unicode-org/icu4x) | 1791 | 2026-05-01T17:12:50Z | Rust | CLI | 11 | 25 | 11 | 11 |
-| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-05-01T15:48:23Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T15:33:16Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [facebook/sapling](https://github.com/facebook/sapling) | 6825 | 2026-05-01T13:37:35Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2023 | 2026-05-01T11:20:41Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
-| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
+| [databendlabs/databend](https://github.com/databendlabs/databend) | 9275 | 2026-05-03T03:44:34Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2024 | 2026-05-03T03:34:36Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
+| [ron-rs/ron](https://github.com/ron-rs/ron) | 3896 | 2026-05-03T02:31:16Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [databendlabs/openraft](https://github.com/databendlabs/openraft) | 1895 | 2026-05-03T00:10:00Z | Rust | Infrastructure/tooling | 7 | 15 | 7 | 7 |
+| [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4734 | 2026-05-02T20:20:59Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5739 | 2026-05-02T16:36:19Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
+| [nats-io/nats.rs](https://github.com/nats-io/nats.rs) | 1450 | 2026-05-02T13:51:07Z | Rust | CLI | 8 | 13 | 8 | 8 |
+| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 6945 | 2026-05-01T10:10:04Z | Rust | Infrastructure/tooling | 14 | 16 | 15 | 15 |
-| [facebook/sapling](https://github.com/facebook/sapling) | 6825 | 2026-05-01T13:37:35Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5689 | 2026-05-01T17:23:40Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2023 | 2026-05-01T11:20:41Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
-| [boxlite-ai/boxlite](https://github.com/boxlite-ai/boxlite) | 1880 | 2026-05-01T15:48:23Z | Rust | Infrastructure/tooling | 11 | 15 | 11 | 11 |
-| [unicode-org/icu4x](https://github.com/unicode-org/icu4x) | 1791 | 2026-05-01T17:12:50Z | Rust | CLI | 11 | 25 | 11 | 11 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1552 | 2026-05-01T15:33:16Z | Rust | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [databendlabs/databend](https://github.com/databendlabs/databend) | 9275 | 2026-05-03T03:44:34Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
+| [rust-lang/rustup](https://github.com/rust-lang/rustup) | 6862 | 2026-05-02T07:30:25Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [MaterializeInc/materialize](https://github.com/MaterializeInc/materialize) | 6280 | 2026-05-03T00:02:04Z | Rust | Infrastructure/tooling | 22 | 8 | 22 | 22 |
+| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 5739 | 2026-05-02T16:36:19Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4734 | 2026-05-02T20:20:59Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [ron-rs/ron](https://github.com/ron-rs/ron) | 3896 | 2026-05-03T02:31:16Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2024 | 2026-05-03T03:34:36Z | Rust | Infrastructure/tooling | 13 | 19 | 13 | 14 |
+| [databendlabs/openraft](https://github.com/databendlabs/openraft) | 1895 | 2026-05-03T00:10:00Z | Rust | Infrastructure/tooling | 7 | 15 | 7 | 7 |
+| [nats-io/nats.rs](https://github.com/nats-io/nats.rs) | 1450 | 2026-05-02T13:51:07Z | Rust | CLI | 8 | 13 | 8 | 8 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Other
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 15
-- components: 35
-- concepts: 9
-- observations: 9
+- repos: 15
+- terms: 21
+- components: 30
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -39,12 +41,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
 | [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -58,4 +61,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |

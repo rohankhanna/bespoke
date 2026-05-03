@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 11,
-    "observations": 11,
+    "components": 3,
+    "concepts": 20,
+    "observations": 20,
     "repos": 1,
-    "terms": 11
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "firstcontributions/first-contributions"
+    "Loyalsoldier/v2ray-rules-dat"
   ]
 }

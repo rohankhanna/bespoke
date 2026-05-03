@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 198,
-    "observations": 198,
-    "repos": 47,
-    "terms": 197
+    "components": 242,
+    "concepts": 230,
+    "observations": 230,
+    "repos": 53,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
+    "AliaksandrSiarohin/first-order-model",
     "altercation/solarized",
     "animate-css/animate.css",
     "artidoro/qlora",
@@ -32,12 +33,16 @@
     "dotnet-architecture/eShopOnContainers",
     "dotnet-architecture/eShopOnWeb",
     "dropbox/zxcvbn",
+    "ElemeFE/element",
     "facebookresearch/fastText",
     "facebookresearch/segment-anything",
     "fivethirtyeight/data",
+    "fzaninotto/Faker",
     "h4cc/awesome-elixir",
+    "HarisIqbal88/PlotNeuralNet",
     "IDEA-Research/Grounded-Segment-Anything",
     "junyanz/CycleGAN",
+    "karpathy/char-rnn",
     "karpathy/llm.c",
     "karpathy/micrograd",
     "lucasg/Dependencies",
@@ -50,6 +55,7 @@
     "nagadomi/waifu2x",
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
+    "PanJiaChen/vue-element-admin",
     "phillipi/pix2pix",
     "preservim/nerdtree",
     "salesforce/LAVIS",

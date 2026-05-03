@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 3,
-    "terms": 36
+    "components": 33,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 5,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "bazel-contrib/bazel-gazelle",
     "crc-org/crc",
-    "googleapis/google-cloud-go",
-    "NVIDIA/k8s-device-plugin"
+    "erigontech/erigon",
+    "go-git/go-git",
+    "Loyalsoldier/geoip"
   ]
 }

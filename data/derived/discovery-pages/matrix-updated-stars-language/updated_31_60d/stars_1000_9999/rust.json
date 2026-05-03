@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 145,
-    "observations": 147,
-    "repos": 28,
-    "terms": 143
+    "components": 217,
+    "concepts": 152,
+    "observations": 154,
+    "repos": 31,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
+    "BurntSushi/quickcheck",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
@@ -32,10 +33,12 @@
     "LaurentMazare/tch-rs",
     "lldap/lldap",
     "mitsuhiko/insta",
+    "Mooncake-Labs/pg_mooncake",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",
+    "servo/ipc-channel",
     "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",

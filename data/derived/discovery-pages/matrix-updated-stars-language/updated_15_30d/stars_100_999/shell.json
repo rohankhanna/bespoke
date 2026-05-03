@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 81,
-    "observations": 82,
-    "repos": 19,
-    "terms": 92
+    "components": 66,
+    "concepts": 98,
+    "observations": 99,
+    "repos": 20,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
-    "aslafy-z/helm-git",
+    "alfredolopez80/multi-agent-ralph-loop",
     "astro-han/claude-pace",
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "EmbarkStudios/cargo-deny-action",
     "heroku/heroku-buildpack-apt",
+    "heroku/heroku-buildpack-php",
     "kubernetes/sig-release",
     "mattmc3/zephyr",
     "nodenv/node-build",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
+- repos: 16
 - terms: 27
 - components: 111
 - concepts: 27
@@ -34,6 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [5sControl/operation-control-js](https://github.com/5sControl/operation-control-js) | 0 | 2024-04-04T08:12:07Z | JavaScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [5scontrol/machine-control-js](https://github.com/5sControl/machine-control-js) | 0 | 2024-04-04T08:03:48Z | JavaScript | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [5sControl/inference-server-js](https://github.com/5sControl/inference-server-js) | 0 | 2024-04-04T07:50:14Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [Vchitect/SEINE-project](https://github.com/Vchitect/SEINE-project) | 0 | 2023-11-09T08:02:57Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethanzrd/whisper-playground](https://github.com/ethanzrd/whisper-playground) | 0 | 2023-08-11T07:01:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [broccolijs/broccoli-output-wrapper](https://github.com/broccolijs/broccoli-output-wrapper) | 0 | 2022-03-24T20:39:34Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [5sControl/operation-control-js](https://github.com/5sControl/operation-control-js) | 0 | 2024-04-04T08:12:07Z | JavaScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [5scontrol/machine-control-js](https://github.com/5sControl/machine-control-js) | 0 | 2024-04-04T08:03:48Z | JavaScript | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [5sControl/inference-server-js](https://github.com/5sControl/inference-server-js) | 0 | 2024-04-04T07:50:14Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [Vchitect/SEINE-project](https://github.com/Vchitect/SEINE-project) | 0 | 2023-11-09T08:02:57Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethanzrd/whisper-playground](https://github.com/ethanzrd/whisper-playground) | 0 | 2023-08-11T07:01:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [broccolijs/broccoli-output-wrapper](https://github.com/broccolijs/broccoli-output-wrapper) | 0 | 2022-03-24T20:39:34Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |

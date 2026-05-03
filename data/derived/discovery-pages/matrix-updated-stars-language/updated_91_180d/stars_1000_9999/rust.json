@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 82,
-    "observations": 85,
-    "repos": 13,
-    "terms": 82
+    "components": 94,
+    "concepts": 90,
+    "observations": 93,
+    "repos": 14,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -20,6 +20,7 @@
     "dtolnay/case-studies",
     "erg-lang/erg",
     "geiger-rs/cargo-geiger",
+    "godot-rust/gdnative",
     "guillaume-be/rust-bert",
     "helix-editor/nucleo",
     "Morganamilo/paru",

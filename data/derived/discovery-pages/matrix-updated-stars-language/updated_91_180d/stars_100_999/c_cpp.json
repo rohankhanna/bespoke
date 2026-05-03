@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 43,
-    "terms": 169
+    "components": 139,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 48,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "andreasdr/tdme2",
+    "angr/vex",
     "antonypro/QGoodWindow",
     "appelmar/gdalcubes",
+    "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
     "ashawkey/cubvh",
     "avaneev/lzav",
     "avaneev/prvhash",
     "aviggiano/redis-roaring",
-    "bagder/fcpp",
     "bdwgc/libatomic_ops",
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
@@ -41,10 +42,12 @@
     "IST-DASLab/qutlass",
     "jimporter/mettle",
     "KhronosGroup/OpenCL-SDK",
+    "libimobiledevice/libimobiledevice-glue",
     "MajicDesigns/MD_Parola",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "mit-han-lab/Block-Sparse-Attention",
     "mit-han-lab/flash-moba",
+    "naelstrof/slop",
     "nagisa/rust_tracy_client",
     "neovim/libvterm",
     "nihui/ncnn-android-nanodet",
@@ -54,8 +57,10 @@
     "pganalyze/pg_query",
     "pmwkaa/ioarena",
     "powervr-graphics/Native_SDK",
+    "stefantalpalaru/w_scan2",
     "swigger/wechat-ocr",
     "TkTech/can_ada",
+    "tomfunkhouser/gaps",
     "unitreerobotics/unitree_mujoco"
   ]
 }

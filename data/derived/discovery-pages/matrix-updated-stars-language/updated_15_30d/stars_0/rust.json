@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
+    "components": 65,
     "concepts": 19,
     "observations": 19,
-    "repos": 8,
-    "terms": 19
+    "repos": 12,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "eigenwallet/arti",
     "fulmicoton-dd/datasketches-rust",
     "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/crates-io-plugin",
+    "jsleekr/skilldigest",
     "kayabaNerve/monero-oxide",
+    "mupozg823/codelens-mcp-plugin",
+    "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",
     "ueno/podman-sequoia"
   ]

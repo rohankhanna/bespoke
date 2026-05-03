@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 506,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 28,
-    "terms": 121
+    "components": 530,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 29,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alexellis/arkade-get",
+    "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
-    "i18next/i18next-resources-to-backend",
     "itsrishika/payment-bypass-bug-lab",
     "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locize-cli",
     "locize/locizify",
+    "mainmatter/ember-vite-codemod",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-apollo-server-plugin",
@@ -33,7 +34,7 @@
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",
-    "peergos/web-ui",
+    "patrik-csak/auto-terminal-profile",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "semantic-release/error",

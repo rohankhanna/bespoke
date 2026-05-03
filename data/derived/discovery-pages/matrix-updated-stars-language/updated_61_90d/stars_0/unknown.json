@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 18,
     "observations": 18,
-    "repos": 5,
+    "repos": 6,
     "terms": 18
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "CADindustries/container",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
     "get-gah/gah-db",

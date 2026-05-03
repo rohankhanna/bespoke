@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 14,
-    "terms": 95
+    "components": 70,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 12,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "carrot2/carrot2",
-    "eclipse-buildship/buildship",
-    "eclipse-tm4e/tm4e",
     "GoogleCloudPlatform/cloud-opensource-java",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",

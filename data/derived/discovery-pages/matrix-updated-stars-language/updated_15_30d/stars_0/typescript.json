@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 79,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 4,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "9romise/eslint-config",
     "grubersjoe/react-activity-calendar-tests",
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "VOICEVOX/preview-pages"
   ]
 }

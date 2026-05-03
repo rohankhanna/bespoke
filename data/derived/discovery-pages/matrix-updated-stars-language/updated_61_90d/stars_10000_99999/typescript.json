@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 32,
-    "observations": 32,
+    "components": 263,
+    "concepts": 44,
+    "observations": 44,
     "repos": 6,
-    "terms": 32
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "egoist/tsup",
+    "floating-ui/floating-ui",
     "microsoft/vscode-extension-samples",
     "peers/peerjs",
     "Redocly/redoc",
-    "snarktank/ralph",
     "transitive-bullshit/agentic"
   ]
 }

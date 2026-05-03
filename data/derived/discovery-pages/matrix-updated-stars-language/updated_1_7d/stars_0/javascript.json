@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 5,
-    "observations": 5,
+    "components": 42,
+    "concepts": 0,
+    "observations": 0,
     "repos": 1,
-    "terms": 5
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "aaronlamz/navpress"
+    "angular/angular-build-builds"
   ]
 }

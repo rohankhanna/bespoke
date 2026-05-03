@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 48,
-    "terms": 49
+    "components": 122,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 54,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
+    "adafruit/adafruit_bmp183_unified_library",
     "adamharrison/lite-xl-www",
+    "afd-illinois/eht-babel",
     "AFD-Illinois/iharm2d_v3",
     "andreigh/triton",
     "aseprite/googletest",
@@ -29,6 +31,8 @@
     "CameLLM/CameLLM-Common",
     "CameLLM/CameLLM-Llama",
     "candid82/cljf",
+    "Clemapfel/mousetrap",
+    "Clemapfel/mousetrap_julia_binding",
     "DOGEwbx/llama.cpp",
     "dwyl/flutter-stopwatch-tutorial",
     "eddelbuettel/ldlasb",
@@ -41,11 +45,13 @@
     "hayguen/pffft",
     "hermit-os/hermit-c",
     "hermit-os/pthread-embedded",
+    "hugodaniel/cuid-c",
     "hugoif/hugo-unix",
     "infradig/imath",
     "Izhido/test262_harness_cpp",
     "jasongin/node-canvas",
     "jk-jeon/dtoa-benchmark",
+    "littlefs-project/ramcrc32bd",
     "lockblox/multibase",
     "LuisaGroup/CMakeStarterTemplate",
     "mackron/vkquake2",

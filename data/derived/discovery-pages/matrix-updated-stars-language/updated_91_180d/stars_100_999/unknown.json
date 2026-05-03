@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 23,
-    "terms": 49
+    "concepts": 42,
+    "observations": 42,
+    "repos": 25,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -25,10 +25,12 @@
     "eryajf/awesome-github-profile-readme-chinese",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
+    "IceClear/SeedVR2",
     "langchain4j/awesome-langchain4j",
     "lightning/blips",
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",
+    "NVIDIA/RTX-AI-Toolkit",
     "oh-my-fish/packages-main",
     "opendilab/awesome-ui-agents",
     "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",

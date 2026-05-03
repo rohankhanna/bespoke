@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 195,
-    "observations": 195,
-    "repos": 22,
-    "terms": 194
+    "components": 264,
+    "concepts": 269,
+    "observations": 269,
+    "repos": 28,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
+    "ahmetb/kubectx",
     "charmbracelet/bubbletea",
+    "charmbracelet/crush",
     "charmbracelet/glow",
     "charmbracelet/gum",
+    "charmbracelet/lipgloss",
     "charmbracelet/vhs",
     "containerd/containerd",
     "coreybutler/nvm-windows",
     "danielmiessler/fabric",
     "ent/ent",
-    "evanw/esbuild",
     "google/cadvisor",
     "hibiken/asynq",
     "Jguer/yay",
@@ -33,8 +35,12 @@
     "labstack/echo",
     "microsoft/typescript-go",
     "nektos/act",
+    "ory/hydra",
+    "router-for-me/cliproxyapi",
     "shadow1ng/fscan",
     "slimtoolkit/slim",
-    "stretchr/testify"
+    "stretchr/testify",
+    "urfave/cli",
+    "wader/fq"
   ]
 }

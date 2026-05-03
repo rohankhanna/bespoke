@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 424,
-    "observations": 426,
-    "repos": 92,
-    "terms": 426
+    "components": 277,
+    "concepts": 415,
+    "observations": 417,
+    "repos": 95,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -21,13 +21,11 @@
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
     "Alibaba-NLP/qqr",
-    "alibaba/TinyNeuralNetwork",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amaranth-lang/amaranth-boards",
-    "amaranth-lang/amaranth-soc",
     "angr/angrop",
-    "BrianPugh/belay",
+    "astra-vision/MonoScene",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
     "CatharsisFonts/Ysabeau",
@@ -35,6 +33,8 @@
     "citusdata/django-multitenant",
     "clearml/clearml-server",
     "clearml/clearml-serving",
+    "csslc/PiSA-SR",
+    "DanceTrack/DanceTrack",
     "dask/fastparquet",
     "datasets/country-codes",
     "ddh0/easy-llama",
@@ -44,7 +44,6 @@
     "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/MegaLoc",
     "gmberton/VPR-datasets-downloader",
-    "google-deepmind/multi_object_datasets",
     "googleapis/python-storage",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
@@ -69,8 +68,10 @@
     "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
     "mkdocstrings/griffe",
+    "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
     "mr-fatalyst/fastopenapi",
+    "NeuralVox/OpenPhonemizer",
     "nicklashansen/dreamer4",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
     "NiltonVolpato/python-progressbar",
@@ -95,6 +96,7 @@
     "Stanford-TML/robot_keyframe_kit",
     "strands-agents/mcp-server",
     "svg-project/Sparse-VideoGen",
+    "swc-17/SparseDrive",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
     "thu-ml/DiT-Extrapolation",
@@ -105,6 +107,7 @@
     "WujiangXu/A-mem-sys",
     "xavierpuigf/virtualhome",
     "yanring/Megatron-MoE-ModelZoo",
+    "Yelp/aactivator",
     "zhijian-liu/torchprofile"
   ]
 }

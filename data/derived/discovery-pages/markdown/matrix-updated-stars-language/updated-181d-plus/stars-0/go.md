@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Go
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
+- repos: 9
 - terms: 7
 - components: 11
 - concepts: 7
@@ -33,6 +33,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [itroyano/ustore-operator](https://github.com/itroyano/ustore-operator) | 0 | 2024-10-20T12:03:55Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [depado/bfadmonition](https://github.com/depado/bfadmonition) | 0 | 2024-08-17T19:52:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [tmikus/aho-corasick-benchmark](https://github.com/tmikus/aho-corasick-benchmark) | 0 | 2023-08-30T17:50:40Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [nlamirault/markdownfmt](https://github.com/nlamirault/markdownfmt) | 0 | 2022-01-14T14:39:54Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -46,4 +47,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [itroyano/ustore-operator](https://github.com/itroyano/ustore-operator) | 0 | 2024-10-20T12:03:55Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [depado/bfadmonition](https://github.com/depado/bfadmonition) | 0 | 2024-08-17T19:52:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [tmikus/aho-corasick-benchmark](https://github.com/tmikus/aho-corasick-benchmark) | 0 | 2023-08-30T17:50:40Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [nlamirault/markdownfmt](https://github.com/nlamirault/markdownfmt) | 0 | 2022-01-14T14:39:54Z | Go | Unknown | 0 | 0 | 0 | 0 |

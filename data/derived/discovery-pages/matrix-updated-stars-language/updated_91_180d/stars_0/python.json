@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 6,
-    "terms": 4
+    "concepts": 8,
+    "observations": 8,
+    "repos": 7,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "biocypher/biocypher-cookiecutter-template",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/BTRFS-Snapper-MCP",
+    "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Quick-RMBG",
     "maeste/a2a-tck",
     "sarlinpe/pybind11-stubgen"

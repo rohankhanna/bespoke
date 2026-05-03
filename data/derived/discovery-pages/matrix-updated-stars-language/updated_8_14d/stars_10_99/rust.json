@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 174,
-    "observations": 174,
+    "components": 309,
+    "concepts": 186,
+    "observations": 186,
     "repos": 45,
-    "terms": 183
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -31,8 +31,8 @@
     "celo-org/celo-threshold-bls-rs",
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
-    "cloudllm-ai/mentisdb",
     "Dicklesworthstone/frankensearch",
+    "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -49,13 +49,13 @@
     "major7apps/pensyve",
     "martinthomson/ohttp",
     "mpizenberg/elm-test-rs",
+    "mrcjkb/vimcats",
     "multiformats/rust-cid",
     "nico-abram/blondie",
     "paradigmxyz/stateless",
     "rozbb/rust-hpke",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
-    "tombelieber/claude-view",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "zcash/pasta_curves"

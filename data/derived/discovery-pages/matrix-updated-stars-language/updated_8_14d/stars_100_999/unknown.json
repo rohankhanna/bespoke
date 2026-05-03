@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 26,
-    "terms": 93
+    "components": 60,
+    "concepts": 86,
+    "observations": 87,
+    "repos": 25,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
@@ -32,13 +32,12 @@
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
+    "LuaLS/LLS-Addons",
     "mason-org/mason-registry",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
     "stripe/openapi",
-    "tinted-theming/home",
-    "ymcui/MacBERT",
-    "ymcui/PERT"
+    "tinted-theming/home"
   ]
 }

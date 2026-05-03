@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 135,
-    "observations": 137,
-    "repos": 27,
-    "terms": 130
+    "components": 122,
+    "concepts": 141,
+    "observations": 143,
+    "repos": 29,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adamritter/fastgron",
-    "angr/vex",
     "apache/casbin-cpp",
     "arminbiere/aiger",
     "beached/daw_json_link",
@@ -23,13 +22,16 @@
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
     "devkitPro/libctru",
+    "douglascrockford/JSMin",
     "google/effcee",
     "google/ruy",
+    "hhyyrylainen/GodotPckTool",
+    "InteractiveComputerGraphics/TriangleMeshDistance",
     "Kong/ngx_wasm_module",
+    "marbl/canu",
     "martinmoene/lest",
     "mlc-ai/tokenizers-cpp",
     "mongodb-js/kerberos",
-    "naelstrof/slop",
     "numactl/numactl",
     "nvpro-samples/nvpro_core",
     "proxy-wasm/proxy-wasm-cpp-sdk",

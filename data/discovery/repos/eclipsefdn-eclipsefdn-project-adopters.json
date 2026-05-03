@@ -157,13 +157,14 @@
       "size": 2562
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:56:22.837852+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Adopters are organizations that voluntarily show their support for the Eclipse projects.",
     "fork": false,
-    "full_name": "EclipseFdn/eclipsefdn-project-adopters",
+    "full_name": "eclipsefdn/eclipsefdn-project-adopters",
     "html_url": "https://github.com/EclipseFdn/eclipsefdn-project-adopters",
     "language": "Java",
     "pushed_at": "2022-05-09T13:16:25Z",

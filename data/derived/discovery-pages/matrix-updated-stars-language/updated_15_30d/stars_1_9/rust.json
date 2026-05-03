@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 9,
-    "terms": 43
+    "components": 74,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
-    "DioxusLabs/stork",
     "dnvt/burn-speech-training",
+    "EspressoSystems/espresso-example-l2",
     "kensave/agent-memory-rs",
     "kurrent-io/KurrentDB-Bridge-Client",
     "Layr-Labs/hokulea",
     "marin-community/kitoken",
+    "netdur/hugind",
     "urschrei/polyline-ffi",
     "yhirose/docs-gen"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 69,
-    "observations": 71,
-    "repos": 15,
-    "terms": 69
+    "components": 370,
+    "concepts": 158,
+    "observations": 160,
+    "repos": 21,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "angular/angular-devkit-architect-builds",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "dwyl/phoenix-papertrail-demo",
@@ -27,6 +28,11 @@
     "oscard0m/ts-transformer-remove-named-export",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
+    "stdlib-js/buffer-ctor",
+    "stdlib-js/math-base-special-erf",
+    "stdlib-js/math-base-special-erfc",
+    "stdlib-js/math-base-special-erfcinv",
+    "stdlib-js/math-base-special-erfinv",
     "thetutlage/static",
     "travi/octokit-auth-netrc"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 21,
-    "terms": 161
+    "components": 120,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 22,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
+    "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",

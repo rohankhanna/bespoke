@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 52,
-    "observations": 52,
+    "components": 49,
+    "concepts": 57,
+    "observations": 57,
     "repos": 13,
-    "terms": 52
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "box/box-openapi",
     "chromedp/cdproto",
+    "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",
     "github/copilot-language-server-release",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
     "mdn/mdn-community",
     "openjs-foundation/cross-project-council",

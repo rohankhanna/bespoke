@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 44,
-    "terms": 37
+    "components": 7,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 40,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "8144225309/lightning",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
@@ -24,18 +23,15 @@
     "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/python-isal-feedstock",
+    "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
-    "damacol/google-gemma-2-2b-it",
-    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
-    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "Culmus/hebrew-fonts",
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "damacol/meta-llama-llama-3-2-3b",
-    "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
+    "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
@@ -48,7 +44,7 @@
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",
-    "danielrosehill/Geopol-Forecasts-Index",
+    "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",

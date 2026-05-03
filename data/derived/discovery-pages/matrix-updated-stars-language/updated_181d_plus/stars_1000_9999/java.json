@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 33,
-    "terms": 143
+    "components": 112,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 35,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -29,12 +29,14 @@
     "hazelcast/hazelcast-jet",
     "HdrHistogram/HdrHistogram",
     "JakeWharton/ThreeTenABP",
+    "jknack/handlebars.java",
     "knowm/XChart",
     "LaurieWired/GhidraMCP",
     "me-no-dev/EspExceptionDecoder",
     "MineDojo/MineDojo",
     "MSPaintIDE/MSPaintIDE",
     "mstrobel/procyon",
+    "nitaliano/react-native-mapbox-gl",
     "novicezk/midjourney-proxy",
     "phodal/migration",
     "pytorch/serve",

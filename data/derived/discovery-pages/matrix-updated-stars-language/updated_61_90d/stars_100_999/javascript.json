@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 174,
+    "components": 216,
     "concepts": 46,
     "observations": 47,
-    "repos": 13,
+    "repos": 14,
     "terms": 46
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
     "codota/tabnine-nvim",
+    "faceyspacey/extract-css-chunks-webpack-plugin",
     "Mario4272/ag_bridge",
     "nodenv/jetbrains-npm",
     "prebuild/prebuild",

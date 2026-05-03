@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 183,
-    "observations": 185,
-    "repos": 27,
-    "terms": 173
+    "components": 127,
+    "concepts": 154,
+    "observations": 156,
+    "repos": 25,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -23,7 +23,6 @@
     "bioconda/bioconda-recipes",
     "clangd/clangd",
     "conda-forge/miniforge",
-    "devcontainers/features",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
@@ -31,14 +30,13 @@
     "docker-library/official-images",
     "docker-library/postgres",
     "dtcooper/raspotify",
-    "git-quick-stats/git-quick-stats",
     "google/adk-docs",
-    "nix-community/nix-direnv",
     "nodenv/nodenv",
     "pacstall/pacstall",
     "pypa/manylinux",
     "rocker-org/rocker",
     "rvm/rvm",
+    "sublimehq/Packages",
     "void-linux/void-packages",
     "zsh-users/zsh-completions"
   ]

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 100,
+    "components": 135,
     "concepts": 22,
     "observations": 22,
-    "repos": 9,
+    "repos": 10,
     "terms": 22
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
+    "featherbread/hypcast-v1",
     "Freed-Wu/coc-write-good",
     "kong/proxy-wasm-assemblyscript-rate-limiting",
     "mgr0dzicki/cargo-semver-checks-action",

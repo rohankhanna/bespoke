@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 16,
-    "terms": 67
+    "components": 37,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 19,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -20,8 +20,10 @@
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
+    "Efficient-ML/Awesome-Model-Quantization",
     "FasterXML/jackson",
     "flathub/flathub",
+    "godotengine/awesome-godot",
     "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
     "QwenLM/Qwen3.6",
@@ -29,6 +31,7 @@
     "rust-embedded/awesome-embedded-rust",
     "rust-embedded/wg",
     "rustsec/advisory-db",
-    "shuaibiyy/awesome-tf"
+    "shuaibiyy/awesome-tf",
+    "web-padawan/awesome-lit"
   ]
 }

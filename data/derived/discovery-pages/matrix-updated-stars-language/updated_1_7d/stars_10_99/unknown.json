@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 7,
-    "terms": 19
+    "components": 49,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 9,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "BioContainers/multi-package-containers",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "jupyterlab/frontends-team-compass",
+    "prefix-dev/rattler-build-action",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
+    "standardrb/standard-ruby-action",
     "uxlfoundation/foundation"
   ]
 }

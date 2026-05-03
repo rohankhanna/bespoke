@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 236,
-    "concepts": 122,
-    "observations": 122,
+    "components": 229,
+    "concepts": 120,
+    "observations": 120,
     "repos": 49,
-    "terms": 122
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -27,6 +27,7 @@
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
     "benomahony/oil-git.nvim",
+    "bokeh/tutorial",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
@@ -34,13 +35,12 @@
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
+    "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
     "GoogleCloudPlatform/getting-started-dotnet",
     "hedronvision/bazel-make-cc-https-easy",
-    "hspec/sensei",
     "Humans-of-Julia/StaticWebPages.jl",
     "jakewvincent/texmagic.nvim",
-    "JezerM/oil-lsp-diagnostics.nvim",
     "jmespath/jmespath.site",
     "jpmml/r2pmml",
     "jruby/maven-tools",

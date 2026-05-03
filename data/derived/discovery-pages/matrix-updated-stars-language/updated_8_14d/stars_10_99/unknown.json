@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 74,
-    "observations": 75,
-    "repos": 20,
-    "terms": 73
+    "components": 77,
+    "concepts": 72,
+    "observations": 73,
+    "repos": 18,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "containerd/project",
@@ -22,12 +22,10 @@
     "goharbor/community",
     "google/oss-policies-info",
     "mypyc/mypyc-benchmark-results",
-    "pre-commit/mirrors-eslint",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
     "sigstore/community",
-    "simonw/simonwillisonblog-backup",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 147,
-    "observations": 149,
-    "repos": 34,
-    "terms": 147
+    "components": 210,
+    "concepts": 148,
+    "observations": 151,
+    "repos": 36,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
+    "attackgoat/vk-graph",
     "bet4it/udbserver",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
@@ -25,19 +26,20 @@
     "dtolnay/trybuild",
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
+    "filecoin-project/bellperson",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
     "IWANABETHATGUY/tower-lsp-boilerplate",
-    "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
     "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "Nugine/simd",
+    "PistonDevelopers/glfw-rs",
     "posit-dev/air",
     "prisma/tiberius",
     "quickwit-oss/tantivy-cli",

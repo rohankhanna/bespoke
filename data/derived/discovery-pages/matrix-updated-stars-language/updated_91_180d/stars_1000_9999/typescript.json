@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 608,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 21,
-    "terms": 124
+    "components": 695,
+    "concepts": 129,
+    "observations": 130,
+    "repos": 24,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "blacksmithgu/obsidian-dataview",
     "EventSource/eventsource",
     "glimmerjs/glimmer-vm",
     "google-github-actions/auth",
@@ -23,6 +24,7 @@
     "kentcdodds/cross-env",
     "labring/laf",
     "lokerl/tts-vue",
+    "MarshallOfSound/electron-devtools-installer",
     "msgpack/msgpack-javascript",
     "numman-ali/openskills",
     "obsidianmd/obsidian-sample-plugin",
@@ -32,6 +34,7 @@
     "ricky0123/vad",
     "shareAI-lab/Kode-Agent",
     "tancredi/fantasticon",
+    "unplugin/unplugin-auto-import",
     "unplugin/unplugin-icons",
     "vercel/ms",
     "WebAV-Tech/WebAV"

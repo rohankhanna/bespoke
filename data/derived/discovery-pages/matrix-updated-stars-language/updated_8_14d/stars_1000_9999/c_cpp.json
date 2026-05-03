@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 981,
-    "concepts": 956,
-    "observations": 957,
-    "repos": 114,
-    "terms": 949
+    "components": 964,
+    "concepts": 922,
+    "observations": 923,
+    "repos": 112,
+    "terms": 915
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -33,7 +33,6 @@
     "CLIUtils/CLI11",
     "cloudflare/workerd",
     "contour-terminal/contour",
-    "DanBloomberg/leptonica",
     "danmar/cppcheck",
     "diffblue/cbmc",
     "doctest/doctest",
@@ -57,9 +56,7 @@
     "google/tcmalloc",
     "halide/Halide",
     "herumi/xbyak",
-    "HypoPG/hypopg",
     "ibireme/yyjson",
-    "infiniflow/infinity",
     "intel/compute-runtime",
     "jarro2783/cxxopts",
     "jbeder/yaml-cpp",
@@ -104,7 +101,6 @@
     "open-source-parsers/jsoncpp",
     "openssh/openssh-portable",
     "openxla/xla",
-    "plasma-umass/coz",
     "pnggroup/libpng",
     "pytorch/FBGEMM",
     "pytorch/gloo",
@@ -119,6 +115,7 @@
     "sqlite/sqlite",
     "strukturag/libheif",
     "sveinbjornt/Platypus",
+    "tevador/RandomX",
     "tsujan/Kvantum",
     "uccl-project/uccl",
     "uNetworking/uWebSockets.js",
@@ -127,6 +124,7 @@
     "WebAssembly/wasi-libc",
     "wireshark/wireshark",
     "yaml/libyaml",
-    "zeux/meshoptimizer"
+    "zeux/meshoptimizer",
+    "zeux/pugixml"
   ]
 }

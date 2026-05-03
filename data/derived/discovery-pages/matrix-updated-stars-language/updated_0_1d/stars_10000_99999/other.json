@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 10,
-    "terms": 108
+    "components": 41,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 8,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "anthropics/claude-cookbooks",
-    "BasedHardware/omi",
-    "crystal-lang/crystal",
-    "github-linguist/linguist",
-    "logseq/logseq",
-    "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-    "mdn/content",
-    "rubocop/rubocop",
+    "2dust/v2rayNG",
+    "adityatelange/hugo-PaperMod",
+    "Devolutions/UniGetUI",
+    "exelban/stats",
     "swiftlang/swift",
-    "triton-lang/triton"
+    "swiftlang/swift-evolution",
+    "triton-lang/triton",
+    "upptime/upptime"
   ]
 }

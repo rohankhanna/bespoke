@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 12,
-    "terms": 26
+    "concepts": 35,
+    "observations": 35,
+    "repos": 13,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "Aedelon/claude-code-blueprint",
+    "beehive-lab/docker-tornadovm",
     "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
     "conda-forge/spacy-feedstock",

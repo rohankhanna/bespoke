@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 16,
+    "components": 14,
     "concepts": 17,
     "observations": 17,
-    "repos": 14,
+    "repos": 17,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,18 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "bell-sw/osv-database",
     "cachix/iocraft",
+    "conda-forge/captum-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
     "danielrosehill/Claude-Code-Plugins",
-    "eslint/.github",
+    "danielrosehill/Subindices",
+    "eddelbuettel/r2u-config",
     "flathub/org.gnome.eog",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "kyverno/community",
     "oobabooga/screenshots",
     "openwebdocs/mdn-bcd-results",
     "scalar/starter",

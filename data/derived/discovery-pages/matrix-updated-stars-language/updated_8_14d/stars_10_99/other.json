@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 645,
-    "concepts": 403,
-    "observations": 403,
-    "repos": 91,
-    "terms": 410
+    "concepts": 411,
+    "observations": 411,
+    "repos": 90,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -24,7 +24,6 @@
     "aquasecurity/trivy-checks",
     "ast-grep/ast-grep.github.io",
     "aws-otel/aws-otel.github.io",
-    "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
     "babashka/babashka.nrepl",
@@ -34,7 +33,7 @@
     "cbrgm/githubevents",
     "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
-    "chaos2cured/freelattice",
+    "cloudfoundry/bosh-azure-cpi-release",
     "connectbot/termlib",
     "dart-lang/core",
     "dart-lang/i18n",
@@ -48,7 +47,9 @@
     "foxoman/zed-nim",
     "fredrikekre/runic-action",
     "ganelson/intest",
+    "gazebosim/gz-cmake",
     "gopasspw/gopass-summon-provider",
+    "guoqingbao/attention.rs",
     "habamax/.vim",
     "harfbuzz/uharfbuzz",
     "hashicorp/web-unified-docs",
@@ -58,6 +59,7 @@
     "ibmruntimes/zoslib",
     "ipfs/distributions",
     "julia-actions/julia-format",
+    "JuliaArrays/StaticArraysCore.jl",
     "JuliaCI/BaseBenchmarks.jl",
     "JuliaDocs/DocumentationGenerator.jl",
     "JuliaDocs/DocumenterCitations.jl",
@@ -67,10 +69,8 @@
     "jupyterlab/extension-template",
     "kahliburke/Kaimon.jl",
     "kata-containers/www.katacontainers.io",
-    "lewis6991/async.nvim",
     "lxqt/lxqt-build-tools",
     "meta-pytorch/executorch-examples",
-    "Mic92/nur-packages",
     "mrjones2014/codesettings.nvim",
     "nodenv/homebrew-nodenv",
     "NVIDIA/spark-rapids-tools",
@@ -97,7 +97,6 @@
     "squeak-smalltalk/squeak.org",
     "standardrb/standard-performance",
     "status-im/nim-eth",
-    "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror",
     "theseyan/lmdbx-zig",
     "uvarc/rivanna-docker",

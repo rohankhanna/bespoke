@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 16
+    "components": 167,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "alibaba/ice",
     "AndyMik90/Aperant",
     "GoogleChromeLabs/squoosh",
     "humanlayer/humanlayer",

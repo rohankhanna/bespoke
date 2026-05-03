@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1846,
-    "concepts": 363,
-    "observations": 363,
-    "repos": 56,
-    "terms": 391
+    "components": 1762,
+    "concepts": 364,
+    "observations": 364,
+    "repos": 53,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
+    "antfu/starter-ts",
     "anthropics/claude-code-base-action",
     "astral-sh/ruff-action",
     "aws-samples/swift-chat",
@@ -42,14 +43,12 @@
     "Kong/kong-manager",
     "kysely-org/kysely-ctl",
     "lerna-lite/lerna-lite",
-    "lobehub/lobe-chat-plugins",
     "logux/client",
     "maltsev/htmlnano",
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
     "microsoft/TypeScript-DOM-lib-generator",
-    "napi-rs/package-template",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
@@ -67,8 +66,6 @@
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
-    "tombii/better-ccflare",
-    "tony1223/better-agent-terminal",
-    "vibe-log/vibe-log-cli"
+    "tony1223/better-agent-terminal"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 957,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 37,
-    "terms": 166
+    "components": 1014,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 41,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "agents-squads/squads-cli",
     "ava-labs/avalanche-dapp-sdks",
@@ -24,18 +25,21 @@
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
+    "codemirror/language",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
-    "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
     "GreptimeTeam/greptimedb-grafana-datasource",
     "haskell-actions/setup",
+    "haskell/ghcup-setup",
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
     "ipfs/ipld-explorer-components",
+    "ipikuka/rehype-highlight-code-lines",
+    "ipikuka/remark-flexible-containers",
     "jerseycheese/narraitor",
     "labring/fastgpt-plugin",
     "lobehub/lobe-lint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 48,
-    "terms": 126
+    "components": 96,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 53,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -33,6 +33,7 @@
     "eclipse-acute/aCute",
     "eclipse-archived/dartboard",
     "editorconfig/editorconfig-core-java",
+    "ePages-de/restdocs-wiremock",
     "extism/chicory-sdk",
     "extism/java-sdk",
     "f4b6a3/ksuid-creator",
@@ -40,6 +41,7 @@
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
     "h2oai/h2o-droplets",
+    "heiher/socks5",
     "iamolegga/react-native-launch-arguments",
     "imfangs/langgraph4j-deep-researcher",
     "jchambers/id-obfuscator",
@@ -47,11 +49,14 @@
     "JetBrains/spotbugs-intellij-plugin",
     "JodaOrg/joda-time-jsptags",
     "marbl/MHAP",
+    "metaloom/qdrant-java-client",
     "mikepapadim/llama2.tornadovm.java",
     "MSPaintIDE/NewOCR",
+    "osirrc/ciff",
     "Parquet/parquet-compatibility",
     "rahsheen/react-native-template-redux-typescript",
     "redis-developer/redis-om-spring-skeleton-app",
+    "RESTDocsEXT/restdocsext-jersey",
     "ruby-processing/JRubyArt",
     "setl/rdf-urdna",
     "shire-lang/shire-demo",

@@ -16,13 +16,14 @@
       "size": 1317
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:55:53.378149+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "pedromtcosta/FluentAssertions.CSharpFunctionalExtensions",
+    "full_name": "pedromtcosta/fluentassertions.csharpfunctionalextensions",
     "html_url": "https://github.com/pedromtcosta/FluentAssertions.CSharpFunctionalExtensions",
     "language": "C#",
     "pushed_at": "2021-11-03T20:59:02Z",

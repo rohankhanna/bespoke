@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 3,
-    "terms": 23
+    "components": 131,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 4,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "electron/packager",
-    "smithy-lang/smithy-typescript",
-    "wevm/abitype"
+    "AgnosticUI/agnosticui",
+    "SkepticMystic/breadcrumbs",
+    "sumup-oss/circuit-ui",
+    "unjs/listhen"
   ]
 }

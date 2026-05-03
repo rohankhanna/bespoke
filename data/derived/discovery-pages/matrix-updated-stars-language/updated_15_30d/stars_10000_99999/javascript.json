@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 909,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 25,
-    "terms": 134
+    "components": 1101,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 30,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ai/nanoid",
     "Automattic/node-canvas",
     "avajs/ava",
     "avwo/whistle",
     "be5invis/Sarasa-Gothic",
+    "bmad-code-org/bmad-method",
     "browserslist/browserslist",
     "ConardLi/easy-dataset",
     "graphql/graphql-spec",
-    "hapijs/hapi",
+    "http-party/http-server",
     "immerjs/immer",
     "jantimon/html-webpack-plugin",
+    "jarrodwatts/claude-hud",
     "jashkenas/underscore",
+    "karma-runner/karma",
     "motdotla/dotenv",
+    "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "preactjs/preact",
@@ -37,6 +41,7 @@
     "vega/vega",
     "vercel-labs/agent-skills",
     "vuejs/vue-router",
+    "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
     "yarnpkg/yarn"
   ]

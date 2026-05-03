@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1280,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 39,
-    "terms": 285
+    "components": 1389,
+    "concepts": 298,
+    "observations": 298,
+    "repos": 41,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "amperser/proselint",
     "apache/cordova-android",
@@ -43,11 +43,13 @@
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
     "release-it/release-it",
+    "reZach/secure-electron-template",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "sindresorhus/np",
     "tc39/test262",
     "tchx84/Flatseal",
+    "testem/testem",
     "thlorenz/doctoc",
     "tw-in-js/twind",
     "vizzuhq/vizzu-lib",

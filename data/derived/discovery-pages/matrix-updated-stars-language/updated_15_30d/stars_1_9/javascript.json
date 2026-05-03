@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 23,
-    "terms": 143
+    "components": 271,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 28,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -30,12 +30,17 @@
     "ehmicky/fetch-node-website",
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
+    "erichlof/Glider-Ball-3D",
     "gr2m/octokit-oauth-app-begin-example",
     "graphql/community-wg",
+    "hchiam/code-inspiration",
+    "hchiam/learning-js",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
     "poolifier/tatami-ng",
+    "seunghunbae-3svs/solo-cto-agent",
+    "stdlib-js/ndarray-array",
     "Taritsyn/AutoprefixerHost"
   ]
 }

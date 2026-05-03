@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 20,
-    "terms": 68
+    "components": 410,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 21,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
+    "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
     "googleapis/nodejs-error-reporting",
     "gr2m/octokit-oauth-app-now-example",

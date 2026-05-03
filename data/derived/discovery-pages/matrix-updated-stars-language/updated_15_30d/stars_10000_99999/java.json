@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 4,
-    "terms": 31
+    "components": 16,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "google/auto",
     "google/guava",
-    "Konloch/bytecode-viewer",
     "termux/termux-app"
   ]
 }

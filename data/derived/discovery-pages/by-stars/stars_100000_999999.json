@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 1916,
-    "concepts": 533,
-    "observations": 536,
-    "repos": 58,
-    "terms": 567
+    "components": 1921,
+    "concepts": 552,
+    "observations": 555,
+    "repos": 59,
+    "terms": 587
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "2dust/v2rayN",
     "996icu/996.ICU",
     "affaan-m/everything-claude-code",
     "airbnb/javascript",

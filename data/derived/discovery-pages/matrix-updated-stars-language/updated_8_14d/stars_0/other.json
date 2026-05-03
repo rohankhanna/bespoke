@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 14,
-    "terms": 15
+    "components": 30,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 15,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AdaCore/vss-extra",
     "b2agi/exist-is-charter",
@@ -20,13 +20,14 @@
     "danielrosehill/AI-Ideation-Runs",
     "danielrosehill/Geopol-Forecast-Council",
     "danielrosehill/Github-Ideas-And-FRs",
+    "danielrosehill/Responsible-Agent-Skill-Development",
     "firestryk/chatgpt-website.github.io",
     "genuslovoacalixtusiii510/ytp-2026",
     "markoswire/remember-me.ai",
     "regro/cf-graph-countyfair",
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",
-    "Strivin0311/strivin0311.github.io",
-    "wblondel/blog"
+    "stable-haskell/haskell-language-server",
+    "Strivin0311/strivin0311.github.io"
   ]
 }

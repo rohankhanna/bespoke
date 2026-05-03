@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 153,
-    "observations": 153,
-    "repos": 23,
-    "terms": 145
+    "components": 166,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 26,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -20,7 +20,10 @@
     "davatorium/rofi",
     "deepseek-ai/FlashMLA",
     "g-truc/glm",
+    "gabime/spdlog",
+    "google/flatbuffers",
     "google/sanitizers",
+    "google/skia",
     "haiwen/seafile",
     "jedisct1/libsodium",
     "mawww/kakoune",
@@ -28,11 +31,11 @@
     "ninja-build/ninja",
     "nlohmann/json",
     "nothings/stb",
-    "NVIDIA/open-gpu-kernel-modules",
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
     "pgvector/pgvector",
+    "pybind/pybind11",
     "taichi-dev/taichi",
     "tmux/tmux",
     "tsl0922/ttyd",

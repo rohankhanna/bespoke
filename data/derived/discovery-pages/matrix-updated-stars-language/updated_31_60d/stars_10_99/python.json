@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 197,
+    "components": 191,
     "concepts": 129,
     "observations": 129,
-    "repos": 45,
+    "repos": 47,
     "terms": 128
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -24,16 +24,13 @@
     "Azure-Samples/azureai-travel-agent-python",
     "bentoml/openllm-models",
     "BoosterRobotics/booster_assets",
+    "BoosterRobotics/booster_train",
     "c4ffein/realworld-django-ninja",
-    "chaoss/grimoirelab-cereslib",
-    "chaoss/grimoirelab-graal",
-    "chaoss/grimoirelab-kidash",
     "ckan/ckanext-xloader",
     "ckan/datapusher",
     "cldf/segments",
     "clearml/clearml-session",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
-    "corl-team/VL-DAC",
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
@@ -44,10 +41,13 @@
     "inducer/codepy",
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
+    "KratosMultiphysics/Examples",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
+    "microsoft/vscode-azurecli",
     "networkx/nx-parallel",
     "nousresearch/tinker-atropos",
+    "optuna/optunahub",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
     "python-pillow/pillow-perf",
@@ -58,6 +58,8 @@
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
-    "w1ndys/ex-cure-skill"
+    "w1ndys/ex-cure-skill",
+    "weaviate/agent-skills",
+    "xuanyuzhang21/VQ-Insight"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 212,
-    "observations": 213,
-    "repos": 78,
-    "terms": 211
+    "components": 287,
+    "concepts": 233,
+    "observations": 234,
+    "repos": 90,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -25,6 +25,7 @@
     "adobe-type-tools/aots",
     "ahrvoje/numerics",
     "aki-0929/PaddleOCRJson.NET",
+    "apache/datasketches-python",
     "apache/rocketmq-apis",
     "apostrophecms/starter-kit-astro-apollo",
     "Arthur944/neotest-bun",
@@ -32,12 +33,16 @@
     "ayrat555/cargo-mode",
     "bhftbootcamp/YYJSON.jl",
     "bitbeans/minisign-net",
+    "bwya77/obsidian-baseline-customization",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "Cle2ment/CherryStudio_themes",
     "cleanlab/cleanvision-examples",
+    "cloudfoundry/cf-uaa-lib",
+    "cmacdonald/pyt_splade",
     "ColinKennedy/mega.cmdparse",
     "darrelmiller/sharpa2a",
+    "djjolicoeur/datamaps",
     "donny741/ruby-lsp-factory_bot",
     "drowzy/protobuf_generate",
     "dwyl/elixir-auth-microsoft",
@@ -52,9 +57,13 @@
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "gregorias/toggle.nvim",
     "GunnarFarneback/LocalPackageServer.jl",
+    "hspec/sensei",
     "jaegertracing/docker-protobuf",
     "JamieMair/MuJoCo.jl",
+    "JezerM/oil-lsp-diagnostics.nvim",
     "Jorenar/minPlug",
+    "JuliaGraphics/ColorTypes.jl",
+    "JuliaGtk/Gtk4Makie.jl",
     "JuliaLogging/ProgressLogging.jl",
     "kigster/puma-daemon",
     "ligershark/WebOptimizer.Sass",
@@ -67,14 +76,15 @@
     "mirage/ocaml-uri",
     "mosn/mosn.io",
     "mvz/non-digest-assets",
+    "NielsRogge/tutorials",
     "nikitabobko/brew-install-path",
     "NorfairKing/feedback",
     "opencontainers/oci-conformance",
     "opensim-org/opensim-models",
     "pagedjs/pagedjs-cli",
+    "patterns-ai-core/qdrant-ruby",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
-    "redis-stack/helm-redis-stack",
     "reisub/http_cookie",
     "rejeep/ansi.el",
     "rocker-org/binder",
@@ -84,6 +94,7 @@
     "status-im/nim-json-serialization",
     "status-im/nim-nat-traversal",
     "status-im/nim-toml-serialization",
+    "terrierteam/pyterrier_doc2query",
     "travis-ci/travis-hub",
     "travis-ci/travis-listener",
     "travis-ci/travis-logs",
@@ -91,6 +102,7 @@
     "viafintech/gcra-ruby",
     "webdataset/WebDataset.jl",
     "XR-Robotics/XRoboToolkit-Unity-Client",
-    "Xuyuanp/yanil"
+    "Xuyuanp/yanil",
+    "yamachu/VoicevoxEngineSharp"
   ]
 }

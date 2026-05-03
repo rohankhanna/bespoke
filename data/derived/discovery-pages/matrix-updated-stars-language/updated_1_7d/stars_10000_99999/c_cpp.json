@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 358,
-    "concepts": 488,
-    "observations": 489,
-    "repos": 40,
-    "terms": 485
+    "components": 382,
+    "concepts": 519,
+    "observations": 520,
+    "repos": 43,
+    "terms": 519
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/brpc",
@@ -29,10 +29,10 @@
     "coturn/coturn",
     "dcloudio/uni-app",
     "dmlc/xgboost",
+    "duckdb/duckdb",
     "espressif/arduino-esp32",
     "FFmpeg/FFmpeg",
     "google-ai-edge/mediapipe",
-    "google-deepmind/mujoco",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
@@ -40,16 +40,19 @@
     "jemalloc/jemalloc",
     "jqlang/jq",
     "k2-fsa/sherpa-onnx",
+    "libsdl-org/SDL",
     "libuv/libuv",
     "lightgbm-org/LightGBM",
     "LostRuins/koboldcpp",
+    "micropython/micropython",
     "mongodb/mongo",
+    "mozilla-ai/llamafile",
     "oceanbase/oceanbase",
     "opencv/opencv",
     "openframeworks/openFrameworks",
+    "openvinotoolkit/openvino",
     "qmk/qmk_firmware",
     "SerenityOS/serenity",
-    "simdjson/simdjson",
     "swaywm/sway",
     "v8/v8",
     "winsiderss/systeminformer",

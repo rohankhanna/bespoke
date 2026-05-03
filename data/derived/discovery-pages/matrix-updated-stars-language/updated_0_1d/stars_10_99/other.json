@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 24
+    "components": 63,
+    "concepts": 51,
+    "observations": 54,
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "bladeacer/flexcyon",
+    "countries/countries-data-json",
     "davidanthoff/Electron.jl",
-    "hercules-ci/flake.parts-website",
+    "haskell/ghcup-metadata",
     "lumen-oss/luarocks-tag-release",
-    "pivotal/credhub-release"
+    "MSP-Greg/ruby-loco",
+    "ruby/jruby-dev-builder",
+    "ruby/ruby-dev-builder",
+    "tinted-theming/tinted-xresources"
   ]
 }

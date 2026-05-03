@@ -4,7 +4,7 @@
     "concepts": 211,
     "observations": 212,
     "repos": 26,
-    "terms": 212
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -31,9 +31,9 @@
     "googleapis/google-api-java-client",
     "googleapis/google-http-java-client",
     "jboss-javassist/javassist",
+    "junit-team/junit4",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
-    "peergos/peergos",
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
     "soot-oss/soot",

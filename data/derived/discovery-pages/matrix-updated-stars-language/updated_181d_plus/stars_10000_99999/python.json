@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 228,
-    "concepts": 444,
-    "observations": 444,
-    "repos": 78,
-    "terms": 439
+    "concepts": 455,
+    "observations": 455,
+    "repos": 81,
+    "terms": 450
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "albumentations-team/albumentations",
@@ -74,9 +74,12 @@
     "NVlabs/stylegan2",
     "open-mmlab/mmdetection",
     "openai/baselines",
+    "openai/chatgpt-retrieval-plugin",
     "openai/gpt-2",
+    "openai/spinningup",
     "OpenGVLab/InternVL",
     "OpenMOSS/MOSS",
+    "OpenTalker/SadTalker",
     "pallets/jinja",
     "piskvorky/gensim",
     "pytorch/examples",

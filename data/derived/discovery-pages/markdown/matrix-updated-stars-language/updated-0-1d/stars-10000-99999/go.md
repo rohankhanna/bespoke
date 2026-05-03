@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 121
-- components: 199
-- concepts: 121
-- observations: 121
+- repos: 7
+- terms: 82
+- components: 99
+- concepts: 82
+- observations: 82
 
 ## Static behavior
 
@@ -26,26 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 22962 | 2026-05-02T01:13:24Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
-| [containers/podman](https://github.com/containers/podman) | 31565 | 2026-05-01T18:37:36Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 14866 | 2026-05-01T17:11:05Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [moby/moby](https://github.com/moby/moby) | 71524 | 2026-05-01T15:41:00Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [authelia/authelia](https://github.com/authelia/authelia) | 27670 | 2026-05-01T13:46:47Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 20 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 45980 | 2026-05-01T13:42:01Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 18 |
-| [gotify/server](https://github.com/gotify/server) | 14950 | 2026-05-01T13:27:17Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | 20211 | 2026-05-01T08:19:26Z | Go | Infrastructure/tooling | 22 | 74 | 22 | 22 |
-| [pulumi/pulumi](https://github.com/pulumi/pulumi) | 25126 | 2026-05-01T07:45:14Z | Go | Infrastructure/tooling | 19 | 22 | 19 | 19 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 14897 | 2026-05-03T03:30:28Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23013 | 2026-05-03T02:31:15Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
+| [containers/podman](https://github.com/containers/podman) | 31568 | 2026-05-03T00:44:01Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46013 | 2026-05-02T23:37:08Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 18 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22068 | 2026-05-02T16:06:39Z | Go | CLI | 11 | 10 | 11 | 11 |
+| [helm/helm](https://github.com/helm/helm) | 29773 | 2026-05-02T12:30:56Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
+| [istio/istio](https://github.com/istio/istio) | 38161 | 2026-05-02T08:19:06Z | Go | Infrastructure/tooling | 16 | 0 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [moby/moby](https://github.com/moby/moby) | 71524 | 2026-05-01T15:41:00Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 45980 | 2026-05-01T13:42:01Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 18 |
-| [containers/podman](https://github.com/containers/podman) | 31565 | 2026-05-01T18:37:36Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
-| [authelia/authelia](https://github.com/authelia/authelia) | 27670 | 2026-05-01T13:46:47Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 20 |
-| [pulumi/pulumi](https://github.com/pulumi/pulumi) | 25126 | 2026-05-01T07:45:14Z | Go | Infrastructure/tooling | 19 | 22 | 19 | 19 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 22962 | 2026-05-02T01:13:24Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | 20211 | 2026-05-01T08:19:26Z | Go | Infrastructure/tooling | 22 | 74 | 22 | 22 |
-| [gotify/server](https://github.com/gotify/server) | 14950 | 2026-05-01T13:27:17Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 14866 | 2026-05-01T17:11:05Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46013 | 2026-05-02T23:37:08Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 18 |
+| [istio/istio](https://github.com/istio/istio) | 38161 | 2026-05-02T08:19:06Z | Go | Infrastructure/tooling | 16 | 0 | 16 | 16 |
+| [containers/podman](https://github.com/containers/podman) | 31568 | 2026-05-03T00:44:01Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
+| [helm/helm](https://github.com/helm/helm) | 29773 | 2026-05-02T12:30:56Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23013 | 2026-05-03T02:31:15Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22068 | 2026-05-02T16:06:39Z | Go | CLI | 11 | 10 | 11 | 11 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 14897 | 2026-05-03T03:30:28Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |

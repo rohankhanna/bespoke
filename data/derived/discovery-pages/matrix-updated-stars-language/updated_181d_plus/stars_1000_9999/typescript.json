@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1289,
-    "concepts": 242,
-    "observations": 242,
-    "repos": 51,
-    "terms": 246
+    "components": 1688,
+    "concepts": 313,
+    "observations": 313,
+    "repos": 62,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
+    "101arrowz/fflate",
+    "alibaba/designable",
     "anse-app/anse",
     "anse-app/chatgpt-demo",
     "apollographql/graphql-tag",
@@ -24,8 +26,10 @@
     "astahmer/openapi-zod-client",
     "benjamn/ast-types",
     "benjamn/recast",
+    "bitjson/typescript-starter",
     "cevek/ttypescript",
     "CirclonGroup/angular-tree-component",
+    "cloudflare/miniflare",
     "ConsenSys-archive/ganache",
     "dethcrypto/TypeChain",
     "dilanx/craco",
@@ -48,14 +52,20 @@
     "jquery/esprima",
     "kentcdodds/babel-plugin-preval",
     "microsoft/BotFramework-Emulator",
+    "microsoft/botframework-solutions",
     "microsoft/dts-gen",
     "node-gh/gh",
     "nsfw-filter/nsfw-filter",
+    "nuxt/vite",
     "plantain-00/type-coverage",
     "redis/redis-om-node",
     "reduxjs/redux-templates",
+    "remotion-dev/github-unwrapped-2022",
     "rust-lang/vscode-rust",
     "serafimcloud/21st",
+    "sindresorhus/modern-normalize",
+    "sveltejs/sapper",
+    "sveltejs/svelte-preprocess",
     "tremorlabs/tremor",
     "tsdjs/tsd",
     "twibiral/obsidian-execute-code",
@@ -64,6 +74,7 @@
     "vercel/modelfusion",
     "vuejs/composition-api",
     "vuejs/vue-class-component",
-    "vuejs/vue-loader"
+    "vuejs/vue-loader",
+    "windicss/windicss"
   ]
 }

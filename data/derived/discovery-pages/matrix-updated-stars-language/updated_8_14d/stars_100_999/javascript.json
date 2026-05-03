@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1177,
-    "concepts": 261,
-    "observations": 268,
-    "repos": 43,
-    "terms": 260
+    "components": 1094,
+    "concepts": 253,
+    "observations": 260,
+    "repos": 44,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -22,6 +22,7 @@
     "aredridel/node-bin-gen",
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
+    "browserslist/update-db",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "ClickHouse/agent-skills",
@@ -33,14 +34,13 @@
     "dperini/nwsapi",
     "evenchange4/graphql.macro",
     "fastify/fastify-autoload",
-    "i18next/i18next-browser-languageDetector",
+    "GordonChen19/Prompt-Relay",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
     "i18next/i18next-http-middleware",
     "ipfs/aegir",
     "jupyter/nbclassic",
     "kurrent-io/KurrentDB-Client-NodeJS",
-    "lobehub/lobe-editor",
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "neostandard/neostandard",
@@ -51,6 +51,7 @@
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
+    "rooklift/ogatak",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",

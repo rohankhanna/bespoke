@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 11,
-    "terms": 48
+    "components": 52,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 13,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "amrsa1/Android-Emulator-image",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",
-    "lovell/sharp-libvips",
+    "heroku/base-images",
+    "heroku/heroku-buildpack-go",
+    "heroku/heroku-buildpack-java",
     "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
     "NVIDIA/enroot",
     "pacstall/pacstall-programs",
-    "rocker-org/rocker-versioned2"
+    "sclorg/s2i-php-container"
   ]
 }

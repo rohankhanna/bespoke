@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 130,
-    "observations": 132,
-    "repos": 30,
-    "terms": 131
+    "components": 162,
+    "concepts": 141,
+    "observations": 144,
+    "repos": 34,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -20,6 +20,7 @@
     "AtomaAI/atoma-infer",
     "bbqsrc/cargo-ndk",
     "bluss/matrixmultiply",
+    "browserslist/browserslist-rs",
     "Builditluc/wiki-tui",
     "DioxusLabs/sdk",
     "dtolnay/cargo-llvm-lines",
@@ -27,6 +28,8 @@
     "faradayio/cage",
     "guillaume-be/rust-tokenizers",
     "harfbuzz/ttf-parser",
+    "lerouxrgd/datachannel-rs",
+    "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
     "Manishearth/triomphe",
     "microsoft/rust_win_etw",
@@ -38,6 +41,7 @@
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
     "rust-lang/backtrace-rs",
+    "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",
     "stanislav-tkach/os_info",
     "typst/pdf-writer",

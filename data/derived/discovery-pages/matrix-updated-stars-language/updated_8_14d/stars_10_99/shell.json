@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 85,
-    "observations": 88,
-    "repos": 24,
-    "terms": 85
+    "components": 111,
+    "concepts": 91,
+    "observations": 94,
+    "repos": 23,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "AFLplusplus/cov-analysis",
@@ -27,16 +27,15 @@
     "cri-o/packaging",
     "dependabot/smoke-tests",
     "envoyproxy/examples",
-    "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
-    "nodenv/nodenv-package-rehash",
     "oneclick/rubyinstaller2-packages",
     "reviewdog/action-black",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
-    "sclorg/mariadb-container"
+    "sclorg/mariadb-container",
+    "tinted-theming/tinted-shell"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 25,
-    "terms": 49
+    "components": 31,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 26,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -23,7 +23,6 @@
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
-    "collective/awesome-volto",
     "eigenfoundation/elips",
     "flinedev/plankit",
     "ganelson/inform-evolution",
@@ -36,7 +35,9 @@
     "ocaml/platform-blog",
     "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
+    "pre-commit/mirrors-eslint",
     "SeleniumHQ/selenium_manager_artifacts",
+    "simonw/simonwillisonblog-backup",
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group"
   ]

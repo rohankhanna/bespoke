@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 21,
-    "terms": 88
+    "components": 124,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 24,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "aquasecurity/k8s-node-collector",
@@ -27,13 +27,16 @@
     "cloudwego/kitex-benchmark",
     "containerd/release-tool",
     "ctoth/claudio",
+    "cyberark/conjur-api-go",
     "depado/bfchroma",
     "estesp/mquery",
+    "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
     "hashicorp/vault-plugin-auth-kerberos",
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/tfadd",
-    "matelang/jwt-go-aws-kms"
+    "matelang/jwt-go-aws-kms",
+    "scaleway/serverless-examples"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 174,
-    "observations": 178,
-    "repos": 28,
-    "terms": 170
+    "components": 107,
+    "concepts": 157,
+    "observations": 161,
+    "repos": 27,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "alexandresanlim/Badges4-README.md-Profile",
+    "apache/spark",
     "AppFlowy-IO/AppFlowy",
     "apple/container",
     "AudioKit/AudioKit",
     "cmderdev/cmder",
     "dense-analysis/ale",
-    "devicons/devicon",
     "facebookresearch/dinov2",
     "facebookresearch/sam2",
     "fastai/fastai",
@@ -34,7 +34,6 @@
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "kubernetes/community",
-    "LazyVim/LazyVim",
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
     "nikitabobko/AeroSpace",

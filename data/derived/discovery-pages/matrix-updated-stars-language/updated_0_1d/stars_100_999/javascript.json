@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 1,
-    "terms": 9
+    "components": 88,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "mdn/fred"
+    "aws-cloudformation/cfn-lint-visual-studio-code",
+    "firebase/snippets-web",
+    "oss-serverless/serverless"
   ]
 }

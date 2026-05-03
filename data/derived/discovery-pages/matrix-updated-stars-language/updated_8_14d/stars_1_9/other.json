@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 33,
-    "terms": 92
+    "components": 137,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 35,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "actboy168/ltest",
     "apache/netbeans-antora-ui",
@@ -45,7 +45,9 @@
     "raku-community-modules/Terminal-WCWidth",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
+    "tinted-theming/base16-waybar",
     "tweag/gazelle_haskell_modules",
+    "v-iashin/v-iashin.github.io",
     "wavelens/gobgp.nix"
   ]
 }

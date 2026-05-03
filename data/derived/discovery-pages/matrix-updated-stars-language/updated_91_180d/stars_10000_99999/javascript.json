@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 7,
-    "terms": 37
+    "components": 254,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 8,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "caolan/async",
     "chalk/chalk",
     "emotion-js/emotion",
     "forwardemail/superagent",

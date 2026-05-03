@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1968,
-    "concepts": 447,
-    "observations": 449,
-    "repos": 63,
-    "terms": 443
+    "components": 2356,
+    "concepts": 529,
+    "observations": 531,
+    "repos": 77,
+    "terms": 525
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
+    "antfu/eslint-flat-config-utils",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
+    "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
@@ -26,10 +28,13 @@
     "decentralized-identity/did-resolver",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
+    "electron/packager",
+    "embroider-build/embroider",
     "engine262/engine262",
     "flathub-infra/website",
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
+    "fsouza/prettierd",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
     "gradle/actions",
@@ -37,12 +42,16 @@
     "heroku/cli",
     "huggingface/hf-mcp-server",
     "i18next/i18next-cli",
+    "intlify/bundle-tools",
+    "intlify/eslint-plugin-vue-i18n",
     "ipfs/js-ipfsd-ctl",
+    "jbaubree/vite-plugin-sitemap",
     "jsonwebtoken/jsonwebtoken.github.io",
     "julia-actions/setup-julia",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "microsoft/ai-chat-protocol",
+    "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "mightyiam/eslint-config-love",
@@ -57,6 +66,8 @@
     "octokit/auth-app.js",
     "octokit/graphql.js",
     "oxc-project/eslint-plugin-oxlint",
+    "privatenumber/get-tsconfig",
+    "radashi-org/radashi",
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
     "rstackjs/storybook-rsbuild",
@@ -64,6 +75,7 @@
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "sergiodxa/remix-i18next",
+    "smithy-lang/smithy-typescript",
     "stx-labs/stacks.js",
     "TanStack/config",
     "TanStack/devtools",
@@ -74,8 +86,10 @@
     "un-ts/prettier",
     "un-ts/synckit",
     "unjs/c12",
+    "unjs/unimport",
     "unplugin/unplugin-imagemin",
     "web-infra-dev/rslib",
-    "web-infra-dev/rstest"
+    "web-infra-dev/rstest",
+    "wevm/abitype"
   ]
 }

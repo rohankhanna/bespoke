@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 149,
-    "observations": 150,
-    "repos": 30,
-    "terms": 146
+    "components": 179,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 33,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "akheron/jansson",
+    "bblanchon/ArduinoJson",
     "brandur/redis-cell",
     "cocos/cocos-engine",
-    "emersion/slurp",
     "eradman/entr",
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
@@ -33,7 +34,9 @@
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
+    "mmorise/World",
     "OpenNMT/CTranslate2",
+    "pellepl/spiffs",
     "pganalyze/libpg_query",
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",

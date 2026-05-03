@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 58,
-    "terms": 91
+    "components": 144,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 63,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -28,6 +28,7 @@
     "clearbluejar/ghidra-pyi-generator",
     "cnescatlab/pylint-sonarjson-catlab",
     "CodeBoarding/atlassian-python-api",
+    "dani-maarouf/alembic_utils",
     "danielrosehill/AI-Agent-Ideation-Agent",
     "danielrosehill/AI-Assistant-Ideator",
     "danielrosehill/better-hashnode-backups",
@@ -36,12 +37,14 @@
     "danielrosehill/Feature-Ideas-And-Requests",
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "doc-doc/hcrn-bert",
+    "DSaurus/MVDream",
     "elladyr/myo_sim",
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
     "f-amerehi/eidolon",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
+    "HReynaud/stylegan-v",
     "humanpose1/deeppointcloud-benchmarks",
     "IEI-mjx/Yuan-2.0",
     "ikostrikov/d4rl",
@@ -50,6 +53,7 @@
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
     "liyuanlucasliu/fairseq",
+    "ltt1598/voxel-challenge",
     "luolin101/Visual-SWE-bench",
     "m4rc1e/test-ufr-family",
     "MattFisher/hangman-bench",
@@ -63,6 +67,7 @@
     "nim65s/git-archive-all",
     "niveditarufus/suadd",
     "nur-zaman/sd-webui-tunnels",
+    "perceval-backends/grimoirelab-perceval-airtable",
     "plone/cookiecutter-plone",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "redcaps-dataset/pytorch-retinaface",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 112,
-    "observations": 113,
-    "repos": 36,
-    "terms": 111
+    "components": 122,
+    "concepts": 134,
+    "observations": 135,
+    "repos": 44,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
@@ -23,12 +23,17 @@
     "bazelbuild/java_tools",
     "bigai-nlco/RuleReasoner",
     "camel-ai/seta",
+    "chaoss/grimoirelab-cereslib",
+    "chaoss/grimoirelab-graal",
+    "chaoss/grimoirelab-kidash",
     "ChenMnZ/INT_vs_FP",
     "CMBAgents/cmbagent",
     "Computer-use-agents/dart-gui",
+    "corl-team/VL-DAC",
     "cuiziteng/Luminance-GS",
     "Embarcadero/PythonEnvironments",
     "enjoy-digital/liteiclink",
+    "enjoy-digital/litex_hw_ci",
     "fla-org/flash-bidirectional-linear-attention",
     "galaxyproject/tools-devteam",
     "googlefonts/lang",
@@ -41,12 +46,15 @@
     "Lizw14/Super-CLEVR",
     "mohammadtavakoli78/beam",
     "Owen-Liuyuxuan/ros2_vision_inference",
+    "pfnet-research/tgan2",
     "shawn0728/ARES",
     "SLDGroup/LoMix",
+    "sympy/sympy-bot",
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
     "wamp-proto/wamp-xbr",
     "xplpc/xplpc",
+    "xuanyuzhang21/RALI",
     "yulewang97/ERDiff",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"

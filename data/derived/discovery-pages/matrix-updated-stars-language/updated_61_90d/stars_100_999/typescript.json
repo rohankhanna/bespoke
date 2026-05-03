@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 653,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 23,
-    "terms": 117
+    "components": 773,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 27,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "addyosmani/chatty",
     "antfu/changelogithub",
+    "antfu/eslint-plugin-command",
     "aymenfurter/ralph",
     "castwide/vscode-solargraph",
     "eckardt/cchistory",
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
+    "import-js/eslint-import-resolver-typescript",
     "janwilmake/openapi-mcp-server",
     "kamranahmedse/claude-run",
     "kutsan/stylelint-config-clean-order",
@@ -33,6 +35,8 @@
     "multiformats/js-multiformats",
     "niieani/gpt-tokenizer",
     "priceline/design-system",
+    "sveltejs/prettier-plugin-svelte",
+    "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
     "yandeu/five-server",

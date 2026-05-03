@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 595,
-    "observations": 595,
-    "repos": 146,
-    "terms": 586
+    "components": 432,
+    "concepts": 604,
+    "observations": 604,
+    "repos": 152,
+    "terms": 595
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -43,6 +43,7 @@
     "asg017/sqlite-html",
     "asg017/sqlite-http",
     "atsaki/termeter",
+    "aymerick/raymond",
     "Azure/aad-pod-identity",
     "BBVA/raft-badger",
     "benbjohnson/ego",
@@ -51,6 +52,7 @@
     "byrnedo/dockdash",
     "c-bata/goptuna",
     "chai2010/pbgo",
+    "chasefleming/elem-go",
     "chenyahui/gin-cache",
     "chronosphereio/calyptia-go-bubble-table",
     "ckaznocha/protoc-gen-lint",
@@ -90,6 +92,7 @@
     "google/gnostic-grpc",
     "goreleaser/godownloader",
     "gorilla/securecookie",
+    "gotify/cli",
     "gregjones/httpcache",
     "h2non/baloo",
     "hashicorp/terraform-provider-scaffolding",
@@ -98,6 +101,7 @@
     "Jille/raft-grpc-example",
     "jjf012/gopoc",
     "johanbrandhorst/grpc-gateway-boilerplate",
+    "joncalhoun/form",
     "josephspurrier/goversioninfo",
     "jsonnet-bundler/jsonnet-bundler",
     "karrick/godirwalk",
@@ -126,6 +130,7 @@
     "muesli/reflow",
     "namsral/flag",
     "Netflix/go-expect",
+    "NVIDIA/gpu-feature-discovery",
     "pkg/browser",
     "pulumi/automation-api-examples",
     "qri-io/jsonschema",
@@ -158,6 +163,7 @@
     "vmware-archive/buildkit-cli-for-kubectl",
     "vmware-archive/kubecfg",
     "vulkan-go/demos",
+    "wangjia184/sortedset",
     "webdataset/tarp",
     "ziutek/mymysql"
   ]

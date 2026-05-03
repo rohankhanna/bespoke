@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 491,
-    "concepts": 632,
-    "observations": 635,
-    "repos": 59,
-    "terms": 638
+    "components": 400,
+    "concepts": 574,
+    "observations": 577,
+    "repos": 54,
+    "terms": 581
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -27,7 +27,7 @@
     "citusdata/citus",
     "ClickHouse/ClickHouse",
     "curl/curl",
-    "emscripten-core/emscripten",
+    "davisking/dlib",
     "envoyproxy/envoy",
     "facebook/folly",
     "facebook/hhvm",
@@ -35,14 +35,11 @@
     "facebookresearch/faiss",
     "fmtlib/fmt",
     "FreeRDP/FreeRDP",
-    "gabime/spdlog",
     "git/git",
     "gnachman/iTerm2",
     "google/benchmark",
     "google/filament",
-    "google/flatbuffers",
     "google/sentencepiece",
-    "google/skia",
     "grpc/grpc",
     "Immediate-Mode-UI/Nuklear",
     "jonas/tig",
@@ -59,10 +56,8 @@
     "NixOS/nix",
     "ocornut/imgui",
     "openssl/openssl",
-    "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
     "px4/px4-autopilot",
-    "pybind/pybind11",
     "qemu/qemu",
     "raysan5/raylib",
     "redis/redis",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 20,
-    "terms": 24
+    "components": 37,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 29,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,21 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
     "alexcrichton/cc-rs",
     "cachix/nix-bindings-rust",
     "csjgg/ags-cookbook",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
+    "damacol/google-gemma-2-2b-it",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/xai-org-grok-2",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
@@ -27,7 +34,9 @@
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Deployments-Index",
+    "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Israel-Preparedness-Index",
+    "danielrosehill/My-Benchmarks",
     "kdn36/arrow-rs-object-store",
     "piebald-ai/piebald",
     "psmux/scoop-omp-manager",

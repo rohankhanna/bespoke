@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 36,
-    "terms": 94
+    "components": 62,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 41,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
@@ -42,9 +42,14 @@
     "julienledem/redelm",
     "krasa/EclipseCodeFormatter",
     "ksuid/ksuid",
+    "mapbox/mapbox-gl-native-android",
+    "mbosecke/template-benchmark",
     "MetaGLM/zhipuai-sdk-java-v4",
+    "microsoft/botbuilder-java",
     "mukel/llama2.java",
+    "netplex/json-smart-v2",
     "rpcx-ecosystem/rpcx-benchmark",
+    "ScaCap/spring-auto-restdocs",
     "snapcast/snapdroid",
     "timgifford/maven-buildtime-extension",
     "trustin/os-maven-plugin",

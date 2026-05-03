@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 170,
-    "observations": 172,
-    "repos": 64,
-    "terms": 161
+    "components": 61,
+    "concepts": 177,
+    "observations": 179,
+    "repos": 71,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
+    "antfu/dotfiles",
     "AppImageCommunity/pkg2appimage",
     "asdf-vm/asdf-plugin-template",
     "Azure-Samples/container-apps-store-api-microservice",
     "belak/prezto-contrib",
     "belak/zsh-utils",
+    "calcom/docker",
     "chinanf-boy/ripgrep-zh",
     "chriskempson/base16-shell",
     "chrismytton/shoreman",
     "coin-or/COIN-OR-OptimizationSuite",
+    "cokebar/gfwlist2dnsmasq",
     "CrossC2/CrossC2Kit",
     "cvdfoundation/kinetics-dataset",
     "danhper/fundle",
@@ -38,7 +41,9 @@
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "FabioAntunes/fish-nvm",
     "fastai/docker-containers",
+    "fsaintjacques/semver-tool",
     "gjaldon/heroku-buildpack-phoenix-static",
+    "Goles/Battery",
     "google-research-datasets/conceptual-captions",
     "googlefonts/rubik",
     "hashicorp/docker-vault",
@@ -48,6 +53,8 @@
     "ipfs/community",
     "ipfs/infra",
     "janmoesen/tilde",
+    "jcmvbkbc/crosstool-NG",
+    "jkjung-avt/jetson_nano",
     "jonmosco/kube-tmux",
     "joseluisq/gitnow",
     "joshmedeski/t-smart-tmux-session-manager",

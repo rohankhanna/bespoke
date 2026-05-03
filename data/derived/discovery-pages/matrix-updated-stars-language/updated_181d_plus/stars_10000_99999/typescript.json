@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 75,
-    "observations": 76,
-    "repos": 11,
-    "terms": 73
+    "components": 677,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 16,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "alibaba/formily",
     "bytebot-ai/bytebot",
     "cyclejs/cyclejs",
     "cyrildiagne/ar-cutpaste",
     "fuergaosi233/wechat-chatgpt",
+    "howdyai/botkit",
     "mckaywrigley/chatbot-ui",
     "ReactiveX/rxjs",
+    "reduxjs/redux-thunk",
+    "reduxjs/reselect",
     "styleguidist/react-styleguidist",
+    "TypeStrong/ts-node",
     "vuejs/devtools-v6",
     "web3/web3.js",
     "winfunc/opcode",

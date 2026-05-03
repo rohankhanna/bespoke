@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 27,
+    "components": 24,
     "concepts": 29,
     "observations": 29,
-    "repos": 12,
+    "repos": 10,
     "terms": 34
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
@@ -20,10 +20,8 @@
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",
-    "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "mohfer/nous-proxy",
-    "piqrypt/piqrypt-mcp-server",
     "roampal-ai/roampal-labs",
     "shubishere/ai-drawio"
   ]

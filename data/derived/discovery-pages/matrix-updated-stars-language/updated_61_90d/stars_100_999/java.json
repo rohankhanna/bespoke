@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 31
+    "components": 24,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 6,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aws-observability/aws-otel-community",
     "Azure-Samples/azure-search-openai-demo-java",
     "f4b6a3/tsid-creator",
     "f4b6a3/ulid-creator",
-    "jpmml/jpmml-evaluator",
     "peergos/nabu",
     "spring-ai-alibaba/deepresearch"
   ]

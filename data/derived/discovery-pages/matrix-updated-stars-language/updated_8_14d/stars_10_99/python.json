@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 144,
-    "observations": 146,
-    "repos": 43,
-    "terms": 157
+    "components": 317,
+    "concepts": 161,
+    "observations": 163,
+    "repos": 47,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AFD-Illinois/pyharm",
     "AI-Hypercomputer/pathways-utils",
@@ -24,13 +24,15 @@
     "atlanhq/application-sdk",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
+    "caketop/python-starlark-go",
     "carstencodes/simplepycons",
-    "castorini/umbrela",
+    "castorini/anserini-tools",
     "channel-io/ch-tts-llasa-rl-grpo",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "costiash/claude-code-docs",
     "crs4/rocrate-validator",
+    "datajuicer/data-juicer-agents",
     "DeterminateSystems/determinate-nix-action",
     "enjoy-digital/litex-acorn-baseboard",
     "ethstaker/ethstaker-deposit-cli",
@@ -38,6 +40,7 @@
     "GreptimeTeam/demo-scene",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
+    "instadeepai/fastpbrl",
     "jxpress/lightning-hydra-template-vertex-ai",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
@@ -49,6 +52,7 @@
     "OpenHands/benchmarks",
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
+    "plone/cookieplone",
     "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",

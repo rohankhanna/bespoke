@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 484,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 36,
-    "terms": 125
+    "components": 546,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 43,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
+    "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
     "AssemblyScript/wabt.js",
     "avwo/whistle-client",
+    "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",
     "CyberAP/nanoid-dictionary",
+    "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
@@ -35,8 +38,12 @@
     "kriszyp/cbor-x",
     "Level/abstract-level",
     "mafintosh/streamx",
+    "mapbox/cheap-ruler",
     "markdown-it/linkify-it",
     "microsoft/vscode-custom-data",
+    "mourner/flatqueue",
+    "mourner/kdbush",
+    "mourner/robust-predicates",
     "neverendingqs/serverless-dotenv-plugin",
     "npm/abbrev-js",
     "npm/rfcs",

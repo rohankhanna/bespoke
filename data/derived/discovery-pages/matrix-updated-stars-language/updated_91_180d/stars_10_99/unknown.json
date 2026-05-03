@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 40,
     "observations": 40,
-    "repos": 23,
+    "repos": 25,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "airlift/codestyle",
+    "AlefAlefAlef/gveret-levin",
     "astro/deadnix-action",
     "automazeio/open-royalties",
     "BingguangHao/BalanceSFT",
@@ -28,6 +29,7 @@
     "JaeZ1205/PS_NBI2k",
     "json-schema-org/.github",
     "Level/community",
+    "logseq/db-test",
     "NinaWie/COVID-BLUES",
     "oak-security/resources",
     "PyCQA/bandit-action",

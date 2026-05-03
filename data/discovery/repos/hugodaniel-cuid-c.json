@@ -16,13 +16,14 @@
       "size": 3957
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:56:24.386614+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Cuids are \"Collision-resistant ids optimized for horizontal scaling and binary search lookup performance.\"",
     "fork": false,
-    "full_name": "HugoDaniel/cuid-c",
+    "full_name": "hugodaniel/cuid-c",
     "html_url": "https://github.com/HugoDaniel/cuid-c",
     "language": "C",
     "pushed_at": "2021-08-18T10:17:48Z",

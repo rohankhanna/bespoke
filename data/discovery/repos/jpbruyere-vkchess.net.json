@@ -37,13 +37,14 @@
       "size": 126
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:56:31.782388+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "3D Stockfish Chess client powered by Vulkan",
     "fork": false,
-    "full_name": "jpbruyere/VkChess.net",
+    "full_name": "jpbruyere/vkchess.net",
     "html_url": "https://github.com/jpbruyere/VkChess.net",
     "language": "C#",
     "pushed_at": "2022-12-25T06:36:51Z",

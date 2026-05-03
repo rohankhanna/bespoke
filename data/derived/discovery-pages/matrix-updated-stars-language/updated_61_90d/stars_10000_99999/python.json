@@ -3,7 +3,7 @@
     "components": 63,
     "concepts": 87,
     "observations": 88,
-    "repos": 11,
+    "repos": 12,
     "terms": 87
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
     "ComposioHQ/awesome-claude-skills",
+    "facebookresearch/vggt",
     "FoundationAgents/OpenManus",
     "Jiayi-Pan/TinyZero",
     "KlingAIResearch/LivePortrait",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 342,
-    "observations": 345,
-    "repos": 52,
-    "terms": 340
+    "components": 290,
+    "concepts": 382,
+    "observations": 385,
+    "repos": 57,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -23,6 +23,7 @@
     "ceres-solver/ceres-solver",
     "CNugteren/CLBlast",
     "containers/crun",
+    "DanBloomberg/leptonica",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
     "ericniebler/range-v3",
@@ -30,8 +31,11 @@
     "go-gl/glfw",
     "google/draco",
     "google/honggfuzz",
+    "google/tensorstore",
     "google/woff2",
     "h2o/picohttpparser",
+    "HypoPG/hypopg",
+    "infiniflow/infinity",
     "inikep/lzbench",
     "intel/isa-l",
     "jolibrain/deepdetect",
@@ -51,6 +55,7 @@
     "NVIDIA/libnvidia-container",
     "OHF-Voice/piper1-gpl",
     "oneapi-src/oneAPI-samples",
+    "plasma-umass/coz",
     "posva/catimg",
     "risc0/risc0",
     "riscv-software-src/opensbi",

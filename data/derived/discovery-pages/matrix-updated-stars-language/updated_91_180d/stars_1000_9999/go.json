@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 25,
-    "terms": 142
+    "components": 102,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 26,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "achannarasappa/ticker",
     "ajvb/kala",
     "alexedwards/scs",
+    "ameshkov/dnslookup",
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
     "argoproj-labs/argocd-autopilot",

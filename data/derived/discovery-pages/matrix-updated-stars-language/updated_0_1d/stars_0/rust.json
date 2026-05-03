@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "components": 13,
+    "concepts": 4,
+    "observations": 4,
     "repos": 1,
-    "terms": 0
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T07:16:20.858706+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "aipurposes1587-max/weixin-agent-rs"
+    "lakekeeper/iceberg-rust"
   ]
 }

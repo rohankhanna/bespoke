@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 71,
-    "observations": 72,
-    "repos": 14,
-    "terms": 70
+    "components": 74,
+    "concepts": 72,
+    "observations": 73,
+    "repos": 15,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "apache/netbeans-nbpackage",
+    "apache/datasketches-hive",
+    "apache/datasketches-pig",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",

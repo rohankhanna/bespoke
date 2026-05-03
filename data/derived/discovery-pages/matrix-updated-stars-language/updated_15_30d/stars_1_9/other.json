@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 19,
-    "terms": 24
+    "components": 61,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 20,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "alstafeev/midscene-java",
     "ankane/seaduck",
-    "azure/homebrew-bicep",
     "Circuitscape/www.circuitscape.org",
     "cloudfoundry/cf-smoke-tests-release",
     "diffblue/homebrew-cbmc",
@@ -26,12 +25,14 @@
     "dpep/ice_age_rb",
     "dwyl/auth_plug_example",
     "dwyl/fields-demo",
-    "dwyl/ping",
     "hchiam/convenience",
     "joinwell52-ai/joinwell52",
+    "knopp/native_toolchain_ninja",
     "lemire/unicode_lipsum",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "mitchuski/agentprivacy-docs",
-    "Shougo/dpp-ext-lazy"
+    "ROCm/hipBLAS-common",
+    "Shougo/dpp-ext-lazy",
+    "tnc-ca-geo/animl-ml"
   ]
 }

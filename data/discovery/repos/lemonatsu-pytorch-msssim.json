@@ -16,13 +16,14 @@
       "size": 2531
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:56:31.463315+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "PyTorch differentiable Multi-Scale Structural Similarity (MS-SSIM) loss",
     "fork": true,
-    "full_name": "LemonATsu/pytorch-msssim",
+    "full_name": "lemonatsu/pytorch-msssim",
     "html_url": "https://github.com/LemonATsu/pytorch-msssim",
     "language": "Python",
     "pushed_at": "2021-12-07T06:59:53Z",

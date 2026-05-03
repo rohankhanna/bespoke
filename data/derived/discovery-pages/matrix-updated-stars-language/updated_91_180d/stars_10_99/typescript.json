@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 460,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 15,
-    "terms": 36
+    "components": 473,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 17,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "atom-yang/aumi",
+    "cahamilton/css-property-sort-order-smacss",
     "connectrpc/connect-playwright-es",
     "CyanSalt/commas",
     "dylibso/xtp-bindgen",
@@ -22,6 +23,7 @@
     "holochain/launcher",
     "iccicci/next-json",
     "ipfs/helia-http-gateway",
+    "isaacs/clock-mock",
     "janwilmake/oapis",
     "nanostores/angular",
     "redhat-developer/vscode-redhat-telemetry",

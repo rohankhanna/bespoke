@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
+    "components": 13,
+    "concepts": 7,
+    "observations": 7,
     "repos": 1,
-    "terms": 2
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "jfly/shtuff"
+    "Hiroshiba/voicevox_engine"
   ]
 }

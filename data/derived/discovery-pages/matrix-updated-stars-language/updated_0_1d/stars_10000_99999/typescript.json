@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 826,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 12,
-    "terms": 186
+    "components": 929,
+    "concepts": 172,
+    "observations": 174,
+    "repos": 13,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "aidenybai/react-scan",
     "apache/echarts",
-    "HumanSignal/label-studio",
+    "element-plus/element-plus",
+    "faker-js/faker",
     "jestjs/jest",
+    "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "QwikDev/qwik",
+    "puppeteer/puppeteer",
+    "reduxjs/redux-devtools",
     "remotion-dev/remotion",
     "ruvnet/ruflo",
-    "tailwindlabs/tailwindcss",
-    "TanStack/query",
-    "TanStack/router",
-    "TanStack/table"
+    "storybookjs/storybook",
+    "vuejs/vitepress",
+    "withastro/astro"
   ]
 }

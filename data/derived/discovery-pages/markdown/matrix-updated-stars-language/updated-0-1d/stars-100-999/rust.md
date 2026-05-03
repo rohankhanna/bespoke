@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Rust
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 31
-- components: 38
-- concepts: 31
-- observations: 31
+- repos: 3
+- terms: 9
+- components: 34
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,16 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/xet-core](https://github.com/huggingface/xet-core) | 477 | 2026-05-01T14:43:08Z | Rust | CLI | 9 | 10 | 9 | 9 |
-| [conda/rattler](https://github.com/conda/rattler) | 430 | 2026-05-01T11:56:58Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [servo/stylo](https://github.com/servo/stylo) | 269 | 2026-05-01T08:36:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Dicklesworthstone/asupersync](https://github.com/Dicklesworthstone/asupersync) | 156 | 2026-05-01T08:26:48Z | Rust | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-02T14:55:57Z | Rust | Infrastructure/tooling | 3 | 20 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 269 | 2026-05-02T13:39:01Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [z-galaxy/zbus](https://github.com/z-galaxy/zbus) | 682 | 2026-05-02T12:04:31Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/xet-core](https://github.com/huggingface/xet-core) | 477 | 2026-05-01T14:43:08Z | Rust | CLI | 9 | 10 | 9 | 9 |
-| [conda/rattler](https://github.com/conda/rattler) | 430 | 2026-05-01T11:56:58Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [servo/stylo](https://github.com/servo/stylo) | 269 | 2026-05-01T08:36:44Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Dicklesworthstone/asupersync](https://github.com/Dicklesworthstone/asupersync) | 156 | 2026-05-01T08:26:48Z | Rust | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [z-galaxy/zbus](https://github.com/z-galaxy/zbus) | 682 | 2026-05-02T12:04:31Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-02T14:55:57Z | Rust | Infrastructure/tooling | 3 | 20 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 269 | 2026-05-02T13:39:01Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

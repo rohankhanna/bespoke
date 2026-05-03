@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 27,
-    "terms": 110
+    "components": 115,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 29,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
@@ -35,9 +35,11 @@
     "ilyabrilev/biosim4",
     "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
+    "jupyter-xeus/xeus-zmq",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
     "microsoft/react-native-winrt",
+    "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
     "VeriSilicon/tflite-vx-delegate"

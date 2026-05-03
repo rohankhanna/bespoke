@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 11,
-    "terms": 40
+    "components": 72,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 16,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
+    "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-dotnet",
+    "heroku/heroku-buildpack-gradle",
+    "heroku/heroku-buildpack-jvm-common",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
-    "tinted-theming/tinted-shell",
+    "sclorg/s2i-perl-container",
+    "sclorg/s2i-ruby-container",
     "tinted-theming/tinted-terminal"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 269,
-    "observations": 270,
-    "repos": 53,
-    "terms": 258
+    "components": 172,
+    "concepts": 313,
+    "observations": 314,
+    "repos": 58,
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -23,6 +23,7 @@
     "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
     "ARISE-Initiative/robomimic",
+    "ARISE-Initiative/robosuite",
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
     "benjaminp/six",
@@ -37,6 +38,7 @@
     "davidhalter/jedi-vim",
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
+    "facebookresearch/habitat-lab",
     "google-deepmind/sonnet",
     "google/vizier",
     "graphql-python/graphene-django",
@@ -48,14 +50,17 @@
     "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
     "mosaicml/streaming",
+    "mozillazg/pinyin-data",
     "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "obsei/obsei",
     "open-webui/mcpo",
     "opencv/opencv-python",
     "PaddlePaddle/PaddleSeg",
     "pfnet/pfrl",
     "Python-Markdown/markdown",
     "python-semantic-release/python-semantic-release",
+    "pyusb/pyusb",
     "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
     "SafeAILab/EAGLE",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 15,
-    "terms": 35
+    "components": 75,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 17,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
+    "countries/countries-data-yaml",
     "haya14busa/github-used-by",
+    "hchiam/learning-ngrok",
     "hermit-os/hermit-gcc",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "objectbox/objectbox-swift-generator",

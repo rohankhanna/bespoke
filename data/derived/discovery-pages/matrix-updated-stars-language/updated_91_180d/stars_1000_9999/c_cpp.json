@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 232,
-    "observations": 232,
+    "components": 135,
+    "concepts": 231,
+    "observations": 231,
     "repos": 41,
-    "terms": 227
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
     "attractivechaos/klib",
+    "Blosc/c-blosc",
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
     "cjlin1/liblinear",
@@ -24,6 +25,7 @@
     "colmap/glomap",
     "cpputest/cpputest",
     "EKA2L1/EKA2L1",
+    "emersion/slurp",
     "flame/blis",
     "gflags/gflags",
     "github/cmark-gfm",
@@ -38,12 +40,12 @@
     "jedisct1/minisign",
     "jlblancoc/nanoflann",
     "libimobiledevice/libimobiledevice",
+    "libimobiledevice/usbmuxd",
     "libsndfile/libsndfile",
     "MaskRay/ccls",
     "MIT-SPARK/TEASER-plusplus",
     "naelstrof/maim",
     "nfrechette/acl",
-    "niessner/Matterport",
     "NixOS/patchelf",
     "nvim-telescope/telescope-fzf-native.nvim",
     "NVlabs/nvdiffrast",
@@ -51,8 +53,6 @@
     "openMVG/openMVG",
     "pothosware/SoapySDR",
     "rurban/smhasher",
-    "ScanNet/ScanNet",
-    "simonfuhrmann/mve",
     "sysstat/sysstat",
     "tpoechtrager/osxcross"
   ]

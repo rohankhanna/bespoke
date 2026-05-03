@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
+    "components": 100,
     "concepts": 44,
     "observations": 44,
-    "repos": 24,
-    "terms": 48
+    "repos": 28,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "agenmod/okr-skill",
@@ -28,8 +29,11 @@
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
+    "cjtruheart/abundance-codex",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Geopol-Forecaster",
+    "etanhey/brainlayer",
+    "gibdd-dps/prizolov-agent-os",
     "justinchuby/lintrunner-adapters",
     "kelp/webdown",
     "Mbed-TLS/mbedtls-framework",

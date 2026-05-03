@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 20,
     "observations": 20,
-    "repos": 10,
+    "repos": 11,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "ai-bot-pro/achatbot-go",
     "bizflycloud/karpenter-provider-bizflycloud",
     "codeGROOVE-dev/retry",
     "dbubel/intake",
+    "jpincas/htmlfunc",
     "karpeleslab/tpl",
     "Layr-Labs/optimism",
     "redis/go-redis-entraid",

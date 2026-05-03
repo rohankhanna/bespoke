@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 12,
-    "terms": 72
+    "components": 163,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 15,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "actions-cool/.github",
+    "actions-cool/test-issues-helper",
     "agent-sh/deslop",
     "agent-sh/ship",
     "brody2consult/react-native-init-func",
@@ -25,6 +27,7 @@
     "Level/supports",
     "Level/transcoder",
     "lucabubi/star-history",
-    "REditorSupport/vscode-R-syntax"
+    "REditorSupport/vscode-R-syntax",
+    "stdlib-js/array-typed"
   ]
 }

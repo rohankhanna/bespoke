@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 32,
-    "observations": 33,
-    "repos": 14,
-    "terms": 32
+    "components": 152,
+    "concepts": 35,
+    "observations": 36,
+    "repos": 16,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
@@ -20,9 +20,11 @@
     "dzeiocom/simple-icons-astro",
     "ember-cli/broccoli-caching-writer",
     "haskell-actions/run-ormolu",
+    "karma-runner/karma-qunit",
     "LuaLS/vscode-lua-doc",
     "markdown-it/markdown-it-abbr",
     "minikube-ci/examples",
+    "nodejs/Gzemnid",
     "Redocly/redocly-cli-cookbook",
     "rose-pine/build",
     "salesforcecli/status",

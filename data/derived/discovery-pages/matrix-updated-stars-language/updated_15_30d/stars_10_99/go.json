@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 112,
-    "observations": 114,
-    "repos": 32,
-    "terms": 110
+    "components": 171,
+    "concepts": 121,
+    "observations": 123,
+    "repos": 35,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -30,8 +30,11 @@
     "darkweak/storages",
     "depado/smallblog",
     "ethpandaops/xatu",
+    "featherbread/hypcast",
     "fgrehm/clotilde",
     "getlantern/.github",
+    "hashicorp/hcp-sdk-go",
+    "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
     "joshsymonds/cc-tools",

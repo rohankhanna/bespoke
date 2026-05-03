@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 116,
-    "observations": 116,
+    "components": 165,
+    "concepts": 133,
+    "observations": 133,
     "repos": 31,
-    "terms": 118
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
@@ -23,17 +22,19 @@
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
-    "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "f32c/tools",
+    "gazebosim/gz-fuel-tools",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
+    "libbitcoin/libbitcoin-network",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "Mbed-TLS/TF-PSA-Crypto",
     "milvus-io/milvus-sdk-cpp",
+    "narugit/smctemp",
     "nx10/unigd",
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
@@ -43,7 +44,6 @@
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "yoshoku/numo-narray-alt",
-    "yquake2/ref_vk",
     "yquake2/yquake2remaster"
   ]
 }

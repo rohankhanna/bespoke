@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1428,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 23,
-    "terms": 225
+    "components": 1523,
+    "concepts": 247,
+    "observations": 247,
+    "repos": 26,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "acornjs/acorn",
     "ampproject/amphtml",
     "Automattic/mongoose",
+    "CesiumGS/cesium",
     "facebook/hermes",
+    "faisalman/ua-parser-js",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
+    "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
-    "lint-staged/lint-staged",
+    "krisk/Fuse",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mochajs/mocha",

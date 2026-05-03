@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 13,
-    "terms": 74
+    "components": 93,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 16,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
+    "bol-van/zapret",
     "cloudwu/skynet",
     "esp8266/Arduino",
     "facebook/zstd",
@@ -26,6 +27,8 @@
     "libevent/libevent",
     "libgit2/libgit2",
     "lz4/lz4",
-    "mobile-shell/mosh"
+    "microsoft/AirSim",
+    "mobile-shell/mosh",
+    "NVIDIA/open-gpu-kernel-modules"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 17,
-    "terms": 39
+    "components": 90,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 21,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "appsignal/appsignal-elixir-plug",
@@ -20,16 +20,20 @@
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "dotenvx/homebrew-brew",
+    "fern-api/docs",
     "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
+    "holochain/holonix",
     "Humans-of-Julia/BibInternal.jl",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
+    "JuliaCI/rootfs-images",
+    "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
     "php-rdkafka/php-rdkafka-doc",
-    "tinted-theming/base16-waybar",
-    "v-iashin/v-iashin.github.io"
+    "stable-haskell/cabal",
+    "standardrb/standard-sorbet"
   ]
 }

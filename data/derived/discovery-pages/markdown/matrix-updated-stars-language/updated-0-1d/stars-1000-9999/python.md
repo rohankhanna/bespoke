@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 127
-- components: 129
-- concepts: 130
-- observations: 131
+- repos: 10
+- terms: 70
+- components: 86
+- concepts: 70
+- observations: 70
 
 ## Static behavior
 
@@ -26,34 +26,28 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1307 | 2026-05-02T06:45:53Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [NVIDIAGameWorks/kaolin](https://github.com/NVIDIAGameWorks/kaolin) | 5079 | 2026-05-02T00:24:46Z | Python | Infrastructure/tooling | 14 | 7 | 14 | 14 |
-| [eliben/pyelftools](https://github.com/eliben/pyelftools) | 2233 | 2026-05-01T21:37:00Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3734 | 2026-05-01T13:55:43Z | Python | Infrastructure/tooling | 7 | 23 | 7 | 7 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5016 | 2026-05-01T12:47:53Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [clearml/clearml](https://github.com/clearml/clearml) | 6654 | 2026-05-01T12:20:16Z | Python | Infrastructure/tooling | 15 | 4 | 15 | 15 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1060 | 2026-05-01T11:51:24Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5749 | 2026-05-01T11:51:21Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5619 | 2026-05-01T10:29:13Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2610 | 2026-05-01T09:39:45Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [omry/omegaconf](https://github.com/omry/omegaconf) | 2383 | 2026-05-01T08:53:59Z | Python | Infrastructure/tooling | 8 | 12 | 11 | 11 |
-| [pytorch/rl](https://github.com/pytorch/rl) | 3414 | 2026-05-01T08:24:16Z | Python | Infrastructure/tooling | 19 | 11 | 19 | 19 |
-| [pytorch/tensordict](https://github.com/pytorch/tensordict) | 1024 | 2026-05-01T08:00:45Z | Python | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 1755 | 2026-05-03T02:43:58Z | Python | CLI | 9 | 8 | 9 | 9 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4064 | 2026-05-03T02:26:50Z | Python | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2611 | 2026-05-02T21:10:48Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8364 | 2026-05-02T20:44:36Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [google-deepmind/dm_control](https://github.com/google-deepmind/dm_control) | 4563 | 2026-05-02T16:28:46Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1060 | 2026-05-02T11:49:08Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5750 | 2026-05-02T11:49:05Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [pytorch/audio](https://github.com/pytorch/audio) | 2874 | 2026-05-02T11:48:06Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [pytest-dev/pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) | 1636 | 2026-05-02T07:13:03Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1308 | 2026-05-02T06:45:53Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [clearml/clearml](https://github.com/clearml/clearml) | 6654 | 2026-05-01T12:20:16Z | Python | Infrastructure/tooling | 15 | 4 | 15 | 15 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5749 | 2026-05-01T11:51:21Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5619 | 2026-05-01T10:29:13Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
-| [NVIDIAGameWorks/kaolin](https://github.com/NVIDIAGameWorks/kaolin) | 5079 | 2026-05-02T00:24:46Z | Python | Infrastructure/tooling | 14 | 7 | 14 | 14 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5016 | 2026-05-01T12:47:53Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3734 | 2026-05-01T13:55:43Z | Python | Infrastructure/tooling | 7 | 23 | 7 | 7 |
-| [pytorch/rl](https://github.com/pytorch/rl) | 3414 | 2026-05-01T08:24:16Z | Python | Infrastructure/tooling | 19 | 11 | 19 | 19 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2610 | 2026-05-01T09:39:45Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [omry/omegaconf](https://github.com/omry/omegaconf) | 2383 | 2026-05-01T08:53:59Z | Python | Infrastructure/tooling | 8 | 12 | 11 | 11 |
-| [eliben/pyelftools](https://github.com/eliben/pyelftools) | 2233 | 2026-05-01T21:37:00Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1307 | 2026-05-02T06:45:53Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1060 | 2026-05-01T11:51:24Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [pytorch/tensordict](https://github.com/pytorch/tensordict) | 1024 | 2026-05-01T08:00:45Z | Python | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8364 | 2026-05-02T20:44:36Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5750 | 2026-05-02T11:49:05Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [google-deepmind/dm_control](https://github.com/google-deepmind/dm_control) | 4563 | 2026-05-02T16:28:46Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4064 | 2026-05-03T02:26:50Z | Python | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [pytorch/audio](https://github.com/pytorch/audio) | 2874 | 2026-05-02T11:48:06Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2611 | 2026-05-02T21:10:48Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 1755 | 2026-05-03T02:43:58Z | Python | CLI | 9 | 8 | 9 | 9 |
+| [pytest-dev/pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) | 1636 | 2026-05-02T07:13:03Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1308 | 2026-05-02T06:45:53Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1060 | 2026-05-02T11:49:08Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |

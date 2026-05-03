@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1074,
-    "concepts": 233,
-    "observations": 234,
-    "repos": 37,
-    "terms": 233
+    "components": 1301,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 45,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "1-Platform/op-components",
     "abaplint/transpiler",
     "addfox/addfox",
+    "aggre/ullr",
     "appsignal/appsignal-javascript",
     "catppuccin/.github",
     "coasys/flux",
     "ecyrbe/zodios-express",
+    "emscripten-forge/mambajs",
     "fabon-f/temporal-polyfill-lite",
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
+    "intlify/cli",
+    "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "jakebailey/pyright-action",
+    "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
     "ldclabs/KIP",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
-    "oclif/plugin-help",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",
@@ -41,6 +46,7 @@
     "octokit/oauth-authorization-url.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
+    "ogx-ai/ogx-client-typescript",
     "openwebdocs/mdn-bcd-collector",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",
@@ -50,6 +56,8 @@
     "rstackjs/rsbuild-plugin-template",
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
-    "swagger-api/apidom"
+    "suzuki-shunsuke/pinact-action",
+    "swagger-api/apidom",
+    "TrigenSoftware/simple-release"
   ]
 }

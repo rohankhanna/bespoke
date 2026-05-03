@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 20,
-    "terms": 71
+    "components": 32,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 22,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
     "acomagu/fish-async-prompt",
     "agrimsingh/ralph-wiggum-cursor",
+    "apollographql/supergraph-demo",
     "apollographql/supergraph-demo-fed2",
+    "archlinux/archlinux-repro",
     "asdf-community/asdf-direnv",
     "asdf-community/asdf-kubectl",
     "bitwarden/brand",

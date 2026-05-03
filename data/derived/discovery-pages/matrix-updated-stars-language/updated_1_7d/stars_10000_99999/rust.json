@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 474,
-    "concepts": 320,
-    "observations": 320,
-    "repos": 27,
-    "terms": 317
+    "components": 572,
+    "concepts": 398,
+    "observations": 398,
+    "repos": 33,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alacritty/alacritty",
+    "astral-sh/ruff",
     "Automattic/harper",
     "biomejs/biome",
     "clap-rs/clap",
     "ClementTsang/bottom",
     "DioxusLabs/dioxus",
     "emilk/egui",
+    "facebook/flow",
+    "firecracker-microvm/firecracker",
+    "getzola/zola",
     "GitoxideLabs/gitoxide",
     "helix-editor/helix",
     "huggingface/tokenizers",
     "iced-rs/iced",
     "jj-vcs/jj",
+    "juspay/hyperswitch",
     "oxc-project/oxc",
     "pola-rs/polars",
     "PyO3/pyo3",
@@ -40,6 +45,7 @@
     "swc-project/swc",
     "tracel-ai/burn",
     "vectordotdev/vector",
+    "wasmerio/wasmer",
     "zed-industries/zed"
   ]
 }

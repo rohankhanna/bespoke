@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
+    "components": 10,
+    "concepts": 6,
+    "observations": 6,
     "repos": 1,
-    "terms": 2
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "filecoin-project/Allocator-Registry"
+    "microsoft/microsoft-foundry-for-vscode"
   ]
 }

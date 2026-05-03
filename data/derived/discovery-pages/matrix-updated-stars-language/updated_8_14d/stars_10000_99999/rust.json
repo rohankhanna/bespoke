@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 721,
-    "concepts": 418,
-    "observations": 419,
-    "repos": 42,
-    "terms": 414
+    "components": 665,
+    "concepts": 401,
+    "observations": 402,
+    "repos": 40,
+    "terms": 397
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -43,7 +43,6 @@
     "orhun/git-cliff",
     "rayon-rs/rayon",
     "rust-lang/cargo",
-    "Schniz/fnm",
     "servo/servo",
     "sharkdp/bat",
     "sharkdp/fd",
@@ -54,7 +53,6 @@
     "typst/typst",
     "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
-    "wezterm/wezterm",
-    "zeroclaw-labs/zeroclaw"
+    "wezterm/wezterm"
   ]
 }

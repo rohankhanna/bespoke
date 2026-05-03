@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 16,
-    "observations": 17,
-    "repos": 1,
-    "terms": 16
+    "components": 94,
+    "concepts": 35,
+    "observations": 36,
+    "repos": 2,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "2dust/v2rayN",
     "f/prompts.chat"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 77,
-    "observations": 79,
-    "repos": 18,
-    "terms": 77
+    "components": 351,
+    "concepts": 105,
+    "observations": 107,
+    "repos": 24,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
+    "alangdm/helium-animated-pages",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",
+    "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
+    "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
+    "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
@@ -31,6 +36,7 @@
     "octokit/create-octokit-project.js",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
-    "rstackjs/agent-skills"
+    "rstackjs/agent-skills",
+    "stdlib-js/google-summer-of-code"
   ]
 }

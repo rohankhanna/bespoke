@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 382,
+    "components": 403,
     "concepts": 67,
     "observations": 67,
     "repos": 12,
@@ -12,17 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
+    "hapijs/hapi",
     "hapijs/joi",
     "jquery/jquery-ui",
     "markdown-it/markdown-it",
     "pugjs/pug",
-    "sql-js/sql.js",
     "typicode/husky",
     "videojs/video.js",
     "websockets/ws"

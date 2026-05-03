@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 14,
-    "terms": 51
+    "components": 275,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 19,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -21,12 +21,17 @@
     "celo-org/SocialConnect-Twitter",
     "curiousdannii/asyncglk",
     "danielrosehill/agent-junction",
+    "danielrosehill/GreenInvoice-MCP",
     "dreamiurg/mountaineers-assistant",
+    "ember-cli/ember-addon-blueprint",
     "hchiam/how-draggable",
     "LogtalkDotOrg/logtalk-for-vscode",
+    "neuroverseos/neuroverseos-governance",
     "octokit/openapi-webhooks",
     "tnc-ca-geo/animl-api",
     "toyamarinyon/giselle",
-    "Venly/web3-react-venly"
+    "ublacklist/builtin",
+    "Venly/web3-react-venly",
+    "vincent-k2026/codachi"
   ]
 }

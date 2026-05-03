@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 16
-- components: 58
-- concepts: 18
-- observations: 18
+- repos: 3
+- terms: 22
+- components: 51
+- concepts: 22
+- observations: 22
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41243 | 2026-05-01T16:27:21Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
-| [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15221 | 2026-05-01T11:42:37Z | JavaScript | Infrastructure/tooling | 11 | 58 | 13 | 13 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41244 | 2026-05-02T23:25:37Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [sveltejs/kit](https://github.com/sveltejs/kit) | 20476 | 2026-05-02T20:33:26Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) | 14597 | 2026-05-02T11:16:44Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41243 | 2026-05-01T16:27:21Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
-| [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15221 | 2026-05-01T11:42:37Z | JavaScript | Infrastructure/tooling | 11 | 58 | 13 | 13 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41244 | 2026-05-02T23:25:37Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [sveltejs/kit](https://github.com/sveltejs/kit) | 20476 | 2026-05-02T20:33:26Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) | 14597 | 2026-05-02T11:16:44Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |

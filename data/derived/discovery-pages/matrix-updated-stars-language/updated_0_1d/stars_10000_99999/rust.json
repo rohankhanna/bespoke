@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 5,
-    "terms": 61
+    "components": 28,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 2,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "astral-sh/ruff",
-    "facebook/flow",
-    "juspay/hyperswitch",
-    "rust-lang/rust-analyzer",
-    "wasmerio/wasmer"
+    "qdrant/qdrant",
+    "rust-lang/rust-analyzer"
   ]
 }

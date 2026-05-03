@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 12,
-    "terms": 41
+    "components": 173,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 15,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "apostrophecms/apostrophe-astro",
     "broccolijs/broccoli-plugin",
+    "ButTaiwan/taigivs",
+    "chrisdickinson/varint",
     "coderaiser/mock-import",
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
     "hchiam/learning-lighthouse-ci",
+    "hyparam/hysnappy",
     "ipld/js-dag-pb",
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",

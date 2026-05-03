@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-03T05:56:37.358457+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 144
-- components: 154
-- concepts: 144
-- observations: 146
+- repos: 18
+- terms: 169
+- components: 153
+- concepts: 169
+- observations: 170
 
 ## Static behavior
 
@@ -26,34 +26,44 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [psmux/psmux](https://github.com/psmux/psmux) | 1647 | 2026-05-01T21:06:00Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5872 | 2026-05-01T18:51:55Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5913 | 2026-05-01T14:58:28Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1225 | 2026-05-01T14:55:35Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5024 | 2026-05-01T13:38:24Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [JuliaSymbolics/Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl) | 1511 | 2026-05-01T12:17:50Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 10 |
-| [JuliaPy/PyCall.jl](https://github.com/JuliaPy/PyCall.jl) | 1509 | 2026-05-01T12:12:50Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | 7372 | 2026-05-01T11:13:55Z | Other | Infrastructure/tooling | 5 | 27 | 5 | 5 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3633 | 2026-05-01T10:58:04Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9188 | 2026-05-01T09:45:41Z | Other | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1914 | 2026-05-01T09:45:04Z | Other | Infrastructure/tooling | 16 | 7 | 16 | 16 |
-| [activeadmin/inherited_resources](https://github.com/activeadmin/inherited_resources) | 2704 | 2026-05-01T09:12:55Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [haskell/cabal](https://github.com/haskell/cabal) | 1729 | 2026-05-01T09:01:27Z | Other | Infrastructure/tooling | 11 | 16 | 11 | 12 |
+| [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) | 3488 | 2026-05-03T04:11:07Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [ViscousPot/GitSync](https://github.com/ViscousPot/GitSync) | 1735 | 2026-05-03T03:07:53Z | Other | CLI | 4 | 14 | 4 | 4 |
+| [hacl-star/hacl-star](https://github.com/hacl-star/hacl-star) | 1825 | 2026-05-03T02:57:25Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5876 | 2026-05-03T02:32:57Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1225 | 2026-05-03T01:34:39Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [MakieOrg/Makie.jl](https://github.com/MakieOrg/Makie.jl) | 2751 | 2026-05-03T00:11:40Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [CakeML/cakeml](https://github.com/CakeML/cakeml) | 1149 | 2026-05-02T22:33:57Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5914 | 2026-05-02T21:57:42Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | 7373 | 2026-05-02T21:23:28Z | Other | Infrastructure/tooling | 5 | 27 | 5 | 5 |
+| [melpa/melpa](https://github.com/melpa/melpa) | 2937 | 2026-05-02T18:38:20Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5023 | 2026-05-02T18:27:52Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [dotnet/winforms](https://github.com/dotnet/winforms) | 4786 | 2026-05-02T18:27:17Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 1658 | 2026-05-02T16:23:55Z | Other | CLI | 16 | 5 | 16 | 16 |
+| [countries/countries](https://github.com/countries/countries) | 2334 | 2026-05-02T15:23:12Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [sporkmonger/addressable](https://github.com/sporkmonger/addressable) | 1598 | 2026-05-02T13:52:38Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3632 | 2026-05-02T08:51:02Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [aaaaalexis/obsidian-baseline](https://github.com/aaaaalexis/obsidian-baseline) | 1317 | 2026-05-02T07:54:47Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [coverlet-coverage/coverlet](https://github.com/coverlet-coverage/coverlet) | 3148 | 2026-05-02T07:15:21Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9188 | 2026-05-01T09:45:41Z | Other | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | 7372 | 2026-05-01T11:13:55Z | Other | Infrastructure/tooling | 5 | 27 | 5 | 5 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5913 | 2026-05-01T14:58:28Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5872 | 2026-05-01T18:51:55Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5024 | 2026-05-01T13:38:24Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3633 | 2026-05-01T10:58:04Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [activeadmin/inherited_resources](https://github.com/activeadmin/inherited_resources) | 2704 | 2026-05-01T09:12:55Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1914 | 2026-05-01T09:45:04Z | Other | Infrastructure/tooling | 16 | 7 | 16 | 16 |
-| [haskell/cabal](https://github.com/haskell/cabal) | 1729 | 2026-05-01T09:01:27Z | Other | Infrastructure/tooling | 11 | 16 | 11 | 12 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 1647 | 2026-05-01T21:06:00Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [JuliaSymbolics/Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl) | 1511 | 2026-05-01T12:17:50Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 10 |
-| [JuliaPy/PyCall.jl](https://github.com/JuliaPy/PyCall.jl) | 1509 | 2026-05-01T12:12:50Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1225 | 2026-05-01T14:55:35Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | 7373 | 2026-05-02T21:23:28Z | Other | Infrastructure/tooling | 5 | 27 | 5 | 5 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5914 | 2026-05-02T21:57:42Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5876 | 2026-05-03T02:32:57Z | Other | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5023 | 2026-05-02T18:27:52Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [dotnet/winforms](https://github.com/dotnet/winforms) | 4786 | 2026-05-02T18:27:17Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3632 | 2026-05-02T08:51:02Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) | 3488 | 2026-05-03T04:11:07Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [coverlet-coverage/coverlet](https://github.com/coverlet-coverage/coverlet) | 3148 | 2026-05-02T07:15:21Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
+| [melpa/melpa](https://github.com/melpa/melpa) | 2937 | 2026-05-02T18:38:20Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [MakieOrg/Makie.jl](https://github.com/MakieOrg/Makie.jl) | 2751 | 2026-05-03T00:11:40Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [countries/countries](https://github.com/countries/countries) | 2334 | 2026-05-02T15:23:12Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [hacl-star/hacl-star](https://github.com/hacl-star/hacl-star) | 1825 | 2026-05-03T02:57:25Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
+| [ViscousPot/GitSync](https://github.com/ViscousPot/GitSync) | 1735 | 2026-05-03T03:07:53Z | Other | CLI | 4 | 14 | 4 | 4 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 1658 | 2026-05-02T16:23:55Z | Other | CLI | 16 | 5 | 16 | 16 |
+| [sporkmonger/addressable](https://github.com/sporkmonger/addressable) | 1598 | 2026-05-02T13:52:38Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [aaaaalexis/obsidian-baseline](https://github.com/aaaaalexis/obsidian-baseline) | 1317 | 2026-05-02T07:54:47Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1225 | 2026-05-03T01:34:39Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [CakeML/cakeml](https://github.com/CakeML/cakeml) | 1149 | 2026-05-02T22:33:57Z | Other | Unknown | 5 | 0 | 5 | 5 |

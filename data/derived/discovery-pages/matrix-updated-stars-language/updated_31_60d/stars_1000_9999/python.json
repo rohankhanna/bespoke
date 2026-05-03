@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 483,
-    "observations": 483,
-    "repos": 76,
-    "terms": 481
+    "components": 316,
+    "concepts": 525,
+    "observations": 525,
+    "repos": 84,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "anapnoe/stable-diffusion-webui-ux",
@@ -27,6 +27,7 @@
     "bpython/bpython",
     "cheshire-cat-ai/core",
     "chungmin99/pyroki",
+    "cvg/depthsplat",
     "databricks/megablocks",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
@@ -41,13 +42,18 @@
     "facebookresearch/SlowFast",
     "google-deepmind/bsuite",
     "google/ml_collections",
+    "graphql-python/gql",
     "gururise/AlpacaDataCleaned",
+    "heshengtao/comfyui_LLM_party",
     "HKUDS/VideoRAG",
+    "huggingface/optimum-quanto",
+    "huggingface/smollm",
     "hyperopt/hyperopt",
     "intel/intel-extension-for-pytorch",
     "Intellindust-AI-Lab/DEIM",
     "ionelmc/pytest-benchmark",
     "jeffallan/claude-skills",
+    "jiaaro/pydub",
     "keleshev/schema",
     "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
@@ -89,6 +95,8 @@
     "turboderp-org/exllamav2",
     "ufoym/deepo",
     "Vchitect/VBench",
-    "wenet-e2e/wenet"
+    "wenet-e2e/wenet",
+    "YanjieZe/GMR",
+    "Yelp/dumb-init"
   ]
 }

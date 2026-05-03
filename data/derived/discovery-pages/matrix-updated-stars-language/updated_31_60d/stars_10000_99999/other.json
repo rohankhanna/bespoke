@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 99,
-    "observations": 99,
+    "components": 93,
+    "concepts": 122,
+    "observations": 122,
     "repos": 15,
-    "terms": 96
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
-    "facebookresearch/audiocraft",
+    "devicons/devicon",
     "facebookresearch/dinov3",
     "fatih/vim-go",
-    "google-research/vision_transformer",
     "google/dopamine",
     "guzzle/guzzle",
     "Ileriayo/markdown-badges",
     "Kong/kong",
+    "LazyVim/LazyVim",
     "openai/CLIP",
     "reasonml/reason",
     "ryanoasis/nerd-fonts",

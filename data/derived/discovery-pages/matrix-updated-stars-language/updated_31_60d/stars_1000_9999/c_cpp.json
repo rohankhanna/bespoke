@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
+    "components": 184,
     "concepts": 247,
     "observations": 247,
-    "repos": 48,
-    "terms": 244
+    "repos": 49,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
-    "bblanchon/ArduinoJson",
     "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
     "cameron314/readerwriterqueue",
@@ -27,10 +26,12 @@
     "coin-or/Ipopt",
     "containers/bubblewrap",
     "CVCUDA/CV-CUDA",
+    "duckdb/pg_duckdb",
     "go-gl/gl",
     "google/double-conversion",
     "google/snappy",
     "gperftools/gperftools",
+    "hufrea/byedpi",
     "icecc/icecream",
     "ioquake/ioq3",
     "leethomason/tinyxml2",
@@ -43,12 +44,12 @@
     "nalgeon/sqlean",
     "nmoehrle/mvs-texturing",
     "nmslib/hnswlib",
+    "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
     "olikraus/u8g2",
     "onnx/onnx-tensorrt",
     "pisa-engine/pisa",
-    "PoseLib/PoseLib",
     "redis/hiredis",
     "romkatv/gitstatus",
     "snapcast/snapcast",

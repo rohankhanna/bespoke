@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 7,
-    "terms": 61
+    "components": 18,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 3,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "AgileRL/AgileRL",
     "AI-Hypercomputer/maxdiffusion",
-    "databrickslabs/ucx",
-    "googlefonts/roboto-3-classic",
-    "jawah/charset_normalizer",
-    "jupyter-server/jupyter_server",
-    "lightly-ai/lightly-studio"
+    "cognizant-ai-lab/neuro-san-studio",
+    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
   ]
 }

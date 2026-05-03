@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 375,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 14,
-    "terms": 57
+    "components": 547,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 19,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -21,12 +21,17 @@
     "flightcontrolhq/superjson",
     "jonaskello/tsconfig-paths",
     "metatool-ai/metamcp",
+    "nat/openplayground",
+    "peers/peerjs-server",
+    "posva/unplugin-vue-router",
     "react-native-netinfo/react-native-netinfo",
     "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",
     "stravu/crystal",
     "styleguidist/react-docgen-typescript",
     "toddbluhm/env-cmd",
-    "ulid/javascript"
+    "ulid/javascript",
+    "unjs/unplugin",
+    "vercel/serve"
   ]
 }

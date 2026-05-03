@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 216,
+    "components": 201,
     "concepts": 10,
     "observations": 10,
-    "repos": 4,
+    "repos": 3,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "8144225309/superscalar-wallet",
     "fekkak1998/scira",
-    "gopi2211/ralph",
-    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
+    "gopi2211/ralph"
   ]
 }

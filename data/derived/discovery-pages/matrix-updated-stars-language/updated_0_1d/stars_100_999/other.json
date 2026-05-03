@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 9,
-    "terms": 56
+    "components": 23,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 6,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "bazel-contrib/rules_kotlin",
-    "codiume/orbit",
-    "haskell/ghcup-hs",
-    "jackielii/skhd.zig",
-    "openair-project/openair",
-    "pulumi/templates",
-    "ROCm/rocMLIR",
-    "ropensci/software-review",
-    "rust-lang/blog.rust-lang.org"
+    "cucumber/aruba",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "HOL-Theorem-Prover/HOL",
+    "istio/client-go",
+    "openair-project/openair"
   ]
 }

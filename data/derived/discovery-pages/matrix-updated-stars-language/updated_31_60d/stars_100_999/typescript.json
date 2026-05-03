@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 997,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 36,
-    "terms": 212
+    "components": 1158,
+    "concepts": 241,
+    "observations": 241,
+    "repos": 40,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
+    "actions-cool/issues-helper",
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "aquasecurity/trivy-vscode-extension",
+    "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
     "aws-samples/dify-self-hosted-on-aws",
     "carlrannaberg/claudekit",
@@ -32,6 +34,7 @@
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
+    "hazelcast/hazelcast-nodejs-client",
     "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
     "krassowski/jupyterlab-lsp",
@@ -44,10 +47,11 @@
     "Piebald-AI/gemini-cli-desktop",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
+    "solidjs/templates",
     "sudocode-ai/sudocode",
-    "sveltejs/prettier-plugin-svelte",
     "thesayyn/protoc-gen-ts",
     "trzsz/trzsz.js",
+    "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
     "y-lohse/inkjs"
   ]

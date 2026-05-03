@@ -84,13 +84,14 @@
       "size": 1326
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:55:57.273574+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
     "fork": true,
-    "full_name": "MultiPath/fairseq-stable",
+    "full_name": "multipath/fairseq-stable",
     "html_url": "https://github.com/MultiPath/fairseq-stable",
     "language": "Python",
     "pushed_at": "2022-07-18T14:26:17Z",

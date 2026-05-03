@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 13,
-    "terms": 127
+    "components": 86,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 10,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
-    "clearml/clearml",
-    "eliben/pyelftools",
-    "fla-org/flash-linear-attention",
-    "meta-pytorch/captum",
+    "google-deepmind/dm_control",
+    "harbor-framework/harbor",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
-    "NVIDIAGameWorks/kaolin",
-    "omry/omegaconf",
-    "pytorch/rl",
-    "pytorch/tensordict",
-    "redis/redis-om-python",
-    "safetensors/safetensors"
+    "ogx-ai/ogx",
+    "PrimeIntellect-ai/verifiers",
+    "pytest-dev/pytest-asyncio",
+    "pytorch/audio",
+    "redis/redis-om-python"
   ]
 }

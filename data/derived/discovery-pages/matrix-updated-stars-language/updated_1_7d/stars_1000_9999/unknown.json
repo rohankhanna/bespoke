@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 17,
-    "observations": 17,
+    "components": 12,
+    "concepts": 8,
+    "observations": 8,
     "repos": 4,
-    "terms": 17
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
+    "logseq/awesome-logseq",
     "MicrosoftDocs/cpp-docs"
   ]
 }

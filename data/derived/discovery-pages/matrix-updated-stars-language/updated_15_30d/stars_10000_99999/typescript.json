@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 18,
-    "terms": 111
+    "components": 860,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 21,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "airbnb/visx",
     "catppuccin/catppuccin",
     "changesets/changesets",
     "chatboxai/chatbox",
+    "diegomura/react-pdf",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "googleapis/google-api-nodejs-client",
@@ -31,6 +32,8 @@
     "slopus/happy",
     "tobi/qmd",
     "toon-format/toon",
-    "vadimdemedes/ink"
+    "upstash/context7",
+    "vadimdemedes/ink",
+    "Vinzent03/obsidian-git"
   ]
 }

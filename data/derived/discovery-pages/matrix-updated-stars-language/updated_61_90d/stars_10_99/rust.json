@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 19,
-    "terms": 56
+    "components": 96,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 20,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
@@ -29,6 +29,7 @@
     "hermit-os/rftrace",
     "jakudlaty/tsid",
     "joseluisq/paket",
+    "libp2p/if-watch",
     "loyd/fixnum",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",

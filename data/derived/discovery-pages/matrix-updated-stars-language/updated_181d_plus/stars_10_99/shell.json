@@ -3,7 +3,7 @@
     "components": 83,
     "concepts": 193,
     "observations": 193,
-    "repos": 67,
+    "repos": 72,
     "terms": 188
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -35,6 +35,7 @@
     "berty/community",
     "bitrise-steplib/step-template",
     "bjartnes/hikke",
+    "bpkg/term",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
     "chemprop/chemprop_benchmark",
@@ -44,6 +45,7 @@
     "danielrosehill/claude-code-linux-desktop-slash-commands",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
     "dependabot/example-cli-usage",
+    "diwakar-s-maurya/helm-git",
     "dpb587/openvpn-bosh-release",
     "f4pga/prjxray-db",
     "FabioAntunes/base16-fish-shell",
@@ -62,6 +64,7 @@
     "jeff-hykin/better-go-syntax",
     "juanluisbaptiste/apachebench-graphs",
     "karancode/asdf-aws-vault",
+    "kodxana/OhMyRunPod",
     "koenrh/dnscontrol-action",
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
@@ -75,11 +78,13 @@
     "sharkdp/fd-benchmarks",
     "Shavian-info/interalia",
     "Shougo/dein-installer.vim",
+    "stephenmathieson/git-standup",
     "tidwall/pkg.sh",
     "timothycrosley/cookiecutter-python",
     "tiran/cpython-wasm-test",
     "tuvovan/Zero_DCE_TF",
     "unixorn/autoupdate-zgen",
+    "xetdata/xet-tools",
     "Zepmann/lldap-cli"
   ]
 }

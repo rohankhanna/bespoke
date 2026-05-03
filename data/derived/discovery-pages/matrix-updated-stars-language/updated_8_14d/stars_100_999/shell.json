@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 164,
-    "observations": 167,
-    "repos": 27,
-    "terms": 164
+    "components": 130,
+    "concepts": 168,
+    "observations": 171,
+    "repos": 30,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "alexmyczko/fnt",
-    "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
     "bnb-chain/bsc-snapshots",
     "dani-garcia/bw_web_builds",
@@ -29,13 +28,17 @@
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "lemire/docker_programming_station",
+    "lovell/sharp-libvips",
     "opea-project/GenAIExamples",
     "openshift/release",
+    "pion/awesome-pion",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
+    "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
+    "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",
     "tinted-theming/schemes",

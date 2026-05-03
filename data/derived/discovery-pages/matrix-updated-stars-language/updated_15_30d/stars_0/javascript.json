@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 2,
-    "terms": 1
+    "components": 76,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 4,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "caprica/generator-vlcj",
-    "saidudz/chat-ai"
+    "i18next/i18next-subliminal",
+    "saidudz/chat-ai",
+    "tornikepe/ai-chatbot"
   ]
 }

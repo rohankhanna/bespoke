@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1044,
-    "concepts": 236,
-    "observations": 237,
-    "repos": 33,
-    "terms": 259
+    "components": 1314,
+    "concepts": 299,
+    "observations": 300,
+    "repos": 40,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
+    "antfu-collective/vite-ssg",
     "ben-rogerson/twin.macro",
+    "boxyhq/saas-starter-kit",
+    "butlerx/wetty",
     "coaidev/coai",
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
     "glittercowboy/taches-cc-resources",
+    "golang/vscode-go",
     "gpac/mp4box.js",
     "graphql-hive/graphql-config",
+    "grpc/grpc-node",
     "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
@@ -39,13 +44,15 @@
     "nanbingxyz/5ire",
     "obsidian-community/obsidian-style-settings",
     "peter-evans/repository-dispatch",
+    "pillarjs/path-to-regexp",
     "react-native-webview/react-native-webview",
     "REditorSupport/vscode-R",
     "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",
+    "TfTHacker/obsidian42-brat",
     "unplugin/unplugin-vue-components",
     "vercel/next-learn",
-    "vercel/serve"
+    "vite-pwa/vite-plugin-pwa"
   ]
 }

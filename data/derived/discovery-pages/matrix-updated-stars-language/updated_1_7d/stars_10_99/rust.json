@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 23,
-    "terms": 125
+    "components": 276,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 33,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,30 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
+    "AccessKit/accesskit-c",
+    "alloy-rs/evm",
     "apollographql/federation-rs",
     "arkworks-rs/std",
+    "asny/three-d-asset",
     "astral-sh/pubgrub",
+    "bnb-chain/reth",
+    "bnb-chain/reth-bsc",
     "bourumir-wyngs/serde-yaml-bw",
     "davidhozic/mujoco-rs",
-    "eopb/cargo-override",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
+    "heroku/buildpacks-jvm",
+    "heroku/buildpacks-nodejs",
+    "heroku/buildpacks-python",
+    "heroku/libcnb.rs",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
     "matter-labs/zksync-crypto",
-    "mrcjkb/vimcats",
+    "mdn/rari",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "Ralith/lahar",
@@ -36,6 +44,8 @@
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "typst/typst-assets",
-    "urschrei/rdp"
+    "unrs/unrs-resolver",
+    "urschrei/rdp",
+    "vaporif/parry-guard"
   ]
 }

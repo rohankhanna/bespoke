@@ -41,13 +41,14 @@
       "size": 813
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:55:45.075365+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "a Pytest Plugin for Sanic.",
     "fork": true,
-    "full_name": "RasaHQ/pytest-sanic",
+    "full_name": "rasahq/pytest-sanic",
     "html_url": "https://github.com/RasaHQ/pytest-sanic",
     "language": null,
     "pushed_at": "2025-11-24T12:02:06Z",

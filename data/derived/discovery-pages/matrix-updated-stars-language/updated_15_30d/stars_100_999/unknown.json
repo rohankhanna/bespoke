@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 34,
-    "terms": 139
+    "concepts": 151,
+    "observations": 151,
+    "repos": 37,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
@@ -31,6 +31,7 @@
     "cncf/artwork",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
+    "e18e/ecosystem-issues",
     "gautamkrishnar/gautamkrishnar",
     "github/codeql-cli-binaries",
     "grpc/proposal",
@@ -47,6 +48,8 @@
     "servo/project",
     "tc39/how-we-work",
     "Uzaaft/awesome-libghostty",
-    "web-platform-tests/rfcs"
+    "web-platform-tests/rfcs",
+    "ymcui/MacBERT",
+    "ymcui/PERT"
   ]
 }

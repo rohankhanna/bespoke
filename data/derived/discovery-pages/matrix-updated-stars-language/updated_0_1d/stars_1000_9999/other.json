@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 144,
-    "observations": 146,
-    "repos": 13,
-    "terms": 144
+    "components": 153,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 18,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
-    "activeadmin/inherited_resources",
+    "aaaaalexis/obsidian-baseline",
+    "CakeML/cakeml",
+    "countries/countries",
+    "coverlet-coverage/coverlet",
     "dotnet/Silk.NET",
-    "firebase/flutterfire",
-    "haskell/cabal",
-    "JuliaAI/MLJ.jl",
-    "JuliaPy/PyCall.jl",
-    "JuliaSymbolics/Symbolics.jl",
+    "dotnet/winforms",
+    "gaoyifan/china-operator-ip",
+    "hacl-star/hacl-star",
+    "MakieOrg/Makie.jl",
+    "melpa/melpa",
     "microsoft/aspire",
     "psmux/psmux",
     "rescript-lang/rescript",
+    "sporkmonger/addressable",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
+    "ViscousPot/GitSync",
     "web-platform-tests/wpt"
   ]
 }

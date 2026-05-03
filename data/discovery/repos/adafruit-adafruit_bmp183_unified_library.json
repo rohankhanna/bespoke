@@ -57,13 +57,14 @@
       "size": 759
     }
   ],
+  "metadata_refreshed_at": "2026-05-03T05:56:11.310481+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Arduino library for the BMP183 sensors in the Adafruit shop",
     "fork": false,
-    "full_name": "adafruit/Adafruit_BMP183_Unified_Library",
+    "full_name": "adafruit/adafruit_bmp183_unified_library",
     "html_url": "https://github.com/adafruit/Adafruit_BMP183_Unified_Library",
     "language": "C++",
     "pushed_at": "2023-10-03T20:26:35Z",

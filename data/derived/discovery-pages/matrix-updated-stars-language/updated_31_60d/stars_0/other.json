@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 6,
-    "terms": 12
+    "components": 33,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "b2agi/exist-is-charter_kr",
     "bookcars/bookcars.github.io",
+    "danielrosehill/HFC-Guidance-Flip-Book",
+    "danielrosehill/Israel-Civilian-Readiness-Guide",
+    "danielrosehill/Israel-First-Aid",
     "kdubbo/client-go",
     "musicman3/cruder",
     "musicman3/r2-d2",
-    "saharmor/saharmor.github.io"
+    "saharmor/saharmor.github.io",
+    "stable-haskell/stack"
   ]
 }

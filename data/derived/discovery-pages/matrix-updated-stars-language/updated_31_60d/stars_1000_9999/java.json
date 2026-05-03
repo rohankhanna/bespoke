@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 6,
-    "terms": 42
+    "components": 36,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 7,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T07:31:15.175647+00:00",
+  "generated_at": "2026-05-03T05:56:37.358457+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
     "locationtech/jts",
     "msgpack/msgpack-java",
     "objectbox/objectbox-java",
     "spring-projects/spring-ai-examples",
-    "srikanth-lingala/zip4j"
+    "srikanth-lingala/zip4j",
+    "stleary/JSON-java"
   ]
 }
